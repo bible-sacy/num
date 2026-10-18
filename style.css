@@ -5,11 +5,11 @@
   --bg:            #ffffff;
   --bg-alt:        #f3f1ec;
   --sidebar-bg:    #faf9f6;
-  --text:          #161513;
-  --text-latin:    #2f2c25;
-  --muted:         #57534a;
+  --text:          #0d0c0a;
+  --text-latin:    #26231d;
+  --muted:         #3d392f;
   --accent:        #7a1010;
-  --accent-light:  #a3241f;
+  --accent-light:  #901a15;
   --border:        #d6d1c5;
   --border-light:  #e8e4da;
   --link:          #6b0000;
@@ -27,11 +27,11 @@
     --bg:            #121212;
     --bg-alt:        #1b1b19;
     --sidebar-bg:    #171613;
-    --text:          #ededea;
-    --text-latin:    #cfcabd;
-    --muted:         #ada894;
+    --text:          #f5f4f0;
+    --text-latin:    #ddd8cb;
+    --muted:         #cbc6b2;
     --accent:        #e28783;
-    --accent-light:  #cf5651;
+    --accent-light:  #e8837d;
     --border:        #3c3a34;
     --border-light:  #2a2925;
     --link:          #e2a09c;
@@ -47,11 +47,11 @@
   --bg:            #121212;
   --bg-alt:        #1b1b19;
   --sidebar-bg:    #171613;
-  --text:          #ededea;
-  --text-latin:    #cfcabd;
-  --muted:         #ada894;
+  --text:          #f5f4f0;
+  --text-latin:    #ddd8cb;
+  --muted:         #cbc6b2;
   --accent:        #e28783;
-  --accent-light:  #cf5651;
+  --accent-light:  #e8837d;
   --border:        #3c3a34;
   --border-light:  #2a2925;
   --link:          #e2a09c;
@@ -65,13 +65,13 @@
 
 /* ── Reset & base ─────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; }
-html { font-size: 18px; scroll-behavior: smooth; }
+html { font-size: 19px; scroll-behavior: smooth; }
 body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
   font-family: 'EB Garamond', 'Palatino Linotype', Georgia, serif;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.75;
   text-align: justify;
   hyphens: auto;
@@ -719,3 +719,24 @@ mark { background: transparent; color: var(--accent); font-weight: 600; }
   .pf-grid { grid-template-columns: 1fr; }
   .pf-image { position: static; max-height: none; }
 }
+
+
+/* ── Lisibilité (18/10/2026) : texte plus dense, petits corps relevés, plus d'opacités atténuées ────────────
+   Ajustable ici : graisse du texte (body, 500), taille de base (html, 19px), gris secondaires (--muted, plus haut). */
+.verset-latin, .pf-lat { font-weight: 500; font-size: 0.98rem; }
+.verset .vnum, .pf-vnum { font-size: 0.82rem; font-weight: 600; }
+.vnum-com { font-size: 0.9rem; font-weight: 600; }
+.note-quote-num { font-size: 0.82rem; font-weight: 600; }
+.ref-com { font-size: 0.95rem; opacity: 0.9; }
+.ref-page { font-size: 0.82rem; opacity: 1; color: var(--muted); }
+.page-inline { opacity: 0.9; color: var(--accent-light); }
+.marge-link, .note-para-marges, .pf-marges, .verset-marges { font-size: 0.87rem; font-weight: 500; }
+.note-para-marges { line-height: 1.55; }
+.pf-notebas, .verset-notebas p { font-size: 0.9rem; font-weight: 500; }
+.manquant { opacity: 0.85; }
+.breadcrumb, .col-label { font-size: 0.86rem; }
+.pf-suite, .pf-imprime { font-weight: 500; }
+.sidebar { font-weight: 500; }
+.note-para-text { font-weight: 500; }
+.marge-bible { opacity: 1; font-weight: 600; }
+.marge-hors-site { cursor: help; }
