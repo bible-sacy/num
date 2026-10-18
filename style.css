@@ -687,7 +687,7 @@ mark { background: transparent; color: var(--accent); font-weight: 600; }
 }
 
 /* ── Vue page à page : image du scan + transcription ───────────────────────── */
-.main-wide { max-width: 1500px; }
+.main-wide { max-width: 1800px; }   /* chapitres et pages : exploiter les grands écrans */
 .pf-header { display: flex; align-items: center; justify-content: center; gap: 1rem; margin: 0.5rem 0 0.4rem; }
 .pf-header h1 { font-size: 1.5rem; margin: 0; font-weight: 500; }
 .pf-imprime { font-size: 0.8rem; color: var(--muted); font-weight: 400; }
@@ -782,3 +782,11 @@ mark { background: transparent; color: var(--accent); font-weight: 600; }
 .pf-marges .marge-item { display: block; margin: 0 0 0.3em; }
 .pf-marges .marge-link { display: inline; font-size: inherit; margin: 0; }
 @media (max-width: 900px) { .pf-verset { grid-template-columns: minmax(0, 1fr) 6.4rem; } }
+
+/* grands écrans : colonne française un peu plus étroite en proportion (le commentaire a sa propre gouttière) */
+@media (min-width: 1500px) { .col-francais { flex-basis: 44%; } }
+/* écrans moyens : gouttières plus étroites pour garder de la place au texte */
+@media (max-width: 1400px) {
+  .col-francais { --gutter: 5.4rem; flex-basis: 48%; }
+  .note-para-row.has-marges { grid-template-columns: 1fr 170px; gap: 0 1.4rem; }
+}
