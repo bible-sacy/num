@@ -547,13 +547,13 @@ function buildFrancais(versets, meta, base, hasDoubleSens) {
     if (v.p) lastP = v.p;
     firstVerse = false;
     const margesHtml = (v.marges && v.marges.length)
-      ? `<span class="verset-marges">${v.marges.map((m, i, arr) => `<span class="marge-item">${renderMarge(m, base, arr, i)}</span>`).join(' ')}</span>` : '';
+      ? `<aside class="verset-marges">${v.marges.map((m, i, arr) => `<span class="marge-item">${renderMarge(m, base, arr, i)}</span>`).join('')}</aside>` : '';
     const nbHtml = (v.nb && v.nb.length)
       ? `<div class="verset-notebas">${v.nb.map(t => `<p>${t}</p>`).join('')}</div>` : '';
 
     rows.push(`
     <div class="verset" id="v${v.n}">
-      <sup class="vnum">${v.n}</sup> ${v.fr || '<span class="manquant">[traduction]</span>'}${lienNote}${lienPage}${margesHtml}
+      <div class="verset-texte"><sup class="vnum">${v.n}</sup> ${v.fr || '<span class="manquant">[traduction]</span>'}${lienNote}${lienPage}</div>${margesHtml}
       <div class="verset-latin">${v.lat || ''}</div>${nbHtml}
     </div>`);
   }
