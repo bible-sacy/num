@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recherche — Bible de Sacy</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function(){ document.documentElement.setAttribute('data-theme', localStorage.getItem('sacy-theme')||'light'); })();
+  </script>
+  <script src="search-index.js"></script>
+</head>
+<body data-base="">
+
+<div class="page-shell">
+  <button class="sidebar-open-btn" aria-label="Ouvrir le sommaire">☰</button>
+  <div class="sidebar-backdrop"></div>
+
+  <aside class="sidebar">
+    <div class="sidebar-head">
+      <a class="sidebar-brand" href="index.html">Bible de Sacy</a>
+      <button class="sidebar-collapse-btn" title="Replier le sommaire">«</button>
+    </div>
+    <div class="sidebar-search">
+      <input type="search" class="sidebar-search-input" placeholder="Rechercher…" autocomplete="off" spellcheck="false">
+      <div class="sidebar-search-results" hidden></div>
+    </div>
+    <nav class="sidebar-tree"><details class="canon-group" open><summary>Nouveau Testament</summary>
+<details class="livre-group" data-livre="luc"><summary><span class="abr">Lc</span> <span class="nom">Évangile de saint Luc</span></summary>
+<div class="chap-list">
+<a href="luc/index.html" data-ch="0">Préface</a>
+<a href="luc/ch01.html" data-ch="1">1</a>
+<a href="luc/ch02.html" data-ch="2">2</a>
+<a href="luc/ch03.html" data-ch="3">3</a>
+<a href="luc/ch04.html" data-ch="4">4</a>
+<a href="luc/ch05.html" data-ch="5">5</a>
+<a href="luc/ch06.html" data-ch="6">6</a>
+<a href="luc/ch07.html" data-ch="7">7</a>
+<a href="luc/ch08.html" data-ch="8">8</a>
+<a href="luc/ch09.html" data-ch="9">9</a>
+<a href="luc/ch10.html" data-ch="10">10</a>
+<a href="luc/ch11.html" data-ch="11">11</a>
+<a href="luc/ch12.html" data-ch="12">12</a>
+<a href="luc/ch13.html" data-ch="13">13</a>
+<a href="luc/ch14.html" data-ch="14">14</a>
+<a href="luc/ch15.html" data-ch="15">15</a>
+<a href="luc/ch16.html" data-ch="16">16</a>
+<a href="luc/ch17.html" data-ch="17">17</a>
+<a href="luc/ch18.html" data-ch="18">18</a>
+<a href="luc/ch19.html" data-ch="19">19</a>
+<a href="luc/ch20.html" data-ch="20">20</a>
+<a href="luc/ch21.html" data-ch="21">21</a>
+<a href="luc/ch22.html" data-ch="22">22</a>
+<a href="luc/ch23.html" data-ch="23">23</a>
+<a href="luc/ch24.html" data-ch="24">24</a>
+</div></details>
+</details></nav>
+    <div class="sidebar-foot">
+      <a href="index.html">Accueil</a>
+      <a href="biblio.html">Bibliographie</a>
+      <button class="theme-toggle" title="Thème clair / sombre"><span class="theme-icon">☾</span></button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <p class="breadcrumb"><a href="index.html">Bible de Sacy</a> › <span>Recherche</span></p>
+
+    <div class="search-header">
+      <h1>Recherche</h1>
+      <form class="search-form-main" action="recherche.html" method="get" id="search-form">
+        <input type="search" name="q" id="search-q" class="search-input-main"
+               placeholder="Rechercher dans les textes et commentaires…"
+               autocomplete="off" spellcheck="false">
+        <button type="submit" class="search-btn-main">Chercher</button>
+        <div class="search-scope">
+          <label><input type="radio" name="scope" value="partout" checked> Partout</label>
+          <label><input type="radio" name="scope" value="versets"> Versets</label>
+          <label><input type="radio" name="scope" value="commentaires"> Commentaires</label>
+        </div>
+      </form>
+    </div>
+
+    <div class="search-results" id="search-results">
+      <p class="manquant" id="search-hint">Entrez un ou plusieurs mots pour rechercher dans les versets et les notes de la Bible de Sacy.</p>
+    </div>
+  </main>
+</div>
+
+<script src="render.js"></script>
+<script>
+(function() {
+  const params = new URLSearchParams(window.location.search);
+  const q = (params.get('q') || '').trim();
+  if (q) document.getElementById('search-q').value = q;
+
+  const scope = params.get('scope') || 'partout';
+  const scopeInput = document.querySelector(`input[name="scope"][value="${scope}"]`);
+  if (scopeInput) scopeInput.checked = true;
+  document.querySelectorAll('input[name="scope"]').forEach(el => {
+    el.addEventListener('change', () => { if (q) document.getElementById('search-form').submit(); });
+  });
+
+  if (typeof SACY_SEARCH_INDEX === 'undefined') {
+    document.getElementById('search-results').innerHTML =
+      '<p class="manquant">L\'index de recherche n\'a pas encore été généré.<br>Lancez <code>python scripts/build.py</code>.</p>';
+    return;
+  }
+  if (!q) return;
+
+  const { terms, results } = SacySearch.run(q, SACY_SEARCH_INDEX, null, scope);
+  const container = document.getElementById('search-results');
+
+  const scopeLabel = scope === 'versets' ? ' dans les versets'
+    : scope === 'commentaires' ? ' dans les commentaires' : '';
+
+  if (results.length === 0) {
+    container.innerHTML = `<p class="search-count">Aucun résultat${scopeLabel} pour « ${q} ».</p>`;
+    return;
+  }
+
+  const pad = n => String(n).padStart(2, '0');
+
+  let html = `<p class="search-count">${results.length} résultat${results.length > 1 ? 's' : ''}${scopeLabel} pour « ${q} »</p>`;
+
+  for (const e of results) {
+    const chap = pad(e.chapitre);
+    const chapRom = toRoman(e.chapitre);
+    const textUrl  = `${e.livre}/ch${chap}.html#v${e.n}`;
+    const comUrl   = `${e.livre}/ch${chap}.html#com-v${e.n}`;
+    const ref = `${e.livreAbr} ${chapRom}, ${e.n}`;
+
+    const frSnippet   = SacySearch.excerpt(e.fr,   terms, 200);
+    const noteSnippet = SacySearch.excerpt(e.note, terms, 200);
+
+    html += `
+    <div class="search-result">
+      <div class="search-result-ref">
+        <a href="${textUrl}">${ref}</a>
+        ${e.note ? ` — <a href="${comUrl}">commentaire</a>` : ''}
+      </div>
+      ${frSnippet   ? `<div class="search-result-fr">${SacySearch.highlight(frSnippet, terms)}</div>` : ''}
+      ${noteSnippet ? `<div class="search-result-note">${SacySearch.highlight(noteSnippet, terms)}</div>` : ''}
+    </div>`;
+  }
+
+  container.innerHTML = html;
+})();
+</script>
+</body>
+</html>

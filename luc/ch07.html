@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><!-- rempli par render.js --></title>
+  <link rel="stylesheet" href="../style.css">
+  <script>
+    (function(){ document.documentElement.setAttribute('data-theme', localStorage.getItem('sacy-theme')||'light'); })();
+  </script>
+  <script src="../search-index.js"></script>
+  <script>
+  const SACY_DATA = {
+  "meta": {
+    "livre": "luc",
+    "livreFr": "Évangile de saint Luc",
+    "livreAbr": "Lc",
+    "chapitre": 7,
+    "chapTotal": 24,
+    "titre": "Centenier. Veuve de Naïm. S. Jean envoie à J. C. Eloge de S. Jean. J. C. & S. Jean rejeté. Pécheresse.",
+    "pageFacs": 385,
+    "pageView": true,
+    "chapitresDisponibles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "facsimile": {
+      "slug": "luc",
+      "page": 385
+    }
+  },
+  "versets": [
+    {
+      "n": 1,
+      "p": 385,
+      "lat": "Cum autem implesset omnia verba sua in aures plebis , intravit Capharnaüm.",
+      "fr": "APRÈS qu'il eut achevé tout ce discours devant le peuple qui l'écoutoit , il entra dans Capharnaüm.",
+      "note": "",
+      "marges": [
+        "Matth. 8. 5."
+      ]
+    },
+    {
+      "n": 2,
+      "p": 385,
+      "lat": "Centurionis autem cujusdam servus malè habens , erat moriturus ; qui illi erat pretiosus.",
+      "fr": "Il y avoit là un Centenier , dont le serviteur , * qu'il aimoit beaucoup , étoit fort malade , & près de mourir.",
+      "note": "",
+      "nb": [
+        "℣. 2. lettr. qui lui étoit précieux."
+      ]
+    },
+    {
+      "n": 3,
+      "p": 385,
+      "lat": "Et cùm audisset de Jesu , misit ad eum seniores Judæorum , rogans eum ut veniret , & salvaret servum ejus.",
+      "fr": "Et qu'ayant oui parler de JESUS , il lui envoya quelques-uns des Sénateurs Juifs , pour le supplier de venir guérir son serviteur.",
+      "note": ""
+    },
+    {
+      "n": 4,
+      "p": 385,
+      "lat": "At illi cùm venissent ad Jesum , rogabant eum sollicitè , dicentes ei : Quia dignus est ut hoc illi præstes ;",
+      "fr": "Etant donc venus trouver JESUS , ils l'en conjuroient avec grande instance , en lui disant : C'est un homme qui mérite que vous lui fassiez cette grâce ;",
+      "note": ""
+    },
+    {
+      "n": 5,
+      "p": 385,
+      "lat": "diligit enim gentem nostram : & synagogam ipse ædificavit nobis.",
+      "fr": "car il aime notre nation , & il nous a même bâti une Synagogue.",
+      "note": ""
+    },
+    {
+      "n": 6,
+      "p": 385,
+      "lat": "Jesus autem ibat cum <a class=\"page-inline\" href=\"page-386.html\" title=\"p. 386\">‖</a>illis. Et cùm jam non longè esset à domo , misit ad eum Centurio amicos , dicens : Domine , noli vexari , non enim sum dignus ut sub tectum meum intres ,",
+      "fr": "JESUS s'en alla donc avec <a class=\"page-inline\" href=\"page-386.html\" title=\"p. 386\">‖</a>eux. Et comme il n'étoit plus guère loin de la maison , le Centenier envoya ses amis au-devant de lui , pour lui dire de sa part : Seigneur , ne vous donnez point tant de peine , car je ne mérite pas que vous entriez dans mon logis.",
+      "note": "",
+      "marges": [
+        "Matth. 8. 8."
+      ]
+    },
+    {
+      "n": 7,
+      "p": 386,
+      "lat": "Propter quod & meipsum non sum dignum arbitratus ut venirem ad te : sed dic verbo , & sanabitur puer meus :",
+      "fr": "C'est pourquoi je ne me suis pas même cru digne de vous venir trouver : mais dites seulement une parole , & mon serviteur sera guéri :",
+      "note": ""
+    },
+    {
+      "n": 8,
+      "p": 386,
+      "lat": "nam & ego homo sum sub potestate constitutus , habens sub me milites : & dico huic , Vade , & vadit ; & alii , Veni , & venit ; & servo meo , Fac hoc , & facit.",
+      "fr": "car quoique je ne sois qu'un homme soumis à d'autres , ayant néanmoins des soldats sous moi , je dis à l'un , Allez-là , & il y va ; & à l'autre , Venez ici , & il y vient ; & à mon serviteur , Faites cela , & il le fait.",
+      "note": ""
+    },
+    {
+      "n": 9,
+      "p": 386,
+      "lat": "Quo audito , Jesus miratus est ; & conversus sequentibus se turbis , dixit : Amen dico vobis , nec in Israel tantam fidem inveni.",
+      "fr": "JESUS l'ayant entendu parler , en fut dans l'admiration ; & se tournant vers le peuple qui le suivoit , il leur dit : Je vous dis en vérité que je n'ai point trouvé tant de foi dans Israël même.",
+      "note": ""
+    },
+    {
+      "n": 10,
+      "p": 386,
+      "lat": "Et reversi , qui missi fuerant , domum , invenerunt servum , qui languerat , sanum.",
+      "fr": "Et ceux que le Centenier avoit envoyés , étant retournés chez lui , trouvèrent ce serviteur qui avoit été malade , parfaitement guéri.",
+      "note": ""
+    },
+    {
+      "n": 11,
+      "p": 386,
+      "lat": "Et factum est , deinceps ibat in civitatem , quæ vocatur Naïm : & ibant cum eo discipuli ejus & turba copiosa.",
+      "fr": "† * Le jour suivant , JESUS alloit en une ville appelée Naïm ; & ses disciples l'accompagnoient avec une grande foule de peuple.",
+      "note": [
+        {
+          "texte": "<em>Le jour suivant,</em> JESUS <em>alloit en une ville appelée Naïm; & ses disciples l'accompagnoient avec une grande foule de peuple. Et lorsqu'il étoit près de la porte de la ville, il arriva qu'on portoit en terre un mort qui étoit le fils unique de sa mère, &c.</em>",
+          "marges": [],
+          "p": 391
+        },
+        {
+          "texte": "Cette <em>ville</em>, ou, comme Joseph semble l'appeler, ce bourg de <em>Naïm</em>, étoit dans la Galilée, selon saint Jérôme. Il est dit que JESUS <em>y alloit</em>: Et à juger seulement des choses par l'apparence, la rencontre qu'il fit de ce mort à la porte de la ville ne paroît qu'un pur hasard. Mais la foi nous fait juger que ces sortes d'événemens étoient dans l'ordre de sa providence, & destinés par sa volonté, pour servir à ses grands desseins sur son peuple. Ainsi un seul mort est pour la vie & le salut de plusieurs, à qui le miracle de sa résurrection devoit ouvrir les yeux, pour découvrir à travers les nuages d'une chair environnée de foiblesse, la divinité qui y étoit jointe en la personne de JESUS-CHRIST, & qui faisoit éclater sa toute-puissance dans ces sortes de prodiges, élevés au-dessus du pouvoir du commun des hommes. C'est <em>à la porte</em> de la ville que JESUS rencontre ce mort qu'on portoit en terre, afin que le grand abord du peuple qui s'y trouvoit servît à une plus grande preuve du miracle. Car les sépulcres des Juifs, <a class=\"page-inline\" href=\"page-392.html\" title=\"p. 392\">‖</a>& même des autres peuples, étoient hors des villes. C'étoit <em>le fils unique d'une mère</em>, & d'une <em>veuve</em> désolée, afin que la joie de sa résurrection en fût plus sensible; & que plus la perte qu'avoit fait la mère lui attiroit de personnes qui l'accompagnoient pour prendre part à sa douleur, plus il y eut dans la suite de témoins de sa consolation, d'avoir recouvré un fils que tous pleuroient avec elle.",
+          "marges": [
+            "Joseph. antiquit. l. 20. c. 5.",
+            "Hieron. de loc. hebr.",
+            "Grotius."
+          ],
+          "p": 391
+        },
+        {
+          "texte": "Le Fils de Dieu n'attend point pour ressusciter ce mort qu'on le prie. C'est par un pur mouvement de sa bonté, <em>qu'aussitôt qu'il voit</em> la mère comblée de douleur, <em>il est touché de compassion envers elle.</em> Ses larmes tiennent lieu à J. C. de toute prière. Et il n'appartient qu'à celui qui a le pouvoir de ressusciter le fils, de commander à la mère de <em>ne plus pleurer</em>; parce qu'en rendant la vie à ce Fils unique, il arrêtoit tout-d'un-coup la source des larmes de celle qui ne pleuroit qu'à cause qu'il étoit mort. Ainsi en disant à cette femme de ne pleurer plus, il lui donna lieu en même-temps de concevoir l'espérance d'un grand miracle. Et lorsqu'il <em>toucha</em> aussitôt après <em>le cercueil</em> du mort, il fit connoître sans doute aux personnes <em>qui le portoient</em> qu'il avoit quelque dessein, puisqu'<em>ils s'arrêtèrent</em> dans l'instant; soit qu'il le leur commandât effectivement, quoique l'Evangile ne le marque pas; soit qu'il touchât ce cercueil d'une manière qui les obligea de ne pas aller plus loin. Il ne tarda pas aussi à déclarer ce qu'il vouloit faire. Car dans le moment qu'il eut touché le cercueil, & que par l'attouchement de sa main sacrée, il eut arrêté ceux qui le portoient en terre, il parla au mort avec cette voix toute-puissante, qui doit à la fin du monde ressusciter tous les morts: <em>Jeune homme, levez-vous, je vous le commande</em>, lui dit JESUS-CHRIST: <em>Tibi dico</em>: c'est moi-même qui vous le commande; moi qui ai l'empire sur les morts aussi-bien que sur les vivans, & à qui toute la nature est parfaitement soumise.",
+          "marges": [],
+          "p": 392
+        }
+      ],
+      "noteVersets": [
+        11,
+        12
+      ],
+      "marges": [
+        "† 5. Jeudi de Carême. 15. Dim. après la Pentec."
+      ],
+      "nb": [
+        "℣. 11. expl. Ce deinceps de la Vulgate est expliqué par le grec , qui porte : Le jour suivant."
+      ]
+    },
+    {
+      "n": 12,
+      "p": 386,
+      "lat": "Cùm autem appropinquaret portæ civitatis , ecce defunctus efferebatur filius unicus matris suæ , & hæc vidua erat ; & turba civitatis multa cum illa.",
+      "fr": "Et lorsqu'il étoit près de la porte de la ville , il arriva qu'on portoit en terre un mort qui étoit le fils unique de sa mère , & cette femme étoit veuve ; & il y avoit une grande quantité de personnes de la ville avec elle.",
+      "note": ""
+    },
+    {
+      "n": 13,
+      "p": 387,
+      "lat": "Quam cùm vidisset Dominus , misericordiâ motus super eam , dixit illi : Noli flere.",
+      "fr": "Le Seigneur l'ayant vue , fut touché de compassion envers elle , & il lui dit : Ne pleurez point.",
+      "note": ""
+    },
+    {
+      "n": 14,
+      "p": 387,
+      "lat": "Et accessit & tetigit loculum. Hi autem qui portabant steterunt. Et ait ; Adolescens , tibi dico , surge.",
+      "fr": "Et s'approchant il toucha le cercueil. Ceux qui le portoient s'arrêtèrent , & il dit : Jeune homme , levez-vous , je vous le commande.",
+      "note": ""
+    },
+    {
+      "n": 15,
+      "p": 387,
+      "lat": "Et resedit qui erat mortuus , & cœpit loqui. Et dedit illum matri suæ.",
+      "fr": "En même-temps le mort se leva en son séant , & commença à parler : & JESUS le rendit à sa mère.",
+      "note": [
+        {
+          "texte": "<em>En même-temps le mort se leva en son séant, & commença à parler, & </em>JESUS<em> le rendit à sa mère. Tous ceux qui étoient présens furent saisis de frayeur, & ils glorifioient Dieu, en disant: Un grand Prophète a paru au milieu de nous, &c.</em>",
+          "marges": [],
+          "p": 392
+        },
+        {
+          "texte": "On vit dès-lors l'accomplissement de cette parole que le Sauveur dit dans saint Jean, en parlant aux Juifs incrédules qui s'irritoient de ses miracles: <em>Je vous dis en vérité, que l'heure vient, & qu'elle est déjà venue, que les morts entendront la voix du Fils de Dieu, & que ceux qui l'entendront vivront.</em> Car ce jeune homme, ce fils unique & chéri uniquement de sa mère, ce mort regretté & pleuré de tant de personnes, <em>entendit la voix</em> qui lui comman<a class=\"page-inline\" href=\"page-393.html\" title=\"p. 393\">‖</a>doit de se lever; & la mort même cédant à ce souverain commandement, <em>il se leva</em> tout-d'un-coup <em>en son séant, & commença à parler</em>, pour marque certaine de sa véritable résurrection: ce qui fait juger que ce jeune homme ne pouvoit pas être enfermé dans un cercueil, mais couché comme dans une espèce de petit lit, qui étoit alors en usage parmi ceux d'entre les Juifs, qui étoient riches & d'une famille considérable. S'étant donc levé au moment que le Fils de Dieu lui fit entendre sa voix, <em>il parla</em>, pour rendre gloire sans doute à la bonté & à la puissance de celui qui l'arrachoit d'entre les morts. Car lorsque <em>tous ceux qui étoient présens furent saisis d'une frayeur</em> toute sainte, qui les porta <em>à glorifier</em> le Seigneur leur <em>Dieu</em>, celui en qui ce miracle s'étoit fait ne put pas manquer à reconnoître & à publier la gloire de son bienfaiteur. <em>Il parla</em> donc; mais c'eût été un ingrat, si le sujet de ses paroles n'avoit été la grandeur de Dieu, de qui il venoit de recevoir une marque si éclatante de sa bonté.",
+          "marges": [
+            "Joan. 5. 25."
+          ],
+          "p": 392
+        },
+        {
+          "texte": "L'Evangéliste a eu soin de remarquer, que J. C. <em>le rendit</em>, après qu'il l'eut ressuscité, <em>à sa mère.</em> Car c'étoit les larmes de cette mère affligée qui eurent la force de <em>le toucher de compassion.</em> Et comme c'étoit pour elle qu'il l'avoit ressuscité, il est dit qu'il rendit le fils à la mère, parce que c'étoit pour la secourir dans ses besoins, pour la consoler dans son veuvage, pour la soutenir dans l'abandon où elle étoit qu'il lui avoit redonné la vie. Ainsi il nous fait entendre par cette sorte d'expression, que ce fils ressuscité ne devoit plus vivre que pour sa mère, étant véritablement devenu par ce miracle de sa résurrection, le fruit & comme le fils de ses larmes.",
+          "marges": [],
+          "p": 393
+        },
+        {
+          "texte": "Saint Ambroise a regardé cette mère, comme une figure excellente de l'Eglise. Elle est veuve par l'absence de son époux, qui n'est plus visible sur la terre qu'aux yeux de la foi. Elle est dans les pleurs par la perte d'un grand nombre de ses enfans, dont elle regarde chacun en particulier, comme s'il lui étoit unique, à cause de la grandeur de son amour, & du prix inestimable de son salut. Que peut un mort, pour demander & pour mériter sa résurrection? Que peut aussi un pécheur accablé sous le poids énorme de ses crimes? « S'il arrive donc, dit saint Ambroise, que votre péché soit tel que vous ne puissiez le laver vous-même par les larmes de la pénitence; que l'Eglise votre mère pleure alors pour vous, elle qui prie pour chacun de ses enfans, comme s'il étoit son fils unique. Car elle est vraiment touchée de compassion, & d'une douleur toute sainte, lorsqu'elle voit ses enfans percés de plaies mortelles, & mena<a class=\"page-inline\" href=\"page-394.html\" title=\"p. 394\">‖</a>cés d'une mort funeste. Nous sommes nous-mêmes une partie de ses entrailles; mais de ces entrailles spirituelles dont parle saint Paul, lorsqu'il prioit Philemon pour Onesime qu'il avoit engendré à J. C. dans ses liens, & qu'il lui disoit: Soulagez au nom du Seigneur celui que je porte dans mes entrailles: <em>Refice viscera mea in Domino.</em> Nous sommes donc comme les entrailles de l'Eglise, parce que nous sommes les membres de son corps mystique. Ainsi que cette mère pleine de tendresse soit dans la douleur sur votre sujet; & que la multitude des fidelles prenne part à la compassion dont elle est touchée à votre égard: vous ressusciterez alors, & vous serez arraché d'entre les bras de la mort. »",
+          "marges": [
+            "Ambr. in hunc loc.",
+            "Philem. 10. 1."
+          ],
+          "p": 393
+        },
+        {
+          "texte": "S'il fallut que J. C. <em>touchât</em> lui-même <em>le cercueil</em> de ce jeune-homme pour faire arrêter ceux qui le portoient dans le tombeau, il est encore plus nécessaire qu'il touche présentement le corps de ceux qui sont morts spirituellement devant Dieu; ce corps qui devient à l'égard de ces pécheurs, comme le cercueil de leurs ames mortes; & qu'il le touche par des maladies, par des disgraces, & par d'autres afflictions, pour arrêter l'impétuosité des passions criminelles & des plaisirs sensuels qui l'emportent dans l'abyme. Mais si quelque cuisante douleur, ou quelque affliction très-pesante, a la force de les arrêter pour un peu de temps dans le cours de ces plaisirs si funestes, quoiqu'agréables à leurs sens; ils ne ressusciteront pourtant point si le Fils de Dieu ne parle à leur cœur, & s'il ne leur fait entendre cette voix forte & efficace, qui a la vertu de rendre la vie à ceux qui sont morts. Car il faut que ce soit lui qui leur dise avec cette autorité suprême qui n'appartient qu'à lui seul: <em>Tibi dico</em>; <em>Surge</em>, Levez-vous; c'est moi qui vous le commande. En vain les hommes parleroient à ces sourds & à ces morts spirituels, s'ils n'accompagnoient leurs paroles de la voie toute intérieure de sa grâce, qui ranime les ames mortes des pécheurs, & qui les faisant <em>relever</em> de l'état mortel où elles étoient assoupies, les fait <em>parler</em>, pour confesser leur misère & la bonté de leur Dieu: ce qui engage en même-temps tous les fidelles à <em>glorifier le Seigneur</em>, comme ces peuples le firent alors, dans la vue de ces effets miraculeux de la droite du Très-haut.",
+          "marges": [
+            "Ambros."
+          ],
+          "p": 394
+        },
+        {
+          "texte": "Les Juifs ayant vu ce prodige de la résurrection soudaine d'un mort qu'on portoit en terre, s'écrièrent, Qu'<em>un grand Prophète étoit né au milieu d'eux.</em> Sur quoi quelques Interprètes croient que ces peuples regardèrent J. C., comme le Messie, & comme <em>ce Prophète</em> par excellence, que Moyse leur avoit promis que Dieu devoit susciter du milieu de leur nation & du milieu de leurs frè<a class=\"page-inline\" href=\"page-395.html\" title=\"p. 395\">‖</a>res. Ils pouvoient bien en effet avoir de lui cette pensée; & d'autant plus que l'autorité avec laquelle ils lui avoient entendu commander au mort de se lever, surpassoit ce qu'on avoit vu dans tous les autres Prophètes des siècles passés. Lors donc qu'ils ajoutent, Que <em>Dieu avoit visité son peuple</em>, ils parlent aussi peut-être de la visite favorable du même Messie, qu'ils attendoient comme le libérateur de leur nation, se regardant comme esclaves sous la domination des Romains, & attendant à toute-heure celui qui les devoit affranchir de cet esclavage. Mais cette vue néanmoins étoit bien troublée en eux par l'état si rabaissé où ils le voyoient réduit. Et ils ne pouvoient allier ensemble l'idée qu'ils avoient conçue de la grandeur du Messie, avec cette humiliation extérieure du Fils de Dieu, qui choquoit trop leur orgueil. C'est ce qui a fait juger à d'autres Auteurs, que ces Juifs le regardoient seulement comme un grand Prophète, que Dieu avoit envoyé à son peuple pour le visiter, c'est-à-dire, pour le consoler, après qu'il sembloit l'avoir en quelque façon abandonné, puisqu'ils n'avoient vu depuis très-long-temps nul Prophète parmi eux.",
+          "marges": [
+            "Deut. 18. 15."
+          ],
+          "p": 394
+        }
+      ],
+      "noteVersets": [
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "n": 16,
+      "p": 387,
+      "lat": "Accepit autem omnes timor , & magnificabant Deum , dicentes : Quia Propheta magnus surrexit in nobis , & quia Deus visitavit plebem suam.",
+      "fr": "Tous ceux qui étoient présens furent saisis de frayeur , & ils glorifioient Dieu , en disant : Un grand Prophète a paru au milieu de nous , & Dieu a visité son peuple ¶.",
+      "note": "",
+      "marges": [
+        "Infrà 24. 19.",
+        "Joan. 4. 19."
+      ]
+    },
+    {
+      "n": 17,
+      "p": 387,
+      "lat": "Et exiit hic sermo in universam Judæam de eo , & in omnem circa regionem.",
+      "fr": "Le bruit de ce miracle qu'il avoit fait se répandit dans toute la Judée , & dans tout le pays d'alentour.",
+      "note": ""
+    },
+    {
+      "n": 18,
+      "p": 387,
+      "lat": "Et nuntiaverunt Joanni discipuli ejus de omnibus his ,",
+      "fr": "Les disciples de Jean lui ayant rapporté toutes ces choses ,",
+      "note": ""
+    },
+    {
+      "n": 19,
+      "p": 387,
+      "lat": "& convocavit duos de discipulis suis Joannes , & misit ad Jesum , dicens : Tu es qui venturus es , an alium exspectamus ?",
+      "fr": "il en appela deux , & les envoya à JESUS pour lui dire : Etes-vous celui qui doit venir , ou devons-nous en attendre un autre ?",
+      "note": "",
+      "marges": [
+        "Matt. 11. 2."
+      ]
+    },
+    {
+      "n": 20,
+      "p": 387,
+      "lat": "Cùm autem venissent ad eum viri , dixerunt : Joannes Baptista misit nos ad te , dicens : Tu es qui venturus es , an alium exspectamus ?",
+      "fr": "Ces hommes étant venus trouver JESUS , ils lui dirent : Jean-Baptiste nous a envoyés à vous pour vous demander , si vous êtes celui qui doit venir , ou si nous devons en attendre un autre ?",
+      "note": ""
+    },
+    {
+      "n": 21,
+      "p": 387,
+      "lat": "In ipsa autem hora multos curavit à languoribus , & plagis , & spiritibus malis , & cæcis multis donavit visum :",
+      "fr": "JESUS en cette même heure délivra plusieurs personnes des maladies & des plaies dont ils étoient affligés , & des malins esprits qui les possédoient ; & il rendit la vue à plusieurs aveugles :",
+      "note": ""
+    },
+    {
+      "n": 22,
+      "p": 387,
+      "lat": "& respondens , dixit illis : Euntes renuntiate <a class=\"page-inline\" href=\"page-388.html\" title=\"p. 388\">‖</a>Joanni quæ audistis , & vidistis : Quia cæci vident , claudi ambulant , leprosi mundantur , surdi audiunt , mortui resurgunt , pauperes evangelizantur :",
+      "fr": "leur répondant ensuite , il leur dit : Allez rapporter à Jean ce <a class=\"page-inline\" href=\"page-388.html\" title=\"p. 388\">‖</a>que vous venez d'entendre & de voir : Que les aveugles voient , que les boiteux marchent , que les lépreux sont * guéris , que les sourds entendent , que les morts ressuscitent , que l'Evangile est annoncé aux pauvres :",
+      "note": "",
+      "marges": [
+        "Isai. 35. 5."
+      ],
+      "nb": [
+        "℣. 22. lettr. purifiés."
+      ]
+    },
+    {
+      "n": 23,
+      "p": 388,
+      "lat": "& beatus est quicumque non fuerit scandalizatus in me.",
+      "fr": "& que bienheureux est celui qui ne * prendra point de moi un sujet de scandale & de chute.",
+      "note": "",
+      "nb": [
+        "℣. 23. lettr. se scandalisera point en moi."
+      ]
+    },
+    {
+      "n": 24,
+      "p": 388,
+      "lat": "Et cùm discessissent nuntii Joannis , cœpit de Joanne dicere ad turbas : Quid existis in desertum videre ? arundinem vento agitatam ?",
+      "fr": "Ceux qui étoient venus de la part de Jean s'en étant retournés , JESUS s'adressa au peuple , & leur parla de Jean en cette sorte : Qu'êtes-vous allé voir dans le désert ? un roseau agité du vent ?",
+      "note": ""
+    },
+    {
+      "n": 25,
+      "p": 388,
+      "lat": "Sed quid existis videre ? hominem mollibus vestimentis indutum ? Ecce qui in veste pretiosa sunt & deliciis , in domibus Regum sunt.",
+      "fr": "Qu'êtes-vous , dis-je , allé voir ? un homme vêtu avec luxe & avec mollesse ? Vous savez que c'est dans les palais des Rois que se trouvent ceux qui sont vêtus magnifiquement , & qui vivent dans les délices.",
+      "note": ""
+    },
+    {
+      "n": 26,
+      "p": 388,
+      "lat": "Sed quid existis videre ? Prophetam ? Utique dico vobis , & plusquam Prophetam.",
+      "fr": "Qu'êtes-vous donc allé voir ? un Prophète ? Oüi certes , je vous le dis , & plus qu'un Prophète.",
+      "note": ""
+    },
+    {
+      "n": 27,
+      "p": 388,
+      "lat": "Hic est de quo scriptum est : Ecce mitto Angelum meum ante faciem tuam , qui præparabit viam tuam ante te.",
+      "fr": "C'est de lui qu'il a été écrit : J'envoie devant vous mon Ange , qui vous préparera la voie.",
+      "note": "",
+      "marges": [
+        "Mal. 3. 1.",
+        "Matt. 11. 10.",
+        "Marc. 1. 2."
+      ]
+    },
+    {
+      "n": 28,
+      "p": 388,
+      "lat": "Dico enim vobis : Major inter natos mulierum Propheta Joanne Baptista nemo est ; qui autem minor est in regno Dei , major est illo.",
+      "fr": "Car je vous déclare , qu'entre tous ceux qui sont nés des femmes , il n'y a point de plus grand Prophète que Jean-Baptiste : mais celui qui est plus petit dans le royaume de Dieu est plus grand que lui.",
+      "note": ""
+    },
+    {
+      "n": 29,
+      "p": 388,
+      "lat": "Et omnis populus audiens & Publicani , justi<a class=\"page-inline\" href=\"page-389.html\" title=\"p. 389\">‖</a>ficaverunt Deum , baptizati baptismo Joannis.",
+      "fr": "Tout le peuple & les Publicains * l'ayant entendu , ont justi<a class=\"page-inline\" href=\"page-389.html\" title=\"p. 389\">‖</a>fié la conduite de Dieu , ayant été baptisés du baptême de Jean.",
+      "note": [
+        {
+          "texte": "<em>Tout le peuple & les Publicains l'ayant entendu, ont justifié la conduite de Dieu, ayant été baptisés du baptême de Jean. Mais les Pharisiens & les Docteurs de la loi ont méprisé le dessein de Dieu sur eux, &c.</em>",
+          "marges": [],
+          "p": 395
+        },
+        {
+          "texte": "Il semble plus naturel de regarder ces paroles comme la suite du discours de J. C., que comme celles de l'Evangéliste. Car comment saint Luc auroit-il interrompu le discours du Fils de Dieu, pour dire que le peuple & les Publicains l'ayant entendu parler, confessèrent la justice & la sagesse des desseins de Dieu, & se soumirent à recevoir le baptême de saint Jean; puisqu'il étoit actuellement en prison lorsqu'il envoya, comme il est marqué ici, ses disciples au Sauveur, & qu'ainsi il n'étoit plus en état de baptiser? JESUS parla donc aux Juifs de saint Jean, après que ses deux disciples s'en furent allés; & leur ayant fait cet éloge magnifique de sa personne, où il le représentoit comme un homme solidement affermi dans la piété, consommé dans la pénitence, & l'un des plus grands Prophètes, il ajoute: <em>Tout le peuple</em>, c'est-à-dire, ceux d'entre les Juifs qui étoient simples & qui agissoient sans prévention; & <em>les Publicains</em>, c'est-à-dire, ceux qu'on regardoit comme des pécheurs publics, <em>ayant entendu</em> les prédications de Jean-Baptiste, & ses fortes remontrances, se sont humiliés devant Dieu, <em>ont reconnu la justice</em>, & la sagesse de sa conduite dans la mission du saint Précurseur, qui ne leur parloit que pour leur salut, & se sont soumis humblement à <a class=\"page-inline\" href=\"page-396.html\" title=\"p. 396\">‖</a>faire ce qu'il leur disoit, & à recevoir son baptême.",
+          "marges": [
+            "Matt. 11. 2."
+          ],
+          "p": 395
+        },
+        {
+          "texte": "Il oppose ensuite à l'humble soumission du peuple & des Publicains, l'orgueil des <em>Pharisiens & des Docteurs de la loi</em>, qui ne <em>témoignèrent que du mépris pour les desseins</em> tout pleins de bonté que Dieu même <em>avoit sur eux</em>, & qui <em>rejetèrent le baptême de saint Jean.</em> Car quoiqu'en effet ce baptême du saint Précurseur n'eut pas la force de laver les crimes des hommes, c'étoit néanmoins <em>le dessein de Dieu</em>, que son peuple s'y soumît, comme à une espèce de préparation pour recevoir le baptême du Sauveur. Et l'exemple de J. C., qui voulut s'y assujettir, lui qui n'en avoit aucun besoin pour lui-même, auroit bien dû les confondre, si le même orgueil qui les empêcha de connoître le dessein de Dieu sur eux, ne les avoit empêchés aussi de profiter pour leur salut d'un si grand exemple d'humilité.",
+          "marges": [],
+          "p": 396
+        }
+      ],
+      "noteVersets": [
+        29,
+        30
+      ],
+      "nb": [
+        "℣. 29. autr. qui avoient été baptisés du baptême de Jean , entendant ceci , rendirent gloire à Dieu."
+      ]
+    },
+    {
+      "n": 30,
+      "p": 389,
+      "lat": "Pharisæi autem , & Legisperiti consilium Dei spreverunt in semetipsos , non baptizati ab eo.",
+      "fr": "Mais les Pharisiens & les Docteurs de la loi * méprisèrent le dessein de Dieu sur eux , ne s'étant point fait baptiser par Jean.",
+      "note": "",
+      "nb": [
+        "℣. 30. autr. méprisèrent le conseil de Dieu sur eux , en ne recevant point le baptême de Jean."
+      ]
+    },
+    {
+      "n": 31,
+      "p": 389,
+      "lat": "Ait autem Dominus : Cui ergo similes dicam homines generationis hujus ? & cui similes sunt ?",
+      "fr": "A quoi donc , ajouta le Seigneur , comparerai-je les hommes * de ce temps-ci ? & à qui sont-ils semblables ?",
+      "note": "",
+      "marges": [
+        "Matt. 11. 16."
+      ],
+      "nb": [
+        "℣. 31. let. de cette génération. autr. de cette race."
+      ]
+    },
+    {
+      "n": 32,
+      "p": 389,
+      "lat": "Similes sunt pueris sedentibus in foro , & loquentibus ad invicem , & dicentibus : Cantavimus vobis tibiis , & non saltastis : lamentavimus , & non plorastis.",
+      "fr": "Ils sont semblables à ces enfans qui sont assis dans la place , & qui se parlant les uns aux autres , disent : Nous avons joué de la flûte devant vous , & vous n'avez point dansé : nous avons chanté devant vous des airs lugubres , & vous n'avez point pleuré.",
+      "note": ""
+    },
+    {
+      "n": 33,
+      "p": 389,
+      "lat": "Venit enim Joannes Baptista , neque manducans panem , neque bibens vinum , & dicitis : Dæmonium habet.",
+      "fr": "Car Jean-Baptiste est venu , ne mangeant point de pain , & ne buvant point de vin ; & vous dites de lui : Il est possédé du démon.",
+      "note": "",
+      "marges": [
+        "Matt. 3. 4.",
+        "Marc. 1. 6."
+      ]
+    },
+    {
+      "n": 34,
+      "p": 389,
+      "lat": "Venit Filius hominis manducans , & bibens , & dicitis : Ecce homo devorator , & bibens vinum , amicus publicanorum , & peccatorum.",
+      "fr": "Le Fils de l'homme est venu mangeant & buvant , & vous dites : C'est un homme de bonne chère , & qui aime à boire du vin : c'est l'ami des Publicains , & des gens de mauvaise vie.",
+      "note": ""
+    },
+    {
+      "n": 35,
+      "p": 389,
+      "lat": "Et justificata est sapientia ab omnibus filiis suis.",
+      "fr": "Mais la sagesse a été justifiée par tous ses enfans.",
+      "note": ""
+    },
+    {
+      "n": 36,
+      "p": 389,
+      "lat": "Rogabat autem illum quidam de Pharisæis , ut manducaret cum illo. Et ingressus domum Pharisæi , discubuit.",
+      "fr": "† Un Pharisien ayant prié JESUS de manger chez lui , il entra en son logis , & se mit à table.",
+      "note": [
+        {
+          "texte": "<em>Un Pharisien ayant prié</em> JESUS <em>de manger chez lui, il entra en son logis, & se mit à table. En même-temps une femme de la ville, qui étoit de mauvaise vie, ayant su qu'il étoit à table chez ce Pharisien, y apporta un vase d'albâtre plein d'huile de parfum, &c.</em>",
+          "marges": [],
+          "p": 396
+        },
+        {
+          "texte": "J. C. ne refuse point d'aller manger chez un Pharisien, quoiqu'il connût l'éloignement que l'orgueil de ces faux justes leur donnoit de la vérité de l'Evangile. Car il le considéroit comme un malade, qui avoit d'autant plus de besoin de médecin, qu'il ne sentoit point les plaies de son ame, & la profonde misère où il étoit devant Dieu. Il va donc en la maison de ce Pharisien, <em>étant prié d'y manger</em>; mais dans le dessein véritablement de lui présenter à lui-même une nourriture beaucoup plus solide, par les divines instructions qu'il lui donna, & par l'exemple qu'il lui proposa de l'humilité & de la pénitence d'une femme, qui bien que pécheresse dans l'esprit des hommes, étoit déjà justifiée devant Dieu, & faisoit honte à la justice orgueilleuse des Pharisiens. On croit que celui chez qui il alla manger, & qui se nommoit Simon, comme il paroît par la suite, pouvoit bien être le même que celui chez qui il fut encore invité à Béthanie, un peu avant qu'il mourût. Quant à cette femme qui l'y vint trouver, saint Grégoire Pape qui a cru que c'étoit la même que Marie Magdeleine dont il est parlé dans le chapitre suivant, explique de tous les péchés où elle s'abandonnoit avant sa conversion, les sept démons dont saint Luc dit, que Magdeleine avoit été délivrée. Mais saint Ambroise, qui est suivi de plusieurs, distingue la pécheresse de Magdeleine, qu'ils mettent au rang des Vierges, & qu'ils disent avoir conservé une entière pureté. D'autres encore <a class=\"page-inline\" href=\"page-397.html\" title=\"p. 397\">‖</a>prétendent que la pécheresse dont nous parlons, étoit Marie sœur de Lazare, qui depuis sa conversion fit paroître autant d'attache à écouter J. C., qu'elle avoit eu auparavant d'amour pour le monde. Plusieurs au contraire soutiennent, que la pécheresse n'étoit ni Marie sœur de Lazare, ni Marie surnommée Magdeleine.",
+          "marges": [
+            "vers. 40.",
+            "Gregor. Magn. in Evang. hom. 33.",
+            "Luc. 8. 2.",
+            "Ambr. de Virg. l. 3. Phot. c. 275."
+          ],
+          "p": 396
+        },
+        {
+          "texte": "Quoi qu'il en soit de cette célèbre dispute, qui a partagé les sentimens des Interprètes de l'Ecriture, celle-ci étoit, selon qu'il paroît visiblement par l'Evangile, <em>une femme de mauvaise vie</em> & connue pour telle <em>dans la ville</em> où étoit alors J. C., & que saint Luc ne nomme point. Ayant su que le Sauveur étoit entré dans la maison du Pharisien, elle se sentit intérieurement attirée par son amour, qui s'étoit déjà rendu maître de son cœur; & accourant à ce céleste médecin des ames, elle paroît la première qui vient chercher J. C. pour la guérison de ses maladies spirituelles; puisque tous les autres ne venoient à lui que pour obtenir la guérison de leurs corps. Si elle avoit paru effrontée dans ses désordres, elle le parut encore plus, dit saint Augustin, quoique d'une manière très-sainte, pour son salut: <em>Quæ solebat in sua fornicatione fortasse esse frontosa, frontosior facta est ad salutem.</em> Elle entre donc hardiment en une maison où elle n'étoit point invitée, en une maison étrangère. Mais elle sentoit ses plaies; & elle venoit où elle savoit qu'elle trouveroit sa guérison: <em>Illa curare volebat, conscia magni vulneris.</em> Et ce médecin suprême lui permettoit par un effet tout singulier de sa bonté, comme à un malade, de toucher celui qui avoit seul le pouvoir de la guérir.",
+          "marges": [
+            "Luc. 7. 37. 39.",
+            "Aug. in Ps. 125. qu. 603. in Psal. 140."
+          ],
+          "p": 397
+        },
+        {
+          "texte": "Elle vient donc lui marquer & son regret de ses désordres passés, par l'abondance de ses larmes; & l'amour céleste dont elle brûloit pour son Dieu, par la sainte profusion de ses parfums; & son parfait renoncement à toutes ses vanités, par le mépris qu'elle témoigne pour ce qu'elle avoit le plus aimé, en se servant de <em>ses cheveux</em> mêmes pour <em>essuyer les pieds</em> du Sauveur, après les avoir arrosés de ses larmes, afin de les parfumer. C'étoit, comme l'on l'a marqué ailleurs, la coutume dans l'orient, de répandre des parfums & sur la tête & sur tout le corps des personnes à qui on vouloit témoigner de la vénération. Mais cette célèbre pénitente s'attache aux pieds de JESUS, non-seulement par humilité, comme n'osant s'élever plus haut, mais peut-être encore à cause de la situation même où étoit le Fils de Dieu, couché sur un lit, selon l'usage le plus ordinaire de ces peuples orientaux, qui se mettoient sur des lits pour pren<a class=\"page-inline\" href=\"page-398.html\" title=\"p. 398\">‖</a>dre leur nourriture, & qui ayant la tête & les mains vers la table où étoient les viandes, étendoient leurs pieds vers le bord du lit.",
+          "marges": [],
+          "p": 397
+        }
+      ],
+      "noteVersets": [
+        36,
+        37,
+        38
+      ],
+      "marges": [
+        "† Jeudi de la Passion. Vendr. des 4. temps de Septem. Ste. Magdeleine."
+      ]
+    },
+    {
+      "n": 37,
+      "p": 389,
+      "lat": "Et ecce mulier , quæ erat in civitate peccatrix , ut cognovit quòd accubuisset in domo Pharisæi , attulit alabastrum unguenti :",
+      "fr": "En même-temps une femme de la ville , qui étoit de mauvaise vie , ayant su qu'il étoit à table chez ce Pharisien , y apporta un vase d'albâtre plein d'huile de parfum :",
+      "note": ""
+    },
+    {
+      "n": 38,
+      "p": 390,
+      "lat": "& stans retrò secus pedes ejus , lacrymis cœpit rigare pedes ejus , & capillis capitis suis tergebat , & osculabatur pedes ejus , & unguento ungebat.",
+      "fr": "& se tenant * derrière lui à ses pieds , elle commença à les arroser de ses larmes , & elle les essuyoit avec * ses cheveux ; elle les baisoit , & y répandoit ce parfum.",
+      "note": "",
+      "marges": [
+        "Matt. 26. 7.",
+        "Marc. 14. 3.",
+        "Joan. 11. 2. 12. 3."
+      ],
+      "nb": [
+        "℣. 38. gr. en pleurant. = Ibid. lettr. les cheveux de sa tête."
+      ]
+    },
+    {
+      "n": 39,
+      "p": 390,
+      "lat": "Videns autem Pharisæus , qui vocaverat eum , ait intra se dicens : Hic si esset Propheta , sciret utique quæ & qualis est mulier , quæ tangit eum , quia peccatrix est.",
+      "fr": "Ce que le Pharisien qui l'avoit invité considérant , il dit en lui-même : Si cet homme étoit Prophète , il sauroit qui est celle qui le touche , & que c'est une femme de mauvaise vie.",
+      "note": [
+        {
+          "texte": "<em>Ce que le Pharisien, qui l'avoit invité, considérant, il dit en lui-même: Si cet homme étoit Prophète, il sauroit qui est celle qui le touche, & que c'est une femme de mauvaise vie, &c.</em>",
+          "marges": [],
+          "p": 398
+        },
+        {
+          "texte": "Les hypocrites cherchoient seulement la pureté extérieure: & de ce nombre, dit saint Augustin, étoit le Pharisien qui avoit prié J. C. de manger chez lui: car il n'étoit pur qu'au-dehors, & son cœur étoit rempli d'iniquité. Mais d'où pouvoit-il connoître, comme dit encore le même Saint, que JESUS ne savoit pas qui étoit la femme qui le touchoit? C'étoit sans doute, parce qu'il ne la repoussa pas loin de soi. Car si elle se fut approchée du Pharisien, lui qui se regardoit comme étant pur, il l'auroit assurément rejetée avec indignation, de peur qu'il ne fut souillé par l'impureté de celle qui l'auroit touché. Et parce que J. C. ne fit pas la même chose, il crut qu'il ne savoit pas qui étoit la femme qui s'approchoit de ses pieds. Mais le Fils de Dieu la connoissoit parfaitement, lui qui l'avoit même attirée à soi par un mouvement de sa grâce. Et non-seulement il la connoissoit, mais il entendoit les murmures intérieurs de celui qui la condamnoit, sans connoître la disposition où étoit alors son cœur. « Que si l'attouchement du corps fait quelque chose, ô Pharisien hypocrite & impur, la chair du Seigneur pouvoit-elle contracter de l'impureté par l'attouchement extérieur de cette femme; ou cette femme ne pouvoit-elle pas plutôt être rendue pure par l'attouchement de la chair sacrée du Seigneur? C'est donc parce qu'ayant invité ce souverain médecin à venir manger en votre maison, vous vous regardiez vous-même comme étant pur & comme étant sain, que vous n'avez pas été guéri aussi-bien que cette femme, & que vous êtes demeuré dans l'impureté de votre cœur. » J. C., pour faire rentrer ce Pharisien en lui-même, & lui donner lieu de juger qui étoit celui qui lui parloit, le prie d'écouter la parabole suivante.",
+          "marges": [
+            "Aug. in Ps. 125. p. 603."
+          ],
+          "p": 398
+        }
+      ],
+      "noteVersets": [
+        39,
+        40
+      ]
+    },
+    {
+      "n": 40,
+      "p": 390,
+      "lat": "Et respondens Jesus , dixit ad illum : Simon , habeo tibi aliquid dicere. At ille ait ; Magister , dic.",
+      "fr": "Alors JESUS prenant la parole , lui dit : Simon , j'ai quelque chose à vous dire. Il répondit , Maître , dites.",
+      "note": ""
+    },
+    {
+      "n": 41,
+      "p": 390,
+      "lat": "Duo debitores erant cuidam fœneratori : unus debebat denarios quingentos , & alius quinquaginta :",
+      "fr": "Un créancier avoit deux débiteurs : l'un lui devoit * cinq cents deniers , & l'autre * cinquante :",
+      "note": [
+        {
+          "texte": "<em>Un créancier avoit deux débiteurs: l'un lui devoit cinq cents deniers, & l'autre cinquante. Comme ils n'avoient pas de quoi les lui rendre, il leur remit à tous deux leur dette. Lequel des deux l'aimera donc davantage?</em>",
+          "marges": [],
+          "p": 398
+        },
+        {
+          "texte": "Le Fils de Dieu a dessein dans cette parabole, de représenter au Pharisien à qui il parloit, la différence de la disposition intérieure où il étoit devant Dieu, de celle où cette illustre pénitente y étoit aussi. Car Simon, tout juste qu'il croyoit être, étoit néanmoins beaucoup redevable à la divine justice, qui <a class=\"page-inline\" href=\"page-399.html\" title=\"p. 399\">‖</a>sonde les cœurs des hommes, & qui y condamne l'iniquité qui s'y tient souvent cachée sous le voile d'une justice apparente. J. C. le compare donc à un homme, qui devroit à un créancier <em>cinquante deniers.</em> Et il compare cette femme de mauvaise vie à un autre qui lui seroit redevable de <em>cinq cents deniers</em>, c'est-à-dire, qui lui devroit dix fois autant. Car c'est en ce point que consiste sa comparaison, sans qu'il soit besoin de se mettre en peine à quoi se montoit précisément cette somme. Quand il dit ensuite, que le créancier dont il parloit <em>remit à l'un & à l'autre ce qu'ils lui devoient</em>, parce qu'ils étoient tous deux <em>dans l'impuissance de le lui rendre</em>, il ne prétend pas nous faire entendre par là qu'il avoit effectivement pardonné au Pharisien: mais il se conforme en quelque façon à l'idée qu'il avoit lui-même de sa propre justice, par rapport à celle qu'il avoit aussi du dérèglement de cette femme; & il veut lui faire concevoir, par le pardon qu'il a accordé gratuitement à une si grande pécheresse, la grandeur de son amour & de sa reconnoissance, puisque de l'aveu même de ce Pharisien, celui des deux débiteurs de la parabole, à qui il avoit été plus remis, devoit aimer davantage celui qui avoit usé d'une si grande bonté à son égard.",
+          "marges": [],
+          "p": 398
+        },
+        {
+          "texte": "Mais comme le Fils de Dieu tire ensuite cette conséquence, Que <em>beaucoup de péchés étoient remis à cette femme, parce qu'elle avoit beaucoup aimé</em>; on doit regarder son amour, comme ayant été & la cause du pardon de tous les crimes qu'elle avoit commis, parce que c'est la charité qui couvre la multitude des péchés; & l'effet de ce pardon même & de cette grâce du Seigneur, parce que plus on reconnoît que l'on étoit redevable, plus on se sent obligé d'aimer sans mesure, celui qui nous a remis volontairement tout ce que nous lui devions, & qui veut bien en échange ne nous demander que notre amour. J. C. fait donc connoître à Simon, en lui proposant cette parabole, combien la femme qu'il condamnoit comme pécheresse, s'étoit rendue agréable à Dieu par la grandeur de sa charité & de sa reconnoissance. Mais il lui fait en même-temps sentir à lui-même, combien il étoit éloigné de la justice présente de cette femme; puisque, quelque disproportion qu'il y eut entre sa vie & la sienne, ses péchés & ceux qu'elle avoit commis; la différence de leur conduite envers J. C. étoit une preuve de la différence de leur disposition envers Dieu.",
+          "marges": [],
+          "p": 399
+        }
+      ],
+      "noteVersets": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "nb": [
+        "℣. 41. environ de notre monnoie 193 livres 13 sous. = Ibid. près de 19 liv. 6 sols."
+      ]
+    },
+    {
+      "n": 42,
+      "p": 390,
+      "lat": "non habentibus illis unde redderent , donavit utrisque : quis ergo eum plus diligit ?",
+      "fr": "mais comme ils n'avoient point de quoi les lui rendre , il leur remit à tous deux leur dette : lequel des deux l'aimera donc davantage ?",
+      "note": ""
+    },
+    {
+      "n": 43,
+      "p": 390,
+      "lat": "Respondens Simon dixit : Æstimo quia is cui plus donavit. At ille dixit ei : Rectè judicasti.",
+      "fr": "Simon répondit : Je crois que ce sera celui auquel il a plus remis. JESUS lui dit : Vous avez fort bien jugé.",
+      "note": ""
+    },
+    {
+      "n": 44,
+      "p": 390,
+      "lat": "Et conversus ad mulierem , dixit Simoni : Vides hanc mulierem ? Intravi in domum tuam , aquam pedibus meis non dedisti : hæc autem lacrymis rigavit pedes meos , & capillis suis tersit :",
+      "fr": "Et se tournant vers la femme , il dit à Simon : Voyez-vous cette femme ? Je suis entré dans votre maison , vous ne m'avez point donné d'eau pour me laver les pieds : & elle au contraire a arrosé mes pieds de ses larmes , & les a essuyés avec ses cheveux.",
+      "note": [
+        {
+          "texte": "<em>Et se tournant vers la femme, il dit à Simon: Voyez-vous cette femme? Je suis entré dans votre maison, vous ne m'avez point donné d'eau pour laver mes pieds: & elle au</em> <a class=\"page-inline\" href=\"page-400.html\" title=\"p. 400\">‖</a><em>contraire a arrosé mes pieds de ses larmes, & les a essuyés avec ses cheveux, &c.</em>",
+          "marges": [],
+          "p": 399
+        },
+        {
+          "texte": "Mais ce Pharisien ne pouvoit-il pas dire au Fils de Dieu, qu'en l'invitant à manger chez lui, il avoit donné une marque aussi certaine de son amour, que cette femme en arrosant ses pieds de ses larmes, les essuyant avec ses cheveux, & y répandant des parfums? Il est vrai que saint Matthieu témoigna de cette sorte à J. C. la sincérité de son amour, & sa parfaite reconnoissance de la grâce par laquelle il l'avoit comme arraché à l'amour du siècle, puisqu'il est dit dans saint Luc: Qu'<em>il fit à</em> JESUS, après sa conversion, <em>un grand festin, où il se trouva un grand nombre de Publicains.</em> Il est vrai encore que Zachée fit paroître de la même sorte l'ardeur de sa charité, en <em>recevant</em> J. C. <em>avec joie dans sa maison</em>, & en exerçant à son égard tous les devoirs d'une sainte hospitalité, qui lui firent mériter que le Fils de Dieu déclarât, Que <em>cette maison avoit reçu le salut en ce jour-là.</em> Et cependant ni Zachée ni saint Matthieu ne lui <em>donnèrent point le baiser</em>, ni ne lui <em>lavèrent point les pieds</em>, ni ne <em>répandirent point sur sa tête des parfums.</em> D'où vient donc que le Sauveur semble reprocher ici à Simon, de n'avoir pas fait envers lui ce qu'avoit fait cette femme; puisqu'il avoit fait la même chose que Zachée & saint Matthieu; & que ces deux Publicains qu'il avoit reçus en sa grâce, ne lui donnèrent point d'autre témoignage de leur véritable conversion, que le même qu'il lui donna, en l'invitant à manger chez lui? C'est sans doute que le Fils de Dieu jugeoit de l'action du Pharisien & de celle de la femme pécheresse, par le fond du cœur de l'un & de l'autre: & il fit sentir à ce premier, que le mouvement par lequel il l'avoit invité à manger chez lui, étoit ou humain, ou accompagné même de cette malignité secrète, qui portoit presque toujours les Pharisiens à observer J. C. dans ses paroles & dans sa conduite, pour trouver quelque prétexte de l'accuser. Mais il lui fit remarquer en même-temps, que les larmes, les parfums, & les autres circonstances qui accompagnèrent l'action de cette femme, étoient les preuves sensibles de sa pénitence & de son retour plein de charité vers Dieu.",
+          "marges": [
+            "Luc. 5. 29.",
+            "Ibid. 19. 6. 9."
+          ],
+          "p": 400
+        },
+        {
+          "texte": "Il est vrai, qu'afin que ces choses fussent une preuve qui pût convaincre entièrement le Pharisien, il auroit dû être convaincu auparavant de la divinité de celui, à l'égard duquel cette femme s'acquittoit de tous ces devoirs de piété. Mais c'étoit aussi la conséquence que le Fils de Dieu vouloit l'obliger de tirer de la conduite de cette sainte pénitente qui fondoit en larmes à ses pieds, <a class=\"page-inline\" href=\"page-401.html\" title=\"p. 401\">‖</a>pieds. Car si une jalousie secrète ne l'eût aveuglé, il auroit jugé de celui qui lui parloit, comme en jugeoit cette femme même, attirée par la grandeur de ses miracles & la sainteté de sa doctrine. Mais son orgueil empêchoit qu'il ne reçut cette grâce intérieure, qui avoit rompu les chaînes des malheureuses habitudes de celle qu'il condamnoit avec un si grand mépris: & se croyant juste, il étoit indigne que le souverain médecin des ames le guérit de cet apparence de justice, dont il se glorifioit, & qui n'étoit qu'abomination devant ses yeux: car il ne se regardoit comme sain, dit saint Augustin, & il n'ignoroit quel étoit le médecin qui l'honoroit de sa présence, que par un effet semblable à celui de la fièvre, qui l'agitoit avec violence, & qui lui avoit comme renversé l'esprit; ressemblant à ces malades frénétiques qui rient lorsque ceux qui se portent bien les pleurent: <em>Nam & phreneticus ridens ploratur à sanis.</em>",
+          "marges": [
+            "August. hom. 32. c. 7. t. 10."
+          ],
+          "p": 400
+        },
+        {
+          "texte": "Mais il se présente ici une question, que le même Saint a regardée, comme étant d'une difficulté très-profonde; car il est beaucoup à craindre, dit-il, que des personnes charnelles & attachées à leurs plaisirs, ne comprenant pas le sens véritable de ces paroles de J. C. <em>Cui minus dimittitur, minus diligit</em>, n'en tirent cette conséquence également fausse & pernicieuse, dont parle saint Paul: <em>Pourquoi donc ne ferons-nous point de mal, afin qu'il en arrive du bien?</em> Car s'il est vrai, diront ces personnes, que <em>celui-là aime moins, à qui on remet moins</em>; & par conséquent, que celui à qui on remet davantage, aime davantage; il s'ensuit qu'étant plus avantageux d'aimer beaucoup que d'aimer moins, il vaut mieux aussi pécher beaucoup, afin d'aimer avec plus d'ardeur celui qui nous aura remis de plus grandes dettes. Mais saint Augustin coupe pied tout-d'un-coup à cette objection pleine de malignité, & y répond avec le secours de J. C. en cette manière: O Pharisien, s'écrie-t-il, vous aimez peu, non parce qu'on vous pardonne peu, mais parce que vous croyez que ce que l'on vous pardonne est peu de chose. Vous dites que vous n'avez point commis d'homicides, ni d'adultères. Mais d'où vient que vous n'en avez point commis? Et qui vous en a empêché? N'est-ce pas par le secours de votre Dieu, que vous n'avez point commis de ces grands crimes; comme c'est par la bonté du même Dieu, que celui qui en a commis, en a obtenu le pardon? Reconnoissez donc la grâce de celui à qui vous êtes redevable, même de ce que vous n'avez point commis tous les crimes qu'ont commis ceux à qui il les a pardonnés: <em>Agnosce ergo gratiam ejus cui debes, & quod non admisisti.</em> Car il n'y a nul péché commis par un <a class=\"page-inline\" href=\"page-402.html\" title=\"p. 402\">‖</a>homme, qu'un autre homme ne puisse commettre aussi bien que lui, si le Créateur de tous les hommes ne l'en préserve par son assistance: <em>Nullum est enim peccatum quod fecit homo, quod non possit facere alter homo, si desit rector à quo factus est homo.</em>",
+          "marges": [
+            "Ib. c. 4.",
+            "Rom. 3. 8.",
+            "cap. 6.",
+            "cap. 7."
+          ],
+          "p": 401
+        },
+        {
+          "texte": "Nous pouvons même ajouter, que si Dieu par son infinie bonté sait tirer, quand il lui plaît, un très-grand bien, d'un aussi grand mal qu'est le péché; ce seroit à l'homme la dernière impudence, de prétendre tenter Dieu en l'offensant; dans l'espérance que le pardon même qu'il lui accordera dans la suite, lui deviendra un sujet d'augmenter sa charité. Car qui assure cet homme que Dieu daignera lui pardonner, après qu'il l'aura outrageusement offensé? Et qui même se tenant assuré de ce pardon, pourroit bien se persuader que ce fut pour lui un moyen avantageux pour mériter l'amour de son Dieu, de faire ce qu'il pourroit pour s'en rendre indigne? Il n'y a donc que l'esprit menteur, cet esprit qui a corrompu dès le commencement du monde la parole de la vérité, qui soit capable de tirer de si fausses conséquences d'une vérité annoncée par J. C. & mal entendue. Il est vrai que par un effet miraculeux de sa surabondante miséricorde, il arrive assez souvent que les grands pécheurs sont plus touchés que les justes de la grâce de leur Dieu. Mais c'est par un regret même très-sensible d'avoir offensé une bonté si infinie. Et combien souhaiteroient-ils, s'il étoit possible, de ne l'avoir jamais offensé, mais d'avoir toujours aimé une beauté si aimable, selon ces excellentes paroles d'un grand Saint, qui regrettoit infiniment tout le temps passé, où il n'avoit point aimé son Dieu: <em>Quàm serò te amavi, pulchritudo antiqua & nova! Quàm serò te amavi!</em>",
+          "marges": [
+            "Augst. Confes."
+          ],
+          "p": 402
+        },
+        {
+          "texte": "Que s'il arrive au contraire assez souvent, que les justes & les innocens sont moins touchés de reconnoissance envers J. C. & moins enflammés de son amour, c'est par un défaut de ce sentiment continuel qu'ils devroient avoir du secours divin, par lequel ils ont été préservés des grands péchés qu'ils auroient commis infailliblement s'ils avoient été abandonnés, comme les autres, à de fortes tentations, sans être assistés aussi puissamment qu'ils l'ont été: <em>Ut adulterium non committeres suasor defuit; ut suasor deesset ego feci. Locus & tempus defuit; & ut hæc deessent ego feci. Affuit suasor, non defuit locus, non defuit tempus; ut non consentires, ego terrui.</em> Ce sont les paroles que le même Saint met dans la bouche de Dieu, qui dit à ce Pharisien superbe & enflé de sa justice prétendue: Si vous n'avez point commis d'adultère, c'est que vous n'avez point eu de tentateur qui vous y ait engagé; <a class=\"page-inline\" href=\"page-403.html\" title=\"p. 403\">‖</a>c'est que le temps & l'occasion vous ont manqué pour cela. Et qui a fait que ces choses vous ont manqué, si ce n'est moi? Que si au contraire & le tentateur & l'occasion, & le temps ne vous ont point manqué, n'est-ce pas encore moi, qui par ma crainte vous ai empêché d'y consentir? Vous m'êtes donc redevable de votre innocence à l'egard de tant de crimes que vous n'avez point commis, aussi bien que ce pécheur m'est redevable de sa justification à l'égard de tous ceux que je lui ai pardonnés: <em>Mihi debet iste quod factum est, & dimissum vidisti; mihi debes & tu quod non admisisti.</em>",
+          "marges": [
+            "Idem. hom. 23. c. 6."
+          ],
+          "p": 402
+        }
+      ],
+      "noteVersets": [
+        44,
+        45,
+        46,
+        47,
+        48
+      ]
+    },
+    {
+      "n": 45,
+      "p": 390,
+      "lat": "Osculum mihi non dedisti : hæc autem ex quo intravit , non cessavit osculari pedes meos.",
+      "fr": "Vous ne m'avez point donné de baiser : mais elle , depuis qu'elle est entrée , n'a cessé de baiser mes pieds.",
+      "note": ""
+    },
+    {
+      "n": 46,
+      "p": 390,
+      "lat": "Oleo caput meum <a class=\"page-inline\" href=\"page-391.html\" title=\"p. 391\">‖</a>non unxisti : hæc autem unguento unxit pedes meos.",
+      "fr": "Vous n'avez point répandu <a class=\"page-inline\" href=\"page-391.html\" title=\"p. 391\">‖</a>d'huile sur ma tête : & elle a répandu ses parfums sur mes pieds.",
+      "note": ""
+    },
+    {
+      "n": 47,
+      "p": 391,
+      "lat": "Propter quod dico tibi : Remittuntur ei peccata multa , quoniam dilexit multùm. Cui autem minus dimittitur , minus diligit.",
+      "fr": "C'est pourquoi je vous déclare , que beaucoup de péchés lui sont remis , parce qu'elle a beaucoup aimé. Mais celui à qui on remet moins , aime moins.",
+      "note": ""
+    },
+    {
+      "n": 48,
+      "p": 391,
+      "lat": "Dixit autem ad illam : Remittuntur tibi peccata.",
+      "fr": "Alors il dit à cette femme : Vos péchés vous sont remis.",
+      "note": [
+        {
+          "texte": "<em>Alors il dit à cette femme: Vos péchés vous sont remis. Et ceux qui étoient à table avec lui, commencèrent à dire en eux-mêmes: Qui est celui-ci qui remet même les péchés?</em>",
+          "marges": [],
+          "p": 403
+        },
+        {
+          "texte": "Saint Augustin considérant tout ce que fait cette femme aux pieds du Sauveur, dit: Qu'encore qu'elle ne vît qu'extérieurement que l'homme en la personne de JESUS, non plus que les autres, elle y reconnut néanmoins des yeux de la foi quelque chose de plus grand, & qu'en pleurant, en arrosant ses pieds de ses larmes, les essuyant avec ses cheveux, & y répandant des parfums, elle ne tendoit à autre chose qu'à obtenir le pardon de ses péchés. Elle savoit donc, ajoute ce Saint, qu'il pouvoit remettre les péchés des hommes. Et étant très-persuadée, aussi bien que tous les conviés, que l'homme ne le pouvoit point, elle croyoit par conséquent, que celui qui avoit ce pouvoir étoit plus qu'un homme: <em>Illa quæ credidit eum posse peccata dimittere, plusquàm hominem esse intellexit.</em> Mais que nous marque J. C. lorsqu'il dit à cette femme, <em>Vos péchés vous sont remis</em>? Est-ce une simple déclaration, que ses péchés lui avoient été remis; ou comme une confirmation de ce qu'il avoit déjà fait; ou bien les lui remet-il actuellement en lui parlant de la sorte? Il semble que saint Augustin ait cru que le Fils de Dieu lui remit effectivement alors ses péchés, puisque tout ce qu'elle avoit fait jusqu'à ce moment ne tendoit, selon ce Saint, qu'à en obtenir le pardon: <em>Nam quare fecit illa omnia, nisi ut sibi dimitterentur peccata?</em> Aussi saint Cyrille a regardé ces paroles, <em>Vos péchés vous sont remis</em>, comme ayant été prononcées par J. C. avec une souveraine autorité; c'est-à-dire, qu'il parla, comme ayant le pouvoir suprême de lui pardonner ses péchés, & comme les lui pardonnant en effet, selon que ceux qui étoient présens témoignèrent le comprendre. Mais qu'avoit donc entendu le Fils de Dieu, lorsqu'en parlant au Pharisien, il avoit dit, Que <em>beaucoup de péchés étoient remis à cette femme, parce qu'elle avoit</em> <a class=\"page-inline\" href=\"page-404.html\" title=\"p. 404\">‖</a><em>beaucoup aimé?</em> Quelques savans Interprètes ont cru qu'il avoit voulu seulement marquer par-là ce qui devoit arriver aussitôt après, & ce qui même avoit déjà commencé en quelque sorte, puisque l'amour qu'elle avoit pour J. C. étoit déjà un commencement de sa grâce, qui s'accrut ensuite, & se perfectionna par l'entier pardon de ses péchés, lequel fut ainsi & l'effet & la cause de sa grande charité, comme on l'a marqué auparavant.",
+          "marges": [
+            "August. hom. 23. c. 7.",
+            "Cyrill. thesaur. l. 8. c. 2.",
+            "Estius in hunc locum. Jansen. ibid."
+          ],
+          "p": 403
+        },
+        {
+          "texte": "Tous ceux qui étoient présens furent dans un grand étonnement lorsqu'ils entendirent J. C. lui déclarer, Que ses péchés lui étoient remis: car ils savoient bien, dit saint Augustin, que l'homme n'avoit point un tel pouvoir. C'est pourquoi ils murmuroient secrétement, & <em>ils disoient en eux-mêmes: Qui est celui-ci qui remet</em>, c'est-à-dire, qui prétend remettre <em>les péchés</em>? Car ils n'étoient pas persuadés qu'il les remît. Lors donc qu'ils avoient cette pensée, <em>Qui est celui-ci</em>? il ne leur répondit pas, C'est le Fils de Dieu, c'est le Verbe de Dieu: mais voyant clairement ce qui se passoit au fond de leurs cœurs, il se contenta, pour résoudre leur difficulté, de se tourner vers cette femme pénitente, & de lui dire, <em>Votre foi vous a sauvée</em>: ce qui est de même, selon la pensée de saint Augustin, que s'il lui eût dit: Que ces personnes qui disent avec murmure, <em>Qui est celui-ci qui remet même les péchés?</em> me regardent comme un homme: mais pour vous, ô femme, c'est <em>votre foi qui vous a sauvée</em>; votre foi, par laquelle vous ne m'avez pas seulement regardé comme homme, mais comme Dieu; votre foi, qui vous ayant persuadée que je pouvois vous remettre tous vos crimes, vous a fait avoir recours aux larmes de la pénitence, & aux bonnes œuvres qui pouvoient fléchir ma miséricorde. Car <em>la foi</em> dont parle ici J. C. n'étoit pas une foi morte, mais une foi accompagnée de la charité, & de tous les exercices de piété, qui la rendit digne d'être <em>renvoyée en paix</em>, c'est-à-dire, de recevoir de la bouche du Fils de Dieu même, l'assurance de sa parfaite réconciliation avec celui qu'elle avoit tant offensé.",
+          "marges": [
+            "Augst. hom. 23. c. 7."
+          ],
+          "p": 404
+        }
+      ],
+      "noteVersets": [
+        48,
+        49
+      ],
+      "marges": [
+        "Matt. 9. 2."
+      ]
+    },
+    {
+      "n": 49,
+      "p": 391,
+      "lat": "Et cœperunt , qui simul accumbebant , dicere intra se : Quis est hic , qui etiam peccata dimittit ?",
+      "fr": "Et ceux qui étoient à table avec lui , commencèrent à dire en eux-mêmes : Qui est celui-ci qui * remet même les péchés ?",
+      "note": "",
+      "nb": [
+        "℣. 49. expl. prétend même remettre les péchés."
+      ]
+    },
+    {
+      "n": 50,
+      "p": 391,
+      "lat": "Dixit autem ad mulierem : Fides tua te salvam fecit : vade in pace.",
+      "fr": "Et JESUS dit encore à cette femme : Votre foi vous a sauvée : allez en paix ¶.",
+      "note": ""
+    }
+  ]
+};
+  </script>
+</head>
+<body data-base="../">
+
+<div class="page-shell">
+  <button class="sidebar-open-btn" aria-label="Ouvrir le sommaire">☰</button>
+  <div class="sidebar-backdrop"></div>
+
+  <aside class="sidebar">
+    <div class="sidebar-head">
+      <a class="sidebar-brand" href="../index.html">Bible de Sacy</a>
+      <button class="sidebar-collapse-btn" title="Replier le sommaire">«</button>
+    </div>
+    <div class="sidebar-search">
+      <input type="search" class="sidebar-search-input" placeholder="Rechercher…" autocomplete="off" spellcheck="false">
+      <div class="sidebar-search-results" hidden></div>
+    </div>
+    <nav class="sidebar-tree"><details class="canon-group" open><summary>Nouveau Testament</summary>
+<details class="livre-group" data-livre="luc"><summary><span class="abr">Lc</span> <span class="nom">Évangile de saint Luc</span></summary>
+<div class="chap-list">
+<a href="../luc/index.html" data-ch="0">Préface</a>
+<a href="../luc/ch01.html" data-ch="1">1</a>
+<a href="../luc/ch02.html" data-ch="2">2</a>
+<a href="../luc/ch03.html" data-ch="3">3</a>
+<a href="../luc/ch04.html" data-ch="4">4</a>
+<a href="../luc/ch05.html" data-ch="5">5</a>
+<a href="../luc/ch06.html" data-ch="6">6</a>
+<a href="../luc/ch07.html" data-ch="7">7</a>
+<a href="../luc/ch08.html" data-ch="8">8</a>
+<a href="../luc/ch09.html" data-ch="9">9</a>
+<a href="../luc/ch10.html" data-ch="10">10</a>
+<a href="../luc/ch11.html" data-ch="11">11</a>
+<a href="../luc/ch12.html" data-ch="12">12</a>
+<a href="../luc/ch13.html" data-ch="13">13</a>
+<a href="../luc/ch14.html" data-ch="14">14</a>
+<a href="../luc/ch15.html" data-ch="15">15</a>
+<a href="../luc/ch16.html" data-ch="16">16</a>
+<a href="../luc/ch17.html" data-ch="17">17</a>
+<a href="../luc/ch18.html" data-ch="18">18</a>
+<a href="../luc/ch19.html" data-ch="19">19</a>
+<a href="../luc/ch20.html" data-ch="20">20</a>
+<a href="../luc/ch21.html" data-ch="21">21</a>
+<a href="../luc/ch22.html" data-ch="22">22</a>
+<a href="../luc/ch23.html" data-ch="23">23</a>
+<a href="../luc/ch24.html" data-ch="24">24</a>
+</div></details>
+</details></nav>
+    <div class="sidebar-foot">
+      <a href="../biblio.html">Bibliographie</a>
+      <a href="../recherche.html">Recherche</a>
+      <button class="theme-toggle" title="Thème clair / sombre"><span class="theme-icon">☾</span></button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <p class="breadcrumb">
+      <a href="../index.html">Bible de Sacy</a> › <span class="breadcrumb-livre"></span>
+    </p>
+
+    <header class="chapter-header">
+      <p class="livre"></p>
+      <h1></h1>
+      <h2></h2>
+      <div class="chapter-actions">
+        <button class="btn" id="latin-toggle">Afficher le latin</button>
+        <a class="btn lien-pages" href="#" hidden>📄 Page à page</a>
+        <a class="btn lien-facs" href="#" target="_blank" rel="noopener">📖 Fac-similé</a>
+      </div>
+    </header>
+
+    <div class="chapitre-columns">
+      <section class="col-francais" aria-label="Texte français"></section>
+      <section class="col-commentaire" aria-label="Commentaire">
+        <p class="col-label">Notes de la <em>Bible de Sacy</em></p>
+        <div class="commentaire-texte"></div>
+      </section>
+      <section class="col-litteral" aria-label="Sens littéral" hidden>
+        <p class="col-label">
+          <span>Sens littéral</span>
+          <span class="sens-toggle">
+            <button class="btn sens-btn active" data-sens="litteral">Littéral</button>
+            <button class="btn sens-btn" data-sens="spirituel">Spirituel</button>
+          </span>
+        </p>
+        <div class="litteral-texte"></div>
+      </section>
+      <section class="col-spirituel" aria-label="Sens spirituel" hidden>
+        <p class="col-label">Sens spirituel</p>
+        <div class="spirituel-texte"></div>
+      </section>
+    </div>
+
+    <nav class="chapter-nav">
+      <a class="nav-prev" href="#">←</a>
+      <span class="chapitre-num"></span>
+      <a class="nav-next" href="#">→</a>
+    </nav>
+  </main>
+</div>
+
+<script src="../render.js"></script>
+</body>
+</html>

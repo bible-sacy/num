@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><!-- rempli par render.js --></title>
+  <link rel="stylesheet" href="../style.css">
+  <script>
+    (function(){ document.documentElement.setAttribute('data-theme', localStorage.getItem('sacy-theme')||'light'); })();
+  </script>
+  <script src="../search-index.js"></script>
+  <script>
+  const SACY_DATA = {
+  "meta": {
+    "livre": "luc",
+    "livreFr": "Évangile de saint Luc",
+    "livreAbr": "Lc",
+    "chapitre": 4,
+    "chapTotal": 24,
+    "titre": "Jeûne & tentation de J. C. Il commence à prêcher. Il prêche à Nazareth. Délivrance d'un possédé. Guérison de la belle-mère de saint Pierre. Retraite de Jesus dans le désert.",
+    "pageFacs": 343,
+    "pageView": true,
+    "chapitresDisponibles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "facsimile": {
+      "slug": "luc",
+      "page": 343
+    }
+  },
+  "versets": [
+    {
+      "n": 1,
+      "p": 343,
+      "lat": "Jesus autem plenus Spiritu sancto , regressus est à Jordane : & agebatur à Spiritu in desertum",
+      "fr": "JESUS étant plein du Saint-Esprit , revint des bords du Jourdain ; & il fut poussé par l'Esprit dans le désert.",
+      "note": "",
+      "marges": [
+        "Matt. 4. 1.",
+        "Marc. 1. 12."
+      ]
+    },
+    {
+      "n": 2,
+      "p": 343,
+      "lat": "diebus quadraginta ; & tentabatur à diabolo. Et nihil manducavit in diebus illis : & consummatis illis , esuriit.",
+      "fr": "* Il y demeura quarante jours , & il y fut tenté par le diable. Il ne mangea rien pendant tout ce temps-là : & lorsque ces jours furent passés il eut faim.",
+      "note": "",
+      "nb": [
+        "℣. 2. gr. Il y fut tenté pendant quarante jours."
+      ]
+    },
+    {
+      "n": 3,
+      "p": 343,
+      "lat": "Dixit autem illi diabolus : Si Filius Dei es , dic lapidi huic ut panis fiat.",
+      "fr": "Alors le diable lui dit : Si vous êtes le Fils de Dieu , * commandez à cette pierre qu'elle devienne du pain.",
+      "note": "",
+      "nb": [
+        "℣. 3. lettr. dites."
+      ]
+    },
+    {
+      "n": 4,
+      "p": 343,
+      "lat": "Et respondit ad illum <a class=\"page-inline\" href=\"page-344.html\" title=\"p. 344\">‖</a>Jesus : Scriptum est , Quia non in solo pane vivit homo , sed in omni verbo Dei.",
+      "fr": "JESUS lui répondit : Il est écrit <a class=\"page-inline\" href=\"page-344.html\" title=\"p. 344\">‖</a>que l'homme ne vit pas seulement de pain , mais * de toute parole de Dieu.",
+      "note": "",
+      "marges": [
+        "Deut. 8. 3.",
+        "Matt. 4. 4."
+      ],
+      "nb": [
+        "℣. 4. autr. tout ce qu'il plaît à Dieu lui donner pour sa nourriture."
+      ]
+    },
+    {
+      "n": 5,
+      "p": 344,
+      "lat": "Et duxit illum diabolus in montem excelsum , & ostendit illi omnia regna orbis terræ in momento temporis ,",
+      "fr": "Et le diable le transporta sur une haute montagne , d'où lui ayant fait voir en un moment tous les royaumes du monde ,",
+      "note": ""
+    },
+    {
+      "n": 6,
+      "p": 344,
+      "lat": "& ait illi : Tibi dabo potestatem hanc universam , & gloriam illorum : quia mihi tradita sunt , & cui volo do illa.",
+      "fr": "il lui dit : Je vous donnerai toute cette puissance , & la gloire de ces royaumes : car elle m'a été donnée , & je la donne à qui il me plaît.",
+      "note": ""
+    },
+    {
+      "n": 7,
+      "p": 344,
+      "lat": "Tu ergo si adoraveris coram me , erunt tua omnia.",
+      "fr": "Si donc vous voulez m'adorer , toutes ces choses seront à vous.",
+      "note": ""
+    },
+    {
+      "n": 8,
+      "p": 344,
+      "lat": "Et respondens Jesus dixit illi : Scriptum est : Dominum Deum tuum adorabis , & illi soli servies.",
+      "fr": "JESUS lui répondit : * Il est écrit : Vous adorerez le Seigneur votre Dieu , & vous ne servirez que lui seul.",
+      "note": "",
+      "marges": [
+        "Deut. 6. 13. 10. 20."
+      ],
+      "nb": [
+        "℣. 8. gr. Retire-toi de moi , satan ; car , &c."
+      ]
+    },
+    {
+      "n": 9,
+      "p": 344,
+      "lat": "Et duxit illum in Jerusalem , & statuit eum super pinnam templi , & dixit illi : Si Filius Dei es , mitte te hinc deorsum ;",
+      "fr": "Le diable le transporta encore dans Jérusalem ; & l'ayant mis sur le haut du temple , il lui dit : Si vous êtes le Fils de Dieu , jettez-vous d'ici en bas ;",
+      "note": ""
+    },
+    {
+      "n": 10,
+      "p": 344,
+      "lat": "scriptum est enim quòd Angelis suis mandavit de te , ut conservent te ;",
+      "fr": "car il est écrit , Qu'il a ordonné à ses Anges d'avoir soin de vous , & de vous garder :",
+      "note": "",
+      "marges": [
+        "Ps. 90. 11."
+      ]
+    },
+    {
+      "n": 11,
+      "p": 344,
+      "lat": "& quia in manibus tollent te , ne fortè offendas ad lapidem pedem tuum.",
+      "fr": "& qu'ils vous soutiendront de leurs mains , de peur que vous ne vous heurtiez le pied contre quelque pierre.",
+      "note": ""
+    },
+    {
+      "n": 12,
+      "p": 344,
+      "lat": "Et respondens Jesus , ait illi : Dictum est : Non tentabis Dominum Deum tuum.",
+      "fr": "JESUS lui répondit : Il est écrit : Vous ne tenterez point le Seigneur votre Dieu.",
+      "note": "",
+      "marges": [
+        "Deut. 6. 16."
+      ]
+    },
+    {
+      "n": 13,
+      "p": 344,
+      "lat": "Et consummatâ omni tentatione , diabolus recessit ab illo , usque ad tempus.",
+      "fr": "Le diable ayant achevé toutes ses tentations , se retira de lui pour un temps.",
+      "note": [
+        {
+          "texte": "<em>Le diable ayant achevé toutes ses tentations, se retira de lui pour un temps.</em>",
+          "marges": [],
+          "p": 348
+        },
+        {
+          "texte": "Saint Ambroise croit que le saint Evangéliste ne diroit pas, que <em>toute la tentation du démon avoit été consommée</em>, si dans ces trois différentes manières dont il tenta J. C., il n'avoit en quelque sorte épuisé toutes ses tentations, & tous les moyens dont il use ordinairement pour perdre les hommes. Il fait consister ces trois sortes de tentations dans le plaisir de la chair ou des sens, dans l'amour vain de la gloire, & dans le désir de la puissance: <em>Causa autem cupiditatum sunt, carnis oblectatio, species gloriæ, aviditas potentiæ.</em> Et il ajoute que saint Paul parlant de soi-même, & de la couronne de justice qu'il espéroit du Seigneur, pour avoir évité ces sortes de piéges, les a touchés en quelque façon, lorsqu'il disoit aux fidelles de Thessalonique: <em>Car nous n'avons point usé d'aucune parole de flatterie, & notre ministère n'a</em> <a class=\"page-inline\" href=\"page-349.html\" title=\"p. 349\">‖</a><em>point servi de prétexte à notre avarice; & nous n'avons point aussi recherché aucune gloire de la part des hommes.</em> Or nous voyons, comme dit encore le même Saint, par la manière dont le démon en usa alors avec J. C., qu'il n'est pas obstiné à nous tenter, qu'il ne cède enfin à une véritable vertu. Car quoiqu'il ne cesse point de porter envie aux hommes, il appréhende néanmoins de les presser avec trop d'instance, à cause que son orgueil lui fait craindre de se voir vaincu trop souvent.",
+          "marges": [
+            "Hieron. adversus Pelag. l. 2. to. 1. p. 862.",
+            "Ambr. in hunc loc.",
+            "1. Thess. 2. 5. 6."
+          ],
+          "p": 348
+        },
+        {
+          "texte": "Il est dit que toute sa tentation étant consommée, ou épuisée, <em>il se retira de J. C. pour un temps</em>, ou jusqu'à un autre temps; c'est-à-dire, selon que l'expliquent les saints Pères, & entre autres saint Jérôme & saint Ambroise, jusqu'au temps de la passion, auquel il vint, comme dit l'un de ces Saints, non pas tant pour le tenter, que pour combattre ouvertement contre lui: <em>Postèà enim, non tentaturus, sed apertè pugnaturus advenit.</em> Mais on peut bien dire aussi avec un ancien Auteur, que J. C. dans le temps de sa passion n'a pas été seulement attaqué à force ouverte par cet ennemi de notre salut, mais aussi tenté de la même manière qu'il le fut dans le désert. Car comme il lui dit ici, <em>Si vous êtes le Fils de Dieu, jettez-vous en bas</em>; il lui fit dire de même, lorsqu'il étoit élevé sur la croix par les Juifs impies, qui étoient ses membres: <em>Si vous êtes le Fils de Dieu, descendez présentement de la croix</em> où vous êtes attaché: & il lui fit dire encore dans le même esprit par un des voleurs qui étoit à son côté: <em>Si vous êtes le</em> CHRIST<em>, sauvez-vous vous-même, & nous avec vous.</em>",
+          "marges": [
+            "Euthym. in Matt. c. 4."
+          ],
+          "p": 349
+        },
+        {
+          "texte": "Or il ne faut pas nous lasser ni perdre courage, si le démon, après que nous l'avons surmonté, comme J. C., une ou plusieurs fois, revient à nous pour nous tenter de nouveau. <em>Pensez en vous-mêmes</em>, disoit saint Paul aux Hébreux, <em>à celui qui a souffert une si grande contradiction des pécheurs</em> qui se sont élevés <em>contre lui, afin que vous ne vous décourageiez point, & que vous ne tombiez pas dans l'abattement; car vous n'avez pas encore résisté jusqu'à répandre votre sang, en combattant contre le péché.</em> On peut juger, dit saint Chrysostôme, de la grandeur d'un Chrétien, par la guerre qu'il est obligé de soutenir. Car il n'a pas seulement à combattre contre la chair & contre le sang, mais contre les princes des ténèbres de ce monde. Sa guerre est une guerre toute spirituelle; & ses ennemis, des esprits puissans & pleins de malice. Un Chrétien ne combat pas sur la terre pour des biens terrestres, mais il se propose dans ce saint combat une céleste récompense, il tend au royaume de Dieu même, & à l'héritage de J. C. Puis donc <a class=\"page-inline\" href=\"page-350.html\" title=\"p. 350\">‖</a>qu'il aspire à une telle couronne, il doit s'attendre à de grands combats, c'est-à-dire, à de grandes tentations. Mais bien loin de craindre ces tentations, il doit les envisager comme le sujet de ses victoires, & la matière de ses triomphes. Ce riche qui ne souffrit point de tentations dans le siècle, gémit ensuite dans les flammes des enfers. Lazare au contraire accablé de pauvreté & de maladies, trouva en passant par les travaux d'une vie si affligée, l'immortalité & la gloire qu'il cherchoit avec ardeur. Ainsi les différentes afflictions sont comme l'appanage de la vie présente des justes; car Dieu châtie ceux qu'il aime.",
+          "marges": [
+            "Hebr. 12. 3."
+          ],
+          "p": 349
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "p": 344,
+      "lat": "Et regressus est Je<a class=\"page-inline\" href=\"page-345.html\" title=\"p. 345\">‖</a>sus in virtute Spiritûs in Galilæam , & fama exiit per universam regionem de illo.",
+      "fr": "Alors JESUS s'en retourna <a class=\"page-inline\" href=\"page-345.html\" title=\"p. 345\">‖</a>en Galilée par la vertu de l'Esprit de Dieu , & sa réputation se répandit dans tout le pays d'alentour.",
+      "note": [
+        {
+          "texte": "<em>Alors</em> JESUS <em>s'en retourna en Galilée par la vertu de l'Esprit</em> de Dieu, <em>& sa réputation se répandit part-tout, &c.</em>",
+          "marges": [],
+          "p": 350
+        },
+        {
+          "texte": "JESUS avoit quitté la Galilée pour venir trouver S. Jean au Jourdain, afin d'y recevoir son baptême. Et après avoir été baptisé, il s'étoit retiré dans les déserts, <em>plein de l'Esprit saint</em>, selon qu'il est dit au commencement de ce chapitre. Ce n'est pas que le baptême de son précurseur eut ajouté quelque chose à la plénitude de l'Esprit de Dieu qui étoit en lui; mais l'Evangéliste donne lieu d'entendre par là, que J. C. commença dès-lors à faire éclater les effets de cet Esprit saint dont il fut rempli, comme homme, dès le moment de son Incarnation. Il est dit présentement, Qu'il <em>s'en retourna en Galilée</em>, après que le diable eut consommé toute sa tentation, & qu'il se fut retiré de lui. Et un autre Evangéliste nous apprend, que la raison qui l'obligea à y retourner, fut qu'on lui dit, que Jean-Baptiste avoit été mis en prison, & qu'ainsi il ne voulut pas donner ombrage au Prince qui l'y avoit fait mettre. Mais étoit-il nécessaire que l'Evangile ajoutât, que <em>ce fut par la vertu de l'Esprit</em> de Dieu, qu'il s'en retourna en cette province? Car pouvoit-on attribuer aucune action ni aucune démarche de J. C. à un autre mouvement qu'à celui de l'Esprit saint dont il possédoit la plénitude? Il est vrai que si l'on regarde J. C. seulement en lui-même & sans rapport à l'Eglise, il pouvoit paroître inutile en quelque sorte d'ajouter cette circonstance. Mais si on le considère comme chef du corps mystique, dont tous les fidelles sont les membres, il étoit très-important de faire connoître aux membres dans la personne du chef, une image de la conduite qu'ils devoient tenir. Et ainsi S. Luc a grand soin de remarquer en diverses occasions, que c'étoit l'Esprit de Dieu qui conduisoit J. C.; soit lorsqu'il alla dans le désert pour être tenté par le démon; soit lorsqu'il s'en retourna en Galilée après que le diable eut consommé toute sa tentation; afin que nous apprenions à suivre aussi, autant qu'il <a class=\"page-inline\" href=\"page-351.html\" title=\"p. 351\">‖</a>nous est possible, le même Esprit saint dans toute notre conduite.",
+          "marges": [
+            "Marc. 1. 9.",
+            "Matt. 4. 12."
+          ],
+          "p": 350
+        }
+      ],
+      "noteVersets": [
+        14,
+        15
+      ],
+      "marges": [
+        "Matt. 4. 12.",
+        "Marc. 1. 14.",
+        "Joan. 4. 45."
+      ]
+    },
+    {
+      "n": 15,
+      "p": 345,
+      "lat": "Et ipse docebat in synagogis eorum , & magnificabatur ab omnibus.",
+      "fr": "Il enseignoit dans leurs synagogues , & il étoit estimé & honoré de tout le monde.",
+      "note": ""
+    },
+    {
+      "n": 16,
+      "p": 345,
+      "lat": "Et venit Nazareth , ubi erat nutritus , & intravit secundum consuetudinem suam die sabbati in synagogam , & surrexit legere.",
+      "fr": "Etant venu à Nazareth , où il avoit été élevé , il entra , selon sa coutume , le jour du sabbat dans la synagogue , & il se leva pour lire.",
+      "note": [
+        {
+          "texte": "<em>Etant venu à Nazareth, où il avoit été élevé, il entra, selon sa coutume, le jour du sabbat dans la synagogue, & il se leva pour lire. On lui présenta le livre du Prophète Isaïe, & l'ayant ouvert, il trouva le lieu où ces paroles étoient écrites: l'Esprit du Seigneur s'est reposé sur moi, &c.</em>",
+          "marges": [],
+          "p": 351
+        },
+        {
+          "texte": "C'est le sentiment des plus savans Interprètes, que J. C. étant retourné en Galilée ne vint pas d'abord à Nazareth. Et il paroît même par le treizième verset du quatrième chapitre de S. Matthieu, selon que plusieurs l'ont expliqué, que le Sauveur ne voulut pas s'y retirer, & qu'il préféra la demeure de Capharnaüm. Aussi il est dit dans cet endroit même de saint Luc que nous expliquons, que J. C. <em>enseignoit dans les synagogues</em>, & qu'il <em>étoit estimé & honoré de tout le monde</em>, avant qu'il y soit marqué qu'il alla à Nazareth. Lors donc que saint Luc rapporte, Que <em>JESUS étant venu à Nazareth, entra, selon sa coutume, le jour du sabbat dans la synagogue</em>; il faut entendre, que JESUS entra une fois dans la synagogue de Nazareth le jour du sabbat, selon qu'il avoit accoutumé d'entrer dans les autres synagogues en ce même jour.",
+          "marges": [
+            "Luc. 4. 14. 15."
+          ],
+          "p": 351
+        },
+        {
+          "texte": "On a déjà vu ailleurs, que c'étoit assez l'usage que le chef de la synagogue présentât, ou fit présenter un livre de l'Ecriture à quelqu'un de ceux qui étoient présens dans ces assemblées publiques, lorsqu'il étoit en réputation d'être savant dans l'intelligence de la loi, afin qu'il en expliquât quelque chose au peuple. Ainsi <em>la réputation de</em> J. C. s'étant, comme dit saint Luc, <em>répandue dans tout le pays d'alentour</em>, sans doute à cause de ses miracles, & des maximes toutes célestes <em>qu'il avoit</em> déjà <em>enseignées dans les autres synagogues</em>, & qui <em>le faisoient admirer de tout le monde</em>; il ne faut pas s'étonner si lorsqu'il entra dans la synagogue de Nazareth <em>on lui présenta le livre du prophète Isaïe</em>, pour en lire devant le peuple, & pour leur en expliquer quelque passage. Origene a attribué à un effet de la divine providence, de ce que le livre, où le Prophète parloit du Sauveur si expressément, lui fut présenté, afin que ce lui fut une occasion de donner aux Juifs l'intelligence de ce qui le regardoit dans ces prophéties. D'autres Interprètes l'attribuent à un effet de jalousie & de la malice secrète de ceux mêmes qui lui présentèrent ce livre divin, qu'ils regardoient comme très-obscur, & qui voulurent par là mettre à l'épreuve la science de J. C., dont les peuples relevoient si hautement le mérite: car la prévention où ils étoient contre lui, <a class=\"page-inline\" href=\"page-352.html\" title=\"p. 352\">‖</a>à cause de sa pauvreté & de l'idée qui leur restoit de son enfance, les empêchoit d'en avoir la même estime que le peuple. Ces deux sentimens peuvent fort bien s'accorder l'un avec l'autre; puisque Dieu sait se servir de la mauvaise volonté des hommes pour accomplir ses adorables desseins.",
+          "marges": [
+            "Marc. 1. 21.",
+            "Origen. in hunc locum."
+          ],
+          "p": 351
+        },
+        {
+          "texte": "Voici donc quel est le passage d'Isaïe que le Fils de Dieu lut devant les Juifs dans la synagogue de Nazareth: <em>L'Esprit du Seigneur s'est reposé sur moi</em>; non pas simplement comme sur les autres justes qui ne <em>reçoivent</em>, selon l'Evangile, que <em>de la plénitude de</em> J. C., mais d'une manière unique & singulière à celui en <em>qui habitoit toute la plénitude de la divinité.</em> Ainsi <em>Dieu ayant donné son Esprit, non par mesure, mais dans toute sa plénitude, à celui qu'il a envoyé</em> comme son Fils dans le monde; le Prophète ajoute, Que le Seigneur <em>l'a oint</em> par une consécration & une onction toute divine. Or J. C. a été <em>oint</em> en cette manière si excellente & si élevée au-dessus des autres Prophètes & de tous les autres hommes, au moment de son Incarnation; parce que dans cet instant le Verbe ayant été fait chair, & l'homme uni hypostatiquement à Dieu, il s'est fait en la personne du Sauveur comme une onction très-intime de la divinité, qui a pénétré d'une manière si parfaite la nature humaine, qu'il ne s'est fait de Dieu & de l'homme qu'un seul J. C., consacré par la double onction de la royauté & du sacerdoce qu'il possède comme le Messie & le vrai CHRIST.",
+          "marges": [
+            "Joan. 1. 16.",
+            "Coloss. 2. 9.",
+            "Joan. 3. 34."
+          ],
+          "p": 352
+        },
+        {
+          "texte": "Mais pourquoi a-t-il été consacré de cette sorte? C'étoit, ajoute Isaïe, <em>afin qu'il prêchât l'Evangile aux pauvres, & qu'il guérit ceux qui avoient le cœur brisé.</em> Les riches sont-ils donc exclus du bonheur qui est annoncé par l'Evangile? Non sans doute. Mais, parce que le Fils de Dieu s'est fait pauvre en se faisant homme, il a voulu que son royaume appartint singulièrement aux pauvres; afin que les riches mêmes, s'ils vouloient y aspirer, aimassent la pauvreté. Ainsi, <em>bienheureux</em>, dit-il autre part, <em>sont les pauvres de cœur & d'affection, parce que le royaume est à eux.</em> J. C. <em>a donc été envoyé pour annoncer l'Evangile</em> particulièrement <em>aux pauvres</em>, qui l'ont reçu les premiers, & pour <em>guérir ceux qui avoient le cœur brisé</em>; c'est-à-dire, selon le sens litteral de ces paroles, expliquées par quelques Anciens, ceux qui étoient dans le dernier accablement de misère, & comme brisés sous le poids de leurs péchés. Car pour ce qui est de la contrition salutaire du cœur, ce devoit être l'effet même de la grâce médicinale de J. C., qui en brisant, pour le dire ainsi, le cœur des hommes <a class=\"page-inline\" href=\"page-353.html\" title=\"p. 353\">‖</a>par un saint regret de leurs crimes, leur a procuré la guérison & <em>le salut</em> véritable.",
+          "marges": [
+            "Matt. 5. 3.",
+            "Hilar. in Ps. 52.",
+            "Euthym. in hunc locum."
+          ],
+          "p": 352
+        }
+      ],
+      "noteVersets": [
+        16,
+        17,
+        18
+      ],
+      "marges": [
+        "Matt. 13. 54.",
+        "Marc. 6. 1.",
+        "Joan. 4. 43."
+      ]
+    },
+    {
+      "n": 17,
+      "p": 345,
+      "lat": "Et traditus est illi liber Isaiæ prophetæ. Et ut revolvit librum , invenit locum ubi scriptum erat :",
+      "fr": "On lui présenta le livre du prophète Isaïe ; & l'ayant ouvert , il trouva le lieu où ces paroles étoient écrites :",
+      "note": ""
+    },
+    {
+      "n": 18,
+      "p": 345,
+      "lat": "Spiritus Domini super me ; propter quod unxit me : Evangelizare pauperibus misit me , sanare contritos corde :",
+      "fr": "L'Esprit du Seigneur s'est reposé sur moi ; c'est pourquoi il m'a * consacré par son onction : il m'a envoyé pour prêcher l'Evangile aux pauvres , pour guérir ceux qui ont le cœur brisé :",
+      "note": "",
+      "marges": [
+        "Isai. 41. 1."
+      ],
+      "nb": [
+        "℣. 18. lettr. oint ,"
+      ]
+    },
+    {
+      "n": 19,
+      "p": 345,
+      "lat": "prædicare captivis remissionem , & cæcis visum : dimittere confractos in remissionem , prædicare annum Domini acceptum , & diem retributionis.",
+      "fr": "pour annoncer aux captifs leur délivrance , & aux aveugles le recouvrement de la vue ; pour renvoyer libres ceux qui sont brisés sous leurs fers ; pour publier l'année favorable du Seigneur , & le jour auquel * il se vengera de ses ennemis.",
+      "note": [
+        {
+          "texte": "<em>Pour annoncer aux captifs leur délivrance, & aux aveugles le recouvrement de la vue; pour renvoyer libres ceux qui sont brisés sous leurs fers; pour publier l'année favorable du Seigneur, & le jour auquel il se vengera de ses ennemis.</em>",
+          "marges": [],
+          "p": 353
+        },
+        {
+          "texte": "Selon le sens littéral de cette prédiction d'Isaïe, il promettoit au peuple Juif, qui étoit captif parmi les Babyloniens, que le Seigneur les délivreroit de cette captivité. Et tout ce qu'il dit se doit entendre littéralement par rapport à l'état même où sont des captifs, qui gémissent dans l'obscurité affreuse des cachots, étant privés de la vue de la lumière, qui sont brisés par la dureté de leurs chaînes, & qui désirent ardemment que quelque libérateur vienne les venger de leurs ennemis. Mais il est visible que le Prophète, sous ce style figuré, marquoit aussi une autre sorte de captivité, & avoit en vue une autre espèce de délivrance. En parlant donc de cette captivité des Juifs en Babylone, il parloit en même-temps de l'esclavage de tous les hommes, réduits en captivité sous la tyrannie du démon; & en prédisant la délivrance de ces mêmes Juifs, & leur retour à Jérusalem, il marquoit figurément les effets miraculeux de l'Incarnation de J. C., qui devoit être une source de salut pour les pécheurs. Tous les Interprètes conviennent que par cette <em>année favorable du Seigneur</em>, il faisoit allusion à l'année célèbre du Jubilé, dans laquelle chacun rentroit en possession de ce qu'il avoit vendu, & recouvroit même la liberté s'il l'avoit perdue. Ainsi Isaïe en parlant de cette année de miséricorde & de grâce, marquoit prophétiquement le temps de l'avénement du Fils de Dieu incarné pour la rédemption des hommes qui étoient captifs du démon.",
+          "marges": [
+            "Iren. l. 3. c. 10.",
+            "Levitic. 25. 10. 9. 40. 41."
+          ],
+          "p": 353
+        },
+        {
+          "texte": "Mais il ne faut pas, comme dit saint Irenée, resserrer cette <em>année favorable du Seigneur</em>, dans des bornes aussi étroites que le faisoient certains hérétiques de son temps, qui prétendoient s'appuyer de ce passage d'Isaïe, pour prouver que J. C. avoit prêché seulement durant l'espace de douze mois depuis son baptême. « Car les Prophètes, ajoute-t-il, déclarent eux-mêmes qu'ils ont dit beaucoup de choses en allégories & en paraboles, qu'on ne doit pas expliquer selon le sens extérieur de leurs paroles.... L'année favorable du Seigneur comprend donc le temps dans lequel il daigne appeler ceux qui croient en lui, & qu'il reçoit en sa grâce; c'est-à-dire, tout le temps depuis son premier avénement jusques à la consommation des siècles. » C'est ce qui fait dire à saint Paul en expliquant cette <a class=\"page-inline\" href=\"page-354.html\" title=\"p. 354\">‖</a>parole du Seigneur dans Isaïe: <em>Je vous ai exaucé au temps favorable, & je vous ai aidé au jour du salut: Voici maintenant</em>, ajoute-t-il, <em>le temps favorable, voici maintenant le jour du salut.</em> Car depuis le temps que le Fils de Dieu a paru au monde, qu'il est mort, & qu'il est ressuscité, ce temps favorable du salut des hommes, & de la grâce du Seigneur a été ouvert; & il le fera jusques <em>au jour des vengeances</em>, lorsque, selon l'Ecriture, il n'y aura plus de temps, & que chacun recevra selon ses œuvres.",
+          "marges": [
+            "Iren. l. 2. c. 28."
+          ],
+          "p": 353
+        },
+        {
+          "texte": "Mais quoique l'on puisse entendre avec saint Irenée & plusieurs autres, par <em>le jour de la vengeance</em>, le jour du jugement général, auquel Dieu rendra à chacun des hommes selon leurs mérites, il semble qu'il doit être ici entendu plus particulièrement, & selon le premier sens littéral, du temps même du premier avénement du Fils de Dieu: car il a dès-lors commencé à prendre vengeance de ses ennemis, en triomphant du démon par la délivrance des captifs, qu'il a arrachés d'entre ses mains, qu'il a dégagés des péchés qui comme des chaînes de fer les tenoient liés & les brisoient devant Dieu, & qu'il a enfin retirés de l'obscurité affreuse des ténèbres criminelles, qui leur déroboient la lumière de la vérité.",
+          "marges": [],
+          "p": 354
+        }
+      ],
+      "nb": [
+        "℣. 19. autr. rendra à chacun selon ses œuvres."
+      ]
+    },
+    {
+      "n": 20,
+      "p": 345,
+      "lat": "Et cùm plicuisset librum , reddidit ministro , & sedit. Et omnium in synagoga oculi erant intendentes in eum.",
+      "fr": "Ayant fermé le livre , il le rendit au ministre , & il s'assit. Tout le monde dans la synagogue avoit les yeux arrêtés sur lui.",
+      "note": [
+        {
+          "texte": "<em>Ayant fermé le livre il le rendit au ministre, & il s'assit. Tout le monde dans la synagogue avoit les yeux arrêtés sur lui. Et il commença à leur dire: C'est aujourd'hui que cette Ecriture que vous venez d'entendre est accomplie.</em>",
+          "marges": [],
+          "p": 354
+        },
+        {
+          "texte": "J. C. agit ici, non en disciple comme il avoit fait étant âgé de douze ans, mais en Docteur. Il ne se contente pas, comme alors, d'écouter & d'interroger les Docteurs des Juifs; mais s'étant <em>assis</em>, il leur parle avec cette autorité qu'il s'étoit déjà acquise dans les autres synagogues, en enseignant une doctrine aussi élevée au-dessus de ceux qui l'écoutoient, que son Evangile étoit plus parfait que l'ancienne loi. <em>Tout le monde dans la synagogue avoit les yeux arrêtés sur lui</em>; parce que sa réputation s'étant répandue, & les habitans de Nazareth se laissant aller au mouvement d'une jalousie secrète contre un Prophète de leur pays, ils avoient une espèce de curiosité de connoître par eux-mêmes, si ce qu'on disoit de J. C. étoit véritable. Il s'étendit donc à leur expliquer ce passage d'Isaïe qu'il avoit lu, & il leur fit voir que <em>ces paroles de l'Ecriture qu'ils venoient d'entendre s'accomplissoient en leurs jours</em>: ou que ce qu'ils entendoient alors de leurs oreilles étoit l'accomplissement de ce passage du Prophète; c'est-à-dire, que ce qu'Isaïe avoit prédit par ces paroles, il l'accomplissoit lui-même alors, en les enseignant comme il faisoit, <a class=\"page-inline\" href=\"page-355.html\" title=\"p. 355\">‖</a>& en les portant à reconnoître que ce temps de la miséricorde du Seigneur, de leur délivrance, & de leur salut, étoit arrivé.",
+          "marges": [
+            "Luc. 2. 46."
+          ],
+          "p": 354
+        }
+      ],
+      "noteVersets": [
+        20,
+        21
+      ]
+    },
+    {
+      "n": 21,
+      "p": 345,
+      "lat": "Cœpit autem dicere ad illos : Quia hodie impleta est hæc Scriptura in auribus vestris.",
+      "fr": "Et il commença à leur dire : C'est aujourd'hui que cette Ecriture que vous venez d'entendre est accomplie.",
+      "note": ""
+    },
+    {
+      "n": 22,
+      "p": 345,
+      "lat": "Et omnes testimonium illi dabant , & mirabantur in verbis gratiæ , quæ procedebant de ore <a class=\"page-inline\" href=\"page-346.html\" title=\"p. 346\">‖</a>ipsius , & dicebant : Nonne hic est filius Joseph ?",
+      "fr": "Et tous lui rendoient témoignage : & dans l'étonnement où ils étoient des paroles pleines de grâce <a class=\"page-inline\" href=\"page-346.html\" title=\"p. 346\">‖</a>qui sortoient de sa bouche , ils disoient : N'est-ce pas là le fils de Joseph ?",
+      "note": [
+        {
+          "texte": "<em>Et tous lui rendoient témoignage: & dans l'étonnement où ils étoient des paroles pleines de grâce qui sortoient de sa bouche, ils disoient: N'est-ce pas là le fils de Joseph? &c.</em>",
+          "marges": [],
+          "p": 355
+        },
+        {
+          "texte": "Ce <em>témoignage</em> que les habitans de Nazareth rendirent à J. C., ne tendoit pas à reconnoître sa qualité toute divine du Messie, mais seulement à admirer la sagesse, la grâce, & l'efficace de ses paroles. Car ils sentoient une certaine vertu dans ses discours, qu'ils ne trouvoient point dans leurs Docteurs. Mais saint Matthieu & saint Marc nous donnent lieu de juger que l'étonnement & l'admiration même où ils étoient, tant de sa sagesse que des merveilles qu'il avoit faites en divers lieux, ne servit qu'à leur causer du scandale. Car au lieu de remonter à la source de cette divine sagesse, & de ces œuvres miraculeuses, ils s'arrêtèrent à considérer la naissance de celui qu'ils regardoient comme <em>le fils de Joseph</em>, comme <em>le fils d'un charpentier</em>, & comme étant <em>charpentier lui-même.</em> Aussi J. C. connoissant la plaie de leur cœur, & voulant la leur faire connoître, se fit devant eux cette objection: <em>Sans doute que vous me direz ce proverbe: Médecin, guérissez-vous vous-même. Faites donc ici dans votre pays</em>, me direz-vous, <em>d'aussi grandes choses que nous avons oüi dire que vous avez faites dans Capharnaüm.</em> On a vu auparavant que J. C. étant retourné en Galilée, ne voulut point demeurer à Nazareth, sans doute à cause qu'il connoissoit la secrète jalousie de ces peuples contre lui; mais qu'il s'établit dans Capharnaüm, où il fit beaucoup de miracles, & où en prêchant la pénitence, il fit paroître à ces peuples ensevelis dans les ténèbres, cette <em>grande lumière qui éclaira</em>, selon Isaïe, <em>ceux qui étoient assis dans la région des ombres de la mort.</em> Ceux de Nazareth étoient informés de tous ces miracles; & ils avoient peine à souffrir que J. C. élevé au milieu d'eux, ne leur fit point voir de ces merveilles. Ainsi ils étoient dans la disposition de lui faire ce reproche, dont il parle ici, Qu'il négligeoit sa propre ville, lorsqu'il accabloit les autres de ses faveurs. On ne sait pas néanmoins s'ils étoient bien persuadés des miracles de J. C., ou si en doutant de la vérité des choses qu'ils avoient apprises, ils voulurent en quelque façon le piquer par une espèce de raillerie attachée à ce proverbe commun qu'on dit à un médecin, qui se vante de guérir beaucoup de malades étrangers, lorsqu'il ne sauroit se procurer la guérison à lui-même, ni aux siens.",
+          "marges": [
+            "Matt. 13. 57.",
+            "Marc. 6. 3.",
+            "Matt. 4. 12. 13."
+          ],
+          "p": 355
+        },
+        {
+          "texte": "Nous avons vu autre part l'explication de la réponse qu'il <a class=\"page-inline\" href=\"page-356.html\" title=\"p. 356\">‖</a>leur fit: Que nul Prophète n'étoit bien reçu dans son pays. Mais il ajouta:",
+          "marges": [
+            "Matt. 13. 57.",
+            "Marc. 6. 4."
+          ],
+          "p": 355
+        }
+      ],
+      "noteVersets": [
+        22,
+        23
+      ]
+    },
+    {
+      "n": 23,
+      "p": 346,
+      "lat": "Et ait illis : Utique dicetis mihi hanc similitudinem : Medice , cura teipsum : quanta audivimus facta in Capharnaüm , fac & hic in patria tua.",
+      "fr": "† Alors il leur dit : Sans doute que vous m'appliquerez ce proverbe : Médecin , guérissez-vous vous-même ; & que vous me direz : Faites ici en votre pays d'aussi grandes choses que nous avons oüi dire que vous en avez faites à Capharnaüm.",
+      "note": "",
+      "marges": [
+        "† 3. Lundi de Carême."
+      ]
+    },
+    {
+      "n": 24,
+      "p": 346,
+      "lat": "Ait autem : Amen dico vobis , quia nemo Propheta acceptus est in patria sua.",
+      "fr": "Mais je vous assure , ajouta-t-il , qu'aucun Prophète n'est bien reçu en son pays.",
+      "note": ""
+    },
+    {
+      "n": 25,
+      "p": 346,
+      "lat": "In veritate dico vobis , multæ viduæ erant in diebus Eliæ in Israel , quando clausum est cœlum annis tribus , & mensibus sex , cùm facta esset fames magna in omni terra :",
+      "fr": "Je vous dis en vérité , qu'il y avoit beaucoup de veuves dans Israël au temps d'Elie , lorsque le ciel fut fermé durant trois ans & six mois , & qu'il y eut une grande famine dans toute la terre :",
+      "note": [
+        {
+          "texte": "<em>Je vous dis en vérité qu'il y avoit beaucoup de veuves dans Israël au temps d'Elie, lorsque le ciel fut fermé pendant trois ans & six mois, & qu'il y eut une grande famine dans toute la terre:</em> & néanmoins <em>Elie ne fut envoyé chez aucune d'elles; mais chez, &c.</em>",
+          "marges": [],
+          "p": 356
+        },
+        {
+          "texte": "Comme l'ancien Testament étoit en grande vénération parmi les Juifs, J. C. s'en sert d'une manière avantageuse pour confondre les habitans de Nazareth, & leur donner lieu par deux exemples qu'il leur en cite, de reconnoître que c'étoit leur faute, & leur propre orgueil qui les empêchoit de se rendre à la vérité de ses paroles. Lors donc qu'il leur représente une veuve étrangère qui reçut seule l'assistance du prophète Elie, dans le temps même que toutes les veuves Israélites se voyoient abandonnées durant la famine; & qu'il leur cite l'exemple de Naaman Syrien, qui fut seul guéri de la lèpre par le prophète Elisée, quoiqu'il y eut tant de lépreux parmi Israël, qui ne reçurent point la guérison; il les presse intérieurement de reconnoître qu'ils étoient eux-mêmes la cause par leur orgueil, de ce qu'il ne faisoit pas dans sa propre ville les miracles qu'il avoit faits en divers lieux, qui pouvoient être regardés comme étrangers à son égard. Il voulut leur faire entendre, dit S. Ambroise, que Dieu considère, non le pays, mais le cœur de l'homme, pour le guérir, & que sa grâce n'est point comme un droit qui est dû à la nature, mais qu'elle est l'objet & le prix de nos désirs: <em>Voluntatis est medicina, non gentis; & divinum munus votis eligitur, non naturæ jure defertur.</em> « Apprenez, ô Chrétien, ajoute le même Saint, à demander ardemment ce que vous désirez obtenir. Car les biens du ciel ne s'accordent point à ceux dont le cœur a du dégoût pour les dons de Dieu » : <em>Fastidiosus viros cœlestium profectus munerum non sequuntur.</em>",
+          "marges": [],
+          "p": 356
+        },
+        {
+          "texte": "Mais outre ce sens moral, saint Ambroise trouve encore dans ces exemples de l'Ecriture, la vérité d'un grand mystère, & il fait voir d'une part, que cette veuve étrangère assistée par le Prophète, figuroit admirablement l'Eglise des nations, préférée à la synagogue par la propre faute des Israélites, tout remplis d'ingratitude & d'orgueil: & de l'autre, que Naaman de Syrie guéri de sa lèpre, préférablement à tant de lépreux d'Israël qui demeurèrent toujours lépreux, étoit aussi la figure de ces peuples étrangers à l'égard de Dieu, qui ayant été lavés dans les saintes eaux du baptême, ont reçu la guérison de la lèpre de <a class=\"page-inline\" href=\"page-357.html\" title=\"p. 357\">‖</a>leurs péchés, lorsqu'Israël le peuple de Dieu en a été rejeté, après qu'il a le premier rejeté le conseil de Dieu sur lui. C'étoient ces grandes & étonnantes vérités que J. C. vouloit découvrir à ses propres citoyens, les habitans de Nazareth, pour guérir la plaie secrète de leur orgueil. Mais il parloit à des sourds, & il traçoit ces figures à des aveugles, qui n'avoient ni les oreilles du cœur pour entendre comme il faut, ni les yeux spirituels pour voir d'une manière salutaire ce qu'il leur montroit. C'est pourquoi leur première admiration se tourne en fureur; & se sentant seulement choqués de ces deux exemples qui les condamnoient si terriblement, ils cherchèrent les moyens de faire mourir J. C., s'ils l'avoient pu.",
+          "marges": [],
+          "p": 356
+        }
+      ],
+      "noteVersets": [
+        25,
+        26,
+        27
+      ],
+      "marges": [
+        "1. Reg. 17. 9."
+      ]
+    },
+    {
+      "n": 26,
+      "p": 346,
+      "lat": "& ad nullam illarum missus est Elias , nisi in Sarepta Sidoniæ ad mulierem viduam.",
+      "fr": "& néanmoins Elie ne fut envoyé chez aucune d'elles ; mais chez une femme veuve de Sarepte dans le pays des Sidoniens.",
+      "note": ""
+    },
+    {
+      "n": 27,
+      "p": 346,
+      "lat": "Et multi leprosi erant in Israel sub Elisæo propheta : & nemo eorum mundatus est nisi Naaman Syrus.",
+      "fr": "Il y avoit de même beaucoup de lépreux dans Israël au temps du prophète Elisée ; & néanmoins aucun d'eux ne fut guéri , mais seulement Naaman qui étoit de Syrie.",
+      "note": "",
+      "marges": [
+        "4. Reg. 5. 14."
+      ]
+    },
+    {
+      "n": 28,
+      "p": 346,
+      "lat": "Et repleti sunt omnes in synagoga irâ , hæc audientes :",
+      "fr": "Tous ceux de la synagogue l'entendant parler de la sorte , furent remplis de colère :",
+      "note": [
+        {
+          "texte": "<em>Tous ceux de la synagogue l'entendant parler de la sorte, furent remplis de colère: & se levant ils le chassèrent hors de leur ville, & le menèrent jusques sur la pointe de la montagne, sur laquelle elle étoit bâtie, pour le précipiter, &c.</em>",
+          "marges": [],
+          "p": 357
+        },
+        {
+          "texte": "C'étoit hors les villes qu'on exécutoit les criminels; & c'est pour cette raison qu'ils chassent tumultuairement J. C. hors de Nazareth, dans le dessein de le conduire sur le haut de la montagne où la ville étoit bâtie, afin de le précipiter ensuite de haut en bas. Il ne faut pas s'étonner, dit saint Ambroise, si ces peuples se rendent indignes du salut, eux qui osent bien chasser le Sauveur du milieu d'eux. Comme il ne les force point, il ne leur résiste point non plus lorsqu'ils le chassent. Mais il <em>passe ensuite au milieu d'eux</em>, sans qu'ils puissent l'arrêter, soit qu'il se rendit en ce moment invisible, comme quelques-uns l'ont cru; soit qu'il les rendit eux-mêmes comme interdits, ou comme immobiles, selon que l'a cru saint Ambroise. Et se dérobant ainsi à leur fureur, il fit connoître très-clairement que ce ne fut point par nécessité, mais par un effet de sa volonté qu'il souffrit depuis; & que les Juifs n'auroient point eu le pouvoir de l'arrêter, si lui-même ne s'étoit offert à la mort volontairement. Il passe donc maintenant au milieu de ces furieux, parce que l'heure de ses souffrances n'étoit pas encore arrivée; & il y passe, dit saint Cyrille, non en fuyant, mais d'un pas libre & assuré. Il aimoit mieux, dit saint Ambroise, travailler encore à la guérison des Juifs, & leur donner lieu par cette épreuve de sa puissance qui rendoit vaine toute leur fureur, de renoncer d'autant plus à leur volonté criminelle, qu'il les mettoit hors d'état de la pouvoir accomplir: <em>Ut inefficaci furoris exitu, desinerent velle, quod implere non possent.</em>",
+          "marges": [
+            "Ambros. orat. cont. Auxent.",
+            "Idem. in hunc loc.",
+            "Cyrill. 12. in Joan. 22."
+          ],
+          "p": 357
+        }
+      ],
+      "noteVersets": [
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "n": 29,
+      "p": 346,
+      "lat": "& surrexerunt & ejecerunt illum extra civitatem , & duxerunt illum usque ad supercilium montis , super quem civitas illorum erat ædificata , ut præcipitarent eum.",
+      "fr": "& se levant ils le chassèrent hors de leur ville , & le menèrent jusques sur la pointe de la montagne sur laquelle elle étoit bâtie , pour le précipiter.",
+      "note": ""
+    },
+    {
+      "n": 30,
+      "p": 346,
+      "lat": "Ipse autem transiens per medium illorum , ibat.",
+      "fr": "Mais il passa au milieu d'eux , & se retira ¶.",
+      "note": ""
+    },
+    {
+      "n": 31,
+      "p": 346,
+      "lat": "Et descendit in Ca<a class=\"page-inline\" href=\"page-347.html\" title=\"p. 347\">‖</a>pharnaüm , civitatem Galilææ , ibique docebat illos sabbatis.",
+      "fr": "Il descendit à Capharnaüm , <a class=\"page-inline\" href=\"page-347.html\" title=\"p. 347\">‖</a>qui est une ville de Galilée , où il les enseignoit les jours du sabbat.",
+      "note": "",
+      "marges": [
+        "Matth. 4. 13.",
+        "Marc. 1. 21.",
+        "Matt. 7. 28."
+      ]
+    },
+    {
+      "n": 32,
+      "p": 347,
+      "lat": "Et stupebant in doctrina ejus , quia in potestate erat sermo ipsius.",
+      "fr": "Et sa manière d'enseigner les remplissoit d'étonnement ; parce que sa parole étoit accompagnée de puissance & d'autorité.",
+      "note": ""
+    },
+    {
+      "n": 33,
+      "p": 347,
+      "lat": "Et in synagoga erat homo habens dæmonium immundum , & exclamavit voce magnâ ,",
+      "fr": "Il y avoit dans la synagogue un homme possédé d'un démon impur , qui jeta un grand cri ,",
+      "note": "",
+      "marges": [
+        "Marc. 1. 23."
+      ]
+    },
+    {
+      "n": 34,
+      "p": 347,
+      "lat": "dicens : Sine , Quid nobis & tibi , Jesu Nazarene ? Venisti perdere nos ? Scio te quis sis : Sanctus Dei.",
+      "fr": "en disant : Laissez-nous : Qu'y a-t-il de commun entre nous & vous , JESUS de Nazareth ? Etes-vous venu pour nous perdre ? Je sai qui vous êtes : vous êtes le Saint de Dieu.",
+      "note": ""
+    },
+    {
+      "n": 35,
+      "p": 347,
+      "lat": "Et increpavit illum Jesus , dicens : Obmutesce , & exi ab eo. Et cùm projecisset illum dæmonium in medium , exiit ab illo , nihilque illum nocuit.",
+      "fr": "Mais JESUS lui parlant avec menaces , lui dit : Tais-toi , & sors de cet homme. Et le diable l'ayant jeté à terre au milieu de tout le peuple , sortit de lui , sans lui avoir fait aucun mal.",
+      "note": ""
+    },
+    {
+      "n": 36,
+      "p": 347,
+      "lat": "Et factus est pavor in omnibus , & colloquebantur ad invicem , dicentes : Quid est hoc verbum , quia in potestate & virtute imperat immundis spiritibus , & exeunt ?",
+      "fr": "Tous ceux qui étoient là en furent épouvantés , & ils se parloient l'un à l'autre , en disant : Qu'est-ce donc que ceci ? il commande avec autorité & avec puissance eux esprits impurs , & ils sortent aussitôt.",
+      "note": ""
+    },
+    {
+      "n": 37,
+      "p": 347,
+      "lat": "Et divulgabatur fama de illo in omnem locum regionis.",
+      "fr": "Et sa réputation se répandit de tous côtés dans le pays d'alentour.",
+      "note": ""
+    },
+    {
+      "n": 38,
+      "p": 347,
+      "lat": "Surgens autem Jesus de synagoga , introivit in domum Simonis : Socrus autem Simonis tenebatur magnis febribus , & rogaverunt illum pro ea.",
+      "fr": "† JESUS étant sorti de la synagogue , entra dans la maison de Simon , dont la belle-mère avoit une grosse fièvre. Ils le prièrent pour elle.",
+      "note": "",
+      "marges": [
+        "† 4. Jeudi de Carême.",
+        "Samedi des 4. temps de la Pentecôte."
+      ]
+    },
+    {
+      "n": 39,
+      "p": 347,
+      "lat": "Et stans super illam , imperavit febri ; & dimisit illam. Et continuò surgens ministrabat illis.",
+      "fr": "Et étant debout auprès de la malade , il commanda à la fièvre de la quitter ; & la fièvre la quitta. Et s'étant levée aussitôt , elle les servoit.",
+      "note": "",
+      "marges": [
+        "Matt. 8. 14.",
+        "Marc. 1. 30."
+      ]
+    },
+    {
+      "n": 40,
+      "p": 348,
+      "lat": "Cùm autem sol occidisset , omnes qui habebant infirmos variis languoribus , ducebant illos ad eum : at ille singulis manus imponens , curabat eos :",
+      "fr": "Le soleil étant couché , tous ceux qui avoient des malades affligés de diverses maladies , les lui amenoient : & imposant les mains sur chacun d'eux , il les guérissoit.",
+      "note": ""
+    },
+    {
+      "n": 41,
+      "p": 348,
+      "lat": "Exibant autem dæmonia à multis , clamantia & dicentia : Quia tu es Filius Dei. Et increpans non sinebat ea loqui , quia sciebant ipsum esse Christum.",
+      "fr": "Les démons sortoient du corps de plusieurs , criant & disant : Vous êtes le * Fils de Dieu. Mais il les menaçoit , & les empêchoit de dire qu'ils fussent qu'il étoit le CHRIST.",
+      "note": "",
+      "marges": [
+        "Marc. 1. 30."
+      ],
+      "nb": [
+        "℣. 41. gr. le CHRIST."
+      ]
+    },
+    {
+      "n": 42,
+      "p": 348,
+      "lat": "Factâ autem die , egressus ibat in desertum locum : & turbæ requirebant eum , & venerunt usque ad ipsum : & detinebant illum , ne discederet ab eis ,",
+      "fr": "Lorsqu'il fut jour il sortit dehors , & s'en alla en un lieu désert : & tout le peuple le vint chercher jusqu'où il étoit ; & comme ils s'efforçoient de le retenir , ne voulant point qu'il les quittât ,",
+      "note": ""
+    },
+    {
+      "n": 43,
+      "p": 348,
+      "lat": "quibus ille ait : Quia & aliis civitatibus oportet me evangelizare regnum Dei , quia ideò missus sum.",
+      "fr": "il leur dit : Il faut que je prêche aussi aux autres villes l'Evangile du royaume de Dieu ; car c'est pour cela que j'ai été envoyé.",
+      "note": ""
+    },
+    {
+      "n": 44,
+      "p": 348,
+      "lat": "Et erat prædicans in synagogis Galilææ.",
+      "fr": "Et il prêchoit dans les synagogues de Galilée ¶.",
+      "note": ""
+    }
+  ]
+};
+  </script>
+</head>
+<body data-base="../">
+
+<div class="page-shell">
+  <button class="sidebar-open-btn" aria-label="Ouvrir le sommaire">☰</button>
+  <div class="sidebar-backdrop"></div>
+
+  <aside class="sidebar">
+    <div class="sidebar-head">
+      <a class="sidebar-brand" href="../index.html">Bible de Sacy</a>
+      <button class="sidebar-collapse-btn" title="Replier le sommaire">«</button>
+    </div>
+    <div class="sidebar-search">
+      <input type="search" class="sidebar-search-input" placeholder="Rechercher…" autocomplete="off" spellcheck="false">
+      <div class="sidebar-search-results" hidden></div>
+    </div>
+    <nav class="sidebar-tree"><details class="canon-group" open><summary>Nouveau Testament</summary>
+<details class="livre-group" data-livre="luc"><summary><span class="abr">Lc</span> <span class="nom">Évangile de saint Luc</span></summary>
+<div class="chap-list">
+<a href="../luc/index.html" data-ch="0">Préface</a>
+<a href="../luc/ch01.html" data-ch="1">1</a>
+<a href="../luc/ch02.html" data-ch="2">2</a>
+<a href="../luc/ch03.html" data-ch="3">3</a>
+<a href="../luc/ch04.html" data-ch="4">4</a>
+<a href="../luc/ch05.html" data-ch="5">5</a>
+<a href="../luc/ch06.html" data-ch="6">6</a>
+<a href="../luc/ch07.html" data-ch="7">7</a>
+<a href="../luc/ch08.html" data-ch="8">8</a>
+<a href="../luc/ch09.html" data-ch="9">9</a>
+<a href="../luc/ch10.html" data-ch="10">10</a>
+<a href="../luc/ch11.html" data-ch="11">11</a>
+<a href="../luc/ch12.html" data-ch="12">12</a>
+<a href="../luc/ch13.html" data-ch="13">13</a>
+<a href="../luc/ch14.html" data-ch="14">14</a>
+<a href="../luc/ch15.html" data-ch="15">15</a>
+<a href="../luc/ch16.html" data-ch="16">16</a>
+<a href="../luc/ch17.html" data-ch="17">17</a>
+<a href="../luc/ch18.html" data-ch="18">18</a>
+<a href="../luc/ch19.html" data-ch="19">19</a>
+<a href="../luc/ch20.html" data-ch="20">20</a>
+<a href="../luc/ch21.html" data-ch="21">21</a>
+<a href="../luc/ch22.html" data-ch="22">22</a>
+<a href="../luc/ch23.html" data-ch="23">23</a>
+<a href="../luc/ch24.html" data-ch="24">24</a>
+</div></details>
+</details></nav>
+    <div class="sidebar-foot">
+      <a href="../biblio.html">Bibliographie</a>
+      <a href="../recherche.html">Recherche</a>
+      <button class="theme-toggle" title="Thème clair / sombre"><span class="theme-icon">☾</span></button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <p class="breadcrumb">
+      <a href="../index.html">Bible de Sacy</a> › <span class="breadcrumb-livre"></span>
+    </p>
+
+    <header class="chapter-header">
+      <p class="livre"></p>
+      <h1></h1>
+      <h2></h2>
+      <div class="chapter-actions">
+        <button class="btn" id="latin-toggle">Afficher le latin</button>
+        <a class="btn lien-pages" href="#" hidden>📄 Page à page</a>
+        <a class="btn lien-facs" href="#" target="_blank" rel="noopener">📖 Fac-similé</a>
+      </div>
+    </header>
+
+    <div class="chapitre-columns">
+      <section class="col-francais" aria-label="Texte français"></section>
+      <section class="col-commentaire" aria-label="Commentaire">
+        <p class="col-label">Notes de la <em>Bible de Sacy</em></p>
+        <div class="commentaire-texte"></div>
+      </section>
+      <section class="col-litteral" aria-label="Sens littéral" hidden>
+        <p class="col-label">
+          <span>Sens littéral</span>
+          <span class="sens-toggle">
+            <button class="btn sens-btn active" data-sens="litteral">Littéral</button>
+            <button class="btn sens-btn" data-sens="spirituel">Spirituel</button>
+          </span>
+        </p>
+        <div class="litteral-texte"></div>
+      </section>
+      <section class="col-spirituel" aria-label="Sens spirituel" hidden>
+        <p class="col-label">Sens spirituel</p>
+        <div class="spirituel-texte"></div>
+      </section>
+    </div>
+
+    <nav class="chapter-nav">
+      <a class="nav-prev" href="#">←</a>
+      <span class="chapitre-num"></span>
+      <a class="nav-next" href="#">→</a>
+    </nav>
+  </main>
+</div>
+
+<script src="../render.js"></script>
+</body>
+</html>

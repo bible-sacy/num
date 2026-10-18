@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><!-- rempli par render.js --></title>
+  <link rel="stylesheet" href="../style.css">
+  <script>
+    (function(){ document.documentElement.setAttribute('data-theme', localStorage.getItem('sacy-theme')||'light'); })();
+  </script>
+  <script src="../search-index.js"></script>
+  <script>
+  const SACY_DATA = {
+  "meta": {
+    "livre": "luc",
+    "livreFr": "Évangile de saint Luc",
+    "livreAbr": "Lc",
+    "chapitre": 17,
+    "chapTotal": 24,
+    "titre": "Scandale. Pardon. Puissance de la foi. Serviteurs inutiles. Dix lépreux. Royaume de Dieu. Jours de séduction. Avénement de Jesus-Christ.",
+    "pageFacs": 570,
+    "pageView": true,
+    "chapitresDisponibles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "facsimile": {
+      "slug": "luc",
+      "page": 570
+    }
+  },
+  "versets": [
+    {
+      "n": 1,
+      "p": 570,
+      "lat": "Et ait ad discipulos suos : Impossibile est ut non veniant scandala : væ autem illi per quem veniunt.",
+      "fr": "Jesus dit <em>un jour à</em> ses disciples : Il est impossible qu'il n'arrive des scandales : mais malheur à celui par qui ils arrivent.",
+      "note": [
+        {
+          "texte": "<em>Prenez garde à vous. Si votre frère a péché contre vous , reprenez-le , &c.</em>",
+          "marges": [],
+          "p": 574
+        },
+        {
+          "texte": "Le Fils de Dieu parle ici du grand danger qu'il y a de <em>scandaliser les petits</em> ; c'est-à-dire à être une occasion de chute aux personnes foibles , soit par une mauvaise doctrine , soit par un méchant exemple , soit par quelque humeur fâcheuse , ou par un ressentiment de quelque faute qu'ils peuvent avoir commise contre nous. C'est la raison pour laquelle J. C. ayant parlé à ses disciples des scandales en général , leur dit aussitôt après : <em>Veillez & prenez bien garde à vous</em> ; ce qui est de même , selon la réflexion d'un Interprète , que s'il disoit : Prenez garde à vous conduire de telle sorte , que vous ne deveniez pas une occasion de perte à votre prochain ; non pas même à ceux de qui vous avez reçu quelque injure. Car si vous entrez en colère contre celui de qui vous avez été offensé , vous achevez de le perdre devant Dieu : au lieu que si vous aimez son salut plus que votre honneur , ou votre intérêt , vous travaillerez à guérir la plaie qu'il s'est faite , en vous appliquant avec charité à lui faire reconnoître & pleurer sa faute. Et par ce moyen vous sauverez votre <em>frère</em> en vous sauvant ; puisqu'il n'y a rien qui ait plus de force pour gagner les ames , que la douceur de celui qui souffre paisiblement le mal qu'on lui fait , & qui se sert de sa patience comme d'un baume très-efficace pour guérir le cœur ulcéré de son frère qui l'a outragé. C'est ainsi que J. C. a lui-même assujetti à la douceur de son joug ses plus cruels ennemis. Il n'a opposé à tous leurs traits qu'une patience infinie. Il s'est , selon l'expression d'un <a class=\"page-inline\" href=\"page-575.html\" title=\"p. 575\">‖</a>Prophète , comme rassasié d'opprobres : <em>Saturabitur opprobriis.</em> Et cette divine patience a eu plus de force pour convertir l'Univers , que le courage de tous les héros de l'antiquité n'en avoit eu autrefois pour soumettre les empires.",
+          "marges": [
+            "Thren. 3. 30."
+          ],
+          "p": 574
+        }
+      ],
+      "marges": [
+        "Matt. 18. 7."
+      ]
+    },
+    {
+      "n": 2,
+      "p": 570,
+      "lat": "Utilius est illi , si lapis molaris imponatur circa collum ejus , & projiciatur in mare , quàm ut scandalizet unum de pusillis istis.",
+      "fr": "Il vaudroit mieux pour lui qu'on lui mît au cou une meule de moulin , & qu'on le jetât dans la mer , que non pas qu'il fût un sujet de scandale à l'un de ces plus petits.",
+      "note": "",
+      "marges": [
+        "Marc. 9. 41."
+      ]
+    },
+    {
+      "n": 3,
+      "p": 570,
+      "lat": "Attendite vobis. Si peccaverit in te frater tuus , increpa illum ; & si pœnitentiam egerit , dimitte illi.",
+      "fr": "Prenez garde à vous. Si votre frère a péché contre vous , reprenez-le ; & s'il se repent , pardonnez-lui.",
+      "note": "",
+      "marges": [
+        "Matt. 14. 15. 21."
+      ]
+    },
+    {
+      "n": 4,
+      "p": 570,
+      "lat": "Et si septies in die peccaverit in te , & septies <a class=\"page-inline\" href=\"page-571.html\" title=\"p. 571\">‖</a>in die conversus fuerit ad te , dicens , Pœnitet me , dimitte illi.",
+      "fr": "Et s'il péche contre vous sept fois le jour , & que sept fois le jour <a class=\"page-inline\" href=\"page-571.html\" title=\"p. 571\">‖</a>il revienne vous trouver , & vous dise , Je me repens <em>de ce que j'ai fait</em> , pardonnez-lui.",
+      "note": "",
+      "marges": [
+        "Levit. 19. 17.",
+        "Eccl. 19. 13.",
+        "Matt. 18. 21."
+      ]
+    },
+    {
+      "n": 5,
+      "p": 571,
+      "lat": "Et dixerunt Apostoli Domino : Adauge nobis fidem.",
+      "fr": "Et les Apôtres dirent au Seigneur , Augmentez-nous la foi.",
+      "note": [
+        {
+          "texte": "<em>Les Apôtres dirent au Seigneur : Augmentez-nous la foi.</em>",
+          "marges": [],
+          "p": 575
+        },
+        {
+          "texte": "Il ne paroît aucune liaison dans le texte de saint Luc , entre ce verset & ce qui précède. Et peut-être qu'il ne faut point en chercher dans cet endroit , non plus que dans beaucoup d'autres de ce saint Evangéliste , pour les raisons que l'on a marquées auparavant. Comme J. C. avoit accusé en différentes rencontres les Apôtres d'avoir peu de foi , ils s'adressent à lui-même , convaincus de la foiblesse où ils étoient , pour lui demander qu'il <em>augmentât cette foi</em> en eux. Or en lui faisant cette demande , ils ne reconnoissent pas seulement qu'ils ne peuvent rien , mais encore qu'il peut tout ; & par conséquent ils attestent par une telle prière la divinité de celui qu'ils prient , puisque la foi dont ils demandoient l'augmentation , est un don de Dieu , & un don qui est le principe & le fondement de tous les autres.",
+          "marges": [],
+          "p": 575
+        },
+        {
+          "texte": "Mais quoique nous ayons dit qu'il ne paroît aucune liaison entre ces paroles des disciples , & celles de J. C. qui précèdent , on peut dire néanmoins que le précepte qu'il leur donna de pardonner à leurs frères , quand même ils auroient péché contre eux jusques à sept fois pour un seul jour , leur causa de l'étonnement. Ainsi sentant leur foiblesse à accomplir une chose si difficile & si opposée à la nature , ils ont recours à la grâce de leur divin Maître , & lui demandent qu'il leur donne <em>un accroissement de foi.</em> Car si en effet un homme sent une si grande peine à pardonner à un autre homme , c'est qu'il n'a point une foi vive ; c'est qu'il ne fait pas de réflexion sur ce qu'il doit lui-même à Dieu ; & c'est qu'il ne considère pas , non-seulement l'infinie disproportion qu'il y a entre ses dettes à l'égard de Dieu , & celles de son frère à son égard , mais encore l'infinie miséricorde dont Dieu use à tous momens envers lui , & qui l'oblige d'imiter en ce qu'il peut une si grande bonté.",
+          "marges": [],
+          "p": 575
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "p": 571,
+      "lat": "Dixit autem Dominus : Si habueritis fidem sicut granum sinapis , dicetis huic arbori moro : Eradicare , & transplantare in mare ; & obediet vobis.",
+      "fr": "Le Seigneur leur dit : Si vous avez une foi semblable au grain * de sénevé , vous direz à ce mûrier : Déracine-toi , & te va planter au milieu de la mer ; & il vous obéira.",
+      "note": "",
+      "marges": [
+        "Matt. 17. 19."
+      ],
+      "nb": [
+        "℣. 6. expl. C'est-à-dire , petite en apparence , mais vive & brûlante , comme est le grain de sénevé. Aug."
+      ]
+    },
+    {
+      "n": 7,
+      "p": 571,
+      "lat": "Quis autem vestrùm habens servum arantem aut pascentem , qui regresso de agro dicat illi : Statim transi , recumbe ?",
+      "fr": "Qui est celui d'entre vous qui ayant un serviteur occupé à labourer ou à paître les troupeaux , lui dise aussitôt qu'il est revenu des champs : Allez vous mettre à table ?",
+      "note": [
+        {
+          "texte": "<em>Qui est celui d'entre vous qui ayant un serviteur occupé à labourer ou à paître les troupeaux , lui dise lorsqu'il est revenu des champs : Allez promptement vous mettre à table ? Ne lui dit-il pas</em> au contraire : <em>Préparez-moi à souper , &c.</em>",
+          "marges": [],
+          "p": 575
+        },
+        {
+          "texte": "Les Apôtres avoient prié J. C. d'augmenter leur foi pour être en état d'accomplir plus fidellement ses préceptes. Il ne leur répondit d'abord qu'en leur faisant voir les grands effets de la foi. Mais ici il semble qu'il veut augmenter cette foi en eux : car <a class=\"page-inline\" href=\"page-576.html\" title=\"p. 576\">‖</a>pour les porter plus facilement à obéir avec foi à ce qu'il venoit de leur ordonner touchant le pardon des fautes de leur prochain , il se sert d'une comparaison familière , qui leur fait connoître par un usage très-commun parmi les hommes , qu'ils ne devoient pas se regarder comme fort louables , quand ils feroient tout ce qu'il leur commandoit. Un homme croit beaucoup faire de pardonner à un autre homme , autant de fois que cet homme l'aura offensé. Et peut-être qu'en obéissant à Dieu qui le lui commande , il s'imagine que Dieu lui est beaucoup redevable. Mais qu'il ne se flatte point sur cela , & qu'il ne se trompe point. Un maître n'est point obligé à son serviteur , de ce qu'après qu'il a travaillé toute la journée , il lui prépare à souper , & le sert ensuite avant qu'il mange lui-même. Et ce maître ne s'avise point de le remercier de ce service qu'il lui rend ; parce que c'est le devoir du serviteur de servir son maître. Combien donc nous autres qui servons Dieu , non-seulement comme notre maître , mais comme notre Créateur & notre Seigneur , avons-nous moins de sujet de nous glorifier de l'obéissance que nous lui rendons ? Il est notre maître , mais il n'a aucun besoin pour lui-même de notre service : & si nous sommes fidelles à le servir , c'est notre propre avantage ; puisqu'on ne peut devenir heureux qu'en le servant. Il est notre Créateur ; & en qualité de ses créatures , nous lui devons tout ce que nous sommes ; & ainsi en nous donnant tout à lui , nous ne lui rendons que ce qui lui appartient. Mais il est encore notre Rédempteur & notre Seigneur ; & ce nouveau titre qu'il a acquis sur les hommes par son Incarnation & par sa mort , lui donne un plein droit sur ceux qu'il a rachetés par son sang , & délivrés de l'esclavage du démon & du péché. Combien donc l'homme seroit-il extravagant , de s'imaginer qu'il fait beaucoup en obéissant à Dieu ? Combien seroit-il déraisonnable de s'attribuer un grand mérite lorsqu'il pardonne à son frère , lui à qui Dieu a pardonné & pardonne encore tous les jours de si grands péchés ? Combien enfin s'attireroit-il un jugement rigoureux , si au lieu de dire , comme J. C. le lui a prescrit : <em>Pardonnez-nous nos offenses , comme nous pardonnons à ceux qui nous ont offensés</em> ; il l'engageoit , par la dureté de sa conduite envers son prochain , à le traiter lui-même sans miséricorde ?",
+          "marges": [],
+          "p": 575
+        },
+        {
+          "texte": "<em>Dites donc</em> , conclut J. C. , <em>dites après avoir accompli tout ce qui vous est commandé , Que vous êtes des serviteurs inutiles.</em> Et ne vous contentez pas de le dire , mais soyez-en convaincus dans le fond du cœur. Songez que <em>vous êtes</em> vraiment <em>inutiles</em> à ce divin Maître , qui n'a pour lui-même aucun besoin de votre service , & <a class=\"page-inline\" href=\"page-577.html\" title=\"p. 577\">‖</a>qui ne l'exige que par le droit souverain qu'il a sur vous , & pour votre intérêt propre. Songez que dans le service même que vous lui rendez , il y découvre par sa divine lumière tant de foiblesse & de lâcheté , qu'il est nécessaire que sa miséricorde en couvre les défauts à ses yeux. Songez enfin , que selon la réflexion de saint Ambroise , celui que le Fils de Dieu avoit lui-même choisi pour être l'Apôtre des nations , s'est regardé comme indigne de l'Apostolat , après tous les grands travaux qu'il avoit soufferts pour l'Eglise , & que quelque témoignage que sa conscience lui rendît de la pureté de sa conduite , il ne pouvoit s'assurer d'être juste devant Dieu.",
+          "marges": [
+            "Ambros. in hunc locum.",
+            "1. Cor. 15. 9.",
+            "1. Cor. 4. 4."
+          ],
+          "p": 576
+        },
+        {
+          "texte": "Mais ni l'exemple de l'Apôtre , ni ce passage que nous expliquons , ne détruit en aucune sorte , comme l'ont cru les hérétiques des derniers temps , le mérite de nos bonnes œuvres. Car si par nous-mêmes nous ne sommes que misère , que foiblesse , & que d'inutiles serviteurs , nous sommes enfans de Dieu par sa grâce , & membres de JESUS-CHRIST. Et agissant par l'esprit de la charité , qui est celui des enfans , nous avons droit d'appeler Dieu notre Père , & de lui demander comme ses enfans l'héritage de son royaume. Or ce droit même nous a été acquis par le sang du Fils de Dieu : ce qui nous doit faire souvenir que c'est par sa grâce que nous sommes devenus enfans , de serviteurs & d'esclaves que nous étions auparavant.",
+          "marges": [],
+          "p": 577
+        },
+        {
+          "texte": "Il y en a qui prétendent que JESUS-CHRIST , en nous obligeant de dire que <em>nous sommes des serviteurs inutiles</em> , quand même nous avons fait tout ce qui nous est commandé , a voulu par là nous porter insensiblement à nous élever jusqu'aux conseils évangéliques ; afin que nous ne soyons pas , ainsi que des serviteurs , attachés uniquement à ce qui est de précepte , mais que nous tendions toujours , comme des enfans bien nés , à ce qu'il y a de plus parfait.",
+          "marges": [],
+          "p": 577
+        }
+      ],
+      "noteVersets": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "n": 8,
+      "p": 571,
+      "lat": "Et non dicat ei : Para quod cœnem , & præcinge te , & ministra mihi donec manducem & bibam , & post hæc tu manducabis & bibes ?",
+      "fr": "Ne lui dit-il pas <em>au contraire</em> : Préparez-moi à souper , ceignez-vous , & me servez jusqu'à ce que j'aye mangé & que j'aye bu , & après cela vous mangerez , & vous boirez ?",
+      "note": ""
+    },
+    {
+      "n": 9,
+      "p": 571,
+      "lat": "Numquid gratiam habet servo illi , quia fecit quæ ei imperaverat ?",
+      "fr": "Et quand ce serviteur aura fait tout ce qu'il lui aura ordonné , lui en aura-t-il de l'obligation ?",
+      "note": ""
+    },
+    {
+      "n": 10,
+      "p": 571,
+      "lat": "Non puto. Sic & vos , cùm feceritis omnia quæ præcepta sunt vobis , dicite : Servi inutiles sumus : quod debuimus facere , fecimus.",
+      "fr": "Je ne le pense pas. Dites donc aussi , lorsque vous aurez accompli tout ce qui vous est commandé : Nous sommes des serviteurs inutiles : nous avons fait ce que nous étions obligés de faire.",
+      "note": ""
+    },
+    {
+      "n": 11,
+      "p": 571,
+      "lat": "Et factum est , dum iret in Jerusalem , transibat per mediam Samariam & Galilæam ,",
+      "fr": "† Un jour comme il alloit à Jérusalem , & passoit par le milieu de la Samarie & de la Galilée ,",
+      "note": [
+        {
+          "texte": "<em>Un jour comme il alloit à Jérusalem , & passoit par le milieu de la Samarie & de la Galilée , étant prêt d'entrer dans un village , dix lépreux vinrent au-devant de lui , qui se tenant éloignés , élevèrent leur voix , & lui dirent : JESUS notre maître , ayez pitié de nous , &c.</em>",
+          "marges": [],
+          "p": 577
+        },
+        {
+          "texte": "Ce que l'Evangile appelle ici <em>le milieu de la Samarie & de la Galilée</em> , se doit entendre des confins de ces deux pays , c'est-à-dire , du chemin qui est entre-deux. Ce fut donc lorsque J. C. marchoit dans ce chemin , qui est entre la Galilée & la Samarie , pour aller à Jérusalem , qu'il rencontra <em>les dix lépreux</em> dont saint Luc rapporte en ce lieu la guérison , en quelque temps que ce <a class=\"page-inline\" href=\"page-578.html\" title=\"p. 578\">‖</a>miracle soit arrivé. De ces lépreux il y en avoit neuf qui étoient Juifs , & un seul qui étoit Samaritain. <em>Les Juifs n'avoient point alors de commerce avec les Samaritains</em> , à cause que ces derniers avoient fait schisme en se bâtissant un autre temple que celui de Jérusalem. Mais ces lépreux ne laissèrent pas de se joindre ensemble , peut-être à cause que leur maladie les séparoit tous également des autres hommes : & peut-être aussi qu'ils s'unirent pour en obtenir conjointement la guérison , en s'adressant tous ensemble à J. C. , qui étoit venu dans le monde pour réunir tous les peuples en un seul. Comme ils étoient obligés par la loi de Moyse de se tenir hors des villes , & du commerce des hommes , ceux-ci demeuroient hors le village où le Fils de Dieu alloit entrer. Et <em>étant venus au-devant de lui</em> , avant qu'il entrât , <em>ils s'arrêtèrent assez loin</em> , parce que la loi leur défendoit de s'approcher. S'ils avoient eu néanmoins une foi entière en J. C. , bien loin de craindre de le souiller , ils s'en seroient approchés , comme de la source même de la pureté. Mais il les laissa agir selon la portée de leur foi. Et ils purent bien en user ainsi par respect.",
+          "marges": [
+            "Joan. 4. 9.",
+            "Numer. 5. 2."
+          ],
+          "p": 577
+        },
+        {
+          "texte": "Alors <em>élevant leur voix</em> tous ensemble , ils lui dirent : JESUS notre <em>maître</em> , <em>ayez pitié de nous.</em> Ils étoient donc convaincus du pouvoir qu'il avoit de les guérir : & le regardant comme leur Sauveur , ce que signifie le mot de JESUS , & comme <em>le maître</em> véritable d'Israël , qui avoit , selon l'expression du texte grec , l'autorité & l'empire , ils se contentèrent de lui demander <em>qu'il eût pitié d'eux.</em> Car c'est cette compassion ou cette bonté compatissante de J. C. envers les pécheurs , figurés par les lépreux , qui est le principe de leur salut. C'est parce qu'il les a aimés le premier , comme dit saint Jean , qu'ils commencent à l'aimer. Et il fallut que le Fils de Dieu vint chercher ces dix lépreux , en passant dans le village près duquel ils habitoient , pour marquer qu'il cherche de même tous les pécheurs qui doivent participer au salut : car durant le cours de sa vie mortelle , il n'arrivoit rien qui ne fut réglé par sa providence , & tout ce qui se passoit étoit une image de la conduite invisible qu'il tiendra dans toute la suite des siècles pour la guérison spirituelle des ames.",
+          "marges": [
+            "Theoph. in hunc locum.",
+            "1. Joan. 4. 19."
+          ],
+          "p": 578
+        },
+        {
+          "texte": "Le cri que firent ces dix lépreux porta J. C. à <em>les regarder.</em> Mais on peut bien dire aussi en un sens très-véritable , que ces lépreux n'auroient pas crié , non plus que ceux qu'ils figurent , s'il ne les eût regardés auparavant d'un œil de miséricorde pour les guérir. <em>Lors</em> donc <em>qu'il les eût vus</em> , il leur dit de <em>s'aller montrer aux Prêtres.</em> Il auroit pu les guérir en sa présence , ainsi qu'un autre lépreux dont il est parlé auparavant. Mais il voulut , <a class=\"page-inline\" href=\"page-579.html\" title=\"p. 579\">‖</a>selon la remarque des Interprètes , éprouver & faire connoître leur foi. Ainsi il leur ordonna avant qu'il les eût guéris , de <em>s'aller montrer aux Prêtres</em> , afin qu'il parût que leur foi étoit assez grande pour leur persuader qu'ils guériroient. Car il n'étoit ordonné aux lépreux de se faire voir aux Prêtres qu'en deux sortes d'occasions : l'une lorsqu'il s'agissoit de connoître & de déclarer si c'étoit une vraie lèpre ; & l'autre si elle étoit véritablement guérie. Or il paroît qu'on ne doutoit point de la vérité de la lèpre de ces dix malades. Et ainsi lorsque J. C. les envoya vers les Prêtres , il le fit afin que ces Prêtres jugeassent de leur guérison : & par conséquent il les assuroit qu'ils seroient guéris. Ils comprirent bien sans doute le vrai sens de ses paroles , puisqu'ils obéirent dans l'instant à l'ordre qu'il leur donna , & qu'ils ne raisonnèrent point sur ce qu'il les envoyoit aux Prêtres avant qu'il les eût guéris. Ainsi la simplicité de leur obéissance leur fit mériter ce qu'ils avoient demandé : car <em>ils se trouvèrent</em> effectivement <em>guéris lorsqu'ils étoient en chemin.</em>",
+          "marges": [
+            "Luc. 5. 13.",
+            "Levitic. 13. & 14."
+          ],
+          "p": 578
+        },
+        {
+          "texte": "C'est ainsi que le Fils de Dieu nous donnoit en leur personne une figure excellente de la foi avec laquelle nous devons lui obéir , & pratiquer ses préceptes , <em>en marchant</em> fidellement dans l'espérance d'être aussi guéris. C'est donc en marchant selon les commandemens de Dieu , qu'on peut s'assurer d'obtenir sa guérison. Ce n'est pas en raisonnant sur ce qu'il nous dit , mais en lui obéissant avec un cœur simple & plein de foi. Ce n'est pas en s'arrêtant , mais en s'avançant dans la voie de son salut. C'est enfin en s'adressant aux ministres qu'il a établis pour juger de la plaie spirituelle des ames. Car quoique ce soit J. C. même qui les guérisse par sa grâce , comme il le fit voir dans l'image de ces lépreux , qui furent guéris tandis qu'ils alloient trouver les Prêtres ; il veut néanmoins dans la loi nouvelle , que les ministres qu'il a choisis pour leur mettre entre les mains une partie de sa puissance , travaillent par les saintes fonctions de leur ministère à la conversion des pécheurs , & qu'ils leur remettent ensuite leurs péchés , très-différens en cela de ces Prêtres de l'ancienne loi , qui ne pouvoient rien pour la guérison de la lèpre , & à qui il appartenoit seulement , comme on l'a dit , de la discerner , & de déclarer qu'elle étoit guérie.",
+          "marges": [],
+          "p": 579
+        }
+      ],
+      "noteVersets": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "marges": [
+        "† 13. Dim. après la Pentec."
+      ]
+    },
+    {
+      "n": 12,
+      "p": 571,
+      "lat": "& cùm ingrederetur quoddam castellum , occurrerunt ei decem viri leprosi , qui steterunt à longe ,",
+      "fr": "étant prêt d'entrer dans un village , dix lépreux vinrent au-devant de lui , qui se tenant éloignés ,",
+      "note": ""
+    },
+    {
+      "n": 13,
+      "p": 571,
+      "lat": "& levaverunt vocem <a class=\"page-inline\" href=\"page-572.html\" title=\"p. 572\">‖</a>dicentes : Jesu præceptor , miserere nostri.",
+      "fr": "élevèrent leur voix , & lui <a class=\"page-inline\" href=\"page-572.html\" title=\"p. 572\">‖</a>dirent : JESUS <em>notre</em> maître , ayez pitié de nous.",
+      "note": ""
+    },
+    {
+      "n": 14,
+      "p": 572,
+      "lat": "Quos ut vidit , dixit : Ite , ostendite vos Sacerdotibus. Et factum est , dum irent , mundati sunt.",
+      "fr": "Lorsqu'il les eut aperçus , il leur dit : Allez vous montrer aux Prêtres. Et comme ils y alloient , ils furent guéris.",
+      "note": "",
+      "marges": [
+        "Levitic. 14. 2."
+      ]
+    },
+    {
+      "n": 15,
+      "p": 572,
+      "lat": "Unus autem ex illis , ut vidit , quia mundatus est , regressus est , cum magna voce magnificans Deum ;",
+      "fr": "L'un d'eux voyant qu'il avoit été guéri , retourna sur ses pas , glorifiant Dieu à haute voix ;",
+      "note": [
+        {
+          "texte": "<em>L'un d'eux voyant qu'il avoit été guéri , retourna sur ses pas en glorifiant Dieu à haute voix , & vint se jeter aux pieds de</em> JESUS <em>, le visage contre terre , en lui rendant grâces : & celui-là étoit Samaritain , &c.</em>",
+          "marges": [],
+          "p": 579
+        },
+        {
+          "texte": "Un Interprète nouveau a remarqué , après un ancien , que <a class=\"page-inline\" href=\"page-580.html\" title=\"p. 580\">‖</a>le Fils de Dieu déclare qu'il ne connoissoit que les seuls Prêtres des Juifs ; & par conséquent , qu'il condamnoit la désunion des Samaritains , lorsqu'il ordonna aux dix lépreux <em>de s'aller montrer aux Prêtres.</em> Car il est visible qu'il les envoie tous dix aux Prêtres de Jérusalem , & non à ceux de Garisim , quoiqu'il y eût un Samaritain parmi eux. Il est incertain si ce lépreux de Samarie alla se montrer aux Prêtres , lorsqu'il sentit en chemin qu'il étoit guéri. Il semble , à juger de l'expression de l'Evangéliste , qu'il retourna sur ses pas dans le moment qu'il se vit guéri : <em>Ut vidit quia mundatus est , regressus est</em> ; & que ne pouvant contenir la joie qu'il ressentoit d'un si grand miracle , il se hâta de revenir <em>rendre grâces à J. C. , en glorifiant</em> Dieu à haute voix : ce qui signifie qu'il attestoit hautement , que celui qui avoit pu le guérir d'une manière si miraculeuse , étoit Dieu. C'est ce qui paroît clairement , lorsqu'il <em>se jette à ses pieds , le visage contre terre</em> , en adorant dans cette posture si humiliée la toute-puissance de son bienfaicteur. D'autres croient cependant , qu'il alla avec les autres lépreux se montrer aux Prêtres , pour obéir au commandement de J. C. , & qu'il revint aussitôt après pour lui témoigner sa profonde reconnoissance.",
+          "marges": [
+            "Grotius. in hunc locum.",
+            "Maldon. Estius Jansen. in hunc locum.",
+            "Grotius."
+          ],
+          "p": 579
+        },
+        {
+          "texte": "Quoi qu'il en soit , le Sauveur voulant faire remarquer l'ingratitude des autres , dit à celui-ci : <em>Tous les dix n'ont-ils pas été guéris ? Où sont donc les neuf autres ?</em> Etrange image de l'insensibilité de la plupart des malades spirituels , figurés par ces neuf lépreux , à qui leur guérison même devient un sujet de plus grande condamnation ! Qui ne tremblera en considérant , que de dix personnes guéries toutes également de la même maladie par un semblable miracle , & dans un même moment , il n'y en ait qu'une qui revienne à J. C. , pour reconnoître sa divinité , pour s'anéantir en sa présence , & pour lui rendre ses actions de grâces & la gloire qui lui étoit due ? Et cette unique personne étoit <em>étrangère</em> : car les Juifs regardoient les Samaritains comme étrangers ; tant à cause qu'ils s'étoient séparés de religion d'avec eux , & avoient même mêlé plusieurs superstitions du paganisme dans le culte du vrai Dieu ; que parce que les Assyriens après avoir enlevé les peuples de Samarie , dans le temps que cette ville étoit devenue la capitale du royaume d'Israël , y avoient envoyé des habitans étrangers pour y demeurer ; ce qui produisit une grande confusion parmi ce peuple. <em>Où sont donc</em> , disoit J. C. , <em>les neuf autres ?</em> Il le demandoit le sachant bien , lui qui connoissoit toutes choses. Mais il vouloit en le demandant , faire connoître à tout le monde , com<a class=\"page-inline\" href=\"page-581.html\" title=\"p. 581\">‖</a>bien ils étoient ingrats , & combien cet étranger les surpassoit tous par le mérite de son humble reconnoissance. Aussi il donne dans l'instant même des éloges à sa foi : <em>Levez-vous , & vous en allez</em> , lui dit-il , <em>car votre foi vous a sauvé</em> ; votre foi , qui non-seulement vous a fait croire que je vous guérirois quand je vous ai commandé d'aller vous montrer aux Prêtres , mais qui vous a fait revenir après votre guérison , tout rempli de reconnoissance pour la grâce que je vous ai faite. Car c'est cette foi principalement , qui a <em>sauvé</em> cet étranger , & qui l'a si parfaitement distingué des neuf autres , qui ayant été guéris dans le corps , comme lui , ne le furent pas de même dans l'esprit & dans le cœur , puisqu'ils oublièrent si promptement l'auteur de leur guérison , & ne vinrent point lui rendre gloire comme à leur Sauveur.",
+          "marges": [],
+          "p": 580
+        }
+      ],
+      "noteVersets": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "n": 16,
+      "p": 572,
+      "lat": "& cecidit in faciem ante pedes ejus , gratias agens ; & hic erat Samaritanus.",
+      "fr": "& vint se jeter aux pieds de JESUS le visage contre terre , en lui rendant grâces : & celui-là étoit Samaritain.",
+      "note": ""
+    },
+    {
+      "n": 17,
+      "p": 572,
+      "lat": "Respondens autem Jesus , dixit : Nonne decem mundati sunt ? Et novem ubi sunt ?",
+      "fr": "Alors JESUS dit : Tous les dix n'ont-ils pas été guéris ? Où sont donc les neuf autres ?",
+      "note": ""
+    },
+    {
+      "n": 18,
+      "p": 572,
+      "lat": "Non est inventus qui rediret , & daret gloriam Deo , nisi hic alienigena.",
+      "fr": "Il ne s'en est point trouvé qui soit revenu rendre gloire à Dieu , sinon cet étranger.",
+      "note": ""
+    },
+    {
+      "n": 19,
+      "p": 572,
+      "lat": "Et ait illi : Surge , vade , quia fides tua te salvum fecit.",
+      "fr": "Et il lui dit : Levez-vous , allez , votre foi vous a sauvé ¶.",
+      "note": ""
+    },
+    {
+      "n": 20,
+      "p": 572,
+      "lat": "Interrogatus autem à Pharisæis , quando venit regnum Dei , respondens eis , dixit : Non venit regnum Dei cum observatione :",
+      "fr": "Les Pharisiens lui demandoient un jour , quand viendroit le royaume de Dieu , & il leur répondit : Le royaume de Dieu ne viendra point d'une manière qui le fasse remarquer :",
+      "note": [
+        {
+          "texte": "<em>Les Pharisiens lui demandoient un jour , quand viendroit le royaume de Dieu. Et il leur répondit : Le royaume de Dieu ne viendra point d'une manière qui le fasse remarquer , &c.</em>",
+          "marges": [],
+          "p": 581
+        },
+        {
+          "texte": "On a vu souvent , que les Pharisiens étoient des hommes superbes , qui cherchoient la gloire des hommes , & qui ne pouvoient goûter les abaissemens du Fils de Dieu. Comme donc ils lui entendoient parler <em>du royaume de Dieu</em> , & que ses prédications , aussi-bien que celles de ses disciples , retentissoient de l'approche de ce royaume , ils se figurèrent que ce pouvoit être celui que les Juifs attendoient avec tant d'ardeur , & qu'ils croyoient devoir paroître avec un fort grand éclat : car ils n'avoient que des pensées toutes terrestres , & ils s'attendoient que le Prince que Dieu devoit envoyer pour être leur libérateur , viendroit avec magnificence , pour établir parmi eux <em>le règne de Dieu</em> , & les faire triompher des nations qui les opprimoient. C'est la raison pour laquelle quelques Pharisiens ayant demandé un jour au Sauveur <em>quand ce royaume viendroit</em> : soit qu'ils le lui demandassent sérieusement , ou peut-être même en se riant de ce qu'il disoit de son royaume , dont ils ne voyoient aucunes marques qui flattassent leur vanité , il leur répondit : Que <em>le royaume de Dieu ne viendroit point</em> , comme ils se l'imaginoient , <em>d'une manière remarquable</em> , & accompagné d'éclat ; c'est-à-dire , qu'il ne viendroit point en la manière que leur orgueil le leur figuroit , avec cette pompe & cette magnificence qui auroit pu satisfaire leur ambition. <em>On ne dira point</em> , continue le Fils de Dieu : <em>Il est ici , ou il est là</em> ; c'est-à-dire , que le Messie qui étoit le fondateur de ce royaume , ne devoit point établir son trône d'une manière visible , comme tous les <a class=\"page-inline\" href=\"page-582.html\" title=\"p. 582\">‖</a>autres Princes , dans un lieu particulier ; mais que ce seroit dans les cœurs des hommes qu'il régneroit principalement. Et c'est ce qu'il marque en ajoutant aussitôt après : <em>car dès à présent le royaume de Dieu est au-dedans de vous.</em> Ce n'est pas que ces Pharisiens qui étoient remplis d'orgueil , fissent eux-mêmes partie du royaume de J. C. , qui est un royaume d'humilité & de douceur : mais c'est qu'il leur apprenoit par là à chercher , non au-dehors , ni dans l'éclat extérieur d'une puissance temporelle , semblable à celle des Princes du siècle , <em>le royaume de Dieu</em> , dont il parloit si souvent , mais dans le fond même du cœur de l'homme , où Dieu devoit principalement établir son règne par son esprit & par sa grâce. Car c'est de ce règne qu'on doit entendre ce qu'il prêchoit & ce qu'il faisoit prêcher par tous ses disciples , Que <em>le royaume de Dieu étoit proche</em> : ce règne tout spirituel , par lequel il commençoit à prendre possession du cœur des hommes , en dissipant toutes les ombres de la loi , en substituant la vérité aux figures , en perfectionnant la religion Judaïque , en détruisant l'idolâtrie , & en se formant un peuple nouveau de <em>véritables adorateurs</em> , qui au lieu du culte charnel des Juifs , commençoient <em>à l'adorer en esprit & en vérité.</em>",
+          "marges": [
+            "Estius in hunc loc.",
+            "Matt. 4. 17.",
+            "Luc. 10. 9.",
+            "Joan. 4. 23."
+          ],
+          "p": 581
+        },
+        {
+          "texte": "On doit néanmoins se bien garder de conclure de ces paroles de J. C. que nous expliquons , que son Eglise n'est donc pas visible ni remarquable. Car c'est une fausse conséquence qu'en tirent les hérétiques , lorsqu'ils prétendent se servir de ce passage pour prouver que l'Eglise sainte est invisible. Et l'on a fait voir ailleurs , qu'elle est au contraire comme une ville bâtie sur une haute montagne , exposée aux yeux de tout l'Univers ; que ceux qui ne la voient pas , ne doivent s'en prendre qu'à leur propre aveuglement ; & qu'elle a des marques si éclatantes qui la distinguent de toutes les sectes , qu'on ne peut en envisager le commencement & tous les progrès , ni son affermissement malgré toutes les persécutions de ses ennemis , & l'obstination de tant d'hérétiques à la contredire , sans demeurer convaincu de la vérité de sa foi , & de son autorité vraiment catholique & divine. Ainsi il est vrai que <em>le royaume de Dieu est venu d'une manière qui n'étoit pas remarquable & éclatante</em> , selon les vaines idées des Pharisiens & de la plupart des Juifs , qui attendoient un Messie glorieux & puissant selon le siècle. Mais il est venu néanmoins accompagné de l'éclat d'un grand nombre de miracles , qui ont dû le faire connoître à ceux qui comme le saint vieillard Siméon , étoient <a class=\"page-inline\" href=\"page-583.html\" title=\"p. 583\">‖</a>pleins du saint Esprit , & <em>qui vivoient dans l'attente de la consolation d'Israël.</em> Il est venu accompagné de la gloire , non du siècle , mais du ciel , lorsque les Anges publièrent la naissance du Sauveur , & que le bruit de leur apparition miraculeuse remplit d'étonnement tous ceux qui l'apprirent. Il est venu attesté par les Gentils mêmes , lorsque des Sages de l'Orient étant attirés de leur pays par la vue d'une étoile miraculeuse , allèrent chercher en Judée celui qu'ils nommoient publiquement le Roi des Juifs , & qu'ils assuroient être né nouvellement parmi eux. Il est venu d'une manière d'autant plus capable de frapper & d'étonner tous les peuples , que la doctrine , sur la prédication de laquelle il a été établi , choquant davantage le raisonnement & l'orgueil des hommes , n'a pas laissé de soumettre enfin à la foi tous les Empires du monde ; & que ceux mêmes qui ont servi à cet établissement , paroissoient très-méprisables.",
+          "marges": [
+            "Estius in hunc loc.",
+            "Luc. 2. 25.",
+            "Ibid. v. 9. &c."
+          ],
+          "p": 582
+        }
+      ],
+      "noteVersets": [
+        20,
+        21
+      ]
+    },
+    {
+      "n": 21,
+      "p": 572,
+      "lat": "neque dicent : Ecce hìc , aut ecce illìc. Ecce enim regnum Dei intra vos est.",
+      "fr": "& on ne dira point : Il est ici , ou il est là. Car dès à présent le royaume de Dieu est au-dedans de vous.",
+      "note": ""
+    },
+    {
+      "n": 22,
+      "p": 572,
+      "lat": "Et ait ad discipulos suos : Venient dies quando desideretis videre unum diem Filii hominis , & non videbitis.",
+      "fr": "Après cela il dit à ses disciples : Il viendra un temps que vous désirerez de voir un des jours du Fils de l'homme , & vous ne le verrez point.",
+      "note": [
+        {
+          "texte": "<em>Après cela il dit à ses disciples : Il viendra un temps que vous désirerez de voir un des jours du Fils de l'homme , & vous ne le verrez point. Et ils vous diront : Il est ici , il est là. Mais n'y allez point , &c.</em>",
+          "marges": [],
+          "p": 583
+        },
+        {
+          "texte": "Le Fils de Dieu connoissant le cœur des Pharisiens , qui n'avoient que du mépris pour les humiliations de son royaume , se tourne vers ses disciples , & les exhorte à n'en user pas de même , mais à bien connoître le temps de la visite du Seigneur , & à en faire tout le saint usage qu'ils devoient. C'est ce qu'il leur marque , en leur témoignant qu'ils ne jouiroient pas toujours de l'avantage de posséder visiblement au milieu d'eux le Roi éternel de ce <em>royaume</em> dont il venoit de parler. <em>Il viendra un temps</em> , leur dit-il , <em>que vous désirerez de voir un des jours du Fils de l'homme</em> ; c'est-à-dire , de jouir un seul jour , comme vous faites maintenant , de la présence de celui qui étant de toute éternité le Fils Dieu , s'est fait dans le temps <em>Fils de l'homme</em> pour l'amour de vous. <em>Vous désirerez de le voir</em> , à cause des grandes afflictions où vous tomberez : <em>& vous ne le verrez point</em> ; parce que l'Epoux vous aura été enlevé , & que ce sera le temps pour vous d'être dans le deuil & dans la tristesse. Ainsi songez à bien ménager présentement l'occasion favorable que vous avez de converser avec lui , de vous nourrir de ses divines paroles , d'être soutenus par sa présence , de vous former sur son exemple , & de vous fortifier de plus en plus par son esprit & par sa grâce.",
+          "marges": [
+            "Matt. 9. 15.",
+            "Matt. 2. 20."
+          ],
+          "p": 583
+        },
+        {
+          "texte": "La raison que le Fils de Dieu donne à ses disciples , de l'importance de bien ménager pour leur salut le temps qu'il avoit à demeurer parmi eux , est qu'il devoit s'élever parmi les hommes <a class=\"page-inline\" href=\"page-584.html\" title=\"p. 584\">‖</a>bien des troubles & des disputes sur le règne véritable du Fils de l'homme ; parce que les uns diroient , <em>Il est ici</em> ; & les autres , <em>Il est là</em> : ce qui marquoit toutes les sectes différentes qui se formeroient après sa mort , & qui pourroient renverser la foi de plusieurs , si elle n'étoit solidement affermie. Aussi l'on vit dès le temps même des Apôtres plusieurs hérésies combattre la vérité de l'Evangile. Saint Paul dit même : Qu'<em>il falloit qu'il y en eut , afin que ceux qui étoient dans une solide piété fussent connus.</em> Et beaucoup de Pères ont cru que Nicolas , l'un des sept premiers Diacres établis par l'Eglise de Jérusalem , fut l'auteur de l'hérésie qui est connue sous le nom des Nicolaïtes. Il étoit donc important que tous ceux qui devoient être les colonnes de la vérité , la puisassent toute pure , comme S. Jean , dans le sein de J. C. , & qu'ils se souvinssent toujours dans la suite de ce qu'ils lui avoient dit pendant qu'il étoit au milieu d'eux : <em>A qui irons-nous , Seigneur ? Vous avez les paroles de la vie éternelle.</em>",
+          "marges": [
+            "1. Cor. 11. 19.",
+            "Epiphan. hæres. 25. c. 1.",
+            "Irenæus l. 1. c. 27.",
+            "Tertull. de præsc. c. 47.",
+            "Hilar. in Matt. c. 25.",
+            "Hieron. ep. 1.",
+            "Joan. 6. 69."
+          ],
+          "p": 583
+        }
+      ],
+      "noteVersets": [
+        22,
+        23
+      ]
+    },
+    {
+      "n": 23,
+      "p": 572,
+      "lat": "Et dicent vobis : Ecce hìc , & ecce illìc. Nolite ire , neque sectemini.",
+      "fr": "Et ils vous diront : Il est ici , il est là. Mais n'y allez point , & ne les suivez point.",
+      "note": "",
+      "marges": [
+        "Matt. 24. 23.",
+        "Marc. 13. 21."
+      ]
+    },
+    {
+      "n": 24,
+      "p": 572,
+      "lat": "Nam sicut fulgur co<a class=\"page-inline\" href=\"page-573.html\" title=\"p. 573\">‖</a>ruscans de sub cœlo , in ea quæ sub cœlo sunt , fulget : ita erit Filius hominis in die sua.",
+      "fr": "Car comme un éclair brille <a class=\"page-inline\" href=\"page-573.html\" title=\"p. 573\">‖</a>& se fait voir depuis un côté du ciel jusqu'à l'autre ; ainsi paroîtra le Fils de l'homme en son jour.",
+      "note": ""
+    },
+    {
+      "n": 25,
+      "p": 573,
+      "lat": "Primùm autem oportet illum multa pati , & reprobari à generatione hac.",
+      "fr": "Mais il faut auparavant qu'il souffre beaucoup , & qu'il soit rejeté par * ce peuple.",
+      "note": "",
+      "nb": [
+        "℣. 25. l. cette génération."
+      ]
+    },
+    {
+      "n": 26,
+      "p": 573,
+      "lat": "Et sicut factum est in diebus Noe , ita erit & in diebus Filii hominis.",
+      "fr": "Et ce qui est arrivé au temps de Noé , arrivera encore au temps du Fils de l'homme.",
+      "note": "",
+      "marges": [
+        "Genes. 7. 7.",
+        "Matt. 24. 37."
+      ]
+    },
+    {
+      "n": 27,
+      "p": 573,
+      "lat": "Edebant , & bibebant : uxores ducebant , & dabantur ad nuptias usque in diem , quâ intravit Noe in arcam : & venit diluvium , & perdidit omnes.",
+      "fr": "Ils mangeoient & ils buvoient : les hommes épousoient des femmes , & les femmes se marioient jusqu'au jour que Noé entra dans l'arche : & alors le déluge survenant les fit tous périr.",
+      "note": ""
+    },
+    {
+      "n": 28,
+      "p": 573,
+      "lat": "Similiter sicut factum est in diebus Lot : edebant , & bibebant , emebant & vendebant , plantabant & ædificabant :",
+      "fr": "Et comme il arriva encore au temps de Lot , ils mangeoient & ils buvoient , ils achetoient & ils vendoient , ils plantoient & ils bâtissoient.",
+      "note": ""
+    },
+    {
+      "n": 29,
+      "p": 573,
+      "lat": "quâ die autem exiit Lot à Sodomis , pluit ignem & sulphur de cœlo , & omnes perdidit.",
+      "fr": "Mais le jour que Lot sortit de Sodome , il tomba du ciel une pluie de feu & de soufre , qui les perdit tous.",
+      "note": "",
+      "marges": [
+        "Gen. 19. 24."
+      ]
+    },
+    {
+      "n": 30,
+      "p": 573,
+      "lat": "Secundùm hæc erit quâ die Filius hominis revelabitur.",
+      "fr": "Il en sera de même au jour que le Fils de l'homme paroîtra.",
+      "note": "",
+      "marges": [
+        "Matt. 24. 17."
+      ]
+    },
+    {
+      "n": 31,
+      "p": 573,
+      "lat": "In illa hora , qui fuerit in tecto , & vasa ejus in domo , ne descendat tollere illa : & qui in agro similiter non redeat retrò.",
+      "fr": "En ce temps-là , si un homme se trouve au haut de la maison , & que ses meubles soient en bas , qu'il ne descende point pour les prendre : & que celui qui se trouvera dans le champ ne retourne point non plus à ce qui est derrière lui.",
+      "note": ""
+    },
+    {
+      "n": 32,
+      "p": 573,
+      "lat": "Memores estote uxoris Lot.",
+      "fr": "Souvenez-vous de la femme de Lot.",
+      "note": [
+        {
+          "texte": "<em>Souvenez-vous de la femme de Lot.</em>",
+          "marges": [],
+          "p": 584
+        },
+        {
+          "texte": "Le Fils de Dieu qui vouloit représenter à ses disciples une vive image de l'état où il trouvera les hommes à la fin du monde , leur propose ici l'exemple de ceux qui vivoient lorsque le déluge inonda toute la terre , & celui des habitans de Sodome , qui se trouvèrent enveloppés dans l'embrasement de cette ville criminelle , lorsqu'ils <em>mangeoient & buvoient</em> , qu'ils <em>achetoient & vendoient</em> , qu'ils <em>plantoient & bâtissoient.</em> Mais pour les porter plus fortement à se détacher des choses du monde , il prend occasion de ce qu'il venoit de dire du châtiment de Sodome , pour les faire souvenir en même-temps de ce qui étoit arrivé à la femme de Lot , lorsque par l'amour des biens temporels qu'elle quittoit , ayant regardé derrière elle , quoique l'Ange l'eût défendu , elle fut changée tout d'un coup en une statue de sel. Saint Augustin faisant réflexion sur ce prodige , dit que nous ne considérons pas assez combien est terrible l'avertissement que le Fils de Dieu donnoit aux Apôtres & à ses autres disciples , de <em>se souvenir de</em> ce que <em>la femme de Lot</em> fit & souffrit en cette rencontre. Comme le sel est le symbole de la sagesse , il a voulu que <em>le souvenir</em> du supplice de cette femme changée en sel , rendît sages ses disciples , & leur fît fuir la folie où elle est tombée. Il a voulu , comme dit le même Saint , leur apprendre à ne regarder jamais derrière eux , comme s'ils avoient encore quelque goût secret pour les biens qu'ils ont quittés , & quelque dégoût au contraire pour les biens que Dieu même leur a promis.",
+          "marges": [
+            "Matt. 24. 37.",
+            "Genes. 19. 17. 26.",
+            "August. in Psal. 33. init.",
+            "Idem. in Psal. 75."
+          ],
+          "p": 584
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "p": 573,
+      "lat": "Quicumque quæsierit animam suam salvam facere , perdet illam : & quicumque perdiderit illam , vivificabit eam.",
+      "fr": "* Quiconque cherchera à se sauver soi-même se perdra : & quiconque se sera perdu lui-même * se sauvera.",
+      "note": "",
+      "marges": [
+        "Sup. 9. 24.",
+        "Matt. 10. 39.",
+        "Marc. 8. 35.",
+        "Joan. 12. 25."
+      ],
+      "nb": [
+        "℣. 33. Voyez S. Matthieu 16. 25.",
+        "Ibid. vivifiera son ame."
+      ]
+    },
+    {
+      "n": 34,
+      "p": 574,
+      "lat": "Dico vobis : in illa nocte erunt duo in lecto uno ; unus assumetur , & alter relinquetur :",
+      "fr": "Je vous déclare que cette nuit-là , de deux personnes qui seront dans le même lit , l'un sera pris , & l'autre laissé :",
+      "note": "",
+      "marges": [
+        "Matt. 24. 41."
+      ]
+    },
+    {
+      "n": 35,
+      "p": 574,
+      "lat": "duæ erunt molentes in unum ; una assumetur , & altera relinquetur : duo in agro , unus assumetur , & alter relinquetur.",
+      "fr": "de deux femmes qui moudront ensemble , l'une sera prise , & l'autre laissée : de deux personnes qui seront dans le même champ , l'un sera pris , & l'autre laissé.",
+      "note": ""
+    },
+    {
+      "n": 36,
+      "p": 574,
+      "lat": "Respondentes dicunt illi : Ubi , Domine ?",
+      "fr": "Ils lui direnr : Où sera-ce , Seigneur ?",
+      "note": [
+        {
+          "texte": "<em>Ils lui dirent : Où sera-ce , Seigneur ? Et il répondit : En quelque lieu que soit le corps , les aigles s'y assembleront.</em>",
+          "marges": [],
+          "p": 585
+        },
+        {
+          "texte": "J. C. venoit de parler de ce terrible discernement qui doit être fait à la fin du monde des élus & des réprouvés. C'est ce qui engage ses disciples à lui demander , <em>où cela arriveroit</em> ; c'est-à-dire où se feroit cette séparation si redoutable. Et il y répond par cette espèce de proverbe , Que <em>par-tout où seroit le corps , là les aigles s'assembleroient</em> : ce qui signifie que de même qu'un corps mort attire les aigles & tous les autres oiseaux qui se nourrissent de carnage ; aussi les élus figurés par les aigles , se réuniroient en un instant à J. C. au milieu des airs , attirés par la puissance de son esprit , qui auroit la force de les joindre tous ensemble comme les membres à leur divin chef. Ainsi il leur fait entendre que la séparation dont il leur parle se doit faire en un moment par toute la terre , où de tous les hommes qui y sont ensemble , les uns seront <em>pris</em> pour être enlevés au-devant de J. C. , & les autres <em>laissés</em> dans la multitude des méchans , qui comme des criminels , paroîtront devant ce juge terrible , pour entendre prononcer leur jugement éternel.",
+          "marges": [
+            "Grotius in hunc locum."
+          ],
+          "p": 585
+        }
+      ],
+      "noteVersets": [
+        36,
+        37
+      ]
+    },
+    {
+      "n": 37,
+      "p": 574,
+      "lat": "Qui dixit illis : Ubicumque fuerit corpus , illùc congregabuntur & aquilæ.",
+      "fr": "Et il répondit : En quelque lieu que soit le corps , les aigles s'y assembleront.",
+      "note": "",
+      "marges": [
+        "Matt. 24. 28."
+      ]
+    }
+  ]
+};
+  </script>
+</head>
+<body data-base="../">
+
+<div class="page-shell">
+  <button class="sidebar-open-btn" aria-label="Ouvrir le sommaire">☰</button>
+  <div class="sidebar-backdrop"></div>
+
+  <aside class="sidebar">
+    <div class="sidebar-head">
+      <a class="sidebar-brand" href="../index.html">Bible de Sacy</a>
+      <button class="sidebar-collapse-btn" title="Replier le sommaire">«</button>
+    </div>
+    <div class="sidebar-search">
+      <input type="search" class="sidebar-search-input" placeholder="Rechercher…" autocomplete="off" spellcheck="false">
+      <div class="sidebar-search-results" hidden></div>
+    </div>
+    <nav class="sidebar-tree"><details class="canon-group" open><summary>Nouveau Testament</summary>
+<details class="livre-group" data-livre="luc"><summary><span class="abr">Lc</span> <span class="nom">Évangile de saint Luc</span></summary>
+<div class="chap-list">
+<a href="../luc/index.html" data-ch="0">Préface</a>
+<a href="../luc/ch01.html" data-ch="1">1</a>
+<a href="../luc/ch02.html" data-ch="2">2</a>
+<a href="../luc/ch03.html" data-ch="3">3</a>
+<a href="../luc/ch04.html" data-ch="4">4</a>
+<a href="../luc/ch05.html" data-ch="5">5</a>
+<a href="../luc/ch06.html" data-ch="6">6</a>
+<a href="../luc/ch07.html" data-ch="7">7</a>
+<a href="../luc/ch08.html" data-ch="8">8</a>
+<a href="../luc/ch09.html" data-ch="9">9</a>
+<a href="../luc/ch10.html" data-ch="10">10</a>
+<a href="../luc/ch11.html" data-ch="11">11</a>
+<a href="../luc/ch12.html" data-ch="12">12</a>
+<a href="../luc/ch13.html" data-ch="13">13</a>
+<a href="../luc/ch14.html" data-ch="14">14</a>
+<a href="../luc/ch15.html" data-ch="15">15</a>
+<a href="../luc/ch16.html" data-ch="16">16</a>
+<a href="../luc/ch17.html" data-ch="17">17</a>
+<a href="../luc/ch18.html" data-ch="18">18</a>
+<a href="../luc/ch19.html" data-ch="19">19</a>
+<a href="../luc/ch20.html" data-ch="20">20</a>
+<a href="../luc/ch21.html" data-ch="21">21</a>
+<a href="../luc/ch22.html" data-ch="22">22</a>
+<a href="../luc/ch23.html" data-ch="23">23</a>
+<a href="../luc/ch24.html" data-ch="24">24</a>
+</div></details>
+</details></nav>
+    <div class="sidebar-foot">
+      <a href="../biblio.html">Bibliographie</a>
+      <a href="../recherche.html">Recherche</a>
+      <button class="theme-toggle" title="Thème clair / sombre"><span class="theme-icon">☾</span></button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <p class="breadcrumb">
+      <a href="../index.html">Bible de Sacy</a> › <span class="breadcrumb-livre"></span>
+    </p>
+
+    <header class="chapter-header">
+      <p class="livre"></p>
+      <h1></h1>
+      <h2></h2>
+      <div class="chapter-actions">
+        <button class="btn" id="latin-toggle">Afficher le latin</button>
+        <a class="btn lien-pages" href="#" hidden>📄 Page à page</a>
+        <a class="btn lien-facs" href="#" target="_blank" rel="noopener">📖 Fac-similé</a>
+      </div>
+    </header>
+
+    <div class="chapitre-columns">
+      <section class="col-francais" aria-label="Texte français"></section>
+      <section class="col-commentaire" aria-label="Commentaire">
+        <p class="col-label">Notes de la <em>Bible de Sacy</em></p>
+        <div class="commentaire-texte"></div>
+      </section>
+      <section class="col-litteral" aria-label="Sens littéral" hidden>
+        <p class="col-label">
+          <span>Sens littéral</span>
+          <span class="sens-toggle">
+            <button class="btn sens-btn active" data-sens="litteral">Littéral</button>
+            <button class="btn sens-btn" data-sens="spirituel">Spirituel</button>
+          </span>
+        </p>
+        <div class="litteral-texte"></div>
+      </section>
+      <section class="col-spirituel" aria-label="Sens spirituel" hidden>
+        <p class="col-label">Sens spirituel</p>
+        <div class="spirituel-texte"></div>
+      </section>
+    </div>
+
+    <nav class="chapter-nav">
+      <a class="nav-prev" href="#">←</a>
+      <span class="chapitre-num"></span>
+      <a class="nav-next" href="#">→</a>
+    </nav>
+  </main>
+</div>
+
+<script src="../render.js"></script>
+</body>
+</html>

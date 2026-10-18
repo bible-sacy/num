@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+/* ── Thème clair ──────────────────────────────────────────────────── */
+:root, :root[data-theme="light"] {
+  --bg:            #ffffff;
+  --bg-alt:        #f3f1ec;
+  --sidebar-bg:    #faf9f6;
+  --text:          #161513;
+  --text-latin:    #2f2c25;
+  --muted:         #57534a;
+  --accent:        #7a1010;
+  --accent-light:  #a3241f;
+  --border:        #d6d1c5;
+  --border-light:  #e8e4da;
+  --link:          #6b0000;
+  --hover-row:     #f7f6f1;
+  --table-head:    #f0eee6;
+  --current-bg:    #efe1c4;
+  --search-bg:     #ffffff;
+  --search-border: #cfcac0;
+  --shadow:        rgba(30, 25, 15, 0.08);
+}
+
+/* ── Thème sombre ─────────────────────────────────────────────────── */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:            #121212;
+    --bg-alt:        #1b1b19;
+    --sidebar-bg:    #171613;
+    --text:          #ededea;
+    --text-latin:    #cfcabd;
+    --muted:         #ada894;
+    --accent:        #e28783;
+    --accent-light:  #cf5651;
+    --border:        #3c3a34;
+    --border-light:  #2a2925;
+    --link:          #e2a09c;
+    --hover-row:     #1c1b18;
+    --table-head:    #1e1d19;
+    --current-bg:    #3a2f1c;
+    --search-bg:     #1b1b19;
+    --search-border: #3c3a34;
+    --shadow:        rgba(0, 0, 0, 0.4);
+  }
+}
+:root[data-theme="dark"] {
+  --bg:            #121212;
+  --bg-alt:        #1b1b19;
+  --sidebar-bg:    #171613;
+  --text:          #ededea;
+  --text-latin:    #cfcabd;
+  --muted:         #ada894;
+  --accent:        #e28783;
+  --accent-light:  #cf5651;
+  --border:        #3c3a34;
+  --border-light:  #2a2925;
+  --link:          #e2a09c;
+  --hover-row:     #1c1b18;
+  --table-head:    #1e1d19;
+  --current-bg:    #3a2f1c;
+  --search-bg:     #1b1b19;
+  --search-border: #3c3a34;
+  --shadow:        rgba(0, 0, 0, 0.4);
+}
+
+/* ── Reset & base ─────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+html { font-size: 18px; scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'EB Garamond', 'Palatino Linotype', Georgia, serif;
+  font-weight: 400;
+  line-height: 1.75;
+  text-align: justify;
+  hyphens: auto;
+  transition: background 0.2s, color 0.2s;
+}
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; text-decoration-color: var(--accent-light); }
+h1, h2, h3 { font-weight: 500; }
+button { font-family: inherit; }
+
+/* ── Charpente de page : sommaire + contenu ──────────────────────── */
+.page-shell { display: flex; min-height: 100vh; }
+
+.sidebar {
+  flex: 0 0 280px;
+  width: 280px;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border-light);
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+.page-shell.sidebar-collapsed .sidebar { flex: 0 0 0; width: 0; border-right: none; overflow: hidden; }
+.page-shell.sidebar-collapsed .sidebar-open-btn { display: block; }
+
+.sidebar-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1.1rem 1.1rem 0.6rem;
+  gap: 0.5rem;
+}
+.sidebar-brand {
+  font-variant: small-caps;
+  font-size: 1.05rem;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+  white-space: nowrap;
+}
+.sidebar-collapse-btn {
+  background: none; border: none; cursor: pointer;
+  color: var(--muted); font-size: 1rem; line-height: 1; padding: 0.2rem;
+}
+.sidebar-collapse-btn:hover { color: var(--accent); }
+
+.sidebar-search { padding: 0 1.1rem 0.7rem; position: relative; }
+.sidebar-search-input {
+  width: 100%;
+  font-family: inherit;
+  font-size: 0.92rem;
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--search-border);
+  border-radius: 4px;
+  background: var(--search-bg);
+  color: var(--text);
+  outline: none;
+}
+.sidebar-search-input:focus { border-color: var(--accent); }
+.sidebar-search-input::placeholder { color: var(--muted); }
+
+.sidebar-search-results {
+  position: absolute;
+  left: 1.1rem; right: 1.1rem; top: 100%;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  box-shadow: 0 6px 16px var(--shadow);
+  z-index: 30;
+  max-height: 60vh;
+  overflow-y: auto;
+  padding: 0.3rem 0;
+}
+.sidebar-search-results a {
+  display: block;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+  color: var(--text);
+  border-bottom: 1px solid var(--border-light);
+}
+.sidebar-search-results a:last-child { border-bottom: none; }
+.sidebar-search-results a:hover { background: var(--bg-alt); text-decoration: none; }
+.sidebar-search-results .res-ref { font-variant: small-caps; color: var(--accent-light); margin-right: 0.4em; }
+.sidebar-search-results .res-empty { padding: 0.5rem 0.75rem; color: var(--muted); font-style: italic; font-size: 0.85rem; }
+
+.sidebar-tree {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 0.2rem 0.6rem 1rem;
+  text-align: left;
+  hyphens: none;
+}
+
+details.canon-group > summary {
+  font-variant: small-caps;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+  list-style: none;
+}
+details.canon-group > summary::-webkit-details-marker { display: none; }
+details.canon-group > summary::before { content: '▸ '; display: inline-block; width: 0.9em; }
+details.canon-group[open] > summary::before { content: '▾ '; }
+
+details.livre-group { margin-left: 0.6rem; }
+details.livre-group > summary {
+  font-size: 0.88rem;
+  color: var(--text);
+  padding: 0.28rem 0.4rem;
+  cursor: pointer;
+  border-radius: 3px;
+  list-style: none;
+}
+details.livre-group > summary::-webkit-details-marker { display: none; }
+details.livre-group > summary::before { content: '▸ '; color: var(--muted); font-size: 0.75em; }
+details.livre-group[open] > summary::before { content: '▾ '; }
+details.livre-group > summary:hover { background: var(--bg-alt); }
+details.livre-group > summary .abr { font-variant: small-caps; color: var(--accent-light); margin-right: 0.4em; }
+details.livre-group.indisponible > summary { color: var(--muted); opacity: 0.5; pointer-events: none; }
+
+.chap-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem;
+  padding: 0.3rem 0 0.5rem 1.5rem;
+}
+.chap-list a, .chap-list span.chap-absent {
+  display: inline-block;
+  min-width: 1.9em;
+  text-align: center;
+  font-size: 0.78rem;
+  padding: 0.12rem 0.2rem;
+  border-radius: 3px;
+  color: var(--muted);
+}
+.chap-list a:hover { background: var(--bg-alt); color: var(--accent); text-decoration: none; }
+.chap-list a.current { background: var(--current-bg); color: var(--accent); font-weight: 600; }
+.chap-list span.chap-absent { opacity: 0.3; }
+
+.sidebar-foot {
+  border-top: 1px solid var(--border-light);
+  padding: 0.7rem 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.78rem;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.sidebar-foot a { color: var(--muted); }
+.sidebar-foot a:hover { color: var(--accent); }
+.sidebar-foot .theme-toggle {
+  background: none; border: none; cursor: pointer; color: var(--muted); font-size: 1rem;
+}
+.sidebar-foot .theme-toggle:hover { color: var(--accent); }
+
+.sidebar-open-btn {
+  display: none;
+  position: fixed;
+  top: 0.7rem; left: 0.7rem;
+  z-index: 40;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.35rem 0.55rem;
+  cursor: pointer;
+  color: var(--text);
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px var(--shadow);
+}
+.sidebar-backdrop { display: none; }
+
+/* ── Contenu principal ────────────────────────────────────────────── */
+.main {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 2.2rem 3rem 5rem;
+  max-width: 1180px;
+  margin-inline: auto;   /* centré dans l'espace à droite du sommaire (grands écrans) */
+}
+
+/* ── En-tête de chapitre / livre / accueil ────────────────────────── */
+.breadcrumb {
+  font-variant: small-caps;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 1.2rem;
+}
+.breadcrumb a { color: var(--muted); }
+.breadcrumb a:hover { color: var(--accent); }
+
+.chapter-header, .livre-header, .index-header, .search-header {
+  text-align: center;
+  padding-bottom: 1.6rem;
+  border-bottom: 2px solid var(--border);
+  margin-bottom: 2.4rem;
+}
+.chapter-header .livre, .livre-header .surtitre, .index-header .surtitre {
+  font-variant: small-caps;
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.3rem;
+}
+.chapter-header h1, .livre-header h1, .index-header h1 {
+  font-variant: small-caps;
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: var(--accent);
+  letter-spacing: 0.02em;
+  margin: 0 0 0.2rem;
+}
+.chapter-header h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--muted);
+  font-style: italic;
+  margin: 0 0 1.1rem;
+}
+.index-header p { font-style: italic; color: var(--muted); max-width: 55ch; margin: 0.4rem auto 0; font-size: 0.97rem; }
+
+.chapter-actions { display: flex; justify-content: center; gap: 0.6rem; flex-wrap: wrap; }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.3rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-variant: small-caps;
+  font-family: inherit;
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+  color: var(--text);
+  background: var(--bg);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+}
+.btn:hover { border-color: var(--accent-light); background: var(--bg-alt); color: var(--accent); text-decoration: none; }
+.btn.active { color: var(--accent); border-color: var(--accent); background: var(--bg-alt); }
+
+/* ── Mise en page du chapitre : français + commentaire ────────────── */
+.chapitre-columns {
+  display: flex;
+  gap: 2.8rem;
+  align-items: flex-start;
+}
+.col-francais {
+  flex: 0 0 40%;
+  min-width: 0;
+  position: sticky;
+  top: 1.2rem;
+  max-height: calc(100vh - 2.4rem);
+  overflow-y: auto;
+  padding-right: 0.6rem;
+}
+.col-commentaire {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.col-label {
+  font-variant: small-caps;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.9rem;
+  border-bottom: 1px solid var(--border-light);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+/* ── Chapitres à double commentaire (sens littéral / spirituel) ───── */
+.chapitre-columns.triple .col-francais { flex: 0 0 30%; }
+.col-litteral, .col-spirituel {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.sens-toggle { display: none; gap: 0.4rem; }
+.sens-toggle .btn { padding: 0.15rem 0.6rem; font-size: 0.76rem; }
+
+.verset {
+  padding: 0.35rem 0;
+  font-size: 1.06rem;
+  font-weight: 500;
+  line-height: 1.8;
+}
+.verset .vnum {
+  display: inline-block;
+  min-width: 1.5em;
+  font-variant: small-caps;
+  font-size: 0.72rem;
+  color: var(--accent-light);
+  font-weight: 500;
+  user-select: none;
+}
+.verset-latin {
+  display: none;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.94rem;
+  color: var(--text-latin);
+  margin: 0.15rem 0 0.35rem 1.5em;
+}
+.show-latin .verset-latin { display: block; }
+
+.ref-com {
+  display: inline-block;
+  margin-left: 0.25em;
+  font-size: 0.8rem;
+  color: var(--accent-light);
+  vertical-align: super;
+  line-height: 0;
+  opacity: 0.65;
+  transition: opacity 0.15s;
+}
+.ref-com:hover { opacity: 1; text-decoration: none; }
+
+.ref-page {
+  margin-left: 0.4em;
+  font-variant: small-caps;
+  font-size: 0.72rem;
+  color: var(--muted);
+  opacity: 0.75;
+  transition: color 0.15s, opacity 0.15s;
+  white-space: nowrap;
+}
+.ref-page:hover { color: var(--accent-light); opacity: 1; text-decoration: none; }
+
+.page-marker {
+  text-align: center;
+  margin: 0.5rem 0;
+  font-variant: small-caps;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  color: var(--border);
+}
+.page-marker::before { content: '\2014\2009'; }
+.page-marker::after  { content: '\2009\2014'; }
+.page-marker a { color: var(--muted); }
+.page-marker a:hover { color: var(--accent-light); text-decoration: none; }
+
+/* Changement de page signalé au fil du texte (dans un paragraphe) */
+.page-inline {
+  display: inline-block;
+  font-size: 0.7em;
+  vertical-align: super;
+  line-height: 0;
+  color: var(--muted);
+  opacity: 0.6;
+  margin: 0 0.1em;
+  transition: color 0.15s, opacity 0.15s;
+}
+.page-inline:hover { color: var(--accent-light); opacity: 1; text-decoration: none; }
+
+.section-sep {
+  font-variant: small-caps;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  padding: 0.5rem 0;
+  margin: 0.6rem 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--table-head);
+  text-align: center;
+}
+
+.manquant { font-style: italic; color: var(--muted); opacity: 0.6; }
+
+/* ── Commentaire ──────────────────────────────────────────────────── */
+.note-row {
+  margin-bottom: 1.7rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--border-light);
+}
+.note-row:first-child { border-top: none; padding-top: 0; }
+
+.note-verse-head { display: flex; align-items: baseline; gap: 0.5em; margin-bottom: 0.55rem; }
+.vnum-com { font-variant: small-caps; font-size: 0.82rem; color: var(--accent-light); }
+.ref-retour { font-size: 0.8rem; color: var(--accent-light); opacity: 0.6; transition: opacity 0.15s; }
+.ref-retour:hover { opacity: 1; text-decoration: none; }
+
+.note-verse-quote {
+  margin: 0.45rem 0 0.8rem;
+  padding: 0.5rem 0.9rem;
+  border-left: 3px solid var(--border);
+  background: var(--bg-alt);
+  border-radius: 0 4px 4px 0;
+}
+.note-quote-line { font-size: 0.98rem; font-weight: 500; line-height: 1.65; margin: 0 0 0.15rem; color: var(--text); }
+.note-quote-line:last-child { margin-bottom: 0; }
+.note-quote-num { font-variant: small-caps; font-size: 0.74rem; color: var(--accent-light); margin-right: 0.3em; }
+
+.note-para-row { margin-bottom: 0.7rem; }
+.note-para-row.has-marges { display: grid; grid-template-columns: 1fr 210px; gap: 0 2rem; }
+/* Colonnes littéral/spirituel : trop étroites pour la grille à marge fixe,
+   on empile citation sous le texte comme en mobile. */
+.col-litteral .note-para-row.has-marges,
+.col-spirituel .note-para-row.has-marges {
+  grid-template-columns: 1fr;
+}
+.col-litteral .note-para-marges,
+.col-spirituel .note-para-marges {
+  border-left: none;
+  border-top: 1px dotted var(--border-light);
+  padding-left: 0;
+  padding-top: 0.4rem;
+  margin-top: 0.35rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em 1.2em;
+}
+.col-litteral .marge-item, .col-spirituel .marge-item { display: inline; }
+.note-para-text { font-size: 1.02rem; font-weight: 500; line-height: 1.8; margin: 0; }
+.note-para-marges {
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--muted);
+  font-style: italic;
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--border-light);
+}
+.marge-item { display: block; margin-bottom: 0.2em; }
+
+.note-page-break { margin: 0.4rem 0 0.3rem; font-variant: small-caps; font-size: 0.7rem; letter-spacing: 0.05em; }
+.note-page-break a { color: var(--muted); transition: color 0.15s; }
+.note-page-break a:hover { color: var(--accent-light); text-decoration: none; }
+
+.cite-btn {
+  background: none;
+  border: 1px solid var(--border-light);
+  border-radius: 3px;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 0.73rem;
+  font-family: inherit;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  padding: 0.08rem 0.4rem;
+  opacity: 0.6;
+  transition: opacity 0.15s, color 0.15s, border-color 0.15s;
+}
+.cite-btn:hover { opacity: 1; color: var(--accent); border-color: var(--accent-light); }
+
+/* ── Liens de marge (renvois bibliographiques) ────────────────────── */
+.marge-link { display: block; margin-bottom: 0.2em; font-style: italic; font-size: 0.78rem; line-height: 1.45; color: var(--muted); transition: color 0.15s; }
+.marge-link:hover { color: var(--accent); text-decoration: none; }
+.marge-bible { color: var(--accent-light); opacity: 0.8; }
+.marge-bible:hover { opacity: 1; }
+.marge-extern { border-bottom: 1px dotted var(--border); }
+.marge-extern:hover { border-bottom-color: var(--accent-light); }
+
+/* ── Navigation prev/next de chapitre ──────────────────────────────── */
+.chapter-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--border);
+  font-variant: small-caps;
+  font-size: 0.85rem;
+}
+.chapter-nav a { color: var(--muted); }
+.chapter-nav a:hover { color: var(--accent); text-decoration: none; }
+.chapter-nav .chapitre-num { color: var(--muted); }
+
+/* ── Accueil ──────────────────────────────────────────────────────── */
+.livres-section h2 {
+  font-variant: small-caps;
+  font-size: 0.76rem;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--border-light);
+}
+.livres-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 0.25rem 0.6rem; margin-bottom: 2.6rem; }
+.livre-item { display: flex; align-items: baseline; gap: 0.5em; padding: 0.3rem 0.55rem; border-radius: 4px; text-align: left; transition: background 0.12s; }
+.livre-item:hover { background: var(--bg-alt); text-decoration: none; }
+.livre-item .sigle { font-variant: small-caps; font-size: 0.76rem; color: var(--accent-light); min-width: 2.5em; }
+.livre-item .nom { font-size: 0.97rem; color: var(--text); }
+.livre-item.indisponible { color: var(--muted); opacity: 0.5; }
+
+.apropos { max-width: 62ch; margin-top: 2.6rem; padding-top: 2rem; border-top: 1px solid var(--border); }
+.apropos h2 { font-variant: small-caps; font-size: 0.76rem; letter-spacing: 0.12em; color: var(--muted); margin-bottom: 1rem; }
+.apropos p { font-size: 0.95rem; color: var(--muted); line-height: 1.8; margin-bottom: 0.85rem; }
+
+.credit-sacy {
+  display: inline-flex; align-items: center; gap: 0.4em;
+  margin-top: 0.4rem;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+.credit-sacy a { color: var(--accent-light); }
+
+/* ── Page livre ───────────────────────────────────────────────────── */
+.section-label {
+  font-variant: small-caps; font-size: 0.76rem; letter-spacing: 0.12em; color: var(--muted);
+  font-weight: 400; margin-bottom: 1rem; padding-bottom: 0.35rem; border-bottom: 1px solid var(--border-light);
+  display: flex; align-items: baseline; justify-content: space-between; gap: 0.6rem;
+}
+.section-label .lien-facs { font-size: 0.95rem; letter-spacing: normal; }
+.preface-section { margin-bottom: 3rem; max-width: 840px; }
+.livre-preface .note-para-row { margin-bottom: 1rem; }
+.chapitres-section { margin-bottom: 3rem; }
+.chapitres-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 0.3rem; }
+.chap-item {
+  display: block; text-align: center; padding: 0.5rem 0.4rem;
+  border: 1px solid var(--border-light); border-radius: 4px;
+  font-variant: small-caps; font-size: 0.85rem; color: var(--text);
+  transition: background 0.12s, border-color 0.12s, color 0.12s;
+}
+.chap-item:hover { background: var(--bg-alt); border-color: var(--accent-light); color: var(--accent); text-decoration: none; }
+span.chap-item { color: var(--muted); opacity: 0.5; cursor: default; pointer-events: none; }
+
+/* ── Page de recherche ────────────────────────────────────────────── */
+.search-form-main { display: flex; gap: 0.5rem; justify-content: center; align-items: center; flex-wrap: wrap; }
+.search-input-main {
+  font-family: inherit; font-size: 1.05rem; padding: 0.45rem 0.85rem;
+  border: 1px solid var(--border); border-radius: 4px;
+  background: var(--search-bg); color: var(--text);
+  width: 380px; max-width: 90vw; outline: none; transition: border-color 0.15s;
+}
+.search-input-main:focus { border-color: var(--accent); }
+.search-btn-main {
+  font-family: inherit; font-variant: small-caps; font-size: 0.88rem; padding: 0.45rem 1rem;
+  border: 1px solid var(--border); border-radius: 4px; background: var(--bg); color: var(--text);
+  cursor: pointer; transition: background 0.15s, color 0.15s;
+}
+.search-btn-main:hover { background: var(--bg-alt); color: var(--accent); border-color: var(--accent-light); }
+.search-scope {
+  display: flex; align-items: center; gap: 1.1rem; justify-content: center; flex-wrap: wrap;
+  flex-basis: 100%; margin-top: 0.3rem;
+  font-variant: small-caps; font-size: 0.85rem; color: var(--muted); letter-spacing: 0.03em;
+}
+.search-scope label { display: inline-flex; align-items: center; gap: 0.35em; cursor: pointer; }
+.search-scope input { accent-color: var(--accent); cursor: pointer; }
+.search-results { margin-top: 1.2rem; max-width: 74ch; margin-inline: auto; }
+.search-count { font-variant: small-caps; font-size: 0.8rem; color: var(--muted); margin-bottom: 1.5rem; letter-spacing: 0.05em; }
+.search-result { padding: 0.85rem 0; border-bottom: 1px solid var(--border-light); }
+.search-result-ref { font-variant: small-caps; font-size: 0.78rem; color: var(--accent-light); letter-spacing: 0.05em; margin-bottom: 0.3rem; }
+.search-result-ref a { color: var(--accent-light); }
+.search-result-ref a:hover { color: var(--accent); }
+.search-result-fr { font-size: 1rem; color: var(--text); margin-bottom: 0.15rem; }
+.search-result-note { font-size: 0.89rem; color: var(--muted); font-style: italic; }
+mark { background: transparent; color: var(--accent); font-weight: 600; }
+
+/* ── Bibliographie ────────────────────────────────────────────────── */
+.biblio-entry { padding: 1.1rem 0; border-bottom: 1px solid var(--border-light); max-width: 74ch; }
+.biblio-entry:last-child { border-bottom: none; }
+.biblio-ref-text { font-style: italic; font-size: 1.02rem; color: var(--text); margin-bottom: 0.2rem; font-weight: 500; }
+.biblio-meta { font-size: 0.86rem; color: var(--muted); margin-bottom: 0.35rem; display: flex; gap: 0.5em; flex-wrap: wrap; }
+.biblio-auteur { font-weight: 500; color: var(--text); }
+.biblio-oeuvre::before { content: '—\00a0'; }
+.biblio-notice { font-size: 0.89rem; color: var(--muted); line-height: 1.7; margin-bottom: 0.45rem; font-style: italic; }
+.biblio-citations-line { font-size: 0.79rem; display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.3em 0.5em; margin-top: 0.25rem; }
+.biblio-citations-label { font-variant: small-caps; color: var(--muted); letter-spacing: 0.04em; margin-right: 0.2em; }
+.biblio-citation { color: var(--accent-light); font-style: italic; transition: color 0.15s; }
+.biblio-citation:hover { color: var(--accent); text-decoration: none; }
+
+/* ── Responsive ───────────────────────────────────────────────────── */
+@media (max-width: 980px) {
+  .main { padding: 2rem 1.5rem 4rem; }
+  .chapitre-columns { flex-direction: column; gap: 2rem; }
+  .col-francais { position: static; max-height: none; flex: 1 1 auto; padding-right: 0; }
+
+  .sens-toggle { display: inline-flex; }
+  .chapitre-columns.triple .col-litteral,
+  .chapitre-columns.triple .col-spirituel { display: none; }
+  .chapitre-columns.triple.show-litteral .col-litteral { display: block; }
+  .chapitre-columns.triple.show-spirituel .col-spirituel { display: block; }
+}
+
+@media (max-width: 860px) {
+  html { font-size: 17px; }
+  .sidebar {
+    position: fixed;
+    z-index: 50;
+    left: 0; top: 0;
+    transform: translateX(-100%);
+    transition: transform 0.2s;
+    box-shadow: 0 0 24px var(--shadow);
+  }
+  .page-shell.sidebar-open .sidebar { transform: translateX(0); }
+  .page-shell.sidebar-collapsed .sidebar { width: 280px; flex-basis: 280px; }
+  .sidebar-open-btn { display: block; }
+  .page-shell.sidebar-open .sidebar-backdrop {
+    display: block;
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.35);
+    z-index: 45;
+  }
+  .main { padding-top: 3.4rem; }
+  .note-para-row.has-marges { grid-template-columns: 1fr; }
+  .note-para-marges { border-left: none; border-top: 1px dotted var(--border-light); padding-left: 0; padding-top: 0.4rem; margin-top: 0.35rem; display: flex; flex-wrap: wrap; gap: 0.3em 1.2em; }
+  .chapter-actions { flex-direction: column; align-items: center; }
+}
+
+/* ── Vue page à page : image du scan + transcription ───────────────────────── */
+.main-wide { max-width: 1500px; }
+.pf-header { display: flex; align-items: center; justify-content: center; gap: 1rem; margin: 0.5rem 0 0.4rem; }
+.pf-header h1 { font-size: 1.5rem; margin: 0; font-weight: 500; }
+.pf-imprime { font-size: 0.8rem; color: var(--muted); font-weight: 400; }
+.pf-actions { display: flex; justify-content: center; align-items: center; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.pf-grid { display: grid; grid-template-columns: minmax(300px, 42%) 1fr; gap: 1.6rem; align-items: start; }
+.pf-image { margin: 0; position: sticky; top: 0.8rem; max-height: calc(100vh - 1.6rem); overflow: auto;
+  border: 1px solid var(--border-light); border-radius: 4px; background: var(--bg-alt); }
+.pf-image img { display: block; width: 100%; height: auto; }
+.pf-texte-body { font-size: 1.02rem; line-height: 1.75; }
+.pf-titre { font-variant: small-caps; letter-spacing: 0.06em; text-align: center; font-weight: 500; margin: 0.9rem 0 0.2rem; }
+.pf-sommaire { font-style: italic; color: var(--muted); text-align: center; margin: 0 0 1rem; }
+.pf-suite { font-size: 0.78rem; color: var(--muted); font-style: italic; margin: 0.6rem 0; }
+.pf-verset { position: relative; margin: 0 0 0.9rem; padding-right: 0; }
+.pf-vnum { font-variant: small-caps; font-size: 0.78rem; color: var(--accent-light); font-weight: 600; margin-right: 0.2em; }
+.pf-lat { font-style: italic; font-size: 0.93rem; color: var(--text-latin); margin: 0.1rem 0 0 1.4em; }
+.pf-marges, .verset-marges { font-size: 0.74rem; line-height: 1.45; color: var(--muted); font-style: italic; }
+.pf-marges { margin: 0.2rem 0 0 1.4em; display: flex; flex-wrap: wrap; gap: 0.1em 1em; }
+.verset-marges { display: block; margin: 0.1rem 0 0 1.5em; }
+.verset-marges .marge-item { display: inline; margin-right: 0.9em; }
+.pf-marges .marge-item { display: inline; }
+.pf-notebas, .verset-notebas p { font-size: 0.82rem; line-height: 1.55; color: var(--muted); border-top: 1px solid var(--border-light); padding-top: 0.35rem; margin: 0.8rem 0 0.4rem; }
+.verset-notebas { margin: 0.25rem 0 0.2rem 1.5em; }
+.verset-notebas p { margin: 0 0 0.2rem; border-top: none; padding-top: 0; }
+.pf-general { text-align: center; font-variant: small-caps; letter-spacing: 0.05em; margin: 0.6rem 0; }
+.note-page { margin-left: 0; margin-right: 0.5em; }
+.vue-page .note-row { margin-bottom: 1.1rem; }
+.vue-page .vnum-com a { color: inherit; }
+@media (max-width: 900px) {
+  .pf-grid { grid-template-columns: 1fr; }
+  .pf-image { position: static; max-height: none; }
+}
