@@ -84,6 +84,7 @@ const BIBLE_BOOKS = {
   'Sup':{same:true},'Supra':{same:true},'Infr':{same:true},'Infrà':{same:true},'Infra':{same:true},
 };
 let SACY_CURRENT_BOOK = null;
+let SACY_CURRENT_CHAP = null;   // chapitre en cours de lecture (pour les renvois « v. 22. » sans chapitre)
 
 function fromRoman(s) {
   if (!s) return null;
@@ -100,7 +101,17 @@ function fromRoman(s) {
   return n || null;
 }
 
+// « v. 22. », « vers. 3. » : verset du chapitre en cours (même livre).
+const VERSE_ONLY_RE = /^(?:vv?|vers?|versets?)\b\.?\s*(\d+)/i;
+// « Ib. v. 17. » : verset 17 du renvoi précédent de la même liste de marges (« Gen. 17. 16. » puis « Ib. v. 17. » = Gen 17, 17).
+const IB_VERSE_RE = /^(?:ib|ibid|id|idem)\.?\s*(?:vv?|vers?|versets?)\b\.?\s*(\d+)/i;
+
 function parseBibleRef(text) {
+  const mv = text.match(VERSE_ONLY_RE);
+  if (mv) {
+    if (!SACY_CURRENT_BOOK || !SACY_CURRENT_CHAP) return null;
+    return { slug: SACY_CURRENT_BOOK.slug, chapitre: SACY_CURRENT_CHAP, verset: parseInt(mv[1], 10), fr: SACY_CURRENT_BOOK.fr };
+  }
   // Formes acceptées : « Matt. 11. 14. », « 1. Cor. 15. 24. », « Joan. XVI, 7 », « Sup. 9. 22. »
   const m = text.match(
     /^((?:[IVX]+|[1-4])\.?\s+)?([A-Za-zÀ-ÿ]+)\.?\s+([IVXLCD]+|\d+)(?:\s*[.,]\s*(\d+))?/
@@ -139,8 +150,22 @@ function slugify(text) {
     .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 }
 
-function renderMarge(marge, base) {
-  const ref = parseBibleRef(marge);
+// Renvoi d'une marge dans sa liste (`list`, position `i`) : gère « Ib. v. N » par rapport à la marge précédente.
+// Si la marge précédente n'est pas un renvoi biblique (ex. un Père de l'Église : « Ambr. in Luc. c. 2. v. 26. »),
+// « Ib. » désigne cet ouvrage et le renvoi n'est pas résolu (pas de lien biblique).
+function refForMarge(list, i) {
+  const m = list[i].trim();
+  const mi = m.match(IB_VERSE_RE);
+  if (mi) {
+    if (i === 0) return null;
+    const prev = refForMarge(list, i - 1);
+    return prev ? { slug: prev.slug, chapitre: prev.chapitre, verset: parseInt(mi[1], 10), fr: prev.fr } : null;
+  }
+  return parseBibleRef(m);
+}
+
+function renderMarge(marge, base, list, idx) {
+  const ref = list ? refForMarge(list, idx) : parseBibleRef(marge);
   if (ref && typeof SACY_PUBLISHED !== 'undefined' && !SACY_PUBLISHED.includes(ref.slug)) {
     const lab = ref.verset ? `${ref.fr} ${toRoman(ref.chapitre)}, ${ref.verset}` : `${ref.fr} ${toRoman(ref.chapitre)}`;
     return `<span class="marge-link marge-bible marge-hors-site" title="${lab} — livre pas encore publié sur ce site">${marge}</span>`;
@@ -154,6 +179,7 @@ function renderMarge(marge, base) {
       : `${ref.fr} ${toRoman(ref.chapitre)}`;
     return `<a href="${url}" class="marge-link marge-bible" title="${label}">${marge}</a>`;
   }
+  if (IB_VERSE_RE.test(marge.trim())) return `<span class="marge-link">${marge}</span>`;   // « Ib. v. N » d'un ouvrage patristique : pas de lien
   const slug = slugify(marge);
   return `<a href="${base}biblio.html#${slug}" class="marge-link marge-extern">${marge}</a>`;
 }
@@ -405,6 +431,7 @@ function renderChapitre(data) {
     if (facHref) el.href = facHref; else el.style.display = 'none';
   });
   SACY_CURRENT_BOOK = { slug: meta.livre, fr: meta.livreFr };
+  SACY_CURRENT_CHAP = meta.chapitre;
   document.querySelectorAll('.lien-pages').forEach(el => {
     if (meta.pageView && meta.pageFacs) { el.href = `page-${meta.pageFacs}.html`; el.hidden = false; }
   });
@@ -520,7 +547,7 @@ function buildFrancais(versets, meta, base, hasDoubleSens) {
     if (v.p) lastP = v.p;
     firstVerse = false;
     const margesHtml = (v.marges && v.marges.length)
-      ? `<span class="verset-marges">${v.marges.map(m => `<span class="marge-item">${renderMarge(m, base)}</span>`).join(' ')}</span>` : '';
+      ? `<span class="verset-marges">${v.marges.map((m, i, arr) => `<span class="marge-item">${renderMarge(m, base, arr, i)}</span>`).join(' ')}</span>` : '';
     const nbHtml = (v.nb && v.nb.length)
       ? `<div class="verset-notebas">${v.nb.map(t => `<p>${t}</p>`).join('')}</div>` : '';
 
@@ -597,7 +624,7 @@ function buildParaRow(texte, marges, base, pageLink) {
   const hasMarges = marges && marges.length > 0;
   const margesHtml = hasMarges
     ? `<aside class="note-para-marges">` +
-      marges.map(m => `<span class="marge-item">${renderMarge(m, base)}</span>`).join('') +
+      marges.map((m, i, arr) => `<span class="marge-item">${renderMarge(m, base, arr, i)}</span>`).join('') +
       `</aside>`
     : '';
   return `<div class="note-para-row${hasMarges ? ' has-marges' : ''}">` +
@@ -716,9 +743,10 @@ function renderPage(data) {
     (margesByVerse[n] = margesByVerse[n] || []).push(...(mb.marges || []));
   }));
   (page.versets || []).forEach(v => {
+    SACY_CURRENT_CHAP = v.chapitre || page.chapitre;
     const ms = margesByVerse[v.n] || [];
     const msHtml = ms.length
-      ? `<aside class="pf-marges">${ms.map(m => `<span class="marge-item">${renderMarge(m, base)}</span>`).join('')}</aside>` : '';
+      ? `<aside class="pf-marges">${ms.map((m, i, arr) => `<span class="marge-item">${renderMarge(m, base, arr, i)}</span>`).join('')}</aside>` : '';
     const ref = v.n != null ? `<a class="pf-vnum" href="${chRef(v.chapitre, v.n)}" title="Voir ce verset dans le chapitre">${v.n}</a>` : '<span class="pf-vnum">…</span>';
     parts.push(`<div class="pf-verset" id="v${v.n}">
       <div class="pf-fr">${ref} ${v.fr || ''}</div>
@@ -731,6 +759,7 @@ function renderPage(data) {
     const ch = (page.versets && page.versets.length ? page.versets[page.versets.length - 1].chapitre : page.chapitre) || page.chapitre;
     const head = vs.length
       ? `<div class="note-verse-head"><strong class="vnum-com"><a href="${chRef(ch, vs[0])}">${abr} ${toRoman(ch)}, ${vs.length > 1 ? vs[0] + '–' + vs[vs.length - 1] : vs[0]}</a></strong></div>` : '';
+    SACY_CURRENT_CHAP = ch;
     parts.push(`<div class="note-row">${head}${buildParaRow(c.texte, c.marges || [], base)}</div>`);
   });
   (page.texteGeneral || []).forEach(t => parts.push(`<p class="pf-general">${t}</p>`));

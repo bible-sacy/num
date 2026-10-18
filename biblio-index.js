@@ -4429,48 +4429,6 @@ const SACY_BIBLIO = {
       }
     ]
   },
-  "Ib. v. 17.": {
-    "slug": "ib-v-17",
-    "auteur": "",
-    "oeuvre": "",
-    "notice": "",
-    "citations": [
-      {
-        "livre": "luc",
-        "livreAbr": "Lc",
-        "chapitre": 1,
-        "n": 18
-      }
-    ]
-  },
-  "Ib. v. 3.": {
-    "slug": "ib-v-3",
-    "auteur": "",
-    "oeuvre": "",
-    "notice": "",
-    "citations": [
-      {
-        "livre": "luc",
-        "livreAbr": "Lc",
-        "chapitre": 24,
-        "n": 48
-      }
-    ]
-  },
-  "Ib. v. 57. Ambr. in hunc loc.": {
-    "slug": "ib-v-57-ambr-in-hunc-loc",
-    "auteur": "",
-    "oeuvre": "",
-    "notice": "",
-    "citations": [
-      {
-        "livre": "luc",
-        "livreAbr": "Lc",
-        "chapitre": 2,
-        "n": 36
-      }
-    ]
-  },
   "Ibid. 10.": {
     "slug": "ibid-10",
     "auteur": "",
@@ -4622,20 +4580,6 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 3,
         "n": 38
-      }
-    ]
-  },
-  "Ibid. v. 9. &c.": {
-    "slug": "ibid-v-9-c",
-    "auteur": "",
-    "oeuvre": "",
-    "notice": "",
-    "citations": [
-      {
-        "livre": "luc",
-        "livreAbr": "Lc",
-        "chapitre": 17,
-        "n": 20
       }
     ]
   },
@@ -6437,20 +6381,6 @@ const SACY_BIBLIO = {
       }
     ]
   },
-  "ib. v. 14.": {
-    "slug": "ib-v-14",
-    "auteur": "",
-    "oeuvre": "",
-    "notice": "",
-    "citations": [
-      {
-        "livre": "luc",
-        "livreAbr": "Lc",
-        "chapitre": 10,
-        "n": 41
-      }
-    ]
-  },
   "ibid. 12. 13.": {
     "slug": "ibid-12-13",
     "auteur": "",
@@ -6496,160 +6426,6 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 10,
         "n": 36
-      }
-    ]
-  },
-  "v. 22.": {
-    "slug": "v-22",
-    "auteur": "",
-    "oeuvre": "",
-    "notice": "",
-    "citations": [
-      {
-        "livre": "luc",
-        "livreAbr": "Lc",
-        "chapitre": 13,
-        "n": 10
-      }
-    ]
-  },
-  "v. 35. [?]": {
-    "slug": "v-35",
-    "auteur": "",
-    "oeuvre": "",
-    "notice": "",
-    "citations": [
-      {
-        "livre": "luc",
-        "livreAbr": "Lc",
-        "chapitre": 11,
-        "n": 1
-      }
-    ]
-  },
-  "vers. 2.": {
-    "slug": "vers-2",
-    "auteur": "",
-    "oeuvre": "",
-    "notice": "",
-    "citations": [
-      {
-        "livre": "luc",
-        "livreAbr": "Lc",
-        "chapitre": 9,
-        "n": 10
-      }
-    ]
-  },
-  "vers. 26.": {
-    "slug": "vers-26",
-    "auteur": "",
-    "oeuvre": "",
-    "notice": "",
-    "citations": [
-      {
-        "livre": "luc",
-        "livreAbr": "Lc",
-        "chapitre": 20,
-        "n": 39
-      }
-    ]
-  },
-  "vers. 3.": {
-    "slug": "vers-3",
-    "auteur": "",
-    "oeuvre": "",
-    "notice": "",
-    "citations": [
-      {
-        "livre": "luc",
-        "livreAbr": "Lc",
-        "chapitre": 1,
-        "n": 5
-      }
-    ]
-  },
-  "vers. 40.": {
-    "slug": "vers-40",
-    "auteur": "",
-    "oeuvre": "",
-    "notice": "",
-    "citations": [
-      {
-        "livre": "luc",
-        "livreAbr": "Lc",
-        "chapitre": 7,
-        "n": 36
-      }
-    ]
-  },
-  "vers. 41.": {
-    "slug": "vers-41",
-    "auteur": "",
-    "oeuvre": "",
-    "notice": "",
-    "citations": [
-      {
-        "livre": "luc",
-        "livreAbr": "Lc",
-        "chapitre": 1,
-        "n": 67
-      }
-    ]
-  },
-  "vers. 45.": {
-    "slug": "vers-45",
-    "auteur": "",
-    "oeuvre": "",
-    "notice": "",
-    "citations": [
-      {
-        "livre": "luc",
-        "livreAbr": "Lc",
-        "chapitre": 24,
-        "n": 11
-      }
-    ]
-  },
-  "vers. 6.": {
-    "slug": "vers-6",
-    "auteur": "",
-    "oeuvre": "",
-    "notice": "",
-    "citations": [
-      {
-        "livre": "luc",
-        "livreAbr": "Lc",
-        "chapitre": 9,
-        "n": 10
-      }
-    ]
-  },
-  "vers. 63.": {
-    "slug": "vers-63",
-    "auteur": "",
-    "oeuvre": "",
-    "notice": "",
-    "citations": [
-      {
-        "livre": "luc",
-        "livreAbr": "Lc",
-        "chapitre": 1,
-        "n": 67
-      }
-    ]
-  },
-  "vers. 66.": {
-    "slug": "vers-66",
-    "auteur": "",
-    "oeuvre": "",
-    "notice": "",
-    "citations": [
-      {
-        "livre": "luc",
-        "livreAbr": "Lc",
-        "chapitre": 1,
-        "n": 7
       }
     ]
   },
