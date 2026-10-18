@@ -740,3 +740,10 @@ mark { background: transparent; color: var(--accent); font-weight: 600; }
 .note-para-text { font-weight: 500; }
 .marge-bible { opacity: 1; font-weight: 600; }
 .marge-hors-site { cursor: help; }
+
+/* ── Accueil : lien bibliographie, vidéo de présentation ─────────────────────────── */
+.index-liens { text-align: center; margin: 0.2rem 0 1.8rem; }
+.video-embed { margin: 1.6rem 0 0; }
+.video-frame { position: relative; width: 100%; aspect-ratio: 16 / 9; background: var(--bg-alt); border: 1px solid var(--border-light); border-radius: 4px; overflow: hidden; }
+.video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video-embed figcaption { font-size: 0.88rem; color: var(--muted); margin-top: 0.5rem; text-align: left; }
