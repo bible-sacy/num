@@ -786,7 +786,21 @@ mark { background: transparent; color: var(--accent); font-weight: 600; }
 /* grands écrans : colonne française un peu plus étroite en proportion (le commentaire a sa propre gouttière) */
 @media (min-width: 1500px) { .col-francais { flex-basis: 44%; } }
 /* écrans moyens : gouttières plus étroites pour garder de la place au texte */
-@media (max-width: 1400px) {
-  .col-francais { --gutter: 5.4rem; flex-basis: 48%; }
-  .note-para-row.has-marges { grid-template-columns: 1fr 170px; gap: 0 1.4rem; }
+@media (min-width: 981px) and (max-width: 1400px) { .col-francais { --gutter: 5.4rem; flex-basis: 48%; } }
+@media (min-width: 861px) and (max-width: 1400px) { .note-para-row.has-marges { grid-template-columns: 1fr 170px; gap: 0 1.4rem; } }
+
+/* smartphone et tablette étroite : les citations en marge des notes passent SOUS chaque paragraphe (pas de colonne à droite) */
+@media (max-width: 860px) {
+  .note-para-row.has-marges { display: block; }
+  .note-para-marges { border-left: none; border-top: 1px dotted var(--border-light); padding: 0.4rem 0 0; margin-top: 0.35rem;
+    display: flex; flex-wrap: wrap; gap: 0.2em 1.2em; text-align: left; hyphens: none; }
+  .note-para-marges .marge-item { display: inline; margin: 0; }
+  .note-para-marges .marge-link { display: inline; margin: 0; }
+}
+
+/* vue page à page sur smartphone : renvois des versets sous le texte (pas de gouttière) */
+@media (max-width: 640px) {
+  .pf-verset { display: block; }
+  .pf-verset > .pf-marges { display: flex; flex-wrap: wrap; gap: 0.2em 1.1em; margin: 0.25rem 0 0 1.4em; padding-left: 0; border-left: none; }
+  .pf-marges .marge-item { display: inline; margin: 0; }
 }
