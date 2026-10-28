@@ -1,4 +1,4 @@
-# Bible de Port-Royal (Sacy) — édition en ligne
+# Bible de Port-Royal (Sacy) — [nouvelle édition web](https://bible.sacy.be/num/)
 
 Version web de la *Bible de Port-Royal* (traduction de Sacy, avec le texte latin de la Vulgate et le commentaire original),
 d'après les fac-similés numérisés de [bible.sacy.be](https://bible.sacy.be) (projet [sacy.be](https://www.sacy.be)).
