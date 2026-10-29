@@ -14,6 +14,34 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "1. Jean 3. 16.": {
+    "slug": "1-jean-3-16",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 2,
+        "n": 10
+      }
+    ]
+  },
+  "1. Jean. 2. 19.": {
+    "slug": "1-jean-2-19",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 2,
+        "n": 19
+      }
+    ]
+  },
   "1. Mach. 2. 41.": {
     "slug": "1-mach-2-41",
     "auteur": "",
@@ -137,6 +165,20 @@ const SACY_BIBLIO = {
         "livreAbr": "2 Co",
         "chapitre": 1,
         "n": 1
+      }
+    ]
+  },
+  "Ambr. Offic. l. 2. c. 18.": {
+    "slug": "ambr-offic-l-2-c-18",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "tite",
+        "livreAbr": "Tt",
+        "chapitre": 2,
+        "n": 7
       }
     ]
   },
@@ -835,6 +877,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Ambros. l. 1. offic. c. 36.": {
+    "slug": "ambros-l-1-offic-c-36",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 2,
+        "n": 4
+      }
+    ]
+  },
   "Ambros. orat. cont. Auxent.": {
     "slug": "ambros-orat-cont-auxent",
     "auteur": "",
@@ -902,6 +958,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 6,
         "n": 25
+      }
+    ]
+  },
+  "Apocal. 7. 14.": {
+    "slug": "apocal-7-14",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 4,
+        "n": 7
       }
     ]
   },
@@ -1170,6 +1240,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Aug. in Ps. 127.": {
+    "slug": "aug-in-ps-127",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 3,
+        "n": 12
+      }
+    ]
+  },
   "Aug. in Ps. 147.": {
     "slug": "aug-in-ps-147",
     "auteur": "",
@@ -1198,6 +1282,76 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Aug. in Ps. 55.": {
+    "slug": "aug-in-ps-55",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 3,
+        "n": 12
+      }
+    ]
+  },
+  "Aug. l. 1. cont. Crescon. c. 6.": {
+    "slug": "aug-l-1-cont-crescon-c-6",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 4,
+        "n": 1
+      }
+    ]
+  },
+  "Aug. l. 2. de pec. mer. c. 16.": {
+    "slug": "aug-l-2-de-pec-mer-c-16",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 4,
+        "n": 7
+      }
+    ]
+  },
+  "Aug. l. 50. hom. 23.": {
+    "slug": "aug-l-50-hom-23",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "tite",
+        "livreAbr": "Tt",
+        "chapitre": 3,
+        "n": 3
+      }
+    ]
+  },
+  "Aug. lib. 2. de doctrin. Christ. c. 40.": {
+    "slug": "aug-lib-2-de-doctrin-christ-c-40",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 3,
+        "n": 15
+      }
+    ]
+  },
   "Aug. quæst. Evang. l. 2. q. 23.": {
     "slug": "aug-qu-st-evang-l-2-q-23",
     "auteur": "",
@@ -1209,6 +1363,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 11,
         "n": 52
+      }
+    ]
+  },
+  "Aug. serm. 24. de verb. Apost.": {
+    "slug": "aug-serm-24-de-verb-apost",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 3,
+        "n": 12
       }
     ]
   },
@@ -1240,6 +1408,34 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Augst. Expos. Ep. ad Galat.": {
+    "slug": "augst-expos-ep-ad-galat",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 4,
+        "n": 1
+      }
+    ]
+  },
+  "Augst. de Pastor. c. 7.": {
+    "slug": "augst-de-pastor-c-7",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 4,
+        "n": 1
+      }
+    ]
+  },
   "Augst. de civit. Dei. l. 10. c. 32.": {
     "slug": "augst-de-civit-dei-l-10-c-32",
     "auteur": "",
@@ -1254,6 +1450,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Augst. de corr. & gr. c. 9.": {
+    "slug": "augst-de-corr-gr-c-9",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 2,
+        "n": 19
+      }
+    ]
+  },
   "Augst. hom. 23. c. 7.": {
     "slug": "augst-hom-23-c-7",
     "auteur": "",
@@ -1265,6 +1475,34 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 7,
         "n": 48
+      }
+    ]
+  },
+  "Augst. init. l. 1. de civ. Dei.": {
+    "slug": "augst-init-l-1-de-civ-dei",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 3,
+        "n": 1
+      }
+    ]
+  },
+  "Augst. tr. 123. in Joan.": {
+    "slug": "augst-tr-123-in-joan",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 3,
+        "n": 1
       }
     ]
   },
@@ -1659,6 +1897,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "August. de nat. & grat. c. 27.": {
+    "slug": "august-de-nat-grat-c-27",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "philemon",
+        "livreAbr": "Phm",
+        "chapitre": 1,
+        "n": 15
+      }
+    ]
+  },
   "August. de sanct. serm. 18.": {
     "slug": "august-de-sanct-serm-18",
     "auteur": "",
@@ -2023,6 +2275,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "August. ep. 216.": {
+    "slug": "august-ep-216",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 2,
+        "n": 4
+      }
+    ]
+  },
   "August. ep. 59. qu. 9.": {
     "slug": "august-ep-59-qu-9",
     "auteur": "",
@@ -2105,6 +2371,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "August. epist. 64.": {
+    "slug": "august-epist-64",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "tite",
+        "livreAbr": "Tt",
+        "chapitre": 3,
+        "n": 2
+      }
+    ]
+  },
   "August. hom. 23. c. 7.": {
     "slug": "august-hom-23-c-7",
     "auteur": "",
@@ -2144,6 +2424,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 24,
         "n": 45
+      }
+    ]
+  },
+  "August. in Ench. c. 25. & 26.": {
+    "slug": "august-in-ench-c-25-26",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "tite",
+        "livreAbr": "Tt",
+        "chapitre": 3,
+        "n": 4
       }
     ]
   },
@@ -2220,6 +2514,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 1,
         "n": 51
+      }
+    ]
+  },
+  "August. in Ps. 36.": {
+    "slug": "august-in-ps-36",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "tite",
+        "livreAbr": "Tt",
+        "chapitre": 1,
+        "n": 16
       }
     ]
   },
@@ -2304,6 +2612,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 17,
         "n": 32
+      }
+    ]
+  },
+  "August. l. 19. de civ. Dei cap. 14.": {
+    "slug": "august-l-19-de-civ-dei-cap-14",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "philemon",
+        "livreAbr": "Phm",
+        "chapitre": 1,
+        "n": 8
       }
     ]
   },
@@ -2494,6 +2816,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "August. tract. 11. in Joan.": {
+    "slug": "august-tract-11-in-joan",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "philemon",
+        "livreAbr": "Phm",
+        "chapitre": 1,
+        "n": 2
+      }
+    ]
+  },
   "August. ut supr.": {
     "slug": "august-ut-supr",
     "auteur": "",
@@ -2586,6 +2922,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 14,
         "n": 21
+      }
+    ]
+  },
+  "Barth. des Martyrs Simm. past. c. 4.": {
+    "slug": "barth-des-martyrs-simm-past-c-4",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 1,
+        "n": 3
       }
     ]
   },
@@ -2852,6 +3202,34 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Bern. de consid. l. 1. c. 12.": {
+    "slug": "bern-de-consid-l-1-c-12",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 1,
+        "n": 3
+      }
+    ]
+  },
+  "Bern. de consid. l. 2. p. 13.": {
+    "slug": "bern-de-consid-l-2-p-13",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 2,
+        "n": 22
+      }
+    ]
+  },
   "Bern. de conv. ad clericos c. 20.": {
     "slug": "bern-de-conv-ad-clericos-c-20",
     "auteur": "",
@@ -2862,6 +3240,20 @@ const SACY_BIBLIO = {
         "livre": "corinthiens2",
         "livreAbr": "2 Co",
         "chapitre": 4,
+        "n": 1
+      }
+    ]
+  },
+  "Bern. ep. 2. ad Carthag. & tract. de dilig. Deo c. 8.": {
+    "slug": "bern-ep-2-ad-carthag-tract-de-dilig-deo-c-8",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 3,
         "n": 1
       }
     ]
@@ -2990,6 +3382,34 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Bernard. in Epiph. Domini serm. 1.": {
+    "slug": "bernard-in-epiph-domini-serm-1",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "tite",
+        "livreAbr": "Tt",
+        "chapitre": 3,
+        "n": 4
+      }
+    ]
+  },
+  "Bernard. serm. 2. in Ps. 90.": {
+    "slug": "bernard-serm-2-in-ps-90",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "philemon",
+        "livreAbr": "Phm",
+        "chapitre": 1,
+        "n": 15
+      }
+    ]
+  },
   "Bernard. sup. Missus est. hom. 3. n. 1.": {
     "slug": "bernard-sup-missus-est-hom-3-n-1",
     "auteur": "",
@@ -3064,6 +3484,40 @@ const SACY_BIBLIO = {
         "livreAbr": "Mc",
         "chapitre": 14,
         "n": 51
+      }
+    ]
+  },
+  "Chrys. in hunc loc.": {
+    "slug": "chrys-in-hunc-loc",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "tite",
+        "livreAbr": "Tt",
+        "chapitre": 1,
+        "n": 5
+      },
+      {
+        "livre": "tite",
+        "livreAbr": "Tt",
+        "chapitre": 2,
+        "n": 2
+      }
+    ]
+  },
+  "Chrysost. hom. 36. in Ep. ad Corinth.": {
+    "slug": "chrysost-hom-36-in-ep-ad-corinth",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "philemon",
+        "livreAbr": "Phm",
+        "chapitre": 1,
+        "n": 2
       }
     ]
   },
@@ -3368,6 +3822,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Cypr. ep. 66.": {
+    "slug": "cypr-ep-66",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 2,
+        "n": 4
+      }
+    ]
+  },
   "Cyprian. de mort. init.": {
     "slug": "cyprian-de-mort-init",
     "auteur": "",
@@ -3494,6 +3962,34 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Cæsar. Arel. hom. 26.": {
+    "slug": "c-sar-arel-hom-26",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 4,
+        "n": 1
+      }
+    ]
+  },
+  "De Baptism. cont. Donat. l. 3. c. 19.": {
+    "slug": "de-baptism-cont-donat-l-3-c-19",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 2,
+        "n": 19
+      }
+    ]
+  },
   "Dom. ser. 36. c. 1. t. 10. p. 52.": {
     "slug": "dom-ser-36-c-1-t-10-p-52",
     "auteur": "",
@@ -3533,6 +4029,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 2,
         "n": 41
+      }
+    ]
+  },
+  "Ench. c. 27.": {
+    "slug": "ench-c-27",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 2,
+        "n": 19
       }
     ]
   },
@@ -3981,6 +4491,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Greg. Mor. l. 5. c. 5.": {
+    "slug": "greg-mor-l-5-c-5",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 2,
+        "n": 4
+      }
+    ]
+  },
   "Greg. Nyss. Orat. de sanct. Chr. nativit.": {
     "slug": "greg-nyss-orat-de-sanct-chr-nativit",
     "auteur": "",
@@ -4020,6 +4544,34 @@ const SACY_BIBLIO = {
         "livreAbr": "2 Co",
         "chapitre": 10,
         "n": 8
+      }
+    ]
+  },
+  "Greg. ib.": {
+    "slug": "greg-ib",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 4,
+        "n": 7
+      }
+    ]
+  },
+  "Greg. l. 10. Mor. c. 14.": {
+    "slug": "greg-l-10-mor-c-14",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 4,
+        "n": 7
       }
     ]
   },
@@ -4331,6 +4883,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Gregor. Moral. l. 22. c. 3.": {
+    "slug": "gregor-moral-l-22-c-3",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 4,
+        "n": 7
+      }
+    ]
+  },
   "Gregor. Moral. l. 23. c. 1.": {
     "slug": "gregor-moral-l-23-c-1",
     "auteur": "",
@@ -4342,6 +4908,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 10,
         "n": 17
+      }
+    ]
+  },
+  "Gregor. Moral. lib. 18. cap. 10.": {
+    "slug": "gregor-moral-lib-18-cap-10",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "philemon",
+        "livreAbr": "Phm",
+        "chapitre": 1,
+        "n": 15
       }
     ]
   },
@@ -4443,6 +5023,34 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Gregor. Nyss. orat. in diem lum.": {
+    "slug": "gregor-nyss-orat-in-diem-lum",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 2,
+        "n": 11
+      }
+    ]
+  },
+  "Gregor. Pastor. part. 2. c. 1.": {
+    "slug": "gregor-pastor-part-2-c-1",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "tite",
+        "livreAbr": "Tt",
+        "chapitre": 3,
+        "n": 2
+      }
+    ]
+  },
   "Gregor. hom 10. in Ezech.": {
     "slug": "gregor-hom-10-in-ezech",
     "auteur": "",
@@ -4454,6 +5062,20 @@ const SACY_BIBLIO = {
         "livreAbr": "2 Co",
         "chapitre": 5,
         "n": 17
+      }
+    ]
+  },
+  "Gregor. hom. 17. in Evan.": {
+    "slug": "gregor-hom-17-in-evan",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 4,
+        "n": 1
       }
     ]
   },
@@ -4982,6 +5604,38 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Hier. in hunc loc.": {
+    "slug": "hier-in-hunc-loc",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "philemon",
+        "livreAbr": "Phm",
+        "chapitre": 1,
+        "n": 18
+      },
+      {
+        "livre": "tite",
+        "livreAbr": "Tt",
+        "chapitre": 1,
+        "n": 5
+      },
+      {
+        "livre": "tite",
+        "livreAbr": "Tt",
+        "chapitre": 1,
+        "n": 5
+      },
+      {
+        "livre": "tite",
+        "livreAbr": "Tt",
+        "chapitre": 1,
+        "n": 16
+      }
+    ]
+  },
   "Hier. l. 2.": {
     "slug": "hier-l-2",
     "auteur": "",
@@ -5297,6 +5951,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 24,
         "n": 30
+      }
+    ]
+  },
+  "Hieron. ibid.": {
+    "slug": "hieron-ibid",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "tite",
+        "livreAbr": "Tt",
+        "chapitre": 1,
+        "n": 16
       }
     ]
   },
@@ -5636,6 +6304,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Hom. 17. in Luc.": {
+    "slug": "hom-17-in-luc",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 3,
+        "n": 5
+      }
+    ]
+  },
   "Hom. 18. in Ezech.": {
     "slug": "hom-18-in-ezech",
     "auteur": "",
@@ -5900,6 +6582,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Ibid. 11. 29.": {
+    "slug": "ibid-11-29",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 1,
+        "n": 12
+      }
+    ]
+  },
   "Ibid. 12.": {
     "slug": "ibid-12",
     "auteur": "",
@@ -6054,6 +6750,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Ibid. 7. 9.": {
+    "slug": "ibid-7-9",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 1,
+        "n": 4
+      }
+    ]
+  },
   "Ibid. 8.": {
     "slug": "ibid-8",
     "auteur": "",
@@ -6065,6 +6775,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Mc",
         "chapitre": 3,
         "n": 13
+      }
+    ]
+  },
+  "Ibid. 8. 35.": {
+    "slug": "ibid-8-35",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 1,
+        "n": 12
       }
     ]
   },
@@ -6397,6 +7121,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "In Ps. 83.": {
+    "slug": "in-ps-83",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 3,
+        "n": 12
+      }
+    ]
+  },
   "Infrà v. 47.": {
     "slug": "infra-v-47",
     "auteur": "",
@@ -6631,6 +7369,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Mc",
         "chapitre": 6,
         "n": 37
+      }
+    ]
+  },
+  "Jean. 10. 11.": {
+    "slug": "jean-10-11",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "philemon",
+        "livreAbr": "Phm",
+        "chapitre": 1,
+        "n": 18
       }
     ]
   },
@@ -6931,6 +7683,20 @@ const SACY_BIBLIO = {
         "livreAbr": "2 Co",
         "chapitre": 11,
         "n": 1
+      }
+    ]
+  },
+  "Leo serm. 9. de Quadr.": {
+    "slug": "leo-serm-9-de-quadr",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 3,
+        "n": 12
       }
     ]
   },
@@ -7386,6 +8152,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Origen. comm. in cap. 24. Matth.": {
+    "slug": "origen-comm-in-cap-24-matth",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "tite",
+        "livreAbr": "Tt",
+        "chapitre": 3,
+        "n": 14
+      }
+    ]
+  },
   "Origen. contr. Celf.": {
     "slug": "origen-contr-celf",
     "auteur": "",
@@ -7587,6 +8367,34 @@ const SACY_BIBLIO = {
     "notice": "",
     "citations": []
   },
+  "Pastor. part. 2. c. 1.": {
+    "slug": "pastor-part-2-c-1",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 2,
+        "n": 15
+      }
+    ]
+  },
+  "Pastor. part. 2. c. 10.": {
+    "slug": "pastor-part-2-c-10",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 1,
+        "n": 3
+      }
+    ]
+  },
   "Paulin. ep. 2.": {
     "slug": "paulin-ep-2",
     "auteur": "",
@@ -7760,6 +8568,20 @@ const SACY_BIBLIO = {
     "oeuvre": "Traduction grecque de l'Ancien Testament",
     "notice": "Éd. Rahlfs–Hanhart (Deutsche Bibelgesellschaft, 2006). Traduite à Alexandrie (IIIe–IIe s. av. J.-C.). Pour Is. VII, 14, la LXX traduit l'hébreu 'almah par parthenos (vierge).",
     "citations": []
+  },
+  "Sess. 22.": {
+    "slug": "sess-22",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "tite",
+        "livreAbr": "Tt",
+        "chapitre": 2,
+        "n": 7
+      }
+    ]
   },
   "Tertul. apolog. cap. 21.": {
     "slug": "tertul-apolog-cap-21",
@@ -8148,6 +8970,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 2,
         "n": 1
+      }
+    ]
+  },
+  "Theod. in hunc loc.": {
+    "slug": "theod-in-hunc-loc",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 3,
+        "n": 12
       }
     ]
   },
@@ -8553,6 +9389,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "ch. 4. 26.": {
+    "slug": "ch-4-26",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 2,
+        "n": 5
+      }
+    ]
+  },
   "contra Priscil. & Orig. c. 7.": {
     "slug": "contra-priscil-orig-c-7",
     "auteur": "",
@@ -8564,6 +9414,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 1,
         "n": 32
+      }
+    ]
+  },
+  "de dono persev. c. 8.": {
+    "slug": "de-dono-persev-c-8",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 2,
+        "n": 19
       }
     ]
   },
@@ -8810,6 +9674,20 @@ const SACY_BIBLIO = {
     "notice": "",
     "citations": []
   },
+  "l. 2. c. 13.": {
+    "slug": "l-2-c-13",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 3,
+        "n": 15
+      }
+    ]
+  },
   "l. 3. de sacerd. c. 4. & 5.": {
     "slug": "l-3-de-sacerd-c-4-5",
     "auteur": "",
@@ -8835,6 +9713,20 @@ const SACY_BIBLIO = {
         "livreAbr": "2 Co",
         "chapitre": 11,
         "n": 13
+      }
+    ]
+  },
+  "part. 2. c. 10.": {
+    "slug": "part-2-c-10",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "timothee2",
+        "livreAbr": "2 Tm",
+        "chapitre": 2,
+        "n": 15
       }
     ]
   },
