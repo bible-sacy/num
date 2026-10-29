@@ -1,4 +1,4 @@
-const SACY_PUBLISHED = ["luc", "marc"];
+const SACY_PUBLISHED = ["luc", "marc", "corinthiens2"];
 // render.js — moteur de rendu commun (accueil, sommaire, chapitres, pages-livres, recherche)
 
 (function () {

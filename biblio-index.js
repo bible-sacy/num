@@ -28,6 +28,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "2. Esdr. 5. 14.": {
+    "slug": "2-esdr-5-14",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 8,
+        "n": 18
+      }
+    ]
+  },
   "2. Joan. v. 8.": {
     "slug": "2-joan-v-8",
     "auteur": "",
@@ -53,6 +67,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 2,
         "n": 33
+      }
+    ]
+  },
+  "2. part. c. 3.": {
+    "slug": "2-part-c-3",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 6,
+        "n": 3
       }
     ]
   },
@@ -95,6 +123,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Mc",
         "chapitre": 3,
         "n": 13
+      }
+    ]
+  },
+  "Amb. l. 1. de interpell. c. 4.": {
+    "slug": "amb-l-1-de-interpell-c-4",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 1,
+        "n": 1
       }
     ]
   },
@@ -202,6 +244,20 @@ const SACY_BIBLIO = {
     "oeuvre": "",
     "notice": "",
     "citations": []
+  },
+  "Ambr. in Ps. 36.": {
+    "slug": "ambr-in-ps-36",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 5,
+        "n": 14
+      }
+    ]
   },
   "Ambr. in hunc loc.": {
     "slug": "ambr-in-hunc-loc",
@@ -506,6 +562,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 13,
         "n": 6
+      }
+    ]
+  },
+  "Ambr. l. 1. Offic. c. 41.": {
+    "slug": "ambr-l-1-offic-c-41",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 3,
+        "n": 1
       }
     ]
   },
@@ -919,6 +989,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Aug. de civ. Dei. l. 14. c. 29.": {
+    "slug": "aug-de-civ-dei-l-14-c-29",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 5,
+        "n": 11
+      }
+    ]
+  },
   "Aug. de civ. Dei. l. 16. c. 24.": {
     "slug": "aug-de-civ-dei-l-16-c-24",
     "auteur": "",
@@ -979,6 +1063,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Mc",
         "chapitre": 16,
         "n": 17
+      }
+    ]
+  },
+  "Aug. ep. 224.": {
+    "slug": "aug-ep-224",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 5,
+        "n": 11
       }
     ]
   },
@@ -1086,6 +1184,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Aug. in Ps. 34.": {
+    "slug": "aug-in-ps-34",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 10,
+        "n": 1
+      }
+    ]
+  },
   "Aug. quæst. Evang. l. 2. q. 23.": {
     "slug": "aug-qu-st-evang-l-2-q-23",
     "auteur": "",
@@ -1097,6 +1209,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 11,
         "n": 52
+      }
+    ]
+  },
+  "Aug. tract. 62. in Joan.": {
+    "slug": "aug-tract-62-in-joan",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 2,
+        "n": 14
       }
     ]
   },
@@ -2354,6 +2480,20 @@ const SACY_BIBLIO = {
     "notice": "",
     "citations": []
   },
+  "August. serm. 18 de verb. Domini. c. 10.": {
+    "slug": "august-serm-18-de-verb-domini-c-10",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 6,
+        "n": 14
+      }
+    ]
+  },
   "August. ut supr.": {
     "slug": "august-ut-supr",
     "auteur": "",
@@ -2684,6 +2824,48 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Bern. ad soror. c. 18.": {
+    "slug": "bern-ad-soror-c-18",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 13,
+        "n": 1
+      }
+    ]
+  },
+  "Bern. ad sororem c. 11.": {
+    "slug": "bern-ad-sororem-c-11",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 7,
+        "n": 8
+      }
+    ]
+  },
+  "Bern. de conv. ad clericos c. 20.": {
+    "slug": "bern-de-conv-ad-clericos-c-20",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 4,
+        "n": 1
+      }
+    ]
+  },
   "Bern. ser. in Rogat.": {
     "slug": "bern-ser-in-rogat",
     "auteur": "",
@@ -2715,6 +2897,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 11,
         "n": 5
+      }
+    ]
+  },
+  "Bern. serm. 2. de refut. Domini.": {
+    "slug": "bern-serm-2-de-refut-domini",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 13,
+        "n": 1
       }
     ]
   },
@@ -3053,6 +3249,62 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Conc. Carthag. 3. & 4. &c.": {
+    "slug": "conc-carthag-3-4-c",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 11,
+        "n": 1
+      }
+    ]
+  },
+  "Conc. Nemaus. can. 9. an. 1096.": {
+    "slug": "conc-nemaus-can-9-an-1096",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 11,
+        "n": 1
+      }
+    ]
+  },
+  "Conc. Nic.": {
+    "slug": "conc-nic",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 11,
+        "n": 1
+      }
+    ]
+  },
+  "Conc. Sardic.": {
+    "slug": "conc-sardic",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 11,
+        "n": 1
+      }
+    ]
+  },
   "Concil. Trident. Sess. 22. can. 2.": {
     "slug": "concil-trident-sess-22-can-2",
     "auteur": "",
@@ -3101,6 +3353,20 @@ const SACY_BIBLIO = {
     "oeuvre": "",
     "notice": "",
     "citations": []
+  },
+  "Cypr. de opere & eleemos.": {
+    "slug": "cypr-de-opere-eleemos",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 8,
+        "n": 9
+      }
+    ]
   },
   "Cyprian. de mort. init.": {
     "slug": "cyprian-de-mort-init",
@@ -3242,6 +3508,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Ecc. 9. 11.": {
+    "slug": "ecc-9-11",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 3,
+        "n": 1
+      }
+    ]
+  },
   "Eccles. 3. 7.": {
     "slug": "eccles-3-7",
     "auteur": "",
@@ -3253,6 +3533,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 2,
         "n": 41
+      }
+    ]
+  },
+  "Enchir. 74.": {
+    "slug": "enchir-74",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 6,
+        "n": 1
       }
     ]
   },
@@ -3491,6 +3785,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Euseb. in vita Constant. l. 3. c. 61. Theodor. l. 1. c. 19.": {
+    "slug": "euseb-in-vita-constant-l-3-c-61-theodor-l-1-c-19",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 11,
+        "n": 1
+      }
+    ]
+  },
   "Euseb. l. 1. hist. Ecclesiast. c. 39.": {
     "slug": "euseb-l-1-hist-ecclesiast-c-39",
     "auteur": "",
@@ -3631,6 +3939,34 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Gelas. ep. 13.": {
+    "slug": "gelas-ep-13",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 10,
+        "n": 8
+      }
+    ]
+  },
+  "Gilleb. serm. 22. in Cant.": {
+    "slug": "gilleb-serm-22-in-cant",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 1,
+        "n": 12
+      }
+    ]
+  },
   "Gratius in hunc locum.": {
     "slug": "gratius-in-hunc-locum",
     "auteur": "",
@@ -3656,6 +3992,104 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 1,
         "n": 34
+      }
+    ]
+  },
+  "Greg. Pastor. par. 2. c. 6.": {
+    "slug": "greg-pastor-par-2-c-6",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 2,
+        "n": 1
+      }
+    ]
+  },
+  "Greg. ep. 77.": {
+    "slug": "greg-ep-77",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 10,
+        "n": 8
+      }
+    ]
+  },
+  "Greg. l. 20. c. 20.": {
+    "slug": "greg-l-20-c-20",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 8,
+        "n": 9
+      }
+    ]
+  },
+  "Greg. mor. l. 10. c. 20.": {
+    "slug": "greg-mor-l-10-c-20",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 8,
+        "n": 9
+      }
+    ]
+  },
+  "Greg. mor. l. 2. c. 12.": {
+    "slug": "greg-mor-l-2-c-12",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 1,
+        "n": 1
+      }
+    ]
+  },
+  "Greg. moral. l. 31. c. 16.": {
+    "slug": "greg-moral-l-31-c-16",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 5,
+        "n": 1
+      }
+    ]
+  },
+  "Greg. moral. l. 33. c. 14.": {
+    "slug": "greg-moral-l-33-c-14",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 11,
+        "n": 13
       }
     ]
   },
@@ -4009,6 +4443,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Gregor. hom 10. in Ezech.": {
+    "slug": "gregor-hom-10-in-ezech",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 5,
+        "n": 17
+      }
+    ]
+  },
   "Gregor. in Evang. hom. 24.": {
     "slug": "gregor-in-evang-hom-24",
     "auteur": "",
@@ -4037,6 +4485,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Gregor. l. 22. Mor. c. 5.": {
+    "slug": "gregor-l-22-mor-c-5",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 10,
+        "n": 17
+      }
+    ]
+  },
   "Gregor. magn. in Evang. hom. 36.": {
     "slug": "gregor-magn-in-evang-hom-36",
     "auteur": "",
@@ -4062,6 +4524,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 12,
         "n": 49
+      }
+    ]
+  },
+  "Gregor. moral. l. 4. c. 12.": {
+    "slug": "gregor-moral-l-4-c-12",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 4,
+        "n": 7
       }
     ]
   },
@@ -4419,6 +4895,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 2,
         "n": 6
+      }
+    ]
+  },
+  "Hebr. [?]. 6. 7.": {
+    "slug": "hebr-6-7",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 1,
+        "n": 1
       }
     ]
   },
@@ -5090,6 +5580,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Hilar. ep. 8.": {
+    "slug": "hilar-ep-8",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 10,
+        "n": 8
+      }
+    ]
+  },
   "Hilar. in Matt. c. 25.": {
     "slug": "hilar-in-matt-c-25",
     "auteur": "",
@@ -5115,6 +5619,48 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 4,
         "n": 16
+      }
+    ]
+  },
+  "Hincm. to. 2. p. 744.": {
+    "slug": "hincm-to-2-p-744",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 11,
+        "n": 1
+      }
+    ]
+  },
+  "Hom. 18. in Ezech.": {
+    "slug": "hom-18-in-ezech",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 11,
+        "n": 7
+      }
+    ]
+  },
+  "Ib. 1. 15.": {
+    "slug": "ib-1-15",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 13,
+        "n": 1
       }
     ]
   },
@@ -5326,6 +5872,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Ibid.": {
+    "slug": "ibid",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 5,
+        "n": 11
+      }
+    ]
+  },
   "Ibid. 10.": {
     "slug": "ibid-10",
     "auteur": "",
@@ -5463,6 +6023,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Mc",
         "chapitre": 5,
         "n": 41
+      }
+    ]
+  },
+  "Ibid. 4. 11.": {
+    "slug": "ibid-4-11",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 5,
+        "n": 14
       }
     ]
   },
@@ -6276,6 +6850,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Juges. 14. 14.": {
+    "slug": "juges-14-14",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 10,
+        "n": 1
+      }
+    ]
+  },
   "Justin. Oration. ad Anto. Pium.": {
     "slug": "justin-oration-ad-anto-pium",
     "auteur": "",
@@ -6287,6 +6875,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 2,
         "n": 1
+      }
+    ]
+  },
+  "L. 29. Moral. c. 10.": {
+    "slug": "l-29-moral-c-10",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 2,
+        "n": 14
       }
     ]
   },
@@ -6315,6 +6917,48 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 2,
         "n": 22
+      }
+    ]
+  },
+  "Leo Mag. ep. 84. c. 8.": {
+    "slug": "leo-mag-ep-84-c-8",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 11,
+        "n": 1
+      }
+    ]
+  },
+  "Leo. serm. 1. de nat. Domini.": {
+    "slug": "leo-serm-1-de-nat-domini",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 7,
+        "n": 1
+      }
+    ]
+  },
+  "Lib. 1. de pœnit. c. ultim.": {
+    "slug": "lib-1-de-p-nit-c-ultim",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 2,
+        "n": 11
       }
     ]
   },
@@ -6581,6 +7225,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Math. 21. 19.": {
+    "slug": "math-21-19",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 3,
+        "n": 1
+      }
+    ]
+  },
   "Matt. ib. 14.": {
     "slug": "matt-ib-14",
     "auteur": "",
@@ -6609,6 +7267,62 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Mor. l. 19. c. 11.": {
+    "slug": "mor-l-19-c-11",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 11,
+        "n": 16
+      }
+    ]
+  },
+  "Mor. l. 22. c. 5.": {
+    "slug": "mor-l-22-c-5",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 11,
+        "n": 16
+      }
+    ]
+  },
+  "Mor. l. 3. c. 13.": {
+    "slug": "mor-l-3-c-13",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 11,
+        "n": 28
+      }
+    ]
+  },
+  "Moral. l. 19. c. 3.": {
+    "slug": "moral-l-19-c-3",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 12,
+        "n": 7
+      }
+    ]
+  },
   "Niceph. l. 1. c. 4. Cedren. compend. histor.": {
     "slug": "niceph-l-1-c-4-cedren-compend-histor",
     "auteur": "",
@@ -6629,6 +7343,20 @@ const SACY_BIBLIO = {
     "oeuvre": "",
     "notice": "",
     "citations": []
+  },
+  "Nomb. 14.": {
+    "slug": "nomb-14",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 6,
+        "n": 1
+      }
+    ]
   },
   "Numer. 5. 2.": {
     "slug": "numer-5-2",
@@ -6697,6 +7425,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 14,
         "n": 28
+      }
+    ]
+  },
+  "Origen. hom. 12. in Levit. c. 2.": {
+    "slug": "origen-hom-12-in-levit-c-2",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 11,
+        "n": 1
       }
     ]
   },
@@ -6877,6 +7619,34 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 7,
         "n": 15
+      }
+    ]
+  },
+  "Philem. 8.": {
+    "slug": "philem-8",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 10,
+        "n": 1
+      }
+    ]
+  },
+  "Philipp. 4. 1.": {
+    "slug": "philipp-4-1",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 3,
+        "n": 1
       }
     ]
   },
@@ -7503,6 +8273,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Tract. de dilig. Deo c. 8.": {
+    "slug": "tract-de-dilig-deo-c-8",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 8,
+        "n": 1
+      }
+    ]
+  },
   "Vie de S. Thomas de Cantorb. l. 1. c. 5. & 10.": {
     "slug": "vie-de-s-thomas-de-cantorb-l-1-c-5-10",
     "auteur": "",
@@ -7542,6 +8326,160 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 1,
         "n": 69
+      }
+    ]
+  },
+  "c. 1. 4.": {
+    "slug": "c-1-4",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 1,
+        "n": 1
+      }
+    ]
+  },
+  "c. 10. v. 3. 4.": {
+    "slug": "c-10-v-3-4",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 3,
+        "n": 13
+      }
+    ]
+  },
+  "c. 11. 10.": {
+    "slug": "c-11-10",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 1,
+        "n": 1
+      }
+    ]
+  },
+  "c. 11. 22.": {
+    "slug": "c-11-22",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 11,
+        "n": 16
+      }
+    ]
+  },
+  "c. 30. 25.": {
+    "slug": "c-30-25",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 7,
+        "n": 8
+      }
+    ]
+  },
+  "c. 4. 13.": {
+    "slug": "c-4-13",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 4,
+        "n": 7
+      }
+    ]
+  },
+  "c. 4. 15.": {
+    "slug": "c-4-15",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 8,
+        "n": 1
+      }
+    ]
+  },
+  "c. 5. 1. 2.": {
+    "slug": "c-5-1-2",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 8,
+        "n": 1
+      }
+    ]
+  },
+  "c. 6. 2[?]": {
+    "slug": "c-6-2",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 7,
+        "n": 1
+      }
+    ]
+  },
+  "c. 6. v. 4. & suiv.": {
+    "slug": "c-6-v-4-suiv",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 12,
+        "n": 10
+      }
+    ]
+  },
+  "c. 7. 4.": {
+    "slug": "c-7-4",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 1,
+        "n": 1
       }
     ]
   },
@@ -7872,6 +8810,34 @@ const SACY_BIBLIO = {
     "notice": "",
     "citations": []
   },
+  "l. 3. de sacerd. c. 4. & 5.": {
+    "slug": "l-3-de-sacerd-c-4-5",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 6,
+        "n": 3
+      }
+    ]
+  },
+  "l. 33. c. 18.": {
+    "slug": "l-33-c-18",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 11,
+        "n": 13
+      }
+    ]
+  },
   "℣. 11.": {
     "slug": "11",
     "auteur": "",
@@ -7898,6 +8864,12 @@ const SACY_BIBLIO = {
     "oeuvre": "",
     "notice": "",
     "citations": [
+      {
+        "livre": "corinthiens2",
+        "livreAbr": "2 Co",
+        "chapitre": 6,
+        "n": 11
+      },
       {
         "livre": "marc",
         "livreAbr": "Mc",
