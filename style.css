@@ -425,16 +425,17 @@ details.livre-group.indisponible > summary { color: var(--muted); opacity: 0.5; 
 
 /* Changement de page signalé au fil du texte (dans un paragraphe) */
 .page-inline {
-  display: inline-block;
-  font-size: 0.7em;
-  vertical-align: super;
-  line-height: 0;
-  color: var(--muted);
-  opacity: 0.6;
-  margin: 0 0.1em;
-  transition: color 0.15s, opacity 0.15s;
+  /* repère de changement de page au fil du texte : le caractère « ‖ » du HTML est masqué, on affiche le numéro (attribut title) */
+  font-size: 0; line-height: 0; margin: 0 0.12em; text-decoration: none;
 }
-.page-inline:hover { color: var(--accent-light); opacity: 1; text-decoration: none; }
+.page-inline::after {
+  content: attr(title);
+  display: inline-block; font-size: 0.64rem; line-height: 1; vertical-align: super; white-space: nowrap;
+  font-style: normal; font-weight: 500; font-variant: normal; letter-spacing: 0;
+  color: var(--muted); opacity: 0.85; border-left: 1px solid var(--muted); padding: 0 0.22em 0 0.3em; margin-left: 0.08em;
+  transition: color 0.15s, border-color 0.15s;
+}
+.page-inline:hover::after { color: var(--accent); border-color: var(--accent); opacity: 1; }
 
 .section-sep {
   font-variant: small-caps;
@@ -722,7 +723,6 @@ mark { background: transparent; color: var(--accent); font-weight: 600; }
 .note-quote-num { font-size: 0.82rem; font-weight: 600; }
 .ref-com { font-size: 0.95rem; opacity: 0.9; }
 .ref-page { font-size: 0.82rem; opacity: 1; color: var(--muted); }
-.page-inline { opacity: 0.9; color: var(--accent-light); }
 .marge-link, .note-para-marges, .pf-marges, .verset-marges { font-size: 0.87rem; font-weight: 500; }
 .note-para-marges { line-height: 1.55; }
 .pf-notebas, .verset-notebas p { font-size: 0.9rem; font-weight: 500; }
