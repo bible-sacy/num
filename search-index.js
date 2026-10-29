@@ -11509,5 +11509,6775 @@ const SACY_SEARCH_INDEX = [
     "lat": "& erant semper in templo, laudantes & benedicentes Deum. Amen.",
     "fr": "& ils étoient sans cesse dans le temple, louant & bénissant Dieu. AMEN.",
     "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 1,
+    "lat": "Initium Evangelii Jesu Christi Filii Dei.",
+    "fr": "* Le commencement de l'Evangile de JESUS-CHRIST Fils de Dieu.",
+    "note": "Le commencement de l'Evangile de J. C. Fils de Dieu, fut tel, qu'il est écrit dans le Prophète Isaïe : Je vais envoyer mon Ange devant votre face, &c. C'est le sentiment de plusieurs habiles Interprètes, que ces paroles, Initium Evangelii Jesu Christi, &c. ne doivent point être regardées comme le titre de l'Evangile écrit par saint Marc ; mais qu'elles se rapportent à ce qui suit, & signifient que la prédication de J. C. commença, selon que l'avoient prédit les Prophètes ; c'est-à-dire, qu'elle fut précédée par le baptême que S. Jean donna aux peuples pour les préparer à la pénitence, & par cette voix qu'il fit entendre dans le désert : Préparez la voie du Seigneur ; rendez droits ses sentiers. Car en effet, & ce baptême de saint Jean, & ces avertissemens qu'il donnoit aux Juifs pour les porter à la pénitence, comme au seul remède qui pouvoit leur faire éviter les effets de la colère de Dieu ; toute prête à tomber sur eux, étoient comme les prémices de la prédication de J. C. ou comme une préparation aux grandes & sublimes vérités que cet Homme-Dieu venoit annoncer aux hommes. L'Evangéliste dispose donc les lecteurs à recevoir favorablement ce qu'il a à dire de la prédication du Sauveur, en faisant connoître d'abord, que les Prophètes en avoient parlé long-temps auparavant ; & qu'ainsi il paroissoit que ce n'étoit point l'ouvrage de l'esprit de l'homme, ni du hasard, mais du Seigneur, qui accomplissoit alors ce qu'il avoit fait prédire avant plusieurs siècles. Il est vrai qu'on trouve dans la citation même du Prophète une assez grande difficulté, qui semble d'abord affoiblir la preuve que l'Evangéliste en veut tirer. Car on voit bien qu'Isaïe a parlé de la voix de celui qui crie dans le désert : Préparez la voie du Sei- gneur, &c. Mais on ne voit point qu'il y soit écrit, selon la citation de saint Marc : J'envoie mon Ange devant votre face, &c. Et c'est dans le prophète Malachie que ces paroles sont rapportées. Plusieurs répondent à cette difficulté, que le nom d'Isaïe ne se trouve point dans la plupart des manuscrits grecs, non plus que dans saint Irenée, & dans quelques autres anciens Auteurs, où il y a seulement : Selon qu'il est écrit dans les Prophètes. Mais les plus habiles Interprètes croient que le nom d'Isaïe est employé en ce lieu, comme celui du Prophète sans comparaison le plus célèbre, & qui dit, sinon dans les mêmes termes, au moins en substance, ce que Malachie a dit depuis lui. On peut remarquer ici, que saint Marc commence son Evangile d'une manière assez différente des autres Evangélistes. Nous avons vu saint Matthieu commencer le sien par la généalogie de J. C. & décrire ensuite ce qui regarde sa naissance temporelle. Saint Luc après avoir raconté la grossesse miraculeuse de la mère de saint Jean-Baptiste, & l'Incarnation du Fils de Dieu, rapporte ce qui se passa, tant à la naissance du Précurseur, qu'à celle de J. C. Saint Jean ne décrit ni la généalogie, ni la naissance du Fils de Dieu dans le monde ; & il s'élève tout-d'un-coup, ainsi qu'un aigle, jusqu'à la génération éternelle du Verbe. Mais saint Marc sans rien dire ni de la généalogie de J. C. ni de son Incarnation, ni de la naissance temporelle, ni de sa génération éternelle, commence à parler d'abord de la prédication du saint Précurseur & de celle du Fils de Dieu. Il entre donc en matière tout-d'un-coup ; & après avoir prouvé par les Prophètes la vérité de la mission de saint Jean, & représenté les vives exhortations qu'il faisoit au peuple Juif, il raconte le baptême du Sauveur, & commence ensuite à entrer dans le récit de ses prédications, & de ses œuvres miraculeuses. Car c'étoit-là principalement ce qu'il s'étoit proposé de faire voir comme en abrégé, de quelle sorte le Messie prédit depuis tant de siècles par les Prophètes, avoit accompli le grand ouvrage pour lequel il avoit été envoyé ; c'est-à-dire, comment il avoit prêché aux hommes les vérités de la loi nouvelle, & confirmé ces vérités, tant par ses miracles & par sa vie toute divine, que par ses souffrances & par sa mort."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 2,
+    "lat": "Sicut scriptum est in Isaia propheta : Ecce ego mitto Angelum meum ante faciem tuam, qui præparabit viam tuam ante te.",
+    "fr": "* Comme il est écrit dans le prophète Isaïe : * J'envoie mon Ange devant votre face, qui marchant devant vous, vous préparera le chemin.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 3,
+    "lat": "Vox clamantis in deserto : Parate viam Domini, rectas facite semitas ejus.",
+    "fr": "On entendra dans le désert la voix de celui qui crie : Préparez la voie du Seigneur, rendez droits ses sentiers.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 4,
+    "lat": "Fuit Joannes in deserto baptizans, & prædicans baptismum pœnitentiæ in remissionem peccatorum.",
+    "fr": "Jean étoit dans le désert, baptisant, & prêchant le baptême de pénitence pour la rémission des péchés.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 5,
+    "lat": "Et egrediebatur ad eum omnis Judææ regio, & Jerosolymitæ universi, & baptizabantur ab illo in Jordanis flumine, confitentes peccata sua.",
+    "fr": "Tout le pays de la Judée, & tous ceux de Jérusalem venoient à lui & confessant leurs péchés, ils étoient baptisés par lui dans le fleuve du Jourdain.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 6,
+    "lat": "Et erat Joannes vestitus pilis cameli, & zona pellicea circa lumbos ejus, & locustas & mel silvestre edebat. Et prædicabat, dicens :",
+    "fr": "Or Jean étoit vêtu de poil de chameau : il avoit une ceinture de cuir autour de ses reins, & vivoit de sauterelles & de miel sauvage. Il prêchoit, en disant :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 7,
+    "lat": "Venit fortior me post me, cujus non sum dignus procumbens solvere corrigiam calceamentorum ejus.",
+    "fr": "Il en vient un autre après moi, qui est plus puissant que moi : & je ne suis pas digne de délier les cordons de ses souliers en me prosternant devant lui.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 8,
+    "lat": "Ego baptizavi vos aquâ : ille verò baptizabit vos Spiritu sancto.",
+    "fr": "Pour moi, je vous ai baptisés dans l'eau : mais pour lui, il vous baptisera dans le Saint-Esprit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 9,
+    "lat": "Et factum est, in diebus illis venit Jesus à Nazareth & Galilææ, & baptizatus est à Joanne in Jordane.",
+    "fr": "En ce même temps JESUS vint de Nazareth qui est en Galilée, & fut baptisé par Jean dans le Jourdain.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 10,
+    "lat": "Et statim ascendens de aqua, vidit cœlos apertos, & Spiritum tanquam columbam descendentem, & manentem in ipso.",
+    "fr": "Et aussitôt qu'il fut sorti de l'eau, il vit les cieux s'ouvrir, & l'esprit en forme de colombe, descendre & demeurer sur lui.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 11,
+    "lat": "Et vox facta est de cœlis : Tu es Filius meus dilectus, in te complacui,",
+    "fr": "Et une voix se fit entendre du ciel : Vous êtes mon Fils bien-aimé ; c'est en vous que j'ai mis toute mon affection.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 12,
+    "lat": "Et statim Spiritus expulit eum in desertum ;",
+    "fr": "Aussitôt après l'Esprit le poussa dans le désert ;",
+    "note": "Aussitôt après l'Esprit le poussa dans le désert. Cette expression qui surprend d'abord, en ce qu'elle semble nous marquer quelque espèce de violence, ne doit néanmoins nous faire entendre autre chose, sinon que l'Esprit de Dieu qui étoit en J. C. dans toute sa plénitude, le porta à se retirer avec ardeur dans le désert, aussitôt après qu'il eut reçu le baptême de saint Jean. Mais si J. C. ne put souffrir en sa personne aucune violence, agissant toujours avec une souveraine liberté, il pouvoit bien nous marquer par-là cette sainte violence que ses membres seroient obligés de se faire eux-mêmes par un mouvement de l'Esprit de Dieu, qui les porte à faire sans cesse de pieux efforts contre le penchant de leur nature corrompue, & à s'arracher, pour le dire ainsi, eux-mêmes à la vue de tous les attraits du monde, qui peuvent souiller en eux la pureté & l'innocence de leur baptême. Car c'est de ces saints combats que le Fils de Dieu a dit : Que depuis le temps de Jean-Baptiste, le royaume du ciel se prenoit par violence, & que c'étoient les violens qui l'emportoient. Il faut donc souvent que J. C. dans la personne de ses membres qui sont foibles, soit ainsi poussé fortement, & non sans une sainte violence, au fond du désert, & comme attaché au monde ; afin qu'ils y soient plus en état de résister à leur ennemi. Car s'il se porte à les attaquer avec plus de fureur dans la solitude, il y trouve plus de résistance de la part de ceux qui y demeurent dans la compagnie de leur divin Chef & des saints Anges, & qui ont soin de s'y nourrir à son exemple de la parole de Dieu, qui est la vie de leurs ames. Ainsi J. C. n'a été conduit ou poussé par l'Esprit saint dans le désert, qu'afin d'y attirer après lui ses vrais disciples, dont le cœur au moins doit y aspirer, afin d'y être en état d'entendre d'autant plus librement la voix de celui qui leur a promis de les y entretenir, qu'ils y sont plus éloignés de tout le tumulte du siècle, qui les empêche d'entendre cette voix divine : Ducam eam in solitudinem, & loquar [?] cor ejus."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 13,
+    "lat": "Et erat in deserto quadraginta diebus & quadraginta noctibus, & tentabatur à satana : eratque cum bestiis, & Angeli ministrabant illi.",
+    "fr": "où il demeura quarante jours & quarante nuits. Il y étoit tenté par satan, & il étoit parmi les bêtes sauvages, & les Anges le servoient.",
+    "note": "Où il demeura quarante jours & quarante nuits. Il y étoit tenté par satan ; & il étoit parmi les bêtes sauvages, & les Anges le servoient. La manière dont saint Marc parle ici en général de la tentation de J. C. a donné lieu à d'habiles Interprètes d'en conclure que le démon l'a souvent tenté pendant ces quarante jours. Et le texte Grec semble confirmer encore ce sens. Mais parce que S. Matthieu n'a parlé que de trois tentations, & que même la manière dont il en parle nous fait juger que ce ne fut qu'à la fin de la quarantaine que le démon s'approcha de lui pour le tenter ; on peut bien croire que saint Marc n'a aussi parlé que des mêmes tentations rapportées dans saint Matthieu. Et il est même assez vraisemblable que le Fils de Dieu ne permit point à cet esprit tentateur de l'approcher durant tout ce temps, comme il auroit fait à l'égard d'un autre ; mais qu'il voulut seulement le souffrir tout à la fin de son jeûne, pour la consolation & l'instruction de ses disciples, à qui son exemple devoit servir d'un très-grand soutien dans de semblables combats. Il est dit que J. C. étoit alors avec les bêtes ; ce qui signifie qu'il n'eut durant ce temps la compagnie d'aucun homme, & qu'il étoit dans une entière & effroyable solitude, n'y ayant dans ce désert que des bêtes farouches. Mais il n'étoit pas néanmoins seul, comme il dit lui-même ailleurs, puisque son Père qui l'avoit envoyé étoit avec lui. Et ses disciples qui le suivent dans la solitude, ne doivent pas être non plus regardés comme y étant seuls, puisqu'ils y sont avec J. C. qui leur tient lieu de toutes choses. Que si ces bêtes farouches peuvent bien leur figurer les passions différentes qu'ils sont obligés de dompter sans cesse au-dedans d'eux-mêmes ; qu'ils soient assurés qu'elles ne pourront leur nuire, tant qu'ils se tiendront en la compagnie de leur divin Maître, qui en vivant au milieu de toutes ces bêtes farouches dans le désert où il s'étoit retiré, pour le dire ainsi, aux yeux de leur foi comme un tableau de ce qu'il étoit venu faire au milieu des hommes. Car en s'incarnant il étoit entré dans ce monde comme en une affreuse solitude, où il se tenoit parfaitement séparé de toute la corruption des créatures plongées dans le péché ; & où ceux-mêmes qu'il regardoit comme son peuple, & qui auroient dû davantage le reconnoître pour leur Roi, non-seulement refusèrent de le recevoir, mais furent encore à son égard comme autant de bêtes farouches, toujours appliqués à le déchirer en mille manières par leurs médisances, jusqu'à ce qu'enfin ils le dévorent, selon l'expression du Sage, puisqu'ils n'assouvirent la fureur de leur jalousie que par sa mort. Saint Marc ajoute, Que les Anges le servoient : & quelques Auteurs en ont encore conclu, que dans tout le temps qu'il demeura dans ce désert, les saints Anges le servoient, tandis que l'ange apostat le tentoit. Mais il paroît clairement par saint Matthieu, que ce ne fut qu'à la fin des tentations qui y sont décrites, que les Anges s'approchèrent d'une manière sans doute visible, pour le servir dans ses besoins comme homme, & comme un homme qui ayant passé miraculeusement quarante jours & quarante nuits sans manger, laissa alors agir la nature, & sentit la faim. Ce fut donc pour donner à J. C. l'assistance corporelle qu'il voulut bien recevoir d'eux, qu'ils s'approchèrent visiblement pour le servir. Il avoit exprès empêché jusqu'alors, que les Anges se montrassent & le servissent ; parce que dans le dessein qu'il avoit de donner l'exemple d'un jeûne si admirable, & d'attirer dans la suite son ennemi au combat par la faim même qu'il voulut souffrir, il eût été non-seulement inutile, mais contraire même aux conseils de sa divine sagesse, que ses saints Ministres parussent pour le servir. Ainsi il falloit que satan trouvât J. C. seul en apparence dans cette affreuse solitude, afin qu'il osât venir l'attaquer. Et il étoit nécessaire que les hommes fussent convaincus que ce n'étoit point par le secours d'aucun Ange, mais par sa propre vertu, qu'il avoit vaincu le fort armé ; & qu'il avoit mérité par sa victoire à tous ses membres de le vaincre aussi, non pas néanmoins comme lui, par eux-mêmes, mais avec lui, par la vertu de sa grâce."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 14,
+    "lat": "Postquam autem traditus est Joannes, venit Jesus in Galilæam, prædicans Evangelium regni Dei,",
+    "fr": "Mais après que Jean eut été * mis en prison, JESUS vint dans la Galilée, prêchant l'Evangile du royaume de Dieu,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 15,
+    "lat": "& dicens : Quoniam impletum est tempus, & appropinquavit regnum Dei : pœnitemini, & credite Evangelio.",
+    "fr": "& disant : Puisque le temps est accompli, & que le royaume de Dieu est proche, faites pénitence, & croyez à l'Evangile.",
+    "note": "Le temps est accompli, & le royaume de Dieu est proche : faites pénitence, & croyez à l'Evangile. Saint Paul nous explique la manière dont on doit entendre cette parole du Fils de Dieu : Que le temps étoit accompli. Car il représente le temps qui a précédé l'avénement du Sauveur, comme le temps de l'enfance du peuple Juif, qui étoit encore assujetti aux cérémonies de la loi, comme aux premières & plus grossières instructions que Dieu s'étoit contenté jusqu'alors de donner au monde. Mais lors, dit-il, que les temps ont été accomplis ; c'est-à-dire, que le temps de cette première enfance a été passé, & que le moment heureux de voir accompli ce que les saints Patriarches & les saints Prophètes avoient prédits touchant la promesse du Messie, & de celui qui étoit attendu par les nations, & touchant l'onction du Saint des Saints, selon l'expression de Daniel, est arrivé ; alors Dieu a envoyé son Fils pour racheter ceux qui étoient assujettis à la loi. C'étoit à cet accomplissement des temps que les vœux de tous les anciens justes avoient aspiré avec tant d'ardeur, selon que saint Paul le dit d'eux : Qu'ils étoient morts dans la foi, n'ayant point reçu les biens que Dieu leur avoit promis, mais les voyant & comme les saluant de loin. Le démon & le péché avoient régné jusqu'alors dans le monde. Et la loi même n'avoit servi, comme dit saint Paul, que d'aiguillon au péché : Virtus peccati lex ; parce que le péché ayant pris occasion de s'irriter davantage par le commandement, produisoit toutes sortes de mauvais désirs, sans que la loi, impuissante par elle-même, pût y remédier en aucune sorte. Mais les temps étant accomplis de l'effusion de la grâce & de la miséricorde surabondante du Sauveur du monde, Dieu se préparoit à régner lui-même dans le cœur des hommes, en y détruisant l'empire du démon, & le règne du péché. C'étoit donc l'approche de ce royaume, ou de ce règne de Dieu, que JESUS annonçoit aux Juifs, en les exhortant à la pénitence, & en les pressant de croire à l'Evangile. Cette créance qu'il leur demandoit, étoit une humble soumission aux vérités qu'il venoit leur annoncer. C'étoit sans doute une heureuse nouvelle qu'il leur apportoit, selon la propre signification du mot d'Evangile, lorsqu'il assuroit que les promesses si magnifiques qui avoient été faites à leurs pères alloient s'accomplir par l'établissement du règne ou du royaume de Dieu. Mais s'ils pouvoient être disposés à ajouter foi à une chose qui leur devoit être également avantageuse & honorable, le chemin qu'on leur montroit pour parvenir à ce grand bonheur pouvoit leur paroître âpre & pénible. Car des pécheurs, tels qu'étoient alors la plupart des Juifs, ne pouvoient manquer de trouver dans eux une très-grande opposition à la pénitence. Et cependant il n'y avoit que cette voie seule par laquelle ils pussent se rendre dignes du royaume que leur annonçoit l'Evangile de J. C. qui en exhortant les peuples à croire à cet Evangile, les y conduisoit en même-temps par la pénitence : Pœnitemini, & credite Evangelio. Mais s'ils n'étoient point par eux-mêmes en état de goûter les vérités de l'Evangile, & s'ils étoient comme des malades spirituels à qui le pain de la vérité paroissoit encore amer, celui qui disoit alors que les temps étoient accomplis, & que le royaume de Dieu étoit proche, fournissoit à ces pécheurs une abondante consolation, & relevoit leurs espérances : car ce règne de Dieu qu'il leur annonçoit, étoit l'infusion même de sa grâce dans les cœurs ; de sa charité qui rend tout possible à l'homme ; puisqu'il n'y a rien, comme dit souvent saint Augustin, de difficile à celui qui aime."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 16,
+    "lat": "Et præteriens secus mare Galilææ, vidit Simonem & Andream fratrem ejus, mittentes retia in mare ; erant enim piscatores.",
+    "fr": "Or un jour qu'il marchoit le long de la mer de Galilée, il vit Simon & André son frère qui jetoient leurs filets dans la mer, car ils étoient pêcheurs.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 17,
+    "lat": "Et dixit eis Jesus : Venite post me, & faciam vos fieri piscatores hominum.",
+    "fr": "Et JESUS leur dit : * Suivez-moi, & je vous ferai devenir pêcheurs d'hommes.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 18,
+    "lat": "Et protinus relictis retibus, secuti sunt eum.",
+    "fr": "En même-temps ils quittèrent leurs filets, & le suivirent.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 19,
+    "lat": "Et progressus inde pusillum, vidit Jacobum Zebedæi, & Joannem fratrem ejus, & ipsos componentes retia in navi :",
+    "fr": "De là s'étant un peu avancé, il vit Jacque fils de Zébedée, & Jean son frère, qui étoient aussi dans une barque, où ils raccommodoient leurs filets :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 20,
+    "lat": "& statim vocavit illos ; & relicto patre suo Zebedæo in navi cum mercenariis, secuti sunt eum.",
+    "fr": "il les appela à l'heure-même, & ils le suivirent, ayant laissé dans la barque Zébédée leur père, avec ceux qui travailloient pour lui.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 21,
+    "lat": "Et ingrediuntur Capharnaüm ; & statim sabbatis ingressus in synagogam, docebat eos.",
+    "fr": "Ils vinrent ensuite à Capharnaüm ; & JESUS entrant d'abord le jour du sabbat dans la synagogue, il les instruisoit ;",
+    "note": "Ils vinrent à Capharnaüm : & JESUS entrant d'abord le jour du sabbat dans la Synagogue, il les instruisoit. Le texte sacré porte au pluriel les jours du sabbat ; ce qu'un savant Interprète croit qu'on doit entendre au singulier, ainsi qu'on l'a mis. Et l'on peut dire même qu'en le traduisant ainsi, on rend le sens véritable de la Vulgate, de quelque manière que l'on veuille l'expliquer. Car le Fils de Dieu entra dans la Synagogue aussitôt qu'il fut arrivé à Capharnaüm. Or le jour qu'il y entra, étoit le jour du sabbat. Mais l'expression dont se sert l'Evangéliste en mettant les jours du sabbat, nous donne seulement lieu de juger qu'il faisoit la même chose dans la suite ; c'est-à-dire, que tant qu'il demeura à Capharnaüm, il entroit de même les jours du sabbat dans la Synagogue. Il y entroit, non comme un disciple, mais comme un maître excellent, qui avoit toute la lumière & toute l'au- torité, dont tous les Docteurs anciens & nouveaux n'avoient jamais possédé qu'une très-petite portion : car tout ce qu'ils en avoient eu ne devoit être regardé que comme un écoulement de cette source de la vérité essentielle, & de la puissance toute divine de celui qui étoit venu dans le monde pour enseigner les Docteurs mêmes, & pour confondre les sages du siècle. On voit ailleurs, que c'étoit la coutume de J. C. d'entrer les jours du sabbat dans la Synagogue des lieux différens où il se trouvoit. Et en cela il montroit l'exemple aux peuples, de se trouver exactement en ces jours consacrés au service du Seigneur, dans les saintes assemblées, où ils doivent écouter avec respect sa parole, & en recevoir l'intelligence des ministres établis pour leur en donner l'explication. Il peut paroître surprenant de ce qu'on lui permettoit d'enseigner ainsi le peuple, puisqu'il sembloit que ce ministère fut confié aux Prêtres & Docteurs de la loi. Mais l'Ecriture nous fait voir ailleurs, que les chefs des Synagogues permettoient à ceux qui étoient présens de parler, lorsqu'ils avoient quelques exhortations à faire au peuple. Et saint Luc témoigne même que JESUS étant entré un jour du sabbat dans la Synagogue à Nazareth, on lui présenta le livre du Prophète Isaïe pour en lire & en expliquer ce qu'il auroit lu, ainsi qu'il le fit, au grand étonnement de tous ceux qui entendirent les paroles pleines de grâces qui sortoient de sa bouche. C'étoit donc comme un usage parmi eux. Et l'on ne voit point effectivement que jamais les Prêtres, ni les Pharisiens, ni les Docteurs de la loi ayent fait un crime au Sauveur d'avoir parlé & enseigné dans leurs Synagogues. Ils l'accusoient seulement d'avoir enseigné des choses contraires à la loi ; parce qu'ils ne comprenoient pas le vrai esprit de la loi. Mais l'autorité avec laquelle il parloit, faisoit sentir aux plus insensibles, qu'il y avoit quelque chose de surnaturel & de divin dans la manière dont il enseignoit les peuples ; & causoit le dernier étonnement aux Docteurs mêmes."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 22,
+    "lat": "Et stupebant super doctrina ejus : erat enim docens eos, quasi potestatem habens, & non sicut Scribæ.",
+    "fr": "& ils étoient étonnés de sa doctrine, parce qu'il les instruisoit comme ayant autorité, & non pas comme les Scribes.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 23,
+    "lat": "Et erat in synagoga eorum homo in spiritu immundo : & exclamavit,",
+    "fr": "Or il se trouva dans leur synagogue un homme possédé de l'esprit impur, qui s'écria,",
+    "note": "Or il se trouva dans leur Synagogue un homme possédé de l'esprit impur, qui s'écria : Qu'y a-t-il entre vous & nous, JESUS de Nazareth ? &c. Ce possédé se trouva dans la Synagogue par un effet, non du hasard, mais de la divine providence, qui vouloit que le miracle de sa guérison & le témoignage très-éclatant du démon touchant la divinité de J. C. fussent d'autant plus connus, qu'il y auroit un plus grand nombre de Juifs témoins de ces deux prodiges. Le démon qui possédoit cet homme, est nommé l'esprit impur ; soit parce que les démons se repaissent en quelque sorte de l'impureté, & de tous les vices des hommes ; soit parce que celui-là en inspiroit les mouvemens à celui dont il étoit en possession. La présence de J. C. dont la bonté pour les hommes étoit si directement opposée à sa malice, commença à le tourmenter. Et le désespoir où il fût, de sentir qu'il alloit être chassé d'un corps où il avoit établi sa demeure, lui fit jeter un grand cri par la bouche de cet homme, pour se plaindre au Fils de Dieu de ce qu'il venoit le tourmenter. Ce cri attestoit l'empire de J. C. sur lui, & en même-temps il servoit à faire entendre d'une manière plus éclatante à tous ceux de l'assemblée, le témoignage qu'il rendoit à sa sainteté & à sa puissance. Qu'y a-t-il entre vous & nous, lui dit-il ? c'est-à-dire, Pourquoi voulez-vous nous tourmenter, nous qui ne vous attaquons point ? Etes-vous venu pour nous perdre, en nous dépouillant de l'empire que nous exerçons sur les hommes ? Je sai qui vous êtes. Ainsi vous n'avez rien de commun avec celui-ci, puisque vous êtes le Saint de Dieu, & que celui-ci est un pécheur. Il nomme d'abord le Sauveur par son propre nom, qui étoit celui de JESUS ; & il ajoute le nom de la ville de Nazareth, où il avoit été élevé, marquant par là clairement, que celui de qui il parloit lui étoit très-bien connu. Ainsi lorsqu'il dit ensuite, Je sai qui vous êtes ; & qu'il ajoute aussitôt, Vous êtes le Saint de Dieu ; il déclare qu'il parloit avec connoissance, en attestant qu'il étoit le Saint de Dieu ; c'est-à-dire, ce Saint par excellence descendu du ciel, & ce Saint des Saints qui avoit reçu l'onction en qualité de CHRIST, selon que les saints Prophètes en avoient parlé. Son témoignage en cette rencontre devoit donc faire d'autant plus d'impression sur l'esprit des Juifs, qu'il ne pouvoit être suspect, étant l'effet seul du sentiment qu'il avoit de la toute-puissance de celui qu'il étoit forcé de reconnoître pour le Saint de Dieu ou pour le Fils de Dieu ; ce qui étoit dans le fond la même chose : car il est marqué expressément dans les chapitres suivans, que quand les esprits impurs voyoient J. C. c'est-à-dire, que quand ceux qu'ils possédoient voyoient le Sauveur, ils se prosternoient devant lui, en criant : Vous êtes le Fils de Dieu. Quant à cette connoissance qu'avoit le démon, de celui dont il attestoit la divinité, on peut voir ce qui en a été dit ailleurs dans les explications de saint Matthieu, où l'on a eu soin de rapporter les sentimens de saint Augustin & de saint Jérôme sur ce sujet."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 24,
+    "lat": "dicens : Quid nobis & tibi, Jesus Nazarene ? Venisti perdere nos ? Scio qui sis : Sanctus Dei.",
+    "fr": "disant : Qu'y a-t-il entre vous & nous *, JESUS de Nazareth ? Etes-vous venu pour nous perdre ? Je sai qui vous êtes : Vous êtes le Saint de Dieu.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 25,
+    "lat": "Et comminatus est ei Jesus, dicens : Obmutesce, & exi de homine.",
+    "fr": "Mais JESUS lui parlant avec menaces, lui dit : Tais-toi, & sors de cet homme.",
+    "note": "Mais JESUS lui parlant avec menaces, lui dit : Tais- toi, & sors de cet homme. Alors l'esprit impur l'agitant avec de violentes convulsions, &c. Tertullien dit admirablement, que J. C. menaçoit les démons, & leur imposoit silence lorsqu'ils déclaroient qui il étoit, parce qu'il vouloit être reconnu pour le Fils de Dieu par les hommes, & non pas par ces esprits impurs : Proinde enim Christus ab hominibus, non à spiritibus immundis, volebat se Filium Dei agnosci. Et d'ailleurs, comme il dit encore, celui qui daigna choisir les saints Apôtres pour être les dignes Prédicateurs de sa divinité, devoit bien sans doute rejeter le témoignage de l'esprit menteur. Illius erat, præconium immutandi spiritus respuere, cui sancti abundabant. Mais de plus, il ne vouloit pas que l'on découvrît encore si publiquement ce qu'il étoit, pour ménager les esprits grossiers des peuples, & les disposer insensiblement par la vue de ses miracles, & par la sublimité de sa doctrine, inconnue jusqu'alors à tous les hommes, à la créance du mystère si incompréhensible de son Incarnation. Car nous voyons en effet, qu'après que l'esprit de Dieu eut révélé à saint Pierre ce grand mystère, & que cet Apôtre eut déclaré à JESUS, qu'il étoit le CHRIST Fils du Dieu vivant ; il défendit expressément à ses disciples de dire à personne qu'il fut le CHRIST ; parce que ce n'en étoit pas encore le temps, & qu'il falloit que sa passion & sa mort précédassent sa glorification. Il commande donc avec menace à l'esprit impur de se taire, lors même qu'il lui rendoit un témoignage si authentique, & de sortir de cet homme qu'il possédoit. Car c'étoit la crainte, dit le même Tertullien, qui le forçoit de parler, & non l'amour de celui dont il attestoit la puissance : Jussu & increpitu dæmonia expellens, non suasu quâ bonus, timendum se exhibebat. Ainsi c'étoit seulement à la crainte qu'il étoit forcé de céder pour sortir de ce possédé, comme c'étoit par la crainte du Dieu très-haut qu'il confessoit la divinité de son Fils : Ergo timendi Dei Filium confitebantur, occasionem habitura non cedendi, si non timendi. Lorsque J. C. commande à l'esprit impur de se taire, & de sortir, il prétend, dit un Interprète, tirer sa louange de son silence d'une manière beaucoup plus parfaite que de ses paroles : & il veut que cette puissance à laquelle il ne sauroit résister, lorsqu'elle le force de sortir du corps de ce possédé, soit le témoignage le plus éclatant de la divinité de celui qui l'en fait sortir. Aussi c'étoit pour cela que le Fils de Dieu s'étoit incarné, n'étant venu dans le monde que pour chasser le démon de l'ame & du corps des hommes. Et en commandant à celui-ci avec cette autorité souveraine qu'il possédoit comme Dieu, de se taire, & de sortir, il lui faisoit voir par avance, qu'il n'auroit aucun besoin de son témoignage pour procurer dans le monde l'établissement de sa foi ; & qu'il lui seroit aussi facile de le chasser du cœur des hommes dont il avoit usurpé l'empire, que de le faire sortir du corps de cet homme en particulier, dont il avoit pris possession. Que si l'on s'étonne de ce qu'il permit à l'esprit impur de causer de si violentes convulsions à ce possédé avant que de le quitter, qu'il sembloit qu'il eut voulu lui déchirer tous les membres, selon l'expression littérale du texte sacré ; c'est au contraire ce qui servit davantage à prouver, & la puissance du Sauveur, & la foiblesse du démon. Car il falloit qu'il parut par ces effets violens, que le malade souffroit une possession véritable, afin qu'on ne put douter du miracle de sa guérison. Et il falloit que cette même violence, devenue absolument inutile, fut une preuve incontestable, tant de la malice pleine de fureur de celui qui le possédoit, que du pouvoir souverain du Fils de Dieu, qui rendit vains, malgré lui, tous ses efforts. Car il est marqué expressément dans saint Luc, qu'il ne lui fit aucun mal. Et c'étoit sans doute une figure excellente de ce qui arriveroit dans l'établissement de l'Eglise. Car ce possédé pouvoit être regardé comme une image de tous les hommes, qui étoient pécheurs avant l'Incarnation & la mort de J. C. & par conséquent assujettis au démon. Il lui commanda par la bouche des Apôtres & des autres Prédicateurs qu'il envoya dans le monde, de sortir des ames de ces infidelles, & de les rendre à leur Maître légitime, qui étoit Dieu. Combien d'efforts cependant cet esprit plein de fureur ne fit-il point pour se maintenir dans la possession de l'empire injuste qu'il avoit usurpé sur tous les hommes ? Que ne fit-il point souffrir à ceux qui se retiroient de son esclavage ? Par combien de violentes persécutions s'efforça-t-il d'ébranler & de renverser l'Eglise naissante ? Combien de Martyrs se virent-ils déchirés par les différens supplices qu'il fit inventer contre eux ? Toutes ces secousses si violentes étoient, pour parler ainsi, comme les convulsions qu'il faisoit souffrir à ce grand corps de l'Eglise, qui se formoit peu à peu, à mesure que le fort armé étoit chassé des lieux différens de son empire. Mais tous ces efforts furent rendus vains par la puissance de J. C. Il ne put point empêcher le grand ouvrage de Dieu, ni nuire même à ceux contre qui il s'emportoit avec une si grande fureur ; puisque les Martyrs regardoient leur mort comme leur plus grand bonheur, & que l'Eglise pour qui ils souffroient, prenoit tous les jours un nouvel accroissement par l'effusion même de leur sang : Sanguis Martytum semen est Christianorum. Saint Grégoire Pape, dit que ce qui arriva à cet homme possédé de l'esprit impur, lorsqu'il en fut si violemment tourmenté avant que d'en être délivré, arrive encore souvent d'une manière spirituelle à ceux qui étant engagés dans le péché, veulent retourner à Dieu. Car aussitôt, dit ce Saint, qu'une ame plongée dans l'amour des choses terrestres, commence à s'en retirer & à goûter celles du ciel, l'ancien adversaire de son salut lui suscite des tentations beaucoup plus fortes qu'auparavant. Il faut donc alors que l'exemple de ce possédé l'affermisse contre la fureur de son ennemi ; & que les nouveaux efforts qu'il fait contre elle ne le troublent point ; mais lui servent seulement à se convaincre, tant de sa propre foiblesse, que du besoin où elle est du secours de son Sauveur, avec lequel tous les efforts de cet esprit tentateur serviront même à son salut."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 26,
+    "lat": "Et discerpens eum spiritus immundus, & exclamans voce magnâ, exiit ab eo.",
+    "fr": "Alors l'esprit impur l'agitant avec de violentes convulsions, & jetant un grand cri, sortit hors de lui.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 27,
+    "lat": "Et mirati sunt omnes, ita ut conquirerent inter se, dicentes : Quidnam est hoc ? Quænam doctrina hæc nova ? Quia in potestate etiam spiritibus immundis imperat, & obediunt ei.",
+    "fr": "Tous en furent dans un si grand étonnement, qu'ils se demandoient les uns aux autres : Qu'est-ce que ceci ? Et quelle est cette nouvelle doctrine ? Il commande même avec empire aux esprits impurs, & ils lui obéissent.",
+    "note": "Tous en furent dans une si grande admiration, qu'ils se demandoient les uns aux autres : Qu'est-ce que ceci ? Et quelle est cette nouvelle doctrine ? Il commande même avec empire aux esprits impurs, &c. Il y avoit parmi les Juifs des Exorcistes qui alloient de ville en ville, & qui chassoient les démons par l'invocation du nom de Dieu. Ce n'étoit donc pas précisément ce qui étonnoit les peuples, de voir J. C. chasser les démons ; puisque ceux d'entre eux qui faisoient la fonction d'Exorcistes, les chassoient aussi quelquefois. Mais ce qui les remplissoit d'admiration, étoit cette autorité suprême avec laquelle il parloit aux esprits impurs, & leur commandoit en maître de se taire & de sortir. Car il n'y avoit qu'un Dieu qui put avoir cet empire. Et c'étoit aussi par un tel commandement que J. C. se faisoit connoître au démon, & qu'il lui faisoit sentir qu'il étoit Dieu ; quoique cet esprit superbe ne put comprendre à cause de son orgueil, l'union de cette foiblesse de la nature selon l'homme, qui paroissoit en J. C. avec cette toute-puissance à laquelle il ne pouvoit résister. Ç'a été de même par un effet de cet empire souverain de J. C. qu'il a commandé depuis à l'esprit menteur de se taire & de sortir, lorsqu'il a substitué dans le monde malgré lui la vérité de la foi à l'erreur de ses vaines superstitions, & qu'il s'est remis en possession du cœur de l'homme après l'en avoir chassé. C'est ce qui a fait dans tous les siècles le sujet de l'admiration des peuples, lorsqu'ils ont considéré de quelle sorte il a été obéi, & comment sous le règne de Constantin, l'Empire Romain, où il sembloit que les démons avoient établi leur domination si puissamment, secoua leur servitude pour se soumettre au service de J. C. quand il le voulut, & que le temps marqué pour cela par ses conseils éternels fut arrivé. Qui n'a donc dû s'écrier avec ces peuples, dans l'admiration d'un si grand prodige : Qu'est-ce que ceci ? Et quelle est cette nouvelle doctrine ? Si les Juifs furent alors dans l'étonnement, de voir chasser un démon du corps de l'homme ; tous les peuples ont dû être bien plus étonnés de voir depuis les démons chassés de toute la terre. Et ils avoient très-grande raison les uns & les autres de se demander : Quelle étoit cette nouvelle doctrine, qui en apprenant aux hommes à devenir humbles, les délivroit de l'esclavage des démons ; Doctrine vraiment nouvelle, & à l'égard de ces Juifs, qui jusqu'alors n'avoient point connu la nécessité de s'humilier, & à l'égard de ces Gentils, à qui l'exemple d'un Dieu incarné étoit encore plus nécessaire pour leur inspirer une vérité si opposée à leur orgueil. Mais ce qu'ils appellent proprement ici une doctrine nouvelle, étoit la manière dont le Fils de Dieu venoit les instruire, en joignant une autorité souveraine sur les démons, aux vérités qu'il leur découvroit touchant le royaume des cieux. Elle leur étoit véritablement très-nouvelle ; puisque jamais leurs Docteurs ne leur avoient révélé le mystère de ce royaume céleste ; & que dans toute leur conduite ils ne faisoient rien paroître que d'humain, ni qui eût le moindre rapport à cette divine autorité qui éclatoit dans toutes les actions & dans toutes les paroles de JESUS-CHRIST."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 28,
+    "lat": "Et processit rumor ejus statim in omnem regionem Galilææ.",
+    "fr": "Sa réputation se répandit en même-temps dans toute la Galilée.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 29,
+    "lat": "Et protinus egredientes de synagoga, venerunt in domum Simonis & Andreæ, cum Jacobo & Joanne.",
+    "fr": "Sitôt qu'ils furent sortis de la synagogue, ils vinrent avec Jacque & Jean en la maison de Simon & d'André.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 30,
+    "lat": "Decumbebat autem socrus Simonis febricitans, & statim dicunt ei de illa ;",
+    "fr": "Or la belle-mère de Simon étoit au lit ayant la fièvre : ils lui parlèrent aussitôt d'elle ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 31,
+    "lat": "& accedens elevavit eam, apprehensa manu ejus. Et continuò dimisit eam febris, & ministrabat eis.",
+    "fr": "& lui s'approchant, la prit par la main, & la fit lever. Au même instant la fièvre la quitta, & elle les servoit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 32,
+    "lat": "Vespere autem facto, cùm occidisset sol, afferebant ad eum omnes malè habentes, & dæmonia habentes :",
+    "fr": "Sur le soir le soleil étant couché, ils lui amenèrent tous les malades, & les possédés ;",
+    "note": "Sur le soir, le soleil étant couché, ils lui amenèrent tous les malades & les possédés, & toute la ville étoit assemblée devant sa porte. Il guérit plusieurs malades, &c. C'est le sentiment de plusieurs Interprètes anciens & nouveaux, que la raison pour laquelle il est marqué en ce lieu, qu'on n'amena tous ces malades à J. C. que sur le soir, & après que le soleil fut couché, est que ce jour même étoit celui du sabbat ; & que les peuples auroient craint d'en violer la sainteté, s'ils avoient plutôt amené leurs malades pour être guéris : car on peut se souvenir de ce qu'on a dit ailleurs, que cette solennité du sabbat commençoit dès le soir du Vendredi, & se terminoit au soir même du Samedi. Que si après que le saint Evangéliste a dit, Qu'on amena au Sauveur tous les malades, il ajoute, Qu'il en guérit plusieurs ; il ne faut pas entendre cela comme si de tous ceux qui lui furent présentés, il n'en guérit seulement qu'une partie : car il est marqué expressément dans saint Matthieu, qu'il les guérit tous. Mais ce que saint Marc témoigne, qu'il guérit alors plusieurs malades, se doit expliquer par rapport à ce qui précède immédiatement auparavant, Que toute la ville étoit assemblée devant sa porte ; c'est-à-dire, que de toute cette foule d'habitans de Capharnaüm, qui s'étoient rendus devant la porte de la maison de saint Pierre, où étoit entré J. C. au sortir de la Synagogue, il guérit ceux qui étoient malades de différentes maladies ; & que ces malades qu'il guérit étoient en grand nombre."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 33,
+    "lat": "& erat omnis civitas congregata ad januam.",
+    "fr": "& toute la ville étoit assemblée devant sa porte.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 34,
+    "lat": "Et curavit multos, qui vexabantur variis languoribus, & dæmonia multa ejiciebat, & non sinebat ea loqui quoniam sciebant eum.",
+    "fr": "Il guérit plusieurs malades de diverses maladies, & il chassa plusieurs démons, & il ne leur permettoit pas de dire qu'ils le connoissoient.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 35,
+    "lat": "Et diluculo valdè surgens, egressus abiit in desertum locum, ibique orabat.",
+    "fr": "Le lendemain s'étant levé de fort grand matin, il sortit & s'en alla dans un lieu désert, où il prioit.",
+    "note": "Le lendemain s'étant levé de fort grand matin, il sortit & s'en alla dans un lieu désert, où il prioit. Simon & ceux qui étoient avec lui, l'y suivirent, & l'ayant trouvé, ils lui dirent : Tout le monde vous cherche. On vient de voir qu'une très-grande multitude de personnes s'étoient assemblées le soir du jour précédent à la porte de la maison où il s'étoit retiré. Comme il savoit donc que ces peuples attirés par ses miracles, ne manqueroient pas de le venir retrouver, il voulut apprendre aux Apôtres à fuir les vains applaudissemens. Ainsi dès le grand matin il sortit de Capharnaüm, pour s'en aller dans le désert y prier. Il eût pu prier dans cette maison aussi-bien que dans le désert. Et il n'avoit rien à craindre pour lui-même du côté de la vaine gloire. Mais il falloit que sa conduite servît de modèle à tous ses disciples, & qu'ils formassent la leur sur la sienne. Saint Luc dit, qu'il étoit jour quand le Fils de Dieu sortit. Mais comme saint Marc témoigne qu'il étoit fort grand matin, & que même, selon le texte grec, il étoit encore nuit, on peut concilier ensemble toutes ces expressions opposées en apparence, en disant que c'étoit dans l'obscurité, & lorsque l'on commençoit seulement à apercevoir la première petite pointe du jour. Il paroît que J. C. se déroba même à ses disciples, & sortit de la maison sans qu'ils le sussent, puisqu'il est marqué que saint Pierre l'ayant suivi avec les autres Apôtres, ils le trouvèrent, & ils lui dirent alors, Que les peuples le cherchoient. Car comme l'on fut dans Capharnaüm qu'il étoit sorti, chacun se mit à le suivre, & à le chercher. Qui ne sera étonné en considérant d'une part cette ardeur des Capharnaïtes pour suivre & pour chercher J. C. & de l'autre, les reproches si terribles que J. C. même leur fait dans la suite, pour n'avoir pas profité des miracles qu'il avoit faits dans leur ville, & pour avoir négligé de faire pénitence ? Qui ne sera effrayé en voyant ici Capharnaüm comme élevée jusqu'au ciel, par les grandes grâces qu'elle reçoit du Sauveur ; & en la voyant après menacée par la bouche de la Vérité, d'être abaissée jusqu'au fond des enfers, & traitée avec une plus grande rigueur au jour du jugement, que la ville de Sodome ? Il paroît donc que ces habitans de Capharnaüm cherchoient alors J. C. dans des vues humaines, & par rapport seulement à leurs intérêts temporels. Mais la vérité de l'Evangile qu'il leur prêchoit, ne trouva aucune entrée dans leurs cœurs. Ils se contentoient d'admirer une doctrine qui leur paroissoit nouvelle, & ils n'alloient point plus loin ; c'est-à-dire, qu'ils n'embrassoient point la pénitence à laquelle J. C. les invitoit, tant par sa doctrine que par ses miracles. Il voyoit dès-lors en eux cette mauvaise disposition de leur cœur ; & il la condamnoit dans le temps même qu'ils paroissoient le chercher avec plus d'empressement. Mais il se contente de dire aux Apôtres, lorsqu'ils lui représentèrent l'ardeur de ces peuples pour le suivre, Qu'il falloit qu'il allât prêcher aux villages d'alentour, & aux autres villes, afin d'accomplir l'ordre de son Père, & de satisfaire à sa mission, qui l'engageoit à répandre la vérité de sa parole dans toute la Palestine ; afin que les Juifs n'eussent aucun lieu de se justifier de leur infidélité."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 36,
+    "lat": "Et prosecutus est eum Simon, & qui cum illo erant :",
+    "fr": "Simon & ceux qui étoient avec lui, l'y suivirent :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 37,
+    "lat": "& cùm invenissent eum, dixerunt ei : Quia omnes quærunt te.",
+    "fr": "& l'ayant trouvé, ils lui dirent : Tout le monde vous cherche.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 38,
+    "lat": "Et ait illis : Eamus in proximos vicos & civitates, ut & ibi prædicem : ad hoc enim veni.",
+    "fr": "Il leur répondit : Allons aux villages & aux villes d'ici alentour, afin que j'y prêche aussi ; car c'est pour cela que je suis venu.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 39,
+    "lat": "Et erat prædicans in synagogis eorum, & in omni Galilæa, & dæmonia ejiciens.",
+    "fr": "Il prêchoit en effet dans leurs synagogues, & par toute la Galilée, & il chassoit les démons.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 40,
+    "lat": "Et venit ad eum leprosus, deprecans eum ; & genu flexo dixit eis : Si vis, potes me mundare.",
+    "fr": "Pendant ce temps-là un lépreux vint à lui, qui le priant, & se jetant à ses genoux, lui dit : Si vous voulez, vous pouvez me guérir.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 41,
+    "lat": "Jesus autem misertus ejus, extendit manum suam ; & tangens eum, ait illi : Volo, mundare.",
+    "fr": "JESUS en eut pitié ; & étendant la main, il le toucha, & lui dit : Je le veux, soyez * guéri.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 42,
+    "lat": "Et cùm dixisset, statim discessit ab eo lepra, & mundatus est.",
+    "fr": "Ayant dit cette parole, sa lèpre le quitta au même instant, & il fut guéri.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 43,
+    "lat": "Et comminatus est ei, statimque ejecit illum,",
+    "fr": "* JESUS le renvoya aussitôt, après lui avoir défendu fortement d'en parler,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 44,
+    "lat": "& dicit ei : Vide nemini dixeris : sed vade, ostende te Principi Sacerdotum, & offer pro emundatione tua quæ præcepit Moyses in testimonium illis.",
+    "fr": "en lui disant : Gardez-vous bien de rien dire de ceci à personne ; mais allez vous montrer au * Prince des Prêtres, & offrez pour votre guérison ce que Moyse a ordonné, afin que cela leur serve de témoinage.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 1,
+    "n": 45,
+    "lat": "At ille egressus, cœpit prædicare & diffamare sermonem, ita ut jam non posset manifestè introire in civitatem, sed foris in desertis locis esset, & conveniebant ad eum undique.",
+    "fr": "Mais cet homme l'ayant quitté, commença à parler de sa guérison, & à la publier par tout : de sorte que JESUS ne pouvoit plus paroître dans la ville ; mais il se tenoit dehors dans les lieux déserts ; & on venoit à lui de tous côtés.",
+    "note": "Mais cet homme l'ayant quitté, commença à parler de sa guérison & à la publier par-tout ; de sorte que JESUS ne pouvoit plus paroître dans la ville, &c. J. C. avoit défendu à ce lépreux de parler à qui que ce fût de sa guérison miraculeuse, pour apprendre à ceux qui feroient par sa vertu des actions éclatantes, à désirer d'être cachés, en renonçant à tout sentiment d'amour propre & de vaine gloire. Mais ce lépreux, sans se mettre en peine de la défense de J. C. ne craint point de publier ce miracle, en disant à tout le monde la grâce qu'il avoit reçue. Et l'on ne voit point que ni lui, ni tous les autres qui en usèrent de même, ayent été blâmés dans l'Evangile, d'avoir manqué en cela à obéir à leur bienfaicteur. Car il étoit juste que la gratitude de ces malades éclatât pour la gloire du Fils de Dieu. Et il falloit que le silence qu'il leur imposoit, pour ménager les esprits de ses adversaires, ne pût nuire à la principale fin de sa mission, qui étoit de le faire reconnoître par sa doctrine & par ses miracles pour le CHRIST & le Messie promis à ce peuple dès le temps d'Abraham leur père. Ainsi quoiqu'il ordonnât à quelques-unes de ces personnes qu'il guérissoit, de ne point parler de leur guérison, pour les raisons qu'on a dites, il ne blâmoit point toutefois celles qui les publioient ; & il ordonnoit même à d'autres de faire connoître les grandes grâces qu'ils avoient reçues du Seigneur, & la miséricorde qu'il leur avoit faite. Aussi parlant de l'aveugle-né à ses disciples, qui lui avoient demandé pourquoi cet homme étoit né aveugle, il leur dit : Que ç'avoit été afin que les œuvres de la puissance de Dieu éclatassent en sa personne : Or elles n'y auroient point éclaté si elles n'eussent été connues. Et pour les faire connoître, il falloit qu'on les publiât. Ainsi l'on peut dire véritablement, que si J. C. par un effet de cette douceur, que les Prophètes ont admirée long-temps auparavant, ordonnoit à quelques personnes de ne point parler de leur guérison miraculeuse, pour ne pas choquer les Prêtres, les Pharisiens, les Docteurs de la loi ; l'esprit de Dieu inspiroit intérieurement ces mêmes personnes, pour leur faire publier les merveilles du Seigneur, afin que la gloire de J. C. fût relevée aux yeux des peuples, & servit à le faire reconnoître pour ce qu'il étoit. Le bruit du miracle de la guérison de ce lépreux, inspira aux peuples de Capharnaüm un si grand désir de voir J. C. qu'il ne pouvoit plus, dit l'Evangéliste, entrer publiquement en cette ville ; c'est-à-dire, comme l'explique saint Grégoire de Nazianze, qu'il ne le vouloit plus. Car quoiqu'il l'eût pu, s'il l'avoit voulu, il l'évitoit à dessein, afin d'empêcher le trop grand éclat. Ainsi il se retiroit ordinairement dans les lieux déserts, où l'on venoit le trouver de toutes parts, mais avec moins de tumulte que dans les villes ; & il ne rentroit dans Capharnaüm qu'en secret, selon qu'il paroît par le chapitre suivant. Mais d'où vient que ce miracle de la guérison du lépreux remua si fort tous les habitans de cette ville ? Les prodiges que le Fils de Dieu y avoit faits en guérissant miraculeusement tous leurs malades, & en délivrant leurs possédés, n'avoient-ils pas excité dès auparavant dans l'esprit de ces peuples toute l'admiration & toute l'ardeur possible ? Ouï sans doute. Mais comme on a vu que J. C. s'étoit retiré secrétement après tous ces grands miracles, & avoit été prêcher aux autres villes & villages d'alentour, l'ardeur des Capharnaïtes s'étoit rallentie par l'absence du Sauveur. C'est donc pour cette raison que la guérison miraculeuse du lépreux ayant fait du bruit, ils s'excitèrent de nouveau, & furent touchés d'un désir extrême de le revoir dans leur ville. Telle est peut-être l'image d'un grand nombre de Chrétiens, qui comblés des grâces de J. C. en perdent facilement le souvenir. La divine providence a soin de les réveiller sans cesse par de nouvelles faveurs, sans qu'ils en deviennent néanmoins meilleurs. Et l'oubli de tant de bienfaits leur fait enfin mériter de tomber dans la dernière réprobation où est tombée cette ville malheureuse, pour avoir été moins sensible à ses maladies spirituelles, qu'à celles du corps ; & pour n'être pas entrée dans le dessein principal de la visite du Fils de Dieu. Car s'il l'honoroit extérieurement de sa présence, ce n'étoit que pour inviter ses peuples à le recevoir dans leurs cœurs, & à implorer le secours de ce Médecin tout-puissant, pour la guérison des plaies de leurs ames."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 1,
+    "lat": "Et iterùm intravit Capharnaum post dies :",
+    "fr": "Quelque-temps après il revint à Capharnaüm :",
+    "note": "Quelques jours après il revint à Capharnaüm : & aussitôt qu'on eut ouï dire qu'il étoit en la maison, il s'y assembla un si grand nombre de personnes, que ni le dedans du logis, ni tout l'espace d'auprès la porte ne les pouvoit contenir ; & il leur prêchoit la parole de Dieu. Il paroît que J. C. entra secrétement à Capharnaüm ; & qu'on ne le vint trouver qu'après que le bruit se fut répandu qu'il étoit dans la maison ; c'est-à-dire, apparemment dans le même lieu où nous avons vu auparavant qu'il avoit guéri la belle-mère de S. Pierre. On ne peut douter qu'il n'eut ses desseins en revenant à cette ville. Et la guérison du paralytique qu'on lui présenta aussitôt après, put bien en être une des principales causes. Car il n'y avoit aucun hasard dans tous ces événemens de la vie de J. C. Et s'il déclare que l'aveugle-né étoit né aveugle, afin que les œuvres de la puissance de Dieu éclatassent en sa personne ; on peut croire aussi qu'il rentra dans Capharnaüm, afin de faire éclater en la personne du paralytique un nouvel effet de la divine vertu qui étoit en lui, & d'inviter de nouveau ses habitans à la pénitence, par la prédication de l'Evangile du royaume qui est dans les cieux. Car il est marqué, Qu'il leur annonçoit la parole de Dieu, lorsqu'on lui vint amener le paralytique. Et c'étoit par l'enchaînement de ces deux fonctions successives de son ministère, de la prédication, & des guérisons miraculeuses, qu'il travailloit à toute heure à établir avec sa grâce son royaume tout spirituel dans le cœur des hommes ; quoique le temps de cet établissement parfait ne dût être qu'après la descente du Saint-Esprit, & par conséquent après la résurrection de J. C. Mais on ne sait ce qui doit ici surprendre le plus, ou la bonté du Sauveur, qui ne se lasse point de demeurer, de prêcher, & de faire des miracles dans Capharnaüm, ce qui même l'a fait appeler sa ville par saint Matthieu ; ou l'aveuglement de ses habitans, qui toujours instruits des vérités de la loi nouvelle, & toujours comblés de nouvelles grâces, demeuroient sourds intérieurement à la parole de J. C. qui ne frappoit que les oreilles de leur corps, & qui ne plaisoit proprement qu'à leur esprit, sans pénétrer jusqu'à leur cœur. Nous ne parlons point ici de la guérison du paralytique, dont on a déjà parlé en expliquant saint Matthieu, où ce miracle est rapporté. Et il suffit de marquer ici, que ce fut par un effet de la divine providence, que tant de peuples s'assemblèrent en ce lieu, afin qu'il y eut un plus grand nombre de témoins de ce prodige. Car quoiqu'il ne dût faire aucune impression salutaire sur la plus grande partie de ces peuples, pour les porter à produire par une conversion véritable de dignes fruits de pénitence, la bonté du Fils de Dieu à leur égard n'en paroissoit qu'avec plus d'éclat ; puisqu'il ne se lassoit point de faire du bien à des ingrats, & d'amasser par ses bienfaits des charbons de feu sur leurs têtes."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 2,
+    "lat": "& auditum est quod domo esset, & convenerunt multi, ita ut non caperet neque ad januam, & loquebatur eis verbum.",
+    "fr": "& aussitôt qu'on eut ouï dire qu'il étoit en la maison, il s'y assembla un si grand nombre de personnes, que ni le dedans du logis, ni tout l'espace d'auprès la porte ne les pouvoit contenir ; & il leur prêchoit la parole de Dieu.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 3,
+    "lat": "Et venerunt ad eum ferentes paralyticum, qui à quatuor portabatur.",
+    "fr": "Alors quelques-uns lui vinrent amener un paralytique, qui étoit porté par quatre hommes.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 4,
+    "lat": "Et cùm non possent offerre eum illis præ turba, nudaverunt tectum ubi erat, & patefacientes submiserunt grabatum, in quo paralyticus jacebat.",
+    "fr": "Mais la foule les empêchant de le lui présenter, ils découvrirent le toit de la maison où il étoit, & y ayant fait une ouverture, ils descendirent le lit où le paralytique étoit couché.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 5,
+    "lat": "Cùm autem vidisset Jesus fidem illorum, ait paralytico : Fili, dimittuntur tibi peccata tua.",
+    "fr": "JESUS voyant leur foi, dit au paralytique : Mon fils, vos péchés vous sont remis.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 6,
+    "lat": "Erant autem illic quidam de Scribis sedentes, & cogitantes in cordibus suis :",
+    "fr": "Il y avoit quelques Scribes assis au même lieu qui s'entretenoient de ces pensées dans leur cœur :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 7,
+    "lat": "Quid hic sic loquitur ? Blasphemat. Quis potest dimittere peccata, nisi solus Deus ?",
+    "fr": "* Que veut dire cet homme, Il blasphème. Qui peut remettre les péchés que Dieu seul ?",
+    "note": "Il leur dit encore : Le sabbat a été fait pour l'homme, & non pas l'homme pour le sabbat. L'homme a été fait pour Dieu. C'est pourquoi nulle raison ne peut jamais dispenser l'homme de ce qu'il doit à son Dieu, pour lequel il a été fait. Et il n'y aura jamais de nécessité à l'homme de se détourner de la fin de sa création, qui est de connoître, d'aimer, & de servir son Créateur. Mais il n'en est pas de même des choses qui ont été faites pour l'homme. Ainsi le sabbat, c'est-à-dire, le jour du Seigneur, ou le jour du repos, a été fait ou institué pour l'homme ; parce qu'il a été institué, tant afin de sanctifier son ame, en lui donnant lieu de s'appliquer davantage au service de son Dieu, & de s'occuper du souvenir de ses bienfaits, qu'afin même de donner quelque relâche à son corps, après le travail du reste de la semaine, comme il est marqué formellement dans l'Ecriture. Ce sabbat n'est donc pas d'une telle obligation, qu'on ne puisse point en être jamais dispensé. Il est vrai que Dieu avoit défendu aux Juifs de préparer même à manger le jour du sabbat, & qu'il vouloit qu'il fut observé avec la dernière rigueur. Mais c'est que ce peuple, dont la tête étoit dure & inflexible, avoit besoin d'être retenu dans son devoir par une loi rigoureuse ; & que d'ailleurs ce que Dieu vouloit figurer par cette loi comme on l'a marqué ailleurs, étoit beaucoup plus considérable que la loi même. Ceux donc d'entre les Israélites qui pénétroient dans l'esprit du Législateur, savoient bien qu'il y avoit des occasions où ils étoient dispensés de la rigueur de la loi. Et l'exemple des Machabées, qui ne firent aucune difficulté de combattre leurs ennemis le jour du sabbat, fit connoître la vérité de ce que le Fils de Dieu dit ici : Que le sabbat a été fait pour l'homme, & non pas l'homme pour le sabbat, c'est-à-dire, que le sabbat fait pour l'homme ne lui étoit pas d'une indispensable obligation : puisque l'homme en pouvoit être dispensé pour des raisons légitimes, au lieu qu'il ne peut l'être jamais de l'amour de Dieu, pour lequel il a été fait. Mais comment de ce que le sabbat a été fait pour l'homme, & non l'homme pour le sabbat, tire-t-il cette conséquence marquée aussitôt après ? Que le Fils de l'homme est donc maître du sabbat même ? C'est qu'il vouloit faire entendre aux Pharisiens, que puisque les hommes n'avoient point été faits pour le sabbat, comme ils ont été faits pour Dieu ; celui qui étant Dieu par sa nature, étoit devenu le Fils de l'homme par son Incarnation, avoit très-certainement le pouvoir de les dispenser de l'obligation du sabbat ; au lieu qu'il ne pouvoit pas les dispenser d'aimer Dieu ; parce que c'étoit, comme on l'a dit, pour Dieu même qu'ils avoient été créés. Il dispensoit donc ses Apôtres de la rigueur de cette observation, à cause de la nécessité où ils se trouvoient alors ; & il devoit les en dispenser entièrement dans la suite, en abolissant le sabbat des Juifs, & faisant céder l'ombre à la lumière, & la figure à la vérité. Ainsi ce qu'il dit alors étoit comme une prédiction de ce qui devoit arriver."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 8,
+    "lat": "Quo statim cognito Jesu spiritu suo, quia sic cogitarent intra se, dicit illis : Quid ista cogitatis in cordibus vestris ?",
+    "fr": "JESUS connut aussitôt par son Esprit ce qu'ils pensoient en eux-mêmes, & il leur dit : Pourquoi vous entretenez-vous de ces pensées dans vos cœurs ?",
+    "note": "JESUS connut aussitôt par son Esprit ce qu'ils pensoient en eux-mêmes, &c. L'Evangile nous marque par cette sorte d'expression, la différence qu'il y avoit entre J. C. & les Prophètes. Car on ne pouvoit pas dire de ces Prophètes, lorsqu'ils découvroient les choses cachées, ou qu'ils prédisoient les choses futures, que c'étoit par la lumière de leur esprit ; puisque, comme dit saint Jean, c'est la lumière véritable qui éclaire tous les hommes : Erat lux vera, quæ illuminat omnem hominem. Or cette lumière est Dieu même : & par conséquent c'étoit Dieu qui éclairoit par la lumière de son Esprit tous les Prophètes, qui n'étant, comme tous les autres hommes, que ténèbres par eux-mêmes, recevoient d'en haut, & du Père des lumières, selon saint Jacques, toute la lumière dont ils étoient éclairés. Mais le Sauveur étant Dieu & homme par l'union hypostatique du Verbe avec la nature humaine, n'étoit pas, comme ces Prophètes, éclairé par une lumière qui ne lui fut pas propre ; puisque toute la plénitude de la divinité habitant en la personne de J. C. corporellement, selon l'expression de saint Paul, c'est-à-dire, substantiellement ; c'étoit par son propre Esprit, & par sa propre lumière, qu'il connoissoit ce qu'il y avoit de plus caché dans le cœur des hommes."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 9,
+    "lat": "Quid est facilius, dicere paralytico, Dimittuntur tibi peccata, an dicere : Surge, tolle grabatum tuum, & ambula ?",
+    "fr": "Lequel est le plus aisé, ou de dire à ce paralytique : Vos péchés vous sont remis ; ou de lui dire : Levez-vous, emportez votre lit, & marchez ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 10,
+    "lat": "Ut autem sciatis quia Filius hominis habet potestatem in terra dimittendi peccata [ ait paralytico : ]",
+    "fr": "Or afin que vous sachiez que le Fils de l'homme a le pouvoir dans la terre de remettre les péchés, il dit au paralytique :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 11,
+    "lat": "Tibi dico : Surge, tolle grabatum tuum, & vade in domum tuam.",
+    "fr": "Levez-vous, je vous le commande, emportez votre lit, & allez-vous-en en votre maison.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 12,
+    "lat": "Et statim surrexit ille ; & sublato grabato, abiit coram omnibus, ita ut mirarentur omnes, & honorificarent Deum, dicentes : Quia nunquam sic vidimus.",
+    "fr": "Il se leva au même instant, emporta son lit, & s'en alla devant tout le monde : de sorte qu'ils furent tous saisis d'étonnement ; & rendant gloire à Dieu, ils disoient : Jamais nous n'avons rien vu de semblable.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 13,
+    "lat": "Et egressus est rursus ad mare : omnisque turba veniebat ad eum, & docebat eos.",
+    "fr": "JESUS étant sorti une autre fois du côté de la mer, tout le peuple venoit à lui, & il les enseignoit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 14,
+    "lat": "Et cùm præteriret, vidit Levi Alphæi, sedentem ad telonium, & ait illi : Sequere me. Et surgens secutus est eum.",
+    "fr": "Et lorsqu'il passoit, il vit Lévi fils d'Alphée, assis au bureau des impôts, auquel il dit : Suivez moi. Il se leva aussitôt, & le suivit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 15,
+    "lat": "Et factum est, cùm accumberet in domo illius, multi Publicani & peccatores simul discumbebant cum Jesu, & discipulis ejus ; erant enim multi, qui & sequebantur eum.",
+    "fr": "* Et JESUS étant assis à table en la maison de cet homme, beaucoup de Publicains & de gens de mauvaise vie y étoient assis avec lui, & avec ses disciples : car il y en avoit même plusieurs qui le suivoient.",
+    "note": "Car il y en avoit même plusieurs qui le suivoient. Il y a une force toute particulière dans ces paroles, car c'est de même que s'il disoit : Que la raison pour laquelle tant de Publicains & de gens de mauvaise vie se trouvoient alors à table avec J. C. étoit qu'il y en avoit beaucoup, qui touchés de ses discours & de ses miracles, le suivoient par-tout, dans le temps même que les Prêtres, les Pharisiens & les Docteurs de la loi ne songeoient qu'à le contredire & qu'à le persécuter. Ainsi ceux qui paroissoient les plus malades, trouvoient leur consolation dans ce Médecin des ames humbles & contrites ; tandis que l'orgueil des autres qui se regardoient comme saints & justes, les empêchoit de jouir de l'effet de sa divine miséricorde."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 16,
+    "lat": "Et Scribæ & Pharisæi videntes quia manducaret cum Publicanis & peccatoribus, dicebant discipulis ejus : Quare cum Publicanis & peccatoribus manducat & bibit magister vester ?",
+    "fr": "Les Scribes & les Pharisiens voyant qu'il mangeoit avec les Publicains, & avec les gens de mauvaise vie, dirent à ses disciples : Pourquoi votre maître mange-t-il, & boit-il avec des Publicains & des gens de mauvaise vie ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 17,
+    "lat": "Hoc audito Jesus, ait illis : Non necesse habent sani medico, sed qui malè habent. Non enim veni vocare justos, sed peccatores.",
+    "fr": "Ce que JESUS ayant entendu, il leur dit : Ce ne sont pas les sains, mais les malades, qui ont besoin de médecin. Je ne suis pas venu appeler les justes, mais les pécheurs *.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 18,
+    "lat": "Et erant discipuli Joannis & Pharisæi jejunantes, & veniunt, & dicunt illi : Quare discipuli Joannis & Pharisæorum jejunant, tui autem discipuli non jejunant ?",
+    "fr": "Or les disciples de Jean & ceux des Pharisiens jeûnoient souvent ; & l'étant venus trouver, ils lui dirent : Pourquoi les disciples de Jean, & ceux des Pharisiens jeûnent-ils, & que vos disciples ne jeûnent pas ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 19,
+    "lat": "Et ait illis Jesus : Numquid possunt filii nuptiarum, quandiù sponsus cum illis est jejunare ? Quanto tempore habent secum sponsum, non possunt jejunare.",
+    "fr": "JESUS leur répondit : Les * amis de l'époux peuvent-ils jeûner pendant que l'époux est avec eux ? Non sans doute, ils ne peuvent pas jeûner pendant qu'ils ont l'époux avec eux.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 20,
+    "lat": "Venient autem dies cùm auferetur ab eis sponsus : & tunc jejunabunt in illis diebus.",
+    "fr": "Mais il viendra un temps que l'époux leur sera ôté ; & ce sera en ce temps-là qu'ils jeûneront.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 21,
+    "lat": "Nemo assumentum panni rudis assuit vestimento veteri, alioquin aufert supplementum novum à veteri, & major scissura fit :",
+    "fr": "Personne ne coud une pièce de drap neuf à un vieux vêtement, autrement la pièce neuve emporteroit encore une partie du vieux, & la rupture en deviendroit plus grande :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 22,
+    "lat": "& nemo mittit vinum novum in utres veteres : alioquin dirumpet vinum utres, & vinum effundetur, & utres peribunt : sed vinum novum in utres novos mitti debet.",
+    "fr": "nul ne met point non plus du vin nouveau dans de vieux * vaisseaux ; parce que le vin nouveau romproit les vaisseaux, le vin se répandroit, & les vaisseaux se perdroient : mais il faut mettre le vin nouveau dans des vaisseaux neufs.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 23,
+    "lat": "Et factum est iterùm cùm Dominus sabbatis ambularet per sata, & discipuli ejus cœperunt progredi, & vellere spicas.",
+    "fr": "Il arriva encore que le Seigneur passant le long des blés un jour de sabbat, ses disciples en marchant commencèrent à rompre des épis.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 24,
+    "lat": "Pharisæi autem dicebant ei : Ecce, quid faciunt sabbatis quod non licet ?",
+    "fr": "Sur quoi les Pharisiens lui dirent : Pourquoi vos disciples font-ils le jour du sabbat ce qu'il n'est point permis de faire ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 25,
+    "lat": "Et ait illis : Numquam legistis quid fecerit David, quando necessitatem habuit, & esuriit ipse, & cui cum eo erant ?",
+    "fr": "Il leur répondit : N'avez-vous jamais lu ce que fit David dans le besoin où il se trouva, lorsque lui & ceux qui l'accompagnoient furent pressés de la faim ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 26,
+    "lat": "Quomodo introivit in domum Dei sub Abiathar principe Sacerdotum, & panes propositionis manducavit, quos non licebat manducare, nisi Sacerdotibus, & dedit eis qui cum eo erant ?",
+    "fr": "Comment il entra dans la maison de Dieu du temps du Grand-Prêtre Abiathar, & mangea les pains * de proposition, & en donna à ceux qui étoient avec lui, quoiqu'il n'y eut que les Prêtres à qui il fût permis d'en manger ?",
+    "note": "Il entra dans la maison de Dieu du temps du Grand-Prêtre Abiathar, & mangea les pains de proposition, &c. Dans le premier livre des Rois où cette histoire est rapportée, le Grand-Prêtre à qui David s'adressa pour lui demander quelque nourriture, n'est pas nommé Abiathar, mais Achimelec. Quelques-uns ont cru que le Grand-Prêtre Achimelec se nommoit aussi Abiathar, comme son fils ; & que le fils se nommoit aussi Achimelec ; comme son père. Mais parce que les passages de l'Ecriture sur lesquels on fonde ce sentiment, ne paroissent pas sans difficulté, d'autres croient que le nom d'Abiathar est marqué ici au lieu d'Achimelec, parce qu'Abiathar étoit beaucoup plus connu du temps de David ; qu'il étoit présent, & dans les fonctions avec son père, quand David vint le trouver ; que son père ayant été tué aussitôt après par l'ordre du roi Saül, il devint célèbre en portant l'éphod à David, lorsqu'il se sauva auprès de lui ; & qu'enfin il put bien même du temps de son père, exercer conjointement avec lui la souveraine sacrificature, ainsi qu'on le vit lui-même depuis joint à Sadoc dans le souverain sacerdoce."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 27,
+    "lat": "Et dicebat eis : Sabbatum propter hominem factum est, & non homo propter sabbatum.",
+    "fr": "Il leur dit encore : Le sabbat a été fait pour l'homme, & non pas l'homme pour le sabbat.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 2,
+    "n": 28,
+    "lat": "Itaque Dominus est Filius hominis, etiam sabbati.",
+    "fr": "C'est pourquoi le Fils de l'homme est maître du sabbat même.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 1,
+    "lat": "Et introivit iterùm in synagogam, & erat ibi homo habens manum aridam.",
+    "fr": "JESUS entra une autre fois dans la synagogue, où il se trouva un homme qui avoit une main sèche.",
+    "note": "JESUS entra une autre fois dans la Synagogue, où il se trouva un homme qui avoit une main sèche. Et ils l'observoient pour voir s'il le guériroit un jour de sabbat, &c. On a déjà expliqué cette histoire dans saint Matthieu ; & l'on trouve seulement ici quelque chose de différent, qu'il est besoin d'éclaircir. La Synagogue des Juifs où JESUS entra de nouveau, étoit celle de Capharnaüm, où nous avons vu auparavant qu'il avoit guéri un homme possédé de l'esprit impur. Il est dit dans saint Matthieu : Que les Pharisiens demandèrent à J. C. pour avoir un sujet de l'accuser : S'il étoit permis de guérir au jour du sabbat ; au lieu que saint Marc dit ici : Qu'ils l'observoient, afin de voir s'il guériroit le jour du sabbat ce malade dont la main étoit séchée ; & que même J. C. les ayant interrogés, & leur ayant demandé s'il étoit permis au jour du sabbat de faire du bien ou du mal, de sauver la vie ou de l'ôter, ils demeurèrent dans le silence. On ne peut douter que ce que disent ces deux saints Evangélistes ne soit véritable. Ainsi l'on peut croire que les Pharisiens observèrent d'abord J. C. dans le dessein de l'accuser d'avoir violé le sabbat, s'il guérissoit ce malade : & que lui ayant même demandé ensuite s'il étoit permis de guérir au jour du sabbat, il leur répondit apparemment par cette demande qu'il leur fit aussi à son tour ; s'il étoit permis de faire du bien ou du mal en ce jour-là : car c'étoit la même chose que s'il leur eût dit : Vous me demandez s'il est permis de guérir un malade le jour du sabbat. Et moi pour répondre à votre demande, je n'ai qu'à vous proposer cette question : S'il est permis de faire du bien, & de sauver la vie à un homme le jour du sabbat, qui est le jour du Seigneur ? Or cette seule demande dans la bouche de J. C. leur représenta d'une manière si vive l'injustice de leur accusation, qu'ils furent réduits au silence. Car le Fils de Dieu pour confondre leur orgueil, leur fit comprendre sans doute dans cet instant, combien ils étoient déraisonnables de se vouloir opposer à la guérison miraculeuse de ce malade qu'on lui présentoit, pour cette seule raison qu'il étoit alors le jour du sabbat ; puisque cette guérison étant un effet de la bonté & de la puissance de Dieu, ne pouvoit être opposée à la sanctification d'un jour consacré particulièrement à son culte & à son service. Et on pouvoit dire véritablement au contraire, qu'il n'y avoit rien qui y fût plus opposé que cette maligne disposition du cœur des Pharisiens, qui les empêchoit d'avoir le moindre scrupule de former ce même jour de méchans desseins contre la personne de J. C. & de conspirer contre sa vie, comme ils firent, selon l'Evangile, en tenant conseil avec les Hérodiens pour le perdre. Car c'est là peut-être le sens le plus naturel de ces paroles de J. C. Est-il permis au jour du sabbat de faire du bien ou du mal ; de sauver la vie ou de l'ôter ? Ils ne vouloient pas qu'on fît du bien à cet homme, en le guérissant le jour du sabbat, & ils ne songeoient eux-mêmes qu'à faire du mal à J. C. Ils faisoient un crime au Fils de Dieu de ce qu'il sauvoit la vie à un malade, en le délivrant d'un mal dont la cause étoit peut-être mortelle ; & ils se croyoient eux-mêmes innocens, en voulant ôter la vie à celui dont la sainteté & les miracles auroient dû au moins leur inspirer du respect pour sa personne. Mais tel est, & tel a toujours été le caractère de ces esprits superbes & envieux, dont le Fils de Dieu a tracé lui-même une image véritable, en disant ; Qu'ils voyent, ou qu'ils croyent voir une paille dans l'œil des autres, lorsqu'ils ne s'aperçoivent pas d'une poutre qu'ils ont eux-mêmes dans l'œil. Ils s'érigent en médecins pour sauver leurs frères, ou pour mieux dire, en censeurs pour critiquer leur conduite & pour condamner leurs sentimens ; lorsqu'ils sont eux-mêmes dangereusement malades, & très-coupables devant Dieu par l'orgueil secret qui empoisonne leur cœur, & qui envenime dans leur esprit tout ce qu'ils voyent. Rien sans doute n'est plus opposé à cet œil simple dont le Fils de Dieu parle ailleurs, qui a la force de communiquer une lumière salutaire à tout le corps. Et rien ne paroît plus directement contraire à cet esprit de charité qui nous est par-tout si recommandé dans les saintes Ecritures. Mais rien aussi n'a attiré les anathèmes du Sauveur, qui a toujours fait paroître une plus grande indignation contre l'orgueil de ces Pharisiens & de ces faux justes, que contre les vices de ceux-mêmes que l'on regardoit comme les plus grands pécheurs ; parce que la fragilité humaine avoit quelque part dans ces derniers ; au lieu que la seule malignité étoit le principe du dérèglement dans les autres. C'est pourquoi il est dit ici, que lorsque les Pharisiens furent réduits par la réponse du Fils de Dieu à ne rien dire, il les regarda avec colère, & qu'il s'attrista en considérant l'aveuglement de leur cœur. Or cette colère, aussi-bien que cette tristesse de J. C. faisoient connoître combien étoient criminels & incurables ces aveugles volontaires, qui ne refusoient de le reconnoître pour leur médecin, que parce qu'ils ne vouloient pas être guéris, ni renoncer à leur orgueil."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 2,
+    "lat": "Et observabant eum ; si sabbatis curaret, ut accusarent illum.",
+    "fr": "Et ils l'observoient pour voir s'il le guériroit un jour de sabbat, afin d'en prendre sujet de l'accuser.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 3,
+    "lat": "Et ait homini habenti manum aridam : Surge in medium.",
+    "fr": "Alors il dit à cet homme qui avoit une main sèche : Levez-vous, tenez-vous au milieu.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 4,
+    "lat": "Et dicit eis : Licet sabbatis benè facere, an malè ? Animam salvam facere, an perdere ? At illi tacebant.",
+    "fr": "Puis il leur dit : Est-il permis au jour du sabbat de faire du bien ou du mal ? De sauver la vie, ou de l'ôter ? Et ils demeurèrent dans le silence.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 5,
+    "lat": "Et circumspiciens eos cum ira ; contristatus super cæcitate cordis eorum, dicit homini : Extende manum tuam. Et extendit, & restituta est manus illi.",
+    "fr": "Mais lui les regardant avec colère, étant affligé de l'aveuglement de leur cœur, il dit à cet homme : Etendez votre main. Il l'étendit, & elle devint saine *.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 6,
+    "lat": "Exeuntes autem Pharisæi, statim cùm Herodianis consilium faciebant adversus eum, quomodo eum perderent.",
+    "fr": "Aussitôt les Pharisiens étant sortis, tinrent conseil contre lui avec les Hérodiens, comment ils le perdroient.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 7,
+    "lat": "Jesus autem cum discipulis suis secessit ad mare, & multa turba à Galilæa & Judæa secuta est eum,",
+    "fr": "Mais JESUS se retira avec ses disciples vers la mer, où une grande foule de peuple le suivit de Galilée & de Judée,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 8,
+    "lat": "& ab Jerosolymis, & ab Idumæa, & trans Jordanem : & qui circa Tyrum & Sidonem, multitudo magna, audientes quæ faciebat, venerunt ad eum.",
+    "fr": "de Jérusalem, de l'Idumée, & de delà le Jourdain : & ceux des environs de Tyr & de Sidon ayant ouï parler des choses qu'il faisoit, vinrent en grand nombre le trouver.",
+    "note": "Mais JESUS se retira avec ses disciples vers la mer, où une grande foule de peuple le suivit de Galilée & de Judée, &c. Saint Matthieu nous marque plus clairement la raison de cette retraite de J. C. C'est qu'il connoissoit la conspiration des Pharisiens & des Hérodiens unis ensemble, & tenant conseil pour le perdre. Comme son heure n'étoit pas venue de consommer encore sitôt son grand sacrifice, & qu'il falloit qu'il montrât aux Juifs plus long-temps l'exemple d'une vie évangélique, avant que de la sceller par sa mort, il quitta Capharnaüm cette ville ingrate, & s'en alla vers la mer qui est appelée ailleurs, mer de Galilée. Mais parce qu'il ne vouloit pas que la jalousie des Pharisiens fût un obstacle à ses divines fonctions, ni qu'elle empêchât les peuples d'ouir sa parole, & d'être témoins de ses miracles, il attira par sa réputation en ce lieu même, où il s'étoit retiré, une grande foule de toutes sortes de personnes, qui venoient de divers endroits, ou pour l'entendre, ou pour recevoir la guérison des différentes maladies dont ils étoient affligés. L'Evangéliste remarque qu'il guérissoit un grand nombre de malades, & que les peuples se jetoient sur lui pour le toucher. Mais il étoit bien à craindre qu'on ne pût dire en un sens spirituel de ces peuples, ce qu'il dit ailleurs en un autre sens, d'une grande foule de personnes qui le pressoient & l'accabloient, Qu'il n'y en avoit que peu dans toute cette multitude qui le touchassent véritablement, ou pour mieux dire, qui fussent touchés de lui par le sentiment d'une foi & d'un amour véritable. Car ils accouroient tous à J. C. non pas comme au vrai Sauveur, qui pouvoit guérir leurs ames de leurs péchés, mais comme à celui de qui ils espéroient recevoir la guérison de leurs corps. Ainsi les peuples ne s'attachant qu'à ce qui étoit corporel, se rendoient indignes de participer au fruit principal de l'Incarnation du Fils de Dieu, qui étoit venu pour sauver son peuple de ses péchés, selon que l'Ange le prédit de lui avant sa naissance : ipse enim salvum faciet populum suum à peccatis eorum."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 9,
+    "lat": "Et dixit discipulis suis ut navicula sibi deserviret propter turbam, ne comprimerent eum.",
+    "fr": "Et il dit à ses disciples qu'ils lui tinssent là une barque, afin qu'elle lui servît pour n'être pas accablé par la foule du peuple.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 10,
+    "lat": "Multos enim sanabat, ita ut irruerent in eum, ut illum tangerent quotquot habebant plagas.",
+    "fr": "Car comme il en guérissoit beaucoup, tous ceux qui étoient affligés de quelque mal se jetoient sur lui pour le pouvoir toucher.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 11,
+    "lat": "Et spiritus immundi, cùm illum videbant, procidebant ei : & clamabant dicentes :",
+    "fr": "Et quand les Esprits impurs le voyoient, ils se prosternoient devant lui, en criant :",
+    "note": "Et quand les esprits impurs le voyoient, ils se prosternoient devant lui, en criant : Vous êtes le Fils de Dieu, &c. L'Evangile attribue aux esprits impurs, ce qu'on doit entendre des hommes qu'ils possédoient. Car c'étoient ces possédés qui se prosternoient devant J. C. aussitôt qu'ils le voyoient. Mais ils n'en usoient ainsi, que parce que ces esprits à qui Dieu avoit permis de les posséder, étant effrayés par la présence du Fils de Dieu, les faisoient prosterner devant lui, & crier, Qu'il étoit véritablement Fils de Dieu. C'étoit un aveu forcé, & bien différent de la confession si célèbre que fit saint Pierre touchant la divinité de J. C. Aussi au lieu que saint Pierre méritât que le Seigneur lui déclarât, Qu'il étoit heureux de ce que son Père céleste avoit daigné lui révéler ce grand mystère ; le Fils de Dieu au contraire défendit avec de grandes menaces à ces démons de le découvrir. Et il en usa ainsi, non-seulement parce qu'il ne vouloit pas qu'on parlât encore de lui trop ouvertement, comme on l'a remarqué auparavant ; mais même parce qu'ils étoient indignes de servir à faire connoître celui qui venoit pour les confondre, & pour détruire leur royaume."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 12,
+    "lat": "Tu es Filius Dei, & vehementer comminabatur eis ne manifestarent illum.",
+    "fr": "Vous êtes le Fils de Dieu : mais il leur défendoit avec de grandes menaces de le découvrir.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 13,
+    "lat": "Et ascendens in montem vocavit ad se quos voluit ipse : & venerunt ad eum.",
+    "fr": "Il monta ensuite sur une montagne, & il appela à lui ceux que lui-même voulut, & ils vinrent à lui.",
+    "note": "Il monta ensuite sur une montagne, & il appela à lui ceux que lui-même voulut, & ils vinrent à lui. Il en établit douze pour être avec lui, & pour les envoyer prêcher : & il leur donna la puissance de guérir les maladies, &c. Le Fils de Dieu voulant faire le choix de ses douze Apôtres, monte sur une montagne pour y prier, selon la remarque expresse de saint Luc. Car quoiqu'il n'eût pas besoin pour lui-même de prière, il montroit l'exemple, comme le chef à tous ses membres, & leur faisoit voir en sa personne la manière dont ils seroient obligés d'élire ceux qui devoient tenir sa place dans la conduite de son Eglise. Il falloit donc qu'ils montassent sur la montagne, en renonçant à toutes les vues de la terre, & à toute considération de la chair & du sang ; & qu'ils consultassent dans la prière la volonté de celui, qui lui-même se choisit & appelle à soi ceux qu'il lui plaît. Car ce que JESUS fit alors à l'égard de ses douze Apôtres, qu'il choisit du milieu de tous ses disciples, après que tous ses disciples avoient été séparés eux-mêmes par un effet de sa miséricorde du milieu des peuples ; il l'a toujours fait depuis, & il le fait encore tous les jours dans l'élection des ministres de son Eglise, lorsque les hommes ne gâtent point par des vues humaines l'œuvre de Dieu, & qu'ayant recours à la prière, ils n'ont point d'autre intention que de connoître la sainte vocation des Pasteurs, destinés par l'élection du Pasteur suprême à la conduite de son troupeau. Le plus bel exemple qu'on en ait vu depuis cette élection des douze Apôtres a été celui de saint Matthias. Car comme après l'apostasie de Judas il fallut, selon l'Ecriture, qu'un autre prît sa place dans l'Episcopat, Joseph surnommé le Juste, & Matthias ayant été présentés, tous les disciples qui étoient ensemble environ au nombre de six-vingts, dirent à Dieu dans leur prière : Seigneur, qui connoissez les cœurs de tous les hommes, montrez-nous lequel de ces deux vous avez choisi. Car ils reconnoissoient véritablement qu'il ne leur appartenoit point de choisir, mais que c'étoit au Seigneur à le faire, & que leur devoir étoit seulement de prier ; afin de pouvoir connoître celui qui étoit dans le choix de Dieu. Aussi nous voyons ailleurs que J. C. fait souvenir ses Apôtres, que ce n'étoient pas eux-mêmes qui l'avoient choisi, mais que c'étoit lui qui les avoit choisis & établis. S. Paul a soin de marquer souvent, qu'il étoit Apôtre par la vocation & par la volonté de Dieu. Et le même Apôtre parlant du Pontife qui est établi pour les hommes en ce qui regarde le culte divin, afin qu'il offre des dons & des sacrifices pour les péchés, déclare, que nul ne s'attribue à soi-même cet honneur, mais qu'il faut y être appelé comme Aaron. Et il ajoute : Que J. C. n'a point pris de lui-même la qualité glorieuse de Pontife, mais qu'il l'a reçue de celui qui lui a dit : Vous êtes mon Fils..... Que c'est Dieu qui l'a déclaré Pontife selon l'ordre de Melchisedech. Si donc J. C. lui-même ne s'est point attribué la dignité de Pontife, l'ayant reçue de son Père ; combien falloit-il plutôt que ceux qui devoient tenir sa place en qualité de ses Apôtres, fussent choisis par sa volonté, & non par la leur ? Et quelle horrible présomption seroit-ce à des hommes beaucoup inférieurs aux Apôtres en toutes sortes de dons & de grâces, de s'ingérer par eux-mêmes dans un ministère où ils succèdent à la dignité de ceux que le Fils de Dieu appela à soi, selon le choix de sa pure volonté, pour être avec lui, & pour être envoyés prêcher à toutes les nations ? J. C. n'envoya pas les Apôtres prêcher sa parole aussitôt qu'il les eut choisis. Il les destina seulement dès-lors à être envoyés dans le temps marqué par sa providence. Et il voulut cependant qu'ils demeurassent près de lui pour se former peu-à-peu sur son exemple, pour s'instruire de plus en plus en écoutant continuellement sa sainte parole, & pour s'affermir dans la pratique des vertus, avant que de les prêcher aux autres. Car il paroît que le Fils de Dieu ne les envoya que depuis prêcher aux peuples. Et ce qu'il est dit ici par avance, Qu'il leur donna le pouvoir de guérir les maladies & de chasser les démons, doit s'entendre aussi de ce temps auquel il les envoya prêcher. Car ce fut alors qu'il les revêtit de sa vertu toute-puissante, en leur ordonnant, comme à ses ministres, de guérir toutes sortes de malades, en même-temps qu'ils s'acquitteroient de la prédication de l'Evangile. Il est dit que le Fils de Dieu donna à Jacques fils de Zébedée, & à Jean frère de Jacques, le nom de Boanergés, c'est-à-dire, enfans du tonnerre. Sur quoi quelques Interprètes croient qu'il faisoit allusion à ce passage du Prophète : Dans un peu de temps, dit le Seigneur des armées, j'ébranlerai le ciel & la terre, la mer & les déserts : ce que saint Paul écrivant aux Hébreux, a entendu du grand changement qui est arrivé dans le monde par la prédication de l'Evangile. Il semble donc que J. C. a voulu marquer par ce nom d'enfans du tonnerre, qu'il donna à Jacques & à Jean, que ces deux frères lui serviroient particulièrement pour produire dans le monde ce changement si miraculeux, par lequel les cœurs seroient ébranlés, & les consciences heureusement renversées, pour secouer le joug tyrannique du démon, & s'assujettir à l'heureuse servitude du seul Maître légitime de tous les hommes. Il a paru en effet dans ces deux Apôtres, aussi-bien que dans saint Pierre, une éminence au-dessus des autres ; puisqu'ils ont été distingués de tous par J. C. même, étant choisis pour l'accompagner en différentes occasions où il vouloit qu'ils fussent les seuls témoins des plus grands secrets de sa conduite, comme de sa transfiguration sur la montagne, & de sa tristesse dans le jardin des oliviers. Aussi saint Jacques fut le premier de tous les Apôtres qui scella par son martyre la vérité de l'Evangile, qu'il fit entendre avec force aux oreilles de tous les Juifs. Et quant à saint Jean, outre qu'il survécut tous les Apôtres, & qu'il rendit très-long-temps un témoignage éclatant à la vérité, son Apocalypse & son Evangile ont été & sont encore comme une voix de tonnerre, qui se fait entendre, dit saint Epiphane, ainsi que du haut des nuées, par la sublimité & par la force dont est revêtue la vérité qu'il ne cesse point d'annoncer tous les jours à toute la terre : Joannes revera tonitrui filius per propriam suam grandi loquentiam, velut ex quibusdam nubibus à sapientiæ ænigmatibus ; divinam nobis de Filio intelligentiam juxta similem modum persuasit. Qui n'est frappé en effet de l'éclat de ces paroles du commencement de son Evangile, qui semblent tonner du plus haut des cieux où il s'étoit élevé : Au commencement étoit le Verbe, & le Verbe étoit avec Dieu, & le Verbe étoit Dieu ? Qui ne seroit effrayé, lorsqu'il parle dans son Apocalypse de ces éclairs, de ces tonnerres, & de ces voix qui sortoient du trône de Dieu ? Mais qui pourroit ne l'être pas encore davantage, lorsqu'il fait entendre toutes ces trompettes dont sonnent les Anges, & qu'il représente en même-temps toutes ces plaies si terribles qu'ils produisent ? Il n'y eut qu'à ces trois Apôtres, saint Pierre, saint Jacques & saint Jean, que le Fils de Dieu donna des noms, comme pour marquer leur excellence au-dessus des autres, qui les fit effectivement regarder par saint Paul même comme ayant quelque chose de plus éminent, lorsqu'il témoignoit en parlant de Jacques, de Cephas, & de Jean, à qui il communiqua en particulier l'Evangile qu'il prêchoit parmi les Gentils, Qu'ils paroissoient comme les colonnes de l'Eglise. Le Fils de Dieu donna donc, comme on l'a marqué ailleurs, le nom de Pierre à Cephas, pour faire connoître qu'il destinoit cet Apôtre à être le fondement inébranlable sur lequel il bâtiroit son Eglise. Et il appela Jacques & Jean enfans du tonnerre ; parce qu'il les destinoit à tenir le premier rang entre ceux dont il est dit, Que leur voix a retenti par toute la terre, & que leurs paroles se sont fait entendre jusqu'aux extrémités du monde : ce que S. Paul explique lui-même des Apôtres, qui ont annoncé aux peuples l'Evangile de J. C."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 14,
+    "lat": "Et fecit ut essent duodecim cum illo : & ut mitteret eos prædicare ;",
+    "fr": "Il en établit douze pour être avec lui, & pour les envoyer prêcher ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 15,
+    "lat": "& dedit illis potestatem curandi infirmitates, & ejiciendi dæmonia.",
+    "fr": "à qui * il donna la puissance de guérir les maladies, & de chasser les démons :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 16,
+    "lat": "Et imposuit Simoni nomen Petrus :",
+    "fr": "savoir, Simon, à qui il donna le nom de Pierre :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 17,
+    "lat": "& Jacobum Zebedæi, & Joannem fratrem Jacobi, & imposuit eis nomina Boanerges, quod est, filii tonitrui :",
+    "fr": "puis Jacques fils de Zébédée, & Jean frère de Jacques, qu'il nomma Boanergès ; c'est-à-dire, enfans du tonnerre :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 18,
+    "lat": "Et Andream, & Philippum, & Bartholomæum, & Matthæum, & Thomam, & Jacobum Alphæi, & Thadæum, & Simonem Cananæum,",
+    "fr": "André, Philippe, Barthelemi, Matthieu, Thomas, Jacques fils d'Alphée, Thadée, Simon * Cananéen,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 19,
+    "lat": "& Judam Iscariotem, qui & tradidit illum.",
+    "fr": "& Judas Iscariote, qui fut celui qui le trahit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 20,
+    "lat": "Et veniunt ad domum, & convenit iterùm turba, ita ut non possent neque panem manducare.",
+    "fr": "Et étant venus en la maison, le peuple s'y assembla encore en si grande foule, que ni lui, ni ses disciples ne pouvoient pas même prendre leur repas.",
+    "note": "Et étant venus en la maison, le peuple s'y assembla encore en si grande foule, que ni lui, ni ses disciples ne pouvoient pas même prendre leur repas. Ce que ses proches ayant appris, ils vinrent pour se saisir de lui, &c. Il y a tout lieu de croire que cette maison où le Fils de Dieu vint de nouveau avec ses disciples, étoit encore celle de saint Pierre, où il logeoit ordinairement dans Capharnaüm : car on ne voit pas qu'il eut encore tout-à-fait quitté cette ville. On ne peut assez admirer le concours extraordinaire de ces peuples, qui s'empressoient avec tant d'ardeur pour venir voir & entendre J. C. & le peu de fruit qu'ils retirèrent de la présence d'un hôte qui auroit dû les combler de bénédictions & de grâces. Ce doit être là sans doute le sujet de notre plus grand étonnement. Et nous sommes obligés d'adorer ici avec saint Paul, la profondeur de la sagesse & de la science de Dieu, l'impénétrabilité de ses jugemens, & l'incompréhensibilité de ses voies. Cependant comme la grande foule du peuple qui s'assembla en la maison où étoit JESUS, l'accabloit de telle sorte, qu'il n'avoit pas le loisir de prendre même de la nourriture, ses proches, selon la chair, qui étoient peu affermis dans la foi de sa divinité, commencèrent à le regarder comme un homme qui en faisoit trop, qui s'oublioit en quelque sorte lui-même, & passant les bornes de la prudence, donnoit lieu de croire qu'il avoit besoin d'être retenu. Car ils n'avoient que des yeux de chair & de sang à son égard : ainsi le voyant continuellement prêcher des maximes élevées au-dessus de leurs lumières, ils attribuoient à folie & à un défaut de raison, ce qui étoit un effet surnaturel ; & ils traitoient de fureur les excès divins de sa profonde sagesse, qu'ils ne pouvoient pénétrer. Il est presque incompréhensible comment des personnes qui avoient été témoins de tant de miracles qu'il fit à leurs yeux, purent se laisser aller à des sentimens si indignes de cet Homme-Dieu. Mais peut-être que la crainte même de la fureur que les Pharisiens avoient conçue contre lui, les porta, comme l'ont cru quelques-uns, à dire qu'il avoit perdu l'esprit, afin d'avoir lieu de le retirer d'entre leurs mains, & d'empêcher qu'il ne fut plus exposé à leur animosité. Quoiqu'il en soit, c'étoient des hommes qui jugeoient selon la foible lumière de leur raison, de la conduite toute divine de J. C. & qui ne pouvant s'élever jusqu'à cet Homme-Dieu, le rabaissoient lui-même jusqu'à l'état le plus méprisable où puisse être réduit l'homme, qui est celui de la fureur, ou de la perte de la raison. C'est une assez grande difficulté de savoir qui étoient ces proches de J. C. Mais il semble que le sentiment le plus probable est celui de quelques habiles Interprètes, qui croient que ce sont les mêmes dont il est parlé à la fin de ce chapitre, qui le vinrent demander en se tenant à la porte de la maison, où il étoit tout environné du peuple. Car quoique la sainte Vierge y fut aussi, & qu'on ne puisse lui attribuer en aucune sorte ce qu'on vient de dire touchant la pensée qu'ils avoient de J. C. puisqu'elle étoit très-persuadée de la sagesse toute divine de son Fils ; il suffisoit que quelqu'un des proches du Sauveur eût cette pensée, pour donner lieu à l'Evangéliste de la leur attribuer en général, comme on en voit des exemples dans l'Evangile. Si donc la mère du Fils de Dieu étoit du nombre de ces proches, qui vinrent le trouver en la maison de saint Pierre où il étoit, on ne peut lui attribuer d'autre dessein que celui de voir son Fils, & de jouir du bonheur de l'entendre, quelque pensée que les autres ayent pu avoir de sa conduite. Peut-être aussi qu'on peut dire, que l'amour très-pur qu'elle lui portoit lui donnant quelque inquiétude sur son sujet, à cause de la grande jalousie dont elle savoit que ses ennemis étoient transportés, lui fit désirer de lui en donner avis. Mais enfin de quelque manière qu'on explique cet endroit, il seroit impie d'attribuer sur cela à la sainte Vierge aucune pensée indigne de ce respect très-profond qu'elle a toujours eu pour la personne du Sauveur, qu'elle regardoit tellement pour son Fils, qu'elle n'oublioit jamais en même-temps qu'il étoit son Dieu & son Créateur, & que toute sa conduite étoit adorable."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 21,
+    "lat": "Et cùm audissent sui, exierunt tenere eum, dicebant enim : Quoniam in furorem versus est.",
+    "fr": "Ce que ses proches ayant appris, ils vinrent pour * se saisir de lui ; car ils disoient qu'il avoit perdu l'esprit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 22,
+    "lat": "Et Scribæ qui ab Jerosolymis descenderant, dicebant : Quoniam Beelzebub habet, & quia in principe dæmoniorum ejecit dæmonia.",
+    "fr": "Et les Scribes qui étoient venus de Jérusalem, disoient : Il est possédé de Béelzebub, & il chasse les démons par le prince des démons.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 23,
+    "lat": "Et convocatis eis, in parabolis dicebat illis : Quomodo potest satanas satanam ejicere ?",
+    "fr": "Mais lui les ayant appelés à soi, leur disoit en paraboles : Comment satan peut-il chasser satan ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 24,
+    "lat": "Et si regnum in se dividatur, non potest regnum illud stare,",
+    "fr": "Si un royaume est divisé contre lui-même, il est impossible que ce royaume subsiste.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 25,
+    "lat": "Et si domus super semetipsam dispertiatur, non potest domus illa stare.",
+    "fr": "Et si une maison est divisée contre elle-même, il est impossible que cette maison subsiste.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 26,
+    "lat": "Et si satanas consurrexerit in semetipsum, dispertitus est, & non poterit stare, sed finem habet.",
+    "fr": "Si donc satan se soulève contre lui-même, le voilà divisé, il est impossible qu'il subsiste ; mais il faut que sa puissance prenne fin.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 27,
+    "lat": "Nemo potest vasa fortis, ingressus in domum diripere, nisi priùs fortem alliget, & tunc domum ejus diripiet.",
+    "fr": "Nul ne peut entrer dans la maison du fort armé, & piller ses armes, si auparavant il ne le lie, pour pouvoir ensuite piller sa maison.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 28,
+    "lat": "Amen dico vobis, quoniam omnia dimittentur filiis hominum peccata, & blasphemiæ quibus blasphemaverint.",
+    "fr": "Je vous dis en vérité, que tous les péchés que les enfans des hommes auront commis, & tous les blasphèmes qu'ils auront proférés leur * seront remis.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 29,
+    "lat": "Qui autem blasphemaverit in spiritum sanctum, non habebit remissionem in æternum, sed reus erit æterni delicti.",
+    "fr": "Mais si quelqu'un blasphème contre le Saint-Esprit, il n'en recevra jamais le pardon, & il * sera coupable d'un péché qui ne lui sera jamais pardonné.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 30,
+    "lat": "Quoniam dicebant : Spiritum immundum habet.",
+    "fr": "Il leur dit ceci sur ce qu'ils l'accusoient d'être possédé de l'esprit impur.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 31,
+    "lat": "Et veniunt mater ejus & fratres, & foris stantes, miserunt ad eum, vocantes eum.",
+    "fr": "Cependant sa mère & ses frères * étant venus, & se tenant dehors, l'envoyèrent appeler.",
+    "note": "Cependant sa mère & ses frères étant venus, & se tenant au-dehors l'envoyèrent appeler, &c. Saint Luc marque la raison pour laquelle ni la sainte Vierge, ni les frères de J. C. c'est-à-dire, ses proches, n'entrèrent point dans la maison, & demeurèrent dehors. Car il témoigne qu'étant venus le trouver & n'ayant pu l'aborder à cause de la grande foule du peuple qui l'environnoit, ils lui firent dire qu'ils étoient dehors, & qu'ils désiroient de le voir. On a éclairci toutes ces choses en expliquant saint Matthieu. Il suffira seulement d'ajouter ici, que l'exemple du Fils de Dieu, toujours appliqué à faire du bien au peuple & à l'instruire, & oubliant en quelque façon ses proches, apprend à ceux qui tiennent sa place ici-bas parmi les hommes, à ne s'occuper aussi que des fonctions de leur ministère, & à s'éloigner autant qu'ils peuvent de la vue de ceux qui leur appartiennent selon la chair, pour ne rien mêler d'humain & de charnel dans ce ministère tout spirituel & divin. Jamais mère n'a été plus sainte que celle du Fils de Dieu : & jamais fils n'a aimé sa mère plus saintement que J. C. a aimé la sienne. Cependant depuis qu'il a commencé à s'acquitter parmi les hommes de la mission importante pour laquelle il avoit daigné se revêtir de leur nature, on ne trouve presque jamais cette sainte mère avec son Fils. Et il semble même la traiter toujours avec quelque indifférence quand l'occasion s'en présente. Il n'avoit aucun besoin d'en user ainsi pour lui-même. Et l'on peut dire que ce n'étoit pas non plus pour sa mère, qui étoit remplie de grâce dès devant qu'elle l'eut conçu dans son chaste sein, & qui devint encore plus sainte en devenant la mère d'un Dieu. Mais il formoit dans sa conduite à l'égard de la sainte Vierge, le modèle de la conduite des plus saints Pasteurs à l'égard de ceux & de celles qui tiennent le premier rang parmi leurs proches. Un digne ministre de J. C. ne connoît plus ceux qui lui appartiennent selon la chair, lorsqu'il s'agit des fonctions spirituelles de son ministère. Et il doit être très-véritable de dire de lui, que ceux qui font la volonté de Dieu lui tiennent lieu de frère, de sœur, & de mère ; parce qu'il doit envisager cette divine volonté comme l'objet principal de son amour."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 32,
+    "lat": "Et sedebat circa eum turba, & dicunt ei : Ecce mater tua & fratres tui foris quærunt te.",
+    "fr": "Or le peuple étoit assis autour de lui, & on lui dit : Votre mère & vos frères sont là dehors qui vous demandent.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 33,
+    "lat": "Et respondens eis, ait : Quæ est mater mea, & fratres mei ?",
+    "fr": "Mais il leur répondit : Qui est ma mère, & qui sont mes frères ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 34,
+    "lat": "Et circumspiciens eos, qui in circuitu ejus sedebant, ait : Ecce mater mea, & fratres mei :",
+    "fr": "Et regardant ceux qui étoient assis autour de lui ; Voici, dit-il, ma mère, & mes frères ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 3,
+    "n": 35,
+    "lat": "qui enim fecerit voluntatem Dei, hic frater meus, & soror mea, & mater est.",
+    "fr": "car quiconque fait la volonté de Dieu, celui-là est mon frère, ma sœur, & ma mère.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 1,
+    "lat": "Et iterùm cœpit docere ad mare : & congregata est ad eum turba multa, ita ut navim ascendens sederet in mari, & omnis turba circa mare super terram erat :",
+    "fr": "Il se mit de nouveau à enseigner auprès de la mer ; & une si grande multitude de personnes s'assembla autour de lui, qu'il monta sur mer dans une barque, & s'y assit, tout le peuple se tenant sur le rivage de la mer :",
+    "note": "Il se mit de nouveau à enseigner auprès de la mer ; & une si grande multitude de personnes s'assembla autour de lui, qu'il monta sur mer dans une barque, & s'y assit, tout le peuple se tenant sur le rivage de la mer : & il leur enseignoit beaucoup de choses en paraboles, & leur disoit en sa manière d'instruire, &c. Nous voyons dans saint Matthieu, que ces nouvelles instructions que le Fils de Dieu donna au peuple près de la mer, suivirent immédiatement celles qu'il venoit de lui donner dans la maison de saint Pierre à Capharnaüm. Car il y est dit expressément, que ce fut ce même jour qu'il sortit de la maison pour aller auprès de la mer ; & qu'ensuite la grande foule l'obligea de monter dans une barque, afin d'être plus en état d'enseigner sans être accablé du peuple. Qui est donc celui qui ayant été appelé à catéchiser & à instruire les peuples, se lassera de donner des instructions à ceux de qui il a lieu d'espérer la conversion, lorsqu'il voit ici J. C. ne se donner pas le temps de manger, & prêcher sans cesse la parole de Dieu à un peuple qu'il savoit bien en devoir faire si peu de profit ? Les Pharisiens s'unissoient avec les Hérodiens pour chercher quelque moyen de le perdre. Ses proches mêmes s'élevoient en quelque façon contre lui, le regardant comme s'il avoit perdu l'esprit. Les Docteurs de la loi disoient qu'il étoit possédé de Béelzebub, & qu'il ne chassoit les démons que par la vertu du prince même des démons. Tout sembloit donc contribuer à lui imposer silence. Mais le principal ouvrage du Fils de Dieu étoit d'instruire les peuples & de prêcher l'Evangile. C'est pourquoi il fait céder toute autre considération à l'accomplissement de ce grand ouvrage, pour lequel il étoit venu. Or il ne faut point s'étonner si on s'élevoit avec tant de force & de jalousie contre lui. Ce n'étoit point une doctrine ordinaire ni une doctrine humaine qu'il leur enseignoit. Car il enseignoit, dit saint Marc, beaucoup de choses en paraboles, & il leur disoit, non selon la doctrine des Pharisiens, des Prêtres & des Docteurs de la loi, mais selon sa doctrine, opposée aux déréglemens & à la corruption de leur cœur, bien des choses qui devoient nécessairement choquer leur orgueil, & qui ne pouvoient être goûtées que par des ames soumises & des cœurs humbles. C'étoit-là véritablement une doctrine qui étoit propre au Fils de Dieu ; quoiqu'il dise ailleurs, Que sa doctrine n'est pas sa doctrine, mais la doctrine de celui qui l'a envoyé : parce qu'en effet J. C. selon l'homme, avoit puisé sa doctrine dans le Verbe ; & que le Verbe est la sagesse du Père, de qui il reçoit éternellement, comme de son principe, sa propre substance, étant engendré de lui de toute éternité."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 2,
+    "lat": "& docebat eos in parabolis multa, & dicebat illis in doctrina sua :",
+    "fr": "& il leur enseignoit beaucoup de choses en paraboles, & leur disoit en sa manière d'instruire :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 3,
+    "lat": "Audite : Ecce exiit seminans ad seminandum :",
+    "fr": "Ecoutez : Celui qui sème s'en alla semer ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 4,
+    "lat": "& dum seminat, aliud cecidit circa viam, & venerunt volucres cœli, & comederunt illud.",
+    "fr": "& lorsqu'il semoit, une partie de la semence tomba le long du chemin, & les oiseaux du ciel étant venus, la mangèrent.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 5,
+    "lat": "Aliud verò cecidit super petrosa, ubi non habuit terram multam, & statim exortum est, quoniam non habebat altitudinem terræ :",
+    "fr": "Une autre tomba dans des lieux pierreux, où elle n'avoit pas beaucoup de terre ; & elle leva aussitôt, parce que la terre où elle étoit avoit peu de profondeur :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 6,
+    "lat": "& quando exortus est sol, exæstuavit ; & eò quòd non habebat radicem, exaruit.",
+    "fr": "le soleil s'étant levé ensuite ; elle en fut brûlée ; & comme elle n'avoit point de racine, elle se sécha.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 7,
+    "lat": "Et aliud cecidit in spinas, & ascenderunt spinæ, & suffocaverunt illud, & fructum non dedit.",
+    "fr": "Il en tomba une autre partie dans des épines, & les épines étant crues l'étouffèrent, & elle ne porta point de fruit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 8,
+    "lat": "Et aliud cecidit in terram bonam : & dabat fructum ascendentem, & crescentem ; & afferebat unum triginta, unum sexaginta, & unum centum.",
+    "fr": "Une autre enfin tomba en une bonne terre ; & elle porta son fruit, qui poussa & crut jusqu'à la maturité ; quelques grains rapportant trente pour un, d'autres soixante, & d'autres cent.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 9,
+    "lat": "Et dicebat : Qui habet aures audiendi, audiat.",
+    "fr": "Et il leur disoit : Que celui-là l'entende, qui a des oreilles pour entendre.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 10,
+    "lat": "Et cùm esset singularis, interrogaverunt eum hi qui cum eo erant duodecim, parabolam ;",
+    "fr": "Lorsqu'il fut en particulier *, les douze qui le suivoient lui demandèrent le sens de cette parabole,",
+    "note": "Lorsqu'il fut en particulier, les douze qui l'accompagnoient lui demandèrent le sens de cette parabole, &c. Il n'est pas dit dans saint Matthieu, que les disciples de J. C. lui ayent demandé l'explication de la parabole qu'il venoit de leur proposer ; & il marque seulement, qu'ils lui demandèrent pourquoi il parloit ainsi aux peuples en paraboles. Mais saint Marc dit ici expressément, que les douze Apôtres qui étoient toujours avec lui, attendirent qu'il fut seul, c'est-à-dire, vers la nuit, lorsque tout le peuple se fut retiré, pour lui demander en particulier l'explication de la parabole de la semence. Que si ce fut quelque honte qui les empêcha de témoigner publiquement qu'ils n'entendoient pas le vrai sens des paroles de J. C. il étoit aussi dans l'ordre de sa justice, qu'on ne lui demandât pas l'explication de ces paroles devant un peuple comme celui de Capharnaüm, que son extrême ingratitude rendoit très-indigne de l'entendre. J. C. oblige donc ses disciples de reconnoître leur bonheur, de ce qu'ils étoient toujours avec lui, & la grâce qu'ils avoient reçue de pouvoir entrer dans l'intelligence des mystères tous divins de son royaume : au lieu que ceux qui étoient dehors, c'est-à-dire, selon le sens littéral, qui n'avoient point le bonheur d'être comme eux avec lui ; & selon le sens spirituel, qui devoient être regardés comme étrangers à l'égard de son royaume, n'entendoient les vérités qu'en énigmes, & en paraboles, où ils ne comprenoient rien. Et il leur fait remarquer que c'étoit une juste punition de l'orgueil de ce peuple ingrat, de voir ainsi sans voir, & d'entendre sans comprendre. Mais que veut dire ce que J. C. ajoute : De peur qu'ils ne se convertissent, & que leurs péchés ne leur soient pardonnés ? C'est que la malice des Capharnaïtes, & l'abus qu'ils avoient fait de tant de grâces, méritoient qu'on leur refusât l'intelligence des vérités qui auroient pu contribuer à leur salut ; & que d'ailleurs, comme on l'a marqué dans les explications de saint Matthieu, le salut de l'homme doit être, selon saint Paul, regardé comme un effet de la miséricorde de Dieu, qui fait grâce à qui il veut, & qui endurcit qui il lui plaît : Cujus vult miseretur, & quem vult indurat."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 11,
+    "lat": "& dicebat eis : Vobis datum est nosse mysterium regni Dei : illis autem, qui foris sunt, in parabolis omnia fiunt ;",
+    "fr": "& il leur dit : Pour vous, il vous est donné de connoître le mystère du royaume de Dieu ; mais pour ceux qui sont dehors, tout se passe en paraboles ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 12,
+    "lat": "ut videntes videant, & non videant, & audientes audiant, & non intelligant : nequando convertantur, & dimittantur eis peccata.",
+    "fr": "* afin que voyant ils voient & ne voient pas, & qu'écoutant ils écoutent & n'entendent pas, & qu'ils ne viennent point à se convertir, & que leurs péchés ne leur soient point pardonnés.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 13,
+    "lat": "Et ait illis : Nescitis parabolam hanc ? Et quomodo omnes parabolas cognoscetis ?",
+    "fr": "Et quoi, leur dit-il encore, n'entendez-vous pas cette parabole ? Comment donc pourrez-vous les entendre toutes ?",
+    "note": "N'entendez-vous pas cette parabole ? Comment donc pourrez-vous entendre toutes les autres ? De la manière dont J. C. parle aux Apôtres touchant cette parabole, il semble qu'il leur témoigne qu'elle étoit plus intelligible que beaucoup d'autres. Cependant après qu'il a bien voulu la leur expliquer lui-même dans la suite, il ne laisse pas d'ajouter : Si quelqu'un a des oreilles pour entendre, qu'il l'entende. Disons donc que le Fils de Dieu reprochoit avec raison à ses disciples, de ce qu'ayant le bonheur d'être toujours avec lui, & de l'entendre parler à toute heure des grandes vérités de la loi nouvelle, ils avoient encore si peu d'application & d'intelligence pour toutes les choses de leur salut. Car ils auroient dû en effet retirer un plus grand profit de ses divins entretiens, & comme se familiariser de plus en plus avec le langage du royaume des enfans de Dieu, qui étoit continuellement dans sa bouche. Cette parabole même de la semence devoit leur paroître plus sensible, étant prise d'une chose plus commune, & exposée tous les jours à la vue de tous les hommes. Car il n'étoit pas fort difficile, en considérant ce chemin battu, ces pierres, & ces épines, & cette terre excellente, où la semence du blé étoit jetée, de se figurer que J. C. qui parloit toujours en énigmes, & d'une manière parabolique des choses spirituelles, entendoit par là tous les états différens des ames, où il répandoit la semence de sa divine parole. Mais ce n'est point assez d'être en la compagnie de J. C. ni de l'entendre souvent parler, ni même de recevoir de sa bouche l'explication des mystères du royaume de Dieu, comme les Apôtres reçurent de lui alors l'explication de la parabole dont il s'agit, Il faut encore que Dieu même donne à ses disciples, ces oreilles spirituelles, ces oreilles intérieures du cœur, dont ils ont besoin pour entendre comme il faut, ce qui frappe extérieurement celles de leurs corps. Il est vrai que les Apôtres étoient heureux, de ce qu'ils voyoient tous les jours l'image substantielle du Père, & de ce qu'ils entendoient la parole de son Verbe. Mais cette grâce si singulière n'auroit servi qu'à les rendre plus criminels, si leur cœur fut demeuré sourd à cette voix toute divine qui leur parloit, & si leurs yeux s'étoient arrêtés charnellement à ce qu'ils voyoient dans le Fils de Dieu. L'exemple seul de Judas en fut une preuve très-funeste. Ainsi lorsque J. C. après avoir expliqué cette excellente parabole, leur dit, Que si quelqu'un avoit des oreilles pour entendre, il l'entendit ; il leur fit assez connoître, que tous ceux qui l'écoutoient n'avoient pas ces oreilles dont il leur parloit : mais en même-temps il les excitoit à demander ce qu'ils n'avoient pas encore, & ce qu'ils eurent depuis si parfaitement, lorsqu'il leur ouvrit l'esprit & le cœur, comme dit saint Luc, pour leur faire entendre les Ecritures d'une manière aussi utile pour leur salut propre, que pour le salut des autres."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 14,
+    "lat": "Qui seminat, verbum seminat.",
+    "fr": "Celui qui sème, sème la parole.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 15,
+    "lat": "Hi autem sunt, qui circa viam, ubi seminatur verbum, & cùm audierint, confestim venit satanas, & aufert verbum, quod seminatum est in cordibus eorum.",
+    "fr": "* Ceux qui sont le long du chemin où la parole est semée, sont ceux qui ne l'ont pas plutôt ouïe, que satan vient, & enlève cette parole qui avoit été semée dans leurs cœurs.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 16,
+    "lat": "Et hi sunt similiter, qui super petrosa seminantur : qui cùm audierint verbum, statim cum gaudio accipiunt illud ;",
+    "fr": "* De même ceux qui sont marqués par ce qui est semé en des lieux pierreux, sont ceux qui écoutant la parole la reçoivent aussitôt avec joie ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 17,
+    "lat": "& non habent radicem in se, sed temporales sunt : deinde ortâ tribulatione & persecutione propter verbum, confestim scandalizantur.",
+    "fr": "mais n'ayant point en eux-mêmes de racine, ils ne sont que pour un temps ; & lorsqu'il survient des traverses & des persécutions à cause de la parole, ils en prennent aussitôt un sujet de scandale.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 18,
+    "lat": "Et alii sunt qui in spinis seminantur : hi sunt qui verbum audiunt ;",
+    "fr": "Les autres qui sont marqués par ce qui est semé parmi les épines, sont ceux qui écoutent la parole ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 19,
+    "lat": "& ærumnæ sæculi, & deceptio divitiarum, & circa reliqua concupiscentiæ introeuntes suffocant verbum, & sine fructu efficitur.",
+    "fr": "Mais les sollicitudes de ce siècle, & l'illusion des richesses, & les autres passions s'emparant de leurs esprits, y étouffent la parole, & font qu'elle demeure sans fruit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 20,
+    "lat": "Et hi sunt, qui super terram bonam seminati sunt, qui audiunt verbum, & suscipiunt & fructificant, unum triginta, unum sexaginta, & unum centum.",
+    "fr": "Enfin ceux qui sont marqués par ce qui est semé dans la bonne terre, sont ceux qui écoutent la parole, qui la reçoivent, & qui portent du fruit, l'un trente pour un, l'autre soixante, & l'autre cent.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 21,
+    "lat": "Et dicebat illis : Numquid venit lucerna ut sub modio ponatur, aut sub lecto ? Nonne ut super candelabrum ponatur ?",
+    "fr": "Il leur disoit aussi : Fait-on apporter la lampe pour la mettre sous le boisseau, ou sous le lit ? N'est-ce pas pour la mettre sur le chandelier ?",
+    "note": "Il leur disoit aussi : Fait-on apporter la lampe pour la mettre sous le boisseau, ou sous le lit ? N'est-ce pas pour la mettre sur le chandelier ? Car il n'y a rien de caché qui ne doive être découvert, &c. Ce que J. C. dit ici étant pris de certains proverbes usités parmi les Juifs, il le répète en divers endroits de l'Evangile, selon les sujets qui se présentent. Quoiqu'il paroisse d'abord que cela soit détaché de ce qui précède ; c'est-à-dire, de la parabole de la semence, expliquée de la parole de Dieu : c'est néanmoins le sentiment des plus savans Interprètes, qu'il y a rapport, & qu'il doit en être entendu. Voici donc ce qu'il semble que le Fils de Dieu vouloit faire entendre par cette sorte de comparaison, d'une lampe qu'on met sur le chandelier. Il venoit de dire aux Apôtres, Qu'il leur avoit été donné de connoître le mystère du royaume de Dieu ; mais que pour ceux qui étoient dehors, ils n'entendoient rien qu'en paraboles & en énigmes. Il confirme maintenant ce qu'il avoit dit, en ajoutant à l'explication qu'il avoit donnée de la parabole de la semence, Qu'on ne fait point apporter la lampe pour la mettre sous le boisseau, ou sous le lit, mais sur le chandelier. Cette lampe nous marque la vérité de la parole de Dieu, selon que S. Pierre nous donne lieu de le croire, lorsqu'il compare les oracles des Prophètes à une lampe qui luit dans un lieu obscur. Or cette lampe de la vérité n'avoit pas été apportée par J. C. pour être comme cachée sous le boisseau, en sorte qu'elle ne fut point aperçue des Apôtres mêmes ; mais c'étoit au contraire afin qu'elle fut mise sur le chandelier, pour éclairer, comme dit saint Matthieu, tous ceux qui étoient dans la maison avec J. C. parce qu'il n'y avoit rien, ajoute-t-il, de caché, qui ne dut être découvert. Aussi, comme il dit ailleurs en parlant à ses disciples : Je vous ai appelé mes amis, parce que je vous ai fait savoir tout ce que j'ai appris de mon Père. Il ne leur cachoit donc rien de tous les secrets du ciel, parce qu'il les regardoit comme ses amis, & non comme des serviteurs, qui ne savent point ce que fait leur maître, selon qu'il le dit lui-même. Mais peut-être aussi qu'il leur marquoit par avance, qu'ils ne tiendroient pas eux-mêmes la lampe de la vérité sous le boisseau, & qu'ils la mettroient un jour sur le chandelier, pour éclairer tous ceux qui seroient dans la maison de l'Eglise ; puisqu'ils ne recevoient cette divine lumière, que pour la communiquer aux autres."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 22,
+    "lat": "Non est enim aliquid absconditum, quod non manifestetur, nec factum est occultum, sed ut in palam veniat.",
+    "fr": "Car il n'y a rien de caché qui ne doive être découvert, ni rien de secret qui ne doive paroître en public.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 23,
+    "lat": "Si quis habet aures audiendi, audiat.",
+    "fr": "Si quelqu'un a des oreilles pour entendre, qu'il l'entende.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 24,
+    "lat": "Et dicebat illis : Videte quid audiatis ; in qua mensura mensi fueritis, remetietur vobis, & adjicietur vobis.",
+    "fr": "Il leur dit encore : Prenez bien garde à ce que vous entendez : car on se servira envers vous de la même mesure dont vous vous serez servis envers les autres ; & il vous sera donné encore davantage.",
+    "note": "Il leur dit encore ; Prenez bien garde à ce que vous entendez ; car on se servira envers vous de la même mesure dont vous vous serez servis ; il vous sera encore donné davantage. Car on donnera à celui qui a déjà, &c. C'est ici encore une suite de ce que le Fils de Dieu vient de dire à ses Apôtres. Comme ils étoient beaucoup plus privilégiés que tous les autres, ils étoient aussi obligés à une plus grande perfection. Il vous a été donné, leur dit-il, de connoître les mystères du royaume de mon Père. Je vous expose les vérités de mon Evangile, comme une lumière toute divine qui est destinée à vous éclairer, lorsque tant d'autres demeurent dans les ténèbres ; & enfin je n'ai rien de caché pour vous. Prenez donc bien garde, mes Apôtres, à ce que vous entendez : & veillez, pour ne recevoir pas inutilement la semence que je répands dans vos ames. Car on usera envers vous de la mesure dont vous aurez vous-mêmes usé ; il vous sera donné encore davantage. C'étoit un proverbe du pays, dont J. C. vouloit bien se servir pour se faire mieux entendre à ses disciples. Et voici, selon d'habiles Interprètes, quelle en pouvoit être l'application particulière qu'il en faisoit au sujet dont il venoit de parler. Autant qu'ils apporteroient d'attention & de travail pour recevoir, comme ils devoient, & pour cultiver la divine semence de la parole, autant le Seigneur devoit être libéral & magnifique pour répandre en eux avec abondance de nouvelles grâces. « Car il n'en est pas, dit saint Cyprien, des dons célestes, comme des bienfaits des hommes : & il n'y a point de bornes ni de mesures pour celui qui les reçoit. Le SaintEsprit se répand abondamment dans les ames, sans être resserré par des limites, ni renfermé dans certains espaces. Il fait sans cesse couler ses eaux avec une profusion qui ne peut tarir. Il faut seulement que notre cœur en soit altéré, & qu'il s'ouvre pour les recevoir. Car autant que notre foi étendra sa capacité, autant nous y recevrons de cette source inépuisable de toutes sortes de grâces : Nostrum tantùm sitiat pectus, & pateat : quantùm illùc fidei capacis afferimus, tantùm gratiæ inundantis haurimus. » Ce que le Sauveur fait donc entendre aux Apôtres, est la même chose que saint Paul a dite depuis : Que l'homme recueillera selon qu'il aura semé. Et ailleurs : Que celui qui sème peu, moissonnera peu. Mais comme dans la semence qu'on jette en terre, on ne retire pas seulement ce qu'on a semé, mais trente, soixante, & cent pour un, selon que le Fils de Dieu le dit lui-même ; aussi en ce qui regarde cette sorte de semence spirituelle, que l'on a soin de recevoir & de faire croître dans la terre d'un bon cœur ; après l'avoir multipliée avec le secours & la grâce de celui qui donne l'accroissement, on doit s'attendre d'en recevoir une récompense surabondante, & telle que J. C. nous fait concevoir ailleurs, lorsqu'il dit, en usant de cette même expression figurée : On versera dans votre sein une mesure bonne, pressée, entassée, & qui se répandra par-dessus. Plus donc on s'applique à entendre les vérités du salut, plus on se rend digne d'en recevoir l'intelligence. Et plus on travaille à mettre en pratique ces vérités, après en avoir reçu l'intelligence, plus on se prépare pour l'avenir une moisson abondante. Car ceux-là méritent qu'on leur donne de plus en plus, qui ont soin de mettre en usage ce qu'ils ont déjà : au lieu que ceux qui ont ce qu'ils ont, comme s'ils ne l'avoient pas, parce qu'ils négligent de s'en servir, méritent que ce qu'ils ont leur soit ôté. C'est ce qu'on vit en effet arriver au commun des Capharnaïtes, qui ayant possédé au milieu d'eux la source de tous les biens en la personne de J. C. sans en avoir profité, & sans s'être mis en peine de recevoir l'intelligence des vérités qui regardoient leur salut, méritèrent à la fin, & d'être privés de la présence du Fils de Dieu, & de n'entendre plus, comme auparavant, sa divine parole ; & de tomber dans la dernière malédiction dont on a déjà parlé plusieurs fois."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 25,
+    "lat": "Qui enim habet, dabitur illi, & qui non habet, etiam quod habet auferetur ab eo.",
+    "fr": "Car on donnera à celui qui a déjà ; & pour celui qui n'a point ; on lui ôtera même ce qu'il a.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 26,
+    "lat": "Et dicebat : Sic est regnum Dei, quemadmodum si homo jaciat sementem in terram :",
+    "fr": "Il disoit aussi : Le royaume de Dieu est semblable à ce qui arrive lorsqu'un homme a jeté de la semence en terre :",
+    "note": "Il disoit aussi : Le royaume de Dieu est semblable à ce qui arrive lorsqu'un homme a jeté de la semence dans la terre ; & que soit qu'il dorme ou qu'il se lève durant la nuit & durant le jour, la semence germe & croit sans qu'il le sache, &c. Cette parabole paroît assez claire par elle-même. Car on comprend aisément, qu'après qu'un homme a semé sa terre, le grain qu'il a jeté germe & croit jusqu'à sa parfaite maturité, sans que cet homme le sache ; c'est-à-dire, sans qu'il s'aperçoive chaque jour de l'accroissement, ou sans qu'il y songe, ni qu'il s'occupe en aucune sorte de cette pensée, & soit qu'il dorme ou qu'il soit levé, & la nuit également comme le jour ; parce qu'il ne dépend plus de lui, que cette semence germe du moment qu'elle est jetée dans la terre : mais c'est la terre qui d'elle-même, & par la vertu que le Créateur lui a donnée, produit l'herbe, ensuite l'épi, & enfin le grain de froment qui remplit l'épi. Tel est l'ouvrage ordinaire de la nature, exposé continuellement à nos yeux. Le dessein que le Fils de Dieu semble avoir en proposant cette parabole, est de faire remarquer principalement deux choses très-importantes : l'une, que quand le ministre de sa parole a répandu cette divine semence dans les ames, il ne doit point se décourager pour ne voir pas d'une manière sensible leur accroissement, dont Dieu est souvent le seul témoin : & la seconde, qu'il ne doit pas s'attribuer non plus par une vaine présomption, le progrès que font les ames dans la piété, après qu'il y a semé le bon grain, ou comme parle saint Paul, après qu'il y a planté & arrosé ; parce que c'est au Seigneur à donner l'accroissement. Ce n'est pas qu'il soit permis au ministre qui a semé la parole de s'endormir par une négligence criminelle, & de ne songer en aucune sorte à entretenir cette divine semence dans les ames. Mais c'est qu'il ne peut proprement que semer par la prédication, & arroser par ses exhortations & ses prières. Car quant à l'accroissement, il ne dépend nullement de lui, comme saint Paul même l'assure en parlant de soi. Ce n'est pas non plus, que l'ame comparée ici à la bonne terre puisse produire toute seule & par elle-même le fruit d'une piété solide, dont le froment qui remplit l'épi est la figure ; puisque saint Paul nous déclare encore, Que nous ne sommes nullement capables de former de nous-mêmes aucune bonne pensée, comme de nous-mêmes ; & que c'est Dieu qui nous en rend capables. Ce qu'il entend donc par cette sorte d'expression est, que l'ame produit d'elle-même, c'est-à-dire, par un effet de sa volonté, & non de celle des Prédicateurs, le fruit qui doit naître de la semence qu'ils ont eu soin d'y répandre. Or cette même volonté vient de Dieu en elle, comme la vertu qui est dans la terre pour la production du blé & des autres fruits, lui vient de son Créateur. Car c'est Dieu, selon l'Apôtre, qui opère en nous, & le vouloir & le faire, par un effet de sa bonté. Et c'est aussi ce que nous trouvons parfaitement exprimé dans ces paroles de saint Grégoire le Grand : Ultrò terra fructificat, quia, præveniente se gratiâ, mens hominis spontanè ad profectum boni operis assurgit. Il faut donc, selon la remarque des Interprètes, prendre bien garde au point principal que le Fils de Dieu a en vue dans ces paraboles, & s'y arrêter, sans prétendre que chaque partie de la figure ait rapport exactement à toutes celles de la vérité qu'elle représente. Ce qu'il ajoute du temps de la maturité du fruit, & de la moisson, & de la faucille qu'on y met, nous figure le moment auquel le juste, ou est immolé à Dieu par le martyre, ou est enlevé de ce monde par une mort ordinaire. Et peut-être aussi qu'il entend principalement le temps de la fin du monde, qui sera comme celui de la moisson générale, où tout le bon grain sera serré dans les greniers du Père éternel."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 27,
+    "lat": "& dormiat, & exurgat nocte & die, & semen germinet, & increscat dum nescit ille ;",
+    "fr": "soit qu'il dorme, ou qu'il se lève durant la nuit & durant le jour, la semence germe, & croît sans qu'il sache comment * ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 28,
+    "lat": "ultrò enim terra fructificat, primùm herbam, deinde spicam, deinde plenum frumentum in spica.",
+    "fr": "car la terre produit d'elle-même, premièrement l'herbe, ensuite l'épi, puis le blé tout formé qui remplit l'épi.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 29,
+    "lat": "Et cùm produxerit fructus, statim mittit falcem, quoniam adest messis.",
+    "fr": "Et lorsque le fruit est dans sa maturité, on y met aussitôt la faucille, parce que le temps de la moisson est venu.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 30,
+    "lat": "Et dicebat : Cui assimilabimus regnum Dei, aut cui parabolæ comparabimus illud ?",
+    "fr": "Il dit encore : A quoi comparerons-nous le royaume de Dieu, & par quelle parabole le représenterons-nous ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 31,
+    "lat": "Sicut granum sinapis, quod cùm seminatum fuerit in terra, minus est omnibus seminibus quæ sunt in terra ;",
+    "fr": "Il est semblable à un grain de * sénevé, qui étant la plus petite de toutes les semences qui sont dans la terre, lorsqu'on l'y sème,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 32,
+    "lat": "& cùm seminatum fuerit, ascendit, & fit majus omnibus oleribus, & facit ramos magnos, ita ut possint sub umbra ejus aves cœli habitare.",
+    "fr": "monte, quand il est semé, jusqu'à devenir plus grand que tous les autres légumes, & pousse de si grandes branches, que les oiseaux du ciel peuvent se reposer sous son ombre.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 33,
+    "lat": "Et talibus multis parabolis loquebatur eis verbum, prout poterant audire :",
+    "fr": "Il leur parloit ainsi sous diverses paraboles, selon qu'ils étoient capables de l'entendre ;",
+    "note": "Il leur parloit ainsi sous diverses paraboles, selon qu'ils étoient capables de l'entendre. Et il ne leur parloit point sans paraboles : mais étant en particulier, il expliquoit tout à ses disciples. Il paroît par-là, que les paraboles qui ont suivi celle de la semence, ne furent pas proposées en particulier aux Apôtres, après que le Fils de Dieu leur eut expliqué cette parabole de celui qui sème, mais en présence du peuple, soit le même jour, soit quelqu'autre ; & que l'explication de cette même parabole ne leur fut donnée qu'après ; puisqu'il est marqué expressément, qu'ayant parlé de la sorte à ce peuple de Capharnaüm, à qui il parloit toujours alors sous des paraboles, pour les raisons qu'on a vues ailleurs, il expliquoit toutes choses à ses disciples, quand il se trouvoit en particulier avec eux ; c'est-à-dire, quand le peuple s'étoit retiré. Ce que saint Marc dit ici, Que le Fils de Dieu leur parloit sous beaucoup de paraboles semblables, fait assez connoître qu'il ne veut point s'attacher à rapporter toutes ces différentes paraboles, comme l'on voit en effet qu'il en a omis plusieurs qui sont rapportées par saint Matthieu ; quoique saint Matthieu peut bien en avoir aussi passé lui-même plusieurs autres ; puisque saint Jean dit des actions de J. C. ce qu'il est sans doute aussi véritable de dire de ses paroles, Que si on les rapportoit toutes en détail, il ne croyoit pas que le monde même pût contenir les livres qu'on en écriroit. Mais ce que le même saint Marc ajoute, Qu'il leur parloit selon qu'ils étoient capables de l'entendre, souffre une assez grande difficulté. Car nous avons vu auparavant, que le Fils de Dieu ne rend point d'autre raison pourquoi il parloit toujours en paraboles aux Capharnaïtes, sinon que c'étoit afin qu'en voyant ils ne vissent point, & qu'en écoutant ils n'entendissent point, de peur qu'ils ne fussent convertis, &c. Comment donc l'Evangéliste dit-il ici, Qu'il leur parloit en usant de diverses paraboles, selon qu'ils étoient capables de l'entendre ; puisque J. C. avoit dit expressément qu'il leur parloit en paraboles, afin qu'ils n'entendissent point ? Saint Clément d'Alexandrie, saint Ambroise, avec d'autres Interprètes anciens & nouveaux, nous donnent lieu d'expliquer l'un de ces passages par l'autre, pour réunir en un seul, des sens qui d'ailleurs pourroient paroître contraires. Lors donc qu'il est dit, Que le Fils de Dieu usoit de diverses paraboles, selon qu'ils étoient capables de l'entendre ; il veut dire, que l'orgueil & l'ingratitude des Capharnaïtes les rendant incapables d'entendre d'une manière salutaire les vérités qu'il leur annonçoit, il se servoit d'un langage proportionné à la disposition de leur cœur, qui étoit indigne d'être instruit de Dieu comme les Apôtres, & de recevoir l'intelligence des choses qu'on leur disoit. Et c'étoit là la plus terrible justice que Dieu pouvoit exercer sur eux, de leur parler de telle sorte qu'ils ne l'entendissent pas, en punition sans doute de ce qu'ils avoient refusé d'écouter pour leur salut ses premières instructions, & négligé de profiter de son exemple, & de la vue de tant de miracles, comme il le leur reproche dans la suite. Ces mêmes paroles que nous expliquons peuvent recevoir encore un autre sens, qui ne détruit point ce premier, mais qui s'y rapporte même fort bien. Ces peuples étoient fort grossiers ; & ils étoient tous accoutumés dans la Palestine à ce langage de paraboles, pris des choses les plus communes & les plus sensibles ; parce qu'il étoit très-propre à leur exposer comme sous les yeux & sous les sens ce qu'on leur disoit. Ainsi il est vrai de dire qu'il leur parloit en diverses paraboles, selon qu'ils étoient capables de l'entendre, parce que ce langage parabolique étoit le plus en usage parmi eux. Mais comme ils étoient indignes de comprendre les vérités renfermées sous les voiles de ces paraboles, on pouvoit dire véritablement, & qu'il leur parloit, selon qu'ils pouvoient l'entendre, parce que cette manière de parler leur étoit fort familière ; & qu'il leur parloit, afin qu'ils ne pussent l'entendre, parce qu'il ne leur étoit pas donné, comme aux Apôtres, de connoître le mystère du royaume de Dieu, caché & voilé sous ces figures, quoique sensibles."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 34,
+    "lat": "sine parabola autem non loquebatur eis : seorsum autem discipulis suis disserebat omnia.",
+    "fr": "& il ne leur parloit point sans paraboles : mais étant en particulier, il expliquoit tout à ses disciples.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 35,
+    "lat": "Et ait illis in illa die, cùm serò esset factum : Transeamus contrà.",
+    "fr": "* Ce même jour sur le soir, il leur dit : Passons de l'autre côté de l'eau.",
+    "note": "Ce jour-là il leur dit, lorsque le soir fut venu : Pas- sons de l'autre côté de l'eau. Et quittant le peuple, ils l'emmenèrent avec eux dans la barque où il étoit, &c. Un Interprète ne croit pas qu'on doive entendre par ce jour-là, le même jour où le Fils de Dieu avoit donné toutes les instructions précédentes ; mais que c'est une manière de parler assez ordinaire dans les livres saints, qui ne signifie autre chose qu'un certain jour. Il est visible, comme on l'a dit, que l'Evangéliste vient de rapporter tout de suite différentes choses, quoique dites en divers temps, au moins pour ce qui regarde l'explication des semences. Cependant comme JESUS étoit dans la barque lorsqu'il enseigna le peuple sous la parabole si célèbre de celui qui sème ; qu'il est dit présentement qu'il demanda qu'on le passât de l'autre côté de l'eau ; & qu'il paroît qu'on l'emmena aussitôt dans la barque où il étoit ; il semble que ce jour-là dont parle saint Marc, pouvoit bien être le même auquel J. C. enseignoit au peuple beaucoup de choses en paraboles sur la mer, & entre autres ce qui regarde la semence. Et c'est aussi ce qui fait juger que l'explication de cette parabole de la semence qu'il donna à ses Apôtres, lorsqu'il fut en particulier avec eux, a été rapportée en ce lieu par anticipation, & qu'il ne la leur donna qu'après qu'ils eurent quitté le peuple, & passé de l'autre côté de l'eau. Nous ne dirons rien ici de la tempête excitée sur le lac de Génézareth dans le temps qu'ils le passoient, en ayant déjà parlé dans les explications de saint Matthieu. Mais il suffira de marquer ici, que ce qui est dit ensuite de l'étonnement de ces hommes qui se dirent l'un à l'autre, en voyant cette tempête apaisée en un instant : Qui est donc celui-ci ? &c. ne se doit pas seulement entendre, comme l'ont cru quelques Interprètes, de ceux qui étoient dans les autres barques à la suite du Sauveur, mais même de ses disciples, selon que saint Luc le marque assez clairement. Car leur foi étoit encore très-imparfaite, selon que le Fils de Dieu leur en fait ici des reproches : Comment, n'avez-vous point encore de foi, leur dit-il ? Saint Pierre n'avoit pas encore confessé, comme il fit depuis, Qu'il étoit le CHRIST, Fils du Dieu vivant. Et on ne lui avoit point encore dit, Qu'il étoit heureux d'avoir connu cette grande vérité par la révélation du Père éternel. Ainsi la créance qu'ils avoient alors touchant sa divinité n'étoit pas sans doute bien affermie ; & la chair & le sang y avoient encore part. C'est ce qui causoit leur étonnement, puisqu'ils avoient peine à allier cette autorité suprême, qui calma en un instant la tempête, avec la foiblesse apparente de la nature de l'homme dont il s'étoit revêtu."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 36,
+    "lat": "Et dimittentes turbam, assumunt eum ita ut erat in navi : & aliæ naves erant cum illo.",
+    "fr": "* Et après qu'ils eurent renvoyé le peuple, ils l'emmenèrent avec eux dans la barque où il étoit, & il y avoit encore d'autres barques qui le suivirent.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 37,
+    "lat": "Et facta est procella magna venti, & fluctus mittebat in navim, ita ut impleretur navis.",
+    "fr": "Alors un grand tourbillon de vent s'éleva, * & les vagues entroient avec tant de violence dans la barque, qu'elle s'emplissoit déjà d'eau.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 38,
+    "lat": "Et erat ipse in puppi super cervical dormiens : & excitant eum, & dicunt illi : Magister, non ad te pertinet, quia perimus ?",
+    "fr": "JESUS cependant étoit sur la poupe, où il dormoit sur un oreiller ; & ils le reveillèrent, en lui disant : Maître, ne vous mettez-vous point en peine de ce que nous périssons ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 39,
+    "lat": "Et exurgens comminatus est vento, & dixit mari : Tace, obmutesce. Et cessavit ventus : & facta est tranquillitas magna.",
+    "fr": "S'étant éveillé, il parla au vent avec menaces, & dit à la mer : Tais-toi, calme-toi. Et le vent cessa, & il se fit un grand calme.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 4,
+    "n": 40,
+    "lat": "Et ait illis : Quid timidi estis ? Necdum habetis fidem ? Et timuerunt timore magno, & dicebant ad alterutrum : Quis, putas, est iste, quia & ventus & mare obediunt ei ?",
+    "fr": "Alors il leur dit : Pourquoi êtes-vous ainsi timides ? Comment n'avez-vous point encore de foi ? Ils furent saisis d'une extrême crainte, & ils se disoient l'un à l'autre : Quel est donc celui-ci, à qui les vents & la mer obéissent ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 1,
+    "lat": "Et venerunt trans fretum maris in regionem Gerasenorum.",
+    "fr": "Ayant passé la mer, ils vinrent au pays des * Gérasèniens.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 2,
+    "lat": "Et exeunti ei de navi, statim occurrit de monumentis homo in spiritu immundo,",
+    "fr": "Et JESUS ne fut pas plutôt descendu de la barque, qu'il se présenta à lui un homme possédé de l'esprit impur, sortant des sépulcres,",
+    "note": "Et JESUS ne fut pas plutôt descendu de la barque, qu'il se présenta à lui un homme possédé de l'esprit impur, sortant des sépulcres, &c. On a déjà remarqué sur saint Matthieu, qu'il y eut deux possédés qui se présentèrent à J. C. quoique saint Marc & saint Luc ne parlent que d'un seul ; peut-être à cause que celui-là étoit possédé d'une manière plus violente, ou qu'il étoit même plus connu dans le pays. Saint Matthieu dit seulement, que ces possédés étoient si furieux, que personne n'osoit passer par l'endroit où ils étoient. Mais saint Marc dit de celui dont il parle cette circonstance particulière, qu'on ne pouvoit plus le lier avec des chaînes, ayant souvent rompu celles qu'on lui avoit mises, & brisé les fers de ses pieds ; en sorte que nul homme n'avoit la force de le dompter. Il ajoute ce que saint Matthieu a encore omis, Que jour & nuit il étoit sur les montagnes, criant sans cesse, & se meurtrissant ou se déchirant à coups de pierres ; & que du moment qu'il eut vu JESUS de loin, il courut à lui, & l'adora. Cette grande force lui venoit de la fureur du démon qui le possédoit, & qui étant comme déchaîné lui-même à son égard, avoit reçu du Seigneur la liberté d'exercer sa rage contre cet homme, & d'en faire ressentir les effets funestes à tous ceux qui auroient osé passer par ce lieu. Ces cris qu'il poussoit le jour & la nuit, exprimoient assez ce qu'il lui faisoit souffrir, aussi-bien que ces blessures qu'il se faisoit à lui-même. Mais quand il accourt à J. C. d'aussi loin qu'il l'aperçoit, & quand il l'adore, c'est un effet de la toute-puissance de celui, qui étant couvert au dehors de notre nature foible & mortelle, le forçoit de se venir prosterner à ses pieds pour lui rendre ses hommages comme à son Dieu. Il est vrai que cette adoration venoit de la crainte, & non de l'amour ; puisque le démon, déchu comme il est, de la vérité dans laquelle il avoit été créé, n'est plus en état d'aimer son Créateur, ni de l'adorer comme les saints Anges, qui ne l'adorent qu'en l'aimant, comme le principe & l'objet suprême de leur bonheur. Mais cette adoration, quoique forcée, que le démon lui rendoit, devoit au moins faire connoître à ces peuples, qu'il étoit l'esclave de celui qu'il adoroit, & qu'il ne pouvoit se soustraire à sa puissance ; puisqu'en même-temps qu'il le connoissoit pour le Fils du Dieu très-haut, il le conjuroit de ne le pas tourmenter. Or JESUS ne le tourmentoit, selon que marque l'Evangéliste, qu'en lui commandant de sortir de l'homme qu'il possédoit. C'étoit donc la preuve la plus manifeste de sa souveraine autorité sur ces esprits, de voir ce démon si furieux, qui brisoit toutes les chaînes & tous les fers, & qui tourmentoit si cruellement tous les hommes, souffrir lui-même un tourment insupportable par une seule parole que J. C. lui disoit. Mais afin que l'on connut encore plus clairement l'extrême foiblesse de celui qui est appelé ailleurs le fort armé, ou pour mieux dire, la toute-puissance du Fils de Dieu à son égard, il oblige cet esprit, à qui il parloit alors, de déclarer quel étoit son nom ; à quoi le démon répondit qu'il se nommoit Légion, parce qu'ils étoient en grand nombre. Ainsi c'étoit à une troupe de démons que J. C. commandoit de sortir de ce possédé. Et toute cette multitude d'esprits, dont un seul peut faire de si terribles renversemens dans le monde, quand le Seigneur le permet, tremble maintenant à la voix du Fils de Dieu, parce qu'il dit seulement : Esprit impur, sors de cet homme. En leur reprochant leur impureté, il leur reprochoit l'orgueil par lequel ayant osé s'élever contre leur Dieu & leur Créateur, ils étoient déchus en même-temps de la pureté si parfaite de leur création. Et ce seul reproche de leur orgueil fut pour ces esprits si superbes un tourment insupportable ; parce qu'ils se virent obligés en sortant d'un homme, où ils avoient établi leur demeure, de reconnoître la souveraineté de Dieu sur eux. Aussi nous voyons, ce qu'on a déjà remarqué ailleurs, que dans une contestation que l'Archange saint Michel eut avec le diable touchant le corps de Moyse, il se contenta, pour réprimer son orgueil, de lui dire cette seule parole, rapportée dans saint Jude : Imperet tibi Dominus, Que le Seigneur soit ton maître."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 3,
+    "lat": "qui domicilium habebat in monumentis, & neque catenis jam quisquam poterat eum ligare :",
+    "fr": "où il faisoit sa demeure ordinaire ; & personne ne le pouvoit plus lier, même avec des chaînes ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 4,
+    "lat": "quoniam sæpè compedibus & catenis vinctus dirupisset catenas, & compedes comminuisset, & nemo poterat eum domare.",
+    "fr": "* car ayant souvent été lié de chaînes, & ayant eu les fers aux pieds, il avoit rompu ses chaînes, & brisé ses fers, & nul homme ne le pouvoit dompter.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 5,
+    "lat": "Et semper die ac nocte in monumentis & in montibus erat, clamans, & concidens se lapidibus.",
+    "fr": "* Il demeuroit jour & nuit sur les montagnes, & dans les sépulcres, criant & se meurtrissant lui-même avec des pierres.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 6,
+    "lat": "Videns autem Jesum à longe, cucurrit, & adoravit eum ;",
+    "fr": "Lors donc qu'il eut vu JESUS de loin, il courut à lui, & l'adora ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 7,
+    "lat": "& clamans voce magnâ, dixit : Quid mihi & tibi, Jesu Fili Dei altissimi ? Adjuro te per Deum, ne me torqueas ;",
+    "fr": "& jetant un grand cri, il lui dit : Qu'y a-t-il entre vous & moi, JESUS Fils du Dieu très-haut ? Je vous conjure par le nom de Dieu, de ne me point tourmenter ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 8,
+    "lat": "dicebat enim illi : Exi, spiritus immunde, ab homine.",
+    "fr": "car JESUS lui disoit ; Esprit impur, sors de cet homme.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 9,
+    "lat": "Et interrogabat eum : Quod tibi nomen est ? Et dicit ei : Legio mihi nomen est, quia multi sumus :",
+    "fr": "Et il lui demanda : Comment t'appelles-tu ? A quoi il répondit : Je m'appelle Légion, parce que nous sommes plusieurs :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 10,
+    "lat": "& deprecabatur eum multùm, ne se expelleret extra regionem.",
+    "fr": "& il le prioit avec instance qu'il ne les chassât point hors de ce pays-là.",
+    "note": "Et il le prioit avec instance, qu'il ne les chassât point de ce pays-là. On ne voit pas bien pourquoi ces esprits témoignoient un si grand attachement à demeurer en ce lieu, jusqu'à prier J. C. avec instance, de vouloir bien ne les point chasser du pays où ils étoient. Il est vrai que la haine si furieuse que le démon a conçue contre les hommes dès le moment de leur création, & l'empire que leur chute lui avoit acquis sur eux & sur toute leur postérité, lui faisoit envisager comme un grand supplice, de devenir comme enchaîné à leur égard, de perdre la liberté de leur faire tout le mal qu'il eût voulu, & d'être banni par la toute puissance de Dieu, des lieux où il exerçoit auparavant sa tyrannie. Mais des Interprètes ont cru qu'il pouvoit bien y avoir encore une raison particulière, qui attachoit si fortement ces esprits impurs au pays des Gérasèniens. Ils disent donc qu'il s'étoit établi en ce pays-là, qui étoit un pays d'infidélité, beaucoup de Juifs apostats, qui ayant été assez malheureux de renoncer à la divine alliance contractée avec leurs pères, s'étoient rendus dignes que Dieu les abandonnât plus que tous les autres hommes, à la cruelle tyrannie du diable. Aussi l'on voit dans saint Paul, que des Chrétiens, qui s'abandonnoient à de grands excès, ou qui avoient fait naufrage en perdant la foi, étoient livrés à satan par la puissance de l'Eglise, qui jugeoit ce châtiment nécessaire tant pour eux-mêmes, que pour les autres Chrétiens, à qui des exemples si redoutables de la justice de Dieu pouvoient devenir très-salutaires pour les tenir dans leur devoir. Et saint Cyprien témoigne dans ses écrits, que de son temps il arrivoit tous les jours que plusieurs Chrétiens ayant renoncé J. C. durant la persécution, & refusant de confesser leur péché, & d'en faire pénitence, étoient tout-d'un-coup possédés des esprits impurs, & privés de la protection toute-puissante de Dieu, parce qu'ils avoient quitté celui qui étoit leur maître légitime, pour se donner à son esclave."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 11,
+    "lat": "Erat autem ibi circa montem grex porcorum magnus pascens ;",
+    "fr": "Or il y avoit là un grand troupeau de pourceaux qui paissoient le long des montagnes ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 12,
+    "lat": "& deprecabantur eum spiritus, dicentes : Mitte nos in porcos, ut in eos introeamus.",
+    "fr": "& ces démons le supplioient, en lui disant : Envoyez-nous dans ces pourceaux, afin que nous y entrions.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 13,
+    "lat": "Et concessit eis statim Jesus ; & exeuntes spiritus immundi introierunt in porcos : & magno impetu grex præcipitatus est in mare ad duo millia, & suffocati sunt in mare.",
+    "fr": "JESUS le leur permit aussitôt ; & ces esprits impurs sortant du possédé, entrèrent dans les pourceaux ; & tout le troupeau, qui étoit environ de deux mille, courut avec impétuosité se précipiter dans la mer, où ils furent tous noyés.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 14,
+    "lat": "Qui autem pascebant eos fugerunt, & nuntiaverunt in civitatem, & in agros. Et egressi sunt videre quid esset factum.",
+    "fr": "Ceux qui menoient paître les pourceaux, s'enfuirent, & en allèrent porter les nouvelles dans la ville & dans les champs : ce qui fit que plusieurs sortirent pour voir ce qui étoit arrivé.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 15,
+    "lat": "Et veniunt ad Jesum : & vident illum qui à dæmonio vexabatur, sedentem, vestitum, & sanæ mentis, & timuerunt.",
+    "fr": "Et étant venus à JESUS, ils virent celui qui avoit été tourmenté par le démon, assis, habillé, & en son bon sens, ce qui les remplit de crainte.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 16,
+    "lat": "Et narraverunt illis, qui viderant, qualiter factum esset ei qui dæmonium habuerat, & de porcis,",
+    "fr": "Et ceux qui avoient * été présens leur ayant rapporté tout ce qui étoit arrivé au possédé & aux pourceaux,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 17,
+    "lat": "& rogare cœperunt eum ut discederet de finibus eorum.",
+    "fr": "Ils commencèrent à le prier de sortir de leur pays.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 18,
+    "lat": "Cùmque ascenderet navim, cœpit illum deprecari, qui à dæmonio vexatus fuerat, ut esset cum illo :",
+    "fr": "Comme il rentroit dans la barque, celui qui avoit été tourmenté par le démon, * le supplia qu'il lui permît * d'aller avec lui :",
+    "note": "Comme il rentroit dans la barque, celui qui avoit été tourmenté par le démon, le supplia de lui permettre de l'accompagner. Mais JESUS le lui refusa, & lui dit : Allez chez vous trouver vos proches, & leur annoncez les grandes grâces que vous avez reçues du Seigneur, &c. Cet homme craignoit peut-être de retomber en la puissance du démon, s'il s'éloignoit de J. C. Mais le Fils de Dieu voulut lui faire connoître, selon la remarque d'un Ancien, que sa présence corporelle ne lui étoit pas nécessaire pour le protéger contre la fureur de son ennemi, & qu'il pouvoit, étant même absent, mettre en sureté ceux qui se confioient en son assistance. C'est pour cela en partie qu'il l'envoie chez lui, & qu'il le charge de devenir en quelque façon prédicateur de l'Evangile parmi les Payens, à qui il lui ordonnoit de faire connoître qui étoit son bienfaicteur, en leur annonçant les grandes grâces qu'il avoit reçues du Seigneur, & les effets admirables de sa divine miséricorde. Ce que l'on vit arriver alors n'étoit qu'une image ou une figure du grand prodige que le Fils de Dieu opéra après sa mort dans la conversion de tout l'Univers. Cet homme représentoit donc tous les hommes qui ne pouvoient plus être domptés, étant sans joug, sans religion & sans foi. Ils demeuroient sur les montagnes, & dans les sépulcres, étant toujours élevés contre le ciel par l'enflure de leur orgueil, & toujours comme ensevelis dans la terre par la pourriture & la corruption de leur cœur. J. C. alla les trouver en la personne des Apôtres & des autres Prédicateurs de la foi. Et lorsqu'il pressa les esprits impurs de sortir de ces infidelles, ils firent tous leurs efforts pour ne pas abandonner ceux qu'ils regardoient comme leurs esclaves. Ils étoient vraiment une légion à cause de leur grand nombre ; & ils avoient su affermir d'une manière si redoutable leur empire dans les cœurs des hommes ; qu'ils les gouvernoient plus souverainement, que les Empereurs ne tenoient les peuples assujettis par la force de leurs légions Romaines. Ils se virent néanmoins forcés à la fin de céder à la puissance d'un plus fort qu'eux, qui les chassa d'un empire qu'ils ne possédoient que par usurpation. Et ce fut par la publication des grandes grâces & de la miséricorde surabondante du Seigneur à l'égard des uns, que les autres furent gagnés peu à peu à J. C. & convertis à la foi. Car il étoit de la reconnoissance des premiers fidelles envers leur libérateur, de travailler à répandre parmi ceux qui étoient encore dans les ténèbres, la lumière de l'Evangile qui les avoit éclairés eux-mêmes, & à leur communiquer quelque chose de ce feu de la charité qui les embrasoit : car cette lumière céleste, & ce feu divin ne peut pas demeurer stérile dans le cœur de ceux en qui il est allumé. Telle a été en un degré éminent la disposition des Apôtres. Ils souhaitèrent d'abord, étant encore imparfaits comme cet homme, de demeurer toujours avec J. C. attachés trop charnellement à sa présence corporelle. Mais lorsque par la vertu du commandement qu'il leur fit, d'aller dans le monde prêcher l'Evangile à toutes les créatures, & par une suite de l'infusion de son Saint-Esprit dans leurs ames, ils se sentirent revêtus de cette force d'en haut, que le Fils de Dieu l'avoit promise, avant que de les quitter pour s'en retourner au ciel ; ils commencèrent, selon qu'il est dit de cet homme, à publier les grandes grâces qu'ils avoient reçues de J. C. & ils ravirent tout le monde en admiration. C'est ainsi que son Eglise s'est formée par le ministère des Prédicateurs, figuré par la mission de cet homme envoyé par le Sauveur vers ses proches, & publiant dans le pays de Décapolis les effets si merveilleux de sa grâce."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 19,
+    "lat": "& non admisit eum, sed ait illi : Vade in domum tuam ad tuos, & annuntia illis quanta tibi Dominus fecerit, & misertus sit tui.",
+    "fr": "mais JESUS le lui refusa, & lui dit : Allez-vous-en chez vous trouver vos proches, & leur annoncez les grandes grâces que vous avez reçues du Seigneur, & la miséricorde qu'il vous a faite.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 20,
+    "lat": "Et abiit, & cœpit prædicare in Decapoli, quanta sibi fecisset Jesus : & omnes mirabantur.",
+    "fr": "Cet homme s'en étant allé, commença à publier en Décapolis les grandes grâces qu'il avoit reçues de JESUS ; & tout le monde étoit ravi en admiration.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 21,
+    "lat": "Et cùm transcendisset Jesus in navi rursum trans fretum, convenit turba multa ad eum, & erat circa mare.",
+    "fr": "JESUS étant encore repassé dans la barque à l'autre bord *, lorsqu'il étoit auprès de la mer, une grande foule de peuple s'amassa autour de lui.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 22,
+    "lat": "Et venit quidam de archisynagogis nomine Jaïrus, & videns eum, procidit ad pedes ejus ;",
+    "fr": "Et un chef de Synagogue, nommé Jaïre, le vint trouver, & le voyant, il se jeta à ses pieds ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 23,
+    "lat": "& deprecabatur eum multùm dicens : Quoniam filia mea in extremis est ; veni, impone manum super eam, ut salva sit, & vivat.",
+    "fr": "& il le supplioit avec grande instance, en lui disant : J'ai une fille qui est à l'extrémité ; venez lui imposer les mains pour la guérir, & lui sauver la vie *.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 24,
+    "lat": "Et abiit cum illo, & sequebatur eum turba multa, & comprimebant eum.",
+    "fr": "JESUS s'en alla avec lui ; & il étoit suivi d'une grande foule de peuple qui le pressoit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 25,
+    "lat": "Et mulier, quæ erat in profluvio sanguinis annis duodecim,",
+    "fr": "Alors une femme malade d'une perte de sang depuis douze ans,",
+    "note": "Une femme malade d'une perte de sang depuis douze ans, qui avoit beaucoup souffert entre les mains de plusieurs médecins : & qui ayant dépensé tout son bien, n'en avoit reçu aucun soulagement, &c. Il étoit très-important pour faire éclater davantage la toute-puissance de J. C. de représenter tout ce qui pouvoit contribuer à faire paroître incurable la maladie de cette femme, qu'il guérit en un instant. Premièrement, la qualité de la maladie. En second lieu, le long-temps qu'il y avoit qu'elle s'étoit comme enracinée dans le corps de cette femme. Troisièmement, l'inutilité de tous les remèdes de la médecine, employés sans aucun succès pour la guérir. En quatrième lieu, l'accroissement même du mal, causé par tous ces remèdes. Et enfin, l'épuisement où elle étoit après avoir consumé tout son bien, se trouvant encore plus mal qu'auparavant, & sans argent. Toutes ces choses jointes ensemble, rendoient sans doute sa guérison impossible du côté des hommes ; & présentoient à J. C. une occasion d'autant plus visible de signaler sa bonté toute-puissante. Mais nous pouvons dire, que toutes ces circonstances de la maladie de cette femme, qui rendirent sa guérison plus miraculeuse, nous font voir comme une image de ce qui arrive souvent dans les maladies spirituelles des ames, & dans les divines guérisons de la grâce. Car plus ces maux paroissent invétérés & incurables, plus ceux qui les souffrent se sont épuisés, & ont travaillé inutilement à s'en guérir ; & plus même les médecins ou les Pasteurs ignorans & incapables, ont contribué par leur mauvaise conduite à augmenter leurs maladies, au lieu de les soulager ; plus au contraire on a sujet d'espérer de la foi vive, & de la profonde humilité de ces ames, qui étant comme anéanties devant le Seigneur, & comme toutes épuisées & tombées dans la défaillance par la vue de leur extrême misère, retirent enfin leurs yeux de dessus les hommes, & se tournent tout-à-fait vers Dieu, d'où elles attendent tout leur secours. Rien en effet n'approche plus ces malades spirituels de leur guérison, que l'extrémité même où ils se trouvent, lorsqu'ils n'ont plus rien à espérer ni d'eux-mêmes ni de tous les autres. Car Dieu se plaît à réduire l'homme en un tel état, en l'abandonnant à sa foiblesse, qu'il ne trouve plus aucun appui, & que se sentant comme défaillir, il soit obligé de se jeter entre ses bras pour y recouvrer la vie."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 26,
+    "lat": "& fuerat multa perpessa à compluribus medicis : & erogaverat omnia sua, nec quid quam profecerat, sed magis deteriùs habebat :",
+    "fr": "qui avoit beaucoup souffert entre les mains de plusieurs médecins, & qui ayant dépensé tout son bien, n'en avoit reçu aucun soulagement, mais s'en étoit toujours trouvée plus mal,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 27,
+    "lat": "cùm audisset de Jesu, venit in turba retrò, & tetigit vestimentum ejus ;",
+    "fr": "ayant ouï parler de JESUS, vint dans la foule par derrière, & toucha son vêtement ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 28,
+    "lat": "dicebat enim : Quia si vel vestimentum ejus tetigero ; salva ero.",
+    "fr": "car elle disoit : Si je puis seulement toucher son vêtement, je serai guérie.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 29,
+    "lat": "Et confestim siccatus est fons sanguinis ejus : & sensis corpore quia sanata esset à plaga.",
+    "fr": "Au même instant la source du sang qu'elle perdoit fut séchée, & elle sentit dans son corps qu'elle étoit guérie de cette maladie.",
+    "note": "Au même instant la source du sang qu'elle perdoit fut séchée, & elle sentit dans son corps qu'elle étoit guérie. C'est-à-dire, que le simple attouchement de l'habit de J. C. eut la vertu d'arrêter la cause maligne de cette perte de sang continuelle, qui épuisoit toutes les forces de cette femme, & de resserrer dans le corps, ce qui étoit destiné pour le soutien de tous les membres. Car c'est en cette manière qu'on doit entendre que la source du sang de cette malade fut séchée. Elle le fut en ce qu'elle ne coula plus pour se répandre au-dehors, mais qu'elle fut renfermée au-dedans par la vertu de l'attouchement de celui qui rétablit dans son état naturel un corps qu'il avoit lui-même formé, & qui fit reprendre le cours ordinaire au sang dans les veines. L'Evangile ajoute, qu'elle sentit dans son corps qu'elle étoit guérie ; parce que comme elle perdoit auparavant tout son sang, ce qui lui causoit un extrême épuisement, elle se sentit, dans l'instant qu'elle toucha J. C. toute fortifiée, ayant recouvré dans ce moment même une parfaite santé. Tels doivent être aussi les effets de la guérison parfaite des ames. Il faut que cet épanchement continuel du cœur de l'homme vers les créatures, soit resserré, pour le dire ainsi, par la vertu toute divine de la grâce. Il faut qu'une foi vive & humble lui serve à s'approcher de J. C. & à le toucher salutairement ; afin que rentrant en soi, au lieu de se répandre au-dehors, il ne perde plus sa force, mais qu'il recouvre au contraire une nouvelle vigueur, en s'unissant étroitement à cette source de toutes les grâces. Il faut qu'à l'exemple de cette femme il sente, sinon dans son corps, au moins dans son ame, qu'il est guéri, c'est-à-dire, qu'il se puisse rendre à soi-même ce témoignage sincère, que son cœur est vraiment changé ; qu'il commence à n'aimer plus ce qu'il aimoit auparavant, & à aimer au contraire ce qu'il haïssoit. Car c'est en cela principalement que consiste la guérison de notre cœur, lequel est sain ou malade, selon qu'il se porte vers son principe, qui est Dieu ; ou s'écoule vers le néant de toutes les choses qui sont créées."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 30,
+    "lat": "Et statim Jesus, in semetipso cognoscens virtutem, quæ exierat de illo, conversus ad turbam, aiebat : Quis tetigit vestimenta mea ?",
+    "fr": "Aussitôt JESUS connoissant en soi-même la vertu qui étoit sortie de lui, se retourna au milieu de la foule, & dit : Qui est-ce qui a touché mes vêtemens ?",
+    "note": "Aussitôt JESUS connoissant en soi-même la vertu qui étoit sortie de lui, se retourna au milieu de la foule, & dit : Qui est-ce qui a touché mes vêtemens ? Ses disciples lui dirent : Vous voyez que le peuple en foule vous presse de tous côtés, &c. Il y a une grande force, & un sens très-expressif dans ces paroles : JESUS connoissant en soi-même la vertu qui étoit sortie de lui. Cette vertu qui sortoit de lui pour produire la guérison de cette femme, lui étoit donc propre, & non étrangère, comme à tous les Saints, qui ont fait divers miracles dans tous les siècles. Ainsi quand il guérissoit tous les malades, ou ressuscitoit les morts, il le faisoit par la puissance de sa nature divine, revêtue de l'infirmité de la nature de l'homme. Que s'il dit, Qu'il connut en soi-même que cette vertu étoit sortie de lui, c'est qu'il se sert d'une expression commune, & proportionnée à l'intelligence des peuples, pour leur faire entendre que cette vertu n'étoit pas sortie de lui sans sa connoissance ; & par conséquent que la guérison miraculeuse de cette femme avoit été un effet de sa volonté & de sa bonté à son égard. Ses disciples encore grossiers ne comprirent point ce qu'il vouloit dire, lorsqu'il demanda qui l'avoit touché. Il étoit vrai en effet, que le peuple en foule le pressoit de tous côtés, comme ils le lui dirent. Mais s'ils avoient eu plus d'intelligence, ils auroient jugé aisément que le Fils de Dieu, en parlant ainsi, entendoit toute autre chose. Or, comme dit saint Augustin, il témoignoit bien par ces paroles, que tous ceux qui le pressoient ne le touchoient pas : Quasi enim sic ambularet, ut à nullo prorsus corpore tangeretur, ita dixit : Quis me tetigit ? C'est par la foi que l'on touche J. C. Et ce fut aussi à l'ardeur de cette foi, que le Fils de Dieu rendit un si illustre témoignage, lorsqu'au milieu de cette foule de tant de peuples qui le pressoient, il dit qu'une seule femme avoit eu le bonheur de le toucher. L'Eglise, qui est le corps mystique de J. C. souffre encore maintenant, dit saint Augustin, la même chose que souffrit alors son corps mortel. La foule des peuples la pressent & l'accablent, mais la foi de peu de personnes la touche : Quod tunc corpus ejus in turba patiebatur, hoc patitur Ecclesia ipsius. Tangit eam fides paucorum, premit eam turba multorum. Cela nous prouve en un mot, qu'il y a un grand nombre de Chrétiens, mais très-peu de vrais fidelles. Les Eglises sont remplies de personnes qui font profession d'adorer J. C. mais elles sont vides de ces vrais adorateurs, dont il est dit de l'Evangile, Qu'ils l'adorent en esprit & en vérité. Et il n'y a cependant que ces vrais adorateurs, pleins de foi, & d'une foi vive, qui ont le bonheur de le toucher, & d'attirer ses regards sur eux. Et quoiqu'il soit dit ensuite, Qu'il regardoit tout autour de lui, pour voir celle qui l'avoit touché ; il est néanmoins très-vrai de dire, que cette femme ne l'avoit touché, que parce qu'il l'avoit déjà regardée le premier d'un regard favorable de sa grâce : Gratia præcessit, ut illa sanaretur. Lors donc qu'il cherchoit en apparence à voir celle qui l'avoit touché ; il agissoit en cela d'une manière ordinaire, pour donner lieu à cette femme de se découvrir elle-même, & de déclarer publiquement le miracle qui s'étoit fait en secret dans elle."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 31,
+    "lat": "Et dicebant ei discipuli sui : Vides turbam comprimentem te, & dicis : Quis me tetigit ?",
+    "fr": "Ses disciples lui dirent : Vous voyez que la foule vous presse de tous côtés, & vous demandez qui vous a touché ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 32,
+    "lat": "Et circumspiciebat videre eam, quæ hoc fecerat.",
+    "fr": "Et il regardoit tout autour de lui pour voir celle qui * l'avoit touché.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 33,
+    "lat": "Mulier verò, timens & tremens, sciens quod factum esset in se, venit, & procidit ante eum, & dixit ei omnem veritatem.",
+    "fr": "Mais cette femme qui savoit ce qui s'étoit passé en elle, étant saisie de crainte & de frayeur, vint se jeter à ses pieds, & lui déclara toute la vérité.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 34,
+    "lat": "Ille autem dixit ei : Filia, fides tua te salvam fecit, vade in pace, & esto sana à plaga tua.",
+    "fr": "JESUS lui dit : Ma fille, votre foi vous a * sauvée ; allez en paix, & soyez guérie de votre maladie.",
+    "note": "Et JESUS lui dit : Ma fille, votre foi vous a sauvée ; allez en paix, & soyez guérie. Cette femme étoit guérie dès auparavant. D'où vient donc que J. C. lui dit ici, Soyez guérie de votre maladie, comme si elle ne l'eut pas été ? C'est que J. C. en confirmant de nouveau sa guérison par ces paroles, faisoit connoître à tout le peuple qui l'environnoit, & particulièrement au chef de la Synagogue, qui le pressoit de venir guérir sa fille, que c'étoit lui-même qui avoit produit ce grand miracle au milieu de cette foule, sans qu'aucun le fut que lui & celle qui avoit été guérie. Il vouloit donc affermir par là ce chef de la Synagogue dans la foi qui l'avoit porté à venir implorer son assistance, & le convaincre par ses yeux de la divine vertu qui étoit en lui, & qui en sortoit, selon l'expression d'un Evangéliste, pour guérir tous les malades ; sans que néanmoins il se fit, dit saint Augustin, aucune diminution de cette source inépuisable qui étoit en lui : Gratia præcessit, ut illa sanaretur, non ut ille minueretur. Mais que cet exemple de la guérison miraculeuse de cette femme, confirmée tout de nouveau par le Fils de Dieu, nous est d'une grande utilité pour nous convaincre nous-mêmes, combien il est important que celui qui nous a guéris par l'attouchement divin de sa grâce, affermisse en nous de plus en plus cette guérison spirituelle qu'il y a produite ? Que de rechutes en effet ne voit-on pas tous les jours en ceux qui ont négligé de demander au Seigneur qu'il les confirmât dans la grâce qu'ils avoient reçue ! Et c'est aussi ce qui portoit l'Apôtre saint Paul à offrir à Dieu ses vœux & ses supplications, pour lui demander que les fidelles fussent affermis jusqu'à la fin dans la foi, dans toutes sortes de bonnes œuvres, & dans une vie irrépréhensible, pour le jour de l'avénement de J. C."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 35,
+    "lat": "Adhuc eo loquente, veniunt ab archisynagogo, dicentes : Quia filia tua mortua est : quid ultrà vexas Magistrum",
+    "fr": "Lorsqu'il parloit encore, il vint des gens du chef de la synagogue, qui lui dirent : Votre fille est morte, pourquoi voulez-vous donner au Maître la peine d'aller plus loin ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 36,
+    "lat": "Jesus autem audito verbo quod dicebatur, ait archisynagogo : Noli timere, tantummodò crede.",
+    "fr": "Mais JESUS ayant entendu cette parole, dit au chef de la synagogue : Ne craignez point ; croyez seulement.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 37,
+    "lat": "Et non admisit quemquam se sequi, nisi Petrum & Jacobum, & Joannem fratrem Jacobi.",
+    "fr": "Et il ne permit à personne de le suivre, sinon à Pierre, à Jacques, & à Jean frère de Jacques.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 38,
+    "lat": "Et veniunt in domum archisynagogi, & vidit tumultum, & flentes, & ejulantes multùm ;",
+    "fr": "Etant arrivé dans la maison de ce chef de la synagogue, il y vit une troupe confuse de personnes qui pleuroient, & qui jetoient de grands cris ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 39,
+    "lat": "& ingressus, ait illis : Qui turbamini, & plorans ? Puella non est mortua, sed dormit.",
+    "fr": "auxquels il dit en entrant : Pourquoi faites-vous tant de bruit, & pourquoi pleurez-vous ? Cette fille n'est pas morte, elle n'est qu'endormie.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 40,
+    "lat": "Et irridebant eum. Ipse verò ejectis omnibus, assumit patrem & matrem puellæ, & qui secum erant, & ingreditur ubi puella erat jacens.",
+    "fr": "Et ils se moquoient de lui. Alors ayant fait sortir tout le monde, il prit le père & la mère de l'enfant, & ceux qu'il avoit menés avec lui, & il entra au lieu où la fille étoit couchée.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 41,
+    "lat": "Et tenens manum puellæ, ait illi : Talitha cumi, quod est interpretatum, Puella ( tibi dico ) surge.",
+    "fr": "Il la prit par la main, & lui dit : Talitha cumi, c'est-à-dire : Ma fille, levez-vous, je vous le commande.",
+    "note": "Il la prit par la main, & lui dit : Talitha cumi, c'est-à-dire : Ma fille, levez-vous, je vous le commande. Au même instant la fille se leva, & commença à marcher, &c. Le Fils de Dieu fit sortir de la chambre où étoit le corps de l'enfant, tous ceux qu'il jugea indignes d'être témoins du miracle qu'il devoit faire. Il leur avoit déclaré, que cette fille n'étoit pas morte, mais seulement endormie ; parce qu'en effet la devant ressusciter, c'étoit comme la réveiller d'une espèce de sommeil, selon le langage ordinaire de l'Ecriture. Mais ils se moquoient de lui, dit l'Evangile, parce qu'ils ne comprenoient pas le vrai sens de ses paroles. Il n'admet donc dans la chambre que les trois Apôtres, Pierre, Jacques, & Jean son frère, avec le père & la mère de l'enfant ; étant nécessaire qu'il y eut autant de témoins pour attester la vérité du miracle de la résurrection de cette fille. Il est vrai qu'il leur commanda ensuite très-expressément de prendre garde que personne ne le fut ; parce qu'il ne jugeoit pas à propos de faire encore éclater si publiquement son empire souverain sur la mort, qui ne devoit être connu avec évidence de toute la terre qu'après sa résurrection. Mais il vouloit toutefois qu'il y eut assez de témoins oculaires de ces grands prodiges, pour en attester la vérité quand le temps en seroit venu. Ainsi évitant alors l'éclat, pour donner l'exemple de l'humilité dans le temps de ses humiliations, & pour ôter tout le prétexte à la jalousie de ses ennemis, il se préparoit en même-temps des preuves solides de la vérité de sa mission. Car le témoignage tant du père que de la mère de cet enfant mort, ne pouvoit être rejeté comme suspect ; puisqu'il n'étoit pas possible qu'ils ne fussent point s'il étoit vrai en effet que leur fille fut morte, & qu'ils virent dans la suite de leurs propres yeux le miracle de sa résurrection. Mais il étoit nécessaire aussi que les Apôtres, que Dieu destinoit à rendre un jour témoignage à la résurrection de J. C. fussent convaincus auparavant de sa toute-puissance sur la mort, par le miracle de la résurrection de cette fille, comme ils le furent encore de plusieurs autres. Il fait paroître ce pouvoir suprême par ces paroles qu'il lui dit, comme le Dieu & le maître de la vie & de la mort : Enfant, levez-vous, c'est moi qui vous le commande. Quand S. Pierre guérit miraculeusement cet homme boiteux dès le ventre de sa mère, qui demandoit l'aumône à la porte du temple de Jérusalem, il lui dit : Levez-vous au nom de J. C. de Nazareth, & marchez. De même lorsqu'il rétablit encore depuis un nommé Enée, qui étoit paralytique, il lui dit : Enée, le Seigneur J. C. vous guérit, levez-vous. Et enfin quand il fut pressé par les fidelles de Joppé, de ressusciter une femme nommée Tabithe, quoiqu'il lui dit de se lever, il est marqué qu'il se mit lui-même auparavant à genoux, & qu'il pria, parce que c'étoit comme Ministre de J. C. & en son nom, & par sa vertu qu'il agissoit : c'est pourquoi il se prosternoit en la présence de Dieu, pour lui demander un pouvoir qu'il n'avoit pas par lui-même. Mais quand J. C. ou guérissoit les malades, ou ressuscitoit les morts, il le faisoit par sa vertu propre, comme étant Dieu aussi-bien qu'homme. Ainsi il commande en Dieu à cette fille du chef de la Synagogue, lorsqu'il lui dit de se lever. C'est par un effet semblable de son empire sur la mort, qu'il commande encore tous les jours à ceux qui sont morts dans l'ame, de se lever, & de sortir des ombres de la mort & du péché. Il n'y a que lui qui ait le pouvoir de dire à ces morts spirituels : Levez-vous ; c'est moi qui vous le commande. Tous les Apôtres & tous les autres Ministres de l'Eglise ne peuvent être que de simples coopérateurs, pour contribuer, comme dit saint Jean, à l'avancement de la vérité, & pour travailler avec l'assistance du Seigneur, à entretenir la vie de la grâce dans les ames, après qu'elles l'ont reçue. Mais il n'appartient qu'au Fils de Dieu de leur donner cette vie, lui qui dit de ses brebis, Qu'il est venu afin qu'elles ayent la vie, & qu'elles l'ayent abondamment ; & que c'est lui qui leur donne la vie éternelle. Or il la leur donne, & par sa grâce, & par sa parole, & par sa chair adorable. Je vous dis en vérité, disoit-il autrefois aux Juifs, que l'heure vient, & qu'elle est déjà venue, que les morts entendront la voix du Fils de Dieu, & que ceux qui l'entendront vivront. Le pain de Dieu, dit-il encore, est celui qui est descendu du ciel, & qui donne la vie au monde. Je suis le pain de vie.... si quelqu'un mange de ce pain, il vivra éternellement. Il rend donc la vie aux ames qui sont mortes par le péché, en leur tendant la main, comme à la fille du chef de la Synagogue ; c'est-à-dire, en les prévenant par la vertu toute-puissante de sa grâce, & en commandant à la mort & au péché, avec cette autorité souveraine qui paroît ici, de se retirer. Car c'est cette voix du Fils de Dieu que les morts entendent pour vivre. Or la marque que ces morts spirituels sont vraiment ressuscités, c'est lorsqu'ils se lèvent, ainsi qu'il est dit de cette fille, lorsqu'ils marchent & qu'ils mangent. Ces trois circonstances sont nécessaires pour une résurrection véritable. Si vous êtes ressuscités avec J. C. dit saint Paul, recherchez ce qui est en haut, où J. C. est assis à la droite de Dieu. Ayez du goût pour les choses du ciel, & non pour celles de la terre. C'est donc se lever, de tirer son cœur d'ici-bas, & de l'élever au ciel en y suivant J. C. comme les membres sont obligés de se réunir au chef. On marche par la charité, selon que saint Paul nous y exhorte par ces paroles : Marchez dans l'amour & la charité, comme J. C. nous a aimés, & s'est lui-même livré pour nous. Car la charité, qui est proprement la vie de l'ame, la fait marcher, pour le dire ainsi, sans cesse, & s'avancer vers l'objet divin, qu'elle lui présente comme infiniment aimable. Et enfin il est nécessaire de manger le pain céleste, si l'on veut se soutenir dans la vie qu'on a reçue. Car vous n'aurez point la vie en vous, dit J. C. si vous ne mangez la chair du Fils de l'homme, qui est ce pain adorable, figuré anciennement par celui qu'un Ange, qui s'apparut au Prophète Elie, lui commanda de manger. Car comme ce saint Prophète, lassé du chemin qu'il avoit fait, & accablé de tristesse, se fut endormi, un Ange le réveilla, & lui ordonna de manger du pain qu'il lui présenta, en lui disant : Levez-vous, & mangez ; car il vous reste beaucoup de chemin. Et il est marqué qu'en ayant mangé, & étant fortifié par cette nourriture, il marcha quarante jours & quarante nuits, jusqu'à la montagne d'Horeb, qui nous figure le ciel."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 42,
+    "lat": "Et confestim surrexit puella, & ambulabat : erat autem annorum duodecim : & obstupuerunt stupore magno.",
+    "fr": "Au même instant la fille se leva, & commença à marcher, car elle avoit déjà douze ans : & ils furent merveilleusement étonnés.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 5,
+    "n": 43,
+    "lat": "Et præcepit illis vehementer ut nemo id sciret ; & dixit dari illi manducare.",
+    "fr": "Mais il leur commanda très-expressément de prendre garde que personne ne le fût ; & il leur dit, qu'on lui donnât à manger.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 1,
+    "lat": "Et egressus inde, abiit in patriam suam & sequebantur eum discipuli sui.",
+    "fr": "JESUS étant sorti de ce lieu, vint * en son pays, où ses disciples le suivirent.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 2,
+    "lat": "Et facto sabbato cœpit in synagoga docere, & multi audientes admirabantur in doctrina ejus, dicentes : Unde huic hæc omnia ? Et quæ est sapientia, quæ data est illi, & virtutes tales, quæ per manus ejus efficiuntur ?",
+    "fr": "Le jour du sabbat étant venu, il commença à enseigner dans la synagogue ; & plusieurs de ceux qui l'écoutoient étant extraordinairement étonnés de l'entendre ainsi parler, disoient : D'où sont venues à celui-ci toutes ces choses ? Quelle est cette sagesse qui lui a été donnée ? Et d'où vient que tant de merveilles se font par ses mains ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 3,
+    "lat": "Nonne hic est faber, filius Mariæ, frater Jacobi, & Joseph, & Judæ, & Simonis ? Nonne & sorores ejus hìc nobiscum sunt ? Et scandalisabantur in illo.",
+    "fr": "N'est-ce pas là ce charpentier, ce fils de Marie, frère de Jacques, de * Joseph, de Jude, & de Simon ? Et ses sœurs ne sont-elles pas ici parmi nous ? Et ils se scandalisoient à son sujet.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 4,
+    "lat": "Et dicebat illis Jesus : Quia non est Propheta sine honore nisi in patria sua, & in domo sua, & in cognatione sua.",
+    "fr": "Mais JESUS leur dit : Un Prophète n'est sans honneur que dans son pays, dans sa maison, & parmi ses parens.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 5,
+    "lat": "Et non poterat ibi virtutem ullam facere, nisi paucos infirmos impositis manibus curavit :",
+    "fr": "Et il ne * put faire en ce lieu-là aucun miracle, sinon qu'il y guérit un petit nombre de malades, en leur imposant les mains :",
+    "note": "Et il ne put faire en ce lieu là aucun miracle, sinon qu'il y guérit un petit nombre de malades, en leur imposant les mains ; de sorte qu'il admiroit leur incrédulité, &c. Nul ne doute que J. C. n'eut une souveraine puissance, pour faire en tous lieux & à toute heure toutes sortes de miracles. Quand donc il est dit ici, qu'il n'en put faire dans la ville de Nazareth, il faut entendre cette impuissance, non de la part du Sauveur, mais de la part de ces peuples, dont la jalousie & l'orgueil étoient un très-grand obstacle à ses grâces. Ainsi J. C. ne pouvoit faire en ce lieu les miracles qu'il faisoit par-tout ailleurs, parce qu'il ne le vouloit pas, dit saint Grégoire de Nazianze. Et il ne le vouloit pas, parce que l'incrédulité de ses citoyens étoit telle, que le saint Evangéliste, pour l'exprimer d'une manière plus vive, a cru devoir dire, qu'elle le mettoit dans l'impuissance de faire, ce qu'il refusoit néanmoins par un effet adorable de sa justice, à l'aveuglement de leur cœur. Il est donc vrai qu'il l'auroit pu s'il l'avoit voulu. Mais, qui osera, dit saint Paul, contester avec Dieu ? Et qui peut se plaindre de lui, si voulant montrer sa juste colère, & faire connoître sa puissance, il souffre avec une patience extrême les vases de colère destinés à la perdition, afin de faire paroître les richesses de sa gloire sur les vases de miséricorde qu'il a préparés pour la gloire ? Que l'on ne soit point non plus surpris, s'il est dit ici du Fils de Dieu, qu'il admiroit l'incrédulité de ceux de sa ville : car elle étoit en effet très-étonnante. Mais s'il l'admiroit, c'étoit pour nous la faire admirer & nous donner lieu de concevoir une horreur extrême de cette disposition si capable d'éloigner de nous toutes les grâces de Dieu. Car quant à lui, rien ne pouvoit le surprendre, étant la sagesse éternelle de son Père, & pénétrant par sa divine lumière les replis les plus cachés du cœur des hommes, & tous les ressorts les plus secrets de leur conduite. Lors donc que l'Ecriture attribue à Dieu ces sortes de mouvemens d'admiration & d'étonnement, c'est qu'elle nous avertit des choses qui doivent véritablement nous étonner. Or il n'y a rien de plus étonnant que l'aveuglement & la dureté d'un cœur qui s'oppose à tous les effets de la bonté de son Dieu, & qui le regarde ou avec haine, ou avec mépris, lorsqu'il répand ses faveurs sur lui. Tels étoient les habitans de la ville de Nazareth, prévenus contre la personne de J. C. par la seule idée qu'ils avoient conçue de lui, à cause qu'ils l'avoient vu dans son enfance, & qu'ils connoissoient ses proches, qui étoient dans un état rabaissé & méprisable selon le monde. N'ayant point les yeux de la foi, ils ne pouvoient s'élever au-dessus des voiles de cette chair & de cette humanité qui couvroit la nature divine du Fils de l'homme ; & au lieu de juger de ce qui étoit caché en lui, par les signes de sa puissance qui éclatoient au dehors, ils jugeoient de ces effets éclatans de sa divine vertu, par l'idée qu'ils s'étoient formée de lui, sur la vue de sa foiblesse apparente & de ses abaissemens."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 6,
+    "lat": "& mirabatur propter incredulitatem eorum, & circuibat castella in circuitu docens.",
+    "fr": "de sorte qu'il admiroit leur incrédulité ; il alloit cependant enseigner de tous côtés dans les villages d'alentour.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 7,
+    "lat": "Et vocavit duodecim, & cœpit eos mittere binos, & dabat illis potestatem spirituum immundorum.",
+    "fr": "Or JESUS ayant appelé les douze, il commença à les envoyer deux à deux ; & il leur donna puissance sur les esprits impurs.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 8,
+    "lat": "Et præcepit eis ne quid tollerent in via, nisi virgam tantùm, non peram, non panem neque in zona æs ;",
+    "fr": "Il leur commanda d'aller avec leur bâton seulement, & de ne rien préparer pour le chemin, ni sac, ni pain, ni argent dans leur bourse ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 9,
+    "lat": "sed calceatos sandaliis, & ne induerentur duabus tunicis.",
+    "fr": "mais de ne prendre que leurs souliers, & de ne point faire provision de deux habits.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 10,
+    "lat": "Et dicebat eis : Quocumque introieritis in domum, illic manete donec exeatis inde :",
+    "fr": "Et il leur dit : En quelque maison que vous entriez, demeurez-y jusqu'à ce que vous sortiez de ce lieu-là :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 11,
+    "lat": "& quicumque non receperint vos, nec audierint vos, exeuntes, inde, excutite pulverem de pedibus vestris in testimonium illis.",
+    "fr": "& lorsqu'il se trouvera des personnes qui ne voudront pas vous recevoir, ni vous écouter, secouez, en vous retirant, la poussière de vos pieds, afin que ce soit un témoignage contre eux *.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 12,
+    "lat": "Et exeuntes prædicabant, ut pœnitentiam agerent :",
+    "fr": "Etant donc partis, ils prêchoient aux peuples qu'ils fissent pénitence :",
+    "note": "Etant donc partis, ils prêchoient aux peuples qu'ils fissent pénitence ; ils chassoient beaucoup de démons ; ils oignoient d'huile plusieurs malades, & les guérissoient. Ils prêchoient la pénitence avant que de chasser les démons & de guérir les malades. Et en cela ils faisoient voir que le principal étoit la pénitence, à laquelle ils invitoient tous les peuples, parce que tous les peuples avoient péché, & avoient besoin de la miséricorde de Dieu, qui s'obtient par la pénitence. Et quant aux miracles, ils suivoient la prédication, tant pour confirmer la vérité que les Apôtres prêchoient, que pour montrer même que les démons ne pouvoient être chassés du corps des hommes, ni leurs ames guéries des différentes maladies du péché, qu'après que la pénitence auroit précédé & préparé la voie au Seigneur. Ainsi ce qui se passoit alors à l'égard de ces Juifs, ou possédés, ou malades de différentes maladies, étoit une image de ce qui arrive à l'égard des ames à qui le remède de la pénitence est nécessaire pour une vraie & solide guérison, & pour le salut éternel, selon cet oracle du Fils de Dieu : Si vous ne faites pénitence, vous périrez tous. Ce que l'Evangile ajoute, Qu'ils oignoient d'huile plusieurs malades, & les guérissoient, a produit quelques contestations entre les Auteurs & les Interprètes. Quelques-uns croient que cette onction dont se servoient les Apôtres pour la guérison de plusieurs malades, étoit simplement un moyen pour se rebaisser en quelque sorte aux yeux du peuple, en comparaison de leur divin Maître ; c'est-à-dire, qu'ils vouloient témoigner par-là, qu'ils agissoient comme ses ministres, non par leur propre puissance, mais par la vertu de celui qui étoit nommé le CHRIST, à cause de l'onction abondante & très-parfaite qu'il avoit reçue dans son Incarnation, par l'union de la nature divine avec la nature humaine, pour devenir le souverain Prêtre de la loi nouvelle. D'autres entendent par cette onction le Sacrement même de l'Extrême-Onction qu'on donne aux malades, & dont l'Apôtre saint Jacques a parlé depuis, lorsqu'il a dit, Que si quelqu'un devenoit malade, il falloit qu'il fit venir les Prêtres de l'Eglise, afin qu'ils priassent sur lui, l'oignant d'huile au nom du Seigneur. Ceux qui sont dans le premier sentiment, soutiennent que les Apôtres n'avoient pas encore reçu le caractère de la Prêtrise, & qu'ainsi ils n'étoient pas en état de conférer ce Sacrement de l'Extrême-Onction, pour l'administration duquel il faut, selon S. Jacques, faire venir ceux qui sont Prêtres dans l'Eglise. Mais le saint Concile de Trente dit, que par cette huile dont les Apôtres oignoient les malades pour les guérir, le Sacrement dont nous parlons nous étoit au moins comme insinué ou figuré. Et de même, dit un Interprète, que l'imposition des mains, la salive, & d'autres semblables cérémonies extérieures, qui étoient d'abord employées par J. C. dans les guérisons miraculeuses qu'il opéroit, furent ensuite transférées par l'Eglise dans l'usage de ses Sacremens ; aussi J. C. put bien faire passer dans l'usage du Sacrement de l'Extrême-Onction, cette onction de l'huile dont se servirent d'abord les Apôtres pour guérir les maladies d'une manière plus humble & plus proportionnée à leur foiblesse. Ce n'étoit pas néanmoins par une vertu naturelle, que cette onction appliquée par les Apôtres sur les malades, les guérissoit ; mais n'étoit par une vertu surnaturelle, couverte sous l'apparence d'une chose commune ; c'est-à-dire, par un effet de ce pouvoir que J. C. comme Dieu leur donna alors selon un autre Evangéliste, de guérir toutes sortes de maladies & de langueurs."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 13,
+    "lat": "& dæmonia multa ejiciebant, & ungebant oleo multos ægros, & sanabant.",
+    "fr": "ils chassoient beaucoup de démons, ils oignoient d'huile plusieurs malades, & les guérissoient.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 14,
+    "lat": "Et audivit rex Herodes, [ manifestum enim factum est nomen ejus ] & dicebat : Quia Joannes Baptista resurrexit à mortuis, & propterea virtutes operantur in illo.",
+    "fr": "Or la réputation de JESUS s'étant beaucoup répandue, le roi Hérode entendit parler de lui ; ce qui lui faisoit dire : Jean-Baptiste est ressuscité après sa mort, c'est pour cela * qu'il se fait par lui tant de miracles.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 15,
+    "lat": "Alii autem dicebant : Quia Elias est. Alii verò dicebant : Quia Propheta est, quasi unus ex Prophetis.",
+    "fr": "D'autres disoient : C'est Elie. Mais d'autres disoient : C'est un Prophète égal à l'un des anciens Prophètes.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 16,
+    "lat": "Quo audito Herodes ait : Quem ego decollavi Joannem, hic à mortuis resurrexit.",
+    "fr": "Hérode entendant ces bruits différens, disoit : Jean à qui j'ai fait trancher la tête, est celui-là même qui est ressuscité après sa mort.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 17,
+    "lat": "Ipse enim Herodes misit, ac tenuit Joannem, & vinxit eum in carcere propter Herodiadem uxorem Philippi fratris sui, quia duxerat eam.",
+    "fr": "Car † Hérode ayant épousé Hérodiade, quoiqu'elle fût femme de Philippe son frère, avoit envoyé prendre Jean, l'avoit fait lier & mettre en prison à cause d'elle ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 18,
+    "lat": "Dicebat enim Joannes Herodi : Non licet tibi habere uxorem fratris tui.",
+    "fr": "parce que Jean disoit à Hérode : Il ne vous est pas permis d'avoir pour femme celle de votre frère.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 19,
+    "lat": "Herodias autem insidiabatur illi, & volebat occidere eum, nec poterat,",
+    "fr": "Depuis cela Hérodiade avoit toujours cherché l'occasion de le faire mourir ; mais elle n'avoit pu en venir à bout,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 20,
+    "lat": "Herodes enim metuebat Joannem, sciens eum virum justum & sanctum ; & custodiebat eum, & audito eo multa faciebat, & libenter audiebat.",
+    "fr": "parce qu'Hérode sachant qu'il étoit un homme juste & saint, le craignoit & avoit du respect pour lui, faisoit beaucoup de choses selon ses avis, & étoit bien-aise de l'entendre.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 21,
+    "lat": "Et cùm dies opportunus accidisset, Herodes natalis sui cœnam fecit Principibus & Tribunis, & primis Galilææ ;",
+    "fr": "Mais enfin il arriva un jour favorable au dessein d'Hérodiade, qui fut le jour de la naissance d'Hérode, auquel il fit un festin aux Grands de sa Cour, aux premiers Officiers de ses troupes, & aux principaux de la Galilée ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 22,
+    "lat": "cùmque introisset filia ipsius Herodiadis, & saltasset, & placuisset Herodi, simulque recumbentibus ; Rex ait puellæ : Pete à me quod vis, & dabo tibi ;",
+    "fr": "car la fille d'Hérodiade y étant entrée, & ayant dansé devant le Roi, elle lui plut tellement, & à ceux qui étoient à table avec lui, qu'il lui dit : Demandez-moi ce que vous voudrez, & je vous le donnerai ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 23,
+    "lat": "& juravit illi : Quia quidquid petieris dabo tibi, licèt dimidium regni mei.",
+    "fr": "& il ajouta avec serment : Oui, je vous donnerai tout ce que vous me demanderez, quand ce seroit la moitié de mon royaume.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 24,
+    "lat": "Quæ cùm exisset, dixit matri suæ : Quid petam ? At illa dixit : Caput Joannis Baptistæ.",
+    "fr": "Elle étant sortie, dit à sa mère : que demanderai-je ? sa mère lui répondit : La tête de Jean-Baptiste.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 25,
+    "lat": "Cùmque introisset statim cum festinatione ad Regem, petivit dicens : Volo ut protinùs des mihi in disco caput Joannis Baptistæ.",
+    "fr": "Et étant rentrée aussitôt en grande hâte où étoit le Roi : Je demande, dit-elle, que vous me donniez tout présentement dans un bassin, la tête de Jean-Baptiste.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 26,
+    "lat": "Et contristatus est Rex. Propter jusjurandum, & propter simul discumbentes, noluit eam contristare :",
+    "fr": "Le Roi en fut fort fâché. Néanmoins à cause du serment qu'il avoit fait, & de ceux qui étoient à table avec lui, il ne voulut pas la refuser * :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 27,
+    "lat": "sed misso spiculatore præcepit afferri caput ejus in disco. Et decollavit eum in carcere,",
+    "fr": "ainsi il envoya un de ses gardes avec ordre d'apporter la tête de Jean dans un bassin : & ce garde étant allé dans la prison, lui coupa la tête,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 28,
+    "lat": "& attulit caput ejus in disco ; & dedit illud puellæ, & puella dedit matri suæ.",
+    "fr": "l'apporta dans un bassin, & la donna à la fille, & la fille la donna à sa mère.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 29,
+    "lat": "Quo audito, discipuli ejus venerunt, & tulerunt corpus ejus, & posuerunt illud in monumento.",
+    "fr": "Ses disciples l'ayant su, vinrent emporter son corps, & le mirent dans un tombeau ¶.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 30,
+    "lat": "Et convenientes Apostoli ad Jesum, renuntiaverunt ei omnia, quæ egerant, & docuerant.",
+    "fr": "Or les Apôtres s'étant rassemblés près de JESUS, lui rendirent compte de tout ce qu'ils avoient fait, & de ce qu'ils avoient enseigné.",
+    "note": "Or les Apôtres s'étant assemblés près de JESUS lui rendirent compte de tout ce qu'ils avoient fait, & de ce qu'ils avoient enseigné. Et il leur dit : Venez vous retirer en particulier, &c. Nous ne disons rien ici de ce qui regarde la mort de saint Jean-Baptiste, parce qu'on en a parlé fort au long dans les explications de saint Matthieu, où les mêmes circonstances de son martyre sont rapportées. Mais il est bon seulement de remarquer que le Roi Hérode, qui fit mourir ce saint Précurseur, ayant entendu parler de J. C. & de ses miracles, & s'imaginant que c'étoit saint Jean qui étoit ressuscité, & qui faisoit ces prodiges, en parla publiquement. Ce fut ce qui obligea le Fils de Dieu de se retirer. Car il vouloit éviter le trop grand éclat, tant pour donner moins d'ombrage à ce Prince, que pour apprendre par son exemple à ses disciples, que ce n'étoit pas à la Cour des Rois qu'ils devoient chercher à paroître : comme en effet on ne voit point que J. C. ait paru avant le temps de sa passion devant les Princes. C'étoit le peuple qu'il cherchoit toujours ; c'étoit aux simples, aux ignorans & aux pauvres qu'il prêchoit principalement : & il disoit même, en expliquant les Prophéties, Que le Seigneur l'avoit oint, & envoyé prêcher l'Evangile aux pauvres, & guérir ceux qui avoient le cœur brisé. Or ce n'est pas dans les Cours des Princes que l'on va chercher les pauvres, & ceux dont le cœur est brisé en la présence de Dieu. J. C. ayant donc appris ce qu'il connoissoit déjà par lui-même, que le roi Hérode parloit tout publiquement de ses miracles, il se retira, comme le marque saint Matthieu. Et ce fut en ce même-temps, que selon qu'il est dit ici, les Apôtres se rassemblèrent près de lui, dont ils s'étoient éloignés auparavant pour aller prêcher par son ordre & guérir en divers lieux les malades. Ils vinrent, dit l'Evangile, lui rapporter toutes les choses qu'ils avoient faites, & la manière dont ils avoient enseigné les peuples. Car il étoit important qu'ils vinssent ainsi se rejoindre à J. C. pour lui rendre compte de leur conduite & des instructions qu'ils avoient données. Saint Paul disoit depuis parlant de soi, Qu'il alla à Jérusalem, suivant une révélation qu'il en avoit eue, & qu'il exposa aux fidelles, & en particulier à ceux qui étoient les plus considérables, l'Evangile qu'il prêchoit parmi les Gentils, afin de ne perdre pas le fruit de ce qu'il avoit déjà fait, ou de ce qu'il devoit faire dans le cours de son ministère. Combien donc les disciples de J. C. qui parurent si imparfaits avant sa mort, étoient-ils encore plus obligés de consulter leur divin maître, touchant la doctrine qu'ils commençoient à prêcher aux peuples, & les miracles qu'ils faisoient par la vertu de son nom pour la guérison des malades ? N'y avoit-il pas tout sujet de craindre, que dans ces commencemens ils ne s'écartassent de la règle étroite de la vérité, ou que même ils ne s'élevassent insensiblement des œuvres miraculeuses dont ils n'étoient que les ministres ? Ainsi il falloit que le Fils de Dieu les fit revenir auprès de lui, pour les former peu à peu, pour les fortifier & pour les accoutumer à se passer un jour de sa présence corporelle, afin de pouvoir agir par eux-mêmes, étant aidés intérieurement par son Esprit. C'est ainsi que l'aigle, auquel Dieu s'est comparé dans l'Ecriture, excitant d'abord ses petits à voler, voltige sur eux, & étendant ses aîles, les prend même & les porte au commencement sur soi ; & c'est ainsi que lorsqu'il les voit encore trop foibles pour s'envoler, après avoir éprouvé leurs forces, il les oblige de rentrer & de demeurer encore dans le nid pendant quelque temps. Telle est la conduite que tient J. C. à l'égard de ses Apôtres : Venez, leur dit-il, vous retirer en particulier dans quelque lieu solitaire, & vous reposer un peu. Le désert & la retraite étoit, pour le dire ainsi, comme le nid où cet aigle tout divin formoit ses aiglons. C'étoit-là qu'il les rappeloit, sachant qu'ils étoient encore trop foibles pour en sortir tout-à-fait, ainsi qu'ils firent depuis, lorsque l'Esprit saint fut répandu avec plénitude dans leurs cœurs, & qu'ils se virent en état de souffrir même avec joie les opprobres & les outrages. Tous les fidelles sont obligés de regarder l'éloignement du grand monde comme le nid où ils doivent se tenir, comme des petits encore foibles & incapables de se soutenir par eux-mêmes. Et ils n'en doivent sortir que lorsque l'aigle, qui est J. C. les appelle ailleurs, & les oblige, pour parler ainsi, de voler par-tout où il est lui-même ; c'est-à-dire, de l'accompagner dans toutes les différentes fonctions du ministère qu'il a accompli en sa personne pendant le cours de sa vie mortelle, & qu'il accomplit encore tous les jours dans la personne de ses ministres. Mais lors même que l'ordre de J. C. les a fait sortir de la retraite pour aller prêcher comme les Apôtres, & travailler à la guérison des ames, ils doivent à leur exemple, & en suivant le conseil du Fils de Dieu, y rentrer de temps en temps, & se tenir en particulier pour se reposer un peu, non d'un repos de paresse, & d'amour propre ; mais d'un repos qui rappelle l'ame à une piété toute intérieure, en la retirant de la dissipation de tous les objets extérieurs."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 31,
+    "lat": "Et ait illis : Venite seorsum in desertum locum, & requiescite pusillum. Erant enim qui veniebant & redibant multi, & nec spatium manducandi habebant.",
+    "fr": "Et il leur dit : Venez vous retirer en particulier dans quelque lieu solitaire, & vous reposer un peu : car comme il y avoit plusieurs personnes qui venoient vers lui les uns après les autres, ils ne pouvoient pas seulement trouver le temps de manger.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 32,
+    "lat": "Et ascendentes in navim, abierunt in desertum locum seorsum :",
+    "fr": "Ils entrèrent donc dans une barque pour se retirer à l'écart dans un lieu désert :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 33,
+    "lat": "& viderunt eos abeuntes, & cognoverunt multi, & pedestres de omnibus civitatibus concurrerunt illùc, & prævenerunt eos.",
+    "fr": "mais le peuple les ayant vu partir, & plusieurs autres en ayant eu connoissance, ils y accoururent à pied de toutes les villes voisines, & ils y arrivèrent avant eux.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 34,
+    "lat": "Et exiens vidit turbam multam Jesus, & misertus est super eos, quia erant sicut oves non habentes pastorem, & cœpit illos docere multa :",
+    "fr": "JESUS sortant de la barque, vit une grande multitude de peuple, & il en eu compassion ; parce qu'ils étoient comme des brebis qui n'ont point de pasteur ; & il se mit à leur dire beaucoup de choses pour leur instruction.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 35,
+    "lat": "Et cùm jam hora multa fieret, accesserunt discipuli ejus, dicentes : Desertus est locus hic, & jam hora præteriit :",
+    "fr": "Mais le jour étant déjà fort avancé, ses disciples vinrent à lui, & lui dirent : Ce lieu est désert, & il est déjà tard :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 36,
+    "lat": "dimitte illos, ut euntes in proximas villas & vicus, emant sibi cibos, quos manducent.",
+    "fr": "renvoyez-les, afin qu'ils s'en aillent dans les villages & les bourgs d'ici alentour acheter de quoi manger.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 37,
+    "lat": "Et respondens ait illis : Date illis vos manducare. Et dixerunt ei : Euntes emamus ducentis denariis panes, & dabimus illis manducare.",
+    "fr": "Il leur répondit : Donnez-leur vous-mêmes à manger. Ils lui répartirent : * Irons-nous donc acheter pour deux * cents deniers de pain, afin de leur donner à manger ?",
+    "note": "Il leur répondit : Donnez-leur vous-mêmes à manger. Ils lui répartirent : Irons-nous donc acheter pour deux cents deniers de pain, afin de leur donner à manger ? JESUS leur dit : Combien avez-vous de pains ? Allez voir, &c. Les Apôtres revenoient actuellement de faire beaucoup de miracles par la puissance que le Fils de Dieu leur avoit donnée, de chasser les démons des corps des hommes, & de guérir toutes sortes de malades. Lors donc qu'il leur dit présentement de donner eux-mêmes à manger à tout ce peuple, ce n'est point une ironie dont il use ; mais il leur parle très-sérieusement, en leur donnant lieu de juger qu'ils pouvoient avec la même facilité nourrir ces peuples, qu'ils avoient pu faire tant d'autres miracles, pourvu qu'ils eussent la même foi pour l'un que pour l'autre. Mais les Apôtres ne prirent point les paroles de J. C. dans le sens qu'ils le devoient ; & ils crurent simplement qu'il les obligeoit de nourrir toute cette multitude de personnes d'une manière ordinaire, & sans le secours de sa divine vertu. C'est pourquoi ils lui répondent, pour lui marquer l'impuissance où ils se trouvoient humainement de donner du pain à tant de peuples : Voulez-vous que nous allions acheter pour deux cents deniers de pain, afin que nous leur donnions à manger ? Ce qui étoit la même chose dans leur pensée, que de dire, qu'il les vouloit obliger à l'impossible. Car comme l'Evangéliste le dit d'eux, après même ce grand miracle de la multiplication des pains, leur cœur étoit aveuglé. Quand le Fils de Dieu leur demande combien ils avoient de pains, & qu'il les oblige d'y aller voir, il le savoit bien sans qu'on le lui dit : mais il vouloit qu'ils y fissent eux-mêmes une réflexion particulière ; afin que la vue d'un nombre de pains & de poissons si petit, en comparaison de tout ce peuple qu'il falloit nourrir, servît à faire éclater davantage la gloire de Dieu. Car rien n'attire plus fortement sur les hommes son secours, que l'humble conviction où ils sont de leur néant, & de l'extrême besoin qu'ils ont de son assistance : au lieu que ceux qui sont pleins d'eux-mêmes, & qui se regardent comme riches, & n'ayant besoin de rien, tombent à la fin dans un vide épouvantable, selon que la plus sainte, & par conséquent la plus humble de toutes les créatures, l'a reconnu au milieu des richesses dont la grâce l'avoit comblée, lorsqu'elle s'écrie : Il a rempli de bien ceux qui étoient affamés, & renvoyé vides ceux qui étoient riches. L'ordre qu'il donna à ses Apôtres de faire asseoir & partager tout ce peuple en diverses bandes, les unes de cent, & les autres de cinquante, tendoit, selon le sens littéral, à empêcher la confusion, & même à faciliter aux Apôtres la distribution qu'ils devoient faire de la nourriture à tant de monde. Il pouvoit aussi contribuer à faire connoître plus distinctement le grand nombre des personnes qui seroient nourries, puisqu'il étoit plus facile de les compter ainsi séparées par troupes égales, & qu'il falloit que la connoissance d'une si grande multitude d'hommes, nourris d'une manière si miraculeuse, servît à faire admirer davantage la toute-puissance de l'auteur de ce miracle. Mais on peut bien dire aussi, que selon un sens spirituel qui se présente naturellement à l'esprit, J. C. sembloit tracer dès-lors une image de ce qui s'est fait depuis dans l'Eglise, où les fidelles, qui sont nourris divinement du pain de sa parole & de sa chair adorable, sont partagés en diverses troupes, qui sont les Eglises différentes & les troupeaux commis à la conduite de divers Pasteurs. C'est le même J. C. qui les nourrit tous par le ministère de ceux qu'il charge de leur conduite. Et de tous ces différens troupeaux, il ne s'en forme qu'un seul troupeau, qui est l'Eglise répandue dans toute la terre : comme de tous les Pasteurs, il ne s'en forme qu'un seul Pasteur qui est J. C. Fiet unum ovile & unus Pastor."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 38,
+    "lat": "Et dicit eis : Quot panes habetis ? Ite, & videte. Et cùm cognovissent, dicunt : Quinque, & duos pisces.",
+    "fr": "JESUS leur dit : Combien avez-vous de pains ? Allez voir. Et y ayant regardé, ils lui dirent : Nous en avons cinq, & deux poissons.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 39,
+    "lat": "Et præcepit illis, ut accumbere facerent omnes secundùm contubernia super viride fœnum ;",
+    "fr": "Alors il leur commanda de les faire tous asseoir en diverses troupes sur l'herbe verte ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 40,
+    "lat": "& discubuerunt in partes, per centenos & quinquagenos.",
+    "fr": "& ils s'assirent en divers rangs, les uns de cent personnes, & les autres de cinquante.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 41,
+    "lat": "Et acceptis quinque panibus & duobus piscibus, intuens in cœlum, benedixit, & fregit panes, & dedit discipulis suis, ut ponerent ante eos : & duos pisces divisit omnibus.",
+    "fr": "JESUS prit donc les cinq pains & les deux poissons, & levant les yeux au ciel il les bénit : & ayant rompu les pains, il les donna à ses disciples, afin qu'ils les présentassent au peuple ; & il partagea à tous les deux poissons.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 42,
+    "lat": "Et manducaverunt omnes, & saturati sunt.",
+    "fr": "Tous en mangèrent, & furent rassasiés.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 43,
+    "lat": "Et sustulerunt reliquias, fragmentorum duodecim cophinos plenos, & de piscibus.",
+    "fr": "Et les disciples remportèrent douze paniers pleins des morceaux qui étoient restés des pains & des poissons ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 44,
+    "lat": "Erant autem qui manducaverunt, quinque millia virorum.",
+    "fr": "quoique ceux qui avoient mangé de ces pains fussent au nombre de cinq mille hommes.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 45,
+    "lat": "Et statim coegit discipulos suos ascendere navim, ut præcederent eum trans fretum ad Bethsaidam, dum ipse dimitteret populum.",
+    "fr": "Il pressa aussitôt ses disciples de monter dans la barque, & de passer avant lui à l'autre bord vers Bethsaïde, pendant qu'il renvoyeroit le peuple.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 46,
+    "lat": "Et cùm dimisisset eos, abiit in montem orare.",
+    "fr": "Et après qu'il l'eut renvoyé, il s'en alla sur la montagne pour prier.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 47,
+    "lat": "Et cùm serò esset, erat navis in medio mari, & ipse solus in terra ;",
+    "fr": "† Le soir étant venu, la barque étoit au milieu de la mer, & JESUS étoit seul à terre ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 48,
+    "lat": "& videns eos laborantes in remigando ( erat enim ventus contrarius eis ) & circa quartam vigiliam noctis venit ad eos ambulans supra mare, & volebat præterire eos.",
+    "fr": "& voyant que ses disciples avoient grande peine à ramer, parce que le vent leur étoit contraire, vers la quatrième veille de la nuit, il vint à eux marchant sur la mer, & il vouloit les devancer.",
+    "note": "Vers la quatrième veille de la nuit, il vint à eux marchant sur la mer, & il vouloit les devancer. L'Evangéliste a raison de dire, que le Fils de Dieu vouloit passer les Apôtres : car il les auroit effectivement passés, si lorsqu'ils le reconnurent ils ne l'avoient supplié de monter dans la barque où ils étoient, comme il paroît par saint Jean. Et ce fut alors que le vent ayant cessé, & la mer s'étant calmée, ils arrivèrent aussitôt à l'autre bord, c'est-à-dire, vers Capharnaüm, comme il est marqué dans le même Evangéliste. Il n'y avoit donc aucune fiction ni déguisement dans la conduite de J. C. non plus qu'il n'y en eut point depuis, lorsqu'après sa résurrection s'étant apparu à deux de ses disciples qui alloient à Emmaüs, il se disposa à l'approche de ce bourg à aller plus loin : ce que l'Evangile exprime, en disant qu'il le feignit ou en fit semblant. Car il est certain qu'il auroit aussi quitté ces deux disciples, s'ils ne l'avoient obligé, & même forcé, selon l'expression de l'Evangéliste, de demeurer avec eux. Il est vrai qu'en l'une & en l'autre de ces deux occasions, il savoit bien ce qui devoit arriver ; c'est-à-dire, que ses disciples l'empêcheroient de passer plus loin. Mais il agissoit comme s'il ne l'eut pas su, se conformant à la manière ordinaire des hommes, & leur donnant lieu d'agir eux-mêmes selon le libre mouvement de leur volonté. Car il étoit nécessaire, & que les Apôtres désirassent la présence de J. C. pour mériter d'être délivrés de cette tempête, & que les disciples d'Emmaüs se rendissent dignes de le reconnoître en le forçant de recevoir d'eux l'hospitalité. Mais ce qu'on a peine à concevoir, est ce que saint Marc ajoute : Qu'ils furent dans le dernier étonnement de voir le vent abattu dans l'instant qu'il fut monté dans la barque. Car étoit-il plus étonnant de lui voir calmer la tempête, que de le voir marcher sur la mer ? Et l'un & l'autre de ces deux miracles devoient-ils surprendre ceux qui venoient d'être témoins d'un prodige aussi surprenant qu'étoit celui d'avoir nourri cinq mille hommes de cinq pains & de deux poissons, & de les avoir multipliés de telle sorte, qu'il resta encore douze corbeilles pleines de morceaux après qu'ils furent rassasiés ? Il est donc visible que leur cœur étoit dans l'aveuglement, comme le dit l'Evangile, & que les miracles du Fils de Dieu ne faisoient point l'impression qu'ils devoient faire sur leurs esprits. Ils voyoient souvent sans voir ; & ils n'avoient point compris, dit saint Marc, le mystère de cette multiplication si miraculeuse des cinq pains : Non enim intellexerunt de panibus. Et pourquoi ne l'avoient-ils point compris ? C'est parce que la vue corporelle de J. C. revêtu extérieurement d'infirmités comme nous, empêchoit souvent qu'ils ne s'élevassent jusqu'à sa divinité. Mais n'en soyons point toutefois trop étonnés. Cette disposition si imparfaite des Apôtres, est comme un miroir où nous pouvons nous envisager nous-mêmes. Car quoique nous ne connoissions plus maintenant, dit saint Paul, J. C. selon la chair ; c'est-à-dire, quoique nous ne le regardions plus en cet état d'infirmité où le voyoient les Apôtres dans le temps de sa vie mortelle, mais à la droite de son Père où il est assis, comme dit le même Apôtre ; nous ne laissons pas néanmoins d'oublier à tous momens les preuves si éclatantes qu'il nous a données de sa puissance & de sa bonté, non-seulement en se multipliant lui-même, comme un pain de vie d'une manière si miraculeuse, pour la nourriture de toute l'Eglise répandue dans tous les coins de la terre ; mais encore en calmant par son pouvoir souverain toutes les tempêtes des persécutions, qui ont commencé dès la naissance de l'Eglise à s'élever contre la barque de saint Pierre, & à l'attaquer avec une si grande fureur. Ces prodiges beaucoup plus divins que ceux qui frappoient alors les yeux des Apôtres, ne nous touchent point d'une vive reconnoissance. Nous vivons souvent comme insensibles à tant de grâces ; & il semble que la justice de Dieu pour venger notre ingratitude, nous ait frappés de cette plaie de l'aveuglement du cœur, dont Moyse menaça anciennement les Israélites, qui fait que l'on marche comme à tâtons en plein midi, ainsi qu'un aveugle, & qu'on ne peut se conduire dans ses voies : Percutiat te Dominus amentia & cæcitate, ac furore mentis, & palpes in meridie, sicut palpare solet cæcus in tenebris, & non dirigas vias tuas. Mais nous remarquons ici une difficulté considérable, en comparant saint Matthieu avec saint Marc, dans ce qu'ils rapportent touchant la disposition où se trouvèrent les disciples de J. C. lorsqu'il eut calmé cette tempête. Car au lieu que S. Marc ne parle que de leur étonnement, de leur peu d'intelligence, & de l'aveuglement de leur cœur ; saint Matthieu témoigne au contraire, que ceux qui étoient dans la barque, ce qu'on ne sauroit ne pas entendre des Apôtres, s'approchèrent de J. C. & l'adorèrent, en lui disant : Vous êtes vraiment Fils de Dieu. Comment donc ceux qui l'adorèrent alors comme le vrai Fils de Dieu, étoient-ils dans l'aveuglement ? Il semble qu'on peut concilier ces deux saints Evangélistes, en disant que les Apôtres avoient été jusqu'alors dans une espèce d'aveuglement, puisque le miracle de la multiplication des cinq pains n'avoit point servi à empêcher qu'ils ne fussent si étonnés en voyant cette tempête calmée tout-d'un-coup par sa présence : mais que ce nouveau miracle les fit rentrer en eux-mêmes, & regarder J. C. comme Fils de Dieu. Car telle fut proprement la disposition de leur cœur pendant le cours de sa vie mortelle, & jusqu'après sa résurrection : tantôt convaincus de sa divinité, tantôt ébranlés par la vue de l'infirmité humaine dont ils le voyoient environné, ils étoient flottans entre ce que la lumière de la foi leur inspiroit, & le jugement qu'en portoient leurs sens, jusqu'à ce que l'Esprit-Saint, dont ils reçurent la plénitude à la Pentecôte, bannit tous leurs doutes, dissipa toutes leurs craintes, & les rendit dignes de devenir les témoins irréprochables de J. C."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 49,
+    "lat": "At illi ut viderunt eum ambulantem supra mare, putaverunt phantasma esse, & exclamaverunt ;",
+    "fr": "Mais eux le voyant marcher ainsi sur la mer, crurent que c'étoit un fantôme, & ils jetèrent un grand cri ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 50,
+    "lat": "omnes enim viderunt eum, & conturbati sunt. Et statim locutus est cum eis, & dixit eis : Confidite, ego sum, nolite timere.",
+    "fr": "car ils l'aperçurent tous, & en furent épouvantés. Mais aussitôt il leur parla, & leur dit : * Rassurez-vous ; c'est moi, ne craignez point.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 51,
+    "lat": "Et ascendit ad illos in navim, & cessavit ventus : & plus magis intra se stupebant :",
+    "fr": "Il monta ensuite avec eux dans la barque, & le vent cessa : ce qui augmenta encore beaucoup l'étonnement où ils étoient :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 52,
+    "lat": "non enim intellexerunt de panibus ; erat enim cor eorum obcæcatum.",
+    "fr": "car ils n'avoient pas fait assez d'attention sur le miracle des pains, parce que leur cœur étoit aveuglé.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 53,
+    "lat": "Et cùm transfretassent, venerunt in terram Genesareth, & applicuerunt.",
+    "fr": "Ayant passé l'eau, ils vinrent au territoire de Génésareth, & y abordèrent.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 54,
+    "lat": "Cùmque egressi essent de navi, continuò cognoverunt eum,",
+    "fr": "Et ceux de ce lieu-là l'ayant aussitôt reconnu au sortir de la barque,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 55,
+    "lat": "& percurrentes universam regionem illam, cœperunt in grabatis eos, qui se malè habebant circumferre, ubi audiebant eum esse.",
+    "fr": "ils coururent toute la contrée, & commencèrent à lui apporter de tous côtés les malades dans des lits, par-tout où ils entendoient dire qu'il étoit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 6,
+    "n": 56,
+    "lat": "Et quocumque introibat in vicos, vel in villas, aut civitates, in plateis ponebant infirmos, & deprecabantur eum, ut vel fimbriam vestimenti ejus tangerent : & quotquot tangebant eum, salvi fiebant.",
+    "fr": "Et dans quelques bourgs, villes ou villages qu'il entrât, on mettoit les malades dans les places publiques, & on le prioit de permettre qu'ils pussent seulement toucher le bord de son vêtement ; & tous ceux qui le touchoient étoient guéris ¶.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 1,
+    "lat": "Et conveniunt ad eum Pharisæi, & quidam de Scribis, venientes ab Jerosolymis.",
+    "fr": "Les Pharisiens & quelques-uns des Scribes qui étoient venus de Jérusalem, se trouvèrent ensemble auprès de JESUS,",
+    "note": "Les Pharisiens & quelques-uns des Docteurs de la loi, qui étoient venus de Jérusalem, se trouvèrent ensemble auprès de JESUS. Et ayant vu quelques-uns de ses disciples prendre leur repas avec des mains impures ; c'est-à-dire, qui n'avoient pas été lavées, ils les en blamèrent, &c. On a déjà dit ailleurs, que ce n'est pas sans raison que l'Evangéliste a marqué, en parlant de ces Pharisiens & de ces Docteurs de la loi, Qu'ils étoient venus de Jérusalem. Car comme ceux de cette ville capitale de la Judée se prétendoient plus éclairés que tous les autres, ils étoient aussi plus superbes, & avoient par conséquent une plus grande opposition à l'Evangile que le Fils de Dieu prêchoit ; parce que cet Evangile ne respiroit que l'humilité, la pauvreté, & le parfait renoncement à soi-même. Ils observoient donc, non par un vrai zèle de la loi de Dieu qu'ils violoient les premiers, mais par un secret mouvement de jalousie, dans J. C. & dans ses disciples, tout ce qu'ils voyoient de contraire à la pratique & aux coutumes des Juifs ; & ils en prenoient sujet de blâmer tant les disciples que le maître, ne séparant point l'un d'avec les autres, & le regardant comme coupable de toutes les fautes qu'ils s'imaginoient trouver dans ses disciples. Ces faux justes de l'ancienne loi faisoient consister une partie de leur pureté dans des pratiques purement extérieures, qui ne regardoient que le dehors, & qui n'alloient point jusqu'à purifier le dedans du cœur. Ainsi laissant-là l'essentiel des commandemens de Dieu, qui étoit la charité & la justice, ils s'attachoient à certaines cérémonies qui étoient de tradition humaine, & qu'ils pouvoient très-aisément observer, sans se faire la moindre violence pour corriger leur volonté déréglée, & pour abaisser l'enflure de leur orgueil. Telles étoient ces sortes d'observations superstitieuses, de se regarder comme impurs s'ils mangeoient sans avoir auparavant lavé leurs mains, & les lits sur lesquels ils se couchoient pour prendre leur nourriture ; ou s'ils buvoient sans avoir bien nettoyé les coupes & tous les vases dont ils se servoient. Ils croyoient aussi qu'on étoit impur pour avoir été au marché, à cause qu'il s'y trouvoit des étrangers dont le commerce pouvoit les souiller. Mais ce qu'il y avoit de déplorable, c'est qu'en même-temps qu'ils faisoient scrupule de violer en la moindre chose ces traditions des hommes, ils ne craignoient point de s'emporter dans des excès de jalousie, de médisance & d'injustice contre J. C. D'où vient, lui dirent-ils, que vos disciples n'observent point la tradition des anciens ? Mais quel étrange renversement d'esprit en eux, d'exiger une si grande exactitude pour leurs propres ordonnances, lorsqu'ils témoignoient eux-mêmes une si grande indifférence pour les préceptes de Dieu ! Comme on a fait voir en expliquant saint Matthieu, cette absurdité du raisonnement & de la conduite des Pharisiens, on né s'y arrête point davantage ici."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 2,
+    "lat": "Et cùm vidissent quosdam ex discipulis ejus, communibus manibus, id est non lotis, manducare panes, vituperaverunt :",
+    "fr": "Et ayant vu quelques-uns de ses disciples * prendre leur repas avec des mains impures, c'est-à-dire, qui n'avoient pas été lavées, ils les en blâmèrent :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 3,
+    "lat": "Pharisæi enim, & omnes Judæi, nisi crebrò laverint manus, non manducant, tenentes traditionem seniorum :",
+    "fr": "car les Pharisiens & tous les Juifs ne mangent point sans avoir souvent lavé leurs mains, gardant en cela la tradition des anciens :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 4,
+    "lat": "& à foro, nisi baptizentur, non comedunt : & alia multa sunt, quæ tradita sunt illis servare baptismata calicum, & urceorum, & æramentorum, & lectorum.",
+    "fr": "* & lorsqu'ils reviennent du marché, ils ne mangent point non plus sans s'être lavés. Ils ont encore beaucoup d'autres observations qu'ils ont reçues, & qu'ils gardent : comme de laver les coupes, les pots, les vaisseaux d'airain, & les bois de lit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 5,
+    "lat": "Et interrogabant eum Pharisæi & Scribæ : Quare discipuli tui non ambulant juxta traditionem seniorum, sed communibus manibus manducant panem ?",
+    "fr": "C'est pourquoi les Pharisiens & les Scribes lui dirent : D'où vient que vos disciples * n'observent point la tradition des anciens, mais qu'ils prennent leur repas sans avoir lavé leurs mains ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 6,
+    "lat": "At ille respondens, dixit eis : Benè prophetavit Isaïas de vobis hypocritis, sicut scriptum est : Populus hic labiis me honorat, cor autem eorum longè est à me :",
+    "fr": "Il leur répondit : C'est avec grande raison qu'Isaïe a fait de vous autres hypocrites cette prophétie qui se lit dans l'Ecriture : Ce peuple m'honore des lèvres, mais leur cœur est bien éloigné de moi :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 7,
+    "lat": "in vanum autem me colunt, docentes doctrinas & præcepta hominum ;",
+    "fr": "& c'est en vain qu'ils m'honorent, publiant des maximes & des ordonnances humaines ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 8,
+    "lat": "Relinquentes enim mandatum Dei, tenetis traditionem hominum, baptismata urceorum, & calicum, & alia similia his facitis multa.",
+    "fr": "car laissant là le commandement de Dieu, vous observez avec soin la tradition des hommes, lavant les pots & les coupes, & faisant encore beaucoup d'autres choses semblables.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 9,
+    "lat": "Et dicebat illis : Benè irritum facitis præceptum Dei, ut traditionem vestram servetis ?",
+    "fr": "N'êtes-vous donc pas, leur disoit-il, des gens * bien religieux de détruire le commandement de Dieu, pour garder votre tradition ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 10,
+    "lat": "Moyses enim dixit : Honora patrem tuum & matrem tuam. Et : Qui maledixerit patri vel matri, morte moriatur.",
+    "fr": "Car Moyse a dit : Honorez votre père & votre mère. Et : Que celui qui outragera de parole son père ou sa mère, soit puni de mort.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 11,
+    "lat": "Vos autem dicitis : Si dixerit homo patri aut matri, Corban ( quod est donum ) quodcumque ex me, tibi profuerit :",
+    "fr": "Mais vous dites vous autres : Si un homme dit à son père ou à sa mère, Tout don que je fais à Dieu vous soit utile, il satisfait à la loi ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 12,
+    "lat": "& ultrà non dimittitis eum quidquam facere patri suo, aut matri,",
+    "fr": "* & vous ne lui permettez pas de rien faire davantage pour son père ou pour sa mère,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 13,
+    "lat": "rescindentes verbum Dei per traditionem vestram quam tradidistis : & similia hujusmodi multa facitis.",
+    "fr": "rendant ainsi inutile le commandement de Dieu par votre tradition, que vous-mêmes avez établie : & vous faites encore beaucoup d'autres choses semblables.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 14,
+    "lat": "Et advocans iterùm turbam, dicebat illis : Audite me omnes & intelligite :",
+    "fr": "Alors ayant appelé de nouveau le peuple, il leur dit : Ecoutez-moi tous, & comprenez bien ce que je vous dis :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 15,
+    "lat": "Nihil est extrà hominem introiens in eum ; quod possit eum coinquinare : sed quæ de homine procedunt, illa sunt quæ communicant hominem.",
+    "fr": "Rien d'extérieur qui entre dans le corps de l'homme n'est capable de le souiller : mais ce qui sort de l'homme est ce qui le souille.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 16,
+    "lat": "Si quis habet aures audiendi, audiat.",
+    "fr": "Si quelqu'un a des oreilles pour entendre, qu'il l'entende.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 17,
+    "lat": "Et cùm introisset in domum à turba, interrogabant eum discipuli ejus parabolam.",
+    "fr": "Après qu'il eut quitté le peuple, & qu'il fut entré dans la maison, ses disciples lui demandèrent ce que vouloit dire cette parabole.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 18,
+    "lat": "Et ait illis : Sic & vos imprudentes estis ? Non intelligitis , quia omne extrinsecus introiens in hominem , non potest eum communicare ;",
+    "fr": "Et il leur dit : Quoi ! vous avez encore vous-mêmes si peu d'intelligence ? Ne comprenez-vous pas que tout ce qui du dehors entre dans le corps de l'homme , ne peut le souiller ,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 19,
+    "lat": "quia non intrat in cor ejus , sed in ventrem vadit , & in secessum exit , purgans omnes escas ?",
+    "fr": "parce que cela ne va pas dans son cœur , mais dans son ventre , * d'où ce qui étoit impur dans tous les alimens est séparé & jeté dans le lieu secret ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 20,
+    "lat": "Dicebat autem , quoniam quæ de homine exeunt , illa communicant hominem.",
+    "fr": "Mais ce qui souille l'homme , leur disoit-il , c'est ce qui sort de l'homme même.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 21,
+    "lat": "Ab intus enim de corde hominum malæ cogitationes procedunt , adulteria , fornicationes , homicidia ,",
+    "fr": "Car c'est du dedans du cœur des hommes que sortent les mauvaises pensées , les adultères , les fornications , les homicides ,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 22,
+    "lat": "furta , avaritiæ , nequitiæ , dolus , impudicitiæ , oculus malus , blasphemia , superbia , stultitia.",
+    "fr": "les larcins , l'avarice , les méchancetés , la fourberie , la dissolution , l'œil malin & envieux , les médisances , l'orgueil , la folie & le déréglement de l'esprit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 23,
+    "lat": "Omnia hæc mala ab intus procedunt , & communicant hominem.",
+    "fr": "Tous ces maux sortent du dedans , & souillent l'homme.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 24,
+    "lat": "Et inde surgens abiit in fines Tyri , & Sidonis , & ingressus domum , neminem voluit scire , & non potuit latere.",
+    "fr": "Il partit ensuite de ce lieu-là & s'en alla sur les confins de Tyr & de Sidon ; & étant entré dans une maison , il désiroit que personne ne le sut : mais il ne put être caché.",
+    "note": "Il partit ensuite de ce lieu & s'en alla sur les confins de Tyr & de Sidon ; & étant entré dans une maison, il ne voulut point que personne le fut : mais il ne put être caché. Car une femme, dont la fille étoit possédée de l'esprit impur, ayant ouï dire qu'il étoit-là, vint aussitôt se jeter à ses pieds. JESUS semble vouloir s'éloigner pour un peu de temps des Juifs, & s'approcher des Gentils, qui habitoient dans les villes de Tyr & de Sidon : ce qu'il faisoit néanmoins d'une manière secrète, & qui ne pouvoit donner d'ombrage à son peuple. Car il est marqué exprès, qu'étant entré dans une maison, peut-être pour se reposer, il ne voulut point que personne en eût connoissance ; c'est-à-dire, qu'il défendit à ses disciples de le faire connoître à ces infidelles ; parce que ce n'étoit pas encore le temps de faire passer l'Evangile aux nations. Mais il ne put être caché, dit saint Marc ; c'est-à-dire, que l'ordre qu'il avoit donné qu'on ne parlât point de lui, n'empêcha pas qu'on ne sut que celui qui faisoit tant de miracles dans la Judée, étoit retiré en cette maison. Ce qui est dit donc, Que le Fils de Dieu ne voulut point qu'on le connût, & qu'il ne put se cacher, ne doit pas s'entendre comme s'il n'eût pas été au pouvoir de J. C. de se cacher s'il l'avoit voulu : mais cela ne signifie autre chose, sinon qu'il donna cet ordre qu'on ne parlât point de lui, afin qu'on ne pût lui reprocher d'agir lui-même contre la défense qu'il avoit faite à ses disciples d'aller vers les Gentils : mais que nonobstant cet ordre qu'il avoit donné, on eut bientôt connoissance qu'il étoit en ce lieu-là. Or bien loin que cela fût opposé à sa volonté, c'en fut même visiblement un effet, puisqu'on ne sauroit douter que cette femme Cananéenne qui vint le trouver, n'y soit venue par un mouvement de son Saint-Esprit, qui l'attira intérieurement à soi, pour donner à tous les Juifs en sa personne, un exemple de la foi la plus ardente & la plus capable de confondre leur insensibilité. Mais il se trouve une difficulté plus considérable à concilier S. Matthieu avec saint Marc, en ce que l'un dit, que cette femme vint se prosterner aux pieds du Sauveur dans la maison où il s'étoit retiré ; & que de la manière dont en parle l'autre, il est visible que ce fut dans le chemin que J. C. lui parla, & lui accorda enfin la guérison de sa fille. Saint Augustin éclaircit cette contrariété apparente, en distinguant deux temps différens, auxquels cette femme parla au Sauveur. Il paroît, comme on l'a marqué auparavant, que lorsque le Fils de Dieu entra dans cette maison, le peuple n'en avoit point encore de connoissance. Ainsi on ne sauroit dire, comme l'ont fait quelques-uns, que la femme Cananéenne lui parla d'abord dans le chemin, avant qu'il entrât en cette maison ; puisqu'il eût été connu dès-lors, ce qui n'étoit pas. Comme elle eut donc découvert qu'il étoit en ce lieu-là, elle y vint dans le moment, selon saint Marc, & le supplia d'avoir pitié d'elle, & de chasser le démon du corps de sa fille. J. C. ne lui répondit pas un seul mot, selon saint Matthieu. Et ce fut, dit saint Augustin, dans le temps-même de ce silence étonnant qu'il gardoit à l'égard de cette femme, qu'il sortit de la maison, peut-être pour donner lieu au peuple d'être témoin de la foi si vive & si humble de cette Cananéenne, qui auroit pu sans cela être moins connue. Lorsqu'il fut sorti avec ses disciples, elle le suivit sans se rebuter de son silence, & elle se mit à crier : Seigneur, fils de David, ayez pitié de moi, &c. Alors les disciples voyant que le Fils de Dieu ne lui parloit point du tout, lui dirent en s'approchant, ce qui est marqué dans saint Matthieu : Accordez-lui ce qu'elle demande, afin qu'elle s'en aille, parce qu'elle crie après nous. Car elle suivoit en criant ; & elle espéroit obtenir enfin par ses cris, ce que l'on avoit d'abord refusé à sa prière. Tout le reste de cette histoire est expliqué fort au long dans saint Matthieu. Et il est bon seulement de dire ici, que la fermeté si persévérante de cette femme à demander avec des cris redoublés, & avec une humilité presque incroyable, la guérison de sa fille, possédée extérieurement & tourmentée par le démon, confond bien notre insensibilité par l'état beaucoup plus déplorable où est notre ame. Esclaves des passions qu'excite en nous cet esprit impur, nous négligeons de recourir au Seigneur, qui n'est nommé fils de David que pour nous faire souvenir qu'il est plein de compassion pour les pécheurs, ou rebutés quelquefois des longs délais qu'il semble apporter à nous secourir, nous tombons dans le découragement, nous abandonnons la prière, & nous nous lassons d'implorer la main secourable du médecin souverain, qui est seule capable de nous guérir ; comme si notre guérison nous étoit due dès que nous la demandons, & qu'il ne dépendît pas de la volonté de celui que nous avons offensé de se réconcilier avec nous."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 25,
+    "lat": "Mulier enim statim ut audivit de eo , cujus filia habebat spiritum immundum , intravit , & procedit ad pedes ejus.",
+    "fr": "Car une personne dont la fille étoit possédée d'un esprit impur , ayant oui dire qu'il étoit là , vint aussitôt se jeter à ses pieds.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 26,
+    "lat": "Erat enim mulier Gentilis , Syrophœnissa genere. Et rogabat eum ut dæmonium ejiceret de filia ejus.",
+    "fr": "Elle étoit payenne , & Syrophénicienne de nation. Et elle le supplioit de chasser le démon du corps de sa fille.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 27,
+    "lat": "Qui dixit illi : Sine priùs saturari filios , non est enim bonum sumere panem filiorum & mittere canibus.",
+    "fr": "Mais JESUS lui dit : Laissez premièrement rassasier les enfans ; car il n'est pas bon de prendre le pain des enfans pour le donner aux chiens.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 28,
+    "lat": "At illa respondit , & dixit illi : Utique , Domine , nam & catelli comedunt sub mensa de micis puerorum.",
+    "fr": "Elle lui répondit : Il est vrai , Seigneur : mais les petits chiens mangent au moins sous la table des miettes du pain des enfans.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 29,
+    "lat": "Et ait illi : Propter hunc sermonem vade , exiit dæmonium à filia tua.",
+    "fr": "Alors il lui dit : Allez , à cause de cette parole le démon est sorti de votre fille.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 30,
+    "lat": "Et cùm abiisset domum suam , invenit puellam jacentem supra lectum , & dæmonium exiisse.",
+    "fr": "Et étant revenue en sa maison , elle trouva que le démon étoit sorti de sa fille , & qu'elle étoit couchée sur son lit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 31,
+    "lat": "Et iterùm exiens de finibus Tyri , venit per Sidonem ad mare Galilææ inter medios fines Decapoleos.",
+    "fr": "† JESUS quitta les confins de Tyr , & vint encore par Sidon vers la mer de Galilée , passant au milieu du pays de Décapolis.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 32,
+    "lat": "Et adducunt ei surdum & mutum , & deprecabantur eum , ut imponat illi manum.",
+    "fr": "Et quelques-uns lui ayant présenté un homme qui étoit sourd & * muet , le supplioient de lui imposer les mains.",
+    "note": "Quelques-uns lui ayant présenté un homme qui étoit sourd & muet, le supplioit de lui imposer les mains. Alors JESUS le tirant de la foule du peuple, & le prenant à part, lui mit ses doigts dans les oreilles, & de sa salive sur la langue, &c. Les plus habiles Interprètes ont remarqué que ce miracle est différent de celui qui est rapporté au neuvième chapitre de saint Matthieu. Car en celui-là, l'homme muet étoit possédé du démon, qui n'eut pas été plutôt chassé par la puissance de J. C. que ce muet se mit à parler. Mais en celui-ci, c'étoit un homme sourd & muet, qui n'étoit point possédé du démon, & que J. C. guérit en le tirant de la foule, en mettant ses doigts dans ses oreilles, & de sa salive sur la langue, en levant les yeux au ciel, en jetant un soupir, & en lui disant : Ouvrez-vous. Ces circonstances, qui font voir la différence de ce miracle, d'avec celui qui est rapporté dans saint Matthieu, méritent bien d'être examinées. Le Fils de Dieu tire ce malade de la foule du peuple, & le prend à part pour le guérir avec moins d'éclat, & d'une manière qui excitât moins la jalousie des Pharisiens. Il lui met ses doigts dans les oreilles & de sa salive sur la langue, quoiqu'il lui fût très-facile de le guérir par sa seule volonté, ou d'une seule parole ; parce qu'il vouloit agir quelquefois en homme, & couvrir de signes humains & sensibles ses divines opérations. Comme il semble donc que la surdité soit causée par quelques obstructions dans les oreilles, il y mit ses doigts, comme afin de les ouvrir & d'en ôter ce qui les bouchoit. Et parce qu'il semble aussi que ce qui rend un homme muet, est quelque malignité qui a abreuvé sa langue, & qui la tient comme liée ou attachée au palais, le Fils de Dieu appliqua sur la langue de ce muet sa salive, comme un baume d'une vertu admirable, pour la délier & lui rendre son mouvement ; faisant voir en l'un & en l'autre, selon la pensée de quelques Aneiens, que chaque partie de son corps par l'union qu'elle avoit avec la divinité, pouvoit être très-efficace pour la guérison des maladies. Il est dit encore, qu'il leva les yeux au ciel pour faire connoître que c'étoit d'en-haut, c'est-à-dire, de sa nature divine élevée au-dessus de tous les cieux, que lui venoit ce pouvoir suprême qu'il avoit sur toute la nature. Il jette ensuite un soupir, pour déplorer ces tristes effets du péché dans l'homme, qui n'eût point été sujet à toutes ces maladies, s'il eût conservé la grâce de son innocence. Enfin il joint son commandement à tout ce qu'il avoit fait, lorsqu'il dit à ce malade avec cette voix efficace à laquelle toute la nature obéit ; Ephphetha, c'est-à-dire, ouvrez-vous. Car il étoit nécessaire de faire connoître à tous ceux qui étoient présens, que c'étoit par un effet de sa volonté souveraine que les oreilles de ce sourd furent ouvertes, & que sa langue fut déliée ; ensorte qu'il commença à parler très-bien. Saint Grégoire Pape, dit que lorsque JESUS leva les yeux au ciel, & qu'il jeta un soupir, il le fit, non pour lui-même, mais pour nous. Car quant à lui, dit ce Père, il n'avoit aucun besoin de soupirer, puisque c'étoit lui-même qui accordoit comme Dieu, ce qu'il demandoit comme homme : Non quòd ipse necessarium gemitum haberet, qui dabat quod postulabat. Mais en gémissant & en regardant le ciel, il nous apprenoit par son exemple à soupirer vers celui qui préside dans le ciel ; afin que les oreilles de notre cœur soient ouvertes par la vertu de son Saint-Esprit, figurée par ses doigts divins, & que notre langue soit déliée par la divine sagesse du Verbe éternel, figurée par cette salive dont il mit sur la langue de ce muet. Il semble que la sainte Eglise inspirée de Dieu, ait pris de cette action miraculeuse de J. C. quelques-unes des cérémonies dont elle use en conférant le baptême ; pour nous apprendre, comme dit un Interprète, que celui qui doit être baptisé, est vraiment sourd & muet à l'égard de la parole de Dieu ; & qu'ainsi il faut, & que ses oreilles soient ouvertes pour pouvoir entendre cette divine parole, & que sa langue soit déliée pour faire une généreuse profession de sa foi, & qu'il soit présenté à l'Eglise par le parrain & par la marraine ; de même que cet homme sourd & muet fut présenté à J. C. par ceux qui lui demandèrent sa guérison."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 33,
+    "lat": "Et apprehendens eum de turba seorsum , misit digitos suos in auriculas ejus , & expuens tetigit linguam ejus :",
+    "fr": "Alors JESUS le tirant de la foule , & le prenant à part , lui mit ses doigts dans les oreilles , & de sa salive sur la langue :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 34,
+    "lat": "& suspiciens in cœlum , ingemuit , & ait illi : Ephphetha , quod est , Adaperire.",
+    "fr": "Et levant les yeux au ciel , il jeta un soupir , & lui dit : Ephphétha ; c'est-à-dire , Ouvrez-vous.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 35,
+    "lat": "Et statim apertæ sunt aures ejus , & solutum est vinculum linguæ ejus , & loquebatur rectè.",
+    "fr": "Aussitôt ses oreilles furent ouvertes , & sa langue fut déliée , & il parloit fort distinctement.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 36,
+    "lat": "Et præcepit illis ne cui dicerent : quantò autem eis præcipiebat , tantò magis plus prædicabant ;",
+    "fr": "Il leur défendit de le dire à personne : mais plus il le leur défendoit , plus ils le publioient ;",
+    "note": "Il leur défendit de le dire à personne : mais plus il le leur défendoit, plus ils le publioient. Et ils disoient dans l'admiration extraordinaire où ils étoient : Il a bien fait toutes choses, &c. On a déjà remarqué que ces sortes de défenses de J. C. étoient plutôt pour la confusion des Pharisiens & pour notre propre instruction, que pour ceux qu'il guérissoit ; c'est-à-dire, qu'il songeoit uniquement à ménager l'esprit jaloux & superbe de ces faux justes de l'ancienne loi, en même-temps qu'il nous apprenoit à éviter de faire le bien par un mouvement d'ostentation. Mais il étoit très-éloigné de condamner cet esprit de reconnoissance, qui portoit ceux qu'il avoit guéris à publier les louanges du Seigneur. Plus donc il leur défendoit de parler de leurs guérisons miraculeuses, plus ils se sentoient pressés de les divulguer par-tout, dans la joie & l'admiration extraordinaire où ils étoient de ces marques éclatantes de la puissance & de la bonté de Dieu. Cet éloge seul qu'ils lui donnoient, d'avoir bien fait toutes choses, sembloit détruire tous les faux bruits & toutes les impostures que les Pharisiens, les Prêtres & les Docteurs semoient par-tout contre lui. Car c'est de même que s'ils avoient dit : Il est trop visible qu'on impute faussement tant de crimes à celui qui fait tous les jours éclater une si divine vertu en faveur des hommes. Celui qui a le pouvoir de faire entendre les sourds & parler les muets, ne peut être qu'injustement accusé de faire du mal ; puisqu'il mérite au contraire d'être loué de faire bien toutes choses ; c'est-à-dire, d'être bon, juste & bienfaisant à l'égard de tous. Il n'y avoit proprement que de J. C. qu'on pût dire, qu'il faisoit bien toutes choses. Car qui pouvoit, comme il dit lui-même, le convaincre d'aucun péché ? Les hommes jaloux & superbes, & par conséquent aveugles, pouvoient bien l'en accuser. Mais la sagesse de Dieu se plaisoit à le justifier dans le même temps par la bouche du commun du peuple, qui agissant simplement, & jugeant de la vérité des choses sans prévention, rendoit gloire à J. C. On voit ailleurs qu'un aveugle-né qu'il avoit guéri, se voyant pressé par les Pharisiens de blasphémer contre lui, & de le regarder comme un pécheur, n'opposa à tous leurs vains raisonnemens que celui-ci : Nous savons que Dieu n'exauce point les pécheurs ; mais si quelqu'un l'honore & accomplit sa volonté, c'est celui-là qu'il exauce..... Si cet homme n'étoit point de Dieu, il ne pourroit rien faire de tout ce qu'il fait. Les peuples ici en jugent de même ; & de ce qu'il a fait entendre les sourds, & parler les muets, ils en concluent fort juste, Qu'il a bien fait toutes choses, non-seulement en faisant du bien à tout le monde, mais encore en faisant ce bien d'une manière irréprochable, quelque envenimée que pût être la médisance des Pharisiens contre lui. Mais reconnoissons aussi que c'est de lui véritablement qu'on doit dire encore en un autre sens, Qu'il a bien fait toutes choses ; puisque c'est par lui que toutes choses sont bien faites, & que sans lui, comme il assure lui-même, on ne peut faire aucun bien : Sine me nihil potestis facere. Car c'est lui-même qui produit encore tous les jours par sa grâce ces grands miracles, de faire entendre ceux qui sont sourds dans le cœur, & dont les oreilles intérieures sont fermées à l'égard de Dieu. C'est lui qui délie la langue des muets spirituels, en les faisant parler pour se condamner eux-mêmes comme pécheurs, & pour publier les miséricordes de leur Sauveur. Sans lui donc il n'y a rien de bien fait, & avec lui toutes choses sont bien faites."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 7,
+    "n": 37,
+    "lat": "& eò ampliùs admirabantur dicentes : Benè omnia fecit ; & surdos fecit audire , & multos loqui.",
+    "fr": "& ils disoient dans l'admiration extraordinaire où ils étoient : Il a bien fait toutes choses ; il a fait entendre les sourds & parler les muets ¶.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 1,
+    "lat": "In diebus illis iterùm cùm turba multa esset , nec haberent quod manducarent , convocatis discipulis , ait illis :",
+    "fr": "† En ce temps-là , le peuple s'étant trouvé encore une fois en fort grand nombre auprès de JESUS , & n'ayant point de quoi manger , il appela ses disciples , & leur dit :",
+    "note": "En ce temps-là , le peuple s'étant trouvé encore une fois en fort grand nombre auprès de JESUS , & n'ayant point de quoi manger , il appela ses disciples , & leur dit , &c. Nous apprenons de saint Matthieu , que JESUS étant monté sur une montagne , il s'y assit ; & que là de grandes troupes de peuples le vinrent trouver , & lui présentèrent des muets , des aveugles , des boiteux , & beaucoup d'autres malades , qu'il guérit tous. Et ce fut alors sans doute qu'arriva aussi le miracle de la guérison de cet homme sourd & muet, dont il est parlé à la fin du chapitre précédent. En ce temps-là donc, lorsqu'un fort grand nombre de peuples se trouva encore une fois dans le désert avec J. C. sans avoir de quoi manger, il fut touché de compassion de les voir ainsi attachés auprès de lui, sans songer à leurs besoins. Ce fut ce qui l'engagea à faire pour la seconde fois le miracle de la multiplication des pains en faveur de toute cette multitude, & de ces malades, qui préféroient à toutes choses la consolation de l'entendre, & de se tenir près de sa personne. Et il est vrai qu'il y a autant de sujet d'admirer la persévérance de la foi de tout ce peuple, qui ne témoignoit aucune inquiétude pour sa nourriture dans un lieu désert ; qu'il y avoit lieu de s'étonner en même-temps de la foiblesse des Apôtres, à qui le premier miracle de la multiplication des cinq pains ne servit de rien pour leur faire concevoir que celui qui leur témoignoit alors avoir compassion de tant de peuples affamés, n'étoit pas moins puissant pour les nourrir de nouveau d'une manière miraculeuse, qu'il l'avoit été la première fois. Comment pourra-t-on, lui dirent-ils, trouver assez de pain dans ce désert pour les nourrir ? Mais comment en avoit-on trouvé l'autre fois pour nourrir encore un plus grand nombre de personnes ? N'est-ce pas le même JESUS qui avoit fait ce miracle, à qui ils parloient ? Et ne sont-ce pas les mêmes Apôtres, qui lui avoient fait auparavant la même difficulté, qu'ils virent levée tout-d'un-coup par la bénédiction toute-puissante de leur maître ? Comment donc est-il possible, que ceux que le Fils de Dieu destinoit à être les colonnes de son Eglise, & à soutenir tous les autres par leur fermeté, paroissent présentement plus foibles que les moindres du commun du peuple ? C'est que le temps où ils devoient être, comme dit J. C. revêtus de la force d'en haut, n'étoit pas encore arrivé. Et plus leur foiblesse se faisoit sentir alors, plus le Fils de Dieu fit éclater dans la suite cette divine force dont ils furent tout remplis, lorsqu'il envoya d'en haut, & fit descendre sur eux son Saint-Esprit."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 2,
+    "lat": "Misereor super turbam : quia ecce jam triduo sustinent me , nec habent quod manducent :",
+    "fr": "J'ai compassion de ce peuple : parce qu'il y a déjà trois jours qu'ils demeurent continuellement avec moi , & ils n'ont rien à manger :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 3,
+    "lat": "& si dimisero eos jejunos in domum suam , deficient in via ; quidam enim ex eis de longe venerunt.",
+    "fr": "& si je les renvoie en leurs maisons sans avoir mangé , les forces leur manqueront en chemin ; parce que quelques-uns d'eux sont venus de loin.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 4,
+    "lat": "Et responderunt ei discipuli sui : Unde illos quis poterit hìc saturare panibus in solitudine ?",
+    "fr": "Ses disciples lui répondirent : Comment pourroit-on trouver dans ce désert assez de pain pour les rassasier ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 5,
+    "lat": "Et interrogavit eos : Quot panes habetis ? Qui dixerunt : Septem.",
+    "fr": "Il leur demanda : Combien avez-vous de pains ? Sept , lui dirent-ils.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 6,
+    "lat": "Et præcepit turbæ discumbere super terram : & accipiens septem panes , gratias agens fregit , & dabat discipulis suis ut apponerent ; & apposuerunt turbæ.",
+    "fr": "Alors il commanda au peuple de s'asseoir sur la terre : il prit les sept pains , & rendant grâces , il les rompit , les donna à ses disciples pour les distribuer ; & ils les distribuèrent au peuple.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 7,
+    "lat": "Et habebant pisciculos paucos ; & ipsos benedixit , & jussit apponi.",
+    "fr": "Ils avoient encore quelques petits poissons , qu'il bénit aussi : & il commanda qu'on les leur distribuât de même.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 8,
+    "lat": "Et manducaverunt , & saturati sunt ; & sustulerunt quod superaverat de fragmentis , septem sportas.",
+    "fr": "Ils mangèrent donc , & furent rassasiés : & on remporta sept corbeilles pleines des morceaux qui étoient restés.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 9,
+    "lat": "Erant autem qui manducaverant , quasi quatuor millia : & dimisit eos.",
+    "fr": "Or ceux qui mangèrent étoient environ quatre mille : & JESUS les renvoya ¶.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 10,
+    "lat": "Et statim ascendens navim cum discipulis suis , venit in partes Dalmanutha :",
+    "fr": "Aussitôt étant entré dans une barque avec ses disciples , il vint dans le pays de Dalmanutha :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 11,
+    "lat": "& exierunt Pharisæi , & cœperunt conquirere cum eo , quærentes ab illo signum de cœlo , tentantes eum.",
+    "fr": "où les Pharisiens l'étant venus trouver , ils commencèrent à disputer avec lui , & lui demandèrent pour le tenter , qu'il leur fit voir quelque prodige dans le ciel.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 12,
+    "lat": "Et ingemiscens , spiritu , ait : Quid generatio ista signum quærit ? Amen dico vobis , si dabitur generationi isti signum.",
+    "fr": "Mais JESUS * jetant un soupir du fond du cœur , leur dit : Pourquoi * ces gens-là demandent-ils un prodige ? Je vous dis en vérité , qu'il ne sera point donné de prodige à ces gens-là.",
+    "note": "Mais jetant un soupir du fond du cœur, il leur dit : Pourquoi ces gens-là demandent-ils un prodige ? Je vous dis en vérité qu'il ne sera point donné de prodige à ces gens-là. Ce qui faisoit soupirer le Fils de Dieu, étoit cet horrible aveuglement des Pharisiens, qui ayant été témoins tant de fois des miracles qu'il faisoit en faveur des hommes, s'endurcissoient par un effet déplorable de leur orgueil contre le témoignage de leurs propres yeux, & fermoient leur cœur d'autant plus à la vérité, qu'ils voyoient à tous momens plus de preuves incontestables de sa divine puissance. Mais pourquoi donc J. C. soupire-t-il, lorsqu'ils lui demandent un nouveau prodige ? Ne pouvoit-il pas leur donner un esprit de componction, & amollir la dureté de leur cœur, selon cette vérité annoncée aux Juifs par saint Jean-Baptiste, Que Dieu peut des pierres mêmes faire naître des enfans à Abraham ? Ouï sans doute, il le pouvoit. Mais s'il n'a pas fait ce qu'il pouvoit, pour des raisons dont saint Paul n'a osé fonder lui-même la profondeur, l'endurcissement & l'aveuglement de ces Pharisiens en étoit-il moins criminel, & moins un effet de la malice de leur volonté ? Et n'étoit-il pas d'une très-grande importance que le Fils de Dieu, en soupirant, comme il fait ici, nous fit concevoir par-là d'une manière plus vive, combien en effet cet état des Pharisiens, & de ceux qui leur ressemblent dans le cours de tous les siècles, est digne de nos soupirs ? Car ce qui a fait soupirer un Dieu, doit être bien déplorable : & l'homme ne peut avoir assez de larmes pour pleurer ce qui a été capable de faire gémir son Sauveur. Ce qu'il dit ensuite avec serment, Qu'il ne seroit point donné de prodige aux Pharisiens, comme ils lui en demandoient, n'est point contraire à ce qu'il déclare dans saint Matthieu, touchant le prodige du Prophète Jonas. Car ce prodige qui arriva en la personne de Jonas, n'étoit point nouveau. Et J. C. leur donnoit lieu seulement de le remarquer, comme un signe ou une image de ce qui lui arriveroit à lui-même. D'ailleurs, il est vrai encore, qu'il refusa de leur accorder ce qu'ils demandoient ; puisqu'ils vouloient voir un prodige dans le ciel. Mais de quelle utilité eut pu être un tel prodige pour les convertir, eux à qui l'obscurcissement même du soleil, qui arriva à la mort de JESUS-CHRIST, ne servit qu'à augmenter les ténèbres de leur orgueil ?"
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 13,
+    "lat": "Et dimittens eos , ascendit iterùm navim , & abiit trans fretum.",
+    "fr": "Et les quittant là , il remonta dans la barque , & passa à l'autre bord.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 14,
+    "lat": "Et obliti sunt panes sumere ; & nisi unum panem non habebant secum in navi.",
+    "fr": "Or les disciples avoient oublié de prendre des pains ; & ils n'avoient qu'un seul pain dans leur barque.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 15,
+    "lat": "Et præcipiebat eis , dicens : Videte , & cavete à fermento Pharisæorum , & fermento Herodis.",
+    "fr": "JESUS leur donna ce précepte : Ayez soin de vous bien garder du levain des Pharisiens , & du levain d'Hérode.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 16,
+    "lat": "Et cogitabant ad alterutrum , dicentes : Quia panes non habemus.",
+    "fr": "Sur quoi ils pensoient & se disoient l'un à l'autre : En effet nous n'avons point pris de pain.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 17,
+    "lat": "Quo cognito , ait illis Jesus : Quid cogitatis , quia panes non habetis ? Nondum cognoscitis nec intelligitis ? Adhuc cæcatum habetis cor vestrum ?",
+    "fr": "Ce que JESUS connoissant , il leur dit : Pourquoi vous entretenez-vous de cette pensée , que vous n'avez point de pain ? N'avez-vous point encore de sens ni d'intelligence ? & votre cœur est-il encore dans l'aveuglement ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 18,
+    "lat": "Oculos habentes non videtis ? & aures habentes non auditis : Nec recordamini ?",
+    "fr": "Aurez-vous toujours des yeux sans voir & des oreilles sans entendre ? Et avez-vous perdu la mémoire ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 19,
+    "lat": "Quando quinque panes fregi in quinque millia , quot cophinos fragmentorum plenos sustulistis ? Dicunt ei : Duodecim.",
+    "fr": "Lorsque je rompis les cinq pains pour cinq mille hommes , combien remportâtes-vous de paniers pleins de morceaux ? Douze , lui dirent-ils.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 20,
+    "lat": "Quando & septem panes in quatuor millia , quot sportas fragmentorum tulistis ? Et dicunt ei : Septem.",
+    "fr": "Et lorsque je rompis les sept pains pour quatre mille hommes , combien remportâtes-vous de corbeilles pleines de morceaux ? Sept , lui dirent-ils.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 21,
+    "lat": "Et dicebat eis : Quomodo nondùm intelligitis ?",
+    "fr": "Et il ajouta : Comment donc ne comprenez-vous pas encore ce que je vous dis ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 22,
+    "lat": "Et veniunt Bethsaidam , & adducunt ei cæcum , & rogabant eum ut illum tangerent.",
+    "fr": "Et étant arrivés à Bethsaïde , on lui amena un aveugle , qu'on le pria de toucher.",
+    "note": "Etant arrivés à Bethsaïde, on lui amena un aveugle, qu'on le pria de toucher : & prenant l'aveugle par la main, il le mena hors du bourg, &c. Ceux qui amenèrent cet aveugle à J. C. faisoient paroître leur foi en ce qu'ils le regardoient comme pouvant rendre la vue à cet homme qui l'avoit perdue. Mais ils témoignoient en même temps que leur foi n'étoit pas assez éclairée ; puisqu'en priant le Sauveur de le toucher, ils sembloient borner sa puissance comme s'il n'eut pu guérir cet aveugle qu'en le touchant. Il est vrai aussi, que comme le Fils de Dieu guérissoit souvent les malades en leur imposant les mains, ceux qui vinrent lui présenter celui-ci, purent bien agir simplement lorsqu'ils le prièrent de le toucher, à cause de cette manière dont il en usoit dans la guérison de plusieurs malades. Il prend celui-ci par la main pour le conduire hors de Bethsaïde, voulant éviter le concours du peuple, que lui auroit attiré la vue de sa guérison miraculeuse, & nous apprendre, selon sa coutume, à fuir les actions éclatantes. Mais il nous enseigne encore en le prenant par la main, que tous ceux qui sont aveugles dans l'ame, comme cet homme l'étoit des yeux corporels, ont souvent besoin d'être conduits par la main du Fils de Dieu, c'est-à-dire, par son Esprit & par sa grâce, hors du tumulte des villes, où ils peuvent difficilement recouvrer la lumière de la charité & d'une foi vive, que la vue même du siècle leur a peut-être fait perdre. Après avoir mis de sa salive sur ses yeux, pour les raisons que l'on a marquées auparavant dans la guérison de celui qui étoit sourd & muet ; & après lui avoir imposé les mains, il lui demanda s'il voyoit quelque chose. La foi nous apprend que J. C. ne doutoit pas du pouvoir très-absolu qu'il avoit de guérir cet homme. Et ainsi cette demande qu'il lui fait, tendoit seulement à lui faire remarquer le commencement de sa guérison, & même à lui faire peut-être sentir qu'il manquoit encore quelque chose de nécessaire à sa foi. Car quoiqu'il l'eut pu guérir tout-d'un-coup, comme tant d'autres, il le voulut faire par degrés, & en augmentant sans doute peu à peu la foi de cet homme, pour nous tracer dans sa guérison une image de ce qui se passe presque toujours d'une manière invisible dans la guérison spirituelle de l'aveuglement de nos ames, dont la parfaite conversion n'est pas ordinairement l'ouvrage d'un jour, mais de plusieurs mois, & même de plusieurs années. Que veut dire cet aveugle, lorsque J. C. lui demandant s'il commençoit à voir quelque chose, il répond : Qu'il voit des hommes qui marchent ; mais que ces hommes lui paroissent comme des arbres ? Cela signifie seulement, selon la lettre, qu'il voyoit encore d'une manière fort imparfaite. Car quand des hommes nous paroissent comme des arbres, c'est signe que nous ne distinguons point encore ce que nous voyons, & que les objets se présentent tout informes à nos yeux par le défaut même de notre vue. Il fut donc besoin, selon le dessein qu'avoit J. C. de faire connoître plus sensiblement la nécessité de son secours, & l'excès de l'aveuglement des hommes, qui nous étoit figuré dans ces guérisons corporelles, qu'il imposât encore une fois les mains sur les yeux de cet aveugle, afin qu'il put voir distinctement les objets. Car ç'eut été une guérison trop imparfaite, que celle qui l'auroit mis seulement en état de prendre des hommes pour des arbres. Et c'est ainsi qu'il arrive encore souvent dans les guérisons spirituelles des ames, que la lumière de la foi ne leur est rendue, pour le dire ainsi, qu'à demi. Elles commencent en effet à voir quelque chose comme cet aveugle, lorsque J. C. leur a mis comme le premier appareil de sa grâce sur les yeux. Mais parce qu'elles négligent de lui demander qu'il confirme & acheve en elles ce qu'il y a commencé, elles demeurent comme entre la lumière & les ténèbres, ne discernant qu'à demi toutes les choses qui regardent leur salut ; & elles retombent même assez souvent dans cette première obscurité d'où elles étoient sorties. C'est la raison pour laquelle le grand Apôtre disoit aux premiers Chrétiens : Qu'il ne cessoit point de prier pour eux, & de demander à Dieu qu'il les remplit de la connoissance de sa volonté, en leur donnant toute la sagesse & toute l'intelligence spirituelle, afin qu'ils marchassent d'une manière digne de Dieu, s'appliquant à lui plaire en toutes choses, portant des fruits de toutes sortes de bonnes œuvres, & croissant en la connoissance de Dieu. C'est à cette divine lumière de la foi, qui agit par la charité, que nous devons aspirer sans cesse. C'est elle que nous devons attirer continuellement par nos prières. Sans elles nous sommes vraiment aveugles plus ou moins, selon ou qu'elle s'éloigne de nous, ou qu'elle se dérobe entièrement à nous. Mais nous ne pouvons néanmoins nous attendre en cette vie à être, comme cet aveugle, tellement guéris, que nous voyons distinctement toutes choses. Ce n'est point ici le temps de la claire vision. Ce que nous avons maintenant de connoissance, dit saint Paul, n'est qu'imparfait.... Nous ne voyons présentement que comme en un miroir & en des énigmes : mais alors nous verrons face à face. J. C. après avoir rétabli la vue de cet homme, le renvoie dans sa maison, & lui défend, en cas qu'il entrât dans Bethsaïde, de dire à aucun des habitans le miracle par lequel il avoit été guéri. Sur quoi l'on peut demander deux choses ; la première, pourquoi le Sauveur le renvoie en sa maison ; & la seconde, pourquoi il lui fait défense en le renvoyant, de parler de sa guérison miraculeuse. Nous voyons bien en effet, qu'ayant guéri d'autres malades, il les renvoyoit de même chez eux ; mais il leur commandoit en même-temps de publier les grandes grâces qu'ils avoient reçues du Seigneur, & la miséricorde qu'il leur avoit faite. Il paroît donc que le Fils de Dieu renvoie cet homme chez lui, pour l'empêcher d'aller à Bethsaïde faire du bruit de ce grand miracle. Car il est clair que la maison de cet homme n'étoit pas dans Bethsaïde, puisqu'il lui dit, qu'en cas qu'il entrât dans cette ville ou dans ce bourg, parce qu'il falloit peut-être y passer pour s'en retourner chez lui, il ne parlât à personne de ce miracle, c'est-à-dire, à aucun des habitans de Bethsaïde. C'est donc au peuple de cette ville qu'il ne vouloit pas qu'il en parlât, & non à ses proches ; puisqu'il est juste de les informer de la manière dont JESUS l'avoit guéri, & que même il auroit été difficile de le leur cacher. Que si l'on demande maintenant pourquoi il ne vouloit pas que ce miracle fut divulgué dans Bethsaïde, on peut dire premièrement, que ce pouvoit être la raison générale, dont on a déjà parlé plusieurs fois ; c'est-à-dire, que c'étoit pour éviter un trop grand éclat, & pour nous apprendre à l'éviter avec encore bien plus de soin. En second lieu, il vouloit peut-être punir l'orgueil & l'ingratitude de cette ville, qui avoit déjà négligé beaucoup de grâces qu'elle avoit reçues, comme J. C. le lui reproche dans saint Matthieu, en la joignant à Corozaïn dans la même insensibilité, lorsqu'il leur dit : Malheur à toi, Corozaïn, malheur à toi, Bethsaïde ; parce que si les miracles qui ont été faits au milieu de vous, avoient été faits dans Tyr & Sidon, il y a déjà long-temps qu'elles auroient fait pénitence. Il paroît donc que cette ville de Bethsaïde s'étoit rendue indigne des grâces du Fils de Dieu, & qu'ainsi elle ne méritoit pas même de connoître davantage les miracles qu'il faisoit, étant plus aveugle dans le cœur que l'aveugle qu'il venoit de guérir, & d'une espèce d'aveuglement beaucoup plus incurable aux hommes, quoiqu'il ne le fut pas néanmoins à la puissance de J. C."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 23,
+    "lat": "Et apprehensâ manu cæci , eduxit eum extra vicum : & expuens in oculos ejus , impositis manibus suis , interrogavit eum si quid videret.",
+    "fr": "Et prenant l'aveugle par la main , il le mena hors du bourg : il lui * mit de sa salive sur les yeux ; & lui ayant imposé les mains , il lui demanda s'il voyoit quelque chose.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 24,
+    "lat": "Et aspiciens , ait : Video homines velut arbores ambulantes.",
+    "fr": "Cet homme regardant , lui dit : Je vois marcher des hommes , qui me paroissent comme des arbres.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 25,
+    "lat": "Deinde iterùm imposuit manus super oculos ejus , & cœpit videre ; & restitutus est ita , ut clarè videret omnia.",
+    "fr": "JESUS lui mit encore une fois les mains sur les yeux , & il * commença à mieux voir ; & fut tellement guéri , qu'il voyoit distinctement toutes choses.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 26,
+    "lat": "Et misit illum in domum suam , dicens : Vade in domum tuam ; & si in vicum introieris , neminì dixeris.",
+    "fr": "Il le renvoya ensuite dans sa maison , & lui dit : Allez-vous-en en votre maison ; * & si vous entrez dans le bourg , n'y dites à personne ce qui vous est arrivé.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 27,
+    "lat": "Et egressus est Jesus , & discipuli ejus , in castella Cæsareæ Philippi : & in via interrogabat discipulos suos , dicens eis : Quem me dicunt esse homines ?",
+    "fr": "JESUS partit de là avec ses disciples , pour s'en aller dans les villages qui sont aux environs de Césarée de Philippe , & il leur fit en chemin cette question : Qui * dit-on que je suis ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 28,
+    "lat": "Qui responderunt illi , dicentes : Joannem Baptistam ; alii Eliam ; alii verò quasi unum de Prophetis.",
+    "fr": "Ils lui répondirent : Les uns disent que vous êtes Jean-Baptiste ; les autres Elie ; les autres que vous êtes égal à l'un des anciens Prophètes *.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 29,
+    "lat": "Tunc dicit illis : Vos verò quem me esse dicitis ? Respondens Petrus , ait ei : Tu es Christus.",
+    "fr": "Mais vous , leur dit-il , qui dites-vous que je suis ? Pierre lui répondit : Vous êtes le CHRIST.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 30,
+    "lat": "Et comminatus est eis , ne cui dicerent de illo.",
+    "fr": "Et il leur défendit avec menaces de le dire à personne.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 31,
+    "lat": "Et cœpit docere eos , quoniam oportet Filium hominis pati multa , & reprobari à senioribus , & à summis Sacerdotibus , & Scribis , & occidi , & post tres dies resurgere :",
+    "fr": "Il commença en même-temps à leur déclarer , qu'il falloit que le Fils de l'homme souffrît beaucoup , qu'il fut rejeté par les Sénateurs , par les Princes des Prêtres & par les Scribes , qu'il fût mis à mort , & qu'il ressuscitât trois jours après :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 32,
+    "lat": "Et palàm verbum loquebatur. Et apprehendens eum Petrus , cœpit increpare eum.",
+    "fr": "& il en parloit tout ouvertement. Alors Pierre le tirant à part , commença à le reprendre.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 33,
+    "lat": "Qui conversus , & videns discipulos suos , comminatus est Petro , dicens : Vade retro me , satana , quoniam non sapis quæ Dei sunt , sed quæ sunt hominum.",
+    "fr": "Mais lui se retournant , & regardant ses disciples , reprit rudement Pierre , & lui dit : Retirez-vous de moi , satan ; parce que vous n'avez point de goût pour les choses de Dieu , mais seulement pour * les choses de la terre.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 34,
+    "lat": "Et convocatà turbà cum discipulis suis , dixit eis : Si quis vult me sequi , deneget semetipsum , & tollat crucem suam , & sequatur me.",
+    "fr": "Et appelant à soi le peuple avec ses disciples , il leur dit : Si quelqu'un veut venir après moi , qu'il renonce à soi-même , & qu'il se charge de sa croix , & me suive.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 35,
+    "lat": "Qui enim voluerit animam suam salvam facere , perdet eam ? qui autem perdiderit animam suam propter me & Evangelium , salvam faciet eam.",
+    "fr": "Car celui qui se voudra sauver * soi-même , se perdra ; & celui qui se perdra pour l'amour de moi & de l'Evangile , se sauvera.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 36,
+    "lat": "Quid enim proderit homini , si lucretur mundum totum , & detrimentum animæ suæ faciat ?",
+    "fr": "Car que serviroit à un homme de gagner tout le monde , & de se perdre soi-même ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 37,
+    "lat": "Aut quid dabit homo commutationis , pro anima sua ?",
+    "fr": "Et s'étant perdu une fois , * par quel échange se pourra-t-il racheter ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 38,
+    "lat": "Qui enim me confusus fuerit , & verba mea , in generatione ista adultera & peccatrice , & Filius hominis confundetur eum , cùm venerit in gloria Patris sui cum Angelis sanctis.",
+    "fr": "Car si quelqu'un rougit de moi & de mes paroles parmi cette race adultère & péchéresse , le Fils de l'homme rougira aussi de lui , lorsqu'il viendra accompagné des saints Anges dans la gloire de son Père.",
+    "note": "Car si quelqu'un rougit de moi, & de mes paroles parmi cette race adultère & péchéresse, le Fils de l'homme rougira aussi de lui, lorsqu'il viendra accompagné des saints Anges dans la gloire de son Père. C'est une des plus grandes tentations pour les justes d'être exposés aux insultes & aux moqueries des méchans, lorsqu'ils ne songent qu'à plaire à Dieu. Car le Diable ne pouvant les détourner de la voie de la justice, dans laquelle ils ont commencé de marcher avec courage, a recours à ce moyen comme au plus puissant qu'il ait, pour ébranler ou pour renverser leur piété, s'ils ne sont, comme dit saint Paul, enracinés très-fortement dans l'amour de J. C. Il oppose donc sans cesse à la race des hommes justes, une autre race, qui est celle des méchans, que le Fils de Dieu appelle ici une race adultère & péchéresse. Elle est adultère, à cause de sa prostitution à toutes sortes d'impuretés, & de son éloignement de Dieu, à qui elle auroit dû se tenir inviolablement attachée, comme à son véritable époux. Elle est péchéresse, parce qu'elle fait comme une profession publique d'offenser Dieu, s'abandonnant au péché avec plaisir, & l'avalant comme l'eau, selon l'expression de l'Ecriture. Cette race de méchans, qui est toute possédée de l'esprit du démon, n'aspire non plus que lui à autre chose qu'à pervertir les voies du Seigneur dans ses serviteurs : & autant que le mensonge est exposé à la vérité, que la cupidité est contraire à la charité, que l'orgueil est ennemi de l'humilité ; autant cette race adultère & péchéresse est aussi nécessairement opposée à la race des hommes justes, de ceux qui cherchent sincèrement le Seigneur, comme parle le Prophète. Ils sont donc sans cesse obligés de se roidir contre ce torrent de la malice des pécheurs, qui s'opposent continuellement à leur piété par leur exemple, par leurs insultes, par leurs persécutions. Et comme il est assez ordinaire qu'une mauvaise honte l'emporte enfin sur ce que l'on doit à Dieu, & à sa conscience, & qu'on se lasse de résister aux moqueries de ceux qui foulent aux pieds les saintes maximes de l'Evangile ; J. C. oppose ici à cette confusion criminelle dont on est touché à son égard, lorsque par des considérations humaines on s'écarte de la piété, une autre sorte de confusion bien plus redoutable, & qui doit servir à affermir dans la vertu ceux que cette autre honte auroit eu la force d'ébranler. Il proteste donc que si quelqu'un rougissoit de lui & de sa parole, c'est-à-dire, de son Evangile, au milieu de ces méchans & de ces pécheurs, en craignant de pratiquer ses préceptes & de suivre son exemple, de peur de déplaire au monde & à tous ses sectateurs, il rougiroit aussi de lui ; c'est-à-dire, qu'il refuseroit de le reconnoître pour son disciple en présence des saints Anges, lorsqu'il viendroit à la fin du monde dans la gloire de son Père pour juger toute la terre. Quelle différence de cette mauvaise honte dont on est frappé présentement dans un petit coin de la terre, & devant quelque petit nombre de personnes, que leur impiété même nous doit rendre méprisables ; & cette autre honte qu'on recevra très-justement à la vue de tous les hommes & de tous les Anges, lorsqu'on sera convaincu d'avoir préféré à son Dieu & à son salut la vaine estime de quelques méchans, & qu'on se verra privé pour toujours de la gloire de Dieu même, pour avoir ainsi cherché vainement la gloire des hommes ! Il faut donc que la foi détrompe nos sens, & qu'elle nous représente si vivement cette éternelle confusion, qui doit être le châtiment de cette autre honte passagère, qu'elle nous fasse fouler aux pieds toutes vues & toutes craintes humaines, lorsqu'il s'agit d'assurer notre bonheur éternel. C'étoit dans cette dernière confusion, que le roi David demandoit à Dieu d'être préservé ; parce, disoit-il, qu'il s'attachoit à ses ordonnances. Et le fondement sur lequel il s'appuyoit, lorsqu'il disoit à Dieu même, qu'il ne tomberoit point dans cette confusion éternelle, étoit qu'il avoit mis son espérance en lui seul, & non dans les créatures : In te Domine speravi, non confundar in æternum."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "n": 39,
+    "lat": "Et dicebat illis : Amen dico vobis , quia sunt quidam de hìc stantibus , qui non gustabunt mortem , donec videant regnum Dei veniens in virtute.",
+    "fr": "Et il ajouta : Je vous dis en vérité , qu'il y en a quelques-uns de ceux qui sont ici qui ne * mourront point , qu'ils n'ayent vu arriver le règne de Dieu dans sa puissance.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 1,
+    "lat": "Et post dies sex assumit Jesus Petrum , & Jacobum , & Joannem , & ducit illos in montem excelsum seorsum solos , & transfiguratus est coram ipsis.",
+    "fr": "Six jours après , JESUS ayant pris Pierre , Jacques & Jean , les mena seuls avec lui sur une haute montagne à l'écart , & il fut transfiguré devant eux.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 2,
+    "lat": "Et vestimenta ejus facta sunt splendentia , & candida nimis velut nix , qualia fullo non potest super terram candida facere.",
+    "fr": "Ses vêtemens divinrent tout brillans de lumière , & blancs comme la neige , & d'une blancheur que nul foulon sur la terre ne pourroit jamais égaler.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 3,
+    "lat": "Et apparuit illis Elias cum Moysè , & erant loquentes cum Jesu.",
+    "fr": "Et ils virent paroître Elie & Moyse , qui s'entretenoient avec JESUS.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 4,
+    "lat": "Et respondens Petrus , ait Jesu : Rabbi , bonum est nos hìc esse : & faciamus tria tabernacula , tibi unum , & Moysi unum , & Eliæ unum :",
+    "fr": "Alors Pierre dit à JESUS : Maître , nous sommes bien ici ; faisons-y trois tentes , une pour vous , une pour Moyse , & une pour Elie :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 5,
+    "lat": "non enim sciebat quid diceret , erant enim timore exterriti.",
+    "fr": "car il ne savoit ce qu'il disoit , tant ils étoient effrayés.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 6,
+    "lat": "Et facta est nubes obumbrans eos : & venit vox de nube , dicens : Hic est Filius meus carissimus , audite illum.",
+    "fr": "En même-temps il parut une nuée * qui les couvrit ; & il sortit une voix de cette nuée , qui fit entendre ces mots : Celui-ci est mon Fils bien-aimé ; écoutez-le.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 7,
+    "lat": "Et statim circumspicientes , neminem amplius viderunt , nisi Jesum tantùm secum.",
+    "fr": "Aussitôt regardant de tous côtés , ils ne virent plus personne que JESUS , qui étoit demeuré seul avec eux.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 8,
+    "lat": "Et descendentibus illis de monte , præcepit illis ne cuiquam quæ vidissent , narrarent , nisi cùm filius hominis à mortuis resurrexerit.",
+    "fr": "Lorsqu'ils descendoient de la montagne , il leur commanda de ne parler à personne de ce qu'ils avoient vu , jusqu'à ce que le Fils de l'homme fût ressuscité d'entre les morts.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 9,
+    "lat": "Et verbum continuerunt apud se , conquirentes quid esset : Cùm à mortuis resurrexerit.",
+    "fr": "Et ils tinrent la chose secrète , s'entredemandant ce qu'il vouloit dire par ce mot : Jusqu'à ce que le Fils de l'homme fût ressuscité.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 10,
+    "lat": "Et interrogabant eum , dicentes : Quid ergo dicunt Pharisæi & Scribæ , quia Eliam oportet venire primùm ?",
+    "fr": "Alors ils lui demandèrent : Pourquoi les Pharisiens & les Scribes disent-ils qu'il faut qu'Elie vienne auparavant ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 11,
+    "lat": "Qui respondens , ait illis : Elias cùm venerit primò , restituet omnia : & quomodo scriptum est in Filium hominis , ut multa patiatur & contemnatur.",
+    "fr": "* Il leur répondit : Il est vrai qu'auparavant Elie doit venir , & rétablir toutes choses , & qu'il souffrira beaucoup , & sera rejeté avec le même mépris qu'il a été écrit que le Fils de l'homme le doit être.",
+    "note": "Il est vrai qu'Elie viendra d'abord , & rétablira toutes choses ; & que de même qu'il est écrit du Fils de l'homme , il doit souffrir beaucoup , & être méprisé par les hommes , &c. J. C. parle ici visiblement du prophète Elie, lorsqu'il dit : Qu'il viendra d'abord. Car en effet ce Prophète ne fut autrefois enlevé dans un char de feu, que pour être mis en réserve, dans un lieu que Dieu seul connoît, en attendant l'heure du dernier avénement du Sauveur. Elie viendra donc d'abord ; c'est-à-dire, qu'il paroîtra sur la terre de nouveau avant que le Fils de Dieu se montre dans la gloire de son Père. Et il rétablira toutes choses ; c'est-à-dire, que faisant alors la fonction d'Apôtre à l'égard des Juifs, il fera entrer ceux qui resteront, en leur faisant reconnoître & adorer J. C. comme le Messie véritable qu'ils attendoient depuis tant de siècles. Mais étant le Précurseur du second avénement du Fils de l'homme, il sera traité comme le Fils de l'homme l'a été lui-même à son premier avénement ; c'est-à-dire, qu'il souffrira beaucoup de maux de la part des hommes, & qu'il sera méprisé par les méchans. Car il est marqué dans l'Apocalypse, que ceux qui sont nommés les deux témoins du Seigneur, & les deux Prophètes de la fin du monde ; c'est-à-dire, Enoc & Elie, ayant prophétisé revêtus de sacs, & achevé de rendre leur témoignage, la bête qui monte de l'abîme leur fera la guerre, les vaincra & les tuera ; ... & que les habitans de la terre s'en réjouiront, parce que ces deux Prophètes les auront fort tourmentés par leurs reproches, par leurs menaces de la part de Dieu, & par l'exemple de la pureté de leur vie, toute opposée à la corruption de la leur. Mais après que J. C. a parlé ici du prophète Elie, il parle aussitôt de saint Jean-Baptiste, qui a été la figure de ce Prophète, en ce qu'il a été le Précurseur du premier avénement du Messie, comme ce Prophète le doit être du second ; & même il lui donne le nom d'Elie : Je vous dis, ajoute le Fils de Dieu, qu'Elie même est déjà venu, & qu'ils l'ont traité comme il leur a plu, selon ce qui en avoit été écrit ; c'est-à-dire, que Jean-Baptiste est déjà venu, ayant marché devant le Seigneur dans l'esprit & dans la vertu d'Elie, selon l'expression de l'Evangéliste saint Luc. On ne voit point en quel lieu de l'Ecriture il est marqué, selon qu'il est dit ici, que les Juifs feroient à saint Jean tout ce qu'ils voudroient. Mais ils lui firent en effet tout ce qu'ils voulurent ; & cette sorte d'expression marque le dernier outrage avec lequel après qu'ils l'eurent emprisonné, & qu'on lui eut coupé la tête, on apporta cette tête vénérable au milieu d'un grand festin, comme le prix de la danse d'une fille, & on le traita avec les dernières indignités."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 12,
+    "lat": "Sed dico vobis quia & Elias venit , & fecerunt illi quæcumque voluerit , sicut scriptum est de eo.",
+    "fr": "Mais je vous dis , qu'Elie même est déjà venu , & qu'ils l'ont traité comme il leur a plu , selon ce qui en avoit été écrit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 13,
+    "lat": "Et veniens ad discipulos suos , vidit turbam magnam circa eos , & Scribas conquirentes cum illis.",
+    "fr": "Lorsqu'il fut venu au lieu où étoient ses autres disciples , il vit une grande multitude de personnes autour d'eux , & des Scribes qui disputoient avec eux.",
+    "note": "Lorsqu'il fut venu au lieu où étoient ses Disciples, il vit une grande multitude de personnes autour d'eux, & des Docteurs de la loi qui disputoient avec eux. Aussitôt tout le peuple ayant aperçu JESUS, fut saisi d'étonnement & de frayeur, &c. On a vu auparavant, que le Fils de Dieu ayant dessein de se montrer dans sa gloire à quelques-uns de ses disciples, mena avec soi sur une haute montagne Pierre, Jacques & Jean, & fut là transfiguré devant eux. Ce fut donc à son retour de cette montagne, qu'il trouva ses autres disciples environnés, comme il est marqué ici, de beaucoup de monde, & en disputes avec les Docteurs. Le sujet de ce grand concours de peuple, étoit un malade, dont on a déjà parlé sur saint Matthieu, que les Juifs avoient présenté aux disciples de J. C. en son absence pour être guéri ; & que ces disciples, manque de foi, de prières, & de jeûnes, ne purent guérir. Comme il se trouva au même lieu des Docteurs, qui cherchoient toujours à observer toutes les paroles & toutes les actions, tant du maître que des disciples, ils voulurent profiter en quelque sorte de l'absence du Sauveur, & de l'impuissance où se trouvèrent ses disciples, de guérir le malade qu'on leur présentoit ; & ils prirent cette occasion d'entrer en dispute avec eux, pour surprendre leur simplicité, & pour les pousser lorsqu'ils n'étoient point soutenus comme à l'ordinaire par leur divin maître. Ce fut donc dans ce temps même que JESUS revenant de la montagne avec Pierre, Jacques & Jean, parut tout-d'un-coup lorsqu'on ne l'attendoit pas. Et la surprise où fut tout le peuple en le voyant, leur causa cet étonnement dont il est parlé. Ils furent saisis d'étonnement, dit l'Evangéliste, & en même-temps de frayeur, peut-être à cause, comme dit un Interprète, qu'il étoit resté sur le visage de J. C. quelques marques de cette gloire éclatante que les Apôtres y virent paroître dans sa transfiguration ; comme il est dit de Moyse, que les enfans d'Israël ayant aperçu sur son visage, après qu'il fut descendu de la montagne de Sinaï, où il avoit vu le Seigneur, des rayons de gloire, ils en furent effrayés."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 14,
+    "lat": "Et confestim omnis populus , videns Jesum , stupefactus est , & expaverunt , & accurrentes salutabant eum.",
+    "fr": "Aussitôt tout le peuple ayant aperçu JESUS , fut saisi d'étonnement & de frayeur , & étant accourus , ils le saluèrent.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 15,
+    "lat": "Et interrogavit eos : Quid inter vos conquiritis.",
+    "fr": "Alors il leur demanda : De quoi disputez-vous ensemble ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 16,
+    "lat": "Et respondens unus de turba , dixit : Magister , attuli filium meum ad te habentem spiritum mutum :",
+    "fr": "† Et un homme d'entre le peuple prenant la parole , lui dit : Maître , je vous ai amené mon fils , qui est possédé d'un esprit muet :",
+    "note": "Maître, je vous ai amené mon fils, qui est possédé d'un esprit muet : & toutes les fois qu'il se saisit de lui, il le jette contre terre, & l'enfant écume, grince les dents, & devient tout sec. Quoique J. C. ne fut pas d'abord en ce lieu, cet homme lui dit : Qu'il lui avoit amené son fils, parce qu'il croyoit apparemment qu'il y fut, & qu'il avoit espéré l'y trouver avec ses disciples. Il prend la parole, & répond au Fils de Dieu, à cause que ses disciples & les Docteurs de la loi se tinrent dans le silence ; quoiqu'il semble qu'il se fut particulièrement adressé à eux lorsqu'il avoit demandé de quoi ils disputoient. Or la raison du silence qu'ils gardèrent les uns & les autres pouvoit être la confusion qu'ils eurent également ; les Docteurs, d'avoir abusé de la simplicité, & de s'être prévalus de l'ignorance de ses disciples ; & les disciples, de s'être engagés à vouloir guérir un malade sans l'avoir pu, & de s'être aussi peut-être embarrassés légérement dans quelque vaine dispute avec ces Docteurs. Quoi qu'il en soit, le père de ce malade parlant lui-même lorsqu'ils se taisoient, s'efforça d'exciter la compassion de J. C. par le récit qu'il lui fit de l'état si déplorable de son fils, & de tout ce que le démon lui faisoit souffrir. C'étoit un démon muet ; c'est-à-dire, que l'esprit qui possédoit ce malade le rendoit muet : & il le rendoit aussi sourd, comme il paroit dans la suite. Toutes les fois, ajoute-t-il, qu'il se saisit de lui ; ce qui marque qu'il ne le tourmentoit pas toujours, mais par intervalle ; il le jette très-rudement contre terre, comme voulant le briser ; & la violence de ce qu'il souffre lui fait jeter de l'écume par la bouche, & grincer les dents, & le rend tout décharné & tout sec. C'est l'état terrible où la fureur du démon réduisoit le corps de ce malade qu'il possédoit, & en même-temps l'image de celui où il réduit l'ame d'un pécheur qu'il rend muet devant Dieu. Ce pécheur muet est celui que son orgueil empêche de reconnoître & de confesser son péché. Le démon lui tient la langue comme liée, parce qu'il est maître de son cœur : c'est pourquoi il est aussi sourd, parce qu'il le tient fermé à toutes les inspirations de Dieu. Il le brise contre terre par la violence du mouvement avec lequel il le pousse vers les objets terrestres, où il se brise, pour le dire ainsi, de plus en plus devant Dieu. Cette écume aussi bien que ce grincement de dents, nous figurent l'excès de la fureur qui l'agite, tant qu'il s'abandonne aux différentes passions que le démon lui suggère : car il n'y a rien de plus furieux qu'un homme qui suit avec une impétuosité aveugle ce que lui inspire cet esprit dont il s'est rendu l'esclave ; comme il n'y a rien au contraire de plus doux que celui dont l'Esprit de Dieu s'est rendu le maître ; puisqu'autant que la cupidité est emportée & capricieuse, autant la charité est patiente, selon saint Paul, pleine de douceur, & éloignée de toute ambition & de tout orgueil. Ce malade à force de s'agiter devenoit tout sec, & tout décharné ; & l'ame de ce pécheur qu'il figuroit, se sèche de même, pour parler ainsi, en s'éloignant de plus en plus de la divine rosée de la grâce de celui qui est son soutien & sa vie ; ce qui faisoit dire au Roi prophète, parlant à Dieu dans l'amertume de son péché : J'ai étendu mes mains vers vous ; mon ame est devant vous, Seigneur, comme une terre sans eau. Exaucez-moi promptement ; parce que je tombe en défaillance. Répandez donc dans mon ame, disoit autrefois à Dieu un grand Saint, votre céleste rosée, afin que je porte de bons fruits. Je puis avoir soif de votre divine grâce ; mais je ne puis m'arroser moi-même pour désaltérer ma soif : Complue me ad faciendum fructum bonum. Sitire tibi possum. Me irrigare non possum."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 17,
+    "lat": "qui ubicumque eum apprehenderit , allidit illum , & spumat , & stridet dentibus , & arescit. Et dixi discipulis tuis ut ejicerent illum , & non potuerunt.",
+    "fr": "& toutes les fois qu'il se saisit de lui , il le jette contre terre , & l'enfant écume , grince les dents , & devient tout sec. J'ai prié vos disciples de le chasser , mais ils ne l'ont pu.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 18,
+    "lat": "Qui respondens eis , dixit : O generatio incredula , quandiù apud vos ero ? quandiù vos patiar ? Afferte illum ad me.",
+    "fr": "JESUS leur répondit : O gens incrédules , jusqu'à quand serai-je avec vous ? Jusqu'à quand vous souffrirai-je ? Amenez-le moi.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 19,
+    "lat": "Et attulerunt eum , & cùm vidisset eum , statim spiritus conturbavit illum ; & elisus in terram voluptabatur spumans.",
+    "fr": "Ils le lui amenèrent ; & il n'eut pas plutôt vu JESUS , que l'esprit commença à l'agiter avec violence , & il tomba par terre , où il se rouloit en écumant.",
+    "note": "Ils le lui amenèrent, & il n'eut pas plutôt vu JESUS, que l'esprit commença à l'agiter avec violence : & il tomba par terre, où il se rouloit en écumant. Il est étonnant que la vue de J. C. au lieu d'arrêter toute la violence du démon, excite au contraire sa fureur. Il est aisé de juger que si le Sauveur l'avoit voulu, cet esprit tout furieux qu'il étoit, auroit fui dans le moment qu'il parut. Mais il ne le voulut pas. Et il permit même qu'il fit éclater toute sa rage en sa présence, pour donner ensuite une preuve plus sensible de la foiblesse de son ennemi, & de sa propre vertu. Car telle est l'admirable économie de la sagesse du Dieu tout-puissant, de ne donner quelquefois en apparence aucunes bornes à la fureur du démon, afin de confondre ensuite davantage son orgueil, en l'arrêtant tout-d'un-coup, lorsqu'il se flatte de pouvoir tout contre nous. Or il en use de cette sorte, parce qu'il est tout-puissant, & qu'il est maître par conséquent de lier quand il lui plaît, ce fort armé, qui n'est fort que par rapport à la foiblesse des hommes, que la propre corruption de leur volonté lui a assujettis. Et il fait paroître par cette conduite, combien les Princes qui vantent le plus leur puissance, sont foibles & impuissans en comparaison de lui ; puisque toute leur sagesse consiste toujours à affoiblir leurs ennemis, & à empêcher l'accroissement de leur puissance, par la juste crainte qu'ils doivent avoir, que ces ennemis de leur couronne ne deviennent à la fin plus forts qu'eux : au lieu que le fort armé de l'Evangile n'est jamais fort que par un effet de la volonté de Dieu, au pouvoir duquel il est toujours d'anéantir toute sa force, quand il veut. Ne soyons donc point touchés de frayeur, en voyant tous ces effets de la rage du démon. Ne le craignons point, lorsque nous avons une juste confiance que J. C. est présent au milieu de nous. Car cette présence du Sauveur peut bien exciter davantage la fureur de notre ennemi, & le désir qu'il a de nous perdre : mais elle donne certainement des bornes à son pouvoir, l'empêchant de faire tout ce qu'il voudroit contre nous ; & l'accroissement même de sa fureur, est quelquefois une marque des approches de sa ruine ; comme il parut plus violent à l'égard de ce possédé, dans le moment que J. C. l'en alloit chasser."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 20,
+    "lat": "Et interrogavit patrem ejus : Quantùm temporis est ex quo ei hoc accidit ? At ille ait ; Ab infantia :",
+    "fr": "JESUS demanda à son père : Combien y a-t-il que cela lui arrive ? Dès son enfance , dit le père :",
+    "note": "JESUS demanda à son père : Combien y a-t-il que cela lui arrive ? Dès son enfance, dit le père : & l'esprit l'a souvent jeté tantôt dans le feu, & tantôt dans l'eau pour le faire périr : mais si vous pouvez quelque chose, &c. On voit aisément que le Fils de Dieu n'avoit pas besoin pour lui-même, que le père de ce malade l'instruisît du temps auquel le démon avoit commencé à le tourmenter. Car que pouvoit ignorer celui à qui toutes choses sont toujours présentes, & devant lequel le vaste espace de tous les siècles est comme un point fixe qui ne s'écoule jamais ? Ce fut donc pour ceux qui étoient présens, que le Fils de Dieu demanda au père, quand la maladie ou la possession de son Fils avoit commencé. C'étoit pour les mieux convaincre de la puissance de Dieu, par la difficulté de la guérison d'un mal si grand, & qui étoit comme né avec lui. Mais c'étoit en même temps pour donner lieu à ce père de découvrir la plaie de son cœur ; c'est-à-dire, son infidélité, qui jointe à celle des Apôtres mêmes, avoit été cause jusqu'alors que son fils n'avoit point été guéri. Car nous avons vu dans saint Matthieu, que les Apôtres ayant demandé à J. C. pourquoi ils n'avoient pu chasser ce démon, il leur répondit, que leur propre incrédulité en avoit été la cause. Et l'on voit ici combien la foi de ce père étoit encore défectueuse ; puisqu'après avoir exagéré la grandeur du mal de son fils, en parlant au Fils de Dieu, il ajoute : Si vous pouvez quelque chose, ayez compassion de nous, & nous secourez. Il doutoit donc si J. C. avoit le pouvoir de guérir son fils ; & par conséquent il ne reconnoissoit pas encore sa divinité."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 21,
+    "lat": "& frequenter eum in ignem , & in aquas misit , ut eum perderet , sed si quid potes , adjuva nos , misertus nostrî.",
+    "fr": "& l'esprit l'a souvent jeté , tantôt dans le feu , & tantôt dans l'eau , pour le faire périr : mais si vous pouvez quelque chose , ayez compassion de nous , & nous secourez.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 22,
+    "lat": "Jesus autem ait illi : Si potes credere , omnia possibilia sunt credenti.",
+    "fr": "JESUS lui répondit : Si vous pouvez croire , toutes choses sont possibles à celui qui croit.",
+    "note": "JESUS lui répondit : Si vous pouvez croire, toutes choses sont possibles à celui qui croit. Aussitôt le père de l'enfant s'écriant, lui dit avec larmes : Seigneur, je crois ; aidez-moi dans mon incrédulité. Tout est certainement possible à Dieu. Mais Dieu ne veut pas tout ce qu'il peut. Ainsi quoiqu'il put guérir le fils de ce père qui lui parloit, sans qu'il eut la foi, il ne voulut pas le faire : & sa volonté étoit en cette rencontre, que la guérison de ce malade fut l'effet de la foi de son père. Si donc, lui dit J. C. vous pouvez croire, toutes choses sont possibles à celui qui croit. Or on ne peut pas douter qu'en lui disant ces paroles, Si vous pouvez croire, il ne lui ait inspiré la foi dont il lui parloit ; au moins la créance très-ferme qu'il dépendoit du Fils de Dieu, & qu'il étoit en son pouvoir de lui donner cette foi qui pouvoit tout ; puisque s'étant écrié dans le moment, qu'il croyoit, il ajouta : Aidez-moi dans mon incrédulité : Adjuva incredulitatem meam ; c'est-à-dire, suppléez à ce qui manque à ma foi. C'étoit aussi ce que J. C. avoit voulu lui faire comprendre, en lui disant : Si vous pouvez croire. Car il voulut par le sentiment même qu'il lui donna de la foiblesse de sa foi, l'exciter à avoir recours à lui, & à songer sérieusement à lui demander, comme au Seigneur véritable, cette foi vive à laquelle toutes choses sont possibles, & qui pouvoit par conséquent guérir aussi-bien l'ame du père, que le corps du fils."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 23,
+    "lat": "Et continuò exclamans pater pueri , cum lacrimis aiebat : Credo , Domine , adjuva incredulitatem meam.",
+    "fr": "Aussitôt le père de l'enfant s'écriant , lui dit avec larmes : Seigneur , je crois ; * aidez-moi dans mon incrédulité.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 24,
+    "lat": "Et cùm videret Jesus concurrentem turbam , comminatus est spiritui immundo , dicens illi : Surde & mute spiritus , ego præcipio tibi , exi ab eo ; & amplius ne introeas in eum.",
+    "fr": "Et JESUS voyant que le peuple accouroit en foule , parla avec menaces à l'esprit impur , & lui dit : Esprit sourd & muet , sors de cet enfant , je te le commande ; & n'y rentre plus.",
+    "note": "JESUS voyant que le peuple accouroit en foule, parla avec menaces à l'esprit impur, & lui dit : Esprit sourd & muet, sors de ce corps ; je te le commande, & n'y rentre plus. Alors cet esprit ayant jeté un grand cri, & l'ayant agité par de violentes convulsions, sortit, & le laissa comme mort, &c. J. C. voulant toujours éviter l'éclat pour ménager les Pharisiens & les Docteurs jaloux de sa gloire, & pour nous donner dans sa conduite l'exemple d'une humilité toujours uniforme, se hâte de guérir le malade qu'on lui avoit présenté, aussitôt qu'il voit le peuple accourir. Et pour cet effet il parle avec l'autorité d'un Dieu au démon qui le tourmentoit, le menaçant comme un esclave qui étoit assujetti à sa puissance, & lui ordonnant de sortir du corps de celui dont il s'étoit rendu maître. L'Evangéliste nomme ce démon l'esprit impur ; & J. C. en s'adressant à lui-même, l'appelle esprit sourd & muet. Il est impur, comme on l'a marqué ailleurs, à cause de l'impureté qu'il inspire aux hommes ; & de son orgueil qui le rend abominable aux yeux de Dieu. Il est sourd & muet, à cause qu'étant devenu lui-même insensible à la voix de son Créateur, & inflexible dans son péché, qui l'empêche de se reconnoître pécheur, il rend ceux qui imitent son orgueil, sourds aussi & muets pour toutes les choses qui regardent leur salut ; & il rendoit même ce malade sourd des oreilles, & muet de la langue de son corps. Quand le Sauveur lui ordonne de sortir, il le fait, non-seulement en le menaçant, mais en lui disant, comme son maître : C'est moi qui te le commande ; c'est-à-dire, moi, qui suis ton Seigneur, & à qui tu ne saurois résister. Et parce que ce démon sembloit quitter ce malade, & n'entrer en lui que par intervalle pour le tourmenter, le Fils de Dieu lui défend d'y rentrer à l'avenir, voulant que la guérison qu'il lui procuroit fut parfaite & sans retour. Et en cela il donnoit à ceux qui sont figurés par ce malade, cette instruction importante ; qu'ils ne peuvent être non plus guéris que par un effet de la volonté toute-puissante de Dieu, qui daigne chasser pour toujours le démon de leurs cœurs, par la vertu de sa parole & de sa grâce, comme il chassa cet esprit impur, sourd & muet du corps de ce possédé ; & que c'est à la force toute divine de cette voix de leur Dieu, qu'ils sont redevables de leur parfaite justification. Ce n'est pas qu'il ne puisse arriver, & qu'il n'arrive en effet que l'on retombe sous la possession du démon après en être sorti. Mais les rechutes si fréquentes dans le péché, sont souvent un signe, au moins vraisemblable, qu'on n'a pas quitté le péché comme on le devoit ; & que cet esprit impur, qui ne tourmentoit ce malade que par intervalle, avant que le Fils de Dieu l'eut guéri parfaitement & sans retour, ne nous a peut-être quittés qu'en apparence & pour un temps. Quoiqu'on soit surpris de la résistance qu'il fit pour sortir du corps de ce possédé, & de la fureur avec laquelle il l'agita avant que de le quitter, jusqu'à le laisser comme mort, & que plusieurs crurent en effet qu'il étoit mort, c'est néanmoins ce qui prouvoit davantage la toute-puissance de Dieu. Car quoiqu'il eût pu, comme on l'a dit, d'une parole le mettre en fuite, il voulut exprès le laisser agir dans toute sa rage, tant pour faire voir l'excès de sa haine contre les hommes, que pour donner une idée plus vive de l'empire souverain avec lequel il tient cet esprit si furieux, assujetti à ses ordres. En effet, lorsque celui, dont il l'avoit obligé de sortir, paroissoit mort, il ne fit que le prendre par la main pour le soulever, & il se leva à l'heure même. Heureux donc celui que Dieu n'a abandonné, comme Job & comme ce possédé, pour un temps à la fureur du démon, qu'afin qu'il soit dans la suite un plus grand sujet de la compassion d'un Dieu ! Heureux celui à qui les violentes agitations que lui fait souffrir son ennemi, lorsqu'il travaille à se soustraire de sa domination, sont un préjugé favorable de sa prochaine délivrance ! Heureux enfin est celui à qui l'auteur de la vie tend la main pour le relever dans l'état de mort où il paroissoit aux yeux des hommes ; puisqu'il ressuscitera à la grâce par une parfaite conversion !"
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 25,
+    "lat": "Et exclamans , & multùm discerpens eum , exiit ab eo , & factus est sicut mortuus ; ita ut multi dicerent : Quia mortuus est.",
+    "fr": "Alors cet esprit ayant jeté un grand cri , & l'ayant agité par de violentes convulsions , sortit , & l'enfant devint comme mort ; de sorte que plusieurs disoient qu'il étoit mort.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 26,
+    "lat": "Jesus autem tenens manum ejus , elevavit eum , & surrexit.",
+    "fr": "Mais JESUS l'ayant pris par la main , & le soulevant , il se leva.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 27,
+    "lat": "Et cùm introisset in domum , discipuli ejus secretò interrogabant eum : Quare nos non potuimus ejicere eum ?",
+    "fr": "Lorsque JESUS fut entré dans la maison , ses disciples lui dirent en particulier : D'où vient que nous n'avons pu chasser ce démon ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 28,
+    "lat": "Et dixit illis : Hoc genus in nullo potest exire , nisi in oratione , & jejunio.",
+    "fr": "Il leur répondit : Cette sorte de démons ne peut être chassée par aucun autre moyen que par la prière , & par le jeûne ¶.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 29,
+    "lat": "Et inde profecti prætergrediebantur Galilæam ; nec volebat quemquam scire.",
+    "fr": "Au sortir de ce lieu , ils traversèrent la Galilée : & il vouloit que personne ne le sût.",
+    "note": "Au sortir de ce lieu ils traversèrent la Galilée, & il vouloit que personne ne le sut. Or il instruisoit ses disciples, & leur disoit : Le Fils de l'homme sera livré entre les mains des hommes.... Mais ils ne comprirent point ce qu'il leur disoit, &c. J. C. ne vouloit point être connu dans la Galilée ; c'est-à-dire, qu'il ne vouloit point y faire d'éclat, ni attirer le concours du peuple après lui, & être obligé de s'arrêter lorsqu'il songeoit à aller à Jérusalem pour y souffrir. C'est donc aussi pour cela qu'il avertit de nouveau ses Apôtres de ce qui devoit lui arriver ; c'est-à-dire, de ses souffrances, de sa mort & de sa résurrection ; afin qu'ils y fussent préparés. Mais quoiqu'ils pussent aisément entendre ce qu'il leur disoit, Qu'il devoit mourir, & ressusciter le troisième jour après sa mort, l'Evangile marque expressément, qu'ils ne le comprirent point. Il est vrai qu'ils comprenoient bien que J. C. les assuroit qu'il souffriroit beaucoup de choses, & qu'il mourroit. Mais ce qu'ils ne pouvoient comprendre, c'est qu'étant le CHRIST, le Messie attendu depuis si long-temps, & que le Fils de Dieu, au lieu de rétablir le royaume d'Israël, comme les Juifs l'avoient toujours espéré du Messie, il ne leur parloit que de ses souffrances & de sa mort. Car quant à sa résurrection dont il leur parloit en même temps, c'étoit pour eux un mystère où ils ne pouvoient atteindre, n'alliant point dans leur esprit les humiliations de ses souffrances & de sa mort sur la croix, avec la gloire d'une résurrection triomphante. Mais quoiqu'ils ne pussent comprendre ce que JESUS leur disoit, il étoit bien nécessaire néanmoins qu'ils en fussent avertis, & il falloit que le Fils de Dieu, en leur prédisant ce qui devoit lui arriver, leur fit connoître qu'il ne lui arriveroit rien qu'il n'eût prévu, & qui ne fût un effet de sa volonté & de la justice de son Père. Cependant quelque incompréhensible que leur parut ce que JESUS leur disoit, ils craignirent par respect sans doute, de l'interroger, & de lui en demander l'éclaircissement. Peut-être aussi qu'ils avoient une véritable appréhension d'envisager de trop près, & de trop approfondir une chose qui les affligeoit extrêmement, selon S. Matthieu. On a expliqué au commencement du dix-huitième chapitre de saint Matthieu tout ce qui regarde la contestation des Apôtres touchant la prééminence."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 30,
+    "lat": "Docebat autem discipulos suos , & dicebat illis : Quoniam Filius hominis tradetur in manus hominum , & occident eum , & occisus tertiâ die resurget.",
+    "fr": "Or il instruisoit ses disciples , & leur disoit : Le Fils de l'homme sera livré entre les mains des hommes , & ils le feront mourir , & il ressuscitera le troisième jour après sa mort.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 31,
+    "lat": "At illi ignorabant verbum ; & timebant interrogare eum.",
+    "fr": "* Mais ils n'entendoient rien à ce discours : & ils craignoient de lui en demander l'éclaircissement.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 32,
+    "lat": "Et venerunt Capharnaüm. Qui cùm domi essent , interrogabat eos : Quid in via tractabatis ?",
+    "fr": "Ils vinrent ensuite à Capharnaüm. Et lorsqu'ils furent à la maison , il leur demanda : * De quoi disputiez-vous ensemble pendant le chemin ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 33,
+    "lat": "At illi tacebant ; siquidem in via inter se disputaverant quis eorum major esset.",
+    "fr": "Mais ils demeurèrent dans le silence ; parce qu'ils avoient disputé entr'eux dans le chemin , qui d'eux tous étoit le plus grand.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 34,
+    "lat": "Et residens vocavit duodecim , & ait illis : Si quis vult primus esse , erit omnium novissimus , & omnium minister.",
+    "fr": "Et s'étant assis , il appela les douze , & leur dit : Si quelqu'un veut être le premier , il sera le dernier de tous , & le serviteur de tous.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 35,
+    "lat": "Et accipiens puerum , statuit eum in medio eorum ; quem cùm complexus esset , ait illis :",
+    "fr": "Puis il prit un petit enfant qu'il mit au milieu d'eux ; & l'ayant embrassé , il leur dit :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 36,
+    "lat": "Quisquis unum ex hujusmodi pueris receperit in nomine meo , me recepit : & quicumque me susceperit , non me suscipit , sed eum , qui misit me.",
+    "fr": "Quiconque reçoit en mon nom un petit enfant , comme celui-ci , me reçoit : & quiconque me reçoit , ne me reçoit pas , mais celui qui m'a envoyé ,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 37,
+    "lat": "Respondit illi Joannes , dicens : Magister , vidimus quemdam in nomine tuo ejicientem dæmonia , qui non sequitur nos , & prohibuimus eum.",
+    "fr": "Alors Jean prenant la parole , lui dit : Maître , nous avons vû un certain homme qui chasse les démons en votre nom , quoiqu'il ne nous suive pas ; & nous l'en avons empêché.",
+    "note": "Alors Jean prenant la parole, lui dit : Maître, nous avons vu un homme chasser les démons en votre nom, quoiqu'il ne nous suive pas : & nous l'en avons empêché. Mais JESUS lui répondit : Ne l'en empêchez pas, &c. Il semble que la liaison la plus naturelle qui se trouve entre ce que l'Apôtre saint Jean dit ici à J. C. & ce qui précède, est celle-ci : Le Fils de Dieu avoit pris occasion de la dispute des Apôtres touchant la prééminence, de leur présenter un petit enfant, & de leur faire connoître en l'embrassant devant eux, combien il prisoit la simplicité & l'humilité, qui est comme le principal caractère de cet âge. Il leur avoit dit ensuite, Que quiconque auroit reçu en son nom un enfant comme celui-là, l'auroit lui-même reçu. Saint Jean ayant donc compris par-là le mérite d'une action qui se faisoit au nom du Sauveur, commença à craindre d'avoir mal fait de s'être opposé à un homme qui ne suivoit point JESUS, & qui néanmoins chassoit les démons par la vertu de son nom. Les Interprètes ne croyent pas que les Apôtres se soient opposés par jalousie à cet homme, mais par un zèle pour la gloire de leur maître, & pour empêcher qu'une personne qui ne faisoit point profession d'être à sa suite, n'usurpât en quelque façon un droit qui n'appartenoit, & qu'il n'avoit accordé qu'à ceux qui le suivoient comme ses disciples. Il est toutefois assez croyable, qu'étant encore imparfaits, & venant même actuellement de disputer qui d'entre eux étoit le plus grand, ils ayent un peu ressemblé aux disciples de saint Jean, & qu'un secret mouvement de jalousie ait eu peut-être autant de part dans ce qu'ils dirent alors, qu'un vrai zèle pour les intérêts de J. C. Car on voit souvent des disciples se regarder eux-mêmes dans ce qui regarde le maître qu'ils suivent. Et les Apôtres purent bien être choqués de ce qu'un homme qu'ils ne connoissoient point, chassoit les démons comme eux, au nom de JESUS ; parce qu'eux-mêmes n'étoient pas encore dans cette triste disposition, où le grand Apôtre étoit depuis, lorsque parlant des différentes personnes qui annonçoient J. C. les uns le prêchant par un principe de charité, & les autres par un esprit de contention & de jalousie, & avec une intention qui n'étoit pas pure, & il ajoute, Mais qu'importe, pourvu que J. C. soit annoncé en quelque manière que ce soit, soit par occasion, soit par un vrai zèle ? Les Apôtres auroient donc pu se réjouir aussi de voir un homme chasser les démons par l'invocation du nom de JESUS, quoiqu'il ne le suivît pas ; puisque J. C. étoit au moins glorifié par ces effets miraculeux de sa puissance, qui sembloit même se faire paroître alors d'une manière plus indépendante des hommes. Aussi il leur fit connoître par sa réponse, qu'ils avoient eu tort de s'opposer à cet homme. Et la raison qu'il en rend, est, Que nul ayant fait un miracle en son nom, ne pourra aussitôt après parler mal de lui ; c'est-à-dire, que cette œuvre miraculeuse qu'il aura faite par la vertu du nom de JESUS, lui imprimera un certain respect, qui l'empêchera pour le moins de parler contre celui dont il aura éprouvé le pouvoir suprême. Soit donc que celui dont saint Jean parloit, crût en J. C. quoiqu'il ne le suivît pas comme les Apôtres, soit qu'il n'y crût pas encore, mais que l'exemple des Apôtres l'eût excité seulement à invoquer son saint nom comme eux pour chasser des corps les démons, on ne devoit point, selon J. C. s'opposer à lui, parce que c'étoit en son nom qu'il opéroit ces merveilles, & que la vue même de ces prodiges pouvoit contribuer ou à le convertir, s'il ne l'étoit pas, ou à en toucher plusieurs autres comme lui. C'est en ce sens que l'on doit entendre ce que J. C. ajoute aussitôt : Que celui qui n'étoit pas contre eux, étoit pour eux ; ce qui signifie, que ceux qui comme cet homme n'étoient pas contre eux, quoiqu'ils ne leur fussent pas unis à l'extérieur, étoient effectivement pour eux ; c'est-à-dire, qu'ils contribuoient au même dessein, qui étoit l'accroissement de son royaume. Car en effet il suffisoit que les peuples vissent chasser les démons au nom de JESUS par cet homme, pour être persuadés que J. C. étoit plus puissant que les démons, puisque l'invocation seulement de son nom avoit la vertu de les mettre en fuite. Or ce que le Fils de Dieu dit ici, n'est point contraire, quoiqu'il le paroisse d'abord, à ce qu'il dit dans saint Matthieu ; Que celui qui n'est point avec lui, est contre lui. Car il est certain que cet homme, dont parle saint Marc, qui chassoit le diable au nom de JESUS, n'étoit pas contre le Sauveur, puisqu'il agissoit même pour lui & par lui. Et il est visible aussi que ceux dont parle saint Matthieu ; c'est-à-dire, & les démons & les Pharisiens, n'étoient pas avec J. C. puisqu'ils agissoient directement contre lui, & s'opposoient de toutes leurs forces à son Evangile. Les Pharisiens & les Docteurs, qui auroient dû contribuer les premiers à faire connoître & recevoir le Messie, eux qui paroissoient avoir une plus grande intelligence de la loi, qu'on regardoit comme les plus justes des Juifs, étoient au contraire ceux qui s'éloignoient le plus de lui, & par conséquent qui s'opposoient davantage à sa doctrine. Ainsi on pouvoit véritablement dire d'eux, que n'étant pas avec J. C. ils étoient contre J. C. Mais cet homme dont parle saint Jean, témoignoit bien n'être pas contre J. C. puisqu'en chassant les démons par l'invocation de son nom, il contribuoit lui-même à sa gloire."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 38,
+    "lat": "Jesus autem ait : Nolite prohibere eum : nemo est enim qui faciat virtutem in nomine meo , & possit citò malè loqui de me.",
+    "fr": "Mais JESUS lui répondit : Ne l'en empêchez pas ; car il n'y a personne qui ayant fait un miracle en mon nom , puisse aussitôt après parler mal de moi.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 39,
+    "lat": "Qui enim non est adversum vos , pro vobis est ;",
+    "fr": "Qui n'est pas contre * vous , est pour vous ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 40,
+    "lat": "Quisquis enim potum dederit vobis calicem aquæ in nomine meo quia Christi estis : amen dico vobis , non perdet mercedem suam.",
+    "fr": "& quiconque vous donnera à boire seulement un verre d'eau en mon nom , parce que vous appartenez au CHRIST , je vous dis en vérité qu'il ne perdra point sa récompense.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 41,
+    "lat": "Et quisquis scandalizaverit unum ex his pusillis credentibus in me , bonum est ei magis si circumdaretur mola asinaria collo ejus , & in mare mitteretur.",
+    "fr": "Que si quelqu'un est un sujet de scandale à l'un de ces plus petits qui croient en moi , il vaudroit mieux pour lui qu'on lui attachât au cou une de ces meules qu'un âne tourne , & qu'on le jetât dans la mer.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 42,
+    "lat": "Et si scandalizaverit te manus tua , abscinde illam. Bonum est tibi debilem introire in vitam , quàm duas manus habentem ire in gehennam , in ignem inextinguibilem ;",
+    "fr": "Et si votre main vous est un sujet de scandale , coupez-la. Il vaut mieux pour vous que vous entriez dans la vie n'ayant qu'une main , que d'en avoir deux , & d'aller en enfer , dans ce feu qui brûle éternellement ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 43,
+    "lat": "ubi vermis eorum non moritur , & ignis non extinguitur.",
+    "fr": "où le ver qui les ronge ne meurt point , & où le feu ne s'éteint jamais.",
+    "note": "Où le ver qui les ronge ne meurt point, & où le feu ne s'éteint jamais. Cette parole est tirée du prophète Isaïe. Ce Prophète ayant représenté la colère du Seigneur contre les Juifs, à cause de leurs continuelles prévarications & abominations, & prédit les tristes effets de sa divine justice, qui devoit les consumer par le feu, exprime le carnage qu'on feroit de cette nation par ces paroles : Et egredientur, & videbunt cadavera virorum, qui prævaricati sunt in me. Et ensuite pour faire voir que leur ruine seroit entière & sans espérance de rétablissement, il ajoute d'une manière métaphorique, Que le ver ne mourra point, & que le feu ne s'éteindra point. Au lieu donc que les vers mangent en très-peu de temps les corps de ceux qui ont été tués dans le combat, ou que le feu les réduit promptement en cendres ; le Prophète faisant une allusion à ces deux choses, montre que les peines destinées par la justice de Dieu à punir les Juifs, seroient d'une autre espèce ; puisque le ver qui les rongera ne mourra point ; c'est-à-dire, qu'il les rongera toujours, & que le feu qui les brûlera ne s'éteindra point non plus ; c'est-à-dire, qu'ils seront continuellement dans la souffrance. Or cette explication littérale des paroles du Prophète, n'empêche pas qu'on ne puisse les entendre encore d'une manière spirituelle, des supplices éternels des réprouvés. Et c'est en ce sens que J. C. les a prises en ce lieu. Il se sert de ces paroles d'Isaïe, quoiqu'il ne le nomme point, car il est le maître des paroles des Prophètes, lui qui est le Verbe & la parole du Père ; & en cette qualité il a lui-même parlé par leur bouche, pour instruire, pour menacer, & pour corriger les peuples, avant que de s'être fait homme, & d'avoir instruit par lui-même ceux qu'il avoit enseignés auparavant par le ministère des hommes. « Or ce que Dieu a déclaré, dit saint Augustin, touchant l'éternel supplice des réprouvés, arrivera très-certainement. Et c'est afin de nous l'imprimer plus fortement dans l'esprit, que notre Seigneur J. C. nous représentant ce que nous aimons le plus sous la figure de ceux de nos membres qui nous doivent être les plus chers, & nous ordonnant de le retrancher lorsqu'il nous est un sujet de scandale, n'a pas dédaigné de répéter en ce même lieu par trois fois la même chose touchant ce ver qui ne meurt point, & ce feu qui ne s'éteindra jamais. Qui ne sera donc effrayé, ajoute ce Saint, par cette triple répétition d'une peine si terrible, lorsque c'est Dieu même qui nous en menace avec tant de véhémence » ? Quem non terreat ista repetitio, & illius pœnæ comminatio tàm vehemens ore divino ? On ne peut douter que ce feu dont parle ici J. C. ne soit très-réel : & quant au ver au contraire, on l'entend ordinairement d'une manière métaphorique, du regret & du désespoir éternel qui tourmentera l'ame des damnés dans les enfers ; quoique quelques-uns ont cru que ce ver pouvoit être aussi réel que le feu, par un effet de la toute-puissance du Créateur, qui peut, s'il le veut, comme dit saint Augustin, faire subsister les vers au milieu des feux, sans qu'ils en soient consumés. Or quoique l'on trouve qu'il soit difficile de comprendre comment ce feu étant corporel, peut agir sur une substance toute spirituelle, telle qu'est l'ame, ce qui nous paroît incompréhensible n'en est pas moins véritable, & ce n'est point à l'esprit de l'homme à vouloir borner la puissance du Seigneur, par l'étendue si étroite de sa propre intelligence. Ainsi nous pouvons dire encore avec S. Augustin sur ce sujet, qu'il faut attendre à connoître clairement ces choses, lorsque la lumière des Saints sera telle, qu'il ne sera pas besoin qu'ils fassent l'épreuve de ces peines dont nous parlons pour le comprendre, mais que leur science, qui sera alors pleine & parfaite, leur suffira pour leur en donner la connoissance : Quando erit scientia tanta sanctorum, ut eis cognoscendarum illarum pœnarum necessaria non sit experientia, sed ea quæ tunc erit plena atque perfecta ; ad hoc quoque sciendum sapientia sola sufficiat."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 44,
+    "lat": "Et si pes tuus te scandalizat , amputa illum. Bonum est tibi claudum introire in vitam æternam , quàm duos pedes habentem , mitti in gehennam ignis inextinguibilis ;",
+    "fr": "Et si votre pied vous est un sujet de scandale , coupez-le. Il vaut mieux pour vous , que n'ayant qu'un pied vous entriez dans la vie éternelle , que d'en avoir deux & être précipité dans l'enfer , dans ce feu qui brûle éternellement ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 45,
+    "lat": "ubi vermis eorum non moritur , & ignis non extinguitur.",
+    "fr": "où le ver qui les ronge ne meurt point , & où le feu ne s'éteint jamais.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 46,
+    "lat": "Quod si oculus tuus scandalizat te , ejice eum. Bonum est tibi luscum introire in regnum Dei , quàm duos oculos habentem mitti in gehennam ignis ;",
+    "fr": "Et si votre œil vous est un sujet de scandale , arrachez-le. Il vaut mieux pour vous , que n'ayant qu'un œil vous entriez dans le royaume de Dieu , que d'en avoir deux & être précipité dans le feu de l'enfer ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 47,
+    "lat": "ubi vermis eorum non moritur , & ignis non extinguitur.",
+    "fr": "où le ver qui les ronge ne meurt point , & où le feu ne s'éteint jamais.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 48,
+    "lat": "Omnis enim igne salietur , & omnis victima sale salietur.",
+    "fr": "* Car ils doivent tous être salés par le feu , * comme * toute victime doit être salée avec le sel.",
+    "note": "Car ils doivent être tous salés par le feu, comme toute victime doit être salée avec le sel. Dieu avoit ordonné dans l'ancienne loi, qu'on assaisonnât de sel tout ce qu'on lui offriroit, & il avoit défendu expressément qu'aucun sacrifice manquât de ce sel, qu'il nomme le sel de l'alliance qu'il avoit faite avec son peuple : Quidquid obtuleris sacrificii, sale condies, nec auferes sal fœderis Dei tui de sacrificio tuo. J. C. fait ici allusion à cette ancienne ordonnance, comme aussi à la qualité du sel, qui est de rendre incorruptibles les choses qui en sont assaisonnées, & il dit que le feu de l'enfer aura à l'égard des corps des damnés, la propriété du sel, en les rendant incorruptibles au milieu des flammes les plus ardentes ; & qu'ainsi ces réprouvés seront en un sens, comme des victimes assaisonnées de sel ; mais des victimes dévouées à la justice de Dieu, & destinées à souffrir éternellement dans les feux, qui leur tiendront lieu d'un sel, pour les rendre toujours immortelles dans une mort continuelle."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "n": 49,
+    "lat": "Bonum est sal : quòd si sal insulsum fuerit , in quo illud condietis ? Habete in vobis sal , & pacem habete inter vos.",
+    "fr": "Le sel est bon : mais si le sel devient fade , avec quoi l'assaisonnerez-vous ? Ayez du sel en vous , & conservez la paix entre vous.",
+    "note": "Le sel est bon ; mais si le sel devient fade, avec quoi l'assaisonnerez-vous ? Ayez du sel en vous, & conservez la paix entre vous. A l'occasion de ce sel, dont on étoit obligé, selon la loi d'assaisonner tout ce qu'on offroit en sacrifice, le Fils de Dieu prend sujet de donner une instruction importante à ses Apôtres, pour les préserver d'un aussi grand mal qu'étoit le désir de la préférence, & la jalousie, qui avoit été, comme on l'a vu, la première cause de tout ce qu'il avoit dit dans les versets précédens. Il compare donc les Apôtres, comme il est marqué plus particulièrement dans saint Matthieu, à du sel, qui est, dit-il, une bonne chose. Mais ce sel devient fade & perd sa force ; c'est-à-dire, si vous autres que j'ai destinés à être le sel de la terre par la sagesse & la sainteté de votre vie, & par la pureté de votre doctrine, vous perdez cette divine vertu, qui doit servir à communiquer l'incorruptibilité aux peuples, qui seront les hommes qui vous feront recouvrer ce que vous aurez perdu, puisque c'est vous-même qui devez le donner aux autres ? Ayez donc du sel en vous ; c'est-à-dire, cette sagesse qui est figurée par le sel ; mais une sagesse qui soit d'en haut & selon Dieu, & une sagesse qui tende à la charité & à la conservation de la paix entre vous, en vous faisant renoncer à toute contestation & à toute jalousie. Car c'est pour cette raison que le Fils de Dieu joint ici le sel, qui est le symbole de la sagesse, à la paix qui est le fruit de l'humilité & de l'amour. Aussi l'Apôtre saint Jacques dit, que ceux qui sont vraiment sages de cette sagesse, qui est selon Dieu, doivent le faire paroître par la douceur de leur conduite. Mais si vous avez, continue ce Saint, une amertume de jalousie, & s'il se trouve dans vous un esprit de contention & de dispute, ne vous glorifiez point vainement.... car ce n'est pas là la sagesse qui descend d'en haut ; mais c'est une sagesse terrestre, animale, diabolique : puisque là où il y a de la jalousie & de la dispute, il n'y a que de l'inconstance, & toute sorte de mal. Mais la sagesse qui est d'en haut, est premièrement chaste, & puis pacifique. Telle est donc la liaison que ce saint Apôtre nous découvre entre le sel de la sagesse & la paix, dont parle ici J. C. lorsqu'il disoit aux Apôtres-mêmes : Ayez du sel en vous, & conservez la paix entre vous."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 1,
+    "lat": "Et inde exurgens venit in fines Judææ ultra Jordanem : & conveniunt iterùm turbæ ad eum ; & sicut consueverat, iterùm docebat illos.",
+    "fr": "JESUS étant parti de ce lieu , vint aux confins de la Judée par le pays qui est * au-delà du Jourdain : & le peuple s'étant encore assemblé auprès de lui , il recommença aussi à les instruire selon sa coutume.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 2,
+    "lat": "Et accedentes Pharisæi interrogabant eum : Si licet viro uxorem dimittere , tentantes eum.",
+    "fr": "Les Pharisiens y étant venus , lui demandèrent pour le tenter : Est-il permis à un homme de renvoyer sa femme ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 3,
+    "lat": "At ille respondens , dixit eis : Quid vobis præcepit Moyses ?",
+    "fr": "Mais il leur répondit : Que vous a ordonné Moyse ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 4,
+    "lat": "Qui dixerunt : Moyses permisit libellum repudii scribere , & dimittere.",
+    "fr": "Ils lui répartirent : * Moyse a permis de renvoyer sa femme , en lui donnant un écrit , par lequel on déclare qu'on la répudie.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 5,
+    "lat": "Quibus respondens Jesus , ait : Ad duritiam cordis vestri scripsit vobis præceptum istud.",
+    "fr": "JESUS leur dit : c'est à cause de la dureté de votre cœur qu'il vous a fait cette ordonnance.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 6,
+    "lat": "Ab initio autem creaturæ , masculum & fœminam fecit eos Deus.",
+    "fr": "Mais dès le commencement * que le monde fut créé , Dieu forma un homme & une femme.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 7,
+    "lat": "Propter hoc relinquet homo patrem suum & matrem , & adhærebit ad uxorem suam :",
+    "fr": "C'est pourquoi l'homme quittera son père & sa mère , & demeurera avec sa femme ,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 8,
+    "lat": "& erunt duo in carne una. Itaque jam non sunt duo , sed una caro.",
+    "fr": "* & ils ne seront tous deux qu'une seule chair. Ainsi ils ne sont plus deux ; mais une seule chair.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 9,
+    "lat": "Quod ergo Deus conjunxit , homo non separet.",
+    "fr": "Que l'homme donc ne sépare point ce que Dieu a joint.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 10,
+    "lat": "Et in domo iterùm discipuli ejus de eodem interrogaverunt eum.",
+    "fr": "Etant dans la maison , ses disciples l'interrogèrent encore sur la même chose.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 11,
+    "lat": "Et ait illis : Quicumque dimiserit uxorem suam , & aliam duxerit , adulterium committit super eam ?",
+    "fr": "Et il leur dit : * Si un homme quitte sa femme , & en épouse une autre , il commet un adultère à l'égard de sa première femme :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 12,
+    "lat": "& si uxor dimiserit virum suum , & alii nupserit , mœchatur.",
+    "fr": "& si une femme quitte son mari , & en épouse un autre , elle commet un adultère.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 13,
+    "lat": "Et offerebant illi parvulos , ut tangeret illos : discipuli autem comminabantur offerentibus :",
+    "fr": "Alors on lui présenta de petits enfans , afin qu'il les touchât , & comme ses disciples repoussoient avec des paroles rudes ceux qui les lui présentoient ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 14,
+    "lat": "quos cum videret Jesus , indigne tulit , & ait illis : Sinite parvulos venire ad me , & ne prohibueritis eos ; talium enim est regnum Dei.",
+    "fr": "JESUS les voyant , s'en fâcha , & leur dit : Laissez venir à moi les petits enfans , & ne les empêchez point ; car le royaume de Dieu est pour ceux qui leur ressemblent.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 15,
+    "lat": "Amen dico vobis : Quisquis non receperit regnum Dei velut parvulus , non intrabit in illud.",
+    "fr": "Je vous dis & je vous en assure , que quiconque ne recevra point le royaume de Dieu comme un enfant , n'y entrera point.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 16,
+    "lat": "Et complexans eos , & imponens manus super illos , benedicebat eos.",
+    "fr": "* Et les ayant embrassés , il les bénit en leur imposant les mains.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 17,
+    "lat": "Et cùm egressus esset in viam , procurrens quidam , genu flexo ante eum , rogabat eum : Magister bone , quid faciam ut vitam æternam percipiam ?",
+    "fr": "Comme il sortoit pour se mettre en chemin , une personne accourut , & se mettant à genoux devant lui , lui dit : Bon Maître , que dois-je faire , je vous prie , pour acquérir la vie éternelle ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 18,
+    "lat": "Jesus autem dixit ei : Quid me dicis bonum ? Nemo bonus , nisi unus Deus.",
+    "fr": "JESUS lui répondit : Pourquoi m'appellez-vous bon ? * Il n'y a que Dieu seul qui soit bon.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 19,
+    "lat": "Præcepta nosti : Ne adulteres : Ne occidas : ne fureris : Ne falsum testimonium dixeris : Ne fraudem feceris : Honora patrem tuum & matrem.",
+    "fr": "Vous savez les commandemens : Vous ne commettrez point d'adultère : Vous ne tuerez point : Vous ne déroberez point : Vous ne porterez point de faux témoignage : Vous ne ferez tort à personne : Honorez votre père & votre mère.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 20,
+    "lat": "At ille respondens , ait illi : Magister , hæc omnia observavi à juventute mea.",
+    "fr": "Il lui répondit : Maître , j'ai observé toutes ces choses dès ma jeunesse.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 21,
+    "lat": "Jesus autem intuitus eum , dilexit eum & dixit ei : Unum tibi deest ; vade , quæcumque habes vende , & da pauperibus , & habebis thesaurum in cœlo ; & veni , sequere me.",
+    "fr": "Et JESUS jetant la vue sur lui , l'aima & lui dit : Il vous manque encore une chose : Allez , vendez tout ce que vous avez , donnez-le aux pauvres , & vous aurez un trésor dans le ciel ; puis venez , & me suivez *.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 22,
+    "lat": "Qui contristatus in verbo , abiit mœrens ; erat enim habens multas possessiones.",
+    "fr": "Mais cet homme affligé de ces paroles , s'en alla tout triste , parce qu'il avoit de grands biens.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 23,
+    "lat": "Et circumspiciens Jesus , ait discipulis suis : Quàm difficilè qui pecunias habent , in regnum Dei introibunt !",
+    "fr": "Alors JESUS regardant autour de lui , dit à ses disciples : Qu'il est difficile que ceux qui ont des richesses entrent dans le royaume de Dieu !",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 24,
+    "lat": "Discipuli autem obstupescebant in verbis ejus. At Jesus rursus respondens , ait illis : Filioli , quàm difficile est , confidentes in pecuniis in regnum Dei introire !",
+    "fr": "Et comme les disciples étoient tout étonnés de ce discours , JESUS ajouta : Mes enfans , qu'il est difficile que ceux qui mettent leur confiance dans les richesses , entrent dans le royaume de Dieu !",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 25,
+    "lat": "Facilius est camelum per foramen acûs transire , quàm divitem intrare in regnum Dei.",
+    "fr": "Il est plus aisé qu'un chameau passe par le trou d'une aiguille , que non pas qu'un riche entre dans le royaume de Dieu.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 26,
+    "lat": "Qui magis admirabantur , dicentes ad semetipsos : & quis potest salvus fieri ?",
+    "fr": "Ils furent remplis d'un étonnement beaucoup plus grand , & ils * se disoient l'un à l'autre : Et qui peut donc être sauvé ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 27,
+    "lat": "Et intuens illos Jesus , ait : Apud homines impossibile est , sed non apud Deum ; omnia enim possibilia sunt apud Deum.",
+    "fr": "Mais JESUS les regardant , leur dit : Cela est impossible aux hommes , mais non pas à Dieu ; car toutes choses sont possibles à Dieu.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 28,
+    "lat": "Et cœpit ei Petrus dicere : Ecce nos dimisimus omnia , & secuti sumus te.",
+    "fr": "Alors Pierre prenant la parole , lui dit : Pour nous vous voyez que nous avons tout quitté , & que nous vous avons suivi.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 29,
+    "lat": "Respondens Jesus , ait : Amen dico vobis : Nemo est : qui reliquerit domum , aut fratres , aut sorores , aut patrem , aut matrem , aut filios , aut agros , propter me , & propter Evangelium ;",
+    "fr": "JESUS répondit : Je vous dis & je vous en assure , que personne ne quittera pour moi & pour l'Evangile , sa maison , ou ses frères , ou ses sœurs , ou son père , ou sa mère , * ou ses enfans , ou ses terres ,",
+    "note": "Personne ne quittera pour moi & pour l'Evangile, sa maison, ou ses frères... que présentement dans le siècle même, il ne reçoive cent fois autant.... avec des persécutions, &c. Il y a une grande différence entre la Philosophie & le Christianisme. On peut être aux yeux du monde un grand philosophe, en quittant extérieurement les biens du siècle ; quoiqu'on ne se quitte pas soi-même, & qu'on soit peut-être d'autant plus rempli d'orgueil au-dedans de soi, qu'on s'est dépouillé de plus de choses en apparence. Mais on n'est Chrétien parfait aux yeux de Dieu & de l'Eglise, que lorsqu'on quitte toutes ces choses pour J. C. & pour l'Evangile ; c'est-à-dire, pour imiter J. C. & pour pratiquer les saintes maximes de son Evangile, en se renonçant soi-même, & se consacrant intérieurement à Dieu. Car il est aisé, dit saint Paulin, de quitter des choses qui ne nous sont que purement extérieures, & comme un manteau, ou un habit dont on se dépouille. Mais la grande difficulté est de consacrer à Dieu ce qui est vraiment à nous, c'est-à-dire, notre cœur, notre ame, & notre chair même, en rendant nos corps comme des hosties vivantes pour la gloire du Seigneur. Ce n'est pas que l'Evangile oblige pour être Chrétien, d'abandonner tous ses proches, & tous ses biens, puisqu'on peut être au milieu de ses parens, & dans la possession de ses richesses, très-bon Chrétien, par l'usage évangélique de toutes ces choses. Aussi le même S. Paulin répondant à son ami Sévère Sulpice, qui l'avoit loué d'avoir tout vendu & tout donné pour l'amour de J. C. & qui se blâmoit lui-même de n'en avoir pas ainsi usé, il lui dit ces excellentes paroles : » Considérez, je vous prie, qu'il y a divers par- » tages de grâces, & différentes mesures de dons, qu'un même » Seigneur distribue, comme il lui plaît, à tous les membres de » son corps mystique : & remarquez en même-temps combien» vous avez reçu pour votre part, lorsque Dieu vous a donné » le partage de ceux qui ont vécu dans la perfection de la loi, » en possédant de telle sorte les biens de la terre, qu'ils n'en » étoient point possédés eux-mêmes, & n'ayant jamais préféré » l'amour ni de ces biens, ni de leurs proches à l'amour de Dieu, » & à ce qu'ils lui devoient.... Et je ne sai, ajoute ce Saint, » si ce n'est point même l'effet d'une foi plus forte, & d'un » cœur plus ferme & plus constant, d'être, comme vous, au » milieu des feux, sans brûler, & au milieu de tant de piéges, » sans s'y laisser prendre, & de toucher à la poix, sans néan- » moins en être souillé, que de se hâter par un sentiment de » sa foiblesse, d'éloigner de soi des choses auxquelles on crai- » gnoit de s'attacher : » Atque haud scio, an fortioris fidei judicanda sit ista constantia & firmitas tui cordis, qua inter ignes non uréris ; inter laqueos non caperis ; picem tangis, nec inquinaris ; quam eorum, quos tu fortes putas, ego autem infirmiores arbitror judicandos ; quia non credentes infirmitati suæ, festinaverunt alienare omnia, quibus inhærere timuerunt. Ce qui est dit ici du précepte évangélique, est d'être prêt de quitter & tous ses biens & tous ses proches, si l'amour de Dieu & notre devoir nous y obligent ; c'est-à-dire, si nous ne pouvons les conserver sans manquer à cet amour & à ce devoir. Et c'étoit-là, selon saint Paulin, la perfection de la loi. Mais la perfection de l'Evangile va plus loin, puisqu'elle porte à tout quitter actuellement pour J. C. comme avoient fait les Apôtres, qui quittèrent tout afin de le suivre, & de prêcher l'Evangile, tant par leurs paroles, que par leur exemple. Or le Fils de Dieu leur promet ici, & à tous ceux qui les auront imités, le centuple de ce qu'ils auront quitté, non-seulement dans le siècle futur, où la vie éternelle, qu'ils recevront, réparera d'une manière infinie la perte de toutes ces choses ; mais dès-à-présent dans ce siècle même, pour les raisons que l'on a marquées en expliquant ces mêmes paroles de J. C. dans saint Matthieu. Saint Marc rapporte en ce lieu une parole très-remarquable du Sauveur, lorsqu'après avoir déclaré que ceux qui auront quitté toutes choses pour son amour, en recevront le centuple dès ce monde, il ajoute : avec des persécutions. Comme les disciples du Fils de Dieu, entendant parler de récompense au centuple dès cette vie, auroient pu avoir en vue ces récompenses temporelles, en abandonnant toutes choses pour le suivre, & se promettre ici-bas une espèce de félicité humaine & terrestre ; il leur apprend en leur parlant aussitôt de persécutions, qu'ils ne devoient nullement se proposer dans son service de jouir ici d'une vie calme, & d'une paix de Philosophe. Le centuple qu'il leur promet se doit donc entendre principalement des biens spirituels, des consolations intérieures, & de la joie toute sainte qui se goûte dans la charité qui unit ensemble les vrais serviteurs de Dieu ; & non des richesses & des plaisirs de la terre, qui sont le partage de ceux qui aiment le siècle. Car la parole de saint Paul, qui nous assure que tous ceux qui veulent vivre avec piété en J. C. souffriront persécution, se vérifiera dans tous les siècles. Et le même Apôtre nous exhortant de jeter les yeux sur J. C. comme sur l'auteur & le consommateur de la foi, ajoute, selon le texte grec : Qu'au lieu de la joie & du bonheur dont il pouvoit jouir, il a souffert la croix, en méprisant la honte & l'ignominie. Si donc le Sauveur nous promet dès la vie présente, dans le sens qu'on l'a marqué, le centuple de ce que nous aurons quitté pour l'amour de lui, il nous promet en même-temps des persécutions, comme la récompense même de notre foi, qui nous aura fait renoncer à toutes ces choses. Car comme la gloire du Chrétien est d'être conforme à l'image du Fils de Dieu ; & qu'il est dit du Fils de Dieu dans un Prophète, Qu'il a été rassasié d'opprobres ; aussi un Chrétien doit mettre sa gloire dans ses souffrances, afin que plus il aura pris de part à la croix de J. C. plus il participe un jour à sa gloire : Si compatimur, ut & conglorificemur. Ainsi plus Dieu lui présente d'occasions de souffrir, plus il récompense en quelque sorte sa piété, qui lui a fait tout quitter pour l'amour de lui, puisqu'il multiplie en même-temps ses couronnes. C'est-là sans doute un centuple, connu de peu de personnes, & encore moins goûté. Mais saint Paul le connoissoit & le goûtoit parfaitement lorsqu'il disoit : Nous nous glorifions même dans nos différentes afflictions, sachant que l'affliction produit la patience, la patience l'épreuve, & l'épreuve l'espérance."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 30,
+    "lat": "qui non accipiat centies tantum , nunc in tempore hoc , domos , & fratres , & sorores , & matres , & filios , & agros , cum persecutionibus , & in sæculo futuro vitam æternam.",
+    "fr": "que présentement dans ce siècle même il ne reçoive cent fois autant de maisons , de frères , de sœurs , de mères , d'enfans , & de terres * , avec des persécutions , & dans le siècle à venir la vie éternelle.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 31,
+    "lat": "Multi autem erunt primi novissimi , & novissimi primi.",
+    "fr": "Mais plusieurs de ceux qui auront été les premiers , seront les derniers ; & plusieurs de ceux qui auront été les derniers , seront les premiers.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 32,
+    "lat": "Erant autem in via ascendentes Jerosolymam , & præcedebat illos Jesus , & stupebant , & sequentes timebant. Et assumens iterùm duodecim , cœpit illis dicere quæ essent ei eventura.",
+    "fr": "Lorsqu'ils étoient en chemin * pour aller à Jérusalem , JESUS marchoit devant eux , & ils étoient tout étonnés , & le suivoient saisis de crainte. Et JESUS prenant à part de nouveau les douze disciples , commença à leur dire ce qui lui devoit arriver.",
+    "note": "Lorsqu'ils étoient en chemin pour aller à Jérusalem, JESUS marchoit devant eux, & ils étoient tout étonnés, & le suivoient saisis de crainte. Et JESUS prenant à part de nouveau les douze disciples, commença à leur dire ce qui lui devoit arriver. On a vu auparavant, que le Fils de Dieu avoit déjà averti ses Apôtres qu'il devoit être livré entre les mains des hommes, & mis à mort, & ressusciter le troisième jour. Ainsi ce que dit S. Marc en ce lieu, qu'il commença à leur dire ce qui lui devoit arriver, est seulement une manière de parler, qui ne signifie autre chose, sinon que JESUS les entretenoit de ce qui lui arriveroit dans Jérusalem. Il prenoit toujours le temps qu'ils étoient seuls, pour leur parler de ce grand mystère, qui étoit beaucoup au-dessus de la portée du commun du peuple. Et c'est pour cette raison qu'il est dit ici, Que JESUS prit encore à part les douze disciples pour leur en parler. Un ancien Auteur a remarqué, Que JESUS marchoit devant eux, allant à Jérusalem pour y mourir ; & qu'eux le suivoient tout étonnés & saisis de crainte ; parce, dit-il, qu'il vouloit leur faire connoître que c'étoit volontairement qu'il alloit où il savoit bien qu'il devoit souffrir la mort. Il marchoit donc à leur tête comme leur chef, & comme chef intrépide. Les Apôtres au contraire le suivoient, n'allant sans doute en Judée qu'avec peine, comme en un lieu où les Juifs avoient conspiré sa mort. C'est pourquoi même il est dit, qu'ils étoient saisis d'étonnement & de crainte. Car ils ne pouvoient assez admirer, comme dit un Interprète, cette grandeur d'ame & cette force extraordinaire d'esprit, avec laquelle il alloit ainsi s'exposer à une mort très-certaine. Et ils craignoient, selon la pensée du pieux Bede, ou d'être eux-mêmes tués aussi avec lui, ou au moins d'être privés tout-d'un-coup de la présence de celui qui étoit alors toute leur consolation & tout leur soutien. Ecce, leur dit-il, ascendimus Jerosolymam ; c'est-à-dire : Voici pour la dernière fois que nous allons à Jérusalem ; parce que c'est là que le Fils de l'homme doit mourir, comme je vous l'ai déjà prédit. Mais si vous êtes étonnés des outrages, & de la mort que les Princes des Prêtres, les Docteurs & les Sénateurs lui feront souffrir, envisagez aussitôt la gloire de sa prompte résurrection. Et concevez bien que celui qui aura le pouvoir de ressusciter le troisième jour, pourroit bien plus aisément empêcher sa mort, si lui-même ne vouloit mourir, & procurer en mourant le salut des hommes. Envisageons donc aussi nous autres, au milieu des confusions & des souffrances, qui sont comme inséparables de sa piété, la résurrection de J. C. comme l'image & le gage de la nôtre. N'allons pas à Jérusalem avec frayeur, comme les Apôtres y alloient alors ; mais allons-y avec joie & avec confiance, pourvu que nous suivions véritablement J. C. Car ceux qui le suivent ne doivent point être étonnés de sa croix & de ses souffrances, lorsqu'ils envisagent ce poids éternel d'une souveraine & incomparable gloire, que doit produire en nous, comme dit saint Paul, le moment si court & si léger des afflictions que nous souffrons en cette vie."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 33,
+    "lat": "Quia ecce ascendimus Jerosolymam , & filius hominis tradetur Principibus Sacerdotum , & Scribis , & Senioribus , & damnabunt eum morte , & tradent eum gentibus ;",
+    "fr": "Nous allons , comme vous voyez , à Jérusalem ; & le Fils de l'homme sera livré aux Princes des Prêtres , aux Scribes & aux Sénateurs ; ils le condamneront à la mort , & ils le livreront aux Gentils ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 34,
+    "lat": "& illudent ei , & conspuent eum , & flagellabunt eum , & interficient eum ; & tertiâ die resurget.",
+    "fr": "ils le traiteront avec moquerie & avec outrage ; ils lui cracheront au visage ; ils le fouetteront ; ils le feront mourir ; & il ressuscitera le troisième jour.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 35,
+    "lat": "Et accedunt ad eum Jacobus & Joannes filii Zebedæi , dicentes : Magister , volumus ut quodcumque petierimus , facias nobis.",
+    "fr": "Alors Jacques & Jean fils de Zébedée , vinrent à lui , & lui dirent : Maître , nous * voudrions bien que vous fissiez pour nous tout ce que nous vous demanderons.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 36,
+    "lat": "At ille dixit illis : Quid vultis ut faciam vobis ?",
+    "fr": "Il leur répondit : Que voulez-vous que je fasse pour vous ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 37,
+    "lat": "Et dixerunt : Da nobis , ut unus ad dexteram tuam , & alius ad sinistram tuam , sedeamus in gloria tua.",
+    "fr": "Accordez-nous , lui dirent-ils , que dans votre gloire nous soyons assis , l'un à votre droite , & l'autre à votre gauche.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 38,
+    "lat": "Jesus autem ait eis : Nescitis quid petatis. Potestis bibere calicem quem ego bibo ; aut baptismo , quo ego baptizor , baptizari ?",
+    "fr": "Mais JESUS leur répondit : Vous ne savez ce que vous demandez. Pouvez-vous boire le calice que je * dois boire , & être baptisés du baptême dont je * dois être baptisé ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 39,
+    "lat": "At illi dixerunt ei : Possumus. Jesus autem ait eis : Calicem quidem , quem ego bibo , bibetis ; & baptismo , quo ego baptizor , baptizabimini :",
+    "fr": "Ils lui dirent : Nous le pouvons. Et JESUS répartit : Vous boirez en effet le calice que je dois boire , & vous serez baptisés du bap- du baptême dont je dois être baptisé :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 40,
+    "lat": "sedere autem ad dexteram meam , vel ad sinistram , non est meum dare vobis , sed quibus paratum est ;",
+    "fr": "mais pour ce qui est d'être assis à ma droite ou à ma gauche , ce n'est point à moi à vous le donner ; mais ce sera pour ceux à qui il a été préparé.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 41,
+    "lat": "Et audientes decem , cœperunt indignari de Jacobo , & Joanne.",
+    "fr": "Et les dix autres Apôtres ayant entendu ceci , en conçurent de l'indignation contre Jacques & Jean.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 42,
+    "lat": "Jesus autem vocans eos , ait illi : Scitis quia hi , qui videntur principari gentibus , dominantur eis ; & Principes eorum potestatem habent ipsorum.",
+    "fr": "C'est pourquoi JESUS les appelant à lui , leur dit : Vous savez que ceux qui ont l'autorité de commander aux peuples , exercent une domination sur eux , & que leurs princes les traitent avec empire.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 43,
+    "lat": "Non ita est autem in vobis ; sed quicumque voluerit fieri major , erit vester minister :",
+    "fr": "Il n'en doit pas être de même parmi vous ; mais si quelqu'un veut y devenir le plus grand , il faut qu'il soit * prêt à vous servir :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 44,
+    "lat": "& quicumque voluerit in vobis primus esse , erit omnium servus.",
+    "fr": "* & quiconque voudra être le premier d'entre vous , doit être le serviteur de tous.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 45,
+    "lat": "Nam & Filius hominis non venit ut ministraretur ei , sed ut ministraret , & daret animam suam redemptionem pro multis.",
+    "fr": "Car le Fils de l'homme même n'est pas venu pour être servi , mais pour servir , & donner sa vie pour la rédemption de plusieurs.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 46,
+    "lat": "Et veniunt Jericho , & proficiscente eo de Jericho , & discipulis ejus , & plurimâ multitudine , filius Timæi Bartimæus cæcus , sedebat juxta viam mendicans ,",
+    "fr": "Après cela ils vinrent à Jéricho : & comme il sortoit de Jéricho avec ses disciples , suivi d'une grande troupe de peuple , un aveugle nommé Bartimée , fils de Timée , qui étoit assis sur le chemin pour demander l'aumône ,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 47,
+    "lat": "qui cùm audisset quia Jesus Nazarenus est , cœpit clamare , & dicere : Jesu fili David , miserere meî.",
+    "fr": "ayant appris que c'étoit JESUS de Nazareth , se mit à crier : JESUS fils de David , ayez pitié de moi.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 48,
+    "lat": "Et comminabantur ei multi ut taceret : at ille multò magis clamabat : Fili David , miserere meî.",
+    "fr": "Et plusieurs le reprenoient rudement , & lui disoient qu'il se tût ; mais il crioit encore beaucoup plus haut : Fils de David , ayez pitié de moi.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 49,
+    "lat": "Et stans Jesus præcepit illum vocari. Et vocant cæcum , dicentes ei : Animæquior esto , surge , vocat te.",
+    "fr": "Alors JESUS s'étant arrêté , commanda qu'on l'appelât. Et quelques-uns appelèrent l'aveugle , lui disant : Ayez bonne espérance , levez-vous , il vous appelle.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 50,
+    "lat": "Qui projecto vestimento suo , exiliens venit ad eum.",
+    "fr": "Aussitôt il jeta son manteau , & se levant il vint à JESUS.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 51,
+    "lat": "Et respondens Jesus dixit illi : Quid tibi vis faciam ? Cæcus autem dixit ei : Rabboni, ut videam.",
+    "fr": "Et JESUS lui dit : Que voulez-vous que je vous fasse ? L'aveugle lui répondit : Maître, faites que je voie.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "n": 52,
+    "lat": "Jesus autem ait illi : Vade, fides tua te salvum fecit. Et confestim vidit, & sequebatur eum in via.",
+    "fr": "Allez, lui dit JESUS, votre foi vous a sauvé. Et il vit au même instant, & il suivoit JESUS dans le chemin.",
+    "note": "Alors JESUS lui dit : Votre foi vous a sauvé. Et il vit au même instant, & il suivoit JESUS dans le chemin. On a déjà expliqué dans saint Matthieu l'histoire de la guérison de cet aveugle ; & on a tâché de concilier autant qu'on a pu ce qu'il y a de différent dans les trois Evangélistes qui en ont parlé. Il suffit donc d'éclaircir ici deux ou trois circonstances particulières qui n'ont point été touchées ailleurs. On voit en différentes occasions, que le Fils de Dieu guérissant quelque malade, lui disoit cette parole, Votre foi vous a sauvé ; parce qu'ordinairement lorsqu'il en vouloit guérir quelqu'un, il lui inspiroit cette foi vive, qui lui faisoit espérer d'être guéri. Et ainsi sa guérison étoit doublement un don de Dieu ; puisqu'elle étoit un fruit de sa foi, & que sa foi étoit elle-même une grâce du Seigneur. Mais elle paroît d'une manière toute singulière dans cet aveugle nommé Bartimée, & c'étoit avec beaucoup de raison qu'elle méritoit l'éloge de J. C. Car si l'on se représente ce que l'on a dit sur saint Matthieu, que cet aveugle étoit d'abord, selon saint Luc, le long du chemin par où passa le Sauveur avant que d'entrer dans Jéricho ; & que n'ayant pu obtenir cette première fois sa guérison, il alla se mettre de l'autre côté de Jéricho, où JESUS devoit passer au sortir de cette ville, pour aller à Jérusalem ; & si l'on considère de plus la persévérance avec laquelle il cria, & redoubla même ses cris à mesure qu'on s'efforçoit davantage de lui imposer silence, on sera très-convaincu que sa foi étoit vraiment grande, & méritoit bien que J. C. s'arrêtât pour l'exaucer en le guérissant. C'étoit donc véritablement, comme le dit le Sauveur, sa foi qui l'avoit sauvé. Car ce fut à la grandeur de sa foi qu'il voulut accorder sa guérison : au lieu que d'autres malades étoient quelquefois guéris par un effet de la foi de ceux qui le présentoient. Secondement, il est remarquable que l'Evangile dit de cet aveugle, que J. C. s'étant arrêté pour l'appeler, il jeta aussitôt son manteau, pour pouvoir venir le trouver plus vîte. Car il y a des obstacles qui nous empêchent de courir à J. C. lorsqu'il nous appelle. Et c'est souvent un des effets les plus sensibles de la foi vive qui accompagne la grâce par laquelle Dieu nous invite intérieurement à son service ; de nous inspirer, comme à cet aveugle, une grande ardeur pour nous dépouiller de ce qui pourroit nous retarder, & ralentir notre course vers celui qui nous appelle. En troisième lieu, il est dit de cet aveugle, qu'aussitôt qu'il fut guéri, il se mit à suivre le Fils de Dieu dans le chemin ; c'est-à-dire, qu'il fit connoître sa guérison, en se conduisant alors lui-même, au lieu qu'il avoit besoin auparavant d'un conducteur, & marchant après son suprême médecin, par un effet de son humble reconnoissance, qui le portoit à publier le miracle par lequel il avoit été guéri, & à s'attacher à son bienfaiteur. Telle est l'image très-naturelle de la disposition qui se doit aussi rencontrer dans les aveugles spirituels, que la lumière de la vérité, & la grâce du Fils de Dieu a éclairés d'une manière beaucoup plus miraculeuse, quoiqu'invisible. Ils étoient aveugles ; parce qu'ils étoient privés de la vraie lumière des ames, qui est le Verbe fait homme, pour éclairer tous les hommes. Mais après que J. C. par sa grâce leur a rendu la lumière spirituelle qu'ils avoient perdue, ils commencent alors à le suivre comme leur chef & leur modèle. Et comment suivent-ils JESUS ? En marchant dans le chemin où il a marché, Car c'est-là & l'effet, & la marque la plus visible de leur guérison, de marcher, comme dit saint Paul, dans la voie de Dieu, de la manière qu'ils ont appris qu'ils y doivent marcher pour lui plaire. Et c'est, comme il dit encore, en observant les préceptes que J. C. nous a donnés, & en accomplissant la volonté du Seigneur, qu'on marche après lui dans cette voie."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 1,
+    "lat": "Et cùm appropinquarent Jerosolymæ & Bethaniæ ad montem Olivarum, mittit duos ex discipulis suis,",
+    "fr": "Lorsqu'ils approchoient de Jérusalem, étant près * de Béthanie vers la montagne des Oliviers, il envoya deux de ses disciples,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 2,
+    "lat": "& ait illis : Ite in castellum, quod contra vos est ; & statim introeuntes illuc, invenietis pullum ligatum, super quem nemo adhuc hominum sedit ; solvite illum, & adducite.",
+    "fr": "& leur dit : Allez à ce village qui est devant vous ; & sitôt que vous y serez entrés, vous trouverez un ânon lié sur lequel nul homme n'a encore monté ; déliez-le, & me l'amenez.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 3,
+    "lat": "Et si quis vobis dixerit, Quid facitis ? dicite, quia Domino necessarius est ; & continuò illum dimittet huc.",
+    "fr": "Et si quelqu'un vous demande, Pourquoi faites-vous cela ? dites-lui : C'est que le Seigneur en a besoin ; & il le laissera amener ici aussitôt.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 4,
+    "lat": "Et abeuntes invenerunt pullum ligatum ante januam foris in bivio, & salvunt eum.",
+    "fr": "Y étant allés, ils trouvèrent l'ânon qui étoit attaché dehors auprès d'une porte entre deux chemins, & ils le délièrent.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 5,
+    "lat": "Et quidam de illic stantibus, dicebant illis : Quid facitis solventes pullum ?",
+    "fr": "Quelques-uns de ceux qui étoit là, leur direrent : Que faites-vous ? Pourquoi déliez-vous cet ânon ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 6,
+    "lat": "Qui dixerunt eis sicut præceperat illis Jesus, & dimiserunt eis.",
+    "fr": "Ils leur répondirent comme JESUS le leur avoit ordonné ; & ils le leur laissèrent emmener.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 7,
+    "lat": "Et duxerunt pullum ad Jesum, & imponunt illi vestimenta sua ; & sedit super eum.",
+    "fr": "Ainsi ayant emmené l'ânon à JESUS, ils le couvrirent de leurs vêtemens ; & il monta dessus.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 8,
+    "lat": "Multi autem vestimenta sua straverunt in via. Alii autem frondes cædebant de arboribus, & sternebant in via.",
+    "fr": "Plusieurs aussi étendirent leurs vêtemens le long du chemin. D'autres coupoient des branches d'arbres, & les jetoient par où il passoit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 9,
+    "lat": "Et qui præibant, & qui sequebantur, clamabant, dicentes : Hosanna.",
+    "fr": "Et tant ceux qui marchoient devant, que ceux qui suivoient, crioient : Hosanna, salut & gloire.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 10,
+    "lat": "Benedictus qui venit in nomine Domini : benedictum quod venit regnum patris nostri David : Hosanna in excelsis.",
+    "fr": "Béni soit celui qui vient au nom du Seigneur : béni soit le règne de notre père David, que nous voyons arriver : Hosanna, salut & gloire au plus haut des cieux.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 11,
+    "lat": "Et introivit Jerosolymam in templum : & circumspectis omnibus, cùm jam vespera esset hora, exiit in Bethaniam cum duodecim.",
+    "fr": "JESUS étant ainsi entré dans Jérusalem, s'en vint au temple : & après avoir tout regardé, comme il étoit déjà tard, il s'en alla à Béthanie avec les douze Apôtres.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 12,
+    "lat": "Et alià die cùm exirent à Bethania, esuriit ;",
+    "fr": "Le lendemain, lorsqu'ils sortoient de Béthanie, il eut faim ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 13,
+    "lat": "cùmque vidisset à longe ficum habentem folia, venit, si quid fortè inveniret in ea ; & cùm venisset ad eam, nihil invenit præter folia ; non enim erat tempus ficorum.",
+    "fr": "& voyant de loin un figuier qui avoit des feuilles, il y alla pour voir s'il y pourroit trouver quelque chose ; & s'en étant approché, il n'y trouva que des feuilles ; car ce n'étoit pas * le temps des figues.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 14,
+    "lat": "Et respondens dixit ei ; Jam non ampliùs in æternum ex te fructum quisquam manducet : & audiebant discipuli ejus.",
+    "fr": "Alors JESUS dit au figuier : Qu'à jamais nul ne mange plus de toi aucun fruit : ce que ses disciples entendirent.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 15,
+    "lat": "Et veniunt Jerosolymam ; & cùm introisset in templum, cœpit ejicere vendentes & ementes in templo, & mensas nummulariorum, & cathedras vendentium columbas evertit ;",
+    "fr": "Etant revenus à Jérusalem, il entra dans le temple, d'où il chassa ceux qui y vendoient, & qui y achetoient ; & il renversa les tables des banquiers, & les bancs de ceux qui vendoient des colombes :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 16,
+    "lat": "& non sinebat ut quisquam transferret vas per templum.",
+    "fr": "& il ne permettoit pas que personne transportât aucun ustensile par le temple.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 17,
+    "lat": "Et docebat dicens eis : Nonne scriptum est : quia domus mea domus orationis vocabitur omnibus gentibus ? Vos autem fecistis eam speluncam latronum.",
+    "fr": "Il les instruisoit aussi en leur disant : N'est-il pas écrit, Ma maison sera appelée la maison de prière pour toutes les nations ? Et cependant vous en avez fait une caverne de voleurs.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 18,
+    "lat": "Quo audito Principes Sacerdotum & Scribæ quærebant quomodo eum perderent : timebant enim eum, quoniam universa turba admirabatur super doctrina ejus.",
+    "fr": "Ce que les Princes des Prêtres & les Scribes ayant entendu, ils cherchoient un moyen de le perdre ; car ils le craignoient, parce que tout le peuple étoit ravi en admiration de sa doctrine.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 19,
+    "lat": "Et cùm vespera facta esset, egrediebatur de civitate.",
+    "fr": "Et lorsqu'il étoit déjà tard, il sortit de la ville.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 20,
+    "lat": "Et cùm manè transirent, viderunt ficum aridam factam à radicibus.",
+    "fr": "Le lendemain matin ils virent en passant le figuier, qui étoit devenu sec jusqu'à la racine.",
+    "note": "Le lendemain matin ils virent en passant le figuier, qui étoit devenu sec jusqu'à la racine. Et Pierre se souvenant de la parole de J. C. lui dit : Maître, voyez comme le figuier que vous avez maudit est devenu sec. Il est dit dans saint Matthieu, que le figuier devint sec dans le moment que J. C. l'eut maudit. Mais il est dit seulement ici, que le lendemain les disciples virent en passant ce figuier séché jusqu'à la racine, & qu'ils le firent remarquer au Fils de Dieu. Cela s'éclaircit facilement, si l'on considère que le figuier sécha dans l'instant que le Sauveur lui eut donné sa malédiction ; mais que les disciples ne s'en aperçurent que le lendemain lorsqu'ils passèrent devant. Ainsi, quoique saint Matthieu témoigne qu'aussitôt après que J. C. eut maudit cet arbre, ses disciples en furent dans l'admiration, & lui dirent : Voyez comme ce figuier est devenu sec en un instant ; il y a sujet de croire que ce saint Evangéliste a rapporté tout de suite, ce qui néanmoins n'est arrivé, selon saint Marc, que le jour suivant. On a expliqué ailleurs ce que J. C. dit à ses disciples de la vertu toute divine de la foi, capable de transporter les montagnes d'un lieu en un autre ; cette foi dont parle saint Paul, lorsqu'il s'écrie : Quand j'aurois toute la foi possible jusqu'à transporter les montagnes. Mais on pourroit seulement demander ici ce que le Sauveur entend, lorsqu'il déclare que le propre de cette foi est de n'hésiter point dans son cœur. J. C. nous oblige-t-il donc par-là à n'avoir jamais aucun doute, que le Seigneur ne nous accorde les plus grands miracles lorsque nous les lui demanderons ? Pour bien entendre ceci, il faut supposer premièrement, qu'il ne peut jamais nous être permis de tenter Dieu. Et ce seroit le tenter de lui demander sans nécessité des miracles. Le temps des Apôtres étoit le temps des prodiges, parce qu'il étoit besoin alors d'établir la vérité de l'Evangile par l'éclat des œuvres miraculeuses & surnaturelles. Ainsi les Apôtres avoient cette foi dont parle S. Paul, qui est capable de transporter les montagnes. Et cette foi étoit telle, qu'ils n'hésitoient point dans leur cœur, étant toujours assurés que Dieu leur accorderoit ce qu'ils demandoient, parce qu'il les avoit rendu les dépositaires de sa puissance pour l'établissement de son Eglise, & que d'ailleurs ils ne lui demandoient rien que dans cette vue & pour cette fin, qui étoit l'essentiel de leur ministère. L'on a vu aussi beaucoup de Saints, à qui Dieu avoit donné un pouvoir égal à celui des Apôtres, pour faire divers prodiges en faveur des peuples. Tels ont été en orient saint Grégoire surnommé le Thaumaturge, & en occident saint Martin, & plusieurs autres, à qui il sembloit que toute la nature fût soumise comme à Dieu-même, parce qu'ils étoient eux-mêmes si parfaitement soumis à Dieu, qu'ils ne vouloient que ce que le Seigneur vouloit, & qu'ainsi leur volonté étoit toujours accomplie, parce qu'elle étoit elle-même la volonté du Seigneur. Disons donc que les Apôtres, & tous les hommes apostoliques n'hésitoient point dans leur cœur, toutes les fois qu'ils demandoient des miracles ; parce que c'étoit l'esprit de Dieu qui les remplissoit, & qui les faisoit agir pour sa gloire, & pour les divers besoins de son Eglise : mais ce seroit une illusion de s'imaginer qu'il nous fût permis de demander quand il nous plairoit des prodiges, ou par la curiosité, ou sans une nécessité considérable ; & qu'il suffiroit pour les obtenir de n'hésiter point dans notre cœur, lorsque d'ailleurs ni la grande gloire de Dieu, ni d'autres raisons très-pressantes ne l'exigent pas. On ne prétend pas néanmoins accourcir le bras du Seigneur, qui est encore tout-puissant pour opérer des prodiges, quand il lui plaît, & faire paroître sa gloire dans ses Saints ; mais ce qu'on peut dire en général, c'est qu'après que Dieu a établi si puissamment la vérité de son Eglise, par les miracles qu'ont faits les Apôtres, & tous les hommes apostoliques, par le sang de tant de Martyrs, dont les souffrances doivent être considérées comme les plus grands de tous les miracles, & par tant d'autres merveilles que la puissance de Dieu a fait éclater en divers siècles, il paroît moins de nécessité de demander ces sortes de prodiges, qui ont été plus particulièrement nécessaires dans les premiers temps de l'établissement de l'Eglise. Notre foi présentement doit être une foi toute intérieure, & toute appliquée à la prière, dans la vue de la grandeur infinie de Dieu, & du néant où nous réduit devant lui notre extrême misère. Elle doit nous engager à lui demander avec confiance son divin secours, sans lequel nous sentons bien que nous ne pouvons accomplir par nous-mêmes ce qu'il nous commande. C'est de cette vive foi qui doit accompagner la prière, que saint Jacques dit : Si quelqu'un de vous manque de sagesse, qu'il la demande à Dieu qui donne à tous libéralement & sans reproche ; & la sagesse lui sera donnée. Mais qu'il la demande avec foi ET SANS HÉSITER ; car celui qui hésite dans son cœur, est semblable au flot de la mer, qui est agité & emporté çà & là par la violence du vent. Telle est donc la foi qui doit animer notre prière ; une foi qui ne soit point inconstante. Et le même Apôtre explique aussitôt en quoi consiste cette inconstance lorsqu'il ajoute : Que l'homme qui a un cœur double est inconstant dans toutes ses voies. Ainsi l'inconstance d'une foi qui ne sauroit obtenir de Dieu ce qu'elle demande, est causée, selon ce grand Saint, par la duplicité d'un cœur partagé entre Dieu & le monde ; entre l'amour de la vérité & la vanité des créatures ; entre l'esprit & la chair. Car dans ce partage de son cœur, il est impossible qu'il prie Dieu avec cette foi qui n'hésite point, & à laquelle J. C. aussi-bien que son Apôtre, nous déclare que Dieu ne refusera point ce qu'elle demande. Tout le reste de ce chapitre étant rapporté presque en mêmes termes dans saint Matthieu, il est inutile d'expliquer ici de nouveau ce qui a été déjà éclairci dans les explications de cet autre Evangéliste."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 21,
+    "lat": "Et recordatus Petrus, dixit ei : Rabbi, ecce ficus, cui maledixisti, aruit.",
+    "fr": "Et Pierre se souvenant de la parole de Jesus-Christ, lui dit : Maître, voyez comme le figuier que vous avez maudit, est devenu sec.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 22,
+    "lat": "Et respondens Jesus, ait illis : Habete fidem Dei.",
+    "fr": "JESUS lui répondant, leur dit : Ayez * de la foi en Dieu.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 23,
+    "lat": "Amen dico vobis, quia quicumque dixerit huic monti : Tollere, & mittere in mare, & non hæsitaverit in corde suo, sed crediderit, quia quodcumque dixerit, fiat, fiet ei.",
+    "fr": "Je vous dis en vérité, que quiconque dira à cette montagne, Ote-toi de là, & te jettes dans la mer, & cela sans hésiter dans son cœur, mais croyant fermement que tout ce qu'il aura dit arrivera, il * le verra en effet arriver.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 24,
+    "lat": "Proptereà dico vobis, omnia quæcumque orantes petitis, credite quia accipietis & evenient vobis.",
+    "fr": "C'est pourquoi je vous le dis : Quoi que ce soit que vous demandiez dans la prière, croyez que vous l'obtiendrez, & il vous sera accordé.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 25,
+    "lat": "Et cùm stabitis ad orandum, dimittite si quid habetis adversùs aliquem, ut & Pater vester, qui in cœlis est, dimittat vobis peccata vestra.",
+    "fr": "Mais lorsque vous vous présenterez pour prier, si vous avez quelque chose contre quelqu'un, pardonnez-lui, afin que votre Père qui est dans les cieux vous pardonne aussi vos péchés.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 26,
+    "lat": "Quod si vos non dimiseritis, nec Pater vester, qui in cœlis est, dimittet vobis peccata vestra.",
+    "fr": "Que si vous ne pardonnez point, votre Père qui est dans les cieux ne vous pardonnera point non plus vos péchés.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 27,
+    "lat": "Et veniunt rursus Jerosolymam. Et cùm ambularet in templo, accedunt ad eum summi Sacerdotes, & Scribæ, & Seniores.",
+    "fr": "Ils retournèrent encore à Jérusalem. Et JESUS se promenant dans le temple, les Princes des Prêtres, les Scribes, & les Sénateurs le vinrent trouver,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 28,
+    "lat": "& dicunt ei : In qua potestate hæc facis ? Et quis dedit tibi hanc potestatem ut ista facias ?",
+    "fr": "& lui dirent : Par quelle autorité faites-vous ceci ; & qui vous a donné l'autorité de faire ce que vous faites ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 29,
+    "lat": "Jesus autem respondens, ait illis : Interrogabo vos & ego unum verbum, & respondete mihi, & dicam vobis in qua potestate hæc faciam.",
+    "fr": "JESUS leur répondit : J'ai aussi une demande à vous faire * & après que vous m'y aurez répondu, je vous dirai par quelle autorité je fais ceci.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 30,
+    "lat": "Baptismus Joannis de cœlo erat, an ex hominibus ? Respondete mihi.",
+    "fr": "Le baptême de Jean étoit-il du ciel, ou des hommes ? Répondez-moi.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 31,
+    "lat": "At illi cogitabant secum, dicentes : Si dixerimus, De cœlo, dicet : Quare ergo non credidistis ei ?",
+    "fr": "Mais ils raisonnoient ainsi en eux-mêmes : Si nous répondons qu'il étoit du ciel, il nous dira : Pourquoi donc ne l'avez-vous pas cru ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 32,
+    "lat": "Si dixerimus, Ex hominibus, timemus populum : omnes enim habebant Joannem, quia verè Propheta esset.",
+    "fr": "Que si nous disons qu'il étoit des hommes, nous avons à craindre le peuple ; parce que tout le monde considéroit Jean comme ayant été véritablement Prophète.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "n": 33,
+    "lat": "Et respondentes dicunt Jesu : Nescimus. Et respondens Jesus ait illis : Neque ego dico vobis in qua potestate hæc faciam.",
+    "fr": "Ainsi ils répondirent à JESUS : Nous ne savons. Et JESUS leur dit : Je ne vous dirai point non plus par quelle autorité je fais ceci.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 1,
+    "lat": "Et cœpit illis in parabolis loqui : Vineam pastinavit homo, & circumdedit sepem, & fodit lacum, & ædificavit turrim, & locavit eam agricolis, & peregrè profectus est.",
+    "fr": "JESUS commença ensuite à leur parler en paraboles : Un homme, dit-il, planta une vigne, l'entoura d'une haie, & creusant dans la terre y fit un pressoir *, y bâtit une tour ; & l'ayant louée à des vignerons, il s'en alla en un pays éloigné.",
+    "note": "Jesus commença ensuite à leur parler en paraboles, &c. Ceci ne signifie pas que J. C. ait seulement commencé alors à parler aux Prêtres & aux Docteurs en paraboles ; puisque l'on a vu auparavant qu'il avoit accoutumé de parler ainsi aux Juifs sous diverses paraboles, & même qu'il ne leur parloit point sans paraboles. Mais le saint Evangéliste ne veut marquer autre chose, sinon, qu'après que le Fils de Dieu eut confondu tous ces Prêtres & tous ces Docteurs, par la demande qu'il leur fit touchant le baptême de saint Jean, au lieu de répondre à ce qu'ils lui demandoient eux-mêmes, il commença à leur tracer une image de leur propre infidélité sous diverses paraboles qu'il leur proposa, & entre autres sous la figure de ces vignerons dont il est parlé ici. Car quoique saint Marc ayant parlé de paraboles au pluriel, ne rapporte néanmoins que celle des vignerons ; saint Matthieu en marque encore quelques autres, qu'on a expliquées avec celle-ci, à l'endroit où il en parle."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 2,
+    "lat": "Et misit ad agricolas in tempore servum, ut ab agricolis acciperet de fructu vineæ.",
+    "fr": "La saison étant venue, il envoya un de ses serviteurs aux vignerons, pour recevoir ce qu'ils devoient du fruit de sa vigne.",
+    "note": "Car ils connurent que c'étoit d'eux qu'il vouloit parler dans cette parabole, &c. Saint Matthieu fait voir comment ces Prêtres connurent que J. C. parloit d'eux sous cette figure de vignerons infidelles envers leur maître, & cruels envers son fils. Car il témoigne que le Sauveur leur déclara nettement, Que le royaume de Dieu leur seroit ôté, & donné à un autre peuple, qui en produiroit les fruits. Ainsi il leur fut aisé de comprendre alors, qu'ils étoient ces vignerons, qui ayant si mal reçu, & traité même avec tant d'outrages, en la personne de leurs pères, les saints Prophètes que le Seigneur, le Dieu d'Israël leur avoit envoyés en divers temps, se trouvoient encore eux-mêmes dans la cruelle disposition de faire mourir celui que les prophéties devoient leur faire reconnoître pour le CHRIST ; & le Fils de Dieu. Mais de quoi leur servit-il de s'être aperçus que c'étoit d'eux que JESUS parloit, & qu'il traçoit leur propre image sous la figure de ces cruels vignerons, homicides du Fils de leur Maître & de leur Seigneur ? En deviennent-ils plus modérés ? Et conçoivent-ils de l'horreur de cette disposition si criminelle, où le Fils de Dieu leur faisoit voir qu'ils étoient tous engagés ? Ils n'en deviennent au contraire que plus furieux ; & ils se hâtent, pour le dire ainsi, de vérifier par l'effet ce qu'il disoit d'eux, voulant dès-lors l'arrêter, s'ils l'avoient pu, & la seule crainte du commun des Juifs qui respectoient J. C. les en ayant empêchés. Qui s'étonnera donc que dans tous les siècles on ait vu souvent que la vérité représentée à ses ennemis n'ait fait que les irriter ? Car tel a été toujours le caractère de ceux qui ont ressemblé à ces Prêtres & à ces Pharisiens envieux de la gloire du Fils de Dieu, & ennemis de la vérité de ses paroles, qui leur faisoit voir leurs déréglemens ; toujours prêts à condamner dans les autres, le mal qui étoit encore plus grand dans eux-mêmes, & toujours prêts à s'irriter contre ceux qui leur donnoient lieu de se connoître tels qu'ils étoient : toujours clair-voyans pour découvrir une paille dans l'œil de leurs frères, & toujours aveugles pour ne pas voir dans leurs propres yeux des poutres qui y étoient visibles à tous les autres : enfin toujours attentifs sur leur prochain, pour en observer les moindres défauts ; & toujours hors d'eux-mêmes, pour n'y point considérer ce qui s'y passe, & n'être point obligé de le condamner : Bien éloignés de la disposition si humble de ce Roi vraiment pénitent, dont il est parlé dans l'Ecriture, qui après avoir condamné dans la parabole que Nathan lui proposa, l'injustice d'un homme riche, qui avoit ôté à un pauvre sa brebis unique, ne craignit point de se condamner aussi lui-même, dans le moment qu'il connut que c'étoit de lui que ce Prophète avoit parlé, & dont il avoit représenté l'injustice sous le voile de cette figure."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 3,
+    "lat": "Qui apprehensum eum ceciderunt, & dimiserunt vacuum.",
+    "fr": "Mais l'ayant pris, ils le * battirent, & le renvoyèrent sans lui rien donner.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 4,
+    "lat": "Et iterùm misit ad illos alium servum ; & illum in capite vulneraverunt, & contumeliis affecerunt.",
+    "fr": "Il leur envoya encore un autre serviteur *, & ils le blessèrent à la tête, & lui firent toutes sortes d'outrages.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 5,
+    "lat": "Et rursum alium misit, & illum occiderunt ; & plures alios, quosdam cædentes, alios verò occidentes.",
+    "fr": "Il leur en envoya encore un, qu'ils tuèrent ; & de plusieurs qu'il leur envoya ensuite, ils en battirent quelques-uns, & tuèrent les autres.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 6,
+    "lat": "Adhuc ergo unum habens filium carissimum, & illum misit ad eos novissimum, dicens : Quia reverebuntur filium meum.",
+    "fr": "Enfin, ayant un fils unique qu'il aimoit très-tendrement, il le leur envoya encore après tous les autres, en disant : Ils auront quelque respect pour mon fils.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 7,
+    "lat": "Coloni autem dixerunt ad invicem, Hìc est heres ; venite, occidamus eum, & nostra erit hereditas.",
+    "fr": "Mais ces vignerons dirent entre eux : Voici l'héritier ; allons, tuons-le, & l'héritage sera à nous.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 8,
+    "lat": "Et apprehendentes eum, occiderunt : & ejecerunt extra vineam.",
+    "fr": "Ainsi s'étant saisis de lui, ils le tuèrent, & le jetèrent hors de la vigne.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 9,
+    "lat": "Quid ergo faciet Dominus vineæ ? Veniet, & perdet colonos, & dabit vineam aliis.",
+    "fr": "Que fera donc le Seigneur de cette vigne ? Il viendra lui-même, il exterminera ces vignerons, & il donnera sa vigne à d'autres.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 10,
+    "lat": "Nec Scripturam hanc legistis : Lapidem quem reprobaverunt ædificantes, hic factus est in caput anguli :",
+    "fr": "N'avez-vous point lu cette parole de l'Ecriture : La pierre qui avoit été rejetée par ceux qui bâtissoient, est devenue la principale pierre de l'angle :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 11,
+    "lat": "à Domino factum est istud ; & est mirabile in oculis nostris ?",
+    "fr": "c'est le Seigneur qui l'a fait, & nos yeux le voient avec admiration ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 12,
+    "lat": "Et quærebant eum tenere, & timuerunt turbam ; cognoverunt enim quoniam ad eos parabolam hanc dixerit : & relicto eo, abierunt.",
+    "fr": "Ceux à qui il parloit cherchoient les moyens de l'arrêter ; car ils virent bien que c'étoit d'eux qu'il vouloit parler dans cette parabole : mais ils craignirent le peuple ; c'est pourquoi le laissant là, ils se retirèrent.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 13,
+    "lat": "Et mittunt ad eum quosdam ex Pharisæis & Herodianis, ut eum caperent in verbo,",
+    "fr": "Voulant ensuite le surprendre dans ses paroles, ils lui envoyèrent quelques-uns des Pharisiens & des Hérodiens,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 14,
+    "lat": "qui venient dicunt ei : Magister, scimus quia verax es, & non curas quemquam, nec enim vides in faciem hominum, sed in veritate viam Dei doces : Licet dari tributum Cæsari, an non dabimus ?",
+    "fr": "qui lui vinrent dire : Maître, nous savons que vous êtes sincère & véritable, & que vous n'avez égard à qui que ce soit ; car vous ne considérez point la qualité des personnes, mais vous enseignez la voie de Dieu dans la vérité : * Est-il permis, ou non, de payer le tribut à César * ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 15,
+    "lat": "Qui sciens versutiam illorum, ait illis : Quid me tentatis ? Afferte mihi denarium, ut videam.",
+    "fr": "Mais JESUS connoissant leur hypocrisie, leur dit : Pourquoi me tentez-vous ? Apportez-moi un denier, que je le voie.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 16,
+    "lat": "At illi attulerunt ei ; & ait illis : Cujus est imago hæc, & inscriptio ? Dicunt ei : Cæsaris.",
+    "fr": "Ils lui en apportèrent un ; & il leur demanda : De qui est cette image, & cette inscription ? De César, lui dirent-ils.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 17,
+    "lat": "Respondens autem Jesus dixit illis : Reddite igitur quæ sunt Cæsaris, Cæsari, & quæ sunt Dei, Deo. Et mirabantur super eo.",
+    "fr": "JESUS leur répondit : Rendez donc à César ce qui est à César ; & à Dieu ce qui est à Dieu. Et ils admirèrent sa réponse.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 18,
+    "lat": "Et venerunt ad eum Sadducæi, qui dicunt resurrectionem non esse ; & interrogabant eum dicentes :",
+    "fr": "Après cela, les Sadducéens qui nient la résurrection, le vinrent trouver, & ils lui proposèrent cette question :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 19,
+    "lat": "Magister, Moyses nobis scripsit, ut si cujus frater mortuus fuerit, & dimiserit uxorem, & filios non reliquerit, accipiat frater ejus uxorem ipsius, & resuscitet semen fratri suo.",
+    "fr": "Maître, Moyse nous a laissé par écrit : Que si un homme en mourant laisse sa femme sans enfans, son frère doit épouser sa femme, pour susciter des enfans à son frère mort.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 20,
+    "lat": "Septem ergo fratres erant, & primus accepit uxorem, & mortuus est non relicto semine.",
+    "fr": "Or il y avoit sept frères, dont le premier ayant pris une femme, mourut sans laisser d'enfans.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 21,
+    "lat": "Et secundus accepit eam, & mortuus est, & nec iste reliquit semen, & tertius similiter ;",
+    "fr": "Le second l'ayant épousée ensuite, mourut aussi sans enfans, & le troisième de même ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 22,
+    "lat": "& acceperunt eam similiter septem : & non reliquerunt semen ; novissima omnium defuncta est & mulier.",
+    "fr": "& tous les sept l'ont ainsi eue pour femme, sans qu'aucun ait laissé d'enfans ; & enfin cette femme est morte elle-même la dernière.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 23,
+    "lat": "In resurrectione ergo cùm resurrexerint, cujus de his erit uxor ; septem enim habuerunt eam uxorem ?",
+    "fr": "Lors donc qu'ils ressusciteront dans la résurrection générale, duquel d'entre eux sera-t-elle femme, puisqu'elle l'a été de tous les sept ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 24,
+    "lat": "Et respondens Jesus, ait illis : Nonne ideò erratis, non scientes Scripturas, neque virtutem Dei ?",
+    "fr": "Et JESUS leur répondit : Ne voyez-vous pas que vous êtes dans l'erreur ; parce que vous ne comprenez ni les Ecritures, ni la puissance de Dieu ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 25,
+    "lat": "Cùm enim à mortuis resurrexerint, neque nubent, neque nubentur ; sed sunt sicut Angeli in cœlis.",
+    "fr": "Car lorsque les morts seront ressuscités, les hommes n'auront point de femmes, ni les femmes de maris : mais ils seront comme les Anges qui sont dans les cieux.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 26,
+    "lat": "De mortuis autem quòd resurgant, non legistis in libro Moysi, super rubum quomodo dixerit illi Deus, inquiens : Ego sum Deus Abraham, & Deus Isaac, & Deus Jacob ?",
+    "fr": "Et quant à la résurrection des morts, n'avez-vous point lu dans le livre de Moyse ce que Dieu lui dit dans le buisson : Je suis le Dieu d'Abraham, le Dieu d'Isaac, & le Dieu de Jacob ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 27,
+    "lat": "Non est Deus mortuorum, sed vivorum ; vos ergo multùm erratis.",
+    "fr": "Or il n'est point le Dieu des morts, mais des vivans ; & ainsi vous êtes dans une grande erreur.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 28,
+    "lat": "Et accessit unus de Scribis, qui audierat illos conquirentes : & videns quoniam benè illis responderit, interrogavit eum quod esset primum omnium mandatum.",
+    "fr": "Alors l'un des Docteurs de la loi, qui avoit ouï cette dispute, voyant que JESUS avoit si bien répondu aux Sadducéens, s'approcha de lui, & lui demanda, Quel étoit le premier de tous les commandemens.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 29,
+    "lat": "Jesus autem respondit ei : Quia primum omnium mandatum est : Audi, Israel, Dominus Deus tuus, Deus unus est ;",
+    "fr": "Et JESUS lui répondit : Le premier de tous les commandemens est celui-ci : Ecoutez, Israël, le Seigneur votre Dieu est le seul * Dieu :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 30,
+    "lat": "Et diliges Dominum Deum tuum ex toto corde tuo, & ex tota anima tua, & ex tota mente tua, & ex tota virtute tua. Hoc est primum mandatum.",
+    "fr": "Vous aimerez le Seigneur votre Dieu de tout votre cœur, de toute votre ame, de tout votre esprit, & de toutes vos forces. C'est là le premier commandement.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 31,
+    "lat": "Secundum autem simile est illi : Diliges proximum tuum tanquam teipsum. Majus horum aliud mandatum non est.",
+    "fr": "Et voici le second, qui est semblable au premier : Vous aimerez votre prochain comme vous-même. Il n'y a aucun autre commandement plus grand que ceux-ci.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 32,
+    "lat": "Et ait illi Scriba : Benè, Magister, in veritate dixisti, quia unus est Deus, & non est alius præter eum :",
+    "fr": "Le Docteur lui répondit : * Maître, ce que vous avez dit est très-véritable, qu'il n'y a qu'un seul Dieu, & qu'il n'y en a point d'autre que lui :",
+    "note": "Maître, assûrément que ce que vous avez dit est très-véritable, qu'il n'y a qu'un seul Dieu..... & que de l'aimer de tout son cœur....., & son prochain comme soi-même, est quelque chose de plus grand que tous les holocaustes, & que tous les sacrifices. Les Juifs regardoient ordinairement les holocaustes, où la victime étoit consumée en l'honneur de Dieu, & les autres sacrifices de la loi, comme les devoirs les plus essentiels du culte qu'on lui rendoit. Et étant charnels & grossiers, ils bornoient là ordinairement leur piété ; parce qu'ils ne connoissoient point, ou ne vouloient point connoître, que ce qu'ils devoient à Dieu principalement, étoit l'amour de leur cœur. Ils s'attachoient donc à l'extérieur de la Religion, & à ce qui paroissoit le plus facile ; n'y ayant rien en effet de plus aisé que d'offrir à Dieu quelques sacrifices, comme toutes les différentes nations en offroient aussi à leurs idoles. Et la plupart ne faisoient aucune réflexion sur le premier des commandemens, qui les obligeoit à aimer Dieu de tout leur cœur, de tout leur esprit, de toute leur ame, & de toutes leurs forces ; ils ne considéroient point aussi que les holocaustes, & les autres sacrifices qu'on les obligeoit d'offrir à Dieu, ne devoient être que des effets de cet amour, & des témoignages de la préférence qu'ils étoient obligés de lui donner dans leur cœur au-dessus de toutes les choses de la terre, figurées par les différentes oblations qu'ils faisoient dans leurs sacrifices. Le Docteur de la loi, dont il est parlé ici, étoit donc louable, de s'élever en ce point au-dessus du sentiment du commun des Juifs, lorsqu'il dit à J. C. Que c'étoit quelque chose de plus grand que tous les holocaustes & que tous les sacrifices, d'aimer Dieu de tout son cœur, & son prochain comme soi-même. Mais comment peut-il tirer des paroles de J. C. cette conséquence ? Que l'amour de Dieu & du prochain, tel qu'il est prescrit dans le premier & dans le second commandement, étoit préférable à tous les holocaustes & à tous les sacrifices ? Car on ne voit point que le Fils de Dieu lui eût parlé dans sa réponse, ni de sacrifices, ni d'holocaustes. Il la tira visiblement de ce que J. C. lui avoit dit, Qu'il n'y avoit aucun autre commandement plus grand que ces deux premiers. Car puisque les autres préceptes du Décalogue étoient moindres que ceux de l'amour de Dieu, & de l'amour du prochain, il n'étoit pas difficile de conclure, ainsi que fit ce Docteur, que les ordonnances de la loi, qui ne regardoient que le culte extérieur de la Religion des Juifs, & auxquels néanmoins tous ces Juifs paroissoient si attachés, devoient être aussi par conséquent inférieurs à ce double amour qu'on devoit premièrement au Seigneur, & ensuite à son prochain. Il comprit donc la vérité de ce qu'un Prophète avoit dit long-temps auparavant au premier roi d'Israël : Le Seigneur demande-t-il des holocaustes & des victimes ? Et ne veut-il pas plutôt qu'on obéisse à sa voix ? Car l'obéissance est meilleure que les victimes, & il vaut mieux se soumettre à ce qu'il dit, que lui offrir ce qu'il y a de plus gras dans les troupeaux."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 33,
+    "lat": "& ut diligatur ex toto corde, & ex toto intellectu, & ex tota anima, & ex tota fortitudine ; & diligere proximum tanquam seipsum, majus est omnibus holocautomatibus, & sacrificiis.",
+    "fr": "& que de l'aimer de tout son cœur, de tout son esprit, & de toute son ame, & de toutes ses forces, & son prochain comme soi-même, est quelque chose de plus grand que tous les holocaustes, & que tous les sacrifices.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 34,
+    "lat": "Jesus autem videns quòd sapienter respondisset, dixit illi : Non es longè à regno Dei. Et nemo jam audebat eum interrogare.",
+    "fr": "JESUS voyant qu'il avoit répondu sagement, lui dit : Vous n'êtes pas loin du royaume de Dieu. Et depuis ce temps-là personne n'osoit plus lui faire de questions.",
+    "note": "JESUS voyant qu'il avoit répondu sagement, lui dit : Vous n'êtes pas loin du royaume de Dieu, Il y a plusieurs degrés pour s'approcher du royaume de Dieu ; c'est-à-dire, de la grâce par laquelle Dieu règne dans le cœur de l'homme. Et c'en est un assez proche de commencer à comprendre comme faisoit ce Docteur, en quoi consiste l'essentiel de la piété. Car on doit sans doute regarder, comme un effet très-particulier de la miséricorde de Dieu, quand il éclaire notre cœur sur nos devoirs, & quand il empêche que nous ne tombions sous la conduite de guides aveugles, qui au lieu de nous enseigner la voie de Dieu dans la vérité, nous détournent du vrai chemin du salut, en nous inspirant des traditions & des maximes humaines, comme faisoient la plupart des Pharisiens, & des Docteurs de la loi. J. C. témoigne donc à celui-ci, Qu'il n'étoit pas éloigné du royaume de Dieu ; parce qu'il étoit persuadé que l'amour de Dieu au-dessus de tout, & l'amour du prochain soumis à celui de Dieu, étoient plus grands que tous les devoirs extérieurs de la Religion. Car ce lui étoit déjà un grand avantage de connoître ce qu'il devoit principalement à Dieu. Mais que lui manquoit-il encore pour faire partie de ce royaume de Dieu ? La connoissance de J. C. comme Fils de Dieu ; lui qui s'appelle dans l'Evangile, la voie, la vérité, & la vie. Car c'étoit par J. C. seul qu'il pouvoit arriver à ce royaume ; par J. C. qui étant la voie, pouvoit l'y conduire par son exemple ; qui étant la vérité, pouvoit lui donner toutes les instructions qui lui manquoient ; & qui étant la vie même, pouvoit lui communiquer par sa grâce la vie véritable qui consiste dans la connoissance & dans l'amour du vrai Dieu, & de son Fils, qui est appelé par le disciple de son amour, & la vie, & la lumière des hommes. Or J. C. témoignant à ce Docteur qu'il n'étoit pas éloigné du royaume de Dieu, lui faisoit connoître qu'il n'y étoit pas encore entré. Et il l'invitoit en même-temps à aspirer à un bonheur qui étoit si proche de lui : car celui qui lui parloit, étoit lui-même le Roi de ce royaume tout spirituel & tout divin. Et il pouvoit bien lui dire ce qu'il dit en une autre occasion à la femme de Samarie qu'il convertit : Si vous connoissiez le don de Dieu, & qui est celui qui vous parle, vous lui auriez demandé, & il vous auroit donné de l'eau vive ; cette eau qui désaltère pour toujours, & qui devient dans celui à qui il la donne, une fontaine d'eau qui réjaillira jusques dans la vie éternelle."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 35,
+    "lat": "Et respondens Jesus dicebat, docens in templo : Quomodo dicunt Scribæ Christum filium esse David,",
+    "fr": "Mais JESUS enseignant dans le temple, leur dit : Comment les Scribes disent-ils que le CHRIST est fils de David,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 36,
+    "lat": "ipse enim David dicit in Spiritu sancto : Dixit Dominus Domino meo : Sede à dextris meis : donec ponam inimicos tuos scabellum pedum tuorum ?",
+    "fr": "puisque David lui-même a dit par le Saint-Esprit : Le Seigneur a dit à mon Seigneur : Asseyez-vous à ma droite, jusqu'à ce que j'aye réduit vos ennemis à vous servir de marchepied ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 37,
+    "lat": "Ipse ergo David dicit eum Dominum : & unde est filius ejus ? Et multa turba eum libenter audivit.",
+    "fr": "Puis donc que David l'appelle lui-même son Seigneur, comment est-il son fils ? Une grande partie du peuple prenoit plaisir à l'écouter.",
+    "note": "Une grande partie du peuple prenoit plaisir à l'écouter. Et il leur disoit en sa manière d'instruire : Gardez-vous des Docteurs de la loi, qui aiment à se promener avec de longues robes, &c. C'étoit un effet de la simplicité des peuples, de ce qu'ils prenoient plaisir à écouter le Sauveur, dans le temps-même que les Pharisiens s'irritoient le plus de ses divines instructions. Ils étoient exempts de la jalousie qui possédoit ces hommes superbes ; & jugeant sans prévention des œuvres miraculeuses, & de la sainte doctrine de celui qui guérissoit leurs malades, & qui ne les instruisoit que pour leur salut, ils avoient au moins du respect pour sa personne, de la reconnoissance pour ses bienfaits, & de la joie de l'entendre lorsqu'il enseignoit avec cette autorité & cette onction, qu'ils ne trouvoient point dans tous leurs Docteurs. Aussi J. C. ayant parlé aux Pharisiens, s'adressa ensuite, comme le remarque saint Matthieu, au peuple & à ses disciples, qu'il joignoit ensemble, à cause de cette humble simplicité avec laquelle ils l'écoutoient. Et il est marqué qu'il leur parla, selon sa doctrine, si différente de celle des Pharisiens, lorsqu'il leur dit : Gardez-vous des Docteurs de la loi. Mais de quoi donc devoient-ils se donner de garde ? De l'orgueil qui paroissoit dans toute la conduite de ces Docteurs. Car comme c'étoit cet orgueil qui les empêchoit de reconnoître JESUS pour le CHRIST & pour le Messie, il vouloit lever le plus grand obstacle à toutes les vérités qu'il leur enseignoit pour leur salut, en déracinant cet orgueil du fond de leurs cœurs, & en leur montrant par son propre exemple, lui qui s'étoit anéanti jusqu'à se faire homme pour les sauver, combien leurs Docteurs étoient éloignés d'une si humble disposition. C'est ce qu'il fait voir plus particulièrement, lorsqu'il représente tous les effets qui naissoient en eux de ce fond de corruption & de vanité qui les dominoit. C'étoit cet orgueil, qu'on pouvoit dire en un sens, être le levain des Pharisiens, dont le Fils de Dieu ordonne ailleurs à ses disciples de se garder : un levain capable de les corrompre ; puisqu'il n'y a rien qui agisse si fortement sur l'esprit des peuples, que l'exemple de leurs Pasteurs & de leurs Docteurs ; & qu'ainsi des maîtres d'orgueil ne pouvoient guère former que des disciples semblables à eux."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 38,
+    "lat": "Et dicebat eis in doctrina sua : Cavete à Scribis, qui volunt in stolis ambulare ; & salutari in foro,",
+    "fr": "Et il leur disoit en sa manière d'instruire : Gardez-vous des Docteurs de la loi, qui aiment à se promener avec de longues robes, & à être salués dans les places publiques ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 39,
+    "lat": "& in primis cathedris sedere in synagogis, & primos discubitus in cœnis :",
+    "fr": "à être assis dans les premières chaires dans les synagogues, & à avoir les premières places dans les festins :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 40,
+    "lat": "qui devorant domos viduarum, sub obtentu prolixæ orationis : hi accipient prolixius judicium.",
+    "fr": "qui dévorent les maisons des veuves, * sous prétexte qu'ils font de longues prières. Ces personnes en recevront une condamnation plus rigoureuse.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 41,
+    "lat": "Et sedens Jesus contra gazophylacium, aspiciebat quomodo turba jactaret æs in gazophylacium, & multi divites jactabant multa.",
+    "fr": "JESUS étant assis vis-à-vis du tronc, il prenoit garde de quelle manière le peuple y jetoit de l'argent ; & comme plusieurs gens riches y en mettoient beaucoup.",
+    "note": "&c. JESUS étant assis vis-à-vis du tronc, il prenoit garde de quelle manière le peuple y jetoit l'argent, & comme plusieurs gens riches y en mettoient beaucoup, &c. Il est dit auparavant, que le Fils de Dieu enseignoit dans le temple. Ainsi c'est du tronc du temple dont il est parlé ici ; du tronc où les peuples mettoient chacun leurs offrandes volontaires en argent, pour l'entretien du temple même, pour lequel les Juifs avoient une attache, ou une dévotion extraordinaire. J. C. s'assit proche de ce tronc, pour considérer la manière dont chacun faisoit son offrande, & en prendre occasion d'instruire d'une grande vérité ses Apôtres. Il connoissoit, selon qu'il est dit ailleurs, tous les hommes. Et il n'avoit pas besoin que personne lui rendit témoignage d'aucun homme ; parce qu'il connoissoit par lui-même tout ce qu'il y avoit dans l'homme. Ainsi il savoit avant que d'avoir considéré la manière dont tous ces riches d'entre les Juifs jetoient leurs offrandes dans le tronc, ce qui étoit dans leur cœur ; c'est-à-dire, cette vaine complaisance qu'ils avoient à donner beaucoup, & à donner avec ostentation, pour paroître généreux & magnifiques envers le temple. Il savoit aussi que cette veuve, dont il est parlé, toute pauvre qu'elle étoit, avoit un riche trésor dans son cœur, qui étoit sa simplicité & sa charité. Mais il falloit découvrir aux Apôtres ces deux sortes de dispositions : des Juifs riches qui donnoient beaucoup, mais avec orgueil ; & d'une veuve qui étoit fort pauvre, mais qui donnoit le peu qu'elle avoit avec une grande charité. Et afin de les découvrir, le Fils de Dieu se conduit en la manière ordinaire des autres hommes. Il s'assit devant ce tronc. Il considère & les riches & les pauvres ; & en cela il fait paroître visiblement ce qui se passe tous les jours d'une manière invisible, lorsque l'œil de Dieu toujours ouvert sur les mouvemens du cœur des hommes, condamne ou approuve leurs actions extérieures, selon que le principe d'où elles partent en est ou bon ou mauvais. J. C. observe donc la manière dont tous ces Juifs faisoient leurs offrandes, & dont les riches principalement affectoient de faire éclater aux yeux des hommes la magnificence de leurs dons. Car il semble, selon la remarque d'un Interprète, que l'Evangéliste ait usé de cette expression, Et multi divites JACTABANT multa, pour nous faire entendre que ces riches faisoient ostentation de leurs offrandes : au lieu qu'il dit seulement de la veuve, qui étoit pauvre : Misit duo minuta ; ce qui semble nous marquer la manière simple dont elle mit dans le tronc deux petites pièces, valant seulement un liard. L'Evangéliste oppose donc une seule veuve à un grand nombre de Juifs ; celle qui étoit très-pauvre, à ceux qui étoient dans l'abondance ; & l'offrande qu'elle fait, quoique fort petite, à tous les grands dons des riches. Mais quelle étrange différence met-il entre cette veuve, & tous ces Juifs ; entre le don qu'elle fait au temple, & ceux qu'ils y font ? Et que l'on vit bien alors la même chose que l'on avoit vue au commencement du monde, lorsque Caïn & Abel ayant offert leurs présens à Dieu, l'Ecriture dit : Que le Seigneur regarda premièrement Abel, & ensuite ses présens ; c'est-à-dire, qu'il jugea des présens d'Abel, par le cœur d'Abel ; & qu'au contraire, il refusa de regarder ceux de Caïn, parce que le cœur de Caïn étoit indigne de son regard favorable : car voici le jugement que le Fils de Dieu porta de ces offrandes qu'on faisoit au temple."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 42,
+    "lat": "Cùm venisset autem vidua una pauper, misit duo minuta, quod est quadrans.",
+    "fr": "Il vint aussi une pauvre veuve, qui y mit seulement deux petites pièces de la valeur d'un liard.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 43,
+    "lat": "Et convocans discipulos suos, ait illis : Amen dico vobis, quoniam vidua hæc pauper plus omnibus misit, qui miserunt in gazophylacium :",
+    "fr": "Alors JESUS ayant appelé ses disciples, leur dit : Je vous dis en vérité, que cette pauvre veuve a plus donné que tous ceux qui ont mis dans le tronc :",
+    "note": "Alors JESUS ayant appelé ses disciples, leur dit : Je vous dis en vérité, que cette pauvre veuve a plus donné, que tous ceux qui ont mis dans le tronc. Car tous les autres ont donné de leur abondance, &c. Il est dit ailleurs : Qu'il étoit donné aux Apôtres de connoître le mystère du royaume de Dieu ; au lieu que tout se passoit en paraboles & en énigmes à l'égard des autres, qui étoient indignes de recevoir l'intelligence des secrets célestes. C'est donc pour cette raison que JESUS appelle à soi ses disciples, afin de leur apprendre une grande vérité sur ces offrandes différentes, qu'on faisoit au temple. Les Apôtres avoient vu, comme le Sauveur, ce que ces riches avoient jeté dans le tronc, & ce que cette pauvre veuve y avoit mis. Mais ils n'en avoient pas sans doute jugé comme lui ; & l'on peut dire, sans se tromper, que les dons des riches leur avoient paru, sans comparaison, plus considérables que celui de cette veuve. Le Sauveur les détrompe donc, en réformant sur cela leur jugement. Et comme ce qu'il avoit à leur dire devoit leur paroître une espèce de paradoxe, il le confirme par un serment : Je vous dis en vérité, que cette pauvre veuve a plus donné que tous ceux qui ont mis dans le tronc : ce qui est de même que s'il leur eut dit : Ne jugez pas, mes Apôtres, de ce que vous avez vu, par l'apparence ; mais jugez-en, comme Dieu même, par la vérité : or la vérité est, que cette veuve a plus donné que tous les autres, tant par rapport au Seigneur, à qui elle a fait son offrande, que par rapport à elle-même. Le Seigneur n'a pas besoin de tous nos biens, comme un grand Roi le proteste hautement en lui parlant. Ce n'étoit donc pas proprement les dons des Juifs que Dieu demandoit, mais leur cœur. Ainsi ces Juifs en donnant beaucoup, donnoient très-peu, parce qu'ils ne donnoient point à Dieu ce qu'il regardoit uniquement, qui étoit un cœur plein d'amour & de piété. Au contraire, cette veuve donnant très-peu, donnoit néanmoins beaucoup ; parce qu'elle le donnoit avec une plénitude de volonté. Secondement, tous ces riches, quoiqu'ils offrissent en apparence de grands dons, n'offroient toutefois à Dieu que ce qui étoit leur superflu ; ils donnoient, dit J. C., de leur abondance, & sans se rien refuser : mais cette femme donna même son nécessaire, n'ayant que ces deux petites pièces pour vivre, & les ayant offertes à Dieu par une foi dont il n'y avoit peut-être pas d'exemple dans la loi ancienne, où l'on croyoit beaucoup faire, que d'être exact dans le payement des dixmes, & dans quelques autres offrandes que l'on faisoit de son abondance. Il ne s'ensuit pas néanmoins de là, que les aumônes & les offrandes des riches soient toujours désagréables à Dieu. Il les regarde au contraire d'un œil favorable, toutes les fois qu'ils les offrent avec charité & avec foi. Et cet exemple que J. C. nous propose, doit seulement nous convaincre que les pauvres mêmes peuvent faire de riches présens à Dieu, si leur cœur ressemble à celui de cette veuve ; comme au contraire, que les riches ne doivent pas se glorifier dans la grandeur de leurs dons & de leurs aumônes ; puisqu'ils ne tirent tout leur prix que de la foi de celui qui les présente."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 12,
+    "n": 44,
+    "lat": "omnes enim ex eo quòd abundabat illis, miserunt : hæc verò de penuria sua omnia quæ habuit, misit totum victum suum.",
+    "fr": "car tous les autres ont donné de leur abondance ; mais celle-ci a donné de son indigence même tout ce qu'elle avoit, & tout * ce qui lui restoit pour vivre.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 1,
+    "lat": "Et cùm egrederetur de templo, ait illi unus ex discipulis suis : Magister, aspice quales lapides, & quales structuræ.",
+    "fr": "Lorsqu'il sortoit du temple, un de ses disciples lui dit : Maître, regardez quelles pierres, & quels bâtimens.",
+    "note": "Lorsqu'il sortoit du temple, un de ses disciples lui dit : Maître, regardez quelles pierres, & quels bâtimens : mais JESUS lui répondit : Voyez-vous tous ces grands bâtimens ? Ils seront tellement détruits, &c. Saint Matthieu dit en général, que les disciples de J. C. s'approchèrent de lui pour lui faire remarquer la beauté du temple. Et saint Luc dit seulement, que quelques-uns lui témoignèrent que le temple étoit bâti de belles pierres, sans spécifier que ce fussent ses disciples. Pour concilier saint Marc, avec les autres Evangélistes, on peut supposer que l'un des disciples de J. C. prenant la parole pour tous les autres, comme il arrivoit en plusieurs occasions, parla de ce temple au Fils de Dieu au nom de tous, qu'ainsi saint Matthieu attribue avec raison aux disciples en général, ce que l'un d'eux disoit au Sauveur de la part de tous. Ou il peut être arrivé, que l'un des disciples ayant commencé à parler à J. C. tous les autres, ou quelques-uns d'eux se joignirent aussitôt à lui, pour exagérer la structure si magnifique du temple. Mais en quelle considération pouvoient être devant Dieu tous ces bâtimens, quelque magnifiques qu'ils parussent, lorsqu'ils n'étoient qu'un sujet de chute, & qu'une occasion de scandale aux Juifs qui mettoient toute leur confiance & toute leur gloire dans le temple de Jérusalem, en même-temps qu'ils ne témoignoient que du mépris pour la volonté & les ordonnances du Dieu de ce temple ? Qu'on ne s'étonne donc point du peu de cas que fait J. C. d'un temple si magnifique : mais qu'on s'étonne plutôt du mépris que tous les Juifs en faisoient eux-mêmes, lorsqu'au lieu d'y offrir au Dieu d'Israël avec un cœur pur des victimes qui lui fussent agréables, ils en profanoient tous les jours la sainteté par leurs crimes, & obligeoient le Seigneur de leur dire par la bouche de son Prophète : Qu'il réduiroit leurs villes en solitude, qu'il rendroit désert son sanctuaire, & qu'il n'agréeroit plus leurs sacrifices, dont l'odeur lui étoit auparavant si agréable : In tantum ut urbes vestras redigam in solitudinem, & deserta faciam sanctuaria vestra, nec recipiam ultrà odorem suavissimum. Ce temple de Jérusalem n'étoit qu'une image de l'Eglise. Et ainsi, sera-t-on surpris que l'image, quelque éclatante qu'elle fût, ait été détruite, à cause de l'impiété des Juifs, lorsqu'on a vu des Eglises mêmes de J. C. renversées, en punition des crimes de ceux qui les profanoient ? Quelles traces reste-t-il présentement de cette Eglise autrefois si florissante de l'Afrique ? Et avec quelle douleur se souvient-on de tant de Conciles qui se sont tenus du temps de saint Cyprien, de saint Augustin, & de saint Fulgence, pour la défense de la vérité, & pour la conservation de la discipline dans ces mêmes lieux, où règne présentement l'infidélité ? Il est vrai que l'Eglise catholique subsistera jusques à la fin des siècles ; mais combien de portions différentes de cette Eglise sont-elles tombées en ruine ? & combien de membres, pour parler ainsi, se sont retranchés de ce grand corps, & ne vivent plus de l'Esprit de Dieu, qui en est l'ame & la vie ? Tremblons en considérant nos propres péchés, & nous souvenant, que dans le temps-même que les disciples de J. C. lui faisoient considérer la magnificence du temple des Juifs, il prononça l'arrêt de sa ruine, en déclarant : Qu'il seroit tellement détruit, qu'il n'y resteroit pas pierre sur pierre."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 2,
+    "lat": "Et respondens Jesus ait illi : Vides has omnes magnas ædificationes ? Non relinquetur lapis super lapidem, qui non destruatur.",
+    "fr": "Mais JESUS lui répondit : Voyez-vous tous ces grands bâtimens ? Ils seront tellement détruits, qu'il * n'y demeurera pas pierre sur pierre.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 3,
+    "lat": "Et cùm sederet in monte Olivarum contra templum, interrogabant eum separatim Petrus, & Jacobus, & Joannes, & Andræas :",
+    "fr": "Et lorsqu'il étoit assis sur la montagne des Oliviers, vis-à-vis du temple, Pierre, Jacques, Jean, & André lui demandèrent en particulier :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 4,
+    "lat": "Dic nobis, quando ista fient, & quod signum erit, quando hæc omnia incipient consummari.",
+    "fr": "Dites-nous quand ceci arrivera, & quel signe il y aura que toutes ces choses seront prêtes à être accomplies.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 5,
+    "lat": "Et respondens Jesus cœpit dicere illis : Videte ne quis vos seducat ;",
+    "fr": "Et JESUS leur répondit : Prenez-garde que personne ne vous séduise ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 6,
+    "lat": "multi enim venient in nomine meo, dicentes quia ego sum, & multos seducent.",
+    "fr": "car plusieurs viendront sous mon nom, qui diront : C'est moi qui suis le CHRIST : & ils en séduiront plusieurs.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 7,
+    "lat": "Cùm audieritis autem bella, & opiniones bellorum ; ne timueritis ; oportet enim hæc fieri : sed nondum finis.",
+    "fr": "Lorsque vous entendrez parler de guerres & de bruits de guerres, ne craignez point ; parce qu'il faut que cela arrive : mais ce ne sera pas encore la fin.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 8,
+    "lat": "Exurget enim gens contra gentem, & regnum super regnum, & erunt terræ motus per loca, & fames. Initium dolorum hæc.",
+    "fr": "On verra se soulever peuple contre peuple, & royaume contre royaume : il y aura des tremblemens de terre en divers lieux, & des famines * ; & ce ne sera là que le commencement des douleurs.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 9,
+    "lat": "Videte autem vosmetipsos. Tradent enim vos in conciliis, & in synagogis vapulabitis, & ante Præsides & Reges stabitis propter me, in testimonium illis.",
+    "fr": "Pour vous autres, prenez bien garde à vous. Car on vous fera comparoître dans les assemblées des Juges : on vous fera fouetter dans les synagogues, & vous serez présentés à cause de moi aux Gouverneurs & aux Rois, afin que vous me rendiez témoignage devant eux.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 10,
+    "lat": "Et in omnes gentes primùm oportet prædicari Evangelium.",
+    "fr": "Il faut * aussi auparavant que l'Evangile soit prêché à toutes les nations.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 11,
+    "lat": "Et cùm duxerint vos tradentes, nolite præcogitare quid loquamini : sed quod datum vobis fuerit in illa hora, id loquimini : non enim vos estis loquentes, sed Spiritus sanctus.",
+    "fr": "Lors donc qu'on vous menera pour vous livrer entre leurs mains, ne préméditez point ce que vous leur devez dire ; mais dites ce qui vous sera inspiré à l'heure même : * car ce ne sera pas vous qui parlerez, mais le Saint-Esprit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 12,
+    "lat": "Tradet autem frater fratrem in mortem, & pater filium : & consurgent filii in parentes, & morte afficient eos.",
+    "fr": "Or le frère livrera le frère à la mort, & le père le fils ; les enfans s'éleveront contre leurs pères & leurs mères, & les feront mourir.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 13,
+    "lat": "Et eritis odio omnibus propter nomen meum : qui autem sustinuerit in finem, hic salvus erit.",
+    "fr": "Et vous serez haïs de tout le monde à cause de mon nom : mais celui qui persévérera jusques à la fin, sera sauvé.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 14,
+    "lat": "Cùm autem videritis abominationem desolationis stantem ubi non debet, qui legit, intelligat : tunc qui in Judæa sunt, fugiant in montes :",
+    "fr": "Mais lorsque vous verrez l'abomination * établie au lieu où elle ne doit pas être ( que celui qui lit entende ce qu'il lit) : alors que ceux qui seront dans la Judée s'enfuient sur les montagnes :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 15,
+    "lat": "& qui super tectum, ne descendat in domum, nec introeat ut tollat quid de domo sua :",
+    "fr": "que celui qui sera sur le toit ne descende point dans sa maison, & n'y entre point pour en emporter quelque chose :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 16,
+    "lat": "& qui in agro erit, non revertatur retrò tollere vestimentum suum.",
+    "fr": "& que celui qui sera dans le champ ne retourne point sur ses pas pour prendre son vêtement.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 17,
+    "lat": "Væ autem prægnantibus & nutrientibus in illis diebus.",
+    "fr": "Malheur aux femmes qui seront grosses ou nourrices en ces jours-là.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 18,
+    "lat": "Orate verò ut hieme non fiant.",
+    "fr": "Priez Dieu que * ces choses n'arrivent point durant l'hiver.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 19,
+    "lat": "Erunt enim dies illi tribulationes tales, quales non fuerunt ab initio creaturæ, quam condidit Deus, usque nunc, neque fient.",
+    "fr": "Car l'affliction de ce temps-là sera si grande, que depuis le premier moment où Dieu créa toutes choses jusqu'à présent, il n'y en eut jamais de pareille, & il n'y en aura jamais.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 20,
+    "lat": "Et nisi breviasset Dominus dies, non fuisset salva omnis caro : sed propter electos, quos elegit, breviavit dies.",
+    "fr": "Que si le Seigneur n'avoit abrégé ces jours, nul homme n'auroit été sauvé * : mais il les a abrégé à cause des élus qu'il a choisis.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 21,
+    "lat": "Et tunc si quis vobis dixerit : Ecce hìc est Christus, ecce illìc, ne crederitis.",
+    "fr": "Si quelqu'un vous dit alors, * le CHRIST est ici, ou il est là, ne le croyez point.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 22,
+    "lat": "Exurgent enim pseudo-christi, & pseudo-prophetæ, & dabunt signa & portenta ad seducendos, si fieri potest, etiam electos.",
+    "fr": "Car il s'élevera de faux christs, & de faux prophètes qui feront des prodiges & des choses étonnantes, pour séduire, s'il étoit possible, les élus mêmes.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 23,
+    "lat": "Vos ergo videte ; ecce prædixi vobis omnia.",
+    "fr": "Prenez donc garde à vous autres ; vous voyez que je vous ai tout prédit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 24,
+    "lat": "Sed in illis diebus, post tribulationem illam, sol contenebrabitur, & luna non dabit splendorem suum :",
+    "fr": "Mais après ces jours d'affliction, le soleil s'obscurcira, & la lune ne donnera plus sa lumière :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 25,
+    "lat": "& stellæ cœli erunt decidentes, & virtutes, quæ in cœlis sunt, movebuntur.",
+    "fr": "les étoiles tomberont du ciel, & les puissances qui sont dans les cieux seront ébranlées.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 26,
+    "lat": "Et nunc videbunt Filium hominis venientem in nubibus cum virtute multa, & gloria.",
+    "fr": "Alors on verra le Fils de l'homme qui viendra sur les nuées avec une grande puissance & une grande gloire.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 27,
+    "lat": "Et nunc mittet Angelos suos, & congregabit electos suos à quatuor ventis, à summo terræ, usque ad summum cœli.",
+    "fr": "Et il envoyera ses Anges pour rassembler ses élus des quatre coins * du monde, depuis l'extrémité de la terre, jusqu'à l'extrémité du ciel.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 28,
+    "lat": "A ficu autem discite parabolam. Cùm jam ramus ejus tener fuerit, & nata fuerint folia, cognoscitis, quia in proximo sit æstas.",
+    "fr": "Apprenez sur ceci une * comparaison tirée du figuier. Lorsque ses branches sont déjà tendres, & qu'il pousse ses feuilles, vous savez que l'été est proche.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 29,
+    "lat": "Sic & vos cùm videritis hæc fieri, scitote quòd in proximo sit in ostiis.",
+    "fr": "De même, lorsque vous verrez toutes ces choses arriver, sachez que * le Fils de l'homme est proche, & qu'il est déjà à la porte.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 30,
+    "lat": "Amen dico vobis, quoniam non transibit generatio hæc, donec omnia ista fiant.",
+    "fr": "Je vous dis en vérité, que cette génération ne passera point, que toutes ces choses ne soient accomplies.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 31,
+    "lat": "Cœlum & terra transibunt, verba autem mea non transibunt.",
+    "fr": "Le ciel & la terre passeront, mais mes paroles ne passeront point.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 32,
+    "lat": "De die autem illo vel hora nemo scit, neque Angeli in cœlo, neque Filius ; nisi Pater.",
+    "fr": "Quant à ce jour ou à cette heure là, nul ne la sait, ni les Anges qui sont dans le ciel, ni le Fils ; mais le Père seul.",
+    "note": "Quant à ce jour, ou à cette heure, nul ne la sait, ni les Anges qui sont dans le ciel, ni le Fils, mais le Père seul. Saint Matthieu parlant de ce jour & de cette heure du second avénement du Fils de Dieu, dit bien, que les Anges mêmes qui sont dans les cieux n'en ont point la connoissance ; mais il ne parle point du Fils, comme fait saint Marc, qui ajoute, que le Fils-même ne sait point ce jour ni cette heure. Cependant comment pourroit-il être vrai à la lettre, dit saint Chrysostôme, que celui en qui, selon l'expression de saint Paul, tous les trésors de la sagesse & de la science sont renfermés, n'eut pas lui-même la connoissance de ce jour ? « Le Fils connoît le Père, & il le connoît aussi clairement que le Père connoît lui-même le Fils : & il pourroit ignorer ce jour ? L'Esprit-saint pénètre la profondeur des secrets de Dieu : & le Fils de Dieu ne connoîtroit pas le jour du jugement général ? Il sait la manière dont il doit juger les hommes, & découvre ce qu'il y a de plus caché dans leurs consciences : & il pourroit ignorer ce qui est beaucoup moindre qui est le jour auquel il les doit juger ? ... Celui qui a fait les siècles, a aussi très-certainement créé les temps. Que s'il a créé les temps, il est aussi Créateur du jour où le jugement se doit faire. Comment donc pourroit-il ne pas connoître ce qu'il a fait lui-même » ? Ainsi on ne peut douter que tous les trésors de la sagesse & de la science ne soient renfermés dans J. C. selon l'Apôtre : mais ils y sont renfermés de telle sorte, dit saint Jérôme, qu'ils y sont cachés, selon la force de l'expression de saint Paul : In quo sunt omnes thesauri sapientiæ & scientiæ abscondití. Et pourquoi, ajoute saint Jérôme, y sont-ils cachés ? C'est parce qu'il ne nous appartient pas de savoir les temps & les momens que le Père a réservés à son souverain pouvoir, selon qu'il le déclare lui-même aux Apôtres, lorsqu'après sa résurrection ils l'interrogèrent touchant ce jour même où il devoit rétablir le royaume d'Israël. Quand il dit donc, Ce n'est pas à vous de savoir ; il montre, dit saint Jérôme, que ce jour lui est connu, mais qu'il n'est pas à propos que ses Apôtres le connoissent ; afin qu'étant incertain du jour de l'avénement du souverain Juge, ils ayent soin de vivre chaque jour, comme s'ils devoient être jugés le jour suivant : Ut semper incerti de adventu judicis, sic quotidiè vivant, quasi die alia judicandi sint. C'est donc en ce sens qu'on peut entendre ce qui est dit en ce livre, Que le Fils même ne sait pas ce jour ; c'est-à-dire, qu'il ne le sait pas pour nous le faire savoir. Ainsi c'est une ignorance, si on peut user de ce terme, non pas absolue, mais conditionnelle, & par rapport à ceux à qui il parloit, & pour qui il ignoroit en quelque façon ce qu'il vouloit qu'ils ignorassent eux-mêmes. Mais cela se peut entendre encore en un autre sens, selon les Pères, qui est que le Fils, comme Fils de l'homme, ne connoissoit point ce jour ; parce que c'étoit comme Dieu qu'il le connoissoit : de même que J. C. dit autre part : Ce n'est pas à moi à vous donner d'être assis à ma droite, ou à ma gauche ; parce que les deux Apôtres à qui il parloit alors, le regardant encore d'une manière charnelle, plutôt comme un homme & un grand Prophète, que comme un Dieu, il répondoit proprement à cette idée qu'ils avoient de lui, & leur témoignoit qu'il ne lui appartenoit pas, comme à un simple homme, de leur donner ce qu'ils demandoient ; outre que le Père étant le principe du Fils, il attribuoit particulièrement à son Père, ce que, comme son Fils, il avoit reçu de lui."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 33,
+    "lat": "Videte, vigilate, & orate ; nescitis enim quando tempus sit.",
+    "fr": "† Prenez garde à vous, veillez, & priez ; parce que vous ne savez quand ce temps viendra.",
+    "note": "Prenez garde à vous, veillez & priez ; parce que vous ne savez quand ce temps viendra. Ces trois choses renferment en quelque manière toute l'occupation de la piété chrétienne. Videte ; Considérez bien tout ce qui se passe tant au-dehors qu'au-dedans de vous ; tant de la part des autres que de la part de vous-mêmes. Vigilate ; Veillez sur la garde de votre cœur, pour empêcher qu'il ne se livre à quelqu'un de ces objets ou extérieurs, ou intérieurs, qui se présentent à vos yeux, & à votre esprit : car ce regard que J. C. nous ordonne, n'est pas un regard de curiosité, & pour satisfaire nos sens ; mais un regard de précaution & de vérité : un regard qui tend à nous découvrir les choses telles qu'elles sont dans la vérité de Dieu, & non selon la prévention de nos sens corrompus par le péché ; & à nous porter par une sainte vigilance sur nous-mêmes, à éviter de prendre la moindre part à aucune de toutes ces choses qui seroient capables de corrompre notre cœur. Mais comme il est dit ailleurs : Que si le Seigneur ne garde lui-même une ville, c'est en vain qu'on veille pour la garder ; aussi J. C. après avoir dit, Videte, vigilate, voyez & veillez ; ajoute dans le moment : Et orate, & priez ; c'est-à-dire, ne vous contentez pas de voir, & de veiller ; mais vous défiant de vous-mêmes, reconnoissant votre misère & votre foiblesse, adressez-vous au Tout-puissant, pour lui demander son assistance. Implorez la grâce de celui, sans l'aide duquel toute votre vigilance seroit inutile. Demandez-lui qu'il garde lui-même votre cœur, en même-temps que vous vous appliquerez, selon le conseil du Sage, à le garder avec tout le soin possible. Car vous veillerez inutilement à sa garde, s'il ne le gardoit lui-même contre tous vos ennemis. Et ce sera en le priant que vous obtiendrez sa protection, car c'est la prière qui en nous humiliant devant Dieu nous rend dignes de sa miséricorde. Telle est donc l'occupation toute sainte, où le second avénement du Fils de Dieu doit nous trouver ; soit celui qui est particulier à notre égard, & qui regarde notre mort ; soit le général qui regarde tous les hommes, & qui ne doit arriver qu'à la fin du monde. Et c'est-là ce que saint Paul appelle, être toujours dans l'attente de la bienheureuse espérance, & de l'avénement glorieux du grand Dieu, & de notre Sauveur J. C."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 34,
+    "lat": "Sicut homo, qui peregrè profectus reliquit domum suam, & dedit servis suis potestatem cujusque operis, & janitori præcepit ut vigilet.",
+    "fr": "Car il en sera comme d'un homme, qui s'en allant faire un voyage, laisse sa maison sous la conduite de ses serviteurs, marquant à chacun ce qu'il doit faire, & recommande au portier qu'il soit vigilant.",
+    "note": "Car il en sera comme d'un homme, qui s'en allant faire un voyage, laisse sa maison sous la conduite de ses serviteurs, marquant à chacun ce qu'il doit faire, & recommande au portier qu'il soit vigilant. Veillez donc de même ; puisque vous ne savez quand le maître de la maison doit venir, &c. Le sens de cette parabole est fort clair, selon la lettre, & n'a pas besoin d'explication : mais selon le sens spirituel, que nous y devons considérer principalement, cet homme nous figure J. C. qui étant alors sur le point de faire un grand voyage, puisqu'il approchoit du temps auquel il devoit, comme il dit ailleurs, s'en retourner vers son Père, laissoit sa maison, c'est-à-dire, son Eglise, sous la conduite de ses Apôtres, figurés par les serviteurs de cet homme. Il leur marqua à tous ce qu'ils devoient faire, non-seulement dans les règles générales qu'il leur prescrivoit de vive voix, mais encore par les mouvemens particuliers de son Esprit, qu'il leur donna avant que de les quitter, & qu'il leur envoya depuis avec plénitude au jour de la Pentecôte, pour les conduire dans tous les ouvrages qu'ils entreprendroient pour la gloire de son nom. L'ordre que cet homme donne plus particulièrement à son portier d'être vigilant, peut nous marquer en particulier celui qu'il donne à saint Pierre, d'avoir soin de ses brebis, & de ses agneaux. Car c'est à lui comme au chef, qu'il a confié les clefs de son royaume, lorsqu'il lui a déclaré qu'il établiroit sur lui son Eglise, quoiqu'il soit vrai qu'il les a confiées en même-temps à tous les Pasteurs ; puisque, comme dit saint Cyprien, l'Episcopat est un, & que chaque Evêque y participe solidairement. Episcopatus unus est, cujus à singulis in solidum pars tenetur. Comme donc cet homme auquel J. C. se compare ici, étant parti après avoir donné tous ses ordres à ses serviteurs, ils sont obligés de veiller chacun à s'acquitter de leur devoir, de peur qu'ils ne soient surpris à son retour, faisant autre chose que ce qu'il leur a prescrit : de même, le Fils de Dieu dit à ses disciples de veiller, parce qu'ils ignorent le moment auquel il viendra leur demander compte de leur administration. Ce moment est celui de leur mort, qui leur est absolument inconnu, ce qu'il exprime en cette manière figurée : Vous ne savez, leur dit-il, quand le maître de la maison doit venir, si ce sera le soir, ou à minuit, ou au chant du coq, ou au matin. Il parle exprès de la nuit, parce que c'est ordinairement le temps où l'on est plutôt surpris ; & que d'ailleurs tout le temps de la vie présente peut être très-bien comparé à l'obscurité de la nuit, par rapport à la lumière ineffable de l'autre vie, qui doit découvrir la vérité de toutes choses dans tout leur éclat ; au lieu qu'on ne les voit ici bas que comme à travers les ombres d'une nuit obscure. Et quant à ces heures différentes qui sont encore marquées, elles peuvent nous figurer tous les âges différens de cette vie, en remontant depuis la vieillesse représentée par le soir, jusqu'au matin, qui peut nous marquer la première enfance. Mais de quelque manière que l'on explique toutes ces heures de la nuit, il est visible que le Fils de Dieu n'en a parlé que pour obliger ses disciples à une continuelle vigilance, dans l'incertitude où ils sont du temps de son second avénement, ou de leur mort. Car quant à la parabole, il suffisoit que les serviteurs dont il y étoit parlé, veillassent dans le temps qu'il falloit veiller, c'est-à-dire, que chacun d'eux s'appliquât le jour à l'ouvrage qu'il avoit à faire, la nuit étant destinée pour se reposer, & n'étant pas nécessaire qu'ils veillassent toutes les nuits, afin d'attendre leur maître. Il paroît donc clairement que cela n'est vrai que par rapport à ce que la parabole signifie, & non à la parabole même. Car il n'y a point de temps dans toute la vie d'un Pasteur où il puisse se dispenser de la vigilance à laquelle J. C. comme le Pasteur suprême l'oblige ici. Ce n'est pas qu'il ne lui soit point permis de donner à son corps le repos qui est nécessaire pour le soutenir. Il ne s'agit point de ce sommeil corporel, lorsque le Sauveur ajoute : De peur que le maître de la maison survenant tout-d'un-coup, il ne vous trouve endormis. Ce sommeil qu'il leur défend, & dont il leur donne une grande appréhension, est la négligence de leurs devoirs, le défaut de vigilance sur eux-mêmes & sur leur troupeau, l'endormissement de l'esprit & de l'assoupissement du cœur à l'égard des choses de Dieu, & de la conduite de l'Eglise. C'est de ce sommeil criminel que le grand Apôtre disoit aux Romains : Il est temps que nous nous réveillions de notre assoupissement. La nuit est déjà fort avancée, & le jour s'approche. Quittons donc les œuvres de ténèbres, & revêtons-nous des armes de lumière. Il est donc bien important de n'être pas surpris étant endormi de ce funeste sommeil du péché & de ses passions : car le maître de la maison, qui est J. C. viendra tout-d'un-coup. Et malheur à ceux qui ne vivant pas dans l'attente de sa venue, en seront surpris. Quoique J. C. parlât d'abord principalement aux Apôtres, & quoique la vigilance des Pasteurs soit d'une plus grande étendue, par rapport à tous les peuples qui leur sont soumis, & sur lesquels ils sont obligés de veiller, comme étant chargés très-étroitement de leur conduite & du soin de leur salut ; le Fils de Dieu en finissant ce chapitre, ajoute : Ce que je vous dis, je le dis à tous, Veillez. Le précepte de la vigilance regarde donc généralement tout le monde. Et l'on peut dire même en un sens, que chaque fidelle est obligé de veiller aussi pour le salut de son frère, selon cette parole du Sage : Et mandavit illis unicuique de proximo suo. Car tous les fidelles sont unis entre eux, ou par les liens de la nature, ou par ceux de la vie civile. Et tous ces liens différens leur sont comme autant d'engagemens particuliers de veiller chacun sur leurs frères, soit pour prendre garde de ne leur être jamais une occasion de scandale ; soit pour les édifier au contraire par leur exemple ; soit pour leur donner quelque secours dans leurs différens besoins ; soit même pour les assister de leurs conseils ; ou les reprendre charitablement, selon que le rang qu'ils tiennent à leur égard, leur en donne le pouvoir : Quod autem vobis dico, omnibus dico : Vigilate."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 35,
+    "lat": "Vigilate ergo, nescitis enim quando dominus domûs veniat : serò, an mediâ nocte, an galli cantu, an manè ;",
+    "fr": "Veillez donc de même ; puisque vous ne savez pas quand le maître de la maison doit venir : si ce sera le soir, ou à minuit, ou au chant du coq, ou au matin ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 36,
+    "lat": "ne cùm venerit repentè, inveniat vos dormientes.",
+    "fr": "de peur que survenant tout d'un coup, il ne vous trouve endormis.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 13,
+    "n": 37,
+    "lat": "Quod autem vobis dico, omnibus dico : Vigilate.",
+    "fr": "Or ce que je vous dis, je le dis à tous : Veillez ¶.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 1,
+    "lat": "Erat autem Pascha & azyma post biduum : & quærebant summi Sacerdotes & Scribæ, quomodo eum dolo tenerent, & occiderent.",
+    "fr": "† * La Pâque, * où l'on commençoit à manger des pains sans levain, devoit être deux jours après : & les Princes des Prêtres & les Scribes cherchoient un moyen de se saisir adroitement de JESUS, & de le faire mourir.",
+    "note": "La Pâque où l'on commençoit à manger des pains sans levain, devoit être deux jours après : & les Princes, &c. Saint Marc ne rapporte ici qu'une petite partie des excellentes instructions que le Fils de Dieu donna aux Apôtres deux jours avant la Fête de Pâque, & qui sont marquées fort au long dans saint Matthieu. Mais nous avons vu jusqu'à présent que l'Evangile de saint Marc est comme une espèce d'abrégé de celui de cet autre Evangéliste. Il joint la Pâque avec les azymes, parce qu'ils étoient inséparables. Ce nom d'azymes, signifie pains sans levain. Car il étoit ordonné expressément par la loi, qu'on ne mangeroit que des pains sans levain pendant les sept jours de cette grande solennité ; que dès le premier jour, qui commençoit sur le soir du jour de devant, il n'y auroit aucun levain dans toutes les maisons des Juifs ; & que quiconque mangeroit du pain levé dans ces jours-là périroit, & seroit exterminé du milieu d'Israël. On a expliqué ailleurs ce que signifioit ce mystère. La Pâque & les azymes étoient donc la même fête. Et cette grande solennité devoit arriver deux jours après que le Fils de Dieu donna aux Apôtres toutes ces grandes instructions dont nous venons de parler, & qui ont été rapportées & expliquées avec étend dans saint Matthieu. Car comme le temps approchoit qu'il devoit être séparé d'eux, il ménageoit ces derniers momens qui lui restoient, pour les instruire de plus en plus, & pour leur donner divers moyens de s'affermir contre les scandales de sa passion & de sa mort. Il est vrai qu'il ne parut pas qu'ils en devinssent plus forts ; puisque la croix du Sauveur leur fut à tous une occasion de scandale & de chute, selon qu'il le leur prédit par ces paroles : Omnes vos scandalum patiemini in me. Mais si elles leur furent inutiles alors, elles leur servirent infiniment dans la suite. Et l'on peut dire que J. C. n'ayant point d'égard à leur chute passagère, n'avoit en vue que l'état où la descente du Saint-Esprit devoit les mettre après son ascension ; il pensoit dès-lors à former l'Eglise sur ces règles toutes divines qu'il leur prescrivoit, & il savoit que le Paraclet ou Consolateur devoit leur remettre dans l'esprit toutes ces choses, selon la promesse qu'il leur en fit dans saint Jean : Paracletus autem... suggeret vobis omnia quæcumque dixero vobis."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 2,
+    "lat": "Dicebant autem : Non in die festo, ne fortè tumultus fieret in populo.",
+    "fr": "Mais ils disoient : Il ne faut pas que ce soit le jour de la fête, * de peur qu'il ne s'excite quelque tumulte parmi le peuple.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 3,
+    "lat": "Et cùm esset Bethaniæ in domo Simonis leprosi, & recumberet : venit mulier habens alabastrum unguenti nardi spicati pretiosi ; & fracto alabastro, effudit super caput ejus.",
+    "fr": "JESUS étant à Béthanie, dans la maison de Simon le lépreux, une femme, qui portoit un vase d'albâtre plein d'un * parfum de nard d'épi de grand prix, entra lorsqu'il étoit à table ; & ayant rompu le vase, lui répandit le parfum sur la tête.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 4,
+    "lat": "Erant autem quidam indignè ferentes intra semetipsos, & dicentes : Ut quid perditio ista unguenti facta est ?",
+    "fr": "Quelques-uns en conçurent de l'indignation en eux-mêmes, & ils disoient : A quoi bon perdre ainsi ce parfum ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 5,
+    "lat": "Poterat enim unguentum istud venundari plus quàm trecentis denariis, & dari pauperibus ; & fremebant in eam.",
+    "fr": "Car on le pouvoit vendre plus de * trois cents deniers, & le donner aux pauvres ; & ils murmuroient fort contre elle.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 6,
+    "lat": "Jesus autem dixit : Sinite eam, quid illi molesti estis ? Bonum opus operata est in me :",
+    "fr": "Mais JESUS leur dit : Laissez-là cette femme : pourquoi la tourmentez-vous ? Ce qu'elle vient de me faire est une bonne œuvre ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 7,
+    "lat": "semper enim pauperes habetis vobiscum ; & cùm volueritis, potestis illis benefacere : me autem non semper habetis.",
+    "fr": "car vous avez toujours des pauvres parmi vous ; & vous leur pouvez faire du bien quand vous voulez : mais pour moi, vous ne m'avez pas toujours.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 8,
+    "lat": "Quod habuit hæc, fecit : prævenit ungere corpus meum in sepulturam.",
+    "fr": "Elle a fait ce qui étoit en son pouvoir, elle a répandu ses parfums sur mon corps, pour me rendre par avance les devoirs de la sépulture.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 9,
+    "lat": "Amen dico vobis ; ubicumque prædicatum fuerit Evangelium istud in universo mundo, & quod fecit hæc narrabitur in memoriam ejus.",
+    "fr": "Je vous dis en vérité que partout où sera prêché cet Evangile, qui le doit être dans tout le monde, on racontera à la louange de cette femme ce qu'elle vient de faire.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 10,
+    "lat": "Et Judas Iscariotes, unus de duodecim, abiit ad summos Sacerdotes, ut proderet eum illis.",
+    "fr": "Alors Judas Iscariote, l'un des douze, s'en alla trouver les Princes des Prêtres pour leur livrer JESUS.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 11,
+    "lat": "Qui audientes gavisi sunt : & promiserunt ei pecuniam se daturos : & quærebat quomodo illum opportunè traderet.",
+    "fr": "Après qu'ils l'eurent écouté, ils en eurent beaucoup de joie, & lui promirent de lui donner de l'argent : & dès-lors il chercha une occasion favorable pour le livrer entre leurs mains.",
+    "note": "Après qu'ils eurent écouté, ils en eurent beaucoup de joie ; & lui promirent de lui donner de l'argent. Il est dit dans saint Matthieu, que Judas alla trouver les Princes des Prêtres, & leur demanda ce qu'ils vouloient lui donner, afin qu'il leur mit JESUS entre les mains. Ce fut donc cet apostat, qui dominé par son avarice, songea à trahir son maître pour une somme d'argent. Ainsi lorsque l'Evangéliste saint Marc dit seulement, Que les Princes des Prêtres lui promirent de lui donner de l'argent, il faut entendre avec saint Matthieu, que ce fut lui-même qui osa leur en demander le premier ; & qu'ensuite ils lui promirent de lui donner une somme ; c'est-à-dire, les trente pièces spécifiées dans saint Matthieu : car ils n'auroient peut-être pas osé même lui en offrir, s'il ne leur eut découvert ce qui le portoit à vouloir livrer son maître. Qui pourra donc s'étonner que les ennemis de J. C. ayent conspiré contre lui, lorsqu'on voit un de ses Apôtres mettre à prix sa mort, & songer à s'enrichir en le trahissant ?"
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 12,
+    "lat": "Et primo die azymorum, quando Pascha immolabant, dicunt ei discipuli : Quò vis eamus, & paremus tibi ut manduces Pascha ?",
+    "fr": "* Le premier des jours qu'on mangeoit des pains sans levain, auquel on immoloit l'agneau pascal, ses disciples lui dirent : Où voulez-vous que nous vous allions préparer ce qu'il faut pour manger la Pâque ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 13,
+    "lat": "Et mittit duos ex discipulis suis, & dicit eis : Ite in civitatem, & occurret vobis homo lagenam aquæ bajulans, sequimini eum :",
+    "fr": "Il envoya donc deux de ses disciples, & leur dit : Allez-vous-en à la ville, vous rencontrerez un homme qui portera une cruche d'eau, suivez-le :",
+    "note": "Il envoya donc deux de ses disciples, & leur dit : Allez-vous-en à la ville, vous rencontrerez un homme qui portera une cruche d'eau, suivez-le : & en quelque lieu qu'il entre, dites au maître de la maison, &c. Ces deux disciples que le Fils de Dieu envoya pour lui préparer ce qu'il falloit pour la Pâque, étoient saint Pierre & saint Jean, qui sont nommés dans saint Luc. Cette ville dont il parle, étoit la ville de Jérusalem, où Dieu avoit ordonné qu'on immoleroit la Pâque, & non ailleurs. Car il falloit que la figure précédât la vérité, & que le véritable Agneau pascal, qui est J. C. devant être mis à mort en cette ville, cet autre qui en étoit une image, y fut aussi immolé. Il est marqué seulement dans saint Matthieu que le Sauveur envoya ses disciples chez un certain homme, sans le désigner : Ite in civitatem ad quemdam. Mais & saint Marc & saint Luc spécifient la marque qu'il leur donna pour connoître qui étoit celui chez qui il vouloit faire la Pâque avec ses Apôtres. Il leur dit donc qu'ils rencontreroient en entrant dans Jérusalem un homme qui porteroit une cruche, & leur ordonna de le suivre dans la maison où il entreroit, & de demander au maître de cette maison un lieu pour manger chez lui la Pâque avec ses disciples. Car nous avons vu ailleurs que JESUS n'avoit dans Jérusalem aucun lieu pour se retirer. Et c'est peut-être pour cette raison qu'il est marqué dans saint Luc, Que pendant le jour il enseignoit dans le temple, & que la nuit il sortoit & se retiroit sur la montagne appelée des Oliviers. Mais nous voyons qu'il agit en maître quand il le veut, & qu'il se choisit un lieu pour faire la Pâque dans Jérusalem, tel qu'il lui plaît, lorsqu'il déclare à ses deux disciples, que la personne chez qui ils devoient entrer, leur montreroit une grande chambre, haute & toute meublée, & que c'étoit là où il devoit célébrer la Pâque avec eux. Il les envoya donc demander à cet homme où il pourroit manger la Pâque ; & il les assure en même temps qu'il leur montrera la chambre qu'il a lui-même choisie, pour s'y acquitter de cette observation de la loi. Que si nous voulons envisager cette chambre telle que le Fils de Dieu la dépeint, comme une image de l'ame, où la vraie Pâque se doit immoler, & où le véritable Agneau pascal doit être mangé dignement ; nous y trouverons dépeintes les excellentes qualités qui doivent se rencontrer en cette ame. C'étoit une chambre haute. Et cette élévation marque admirablement ce que saint Paul demande d'une ame qui veut être unie à J. C. lorsqu'il dit : Recherchez ce qui est en haut, où J. C. est assis à la droite de Dieu : goûtez les choses d'en haut, & non celles de la terre. Cette chambre étoit grande & vaste, comme il falloit qu'elle le fut pour recevoir J. C. & ses douze Apôtres. Et cette grandeur nous peut encore marquer fort bien l'étendue de la charité ; car comme il n'y a rien qui rétrécisse davantage le cœur de l'homme que la cupidité, il n'y a rien au contraire qui l'élargisse davantage que la charité. C'est pourquoi David disoit à Dieu ; qu'il avoit couru dans la voie de ses préceptes dès qu'il lui avoit élargi le cœur. Et saint Paul marquant aussi l'effet ordinaire de la charité, se plaignoit aux fidelles de Corinthe de ce qu'ils étoient resserrés à son égard : O Corinthiens, leur disoit-il, ma bouche s'ouvre, & mon cœur s'étend, par l'affection que je vous porte. Mes entrailles ne sont point resserrées pour vous, mais les vôtres le sont pour moi. Rendez-moi donc amour pour amour ; je vous parle comme à mes enfans ; étendez aussi pour moi votre cœur. Tel doit être donc un cœur qui veut recevoir J. C. Il faut que la charité lui ôte le resserrement que produit l'amour criminel des créatures. Car plus une ame a d'engagemens qui l'attachent encore au monde, moins elle est capable de recevoir dignement son Dieu, qui veut toute l'étendue d'un cœur fait tout entier pour l'aimer. Enfin cette chambre étoit meublée. Et ces ornemens extérieurs & sensibles pouvoient être la figure des différentes vertus, qui sont les vrais ornemens intérieurs de l'ame, qui se prépare à recevoir J. C. Car comment une ame qui n'est point humble osera-t-elle s'approcher d'un Dieu anéanti dans son Incarnation, dans sa mort, & dans le Saint Sacrement de l'Eucharistie ? Comment une ame attachée encore à ses plaisirs, pourra-t-elle soutenir la présence de cet Homme-Dieu crucifié pour elle ? Comment une ame plongée dans l'amour des biens de la terre, prétendra-t-elle s'unir à celui qui n'avoit point ici-bas où pouvoir même reposer sa tête ? Il faut donc que l'humilité, la mortification, l'amour de la pauvreté, & toutes les autres vertus soient les ornemens intérieurs, intérieurs, qui rendent l'ame digne de servir à J. C. comme de cénacle, en le recevant dans l'Eucharistie, comme le véritable Agneau pascal."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 14,
+    "lat": "& quocumque introierit, dicite domino domûs, quia magister dicit : Ubi est refectio mea, ubi Pascha cum discipulis meis manducem ?",
+    "fr": "& en quelque lieu qu'il entre, dites au maître de la maison : Le Maître * vous envoie dire : * Où est le lieu où je dois manger la Pâque avec mes disciples ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 15,
+    "lat": "Et ipse vobis demonstrabit cœnaculum grande, stratum : & illic parate nobis.",
+    "fr": "Il vous montrera une grande chambre haute, toute meublée ; préparez-nous là ce qu'il faut.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 16,
+    "lat": "Et abierunt discipuli ejus, & venerunt in civitatem : & invenerunt sicut dixerat illis, & paraverunt Pascha.",
+    "fr": "Ses disciples s'en étant allés, vinrent en la ville, & trouvèrent tout ce qu'il leur avoit dit, & ils préparèrent ce qu'il falloit pour la Pâque.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 17,
+    "lat": "Vespere autem facto, venit cum duodecim.",
+    "fr": "Sur le soir il se rendit là avec les douze.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 18,
+    "lat": "Et discumbentibus eis, & manducantibus, ait Jesus : Amen dico vobis, quia unus ex vobis tradet me, qui manducat mecum.",
+    "fr": "* Et étant à table, & mangeant, JESUS leur dit : Je vous dis en vérité, que l'un de vous qui mange avec moi, me trahira.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 19,
+    "lat": "At illi cœperunt contristari, & dicere ei singulatim : Numquid ego ?",
+    "fr": "Ils commencèrent à s'affliger, & chacun d'eux lui demandoit : Est-ce moi ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 20,
+    "lat": "Qui ait illis : Unus ex duodecim, qui intingit mecum manum in catino.",
+    "fr": "Il leur répondit : C'est l'un des douze qui met la main avec moi dans le plat.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 21,
+    "lat": "Et Filius quidem hominis vadit, sicut scriptum est de eo : væ autem homini illi, per quem Filius hominis tradetur, bonum erat ei, si non esset natus homo ille.",
+    "fr": "Pour ce qui est du Fils de l'homme, il s'en va, selon ce qui a été écrit de lui : mais malheur à l'homme par qui le Fils de l'homme sera trahi ; il vaudroit mieux pour cet homme-là que jamais il ne fut né.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 22,
+    "lat": "Et manducantibus illis, accepit Jesus panem, & benedicens fregit, & dedit eis, & ait : Sumite, Hoc est corpus meum.",
+    "fr": "Pendant qu'ils mangeoient encore, JESUS prit du pain, & l'ayant béni, le rompit, & le leur donna, en disant : Prenez, * Ceci est mon corps.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 23,
+    "lat": "Et accepto calice, gratias agens dedit eis ; & biberunt ex illo omnes.",
+    "fr": "Et ayant pris le calice, après avoir rendu grâces, il le leur donna, & ils en burent tous.",
+    "note": "Et ayant pris le calice, après avoir rendu grâces, il le leur donna, & ils en burent tous, & il leur dit : Ceci est mon sang, &c. A considérer la manière dont ceci est rapporté, il sembleroit que le Fils de Dieu auroit donné le calice à ses Apôtres, & qu'ils en auroient tous bu avant qu'il eut dit ces paroles ; Ceci est mon sang, &c. Mais il faut entendre ce qui est dit en ce lieu, par la manière dont saint Matthieu & saint Paul rapportent la consécration du vin, & son changement au vrai sang de J. C. Car ils remarquent tous deux, que le Fils de Dieu donna aux Apôtres le calice, en disant : Buvez-en tous ; car ceci est mon sang. Il est donc visible, que lorsque saint Marc après avoir marqué qu'ils en burent tous, ajoute ensuite qu'il leur dit : Ceci est mon sang, &c. Il n'a dit que par anticipation, que les Apôtres burent tous de ce calice ; & qu'ainsi il faut joindre ces mêmes paroles, Ceci est mon sang, avec ces autres, Buvez-en tous, comme elles sont jointes effectivement dans saint Matthieu & dans saint Paul."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 24,
+    "lat": "Et ait illis : Hic est sanguis meus novi testamenti, qui pro multis effundetur.",
+    "fr": "Et il leur dit : Ceci est mon sang, le sang * de la nouvelle alliance, qui * sera répandu pour plusieurs.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 25,
+    "lat": "Amen dico vobis, quia jam non bibam de hoc genimine vitis, usque in diem illum, cùm illud bibam novum in regno Dei.",
+    "fr": "Je vous dis en vérité * que je ne boirai plus désormais de ce fruit de la vigne, jusqu'à ce jour auquel je le boirai nouveau dans le royaume de Dieu.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 26,
+    "lat": "Et hymno dicto exierunt in montem Olivarum.",
+    "fr": "Et ayant chanté * le cantique d'action de grâces, ils s'en allèrent sur la montagne des Oliviers.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 27,
+    "lat": "Et ait eis Jesus : Omnes scandalizabimini in me in nocte ista ; quia scriptum est : Percutiam Pastorem, & dispergentur oves.",
+    "fr": "Alors JESUS leur dit : * Je vous serai à tous cette nuit une occasion de scandale ; car il est écrit : Je frapperai le Pasteur, & les brebis seront dispersées.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 28,
+    "lat": "Sed postquam resurrexero, præcedam vos in Galilæam.",
+    "fr": "Mais après que je serai ressuscité, j'irai devant vous en Galilée.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 29,
+    "lat": "Petrus autem ait illi : Et si omnes scandalizati fuerint in te, sed non ego.",
+    "fr": "Pierre lui dit : * Quand vous seriez pour tous les autres un sujet de scandale, vous ne le serez pas pour moi.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 30,
+    "lat": "Et ait illi Jesus : Amen dico tibi, quia tu hodie in nocte hac, priusquam gallus vocem bis dederit, ter me es negaturus.",
+    "fr": "Et JESUS lui répartit : Je vous dis en vérité, qu'aujourd'hui, cette même nuit, avant que le coq ait chanté deux fois, vous me renoncerez trois fois.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 31,
+    "lat": "At ille amplius loquebatur : Et si oportuerit me simul commori tibi, non te negabo. Similiter autem & omnes dicebant.",
+    "fr": "Mais Pierre insistoit encore davantage : Quand il me faudroit mourir avec vous, je ne vous renoncerai point. Et tous les autres en dirent autant.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 32,
+    "lat": "Et veniunt in prædium, cui nomen Gethsemani, & ait discipulis suis : Sedete hìc donec orem.",
+    "fr": "Ils allèrent ensuite en un lieu appelé Gethsémani, où il dit à ses disciples : Asseyez-vous ici jusqu'à ce que j'aye fait ma prière.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 33,
+    "lat": "Et assumit Petrum, & Jacobum, & Joannem secum, & cœpit pavere, & tædere.",
+    "fr": "Et ayant pris avec lui Pierre, Jacques, & Jean, il commença à être saisi de frayeur, & d'avoir le cœur pressé d'une extrême affliction.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 34,
+    "lat": "Et ait illis : Tristis est anima mea usque ad mortem : sustinete hìc, & vigilate.",
+    "fr": "Alors il leur dit : Mon ame est * triste jusqu'à la mort, demeurez ici, & veillez *.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 35,
+    "lat": "Et cùm processisset paulùlum, procidit super terram, & orabat, ut, si fieri posset, transiret ab eo hora :",
+    "fr": "Et s'en allant un peu plus loin, il se prosterna contre terre, priant que s'il étoit possible cette heure s'éloignât de lui ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 36,
+    "lat": "& dixit : Abba Pater, omnia tibi possibilia sunt, transfer calicem hunc à me : sed non quod ego volo, sed quod tu.",
+    "fr": "& il disoit : * Mon Père, mon Père, toutes choses vous sont possibles, transportez ce calice loin de moi ; mais néanmoins que votre volonté s'accomplisse, & non pas la mienne.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 37,
+    "lat": "Et venit, & invenit eos dormientes. Et ait Petro : Simon, dormis ? Non potuisti unâ horâ vigilare ?",
+    "fr": "Il revint ensuite vers ses disciples, & les ayant trouvé endormis, il dit à Pierre : Simon, vous dormez ? Quoi, n'avez-vous pu seulement veiller une heure ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 38,
+    "lat": "Vigilate & orate ; ut non intretis in tentationem : spiritus quidem promptus est, caro verò infirma.",
+    "fr": "Veillez & priez, afin que vous n'entriez point en tentation : l'esprit est prompt, mais la chair est foible.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 39,
+    "lat": "Et iterùm abiens oravit, eumdem sermonem dicens.",
+    "fr": "Il s'en alla pour la seconde fois, & fit sa prière dans les mêmes termes.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 40,
+    "lat": "Et reversus, denuò invenit eos dormientes, ( erant enim oculi eorum gravati ) & ignorabant quid responderent ei.",
+    "fr": "Et étant retourné vers eux, il les trouva encore endormis ; car leurs yeux étoient appesantis de sommeil, & ils ne savoient que lui répondre.",
+    "note": "Car leurs yeux étoient appesantis de sommeil, & ils ne savoient que lui répondre. Il est étonnant que saint Pierre, qui venoit d'entendre de la propre bouche de J. C. qu'il le devoit renoncer trois fois cette nuit-là même, & qui avoit insisté au contraire très-fortement, Qu'il ne le renonceroit point, quand il lui faudroit mourir avec lui ; paroisse aussitôt après dans un si grand calme, qu'il ne songe qu'à dormir, lors même que le Fils de Dieu est triste jusqu'à la mort. Il est vrai qu'un autre Evangéliste témoigne, que c'étoit la tristesse même qui le rendoit ainsi endormi. Mais enfin, comment pouvoit espérer de mourir avec J. C. celui qui ne pouvoit pas même veiller avec lui pendant l'espace d'une heure ? Et étoit-ce prendre part à la frayeur & à l'extrême angoisse que souffroit son divin Maître, de s'abandonner ainsi au sommeil dans un temps où il le voyoit comme accablé sous le poids de cette tristesse mortelle ? Il ne faut donc point s'étonner de l'impuissance où il se trouva avec les autres Apôtres, de répondre au Fils de Dieu, lorsqu'il leur fit ce reproche, & à Pierre en particulier : Simon, vous dormez ? Quoi vous n'avez pu seulement veiller une heure ? Car que répondre en effet à ce reproche, après tout ce que J. C. lui avoit dit, & ce qu'il avoit lui-même dit à J. C. Ainsi il paroît que non-seulement leurs yeux étoient appesantis de sommeil, comme le marque l'Evangéliste, mais que leur esprit & leur cœur étoient encore plus appesantis ; car ils ne s'élevoient point par la foi jusqu'à la vue des desseins de Dieu, dans cet abandonnement apparent de son propre Fils, & ils n'entroient point, comme ils auroient dû, dans les sentimens de cet Homme-Dieu, qui ne s'assujettissoit à tant de souffrances, que pour leur salut. Ils voyoient donc, pour le dire ainsi, sans voir ; & ils entendoient sans entendre, tout ce qui se passoit alors devant eux."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 41,
+    "lat": "Et venit tertiò, & ait illis : Dormite jam, & requiescite, sufficit ; venit hora : ecce Filius hominis tradetur in manus peccatorum ;",
+    "fr": "Il revint encore pour la troisième fois, & il leur dit : Dormez maintenant, & vous reposez ; c'est assez ; l'heure est venue : le Fils de l'homme s'en va être livré entre les mains des pécheurs :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 42,
+    "lat": "surgite, eamus, ecce qui me tradet, propè est.",
+    "fr": "levez-vous, allons : voilà celui qui me doit trahir bien près d'ici.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 43,
+    "lat": "& adhuc eo loquente, venit Judas Iscariotes, unus de duodecim, & cum eo turba multa, cum gladiis & lignis, à summis Sacerdotibus, & Scribis, & senioribus.",
+    "fr": "Il n'avoit pas encore achevé ces mots, que Judas Iscariote, l'un des douze, parut suivi d'une grande troupe de gens armés d'épées & de bâtons, qui avoient été envoyés par les Grands-Prêtres, par les Scribes & les Sénateurs.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 44,
+    "lat": "Dederat autem traditor ejus signum eis : Quemcumque osculatus fuero, ipse est, tenete eum, & ducite cautè.",
+    "fr": "Or Judas qui le trahissoit leur avoit donné ce signal, & leur avoit dit : Celui que je baiserai, c'est celui que vous cherchez : saisissez-vous de lui, & me l'emmenez sûrement.",
+    "note": "Celui que je baiserai, c'est celui-là même que vous cherchez : saisissez-vous de lui, & l'emmenez surement. On a déjà remarqué en expliquant saint Matthieu, combien cette circonstance, rapportée dans saint Marc, fait connoître le renversement d'esprit de Judas, & son effroyable chute. Car il paroît par ces paroles, que la corruption de son cœur le fit déchoir même de la foi. Cette perfidie qui le porta à donner aux Juifs pour signal de sa trahison, la marque la plus ordinaire de l'amitié, qui est le baiser, n'étoit qu'une suite de la chute déplorable où son avarice l'avoit engagé. Mais depuis que la cupidité eut empoisonné son cœur, on vit arriver à son égard ce qu'a dit saint Paul de quelques personnes de son temps : Qu'ayant renoncé à la bonne conscience, ils avoient fait dans la suite naufrage en ce qui regardoit la foi. Car cet Apôtre qui avoit été élu pour être un des douze, avoit sans doute reconnu avec saint Pierre la divinité de J. C. & fait en son nom plusieurs miracles, par la puissance qu'il leur en donna à tous, en les envoyant prêcher la pénitence, chasser les démons, & guérir tous les malades. Cependant ce même Apôtre ne juge plus maintenant de J. C. que comme d'un homme habile, avec lequel il falloit prendre des mesures de précaution : Emmenez surement, dit-il aux Juifs, celui que j'aurai baisé, Ducite cautè. Quoi donc, Judas ! Est-ce de celui que vous avez reconnu pour le CHRIST, que vous parlez ? Si c'est le CHRIST, le Fils de Dieu, que peuvent servir toutes ces précautions contre celui qui est la sagesse essentielle & éternelle ? Et s'il ne l'est pas, comment vous-même avez-vous pu chasser les démons, & rendre miraculeusement la santé à tant de malades, en invoquant son saint nom ? Comment ces démons en sortant des corps dont vous les chassiez, ont-ils souvent attesté en votre présence la divinité de celui dont vous étiez le disciple ? Reconnoissez donc que l'avarice ayant gâté votre cœur, votre intelligence & votre foi ont aussi été renversées. Mais tremblons nous autres, en considérant de quelle importance il est de veiller toujours sur la garde de son cœur, qui est le principe de la vie, selon cet avis que donne le Sage : Omni custodia serva cor tuum, quia ex ipso vita procedit."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 45,
+    "lat": "Et cùm venisset, statim accedens ad eum, ait : Ave, Rabbi ; & osculatus est eum.",
+    "fr": "Aussitôt donc qu'il fut arrivé, il s'approcha de JESUS, & lui dit : Maître, je vous salue ; & il le baisa.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 46,
+    "lat": "At illi manus injecerunt in eum, & tenuerunt eum.",
+    "fr": "Ensuite ils mirent la main sur JESUS, & se saisirent de lui.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 47,
+    "lat": "Unus autem quidam de circumstantibus, educens gladium, percussit servum summi Sacerdotis, & amputavit illi auriculam.",
+    "fr": "Un de ceux qui étoient présens, tirant son épée, en frappa un des gens du Grand-Prêtre, & lui coupa une oreille.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 48,
+    "lat": "Et respondens Jesus, ait illis : Tanquam ad latronem existis cum gladiis & lignis comprehendere me.",
+    "fr": "Et JESUS leur dit : Vous êtes venus pour me prendre, armés d'épées & de bâtons, comme si j'étois un voleur.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 49,
+    "lat": "Quotidie eram apud vos in templo docens, & non me tenuistis : sed ut impleantur Scripturæ.",
+    "fr": "J'étois tous les jours au milieu de vous, enseignant dans le temple, & vous ne m'avez point pris : mais il faut que les Ecritures soient accomplies.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 50,
+    "lat": "Tunc discipuli ejus relinquentes eum, omnes fugerunt.",
+    "fr": "Alors ses disciples l'abandonnèrent, & s'enfuirent tous.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 51,
+    "lat": "Adolescens autem quidam sequebatur eum amictus sindone super nudo ; & tenuerunt eum ;",
+    "fr": "Or il y avoit un jeune homme qui le suivoit, couvert seulement d'un linceul ; & comme on voulut se saisir de lui,",
+    "note": "Or il y avoit un jeune homme qui le suivoit, couvert seulement d'un linceul ; & comme on voulut se saisir de lui, il laissa aller son linceul, & s'enfuit tout nu, &c. Nous ne nous arrêtons point à rapporter ce que disent beaucoup d'Auteurs, & les conjectures sur lesquelles ils se fondent, pour prouver que ce jeune homme dont il est parlé ici, étoit ou saint Jacques, appelé ordinairement frère du Seigneur, & surnommé le juste, ou saint Jean, ou quelqu'un de la maison dans laquelle J. C. avoit soupé en cette même nuit. Comme nous ne voyons guère de vraisemblance dans ces différentes opinions, nous nous contentons de dire ici, que ce qui paroît le plus croyable, est que ce jeune homme pouvoit être de quelque maison voisine de ce jardin où JESUS étoit. Ayant été réveillé par le bruit de tout ce monde qui venoit pour prendre le Fils de Dieu, il se leva de son lit, & prit seulement sur lui le linceul même dans lequel il étoit couché, pour aller plus promptement être témoin de ce qui se passeroit. Ce que saint Marc dit au même lieu, que les Disciples de J. C. l'avoient alors abandonné, & s'étoient tous enfuis, suffit pour prouver que ce jeune homme dont il est parlé ensuite, n'étoit pas du nombre de ses Apôtres. Car quoique S. Jean & saint Pierre se trouvèrent depuis dans la maison du Grand-Prêtre, on ne peut douter après cette déclaration si expresse de saint Marc, qu'ils n'ayent au commencement pris la fuite, c'est-à-dire, après que saint Pierre eut d'abord tiré son épée, & coupé l'oreille à Malchus. Il est marqué que ce jeune homme suivoit, non cette troupe de gens armés, mais J. C. & c'est ce qui a donné lieu de croire qu'il pouvoit avoir de la vénération & de l'attache pour sa personne. En effet la plupart du peuple n'entroit point dans les sentimens des Pharisiens, ni ne se laissoit point aller à leurs passions. Ainsi il aimoit dans J. C. cette bonté toujours bienfaisante, & cette vertu toute-puissante pour la guérison de toutes sortes de maladies. Mais soit qu'il suivît le Fils de Dieu par le motif d'un amour sincère, qui lui donnoit de l'inquiétude pour ce qui lui arriveroit, ou par un simple mouvement de curiosité, on le regarda sans doute comme un des disciples du Sauveur, puisqu'on voulut l'arrêter ; & il l'eût été, s'il n'avoit usé de la même adresse dont usa Joseph pour se tirer d'entre les mains de la femme de Putifar, à qui il laissa son manteau qu'elle tenoit. Il quitta donc le linceul duquel il s'étoit couvert en sortant du lit, & s'échappa ainsi des mains de ceux qui l'avoient saisi. Quelques-uns le blâment de s'être enfui, & d'avoir abandonné J. C. s'il est vrai qu'il ait été attaché à sa personne. Mais l'exemple des Apôtres, qui étoient bien plus obligés de ne pas quitter leur Maître après l'assurance qu'ils avoient osé lui donner, d'être prêts de mourir même avec lui, fit bien connoître la vérité de ce que le Fils de Dieu leur avoit dit : Que l'esprit est prompt & ardent, mais que la chair est foible. Ils étoient donc les uns & les autres prompts à promettre, & prompts même à suivre d'abord J. C. mais ils sentoient leur foiblesse quand il s'agissoit de souffrir pour lui. Ce n'étoit pas même encore le temps de le suivre jusqu'à la croix : car il falloit qu'il mourût pour eux, avant qu'ils pussent mourir pour son nom. Ainsi la fuite des Apôtres & de tous les autres disciples auroit pu être un effet de leur sagesse & de leur humilité, s'ils avoient plus consulté leur propre foiblesse, que leur vaine présomption. Et Pierre n'auroit pas renoncé son maître, s'il ne s'étoit glorifié de pouvoir mourir pour le Fils de Dieu, avant que le Fils de Dieu lui eût acquis par le mérite de sa mort, la grâce de pouvoir un jour accomplir ce qu'il ne pouvoit que témérairement se promettre de soi-même."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 52,
+    "lat": "at ille rejectâ sindone, nudus profugit ab eis.",
+    "fr": "il laissa aller son linceul, & s'enfuit tout nu des mains de ceux qui le tenoient.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 53,
+    "lat": "Et adduxerunt Jesum ad summum Sacerdotem ; & convenerunt omnes Sacerdotes, & Scribæ, & seniores.",
+    "fr": "Ils amenèrent JESUS au Grand-Prêtre : chez qui s'assemblèrent tous les Princes des Prêtres, les Scribes, & les Sénateurs.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 54,
+    "lat": "Petrus autem à longe secutus est eum, usque intrò in atrium summi Sacerdotis : & sedebat cum ministris ad ignem, & calefaciebat se.",
+    "fr": "Pierre le suivit de loin jusques dans la cour du Grand-Prêtre, où s'étant assis auprès du feu avec les gens, il se chauffoit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 55,
+    "lat": "Summi verò Sacerdotes, & omne concilium, quærebant adversus Jesum testimonium, ut eum morti traderent, nec inveniebant.",
+    "fr": "Cependant les Princes des Prêtres, & tout le Conseil cherchoient des dépositions contre JESUS pour le faire mourir, & ils n'en trouvoient point.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 56,
+    "lat": "Multi enim testimonium falsum dicebant adversus eum ; & convenientia testimonia non erant.",
+    "fr": "Car plusieurs déposoient faussement contre lui ; mais leurs dépositions ne s'accordoient pas.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 57,
+    "lat": "Et quidam surgentes falsum testimonium ferebant adversus eum dicentes :",
+    "fr": "Quelques-uns se levèrent, & portèrent un faux témoignage contre lui en ces termes :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 58,
+    "lat": "Quoniam nos audivimus eum dicentem : Ego dissolvam templum hoc manu factum, & per triduum aliud non manu factum ædificabo.",
+    "fr": "Nous lui avons ouï dire : Je détruirai ce temple bâti par la main des hommes, & j'en rebâtirai un autre en trois jours, qui ne sera point fait par la main des hommes.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 59,
+    "lat": "Et non erat conveniens testimonium illorum.",
+    "fr": "* Mais ce témoignage-là même n'étoit pas encore suffisant.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 60,
+    "lat": "Et exurgens summus Sacerdos in medium, interrogavit Jesum, dicens : Non respondes quidquam ad ea quæ tibi objiciuntur ab his ?",
+    "fr": "Alors le Grand-Prêtre se levant au milieu de l'assemblée, interrogea JESUS, & lui dit : Vous ne répondez rien à ce que ceux-ci déposent contre vous ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 61,
+    "lat": "Ille autem tacebat, & nihil respondit. Rursum summus Sacerdos interrogabat eum, & dixit ei : Tu es Christus Filius Dei benedicti ?",
+    "fr": "Mais JESUS demeuroit dans le silence, & il ne répondit rien. Le Grand-Prêtre l'interrogea encore, & lui dit : Etes-vous le CHRIST, le Fils de Dieu béni à jamais ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 62,
+    "lat": "Jesus autem dixit illi : Ego sum ; & videbitis Filium hominis sedentem à dextris virtutis Dei, & venientem cum nubibus cœli.",
+    "fr": "JESUS lui répondit : Je le suis ; & vous verrez un jour le Fils de l'homme assis à la droite de la majesté divine, & venant sur les nuées du ciel.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 63,
+    "lat": "Summus autem Sacerdos, scindens vestimenta sua, ait ; Quid adhuc desideramus testes.",
+    "fr": "Aussitôt le Grand-Prêtre déchirant ses vêtemens, leur dit : * Qu'avons-nous plus besoin de témoins ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 64,
+    "lat": "Audistis blasphemiam ; quid vobis videtur ? Qui omnes condemnaverunt eum esse reum mortis.",
+    "fr": "Vous venez d'entendre le blasphème qu'il a proféré ; qu'en jugez-vous ? Ils le condamnèrent comme ayant mérité la mort.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 65,
+    "lat": "Et cœperunt quidam conspuere eum, & velare faciem ejus, & colaphis eum cædere, & dicere ei ; Prophetiza ; & ministri alapis eum cædebant.",
+    "fr": "Alors quelques-uns commencèrent à lui cracher au visage, & lui ayant bandé les yeux, ils lui donnoient des coups de poing, en lui disant : Devine qui t'a frappé ; & les valets lui donnoient des soufflets.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 66,
+    "lat": "Et cùm esset Petrus in atrio deorsum, venit una ex ancillis summi Sacerdotis ;",
+    "fr": "Cependant Pierre étant en bas dans la cour, une des servantes du Grand-Prêtre y vint ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 67,
+    "lat": "& cùm vidisset Petrum calefacientem se, aspiciens illum, ait : Et tu cum Jesu Nazareno eras.",
+    "fr": "& l'ayant vu qui se chauffoit, après l'avoir considéré, elle lui dit : Vous étiez aussi avec JESUS de Nazareth.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 68,
+    "lat": "At ille negavit, dicens : Neque scio, neque novi quid dicas. Et exiit foras ante atrium, & gallus cantavit.",
+    "fr": "Mais lui le nia, en disant : Je ne le connois point, & je ne sai ce que vous dites. * Et étant sorti dehors dans le vestibule, le coq chanta.",
+    "note": "Et étant sorti dehors dans le vestibule, le coq chanta. Et une servante l'ayant encore vu, &c. On a de la peine à découvrir ce qu'on doit entendre par ces paroles, que Pierre sortit dehors dans le vestibule, & qu'alors le coq chanta. Car si dès que la première servante lui eut parlé, & qu'il eut pour la première fois renoncé le Fils de Dieu, il sortit hors de la cour ; comment cette autre servante le vit-elle de nouveau, & lui dit-elle devant ceux qui étoient présens, qu'il étoit de la compagnie de JESUS ? Et comment quelque temps après, ceux qui se trouvèrent au même lieu lui reprochèrent-ils encore qu'il étoit de ces gens-là, c'est-à-dire, de la suite de J. C. Mais ce qui paroît encore plus fort, comment est-il dit dans saint Matthieu, après que Pierre eut renoncé le Sauveur la troisième fois, Qu'il sortit dehors, & qu'il pleura amèrement, s'il est vrai qu'il étoit déjà sorti, selon qu'il semble qu'on doit l'entendre par le texte de saint Marc. Pour concilier donc cette contrariété apparente, on peut expliquer saint Marc par saint Mattieu, qui ne dit pas de saint Pierre, qu'après son premier renoncement, il sortit dehors ; mais que lorsqu'il sortoit, c'est-à-dire, apparemment lorsqu'il étoit prêt de sortir, une autre servante, qui étoit peut-être la portière dont il est parlé, dans saint Jean, lui dit encore la même chose que la première. Et après qu'il eut renoncé de nouveau le Fils de Dieu ; ceux qui se trouvèrent là présens, le voyant sortir, & jugeant peut-être par-là qu'il étoit effectivement un de ses disciples, que la crainte avoit saisi, ils lui tinrent de nouveau le même langage que les deux servantes, & le pressèrent encore plus, lorsqu'ils lui dirent que son langage le trahissoit : Car vous êtes de Galilée, dirent-ils, & votre parler découvre assez qui vous êtes. Ce fut donc alors que pressé par la frayeur de se voir ainsi découvert par tant de personnes, il s'abandonna à toutes sortes de sermens pour confirmer ce qu'il avoit dit, qu'il ne connoissoit en aucune sorte celui dont ils lui parloient. Et en même-temps il sortit tout-à-fait dehors, & alla pleurer amèrement, après néanmoins que le Seigneur l'eut regardé, comme dit saint Luc, d'un regard intérieur de grâce, pour le faire souvenir de la parole qu'il lui avoit dite, & lui inspirer un véritable regret de sa faute. Ce n'est pas qu'il ne reste encore des difficultés dans cette manière dont nous expliquons le triple renoncement de saint Pierre, & sa sortie hors de la cour de la maison du Grand-Prêtre. Car au lieu qu'il est dit ici, Qu'il y eut très-peu de temps entre le second & le troisième renoncement de cet Apôtre, Et post pusillum rursus ; saint Luc au contraire met une heure d'intervalle, ou environ, entre l'un & l'autre : Et intervallo facto quasi horæ unius. Et le même Evangéliste parlant du second renoncement de saint Pierre, ne dit point que ce fut une servante qui l'interrogea, mais un homme ; ce qui néanmoins peut se concilier, en disant que l'homme dont parle saint Luc, se joignit à la servante dont parlent les autres Evangélistes. Mais enfin, quelque obscurité qui puisse rester dans ces passages que nous expliquons, il faut toujours convenir de la certitude de la vérité historique de l'Evangile, quoiqu'elle ne nous paroisse pas toujours évidente. Et peut-être même que Dieu a voulu permettre que les saints Evangélistes parussent quelquefois contraires entr'eux, pour exercer davantage notre intelligence, & soumettre enfin le défaut de notre lumière au respect que nous devons à la vérité de sa parole, lorsqu'elle choque non-seulement la corruption de notre cœur, mais encore l'intelligence de notre esprit."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 69,
+    "lat": "Rursus autem, cùm vidisset illum ancilla, cœpit dicere circumstantibus : Quia hic ex illis est.",
+    "fr": "Et une servante l'ayant encore vu, commença à dire à ceux qui étoient présens : Celui-ci est de ces gens-là.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 70,
+    "lat": "At ille iterùm negavit. Et post pusillum rursùs, quia astabant, dicebant Petro : Verè ex illis es ; nam & Galilæus es.",
+    "fr": "Mais il le nia pour la seconde fois. Et peu de temps après, ceux qui étoient présens dirent encore à Pierre : Assurément vous êtes de ces gens-là ; car vous êtes de Galilée *.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 71,
+    "lat": "Ille autem cœpit anathematizare, & jurare : Quia nescio hominem istum quem dicitis.",
+    "fr": "Il se mit alors à faire des sermens exécrables, & à dire en jurant : Je ne connois point cet homme dont vous me parlez.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 14,
+    "n": 72,
+    "lat": "Et statim gallus iterùm cantavit. Et recordatus est Petrus verbi, quod dixerat ei Jesus : Priusquam gallus cantet bis, ter me negabis. Et cœpit flere.",
+    "fr": "Aussitôt le coq chanta pour la seconde fois. Et Pierre se ressouvint de la parole que JESUS lui avoit dite : Avant que le coq ait chanté deux fois, vous me renoncerez trois fois ; & * il se mit à pleurer.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 1,
+    "lat": "Et confestim mane concilium facientes summi Sacerdotes, cum Senioribus & Scribis, & universo concilio, vincientes Jesum, duxerunt, & tradiderunt Pilato.",
+    "fr": "Aussitôt que le matin fut venu, les Princes des Prêtres avec les Sénateurs & les Scribes, & tout le Conseil, ayant délibéré ensemble, lièrent JESUS, l'emmenèrent, & le livrèrent à Pilate.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 2,
+    "lat": "Et interrogavit eum Pilatus : Tu es Rex Judæorum ? At ille respondens, ait illi : Tu dicis.",
+    "fr": "Pilate l'interrogea, en lui disant : Etes-vous le Roi des Juifs ? JESUS lui répondit : * Vous le dites ; je le suis.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 3,
+    "lat": "Et accusabant eum summi Sacerdotes in multis.",
+    "fr": "Or comme les Princes des Prêtres formoient diverses accusations contre lui *.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 4,
+    "lat": "Pilatus autem rursum interrogavit eum, dicens; Non respondes quidquam ? Vide in quantis te accusant.",
+    "fr": "Pilate l'interrogeant de nouveau, lui dit : Vous ne répondez rien ? Voyez de combien de choses ils vous accusent.",
+    "note": "Pilate l'interrogeant de nouveau, lui dit : Vous ne répondez rien ? Voyez de combien de choses ils vous accusent. Mais JESUS ne répondit rien davantage, &c. Saint Marc dit ici que le Fils de Dieu ne répondit plus au Gouverneur, depuis qu'il lui eut déclaré qu'il disoit vrai, en l'appelant roi des Juifs. Cependant on peut remarquer dans saint Jean, comme nous verrons en l'expliquant, que J. C. dit beaucoup de choses à Pilate, pour lui faire voir que son royaume n'étoit pas de ce monde, & qu'il étoit né, afin de rendre témoignage à la vérité ; & qu'ayant ensuite refusé de lui répondre sur ce qu'il lui demandoit ; comme il vit que ce Gouverneur se vantoit d'avoir la puissance de le délivrer, ou de le faire attacher à une croix, il lui dit encore, que ce pouvoir qu'il avoit lui venoit d'en haut, &c. Comment donc saint Marc s'accorde-t-il en ce point avec saint Jean ? Ce qu'on peut dire pour concilier ces contrariétés apparentes, c'est que saint Marc & saint Matthieu disant tous deux, que le Sauveur ne répondit aucune chose à Pilate, ont entendu seulement, comme il paroît par la suite du texte de l'Evangile, qu'il refusa de répondre à toutes les accusations que les Princes des Prêtres & les Sénateurs avancèrent contre lui ; & qu'ainsi tant que Pilate l'interrogea sur toutes ces accusations de ses ennemis, il garda un entier silence. Or il le garda pour plusieurs raisons. Premièrement, il savoit bien que Pilate n'avoit pas besoin qu'il répondît pour justifier devant lui son innocence : Car l'Evangéliste nous assure que ce Gouverneur en étoit très-persuadé, lorsqu'il dit, Que Pilate connoissoit que c'étoit l'envie qui avoit porté les Princes des Prêtres à lui mettre J. C. entre les mains. Secondement, les choses mêmes dont ils l'accusoient, ne méritoient pas que le Fils de Dieu y répondît, tant la calomnie y étoit visible : ce qui fit dire à Pilate en parlant à ces Princes des Prêtres, qui le pressoient de le condamner à la mort : Qu'il ne trouvoit aucun crime en lui. En troisième lieu, quoiqu'il pût confondre ses ennemis d'une seule parole qu'il eût prononcé avec cette autorité qu'il leur fit sentir en les renversant par terre, au moment qu'ils se présentèrent pour le prendre, il ne vouloit pas éloigner de soi le calice qu'il avoit résolu de boire, ni se soustraire par sa justification, à la mort qu'il étoit venu souffrir pour sauver les hommes. Car les pécheurs ne pouvoient être justifiés que par la mort de l'innocent, regardé & traité comme un criminel. Enfin, il falloit qu'il donnât à tous ses disciples ce grand exemple d'une patience si divine, qui bien loin de se laisser vaincre par les plus injustes accusateurs, savoit au contraire les ménager pour le salut de ceux-là mêmes qui sollicitoient sa mort. Telles étoient les admirables instructions que le Fils de Dieu nous donnoit à tous par son silence-même, plus éloquent sans comparaison, & plus efficace que toutes les paroles des hommes."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 5,
+    "lat": "Jesus autem amplius nihil respondit ; ita ut miraretur Pilatus.",
+    "fr": "Mais JESUS ne répondit plus rien davantage ; de sorte que Pilate en étoit tout étonné.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 6,
+    "lat": "Per diem autem festum solebat dimittere illis unum ex vinctis, quemcumque petissent.",
+    "fr": "Or il avoit accoutumé de délivrer à la fête de Pâque celui des prisonniers que le peuple lui demandoit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 7,
+    "lat": "Erat autem qui dicebatur Barabbas, qui cum seditiosis erat vinctus, qui in seditione fecerat homicidium.",
+    "fr": "Et il y en avoit un alors nommé Barabbas, qui avoit été mis en prison avec d'autres séditieux, * parce qu'il avoit commis un meurtre dans une sédition.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 8,
+    "lat": "Et cùm ascendisset turba, cœpit rogare, sicut semper faciebat illis.",
+    "fr": "* Le peuple étant donc venu devant le Prétoire, lui demanda * qu'il leur fit la grâce qu'il avoit toujours accoutumé de leur faire.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 9,
+    "lat": "Pilatus autem respondit eis, & dixit : Vultis dimittam vobis Regem Judæorum ?",
+    "fr": "Pilate leur répondit : Voulez-vous que je vous délivre le Roi des Juifs ?",
+    "note": "Pilate leur répondit : Voulez-vous que je vous délivre le roi des Juifs. Selon saint Matthieu, Pilate ne proposa au peuple Juif, de leur délivrer JESUS, qu'en mettant en parallèle avec lui un grand scélérat & un insigne voleur : Lequel voulez-vous, leur dit-il, que je vous délivre de Barrabas, ou de JESUS, appelé CHRIST ? Or quoique cette alternative parût extrêmement injurieuse au Fils de Dieu, elle ne l'étoit pas néanmoins dans l'intention de ce Gouverneur, qui ne présentoit aux Juifs Barrabas avec JESUS, qu'afin de les engager par-là davantage à demander la délivrance de celui contre lequel ses accusateurs ne pouvoient prouver aucun crime. Car plus cet homme qu'on mettoit en parallèle avec J. C. étoit scélérat, plus on pressoit le peuple Juif de demander que l'innocent fût mis en liberté, & un innocent qui avoit comblé ce peuple de toutes sortes de biens. Mais pourquoi Pilate l'appelle-t-il le roi des Juifs ? Etoit-ce par dérision ? Il est difficile d'assurer quel a été le véritable motif qui le fit ainsi parler. On voit seulement dans un autre Evangéliste, que ce qui lui donna occasion d'appeler le Fils de Dieu, roi des Juifs, fut l'accusation même que les Juifs avoient formée contre lui, en se plaignant de ce qu'il disoit qu'il étoit le CHRIST, & qu'il étoit Roi : ce qui engagea Pilate à lui demander, s'il étoit le roi des Juifs. A quoi J. C. lui repartit, qu'il avoit dit la vérité. Il semble donc que sans pénétrer trop avant dans l'intention de Pilate, on peut dire qu'il servoit alors, quoique payen, comme d'organe à Dieu-même, lorsqu'il appeloit son Fils, roi des Juifs ; car il l'étoit en effet malgré eux. Aussi ce même Gouverneur ayant reconnu publiquement avant qu'il le condamnât, qu'il étoit un homme juste, Innocens ego sum à sanguine justi hujus ; fit mettre depuis pour l'inscription au haut de sa croix ; JESUS de Nazareth roi des Juifs. Et lorsque les Princes des Prêtres le pressèrent de changer cette inscription, il ne le voulut jamais, parce qu'il étoit dans l'ordre de Dieu, que tous les hommes, Hébreux, Grecs, & Romains, connussent que celui que les Juifs avoient fait crucifier, étoit leur Roi, ainsi que ce Gouverneur payen le déclara, & avant & après sa mort."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 10,
+    "lat": "( Sciebat enim quod per invidiam tradidissent eum summi Sacerdotes. )",
+    "fr": "( Car il savoit que c'étoit par envie que les Princes des Prêtres le lui avoient mis entre les mains. )",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 11,
+    "lat": "Pontifices autem concitaverunt turbam, ut magis Barabbam dimitteret eis.",
+    "fr": "Mais les Prêtres excitèrent le peuple à demander qu'il leur délivrât plutôt Barabbas.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 12,
+    "lat": "Pilatus autem iterùm respondens, ait illis : Quid ergo vultis faciam Regi Judæorum ?",
+    "fr": "Pilate leur dit encore : Que voulez-vous donc que je fasse * du Roi des Juifs ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 13,
+    "lat": "At illi iterùm clamaverunt : Crucifige eum.",
+    "fr": "Mais ils crièrent de nouveau, & lui dirent, Crucifiez-le.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 14,
+    "lat": "Pilatus verò dicebat illis : Quid enim mali fecit ? At illi magis clamabant : Crucifige eum.",
+    "fr": "Pilate leur dit : Mais quel mal a-t-il fait ? Et eux crioient encore plus fort : Crucifiez-le.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 15,
+    "lat": "Pilatus autem volens populo satisfacere, dimisit illis Barabbam, & tradidit Jesum flagellis cæsum ut crucifigeretur.",
+    "fr": "Enfin Pilate voulant satisfaire le peuple, leur délivra Barabbas ; & ayant fait fouetter JESUS, il le livra pour être crucifié.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 16,
+    "lat": "Milites autem duxerunt eum in atrium Prætorii, & convocant totam cohortem.",
+    "fr": "Alors les soldats l'ayant emmené * dans la salle du Prétoire, assemblèrent toute la compagnie.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 17,
+    "lat": "Et induunt eum purpurà, & imponunt ei plectentes spineam coronam :",
+    "fr": "Et l'ayant revêtu d'un manteau d'écarlate, ils lui mirent sur la tête une couronne d'épines entrelacées :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 18,
+    "lat": "& cœperunt salutare eum : Ave rex Judæorum.",
+    "fr": "puis ils commencèrent à le saluer, en lui disant : Salut au Roi des Juifs.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 19,
+    "lat": "Et percutiebant caput ejus arundine : & conspuebant eum, & ponentes genua, adorabant eum.",
+    "fr": "Ils lui frappoient la tête avec * un roseau, & lui crachoient au visage, & se mettant à genoux devant lui, ils l'adoroient.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 20,
+    "lat": "Et postquam illuserunt ei, exuerunt illum purpura, & induerunt eum vestimentis suis : & educunt illum, ut crucifigerent eum.",
+    "fr": "Après s'être ainsi joués de lui, ils lui ôtèrent ce manteau d'écarlate, & lui ayant remis ses habits, ils l'emmenèrent dehors pour le crucifier.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 21,
+    "lat": "Et angariaverunt prætereuntem quempiam, Simonem Cyrenæum, venientem de villa, patrem Alexandri & Rufi, ut tolleret crucem ejus.",
+    "fr": "Et un certain homme de Cyrène, nommé Simon père d'Alexandre & de Rufus, qui venoit d'une maison de campagne, passant par-là, ils le contraignirent de porter sa croix.",
+    "note": "Et un certain homme de Cyrene, nommé Simon, père d'Alexandre & de Rufus, qui venoit d'une maison de campagne, passant par-là, ils le contraignirent de porter sa croix. On a déjà dit ailleurs que Cyrene, dont il est parlé ici, étoit un canton d'Afrique, & non une ville de Syrie, comme l'ont cru quelques-uns : car outre que nous voyons par l'histoire de Joseph, que beaucoup de Juifs s'étoient établis en cette province ; la même chose est encore confirmée par plusieurs endroits de l'Ecriture. Ainsi quoique plusieurs Pères ayent cru, comme on l'a dit autre part, que Simon étoit payen, & qu'ils ayent même regardé ce qu'il fit alors en portant la croix de J. C. comme une figure de l'assujettissement des Gentils sous le joug du Fils de Dieu ; il paroît plus vraisemblable de préférer le sentiment de quelques autres Auteurs, qui ont cru Simon Juif de religion & de nation. Il semble même, selon que le croit un Interprète, que les soldats ne le forcèrent de se charger de la croix de J. C. que parce que les Juifs, qui le connoissoient sans doute, le firent passer pour l'un des disciples du Sauveur. Et en effet la manière dont saint Marc en parle, fait au moins assez juger que dans le temps qu'il écrivoit son Evangile, son nom étoit fort connu parmi les fidelles ; puisqu'en le nommant, il se contente de dire, qu'il étoit père d'Alexandre & de Rufus ; c'est-à-dire, de deux célèbres Chrétiens connus à Rome où il écrivoit, & qui pouvoient attester la vérité de ce qu'il disoit, l'ayant pu savoir de la propre bouche de leur père. Aussi nous voyons entre les fidelles qui étoient à Rome lorsque saint Paul écrivoit sa lettre célèbre aux Chrétiens de cette Eglise, le nom de Rufus, avec celui de tous ceux qu'il salue. Et l'éloge particulier qu'il lui donne, est celui-ci, qu'il est un élu du Seigneur, & qu'il regardoit sa mère comme la sienne propre."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 22,
+    "lat": "Et perducunt illum in Golgotha locum : quod est interpretatum Calvariæ locus,",
+    "fr": "Et ensuite l'ayant conduit jusqu'au lieu appelé Golgotha, c'est-à-dire, le lieu du * Calvaire,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 23,
+    "lat": "& dabant ei bibere myrrhatum vinum ; & non accepit.",
+    "fr": "ils lui donnèrent à boire du vin mêlé avec de la myrrhe ; mais il n'en prit point *.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 24,
+    "lat": "Et crucifigentes eum, diviserunt vestimenta ejus, mittentes sortem super eis, quis quid tolleret.",
+    "fr": "Et après l'avoir crucifié, ils partagèrent ses vêtemens, jetant au sort pour savoir ce que chacun en auroit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 25,
+    "lat": "Erat autem hora tertia, & crucifixerunt eum.",
+    "fr": "Il étoit la troisième heure du jour, quand ils le crucifièrent.",
+    "note": "Il étoit la troisième heure du jour quand ils le crucifièrent. Ce que dit ici saint Marc forme une grande difficulté, & paroît d'abord tout-à-fait contraire à ce qu'un autre Evangéliste déclare : Qu'il étoit environ la sixième heure, lorsque Pilate présenta JESUS aux Juifs, en disant : Voilà votre Roi. Car s'il étoit environ la sixième heure du jour avant que le Fils de Dieu eût été condamné à la mort, comment put-il être crucifié à la troisième, selon que le dit saint Marc ? Pour éclaircir cette difficulté, il suffit de se souvenir de ce qu'on a dit ailleurs, que le jour étoit divisé anciennement en quatre parties, dont chacune comprenoit trois heures. La première commençoit au temps que se lève le soleil à l'équinoxe, c'est-à-dire, à six heures du matin, selon notre manière de compter. Et cette première partie du jour, qui se nommoit la première heure, comprenoit les trois heures suivantes. La seconde partie du jour, qui commençoit à neuf heures, selon nous, se nommoit la troisième heure, & comprenoit comme la première, les trois heures qui suivoient. La troisième partie du jour, qui commençoit à midi, selon nous, se nommoit la sixième heure, & comprenoit de même les trois autres heures suivantes. Et la quatrième partie du jour, qui commençoit à trois heures après midi, se nommoit la neuvième heure, & comprenoit comme les autres les trois heures qui suivoient, & se terminoient à soleil couchant. Selon cet éclaircissement des quatre parties du jour, il est aisé de comprendre que saint Jean n'est point contraire à saint Marc ; mais qu'ils se sont seulement expliqués en deux manières différentes. Ainsi quand saint Jean a dit, qu'il étoit environ la sixième heure, lorsque Pilate présenta JESUS aux Juifs avant qu'il le condamnât, il a entendu que cela se fit avant que la troisième partie du jour eût commencé, c'est-à-dire, avant l'heure de midi, selon nous. Et quand saint Marc dit qu'il étoit la troisième heure, lorsque J. C. fut crucifié ; il entend de même que la seconde partie du jour, qui commençoit, comme on l'a dit, à neuf heures du matin, selon nous, duroit encore, c'est-à-dire, qu'il n'étoit pas encore midi : car on sonnoit une trompette au commencement de chacune de ces quatre parties du jour pour les marquer. Et tant que la trompette de la troisième partie, nommée la sixième heure, ne sonnoit point, on disoit toujours qu'on étoit à la troisième heure ; & ainsi des autres. C'est un éclaircissement, qui bien qu'ennuyeux peut-être à quelques-uns, est néanmoins nécessaire pour bien établir la vérité de l'histoire évangélique, & pour empêcher qu'on n'abuse de certaines contradictions apparentes, pour affoiblir en quelque sorte la certitude de ces livres fondamentaux de notre foi."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 26,
+    "lat": "Et erat titulus causæ ejus inscriptus ; REX JUDÆORUM.",
+    "fr": "Et la cause de sa condamnation étoit marquée par cette inscription : LE ROI DES JUIFS.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 27,
+    "lat": "Et cum eo crucifigunt duos latrones : unum à dextris, & alium à sinistris ejus :",
+    "fr": "Ils crucifièrent aussi avec lui deux voleurs, l'un à sa droite, & l'autre à sa gauche :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 28,
+    "lat": "& impleta est Scriptura, quæ dicit : Et cum iniquis reputatus est.",
+    "fr": "ainsi cette parole de l'Ecriture fut accomplie : Et il a été mis au rang des méchans.",
+    "note": "Ainsi cette parole de l'Ecriture fut accomplie : Et il a été mis au rang des méchans. Les Evangélistes ont grand soin de faire toujours remarquer l'accomplissement des prophéties dans toutes les choses qui arrivoient à J. C. car il étoit de la dernière conséquence, pour l'établissement de la vérité de sa Religion, de faire voir que toutes choses étoient arrêtées dans le conseil de sa profonde sagesse ; & qu'ainsi il ne souffrit rien de la part des hommes, qu'il n'eût prévu dans sa divine prescience, & qu'il n'eût même fait prédire long-temps auparavant par ses saints Prophètes. Après donc que l'Evangéliste a marqué que deux voleurs furent crucifiés avec J. C. l'un à sa droite, & l'autre à sa gauche, il ajoute dans l'instant, qu'on vit par-là s'accomplir cette parole de l'Ecriture : Et il a été mis au rang des méchans. C'est d'Isaïe que ce passage est tiré, & d'un chapitre qui regarde tout entier la passion de J. C. mais ce n'est pas seulement l'Evangéliste qui a expliqué ce passage du Fils de Dieu ; puisque l'on voit dans saint Luc, que le Sauveur en parlant à ses Apôtres l'explique aussi de soi-même, lorsqu'il leur disoit : Je vous assure qu'il faut encore qu'on voie accomplir en moi ce qui est écrit : Il a été mis au rang des méchans & des scélérats ; parce que les choses qui ont été prédites de moi, vont être accomplies. Le Fils de Dieu fut donc mis au nombre des scélérats, & lorsqu'il fut attaché à une croix, ce qui étoit le supplice des esclaves & des voleurs ; & lorsque l'on crucifia actuellement deux voleurs, l'un à sa droite, & l'autre à sa gauche. Mais ce qu'il y a d'étonnant, c'est que les Prêtres, & les Docteurs de la loi, qui étoient les dépositaires & les Interprètes des livres sacrés, ayant tous les jours entre les mains, & lisant même publiquement les prophéties qui prédisoient cette mort du CHRIST & du Messie, telle que les saints Evangélistes décrivent celle du Sauveur dans toutes ses circonstances ; & étant alors eux-mêmes, pour le dire ainsi, les principaux acteurs de cette triste tragédie, ils ne s'en apercevoient pas cependant, & triomphoient même en insultant à la souveraine douceur de cet Agneau, qui se laissoit égorger par eux sans ouvrir la bouche, lorsqu'ils lui disoient : Toi qui détruis le temple de Dieu, & qui le rebâtis en trois jours, sauve-toi toi-même en descendant de la croix. Ils lisoient dans Isaïe : Qu'il a été tout couvert de plaies à cause de nos péchés, & tout brisé à cause de nos crimes... Que le Seigneur l'a chargé de toutes nos iniquités : qu'il a été offert, parce qu'il l'a bien voulu ; ..... & qu'il a été conduit à la mort comme une brebis, sans ouvrir la bouche : .... & qu'étant mis au rang des méchans.... il a prié pour les pécheurs. Ils lisoient & ils chantoient tous les jours dans les prophéties du roi David, ces paroles qui marquoient si clairement ce qui se passoit alors devant leurs yeux ; Ils ont percé mes mains & mes pieds, & ils ont compté tous mes os..... Ils ont partagé mes vêtemens entre eux, & ils ont jeté ma robe au sort. Ils lisoient dans Daniel, non-seulement leur propre crime, par lequel ils mettoient le CHRIST à mort, & renonçoient à être son peuple, en refusant de le reconnoître pour leur Roi : Occidetur Christus : & non erit ejus populus, qui eum negaturus est ; mais encore le temps précis auquel ils devoient commettre un si grand crime, marqué très-exactement par la supputation des semaines d'années dont il parle, & dont l'accomplissement tomboit alors. Cependant au milieu de cette grande lumière des prophéties, ils étoient eux-mêmes dans les ténèbres. Et se laissant emporter aveuglément à leur jalousie & à leur fureur, ils exécutoient sans y penser ce qui avoit été prédit par les Prophètes, & ne faisoient pas la moindre réflexion sur ce qui les regardoit dans leurs prophéties. Terrible & funeste exemple de l'obscurcissement, toujours inséparable des grands crimes ! Mais si la lecture des anciennes prophéties fut inutile à tous ces Docteurs & à tous ces Prêtres, pour leur faire reconnoître la divinité de celui qu'ils firent mourir si indignement ; elle ne l'a pas été pour tous les fidelles, à qui ces mêmes prophéties touchant J. C. ont été & seront toujours, comme dit S. Pierre, ainsi qu'une lampe qui luit dans un lieu obscur, c'est-à-dire, qui les éclaire dans tous leurs doutes, & qui dissipe toutes les ténèbres de leur esprit. C'est aussi pour cette raison que saint Marc & les autres Evangélistes ont tant de soin, comme on l'a dit, de marquer dans les différentes circonstances de la passion du Fils de Dieu, l'accomplissement de la vérité de ces anciennes prophéties."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 29,
+    "lat": "Et prætereuntes blasphemabant eum, moventes capita sua, & dicentes : Vah, qui destruis templum Dei, & in tribus diebus reædificas,",
+    "fr": "Ceux qui passoient par là le blasphémoient en branlant la tête, & lui disant : Toi, qui détruis le temple de Dieu, & qui le rebâtis en trois jours,",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 30,
+    "lat": "salvum fac temetipsum, descendens de cruce.",
+    "fr": "sauve-toi toi-même, en descendant de la croix.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 31,
+    "lat": "Similiter & summi Sacerdotes, illudentes ad alterutrum cum Scribis, dicebant : Alios salvos fecit, seipsum non potest salvum facere ;",
+    "fr": "Et les Princes des Prêtres avec les Scribes, se moquant de lui entre eux, disoient : Il en a sauvé d'autres, & il ne sauroit se sauver lui-même.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 32,
+    "lat": "Christus Rex Israel descendat nunc de cruce, ut videamus, & credamus. Et qui cum eo crucifixi erant convitiabantur ei.",
+    "fr": "Que le CHRIST, le Roi d'Israël, descende maintenant de la croix, afin que nous voyions, & que nous croyions. Et ceux qui avoient été crucifiés avec lui l'outrageoient aussi de paroles.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 33,
+    "lat": "Et factâ horâ sextâ, tenebræ factæ sunt per totam terram usque in horam nonam.",
+    "fr": "A la sixième heure du jour, les ténèbres couvrirent toute la terre jusqu'à la neuvième.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 34,
+    "lat": "Et horâ nonâ exclamavit Jesus voce magnâ, dicens : Eloi, Eloi, lamma sabachthani ? quod est interpretatum : Deus meus, Deus meus, ut quid dereliquisti me ?",
+    "fr": "Et à la neuvième heure, JESUS jeta un grand cri, en disant : Eloi, Eloi, lamma sabachthani ? c'est-à-dire, mon Dieu, mon Dieu, pourquoi m'avez-vous abandonné ?",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 35,
+    "lat": "Et quidam de circumstantibus, audientes, dicebant : Ecce Eliam vocat.",
+    "fr": "Quelques-uns de ceux qui étoient présens l'ayant entendu, s'entredisoient : Le voilà qui appelle Elie.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 36,
+    "lat": "Currens autem unus, & implens spongiam aceto, circumponensque calamo, potum dabat ei, dicens : Sinite, videamus si veniat Elias ad deponendum eum.",
+    "fr": "Et l'un d'eux courut emplir une éponge de vinaigre, & l'ayant mise au bout * d'un roseau, la lui présenta pour boire, en disant : Laissez, voyons si Elie le viendra tirer de la croix.",
+    "note": "L'un d'eux courut emplir une éponge de vinaigre, & l'ayant mise au bout d'un roseau, la lui présenta pour boire, en disant : Laissez, voyons si Elie le viendra tirer de la croix. Saint Matthieu rapporte cette parole, comme de ceux qui étoient présens, & non de celui qui courut emplir une éponge de vinaigre pour la présenter à J. C. Mais puisque saint Marc l'attribue expressément à cet homme, & que saint Matthieu l'attribue aux autres, il est aisé de concilier ces deux saints Evangélistes, en reconnoissant que, & l'homme qui présenta le vinaigre au Fils de Dieu, & les autres, dirent tous également, Laissez, voyons si Elie le viendra tirer de la croix. Soit que ce fussent les soldats Romains, comme l'a cru saint Jérôme, ou les Juifs avec ces soldats, ils regardoient J. C. comme un homme abandonné, & qui demandant du secours, n'en pouvoit point espérer. Ainsi en s'entredisant, Voyons si Elie le viendra tirer de la croix, ils lui insultoient de la manière la plus insolente, persuadés qu'ils étoient que ce Prophète ne viendroit pas le secourir ; & ils se moquoient de ce qu'il disoit à Dieu son Père, en l'interprétant ridiculement, & en expliquant d'Elie ce que l'on devoit entendre de Dieu même. Mais cette raillerie sanglante doit tourner un jour d'une terrible manière à la confusion de tous les Juifs, qui verront à la fin des siècles Elie venir en effet, non pour retirer de la croix celui qu'ils y avoient mis, mais pour publier sa gloire, & annoncer le triomphe de cette croix avant son second avénement. Ce sera alors qu'ils se verront obligés de reconnoître pour le CHRIST & pour le Roi, non-seulement d'Israël, mais encore de tous les hommes, cet Homme-Dieu, dont la patience infinie passe maintenant dans leur esprit pour une marque de sa foiblesse."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 37,
+    "lat": "Jesus autem emissâ voce magnâ, expiravit.",
+    "fr": "Alors JESUS ayant jeté un grand cri, rendit l'esprit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 38,
+    "lat": "Et velum templi scissum est in duo, à summo usque deorsum.",
+    "fr": "En même-temps le voile du temple se déchira en deux, depuis le haut jusqu'en bas.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 39,
+    "lat": "Videns autem Centurio, qui ex adverso stabat, quia sic clamans expirasset, ait : Verè hic homo Filius Dei erat.",
+    "fr": "Et le Centenier qui étoit là présent vis-à-vis de lui, voyant qu'il étoit mort en jetant ce grand cri, dit : Cet homme étoit vraiment Fils de Dieu.",
+    "note": "Le Centenier, qui étoit là présent, vis-à-vis de lui, voyant qu'il étoit mort en jetant ce grand cri, dit : Cet homme étoit vraiment Fils de Dieu. On voit dans un autre Evangéliste, que plusieurs choses contribuèrent à remplir d'étonnement ce Centenier, & à lui faire reconnoître la divinité de J. C. Car il dit que cet officier, & les soldats qui gardoient JESUS avec lui, ayant vu le tremblement de terre, & toutes les choses qui arrivoient ; c'est-à-dire, ces effroyables ténèbres qui survinrent en plein jour, ce fracas de pierres qui se fendoient, & cette force prodigieuse que fit paroître le Sauveur dans le moment même de sa mort, par ce grand cri qu'il jeta en expirant ; ils furent remplis de frayeur, & dirent : Cet homme étoit vraiment Fils de Dieu. Que si l'on demande ce qu'ils entendoient par-là, puisqu'étant Payens, ils ne pouvoient pas pénétrer naturellement dans ce grand mystère de l'Incarnation ; il semble qu'on ne peut douter qu'ils n'ayent parlé par un mouvement de l'Esprit de Dieu, quand même les soldats qui étoient avec le Centenier, n'auroient pas connu bien clairement ce qu'ils disoient. Car pour ce qui est du Centenier, saint Basile assure, qu'il reconnut la puissance de J. C. par les prodiges qui arrivèrent à sa mort ; & qu'ainsi sans craindre les Juifs, qui étoient alors dans leur plus grande fureur, il publia hautement sa divinité, en déclarant qu'il étoit véritablement Fils de Dieu. Dieu prit donc plaisir à confondre l'aveuglement des Docteurs des Juifs & des Prêtres de la loi, en faisant dire à des Payens ce que toutes les prophéties & la connoissance de toutes les Ecritures n'avoient pu faire découvrir à ceux mêmes qui étoient les chefs de son peuple. Et en cela il donnoit aux Juifs une preuve plus miraculeuse de sa puissance, que celle qu'ils demandoient pour croire au Sauveur, lorsqu'ils disoient avec insulte : S'il est vraiment Fils de Dieu, s'il est le Roi d'Israël, qu'il descende présente- ment de la Croix ; & nous croirons en lui. Car c'étoit vraiment un prodige de tirer de la bouche des soldats payens, la confession de la divinité de J. C. dans le temps même qu'ils le voyoient attaché à cette croix ; comme c'en étoit aussi un très-grand de voir celui qui avoit ressuscité les morts, guéri les aveugles-nés, délivré les possédés les plus furieux, marché sur les eaux, & calmé d'une parole les tempêtes, demeurer calme sur sa croix, au milieu de toutes sortes d'insultes, & y mourir, ainsi qu'il l'avoit prédit, par un pur effet de son amour pour ses propres ennemis."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 40,
+    "lat": "Erant autem & mulieres de longe aspicientes : inter quas erat Maria Magdalene, & Maria Jacobi minoris & Joseph mater, & Salome :",
+    "fr": "Il y avoit aussi là des femmes qui regardoient de loin, entre lesquelles étoit Marie Magdeleine, Marie mère de Jacques le jeune & de Joseph, & Salomé * ;",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 41,
+    "lat": "& cùm esset in Galilæa, sequebantur eum, & ministrabant ei : & aliæ multæ, quæ simul cum eo ascenderant Jerosolymam.",
+    "fr": "qui le suivoient lorsqu'il étoit en Galilée, & l'assistoient de leur bien : & encore plusieurs autres, qui étoient venues avec lui à Jérusalem.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 42,
+    "lat": "Et cùm jam sero esset factum, ( quia erat parasceve, quod est ante sabbatum, )",
+    "fr": "Le soir étant venu, ( parce que c'étoit le jour de la préparation ; c'est-à-dire, la veille du jour du sabbat, )",
+    "note": "Le soir étant venu, (parce que c'étoit le jour de la préparation ; c'est-à-dire, la veille du jour du sabbat, ) Joseph d'Arimathie, qui étoit un homme de considération & Sénateur, & qui attendoit aussi le règne de Dieu, s'en vint hardiment, &c. Ce que saint Matthieu & saint Marc disent tous deux, Que le soir étant venu, doit être expliqué, parce que saint Marc ajoute aussitôt après, Que c'étoit le jour de la préparation ; c'est-à-dire, que ce qu'il va rapporter de Joseph d'Arimathie, se passa lorsque ce jour de la préparation duroit encore. Or ce jour de la préparation, selon qu'il l'explique au même endroit, étoit celui de devant le jour du sabbat. Car c'étoit en ce jour-là qu'on préparoit toutes choses pour le lendemain. Joseph voyant donc que la solennité du sabbat alloit bientôt commencer, parce qu'elle commençoit le Vendredi après le coucher du soleil, il se hâta d'aller demander au Gouverneur la permission d'ensevelir le corps de JESUS sur le soir, & avant que le soleil se couchât, afin de ne pas violer la sainteté du sabbat, qu'il eût violée, selon les Juifs, s'il eût attendu à l'ensevelir après le soleil couché. Nous avons parlé ailleurs du courage que ce Sénateur de Jérusalem fit paroître en cette rencontre. Et nous remarquons seulement ici, que ce qui est dit dans saint Matthieu, Qu'il étoit du nombre des disciples de J. C. saint Marc l'exprime en cette autre manière, Qu'il étoit de ceux qui attendoient le règne ou le royaume de Dieu. C'étoit donc être disciple de J. C. d'attendre le règne de Dieu. Mais qu'étoit-ce que cette attente, & en quoi consistoit-elle ? Elle consistoit à souhaiter avec ardeur de voir l'accomplissement des vœux des saints Patriarches & des Prophètes, qui avoient toujours aspiré au règne du CHRIST & du Fils de Dieu. Si Joseph ne démêloit peut-être pas bien encore tout le mystère de ce royaume de J. C. non plus que tous les Apôtres, à cause du grand scandale de sa croix, il l'attendoit néanmoins, & le souhaitoit, puisqu'il étoit du nombre de ses disciples. Et il mérita sans doute par la piété si généreuse qu'il fit paroître en cette rencontre, de voir ce mystère développé par sa foi en la gloire de la résurrection de son divin maître, qui fut proprement le commencement du règne de Dieu, c'est-à-dire, de J. C. Fils de Dieu. Car jusqu'alors sa divinité étoit demeurée cachée sous les voiles de l'infirmité humaine, & avoit paru comme éclipsée entièrement à sa mort. Mais du moment qu'il eut triomphé de la mort par la vertu de sa résurrection, & tiré des limbes les ames des justes, qui y étoient retenues depuis tant de siècles, il commença à faire éclater son empire, & à régner comme Fils de Dieu sur tous ceux qu'il avoit rachetés de la mort, en mourant lui-même pour eux. C'est de ce règne de Dieu dont parloit le saint Prêtre Zacharie, lorsqu'il disoit tout transporté de la joie du Saint-Esprit, Que le Seigneur leur avoit suscité un puissant Sauveur dans la maison de son serviteur David, selon qu'il avoit promis par la bouche de ses saints Prophètes dans tous les siècles passés, de nous délivrer de nos ennemis, & des mains de tous ceux qui nous haïssent.... afin que nous le servions sans crainte dans la sainteté & dans la justice, nous tenant en sa présence tous les jours de notre vie."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 43,
+    "lat": "venit Joseph ab Arimathæa, nobilis Decurio, qui & ipse erat expectans regnum Dei, & audacter introivit ad Pilatum, & petiit corpus Jesu.",
+    "fr": "Joseph d'Arimathie, qui étoit un homme de considération & Sénateur *, & qui attendoit le règne de Dieu, s'en vint hardiment trouver Pilate, & lui demanda le corps de JESUS.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 44,
+    "lat": "Pilatus autem mirabatur si jam obiisset ; & accersito Centurione interrogavit eum si jam mortuus esset.",
+    "fr": "Pilate s'étonnant qu'il fût mort sitôt, fit venir le Centenier, & lui demanda s'il étoit déjà mort.",
+    "note": "Pilate s'étonnant qu'il fût mort sitôt, fit venir le Centenier, & lui demanda s'il étoit déjà mort. On a remarqué auparavant, que le grand cri que J. C. jeta en mourant, avoit donné lieu au Centenier & à ses soldats, de juger qu'il y avoit quelque chose de divin dans cet homme. Car en effet, il n'étoit point naturel, ou qu'il pût jeter un tel cri un moment avant sa mort, ou qu'il mourût dans l'instant qu'il eut crié de la sorte. Mais de plus même, il paroît que ceux que l'on crucifioit vivoient plus long-temps sur la croix : ce qui fut cause que les Juifs, selon que le dit saint Jean, prièrent Pilate qu'on rompît les jambes à ceux qui étoient crucifiés, afin qu'ils mourussent plus promptement, & que leurs corps ne demeurassent point à la croix le jour du sabbat. Ce fut donc pour cette raison que Joseph ayant demandé, comme l'on a dit, vers ce même temps, au Gouverneur la permission d'enlever & d'ensevelir le corps de JESUS, saint Marc témoigne que Pilate parut étonné, & avoit peine à croire qu'il fût mort sitôt. Car il étoit mort dans le moment qu'il l'avoit voulu. Et quoique les Juifs auroient désiré sans doute d'ajouter à la cruauté de tous ses autres tourmens, celle de lui faire rompre les jambes, comme aux deux voleurs qui étoient à ses côtés, il ne fut pas néanmoins en leur pouvoir de le faire. Le Centenier attesta donc à Pilate la vérité de cette mort si prompte de J. C. Et ce qu'il avoit lui-même déjà regardé comme un prodige, en s'écriant, Que celui qui étoit mort de la sorte, étoit vraiment le Fils de Dieu, confirma apparemment aussi à Pilate dans la pensée qu'il avoit, que c'étoit un juste, qu'on l'avoit forcé de le condamner à la mort. Mais de quoi lui put servir de reconnoître l'innocence de ce juste, ne l'ayant point adoré comme Dieu, ni imploré sa miséricorde ? Que si cela ne lui servit point pour son salut, il servit au moins à l'Eglise pour attester la sainteté du Sauveur ; puisque Tertullien assure que Pilate, qu'il dit avoir été en quelque sorte Chrétien dans sa conscience, à cause de la persuasion où il étoit de l'innocence de J. C. manda très-exactement tout ce qui s'étoit passé à Tibère, qui régnoit alors dans tout l'Empire Romain : Ea omnia super Christo Pilatus, & ipse jam pro sua conscientia Christianus, Cæsari tunc Tiberio nuntiavit."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 45,
+    "lat": "Et cùm cognovisset à Centurione donavit corpus Joseph.",
+    "fr": "Le Centenier l'en ayant assuré, il donna le corps à Joseph.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 46,
+    "lat": "Joseph autem mercatus sindonem, & deponens eum involvit sindone, & posuit eum in monumento, quod erat excisum de petra, & advolvit lapidem ad ostium monumenti.",
+    "fr": "Joseph ayant acheté un linceul, descendit JESUS de la croix, l'enveloppa dans le linceul, le mit dans un sépulcre, qui étoit taillé dans le roc, & * ferma l'entrée du sépulcre avec une pierre.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 15,
+    "n": 47,
+    "lat": "Maria autem Magdalene, & Maria Joseph, aspiciebant ubi poneretur.",
+    "fr": "Cependant Marie Magdeleine, & Marie mère de Joseph, regardoient où on le mettoit.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 1,
+    "lat": "Et cùm transisset sabbatum, Maria Magdalene, & Maria Jacobi, & Salome, emerunt aromata, ut venientes ungerent Jesum.",
+    "fr": "† Lorsque le jour du sabbat fut passé, Marie Magdeleine, & Marie mère de Jacques, & Salomé, achetèrent des parfums pour venir embaumer JESUS.",
+    "note": "Lorsque le jour du sabbat fut passé, Marie Magdeleine, & Marie mère de Jacques, & Salomé, achetèrent des parfums pour venir embaumer JESUS. Et le premier jour de la semaine, étant parties de grand matin, &c. Ce passage qui paroît d'abord tout-à-fait contraire à saint Luc, a besoin d'éclaircissement pour être entendu ; puisqu'il est certain que les saints Evangélistes inspirés de Dieu, ne peuvent se contredire l'un l'autre. Saint Luc dit expressément que les femmes qui étoient venues de Galilée avec JESUS, considérèrent le sépulcre, & comme le corps de JESUS y avoit été mis ; que s'en étant retournées, elles préparèrent des aromates & des parfums, & que le jour du sabbat elles demeurèrent sans rien faire, comme il étoit ordonné, &c. Il paroît donc par saint Luc, que ces femmes, entre lesquelles étoient, selon saint Marc, Marie Magdeleine & Marie mère de Joseph, préparèrent des parfums dès le jour de la préparation ; c'est-à-dire, dès le Vendredi avant le coucher du soleil, après lequel commençoit, comme on l'a dit, la solennité du jour du sabbat. Et après qu'elles eurent acheté, selon saint Marc, & préparé, selon saint Luc, ces parfums, afin d'embaumer le corps de JESUS, elles se tinrent en repos tout le jour du sabbat, pour obéir au commandement de Dieu, qui leur défendoit de travailler ce jour-là. Mais lorsque le jour du sabbat fut passé, elles partirent de Jérusalem de grand matin avec les parfums qu'elles avoient, comme dit saint Luc, préparés, & arrivèrent au sépulcre, le soleil étant déjà levé. Lors donc que saint Marc dit ici, Que le jour du sabbat étant passé, Marie Magdeleine, & Marie mère de Jacques, & Salomé, achetèrent des parfums pour venir embaumer JESUS, il faut entendre, selon saint Luc, que ces saintes femmes allèrent alors au sépulcre de J. C. avec les parfums qu'elles avoient achetés dès le jour de la préparation. Car il est assez ordinaire aux Historiens de joindre ainsi pour abréger, deux choses ensemble, comme faites en même-temps, quoique l'une ait été faite auparavant. Mais ce fut par une providence particulière de Dieu, que ces femmes n'eurent point le temps, après avoir acheté & préparé leurs parfums, de retourner dès le même jour embaumer le corps du Sauveur. Car il falloit qu'elles fussent les premiers témoins de sa résurrection, & qu'elles l'annonçassent les premières aux Apôtres. Or il étoit nécessaire pour cela, que le devoir de piété, qu'elles désiroient lui rendre, fut différé jusqu'au jour même de sa résurrection, c'est-à-dire, jusqu'au Dimanche de grand matin, qui étoit le premier jour de la semaine ; afin qu'en venant lui rendre ce dernier devoir, elles le trouvassent ressuscité. Ainsi Dieu qui fait tirer de grands biens du mal même, quand il lui plaît, permit que l'infidélité de Magdeleine & des autres femmes ses compagnes contribuât à établir la foi du plus important de nos mystères, qui étoit celui de la résurrection. Car il est visible qu'allant au sépulcre avec des parfums, elles n'avoient plus d'espérance qu'il ressuscitât le troisième jour, comme il l'avoit dit plusieurs fois à ses disciples, puisqu'elles n'auroient nullement songé à embaumer son corps, si elles avoient espéré sa prompte résurrection. Dieu tire donc de leur infidélité, la créance de ce grand mystère. Et quoique leur piété envers J. C. fut alors accompagnée de ténèbres, il ne laissa pas de récompenser leur sainte inquiétude pour ce qui regardoit son corps, en leur faisant part, avant tous les autres, du plus grand sujet de consolation & d'espérance qu'elles pouvoient désirer ; c'est-à-dire, en les assurant que la mort n'avoit eu qu'un empire passager sur lui, & qu'il étoit alors vivant de la vie de Dieu même."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 2,
+    "lat": "Et valdè manè una sabbatorum, veniunt ad monumentum, orto jam sole :",
+    "fr": "Et le premier jour de la semaine, étant parties de grand matin, elles arrivèrent au sépulcre au lever du soleil :",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 3,
+    "lat": "& dicebant ad invicem : Quis revolvet nobis lapidem ab ostio monumenti ?",
+    "fr": "Elles disoient entre elles : Qui nous ôtera la pierre de devant l'entrée du sépulcre ?",
+    "note": "Elles disoient entre elles : Qui nous ôtera la pierre de devant l'entrée du sépulcre ? Mais en regardant, elles virent que cette pierre, qui étoit fort grande, en avoit été ôtée. Ces femmes dont il est parlé ici, avoient vu, selon que l'a remarqué auparavant l'Evangéliste, de quelle manière Joseph d'Arimathie avoit mis le corps de J. C. dans le sépulcre, & fermé l'entrée de ce sépulcre d'une grosse pierre. C'est ce qui leur cause présentement une grande inquiétude, dans l'impuissance où elles étoient de remuer cette pierre de sa place. Car il est visible, comme on l'a dit autre part, qu'elles n'avoient point oui parler des gardes qu'on y avoit mis ; parce que ce fut le jour du sabbat même, que les Princes des Prêtres & les Pharisiens demandèrent à Pilate qu'il fit garder le sépulcre, & que par son ordre ils y allèrent eux-mêmes en sceller la pierre, & mettre des gardes. Ainsi elles vinrent au sépulcre sans avoir aucune connoissance de ce qui s'étoit passé. Car elles n'auroient jamais osé y venir, si elles avoient su que les soldats le gardoient. Tout est donc digne d'admiration, & tout nous marque la conduite de l'Esprit de Dieu dans ce que font ces pieuses femmes. Elles savent que le corps de J. C. est dans un sépulcre, dont l'entrée est fermée d'une grande pierre, qu'il leur étoit impossible de remuer. Et elles sont très-bien informées de la haine que les Prêtres, les Docteurs & les Pharisiens avoient pour la mémoire de leur divin maître. Elles partent cependant de très-grand matin de Jérusalem, & selon saint Jean, lorsqu'il faisoit encore nuit, pour s'en venir au sépulcre embaumer son corps. Mais qu'espèrent-elles, partant de si grand matin, ne pouvant pas s'attendre que quelqu'un à cette heure-là se présentât pour les assister ? Elles voient bien en effet la difficulté de venir à bout de ce qu'elles prétendoient. Et c'est ce qui leur fait dire entre elles : Qui nous ôtera la pierre de devant l'entrée du sépulcre ? Mais elles marchent toujours cependant. Car quels obstacles peut trouver l'amour lorsqu'il est ardent ? C'est un feu qui consume tout. Tel étoit celui que Dieu allumoit au fond du cœur de ces humbles & chastes amantes. Elles couroient sans se pouvoir arrêter, par-tout où l'impétuosité de leur amour les emportoit. Et toute la crainte des hommes ne pouvoit rien sur l'esprit de celles que Dieu même conduisoit, comme par la main, à la foi de la résurrection de son Fils. Heureuses les ames qui courent ainsi où leur devoir les appelle, sans que la vue de tous les obstacles humains, ni la crainte de toutes les créatures soient capables de les arrêter. Saint Marc se contente de nous dire, que ces femmes virent la pierre, dont elles étoient si en peine, retirée de devant la porte du sépulcre du Sauveur. Mais saint Matthieu, que saint Marc abrège, ajoute que ce fut un Ange qui renversa cette pierre, & qu'il se fit dans l'instant un grand tremblement de terre ; & que les gardes furent tellement épouvantés, qu'ils demeurèrent comme morts. Ce fut donc ce qui donna lieu à Magdeleine & aux autres femmes, de s'approcher, & d'entrer dans le sépulcre. Et c'est ainsi que contre toute apparence, Dieu lève, quand il lui plaît, les plus grands obstacles, en faveur de ceux qui n'espérant rien du côté des hommes, vont à lui dans la simplicité de leur cœur. Ce qu'ils regardoient comme des difficultés insurmontables, s'applanit en un instant par un effet de sa grâce. Et ils sont ensuite, comme saint Cyprien le dit de lui-même, dans une profonde admiration de ce changement que l'Esprit de Dieu a produit en eux, en leur rendant tout-d'un-coup & faciles & agréables les choses mêmes qui leur paroissoient les plus impossibles. » Lorsque j'étois, dit ce grand Saint, encore engagé dans les ténèbres & dans la nuit si obscure de mon infidélité, lorsqu'agité par les flots impétueux de la mer du siècle, j'étois jeté misérablement de côté & d'autre, sans savoir même où j'allois, & sans avoir la connoissance de la vérité ; je regardois comme une chose très-difficile & très-dure, à cause de la corruption où mon cœur étoit plongé, de pouvoir renaître de nouveau, selon que la divine miséricorde me le promettoit pour mon salut. Comment, disois-je, est-il possible qu'il se fasse un si prodigieux changement, qu'on se dépouille tout-d'un-coup, ou de ce qui étant né avec nous, s'y est affermi par une suite de la nature ; ou de ce que l'on a acquis, & qui par une longue accoutumance s'est tourné en habitude ? Toutes ces choses ont pris de trop profondes racines au-dedans de nous, & y sont trop fortement attachées : Alta hæc & profunda penitus radice sederunt. C'est-là, continue ce saint Evêque, ce que je me disois souvent à moi-même. Mais après que par la vertu de l'eau qui nous fait renaître, les taches de ma première vie furent effacées, & la lumière d'en haut répandue dans mon cœur ainsi purifié ; après que cette seconde naissance m'eut changé en un nouvel homme, par l'infusion du Saint-Esprit, je sentis dans le moment que par un effet admirable, tous mes doutes furent éclaircis ; tout ce qui étoit auparavant fermé pour moi, me fut ouvert ; toutes mes ténèbres furent dissipées ; ce qui me sembloit si difficile & impossible, me parut facile. Et ainsi je reconnus que l'état de ma première corruption venoit de l'homme terrestre & pécheur ; au lieu que cette seconde vie étoit en moi un effet de la grâce de Dieu & du souffle du Saint-Esprit. » Voilà donc en la personne d'un grand Saint l'application, & en même-temps l'explication de ces paroles de notre Evangile, selon le sens spirituel qu'on peut leur donner : Et dicebant ad invicem : Quis revolvet nobis lapidem ab ostio monumenti ? Et respicientes viderunt revolutum lapidem ; erat quippe magnus valdè."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 4,
+    "lat": "Et respicientes viderunt revolutum lapidem : erat quippe magnus valdè.",
+    "fr": "Mais en regardant, elles virent que cette pierre qui étoit fort grande, en avoit été ôtée.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 5,
+    "lat": "Et introeuntes in monumentum, viderunt juvenem sedentem in dextris, coopertum stolâ candidâ, & obstupuerunt.",
+    "fr": "Et entrant dans le sépulcre, elles virent un jeune homme assis du côté droit, vêtu d'une robe blanche, dont elles furent fort effrayées.",
+    "note": "Et entrant dans le sépulcre, elles virent un jeune homme assis du côté droit, revêtu d'une robe blanche, dont elles furent fort effrayées. Saint Matthieu dit, que l'Ange du Seigneur étant descendu du ciel, renversa la pierre de devant l'entrée du sépulcre, & étoit assis dessus. Et saint Marc dit, que Magdeleine & les autres femmes virent que cette pierre étoit ôtée ; & qu'entrant dans le sépulcre, elles virent un jeune homme assis du côté droit. Il semble donc que saint Matthieu & saint Marc soient contraires en quelque sorte l'un à l'autre ; puisque l'un dit, que l'Ange étoit assis sur la pierre qui fermoit l'entrée du sépulcre ; & l'autre, que les femmes ne virent l'Ange qu'étant entrées dans le sépulcre même. Mais cette contrariété apparente peut s'expliquer en la manière que l'a entendu saint Augustin, qui est conforme à la description que quelques Auteurs nous ont donnée de la figure du sépulcre de J. C. Ce saint sépulcre étoit double. Il avoit une partie tout-à-fait intérieure taillée dans le roc, où le corps du Fils de Dieu avoit été mis, & dont Joseph avoit fermé l'entrée avec cette grosse pierre dont on a parlé. Mais outre cette partie intérieure, il y en avoit encore une autre au-devant, qui étoit aussi enceinte de murs. Il est donc vrai, selon saint Matthieu, que l'Ange du Seigneur étoit assis sur la pierre de devant l'entrée du sépulcre intérieur, après qu'il l'en eut ôtée. Et il est encore vrai, selon saint Marc, que les saintes femmes virent cet Ange après qu'elles furent entrées, non pas dans le sépulcre intérieur, mais dans l'enceinte qui étoit devant. Aussi ce qu'ajoute ensuite saint Marc, que l'Ange leur dit : Voici le lieu où l'on avoit mis JESUS de Nazareth ; saint Matthieu l'explique plus clairement, en faisant dire au même Ange : Venez, voyez le lieu où le Seigneur avoit été mis ; c'est-à-dire, Approchez-vous pour regarder dans le sépulcre intérieur, & vous verrez qu'il n'y est plus. Car c'étoit, comme on l'a marqué sur saint Matthieu, pour attester à ces saintes femmes, & aux disciples de J. C. que le Seigneur étoit véritablement ressuscité, en rendant leurs propres yeux témoins d'un si grand miracle, que l'Ange avoit renversé la pierre ; puisque celui qui étoit ressuscité étant sorti du tombeau, comme du sein de sa mère, n'avoit eu aucun besoin pour en sortir, que la pierre qui fermoit la porte en fut ôtée. L'Ange du Seigneur étoit donc assis sur cette pierre, selon saint Matthieu ; & il étoit en même-temps, selon saint Marc, assis du côté droit ; parce que la pierre sur laquelle il étoit assis, avoit été roulée de ce côté-là. Il est étonnant que cet Ange parlant à ces saintes femmes, pour les rassurer contre la crainte que sa vue & le tremblement de terre leur avoient causée, il ne leur dit point : Vous cherchez le Fils de Dieu, ou votre Roi, ou le CHRIST & le Messie ; mais il leur dit : Vous cherchez JESUS de Nazareth, qui a été crucifié. Il le nomme donc JESUS de Nazareth, qui étoit dans l'esprit des Juifs un nom odieux, un nom de mépris : Peut-il venir quelque chose de bon de Nazareth ? disoit autrefois Nathanael à saint Philippe. Et outre ce nom si odieux à tous les Juifs, par lequel il le désigne, il ajoute, qui a été crucifié : ce qui sembloit déshonorer encore beaucoup davantage le Fils de Dieu dont il annonçoit la résurrection à ces femmes. Mais ce qui passoit pour un sujet de confusion dans l'esprit des hommes, faisoit la gloire de J. C. Car c'est de même que si cet Ange leur avoit dit : Vous cherchez dans la poussière du tombeau celui que les hommes y ont mis. Mais sachez que celui-là même que les Juifs ont regardé avec le dernier mépris, comme un homme de néant, & qu'ils ont osé attacher à une croix, est ressuscité ; & que sa croix même, & tous les autres outrages qu'il a soufferts, font maintenant le sujet de son triomphe & de sa gloire. Ne craignez donc plus, vous autres, qui le cherchez comme ses disciples, & qui avez été conservées par sa mort. Car votre maître divin est ressuscité & a triomphé de ses ennemis & des vôtres."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 6,
+    "lat": "Qui dicit illis : Nolite expavescere : Jesum quæritis Nazarenum crucifixum : surrexit, non est hîc ; ecce locus ubi posuerunt eum.",
+    "fr": "Mais il leur dit : Ne craignez point : Vous cherchez JESUS de Nazareth, qui a été crucifié ; il est ressuscité, il n'est point ici : voici le lieu où on l'avoit mis.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 7,
+    "lat": "Sed ite, dicite discipulis ejus, & Petro, quia præcedit vos in Galilæam : ibi eum videbitis, sicut dixit vobis.",
+    "fr": "Allez dire à ses disciples & à Pierre, qu'il s'en va devant vous en Galilée : c'est-là que vous le verrez, selon ce qu'il vous a dit.",
+    "note": "Allez dire à ses disciples & à Pierre, qu'il s'en va devant vous en Galilée, &c. Le soin qu'a le Fils de Dieu de nommer ici particulièrement saint Pierre, fait bien connoître qu'il n'avoit pas oublié cet Apôtre depuis sa chute, & qu'il pensoit même à lui en quelque sorte plus qu'à tous les autres, pour le consoler dans cette vive douleur que lui causoit le regret de son péché. C'étoit aussi ce qu'il lui avoit promis, en lui prédisant en termes couverts ce qui devoit arriver : Simon, Simon, lui dit-il, satan vous a demandé pour vous cribler comme on crible le froment ; mais j'ai prié pour vous, afin que votre foi ne défaille point. Ainsi l'Ange qui exécutoit ses ordres, dit expressément aux femmes d'assurer Pierre en particulier, qu'il verroit bientôt J. C. Quel sujet de consolation pour cet Apôtre, qui étoit depuis sa chute toujours dans les larmes, & dans des larmes très-amères ! Mais quel sujet de confusion en même-temps pour celui qui avoit si honteusement renoncé son divin maître, de songer qu'il se souvenoit encore de lui, après une si grande lâcheté ! Ç'a été aussi le fondement de l'humilité & de la reconnoissance si admirable, qui furent toujours depuis très-profondément gravées dans le cœur de Pierre, & qui l'établirent dans cet amour très-ferme de J. C. qui le rendit digne de paître, comme le premier Pasteur, ses agneaux & ses brebis : Simon, Joannis, diligis me plus his ? ... Pasce agnos meos... Pasce oves meas."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 8,
+    "lat": "At illæ exeuntes, fugerunt de monumento, invaserat enim eas tremor & pavor : & nemini quidquam dixerunt ; timebant enim.",
+    "fr": "Elles sortirent aussitôt du sépulcre, & s'enfuirent, étant saisies de crainte & de tremblement ; & elles ne dirent rien à personne, tant leur frayeur étoit grande.",
+    "note": "Elles sortirent aussitôt du sépulcre, & s'enfuirent, étant saisies de crainte & de tremblement ; & elles ne dirent rien à personne, tant leur frayeur étoit grande. Saint Marc ne parle que de la frayeur extraordinaire, dont Magdeleine & ses compagnes furent saisies à la vue de cet Ange, & en entendant ce qu'il leur disoit. Et il ne pouvoit plus vivement exprimer la crainte dont elles furent toutes pénétrées, qu'en disant, qu'elles s'en fuirent du sépulcre. Mais il paroît par saint Matthieu, que cette frayeur étoit néanmoins accompagnée d'une grande joie. Car quoique la vue d'un Ange qui leur parloit, & des gardes renversés & à demi morts, qu'ils aperçurent sans doute, jointe au tremblement de terre, dont elles avoient apparemment senti en venant la secousse violente, les eut jetées dans la dernière frayeur ; toutefois ce que ce même Ange leur déclara touchant la résurrection de J. C. & l'assurance qu'il leur donna, qu'elles le verroient en Galilée, leur causa une extrême joie. Il est vrai que tout cela étoit encore bien enveloppé de nuages dans leur esprit, & qu'elles n'ajoutoient point une entière foi à la parole de l'Ange ; puisque saint Jean dit de Magdeleine, qu'elle alla trouver saint Pierre, & qu'elle lui dit que l'on avoit enlevé le Seigneur hors du sépulcre, & qu'elle ne savoit pas où on l'avoit mis. Cependant cette grande joie qu'elle ressentit, selon saint Matthieu, marquoit au moins, que ce que l'Ange lui avoit dit, lui avoit donné quelque espérance ; quoique sa foi, qui étoit encore foible, ne pouvoit se persuader de la vérité de la résurrection du Sauveur, dont il lui avoit parlé. Telles sont ordinairement les premières semences de la foi & de la piété dans les ames, avant leur entière conversion. On croit sans croire ; & on veut sans vouloir entièrement. On est en suspens, comme ces femmes, entre la crainte & l'espérance, entre la joie & la tristesse. Tout est en trouble dans l'esprit, & en agitation dans le cœur, jusqu'à ce que la lumière du Saint-Esprit éclairant l'entendement par une foi vive, & son feu divin embrasant le cœur par une ardente charité, tous les nuages soient dissipés, & tout ce qu'il y avoit de froid soit échauffé par l'ardeur toute céleste de son amour. Et c'est aussi ce qui arriva peu de temps après à Magdeleine, qui dans le moment que J. C. s'apparut & se fut fait connoître à elle, ne douta plus, mais le reconnut pour son maître, & l'adora comme son Dieu. Lorsqu'il est marqué ici, que ces femmes en s'enfuyant du sépulcre ne dirent rien à personne ; on doit entendre qu'elles ne parlèrent de ce qu'elles avoient vu à aucun des Juifs qu'elles purent rencontrer : car elles appréhendoient leur fureur. Et d'ailleurs, la crainte même dont elles furent saisies en voyant l'Ange, les empêcha de ne rien dire à personne dans le chemin. Mais elles coururent, selon qu'il est dit dans saint Matthieu, annoncer aux disciples tout ce qu'elles avoient vu & entendu."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 9,
+    "lat": "Surgens autem manè primâ sabbati, apparuit primò Mariæ Magdalenæ, de qua ejecerat septem dæmonia.",
+    "fr": "JESUS étant ressuscité le matin le premier jour de la semaine, apparut premièrement à Marie Magdeleine, dont il avoit chassé sept démons.",
+    "note": "JESUS étant ressuscité le matin, le premier jour de la semaine, apparut premièrement à Marie Magdeleine, dont il avoit chassé sept démons, &c. Ceci ne nous marque pas que JESUS se soit apparu à Magdeleine dans le moment qu'il ressuscita ; mais l'Evangéliste entend seulement, qu'après la résurrection du Sauveur, qui arriva dès le matin du premier jour de la semaine, c'est-à-dire, du Dimanche, la première personne à qui il s'apparut, pour prouver cette même résurrection, fut Magdeleine. Quand il ajoute, que c'étoit celle de qui J. C. avoit chassé sept démons ; saint Ambroise, avec plusieurs autres Interprètes, l'explique dans le premier sens qui se présente à l'esprit, qui est que cette femme avoit été possédée effectivement par plusieurs démons, dont le Fils de Dieu l'avoit délivrée. Et il est même difficile de l'expliquer autrement, de la manière dont saint Luc en parle ; quoique quelques Anciens ayent entendu d'une manière spirituelle tous les vices par ces démons ; ce qui ne peut aisément s'accorder avec l'expression de saint Luc. On peut dire seulement, que cette possession corporelle de Magdeleine étoit peut-être la figure de sa possession spirituelle ; & que l'Evangéliste marquant ici que JESUS en avoit chassé sept démons, en même-temps qu'il dit qu'elle fut la première à qui il s'apparut, il a pu avoir dessein de nous faire connoître par là, que plus elle avoit été sous l'empire du démon, soit seulement quant au corps, soit même quant à l'esprit, plus celui qui l'en avoit délivrée par sa grâce, voulut la combler de ses faveurs, en se hâtant de l'assurer la première par lui-même de la vérité de sa résurrection. Or cette apparition de JESUS à Magdeleine arriva lorsque cette pieuse femme ayant averti S. Pierre & saint Jean, que la pierre de devant l'entrée du sépulcre avoit été renversée, & que le corps du Sauveur ne s'y étoit plus trouvé, ces deux Apôtres y coururent pour s'assurer par eux-mêmes de ce qu'elle leur disoit : car Magdeleine qui les suivoit au sépulcre, ne s'en étant point retournée avec eux, & demeurant là toute baignée de larmes, dans la créance où elle étoit que l'on avoit enlevé le corps de son divin maître, ce fut alors que le Fils de Dieu se montra à elle ; & qu'après qu'elle l'eut pris pour un jardinier, il daigna lui faire connoître qui il étoit, en l'appelant par son nom. C'est ainsi que Magdeleine mérita par un privilège tout particulier, d'être honorée de la première visite du Seigneur ; & qu'elle fut même chargée d'aller annoncer aux Apôtres, qu'elle l'avoit vu, & de leur dire de sa part, Qu'il s'en retournoit à son Père & à leur Père, & qu'il s'en alloit monter vers son Dieu & leur Dieu. C'est ce que nous apprenons de l'histoire évangélique de saint Jean, & ce que nous sommes obligés de toucher ici par avance, pour éclaircir ce que dit saint Marc. Elle alla donc, selon l'ordre qu'elle avoit reçu de J. C. annoncer ces choses à ceux qui avoient été avec lui, & qui étoient alors dans l'affliction & dans les larmes ; c'est-à-dire, selon saint Jean, à ses disciples, qui pleuroient & ne pouvoient se consoler de la mort du Fils de Dieu, n'ayant point encore la foi de la résurrection. En effet, lorsqu'ils lui eurent entendu dire qu'il étoit vivant, & qu'elle l'avoit vu, ils ne crurent point ce qu'elle disoit. Et il falloit que l'incrédulité des Apôtres, qui résistèrent d'abord à tant de témoignages de la résurrection de J. C. servit dans la suite à affermir davantage la foi de toute l'Eglise touchant cette même résurrection. Car plus ils eurent de peine à la croire, & plus elle mérita d'être crue par toute la terre ; puisqu'il parut visiblement que leur créance n'étoit pas fondée sur de foibles preuves & de légères conjectures, mais sur le propre témoignage des yeux & des oreilles de ces témoins choisis de Dieu avant tous les temps, comme dit saint Pierre, qui mangèrent & qui burent avec lui depuis qu'il fut ressuscité d'entre les morts."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 10,
+    "lat": "Illa vadens nuntiavit his, qui cum eo fuerant, lugentibus & flentibus.",
+    "fr": "Et elle s'en alla le dire à ceux qui avoient été avec lui, & qui étoient alors dans l'affliction & dans les larmes.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 11,
+    "lat": "Et illi audientes quia viveret, & visus esset ab ea, non crediderunt.",
+    "fr": "Mais eux lui ayant ouï dire qu'il étoit vivant, & qu'elle l'avoit vu, ils ne la crurent point.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 12,
+    "lat": "Post hæc autem duobus ex his ambulantibus ostensus est in alia effigie, euntibus in villam :",
+    "fr": "Après cela il apparut en une autre forme à deux d'entre eux, qui s'en alloient en une maison de campagne :",
+    "note": "Après cela il apparut en une autre forme à deux d'entre eux, qui s'en alloient en une maison de campagne, &c. Ces deux disciples sont ceux dont nous parlerons en expliquant l'Evangile de saint Luc, qui rapporte la manière dont le Fils de Dieu s'apparut à eux. Ils alloient à Emmaüs, qui étoit un bourg éloigné de deux lieues & demie de Jérusalem, & s'entretenoient ensemble de tout ce qui s'étoit passé lorsqu'il les vint joindre, en leur paroissant, comme dit saint Marc, sous une autre forme que celle qu'ils connoissoient : & saint Luc explique ceci en disant, que leurs yeux étoient retenus, afin qu'ils ne pussent le reconnoître ; c'est-à-dire, selon l'explication de saint Augustin, qu'encore il fut le même quand il s'apparut à eux, sans changer réellement de figure ni de visage, il y avoit quelque chose dans leurs yeux qui les empêchoit de le reconnoître. Et il dit même que ce nuage pouvoit y être formé par le démon ; & que J. C. voulut bien le permettre ainsi, jusqu'à ce qu'il les eut fait participer au Sacrement du pain céleste ; afin qu'on connut que par la participation de l'unité de son corps, tous les obstacles que l'ennemi nous oppose pour nous empêcher de connoître J. C. sont levés : Ut unitate corporis ejus participatâ, removeri intelligatur impedimentum inimici, ut Christus possit agnosci. C'est pourquoi le même Saint nous fait remarquer, que saint Marc ajoutant que ces deux disciples s'en allèrent raconter ceci aux autres, a omis ce que l'on doit suppléer par saint Luc, qui est que n'ayant pas d'abord reconnu JESUS, ils le reconnurent dans la suite à la fraction du pain. Lorsqu'il dit de même, Que les disciples à qui ils racontèrent ces choses, ne les crurent point non plus ; il est visible, selon le même saint Augustin, qu'on ne doit l'entendre que de quelques-uns d'entr'eux. Car saint Luc marque expressément, que Cléophas & son compagnon étant retournés à Jérusalem y trouvèrent les onze Apôtres, & ceux qui demeuroient avec eux, assemblés, & se disant les uns aux autres : Le Seigneur est vraiment ressuscité, & il a apparu à Simon. Comment donc auroient-ils pu reconnoître véritablement que J. C. étoit ressuscité, & qu'il s'étoit apparu à Pierre, & refuser en même-temps d'ajouter foi à ce que disoient les deux disciples qui revenoient d'Emmaüs ? Ainsi il faut nécessairement conclure avec saint Augustin, qu'on ne doit pas attribuer à tous, mais seulement à quelques-uns, cette incrédulité des disciples dont parle saint Marc. Et par ce même passage de saint Luc, on prouve aussi que saint Marc n'a parlé qu'en abrégé des apparitions de J. C. puisqu'il est visible qu'il s'étoit apparu à S. Pierre, lorsque les deux disciples d'Emmaüs retournèrent à Jérusalem ; & qu'ainsi parlant de l'apparition de JESUS à ces deux disciples, aussitôt après celle dont la Magdeleine fut honorée, il paroît qu'il a passé celle qui fut faite, selon saint Luc, à saint Pierre."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 13,
+    "lat": "& illi euntes nuntiaverunt cæteris : nec illis crediderunt.",
+    "fr": "ceux-ci le vinrent dire aux autres disciples ; mais ils ne les crurent pas non plus.",
+    "note": ""
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 14,
+    "lat": "Novissimè recumbentibus illis undecim apparuit, & exprobravit incredulitatem eorum ; & duritiam cordis ; quia iis, qui viderant eum resurrexisse, non crediderunt.",
+    "fr": "† Enfin il apparut aux onze, lorsqu'ils étoient à table : & leur reprocha leur incrédulité, & la dureté de leur cœur, de ce qu'ils n'avoient point cru ceux qui avoient vu qu'il étoit ressuscité.",
+    "note": "Enfin il apparut aux onze lorsqu'ils étoient à table. Il leur reprocha leur incrédulité, & la dureté de leur cœur, de ce qu'ils n'avoient point cru ceux qui avoient vu qu'il étoit ressuscité. Le mot de novissimè, que nous avons exprimé par celui d'enfin, sembleroit d'abord signifier que l'apparition dont saint Marc parle en ce lieu, fut la dernière de toutes. Mais saint Augustin & quelques habiles Interprètes qui l'ont suivi, font voir clairement qu'on ne peut l'entendre de cette sorte. Car, comme le remarque ce Père, la dernière apparition de J. C. fut celle qui arriva le quarantième jour après sa résurrection, immédiatement avant qu'il montât au ciel. Or comment, dit saint Augustin, leur auroit-il fait alors le reproche dont il est parlé ici, touchant leur incrédulité & la dureté de leur cœur, d'avoir refusé de croire ceux qui avoient vu qu'il étoit ressuscité, puisqu'ils l'avoient vu eux-mêmes en ce temps-là plusieurs fois depuis sa résurrection ? Voici donc comme il explique la chose très-nettement. J. C. étant ressuscité, s'apparut le même jour d'abord à Marie Magdeleine, dans le lieu même du sépulcre ; ensuite aux femmes dans le chemin, lorsqu'elles retournoient du sépulcre à Jérusalem ; puis à saint Pierre ; après aux deux disciples d'Emmaüs ; & enfin, c'est-à-dire, pour la dernière fois de ce même jour de la résurrection, aux Apôtres lorsqu'ils étoient à table, vers le soir. L'Evangéliste témoigne, qu'il s'apparut aux onze. Mais comme on voit par saint Jean, que Thomas ne se trouva point en cette occasion avec les autres, il faudroit dire avec le même saint Augustin, Augustin, Qu'encore un d'eux fut alors absent, saint Marc n'a pas cru peut-être devoir les nommer autrement que les onze : parce que c'étoit le nom du Collège Apostolique, depuis l'apostasie de Judas, & avant l'élection de Matthias. Le Fils de Dieu leur reprocha donc alors cette dureté de cœur, qui les avoit empêché d'ajouter foi au témoignage de ceux à qui il s'étoit déjà fait voir ; c'est-à-dire, de Magdeleine, & des autres femmes, de saint Pierre, & des deux disciples d'Emmaüs. Car en effet, c'étoit, comme dit encore le même Saint, une honte à ses Apôtres d'avoir refusé de croire sa résurrection avant que de l'avoir vu ; eux qui devoient la prêcher à toutes les nations, après qu'il seroit monté au ciel, & à la prédication desquels toutes les nations devoient croire sans l'avoir vu. Aussi lorsque saint Thomas eut vu depuis J. C. dans une autre apparition, & l'eut reconnu pour son Seigneur & son Dieu, JESUS lui dit ces paroles remarquables : Parce que vous m'avez vu, Thomas, vous avez cru. Heureux ceux qui ont cru sans avoir vu. Ce qui étoit le même reproche d'incrédulité qu'il fait maintenant aux autres. Mais enfin, comme on l'a dit, il falloit que cette même incrédulité des Apôtres servît à établir d'une manière plus inébranlable la foi dans tous les Chrétiens."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 15,
+    "lat": "Et dixit eis : Euntes in mundum universum, prædicate Evangelium omni creaturæ.",
+    "fr": "Et il leur dit : Allez partout le monde, prêcher l'Evangile à * toutes les créatures.",
+    "note": "Et il leur dit : Allez par tout le monde, prêchez l'Evangile à toutes les créatures. Quelques Interprètes croient que J. C. dit ceci à ses Apôtres, non dans cette apparition, mais depuis, lorsqu'ils se furent assemblés, selon saint Matthieu, sur cette montagne de Galilée, où il leur avoit commandé de se trouver ; & qu'ainsi saint Marc rapporte en ce lieu ces paroles du Sauveur, selon la coutume des Evangélistes, qui joignent souvent ensemble des choses qui ont été dites en divers temps. Mais d'autres ont cru qu'il étoit fort vraisemblable, que le Fils de Dieu ait dit plusieurs fois les mêmes choses aux Apôtres, & que pendant les quarante jours qu'il demeura sur la terre depuis sa résurrection, il les ait entretenus en différentes occasions, tant en Judée qu'en Galilée, de tout ce qui regardoit cet essentiel du ministère apostolique. Allez donc, leur dit J. C. par tout le monde ; c'est-à-dire : Je ne vous défends plus, comme auparavant, d'aller trouver les Gentils, & je ne borne plus votre mission aux seules brebis de la maison d'Israël : mais allez par tout le monde précher l'Evangile à toutes les créatures. Car je ne fais plus d'exception d'aucun peuple ; & tous peuvent avoir part à la grâce qu'Israël a rejetée. Il entend visiblement par les créatures tous les hommes. Car il ne prétendoit pas, dit le Pape saint Grégoire, qu'on dût prêcher l'Evangile à des bêtes brutes, ou à des choses insensibles. Mais parce que toutes les créatures qui sont dans le monde, ont été faites pour l'homme, & qu'il est sans comparaison, le plus excellent de tous ces ouvrages de Dieu ; sous ce nom de créature, à qui l'Evangile devoit être prêché, J. C. entend cette créature si excellente par rapport aux autres, que le Seigneur avoit regardée uniquement dans la création de l'Univers, & pour laquelle il s'étoit fait homme, afin de la rétablir dans sa dignité, dont le péché l'avoit fait déchoir. On ne voit pas néanmoins que les Apôtres ayent accompli à la lettre ce que J. C. leur ordonne ici, d'aller prêcher l'Evangile dans tout le monde. Mais s'ils ne l'ont fait entièrement par eux-mêmes, ils l'ont fait, & ils le feront jusqu'à la fin des siècles par ceux qui ont succédé à leur ministère. Car il est certain que ce sont encore leurs paroles qui retentissent, selon l'expression du Prophète, jusqu'aux extrémités de la terre, lorsqu'on n'y prêche que la foi qu'ils ont laissée à l'Eglise en dépôt, & que l'on n'y fait entendre que ce qu'ils ont annoncé & transmis à leurs successeurs, tant de vive voix que par écrit : Et in fines orbis terræ verba eorum."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 16,
+    "lat": "Qui crediderit, & baptizatus fuerit, salvus erit : qui verò non crediderit, condemnabitur.",
+    "fr": "Celui qui croira, & qui sera baptisé, sera sauvé : mais celui qui ne croira point sera condamné.",
+    "note": "Celui qui croira, & qui sera baptisé, sera sauvé : mais celui qui ne croira point, sera condamné. Ces paroles du Sauveur ont été dès le commencement de l'Eglise, & seront toujours un grand écueil pour bien des personnes, qui plongées dans la mollesse d'une vie lâche & indigne du Christianisme, se flattent qu'ils ont la foi, qui leur fait croire tous les mystères de notre Religion ; & qu'ainsi étant du nombre de ceux qui croyoient & qui ont été baptisés, ils seront sauvés. Mais il faut entendre en quoi consiste cette créance dont parle J. C. Et c'est aux Apôtres mêmes à qui il parloit alors, que nous devons le demander. L'un d'eux, qui est saint Jacques, nous assure, Que la foi qui n'a point les œuvres, est morte en elle-même. Il dit que ceux qui croyent qu'il y a un Dieu, font bien de le croire : mais que les démons le croyent aussi, & tremblent en le croyant. Voulez-vous donc savoir, ajoute-t-il, ô homme vain, que la foi qui est sans les œuvres, est morte ? Notre père Abraham ne fut-il pas justifié par les œuvres, lorsqu'il offrit son fils Isaac sur l'autel ? ... Et sa foi ne fut-elle pas ainsi consommée par ses œuvres ? Saint Paul, qui déclare qu'il n'a point reçu ni appris d'aucun homme, mais par la révélation de J. C. l'Evangile qu'il avoit prêché, nous assure aussi : Qu'en J. C. ni la circoncision, ni l'incirconcision ne servent de rien, mais la foi qui agit par la charité. Qu'on ne se trompe donc pas volontairement soi-même, lorsqu'on entend J. C. dire ici : Que celui qui croira, & qui sera baptisé, sera sauvé. Car comme le corps est mort, dit saint Jacques, lorsqu'il est sans ame ; ainsi la foi est morte lorsqu'elle est sans œuvres. Cette créance ou cette foi dont parle le Fils de Dieu, est donc une foi vivante, & non pas une foi morte. Or cette foi, pour être vivante, doit être animée, comme dit saint Paul, de la charité : Fides quæ per caritatem operatur. Car c'est cette charité qui est la vie & comme l'ame de la foi ; puisque sans elle, elle est morte. Que si, pour être sauvé, il ne suffit pas de croire d'une foi stérile en bonnes œuvres, d'une foi morte ; il suffit au contraire, afin d'être condamné, de ne point croire ; c'est-à-dire, non-seulement de n'avoir point les bonnes œuvres avec la foi, mais d'avoir même de bonnes œuvres sans la foi pure & orthodoxe, telle que l'Eglise la propose à tous ceux qui se présentent ou que l'on présente pour recevoir le Baptême. Car ces deux choses sont également nécessaires avec le Baptême, pour être sauvé ; la foi touchant les mystères, & la charité qui produit les œuvres : ce qui néanmoins s'entend des adultes, & non des enfans, qui étant encore sans connoissance & sans raison, trouvent dans la foi de ceux qui les présentent à l'Eglise, & de ceux qui le baptisent, de quoi suppléer à ce qui leur manque encore par la seule nécessité & l'impuissance naturelle de leur état."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 17,
+    "lat": "Signa autem eos, qui crediderint, hæc sequentur : In nomine meo dæmonia ejicient ; linguis loquentur novis :",
+    "fr": "Ces miracles accompagneront ceux qui auront cru : ils chasseront les démons en mon nom, ils parleront de nouvelles langues :",
+    "note": "Or ces miracles accompagneront ceux qui auront cru ; Ils chasseront les démons en mon nom : ils parleront de nouvelles langues. Comme J. C. avoit établi lui-même sa divine mission, & confirmé sa céleste doctrine par un grand nombre de miracles, il voulut aussi qu'après son ascension dans le ciel, & la descente du Saint-Esprit, les miracles servissent encore à l'établissement de son Eglise. Car il s'agissoit de changer la face du monde, & d'y faire goûter des maximes entièrement opposées aux déréglemens des mœurs & à la raison corrompue des hommes. Ainsi il falloit donner de l'autorité à ceux qui les annonçoient. Et c'étoit par les miracles qu'ils se pouvoient acquérir de la créance dans les esprits : ce qui fait dire à saint Augustin ces excellentes paroles : Que J. C. étant venu dans le monde apporter une médecine toute céleste, pour la guérison des mœurs très-corrompues des hommes, s'est acquis l'autorité par les miracles ; qu'il a mérité leur créance par l'autorité qu'il s'est acquise parmi eux ; & que par cette créance qu'il s'est acquise dans les esprits, il a attiré à soi toute la multitude des peuples : Ergo ille afferens medicinam, quæ corruptissimos mores sanatura esset, miraculis conciliavit autoritatem ; autoritate meruit fidem, fide contraxit multitudinem. J. C. déclare donc aux Apôtres, que ceux qui croiroient, dans ces premiers temps de l'Eglise, c'est-à-dire, qui embrasseroient la foi en son nom, & une foi telle qu'on la vient de représenter, feroient ces miracles dont il parle dans la suite. Car il n'entend pas sans doute, que la foi de tous les Chrétiens seroit toujours accompagnée de ces miracles dans le cours de tous les siècles. Et saint Paul déclare en effet, que la diversité des langues, dont il est parlé ici, c'est-à-dire, ce prodige par lequel les Apôtres & tous les premiers fidelles parloient tout-d'un-coup diverses langues, après qu'ils avoient reçu le Saint-Esprit, étoit un signe, non pour les fidelles, mais pour les infidelles ; c'est-à-dire, que ce miracle étoit nécessaire pour attirer à la foi ceux qui ne croyoient pas encore, mais qu'il étoit inutile pour ceux qui avoient déjà la foi. Car lorsque les infidelles entendoient parler les premiers Chrétiens diverses langues, ils étoient surpris d'un si grand prodige, & en devenoient plus susceptibles de la vérité qu'on leur annonçoit. Et ceux qui parloient toutes ces langues différentes, étoient aussi d'autant plus en état de répandre la grâce de l'Evangile, qu'ils pouvoient se faire entendre à plus de peuples différens ; puisque la foi se communique par l'ouïe, comme dit saint Paul, & que la parole de J. C. ne peut être entendue que lorsqu'on la prêche. Le premier miracle dont parle ici le Fils de Dieu, qui devoit accompagner la foi de ceux qui croiroient, étoit celui de pouvoir chasser les démons du corps de ceux qu'ils possédoient. Car le démon exerçoit alors un grand empire sur le corps aussi-bien que sur l'Esprit & le cœur des hommes. Et J. C. voulant faire voir qu'il étoit plus fort que ce fort armé dont il parle dans l'Evangile, & que celui qu'il appelle encore le Prince du monde, alloit être chassé dehors par la vertu de sa croix, donna, non pas seulement aux Apôtres, mais au commun des fidelles, le pouvoir de le chasser de tous les corps dont il s'étoit emparé : ce qui marquoit d'une manière très-sensible l'extrême foiblesse où le démon se trouvoit réduit alors par la mort de J. C. puisqu'il étoit dans l'impuissance de résister au moindre d'entre les Chrétiens. » Qu'on amène devant votre tribunal, disoit autrefois Tertullien aux Magistrats de l'Empire, quelque homme qui soit vraiment possédé du démon, & qu'un Chrétien commande à cet esprit de parler ; il se trouvera forcé de confesser aussi véritablement qu'il est démon, qu'il veut en d'autres rencontres être faussement reconnu pour Dieu. » Aussi il paroît par le même Auteur, que ces témoignages que les démons étoient forcés de rendre à la vérité contre eux-mêmes, convertissoient beaucoup de Payens. Et l'on doit dire la même chose des miracles par-lesquels les moindres fidelles les obligeoient de sortir des corps des hommes. Car en les voyant soumis au commandement du premier Chrétien, qui les pressoit au nom de J. C. de sortir des possédés ; on demeuroit convaincu de leur foiblesse, & par conséquent de la fausseté de leur Religion ; & on embrassoit celle du Sauveur, selon que l'attestent les plus anciens Pères de l'Eglise."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 18,
+    "lat": "serpentes tollent : & si mortiferum quid biberint non eis nocebit : super ægros manus imponent, & benè habebunt.",
+    "fr": "* ils prendront les serpens avec la main ; & s'ils boivent quelque breuvage mortel, il ne leur fera point de mal : ils imposeront les mains sur les malades, & ils seront guéris.",
+    "note": "Ils prendront les serpens avec la main ; & s'ils boivent quelque breuvage mortel, il ne leur fera point de mal ; ils imposeront les mains sur les malades, & ils seront guéris. Le Grec aussi bien que la Vulgate, signifient également, ou que les fidelles prendroient les serpens avec les mains sans en être blessés, ou qu'ils les feroient mourir, & les ôteroient des lieux où ils nuisoient aux hommes. Nous en voyons un exemple en la personne de saint Paul, lorsqu'étant conduit à Rome pour être présenté à l'Empereur, le vaisseau dans lequel on l'y conduisoit, fit naufrage, & échoua à l'Isle de Malte. Car, comme ce saint Apôtre eut ramassé quelques sarmens, & qu'il les eut mis au feu, une vipère que la chaleur en fit sortir, le prit à la main. Les habitans de cette île crurent d'abord que c'étoit un scélérat, puisqu'après avoir été sauvé de la mer, la vengeance divine le poursuivoit de nouveau pour le faire mourir. Mais Paul ayant secoué la vipère dans le feu n'en reçut aucun mal : ce qui effraya si fort ces Barbares, qu'ils changèrent tout-d'un-coup de sentiment, & commencèrent à le regarder comme un Dieu. C'est ce que nous apprenons de certain de l'Ecriture. Et l'on tient que depuis ce même-temps on n'a plus vu de serpens dans l'île de Malte, la parole du Sauveur s'étant vérifiée entièrement en la personne de son Apôtre, Qu'ils prendroient les serpens avec la main, & les ôteroient des lieux où ils nuisoient aux hommes. Ce que J. C. ajoute, Que s'il arrivoit qu'ils eussent bu quelque chose de mortel, il ne leur nuiroit point, s'est encore vérifié en la personne de plusieurs Saints. Et c'est une ancienne tradition, que la même chose arriva à saint Jean l'Evangéliste. Quant à l'imposition des mains pour la guérison de toutes sortes de maladies, c'étoit un usage fort commun dans la primitive Eglise, comme on le voit même en quelques endroits de l'Ecriture. Et ç'avoit été aussi la manière dont le Fils de Dieu avoit voulu en user en bien des occasions, lui qui auroit pu d'une parole, s'il avoit voulu, guérir généralement tous les malades. Mais, comme dit un Interprète, tous ces miracles ne tendoient pas seulement à soulager les maladies corporelles : car outre qu'ils étoient avantageux pour attirer un grand nombre de personnes à la foi ; ils étoient encore des signes extérieurs de ce que la grâce produisoit au fond des ames de ceux qui se convertissoient à J. C. C'est ce qu'un grand Saint, qui s'attachoit principalement dans l'Ecriture, à ce qui pouvoit servir pour l'édification des mœurs, nous représente admirablement. Car après avoir témoigné que de son temps très-peu de personnes avoient le pouvoir de faire ces signes extérieurs, que le Fils de Dieu donna au commencement de l'Eglise, pour preuves de la foi de ses disciples ; & qu'ainsi il falloit chercher présentement d'autres signes de la foi & du salut des Chrétiens, encore plus assurés que les miracles, il ajoute : » Le premier effet de la foi qui agit par la charité, est la componction du cœur, par laquelle les démons en sont chassés, en même-temps que les péchés en sont arrachés. Ensuite ceux qui croient en J. C. parlent des langues nouvelles, lorsqu'ils renoncent à l'ancienne malice de leurs pères, qui les portoit à s'excuser vainement dans leurs péchés. Mais après que par la componction du cœur, & par la confession de la bouche, les péchés de la vie passée sont effacés, pour empêcher que par la rechute on ne retombe dans un état pire que le premier, il est nécessaire d'ôter & de faire mourir les serpens ; c'est-à-dire, d'étouffer en nous toutes les malignes suggestions du démon. Que faut-il faire néanmoins s'il arrive que quelque racine amère repousse en nous, qui ne puisse être arrachée si promptement, ou que nous soyons tentés par quelque attrait de la concupiscence de la chair ? C'est alors que l'on verra accompli ce que dit le Fils de Dieu, Que si l'on a bu quelque chose de mortel, il ne fera aucun mal ; parce qu'en suivant l'exemple du même Sauveur, lorsqu'on en aura goûté, on ne voudra point en boire ; c'est-à-dire, que l'on pourra en avoir le sentiment, mais qu'on n'y donnera point son consentement. Il est vrai, ajoute le même Saint, qu'un tel combat causé par la corruption & par la foiblesse de notre nature, est en même-temps, & bien pénible, & bien périlleux. Mais ceux qui croiront, dit le Fils de Dieu, imposeront les mains sur les malades, & ils seront guéris ; c'est-à-dire, qu'ils auront soin de couvrir par leurs bonnes œuvres, ce qu'il y a encore de malade en eux ; & que ce sera par ce remède qu'ils seront guéris, Super ægros manus imponent & benè habebunt : id est ; ægras affectiones bonis operibus operient, & hoc remedio curabuntur."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 19,
+    "lat": "Et Dominus quidem Jesus postquam locutus est eis, assumptus est in cœlum, & sedet à dextris Dei.",
+    "fr": "Le Seigneur JESUS après leur avoir ainsi parlé, fut élevé dans le ciel, où il est assis à la gloire de Dieu.",
+    "note": "Le Seigneur après leur avoir ainsi parlé, fut élevé dans le ciel, où il est assis à la droite de Dieu. Ce ne fut pas, comme on l'a dit, immédiatement après cette apparition, que le Fils de Dieu fut élevé dans le ciel. Mais il peut bien avoir dit plusieurs fois les mêmes choses aux Apôtres ; ou l'Evangéliste, pour abréger selon sa coutume, a rapporté tout de suite, après cette cinquième apparition de J. C. ce qu'il ne leur dit peut-être que lorsqu'il étoit sur le point de les quitter. Quoiqu'il en soit, le Seigneur JESUS, après leur avoir parlé en cette manière, & leur avoir dit encore plusieurs autres choses que nous verrons dans saint Luc, fut enlevé dans le ciel par la puissance de son Père, & par sa propre vertu ; puisque comme Fils il reçoit du Père, ainsi que du principe, son essence ; & que comme Dieu égal à son Père, il a de toute éternité la même puissance que lui. Mais ce mot d'enlevé, assumptus, regardant la sainte humanité du Fils de Dieu, on peut dire encore qu'il fut enlevé au ciel, parce que ce fut par la vertu de la nature divine que cet Homme-Dieu fut élevé de la terre, où il avoit conversé quarante jours depuis sa résurrection, au plus haut des cieux, & par-dessus tous les Anges. Car c'étoit-là qu'il devoit établir le trône de son royaume tout spirituel. C'étoit de là qu'il devoit faire descendre sur ses Apôtres & sur ses disciples le Saint-Esprit, afin de former l'Eglise. C'étoit-là qu'il avoit dessein d'attirer & les regards & les cœurs de tous ceux qui avoient appris de lui que son royaume n'est point de ce monde, comme il le dit à Pilate lorsqu'il le jugeoit à mort. Car il étoit important de détacher ses disciples de la terre. Et il falloit pour cela que le chef précédât ses membres au ciel, afin qu'ils fussent portés à le suivre lorsqu'ils ne le verroient plus. C'est dans cette vue qu'il disoit aux Juifs : Et ego si exaltatus fuero à terra, omnia traham ad meipsum. Car quoiqu'on entende ordinairement ces paroles de sa croix, où il se vit élevé par son propre peuple, & d'où il a attiré à lui tous les hommes, & que l'Evangile même donne lieu de l'expliquer de la sorte ; c'est néanmoins principalement de la droite de Dieu son Père où il est assis ; selon qu'il est dit ensuite, qu'il attire à lui tous ceux qui ont appris de S. Paul à chercher les choses d'en haut, où J. C. est à la droite de Dieu, & non celles de la terre, s'ils sont véritablement ressuscités avec J. C. Mais que devons-nous proprement entendre par ces paroles de l'Evangéliste, Que le Seigneur JESUS est dans le ciel à la droite de son Père ? Nous entendons que saint Marc a voulu témoigner par là, que ce que le Père éternel avoit dit par la bouche de David à son Fils fait homme dans son Incarnation, & triomphant de la mort par sa résurrection ; Asseyez-vous à ma droite, jusqu'à ce que j'aye réduit vos ennemis à vous servir de marchepied, se trouvoit alors réellement accompli. Car quoique J. C. comme l'on a marqué ailleurs, fut établi au moment de l'union du Verbe avec l'homme, dans une entière égalité avec Dieu son Père, en tant que Fils unique de Dieu, né de lui avant tous les siècles, elle n'a éclaté proprement qu'après sa résurrection d'entre les morts, lorsque sa sainte humanité fut élevée dans le ciel au-dessus de toutes les Principautés & de toutes les Puissances, comme dit S. Paul ; & que malgré tous les Juifs qui l'avoient crucifié, il y a été regardé & adoré des nations, comme le vrai Fils de Dieu, égal en puissance à Dieu son Père, & comme le Roi immortel de tout l'Univers & de tous les siècles. C'est donc sous cette idée de grandeur & d'élévation que l'Evangéliste nous le propose, après nous avoir représenté ses divins abaissemens. Il veut que nous le regardions maintenant comme ayant passé par toutes sortes d'humiliations, jusqu'à cet état où toute la terre devoit l'adorer à la droite de Dieu son Père ; c'est-à-dire, dans une parfaite égalité avec lui de puissance, & de toutes ses autres divines perfections. Il veut que nous regardions ce parfait repos dont il jouit, après de si grands travaux ; & qui nous est figuré par cette séance dont il est parlé ; comme le prix de ses souffrances ; puisqu'il dit lui-même, Qu'il a fallu que le CHRIST souffrit tout cela, & qu'il entrât ainsi dans sa gloire. Il veut que nous détachions & nos esprits & nos cœurs de ce qui est sur la terre, pour les tenir élevés où est notre chef ; & que pour y arriver un jour, nous marchions par le chemin où J. C. a marché ; c'est-à-dire, qu'en nous abaissant comme lui, nous nous rendions dignes d'être élevés avec lui."
+  },
+  {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 16,
+    "n": 20,
+    "lat": "Illi autem profecti prædicaverunt ubique, Domino cooperante, & sermonem confirmante, sequentibus signis.",
+    "fr": "Et eux étant partis prêchèrent par-tout, le Seigneur coopérant avec eux, & * confirmant sa parole par les miracles qui l'accompagnoient.",
+    "note": "Eux étant partis, prêchèrent par tout, le Seigneur coopérant avec eux, & confirmant leur parole par les miracles qui l'accompagnoient. Lorsque saint Marc dit ici, que les Apôtres étant partis prêchèrent par-tout, il n'entend pas que du lieu où ils l'avoient vu monter au ciel, c'est-à-dire, de la montagne appelée des Oliviers, ils partirent pour aller prêcher dans l'instant de tous côtés. Car il est marqué expressément autre part, que le Fils de Dieu leur commanda de ne point sortir d'abord de Jérusalem, mais d'y attendre, selon la promesse que le Père leur avoit faite par sa bouche, qu'ils y fussent baptisés dans le Saint-Esprit, ce qui devoit arriver peu de jours après. Ainsi de la montagne des Oliviers, ils s'en retournèrent à Jérusalem, comme dit saint Luc, comblés de joie. Et ce fut après qu'ils eurent reçu la plénitude du Saint-Esprit au jour de la Pentecôte, qu'ils partirent de Jérusalem, où l'Eglise prit sa naissance, pour aller prêcher par tout ; c'est-à-dire, indifféremment à toutes les nations, selon l'ordre qu'ils en avoient reçu de J. C. parce que le royaume des cieux commençoit à être ouvert à tous les peuples sans exception. Il est dit, que le Seigneur coopéroit avec eux, pour marquer ce que dit saint Paul, Qu'ils plantoient & qu'ils arrosoient ; mais que c'étoit Dieu qui donnoit l'accroissement. Ils travailloient donc par leurs prédications pour les instruire de la vérité. Ils prioient pour leur attirer les grâces du ciel. Ils s'efforçoient par leur bon exemple & par toutes leurs bonnes œuvres, de leur inspirer l'amour de la piété. Mais en même-temps que Dieu mettoit des paroles de salut dans la bouche de ses saints ministres, & qu'il délioit leurs langues pour les faire parler d'une manière efficace aux peuples qui les écoutoient, il disposoit intérieurement ces peuples à recevoir, comme une bonne terre, les semences de la divine parole qu'on y répandoit, & à goûter les vérités qu'on leur annonçoit. Il formoit lui-même par son Esprit dans le cœur de ses Apôtres, les prières qu'il vouloit exaucer en faveur de tous les nouveaux fidelles. Et il se servoit de l'exemple de la vie si sainte de ces premiers Prédicateurs de l'Evangile, pour leur inspirer d'une manière plus efficace l'amour des maximes évangéliques qu'ils leur prêchoient. C'est ainsi que le Seigneur coopéroit avec eux, donnant sa bénédiction à tous leurs travaux apostoliques, afin qu'ils pussent produire beaucoup de fruit par la conversion d'une grande multitude de personnes. Car, comme il leur avoit dit expressément, Qu'ils ne pouvoient rien faire sans lui ; saint Paul assuroit aussi, qu'ils pouvoient tout en J. C. qui les remplissoit de force. Il employa, comme on l'a dit, dans ces premiers temps, pour convertir les nations, les miracles qui ont ordinairement beaucoup de force sur l'esprit des peuples. Il est vrai qu'il auroit pu, sans avoir recours à ces moyens extraordinaires, changer le cœur des pécheurs par un effet purement intérieur de sa grâce toute-puissante : mais il ne le voulut pas. Et il usa extérieurement dans la formation de son Eglise, d'une voie, qui bien que surnaturelle, paroissoit d'une manière visible plus capable de soumettre les Gentils à l'obéissance de la foi. Car rien n'est plus propre par lui-même à attirer la créance des peuples, que ces signes miraculeux de la toute-puissance de Dieu. Mais parce que ces miracles mêmes ne peuvent rien pour toucher les cœurs, si celui par la vertu duquel ils se font, n'y joint la lumière & l'onction intérieure de sa grâce ; c'étoit véritablement le Seigneur qui confirmoit la parole de ses ministres par les miracles, & qui coopéroit avec eux, lorsque donnant le pouvoir à ses Apôtres d'autoriser par des prodiges la vérité de l'Evangile qu'ils annonçoient, il remplissoit en même-temps de son Saint-Esprit, tous ceux qui, selon l'expression de l'Ecriture, avoient été prédestinés à la vie éternelle : Et crediderunt quotquot erant præordinati ad vitam æternam. Car combien y en avoit-il parmi ces peuples, qui entendoient les mêmes vérités, & qui étoient témoins oculaires des mêmes miracles, sans en être néanmoins convertis ? Combien de persécutions s'élevèrent contre ces Apôtres de la part des hommes charnels, qui attachés à la terre, & plongés dans les plaisirs, ou remplis d'eux-mêmes & de l'idée fausse de leur justice apparente, comme les Pharisiens, les Prêtres & les Docteurs de la loi, rejetèrent, selon l'expression de l'Ecriture, le conseil que Dieu avoit sur eux : Consilium Dei spreverunt in semetipsos ? Ainsi il ne suffisoit pas que Paul eut planté, ni qu'Apollon eut arrosé ; & il étoit nécessaire que celui qui donne l'accroissement, qui est Dieu, coopérât avec eux pour la conversion des peuples, en même-temps qu'ils coopéroient eux-mêmes avec Dieu, comme dit l'Apôtre, par tous leurs travaux apostoliques, pour procurer leur salut."
   }
 ];

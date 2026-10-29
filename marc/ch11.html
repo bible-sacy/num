@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><!-- rempli par render.js --></title>
+  <link rel="stylesheet" href="../style.css">
+  <script>
+    (function(){ document.documentElement.setAttribute('data-theme', localStorage.getItem('sacy-theme')||'light'); })();
+  </script>
+  <script src="../search-index.js"></script>
+  <script>
+  const SACY_DATA = {
+  "meta": {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 11,
+    "chapTotal": 16,
+    "titre": "Entrée de J. C. dans Jérusalem. Figuier maudit. Vendeurs chassés du Temple. Autorité de J. C.",
+    "pageFacs": 136,
+    "pageView": true,
+    "chapitresDisponibles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "facsimile": {
+      "slug": "marc",
+      "page": 136
+    }
+  },
+  "versets": [
+    {
+      "n": 1,
+      "p": 136,
+      "lat": "Et cùm appropinquarent Jerosolymæ & Bethaniæ ad montem Olivarum, mittit duos ex discipulis suis,",
+      "fr": "Lorsqu'ils approchoient de Jérusalem, étant près * de Béthanie vers la montagne des Oliviers, il envoya deux de ses disciples,",
+      "note": "",
+      "marges": [
+        "Matt. 21. 1.",
+        "Luc. 9. 29."
+      ],
+      "nb": [
+        "℣. 1. gr. de Bethphagé, &c."
+      ]
+    },
+    {
+      "n": 2,
+      "p": 136,
+      "lat": "& ait illis : Ite in castellum, quod contra vos est ; & statim introeuntes illuc, invenietis pullum ligatum, super quem nemo adhuc hominum sedit ; solvite illum, & adducite.",
+      "fr": "& leur dit : Allez à ce village qui est devant vous ; & sitôt que vous y serez entrés, vous trouverez un ânon lié sur lequel nul homme n'a encore monté ; déliez-le, & me l'amenez.",
+      "note": ""
+    },
+    {
+      "n": 3,
+      "p": 136,
+      "lat": "Et si quis vobis dixerit, Quid facitis ? dicite, quia Domino necessarius est ; & continuò illum dimittet huc.",
+      "fr": "Et si quelqu'un vous demande, Pourquoi faites-vous cela ? dites-lui : C'est que le Seigneur en a besoin ; & il le laissera amener ici aussitôt.",
+      "note": ""
+    },
+    {
+      "n": 4,
+      "p": 136,
+      "lat": "Et abeuntes invenerunt pullum ligatum ante <a class=\"page-inline\" href=\"page-137.html\" title=\"p. 137\">‖</a>januam foris in bivio, & salvunt eum.",
+      "fr": "Y étant allés, ils trouvèrent l'ânon qui étoit attaché dehors au<a class=\"page-inline\" href=\"page-137.html\" title=\"p. 137\">‖</a>près d'une porte entre deux chemins, & ils le délièrent.",
+      "note": ""
+    },
+    {
+      "n": 5,
+      "p": 137,
+      "lat": "Et quidam de illic stantibus, dicebant illis : Quid facitis solventes pullum ?",
+      "fr": "Quelques-uns de ceux qui étoit là, leur direrent : Que faites-vous ? Pourquoi déliez-vous cet ânon ?",
+      "note": ""
+    },
+    {
+      "n": 6,
+      "p": 137,
+      "lat": "Qui dixerunt eis sicut præceperat illis Jesus, & dimiserunt eis.",
+      "fr": "Ils leur répondirent comme JESUS le leur avoit ordonné ; & ils le leur laissèrent emmener.",
+      "note": ""
+    },
+    {
+      "n": 7,
+      "p": 137,
+      "lat": "Et duxerunt pullum ad Jesum, & imponunt illi vestimenta sua ; & sedit super eum.",
+      "fr": "Ainsi ayant emmené l'ânon à JESUS, ils le couvrirent de leurs vêtemens ; & il monta dessus.",
+      "note": "",
+      "marges": [
+        "Joan. 12. 14."
+      ]
+    },
+    {
+      "n": 8,
+      "p": 137,
+      "lat": "Multi autem vestimenta sua straverunt in via. Alii autem frondes cædebant de arboribus, & sternebant in via.",
+      "fr": "Plusieurs aussi étendirent leurs vêtemens le long du chemin. D'autres coupoient des branches d'arbres, & les jetoient par où il passoit.",
+      "note": ""
+    },
+    {
+      "n": 9,
+      "p": 137,
+      "lat": "Et qui præibant, & qui sequebantur, clamabant, dicentes : Hosanna.",
+      "fr": "Et tant ceux qui marchoient devant, que ceux qui suivoient, crioient : Hosanna, <em>salut & gloire.</em>",
+      "note": "",
+      "marges": [
+        "Matt. 21. 9."
+      ]
+    },
+    {
+      "n": 10,
+      "p": 137,
+      "lat": "Benedictus qui venit in nomine Domini : benedictum quod venit regnum patris nostri David : Hosanna in excelsis.",
+      "fr": "Béni soit celui qui vient au nom du Seigneur : béni soit le règne de notre père David, que nous voyons arriver : Hosanna, <em>salut & gloire</em> au plus haut des cieux.",
+      "note": "",
+      "marges": [
+        "Luc. 19. 38.",
+        "Ps. 117. 26."
+      ]
+    },
+    {
+      "n": 11,
+      "p": 137,
+      "lat": "Et introivit Jerosolymam in templum : & circumspectis omnibus, cùm jam vespera esset hora, exiit in Bethaniam cum duodecim.",
+      "fr": "JESUS étant ainsi entré dans Jérusalem, <em>s'en vint</em> au temple : & après avoir tout regardé, comme il étoit déjà tard, il s'en alla à Béthanie avec les douze <em>Apôtres.</em>",
+      "note": "",
+      "marges": [
+        "Matth. 21. 10."
+      ]
+    },
+    {
+      "n": 12,
+      "p": 137,
+      "lat": "Et alià die cùm exirent à Bethania, esuriit ;",
+      "fr": "Le lendemain, lorsqu'ils sortoient de Béthanie, il eut faim ;",
+      "note": ""
+    },
+    {
+      "n": 13,
+      "p": 137,
+      "lat": "cùmque vidisset à longe ficum habentem folia, venit, si quid fortè inveniret in ea ; & cùm venisset ad eam, nihil invenit præter folia ; non enim erat tempus ficorum.",
+      "fr": "& voyant de loin un figuier qui avoit des feuilles, il y alla pour voir s'il y pourroit trouver quelque chose ; & s'en étant approché, il n'y trouva que des feuilles ; car ce n'étoit pas * le temps des figues.",
+      "note": "",
+      "marges": [
+        "Matth. 21. 19."
+      ],
+      "nb": [
+        "℣. 13. autr. une année de figues."
+      ]
+    },
+    {
+      "n": 14,
+      "p": 137,
+      "lat": "Et respondens dixit ei ; Jam non ampliùs in <a class=\"page-inline\" href=\"page-138.html\" title=\"p. 138\">‖</a>æternum ex te fructum quisquam manducet : & audiebant discipuli ejus.",
+      "fr": "Alors JESUS dit au figuier : Qu'à jamais nul ne mange plus de <a class=\"page-inline\" href=\"page-138.html\" title=\"p. 138\">‖</a>toi aucun fruit : ce que ses disciples entendirent.",
+      "note": ""
+    },
+    {
+      "n": 15,
+      "p": 138,
+      "lat": "Et veniunt Jerosolymam ; & cùm introisset in templum, cœpit ejicere vendentes & ementes in templo, & mensas nummulariorum, & cathedras vendentium columbas evertit ;",
+      "fr": "Etant revenus à Jérusalem, il entra dans le temple, d'où il chassa ceux qui y vendoient, & qui y achetoient ; & il renversa les tables des banquiers, & les bancs de ceux qui vendoient des colombes :",
+      "note": ""
+    },
+    {
+      "n": 16,
+      "p": 138,
+      "lat": "& non sinebat ut quisquam transferret vas per templum.",
+      "fr": "& il ne permettoit pas que personne transportât aucun ustensile par le temple.",
+      "note": ""
+    },
+    {
+      "n": 17,
+      "p": 138,
+      "lat": "Et docebat dicens eis : Nonne scriptum est : quia domus mea domus orationis vocabitur omnibus gentibus ? Vos autem fecistis eam speluncam latronum.",
+      "fr": "Il les instruisoit aussi en leur disant : N'est-il pas écrit, Ma maison sera appelée la maison de prière pour toutes les nations ? Et cependant vous en avez fait une caverne de voleurs.",
+      "note": "",
+      "marges": [
+        "Isai. 56. 7.",
+        "Jerem. 7. 11."
+      ]
+    },
+    {
+      "n": 18,
+      "p": 138,
+      "lat": "Quo audito Principes Sacerdotum & Scribæ quærebant quomodo eum perderent : timebant enim eum, quoniam universa turba admirabatur super doctrina ejus.",
+      "fr": "Ce que les Princes des Prêtres & les Scribes ayant entendu, ils cherchoient un moyen de le perdre ; car ils le craignoient, parce que tout le peuple étoit ravi en admiration de sa doctrine.",
+      "note": ""
+    },
+    {
+      "n": 19,
+      "p": 138,
+      "lat": "Et cùm vespera facta esset, egrediebatur de civitate.",
+      "fr": "Et lorsqu'il étoit déjà tard, il sortit de la ville.",
+      "note": ""
+    },
+    {
+      "n": 20,
+      "p": 138,
+      "lat": "Et cùm manè transirent, viderunt ficum aridam factam à radicibus.",
+      "fr": "Le lendemain matin ils virent en passant le figuier, qui étoit devenu sec jusqu'à la racine.",
+      "note": [
+        {
+          "texte": "<em>Le lendemain matin ils virent en passant le figuier, qui étoit devenu sec jusqu'à la racine. Et Pierre se souvenant</em> de la parole de J. C. <em>lui dit : Maître, voyez comme le figuier que vous avez maudit est devenu sec.</em>",
+          "marges": [],
+          "p": 140
+        },
+        {
+          "texte": "Il est dit dans saint Matthieu, que le figuier devint sec dans le moment que J. C. l'eut maudit. Mais il est dit seulement ici, que le lendemain les disciples virent en passant ce figuier séché jusqu'à la racine, & qu'ils le firent remarquer au Fils de Dieu. Cela s'éclaircit facilement, si l'on considère que le figuier sécha dans l'instant que le Sauveur lui eut donné sa malédiction ; mais que les disciples ne s'en aperçurent que le lendemain lorsqu'ils passèrent devant. Ainsi, quoique saint Matthieu témoigne qu'aussitôt après que J. C. eut maudit cet arbre, ses disciples en furent dans l'admiration, & lui dirent : <em>Voyez comme ce figuier est devenu sec en un instant</em> ; il y a sujet de croire que ce saint Evangéliste a rapporté tout de suite, ce qui néanmoins n'est arrivé, selon saint Marc, que le jour suivant.",
+          "marges": [
+            "Matt. 21. 19."
+          ],
+          "p": 140
+        },
+        {
+          "texte": "On a expliqué ailleurs ce que J. C. dit à ses disciples de la vertu toute divine de la foi, capable de transporter les montagnes d'un lieu en un autre ; cette foi dont parle saint Paul, lorsqu'il s'écrie : <em>Quand j'aurois toute la foi possible jusqu'à transporter les montagnes.</em> Mais on pourroit seulement demander ici ce que le Sauveur entend, lorsqu'il déclare que le propre de cette foi est de <em>n'hésiter point dans son cœur.</em> J. C. nous oblige-t-il donc par-là à n'avoir jamais aucun doute, que le Seigneur ne nous accorde les plus grands miracles lorsque nous les lui demanderons ? Pour bien entendre ceci, il faut supposer premièrement, qu'il ne peut jamais nous être permis de tenter Dieu. Et ce seroit le tenter de lui demander sans nécessité des miracles. Le temps des Apôtres étoit le temps des prodiges, parce qu'il étoit besoin alors d'établir la vérité de l'Evangile par l'éclat des œuvres miraculeuses <a class=\"page-inline\" href=\"page-141.html\" title=\"p. 141\">‖</a>& surnaturelles. Ainsi les Apôtres avoient cette foi dont parle S. Paul, qui est capable de transporter les montagnes. Et cette foi étoit telle, qu'ils <em>n'hésitoient point dans leur cœur</em>, étant toujours assurés que Dieu leur accorderoit ce qu'ils demandoient, parce <em>qu'il les</em> avoit rendu les dépositaires de sa puissance pour l'établissement de son Eglise, & que d'ailleurs ils ne lui demandoient rien que dans cette vue & pour cette fin, qui étoit l'essentiel de leur ministère.",
+          "marges": [
+            "Matt. 17. 19.",
+            "1. Cor. 13. 2."
+          ],
+          "p": 140
+        },
+        {
+          "texte": "L'on a vu aussi beaucoup de Saints, à qui Dieu avoit donné un pouvoir égal à celui des Apôtres, pour faire divers prodiges en faveur des peuples. Tels ont été en orient saint Grégoire surnommé le Thaumaturge, & en occident saint Martin, & plusieurs autres, à qui il sembloit que toute la nature fût soumise comme à Dieu-même, parce qu'ils étoient eux-mêmes si parfaitement soumis à Dieu, qu'ils ne vouloient que ce que le Seigneur vouloit, & qu'ainsi leur volonté étoit toujours accomplie, parce qu'elle étoit elle-même la volonté du Seigneur.",
+          "marges": [],
+          "p": 141
+        },
+        {
+          "texte": "Disons donc que les Apôtres, & tous les hommes apostoliques <em>n'hésitoient point dans leur cœur</em>, toutes les fois qu'ils demandoient des miracles ; parce que c'étoit l'esprit de Dieu qui les remplissoit, & qui les faisoit agir pour sa gloire, & pour les divers besoins de son Eglise : mais ce seroit une illusion de s'imaginer qu'il nous fût permis de demander quand il nous plairoit des prodiges, ou par la curiosité, ou sans une nécessité considérable ; & qu'il suffiroit pour les obtenir de <em>n'hésiter point dans notre cœur</em>, lorsque d'ailleurs ni la grande gloire de Dieu, ni d'autres raisons très-pressantes ne l'exigent pas. On ne prétend pas néanmoins accourcir le bras du Seigneur, qui est encore tout-puissant pour opérer des prodiges, quand il lui plaît, & faire paroître sa gloire dans ses Saints ; mais ce qu'on peut dire en général, c'est qu'après que Dieu a établi si puissamment la vérité de son Eglise, par les miracles qu'ont faits les Apôtres, & tous les hommes apostoliques, par le sang de tant de Martyrs, dont les souffrances doivent être considérées comme les plus grands de tous les miracles, & par tant d'autres merveilles que la puissance de Dieu a fait éclater en divers siècles, il paroît moins de nécessité de demander ces sortes de prodiges, qui ont été plus particulièrement nécessaires dans les premiers temps de l'établissement de l'Eglise. Notre foi présentement doit être une foi toute intérieure, & toute appliquée à la prière, dans la vue de la grandeur infinie de Dieu, & du néant où nous réduit devant lui notre extrême misère. Elle doit nous engager à lui demander avec con<a class=\"page-inline\" href=\"page-142.html\" title=\"p. 142\">‖</a>fiance son divin secours, sans lequel nous sentons bien que nous ne pouvons accomplir par nous-mêmes ce qu'il nous commande. C'est de cette vive foi qui doit accompagner la prière, que saint Jacques dit : <em>Si quelqu'un de vous manque de sagesse, qu'il la demande à Dieu qui donne à tous libéralement & sans reproche ; & la sagesse lui sera donnée. Mais qu'il la demande avec foi</em> ET SANS HÉSITER ; <em>car celui qui hésite dans son cœur</em>, <em>est semblable au flot de la mer, qui est agité & emporté çà & là par la violence du vent.</em> Telle est donc la foi qui doit animer notre prière ; une foi qui ne soit point inconstante. Et le même Apôtre explique aussitôt en quoi consiste cette inconstance lorsqu'il ajoute : Que <em>l'homme qui a un cœur double est inconstant dans toutes ses voies.</em> Ainsi l'inconstance d'une foi qui ne sauroit obtenir de Dieu ce qu'elle demande, est causée, selon ce grand Saint, par <em>la duplicité d'un cœur</em> partagé entre Dieu & le monde ; entre l'amour de la vérité & la vanité des créatures ; entre l'esprit & la chair. Car dans ce partage de son cœur, il est impossible qu'il prie Dieu avec cette <em>foi qui n'hésite point</em>, & à laquelle J. C. aussi-bien que son Apôtre, nous déclare que Dieu ne refusera point ce qu'elle demande.",
+          "marges": [
+            "Jacob. 1. 6."
+          ],
+          "p": 141
+        },
+        {
+          "texte": "Tout le reste de ce chapitre étant rapporté presque en mêmes termes dans saint Matthieu, il est inutile d'expliquer ici de nouveau ce qui a été déjà éclairci dans les explications de cet autre Evangéliste.",
+          "marges": [
+            "Matt. 21."
+          ],
+          "p": 142
+        }
+      ],
+      "noteVersets": [
+        20,
+        21
+      ]
+    },
+    {
+      "n": 21,
+      "p": 138,
+      "lat": "Et recordatus Petrus, dixit ei : Rabbi, ecce ficus, cui maledixisti, aruit.",
+      "fr": "Et Pierre se souvenant <em>de la parole de Jesus-Christ</em>, lui dit : Maître, voyez comme le figuier que vous avez maudit, est devenu sec.",
+      "note": ""
+    },
+    {
+      "n": 22,
+      "p": 138,
+      "lat": "Et respondens Jesus, ait illis : Habete fidem Dei.",
+      "fr": "JESUS lui répondant, leur dit : Ayez * de la foi en Dieu.",
+      "note": "",
+      "nb": [
+        "℣. 22. lettr. la foi de Dieu."
+      ]
+    },
+    {
+      "n": 23,
+      "p": 138,
+      "lat": "Amen dico vobis, quia quicumque dixerit huic monti : Tollere, & mittere in mare, & non hæsitaverit in corde suo, <a class=\"page-inline\" href=\"page-139.html\" title=\"p. 139\">‖</a>sed crediderit, quia quodcumque dixerit, fiat, fiet ei.",
+      "fr": "Je vous dis en vérité, que quiconque dira à cette montagne, Ote-toi de là, & te jettes dans la mer, & cela sans hésiter dans son cœur, mais croyant fermement que <a class=\"page-inline\" href=\"page-139.html\" title=\"p. 139\">‖</a>tout ce qu'il aura dit arrivera, il * le verra en effet arriver.",
+      "note": "",
+      "marges": [
+        "Matt. 21. 21."
+      ],
+      "nb": [
+        "℣. 23. lettr. lui sera fait."
+      ]
+    },
+    {
+      "n": 24,
+      "p": 139,
+      "lat": "Proptereà dico vobis, omnia quæcumque orantes petitis, credite quia accipietis & evenient vobis.",
+      "fr": "C'est pourquoi je vous le dis : Quoi que ce soit que vous demandiez dans la prière, croyez que vous l'obtiendrez, & il vous sera accordé.",
+      "note": "",
+      "marges": [
+        "Matt. 7. 7. & 21. 22.",
+        "Luc. 11. 9."
+      ]
+    },
+    {
+      "n": 25,
+      "p": 139,
+      "lat": "Et cùm stabitis ad orandum, dimittite si quid habetis adversùs aliquem, ut & Pater vester, qui in cœlis est, dimittat vobis peccata vestra.",
+      "fr": "Mais lorsque vous vous présenterez pour prier, si vous avez quelque chose contre quelqu'un, pardonnez-lui, afin que votre Père qui est dans les cieux vous pardonne aussi vos péchés.",
+      "note": "",
+      "marges": [
+        "Matt. 6. 14. 18. 35."
+      ]
+    },
+    {
+      "n": 26,
+      "p": 139,
+      "lat": "Quod si vos non dimiseritis, nec Pater vester, qui in cœlis est, dimittet vobis peccata vestra.",
+      "fr": "Que si vous ne pardonnez point, votre Père qui est dans les cieux ne vous pardonnera point non plus vos péchés.",
+      "note": ""
+    },
+    {
+      "n": 27,
+      "p": 139,
+      "lat": "Et veniunt rursus Jerosolymam. Et cùm ambularet in templo, accedunt ad eum summi Sacerdotes, & Scribæ, & Seniores.",
+      "fr": "Ils retournèrent encore à Jérusalem. Et JESUS se promenant dans le temple, les Princes des Prêtres, les Scribes, & les Sénateurs le vinrent trouver,",
+      "note": "",
+      "marges": [
+        "Luc. 20. 1."
+      ]
+    },
+    {
+      "n": 28,
+      "p": 139,
+      "lat": "& dicunt ei : In qua potestate hæc facis ? Et quis dedit tibi hanc potestatem ut ista facias ?",
+      "fr": "& lui dirent : Par quelle autorité faites-vous ceci ; & qui vous a donné l'autorité de faire ce que vous faites ?",
+      "note": ""
+    },
+    {
+      "n": 29,
+      "p": 139,
+      "lat": "Jesus autem respondens, ait illis : Interrogabo vos & ego unum verbum, & respondete mihi, & dicam vobis in qua potestate hæc faciam.",
+      "fr": "JESUS leur répondit : J'ai aussi une demande à vous faire * & après que vous m'y aurez répondu, je vous dirai par quelle autorité je fais ceci.",
+      "note": "",
+      "nb": [
+        "℣. 29. let. répondez, & je vous dirai aussi, &c."
+      ]
+    },
+    {
+      "n": 30,
+      "p": 139,
+      "lat": "Baptismus Joannis de cœlo erat, an ex hominibus ? Respondete mihi.",
+      "fr": "Le baptême de Jean étoit-il du ciel, ou des hommes ? Répondez-moi.",
+      "note": ""
+    },
+    {
+      "n": 31,
+      "p": 139,
+      "lat": "At illi cogitabant secum, dicentes : Si dixerimus, De cœlo, dicet : Quare ergo non credidistis ei ?",
+      "fr": "Mais ils raisonnoient ainsi en eux-mêmes : Si nous répondons qu'il étoit du ciel, il nous dira : Pourquoi donc ne l'avez-vous pas cru ?",
+      "note": ""
+    },
+    {
+      "n": 32,
+      "p": 139,
+      "lat": "Si dixerimus, Ex ho<a class=\"page-inline\" href=\"page-140.html\" title=\"p. 140\">‖</a>minibus, timemus populum : omnes enim habebant Joannem, quia verè Propheta esset.",
+      "fr": "Que si nous disons qu'il <a class=\"page-inline\" href=\"page-140.html\" title=\"p. 140\">‖</a>étoit des hommes, nous avons à craindre le peuple ; parce que tout le monde considéroit Jean comme ayant été véritablement Prophète.",
+      "note": ""
+    },
+    {
+      "n": 33,
+      "p": 140,
+      "lat": "Et respondentes dicunt Jesu : Nescimus. Et respondens Jesus ait illis : Neque ego dico vobis in qua potestate hæc faciam.",
+      "fr": "Ainsi ils répondirent à JESUS : Nous ne savons. Et JESUS leur dit : Je ne vous dirai point non plus par quelle autorité je fais ceci.",
+      "note": ""
+    }
+  ]
+};
+  </script>
+</head>
+<body data-base="../">
+
+<div class="page-shell">
+  <button class="sidebar-open-btn" aria-label="Ouvrir le sommaire">☰</button>
+  <div class="sidebar-backdrop"></div>
+
+  <aside class="sidebar">
+    <div class="sidebar-head">
+      <a class="sidebar-brand" href="../index.html">Bible de Sacy</a>
+      <button class="sidebar-collapse-btn" title="Replier le sommaire">«</button>
+    </div>
+    <div class="sidebar-search">
+      <input type="search" class="sidebar-search-input" placeholder="Rechercher…" autocomplete="off" spellcheck="false">
+      <div class="sidebar-search-results" hidden></div>
+    </div>
+    <nav class="sidebar-tree"><details class="canon-group" open><summary>Nouveau Testament</summary>
+<details class="livre-group" data-livre="marc"><summary><span class="abr">Mc</span> <span class="nom">Évangile de saint Marc</span></summary>
+<div class="chap-list">
+<a href="../marc/index.html" data-ch="0">Préface</a>
+<a href="../marc/ch01.html" data-ch="1">1</a>
+<a href="../marc/ch02.html" data-ch="2">2</a>
+<a href="../marc/ch03.html" data-ch="3">3</a>
+<a href="../marc/ch04.html" data-ch="4">4</a>
+<a href="../marc/ch05.html" data-ch="5">5</a>
+<a href="../marc/ch06.html" data-ch="6">6</a>
+<a href="../marc/ch07.html" data-ch="7">7</a>
+<a href="../marc/ch08.html" data-ch="8">8</a>
+<a href="../marc/ch09.html" data-ch="9">9</a>
+<a href="../marc/ch10.html" data-ch="10">10</a>
+<a href="../marc/ch11.html" data-ch="11">11</a>
+<a href="../marc/ch12.html" data-ch="12">12</a>
+<a href="../marc/ch13.html" data-ch="13">13</a>
+<a href="../marc/ch14.html" data-ch="14">14</a>
+<a href="../marc/ch15.html" data-ch="15">15</a>
+<a href="../marc/ch16.html" data-ch="16">16</a>
+</div></details>
+<details class="livre-group" data-livre="luc"><summary><span class="abr">Lc</span> <span class="nom">Évangile de saint Luc</span></summary>
+<div class="chap-list">
+<a href="../luc/index.html" data-ch="0">Préface</a>
+<a href="../luc/ch01.html" data-ch="1">1</a>
+<a href="../luc/ch02.html" data-ch="2">2</a>
+<a href="../luc/ch03.html" data-ch="3">3</a>
+<a href="../luc/ch04.html" data-ch="4">4</a>
+<a href="../luc/ch05.html" data-ch="5">5</a>
+<a href="../luc/ch06.html" data-ch="6">6</a>
+<a href="../luc/ch07.html" data-ch="7">7</a>
+<a href="../luc/ch08.html" data-ch="8">8</a>
+<a href="../luc/ch09.html" data-ch="9">9</a>
+<a href="../luc/ch10.html" data-ch="10">10</a>
+<a href="../luc/ch11.html" data-ch="11">11</a>
+<a href="../luc/ch12.html" data-ch="12">12</a>
+<a href="../luc/ch13.html" data-ch="13">13</a>
+<a href="../luc/ch14.html" data-ch="14">14</a>
+<a href="../luc/ch15.html" data-ch="15">15</a>
+<a href="../luc/ch16.html" data-ch="16">16</a>
+<a href="../luc/ch17.html" data-ch="17">17</a>
+<a href="../luc/ch18.html" data-ch="18">18</a>
+<a href="../luc/ch19.html" data-ch="19">19</a>
+<a href="../luc/ch20.html" data-ch="20">20</a>
+<a href="../luc/ch21.html" data-ch="21">21</a>
+<a href="../luc/ch22.html" data-ch="22">22</a>
+<a href="../luc/ch23.html" data-ch="23">23</a>
+<a href="../luc/ch24.html" data-ch="24">24</a>
+</div></details>
+</details></nav>
+    <div class="sidebar-foot">
+      <a href="../biblio.html">Bibliographie</a>
+      <a href="../recherche.html">Recherche</a>
+      <button class="theme-toggle" title="Thème clair / sombre"><span class="theme-icon">☾</span></button>
+    </div>
+  </aside>
+
+  <main class="main main-wide">
+    <p class="breadcrumb">
+      <a href="../index.html">Bible de Sacy</a> › <span class="breadcrumb-livre"></span>
+    </p>
+
+    <header class="chapter-header">
+      <p class="livre"></p>
+      <h1></h1>
+      <h2></h2>
+      <div class="chapter-actions">
+        <button class="btn" id="latin-toggle">Afficher le latin</button>
+        <a class="btn lien-pages" href="#" hidden>📄 Page à page</a>
+        <a class="btn lien-facs" href="#" target="_blank" rel="noopener">📖 Fac-similé</a>
+      </div>
+    </header>
+
+    <div class="chapitre-columns">
+      <section class="col-francais" aria-label="Texte français"></section>
+      <section class="col-commentaire" aria-label="Commentaire">
+        <p class="col-label">Notes de la <em>Bible de Sacy</em></p>
+        <div class="commentaire-texte"></div>
+      </section>
+      <section class="col-litteral" aria-label="Sens littéral" hidden>
+        <p class="col-label">
+          <span>Sens littéral</span>
+          <span class="sens-toggle">
+            <button class="btn sens-btn active" data-sens="litteral">Littéral</button>
+            <button class="btn sens-btn" data-sens="spirituel">Spirituel</button>
+          </span>
+        </p>
+        <div class="litteral-texte"></div>
+      </section>
+      <section class="col-spirituel" aria-label="Sens spirituel" hidden>
+        <p class="col-label">Sens spirituel</p>
+        <div class="spirituel-texte"></div>
+      </section>
+    </div>
+
+    <nav class="chapter-nav">
+      <a class="nav-prev" href="#">←</a>
+      <span class="chapitre-num"></span>
+      <a class="nav-next" href="#">→</a>
+    </nav>
+  </main>
+</div>
+
+<script src="../render.js"></script>
+</body>
+</html>

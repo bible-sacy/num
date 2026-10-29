@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><!-- rempli par render.js --></title>
+  <link rel="stylesheet" href="../style.css">
+  <script>
+    (function(){ document.documentElement.setAttribute('data-theme', localStorage.getItem('sacy-theme')||'light'); })();
+  </script>
+  <script src="../search-index.js"></script>
+  <script>
+  const SACY_DATA = {
+  "meta": {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 8,
+    "chapTotal": 16,
+    "titre": "Multiplication des sept pains. Prodige refusé. Levain des Pharisiens. Aveugle guéri. Passion prédite. S. Pierre repris. Croix & renoncement à soi-même.",
+    "pageFacs": 95,
+    "pageView": true,
+    "chapitresDisponibles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "facsimile": {
+      "slug": "marc",
+      "page": 95
+    }
+  },
+  "versets": [
+    {
+      "n": 1,
+      "p": 95,
+      "lat": "In diebus illis iterùm cùm turba multa esset , nec haberent quod manducarent , convocatis discipulis , ait illis :",
+      "fr": "† En ce temps-là , le peuple s'étant trouvé encore une fois en fort grand nombre <em>auprès de</em> JESUS , & n'ayant point de quoi manger , il appela ses disciples , & leur dit :",
+      "note": [
+        {
+          "texte": "<em>En ce temps-là , le peuple s'étant trouvé encore une fois en fort grand nombre auprès de</em> JESUS , <em>& n'ayant point de quoi manger , il appela ses disciples , & leur dit , &c.</em>",
+          "marges": [],
+          "p": 99
+        },
+        {
+          "texte": "Nous apprenons de saint Matthieu , que JESUS étant monté sur une montagne , il s'y assit ; & que là de grandes troupes de peuples le vinrent trouver , & lui présentèrent des muets , des aveugles , des boiteux , & beaucoup d'autres malades , qu'il gué<a class=\"page-inline\" href=\"page-100.html\" title=\"p. 100\">‖</a>rit tous. Et ce fut alors sans doute qu'arriva aussi le miracle de la guérison de cet homme sourd & muet, dont il est parlé à la fin du chapitre précédent. <em>En ce temps-là</em> donc, lorsqu'un fort grand nombre de peuples se trouva <em>encore une fois</em> dans le désert avec J. C. sans avoir de quoi manger, il fut touché de compassion de les voir ainsi attachés auprès de lui, sans songer à leurs besoins. Ce fut ce qui l'engagea à faire pour la seconde fois le miracle de la multiplication des pains en faveur de toute cette multitude, & de ces malades, qui préféroient à toutes choses la consolation de l'entendre, & de se tenir près de sa personne. Et il est vrai qu'il y a autant de sujet d'admirer la persévérance de la foi de tout ce peuple, qui ne témoignoit aucune inquiétude pour sa nourriture dans un lieu désert ; qu'il y avoit lieu de s'étonner en même-temps de la foiblesse des Apôtres, à qui le premier miracle de la multiplication des cinq pains ne servit de rien pour leur faire concevoir que celui qui leur témoignoit alors <em>avoir compassion de tant de peuples</em> affamés, n'étoit pas moins puissant pour les nourrir de nouveau d'une manière miraculeuse, qu'il l'avoit été la première fois. <em>Comment pourra-t-on</em>, lui dirent-ils, <em>trouver assez de pain dans ce désert pour les nourrir ?</em> Mais comment en avoit-on trouvé l'autre fois pour nourrir encore un plus grand nombre de personnes ? N'est-ce pas le même JESUS qui avoit fait ce miracle, à qui ils parloient ? Et ne sont-ce pas les mêmes Apôtres, qui lui avoient fait auparavant la même difficulté, qu'ils virent levée tout-d'un-coup par la bénédiction toute-puissante de leur maître ? Comment donc est-il possible, que ceux que le Fils de Dieu destinoit à être les colonnes de son Eglise, & à soutenir tous les autres par leur fermeté, paroissent présentement plus foibles que les moindres du commun du peuple ? C'est que le temps où ils devoient être, comme dit J. C. <em>revêtus de la force d'en haut</em>, n'étoit pas encore arrivé. Et plus leur foiblesse se faisoit sentir alors, plus le Fils de Dieu fit éclater dans la suite cette divine force dont ils furent tout remplis, lorsqu'il envoya d'en haut, & fit descendre sur eux son Saint-Esprit.",
+          "marges": [
+            "Matt. 15. 29. &c.",
+            "Luc. 24. 49."
+          ],
+          "p": 99
+        }
+      ],
+      "marges": [
+        "Matt. 15. 32.",
+        "† VI. Dimanche après la Pentec."
+      ]
+    },
+    {
+      "n": 2,
+      "p": 95,
+      "lat": "Misereor super turbam : quia ecce jam triduo sustinent me , nec habent quod manducent :",
+      "fr": "J'ai compassion de ce peuple : parce qu'il y a déjà trois jours qu'ils demeurent continuellement avec moi , & ils n'ont rien à manger :",
+      "note": ""
+    },
+    {
+      "n": 3,
+      "p": 95,
+      "lat": "& si dimisero eos jejunos in domum suam , deficient in via ; quidam enim ex eis de longe venerunt.",
+      "fr": "& si je les renvoie en leurs maisons sans avoir mangé , les forces leur manqueront en chemin ; parce que quelques-uns d'eux sont venus de loin.",
+      "note": ""
+    },
+    {
+      "n": 4,
+      "p": 95,
+      "lat": "Et responderunt ei discipuli sui : Unde illos quis poterit hìc saturare panibus in solitudine ?",
+      "fr": "Ses disciples lui répondirent : Comment pourroit-on trouver dans ce désert assez de pain pour les rassasier ?",
+      "note": ""
+    },
+    {
+      "n": 5,
+      "p": 95,
+      "lat": "Et interrogavit eos : Quot panes habetis ? Qui dixerunt : Septem.",
+      "fr": "Il leur demanda : Combien avez-vous de pains ? Sept , lui dirent-ils.",
+      "note": ""
+    },
+    {
+      "n": 6,
+      "p": 95,
+      "lat": "Et præcepit turbæ discumbere super terram : & accipiens septem panes , gratias agens fregit , & dabat discipulis suis ut apponerent ; & apposuerunt turbæ.",
+      "fr": "Alors il commanda au peuple de s'asseoir sur la terre : il prit les sept pains , & rendant grâces , il les rompit , les donna à ses disciples pour les distribuer ; & ils les distribuèrent au peuple.",
+      "note": ""
+    },
+    {
+      "n": 7,
+      "p": 95,
+      "lat": "Et habebant pisciculos paucos ; & ipsos benedixit , & jussit apponi.",
+      "fr": "Ils avoient encore quelques petits poissons , qu'il bénit aussi : & il commanda qu'on les leur distribuât de même.",
+      "note": ""
+    },
+    {
+      "n": 8,
+      "p": 95,
+      "lat": "Et manducaverunt , <a class=\"page-inline\" href=\"page-96.html\" title=\"p. 96\">‖</a>& saturati sunt ; & sustulerunt quod superaverat de fragmentis , septem sportas.",
+      "fr": "Ils mangèrent donc , & furent <a class=\"page-inline\" href=\"page-96.html\" title=\"p. 96\">‖</a>rassasiés : & on remporta sept corbeilles pleines des morceaux qui étoient restés.",
+      "note": ""
+    },
+    {
+      "n": 9,
+      "p": 96,
+      "lat": "Erant autem qui manducaverant , quasi quatuor millia : & dimisit eos.",
+      "fr": "Or ceux qui mangèrent étoient environ quatre mille : & JESUS les renvoya ¶.",
+      "note": ""
+    },
+    {
+      "n": 10,
+      "p": 96,
+      "lat": "Et statim ascendens navim cum discipulis suis , venit in partes Dalmanutha :",
+      "fr": "Aussitôt étant entré dans une barque avec ses disciples , il vint dans le pays de Dalmanutha :",
+      "note": ""
+    },
+    {
+      "n": 11,
+      "p": 96,
+      "lat": "& exierunt Pharisæi , & cœperunt conquirere cum eo , quærentes ab illo signum de cœlo , tentantes eum.",
+      "fr": "où les Pharisiens l'étant venus trouver , ils commencèrent à disputer avec lui , & lui demandèrent pour le tenter , qu'il <em>leur</em> fit <em>voir</em> quelque prodige dans le ciel.",
+      "note": "",
+      "marges": [
+        "Matt. 16. 1.",
+        "Luc. 11. 54."
+      ]
+    },
+    {
+      "n": 12,
+      "p": 96,
+      "lat": "Et ingemiscens , spiritu , ait : Quid generatio ista signum quærit ? Amen dico vobis , si dabitur generationi isti signum.",
+      "fr": "Mais JESUS * jetant un soupir du fond du cœur , leur dit : Pourquoi * ces gens-là demandent-ils un prodige ? Je vous dis en vérité , qu'il ne sera point donné de prodige à ces gens-là.",
+      "note": [
+        {
+          "texte": "<em>Mais jetant un soupir du fond du cœur, il leur dit : Pourquoi ces gens-là demandent-ils un prodige ? Je vous dis en vérité qu'il ne sera point donné de prodige à ces gens-là.</em>",
+          "marges": [],
+          "p": 100
+        },
+        {
+          "texte": "Ce qui faisoit <em>soupirer</em> le Fils de Dieu, étoit cet horrible aveuglement des Pharisiens, qui ayant été témoins tant de fois des miracles qu'il faisoit en faveur des hommes, s'endurcissoient par un effet déplorable de leur orgueil contre le témoignage de <a class=\"page-inline\" href=\"page-101.html\" title=\"p. 101\">‖</a>leurs propres yeux, & fermoient leur cœur d'autant plus à la vérité, qu'ils voyoient à tous momens plus de preuves incontestables de sa divine puissance. Mais pourquoi donc J. C. <em>soupire-t-il</em>, lorsqu'ils lui demandent un nouveau prodige ? Ne pouvoit-il pas leur donner un esprit de componction, & amollir la dureté de leur cœur, selon cette vérité annoncée aux Juifs par saint Jean-Baptiste, Que <em>Dieu peut des pierres mêmes faire naître des enfans à Abraham ?</em> Ouï sans doute, il le pouvoit. Mais s'il n'a pas fait ce qu'il pouvoit, pour des raisons dont saint Paul n'a osé fonder lui-même la profondeur, l'endurcissement & l'aveuglement de ces Pharisiens en étoit-il moins criminel, & moins un effet de la malice de leur volonté ? Et n'étoit-il pas d'une très-grande importance que le Fils de Dieu, en <em>soupirant</em>, comme il fait ici, nous fit concevoir par-là d'une manière plus vive, combien en effet cet état des Pharisiens, & de ceux qui leur ressemblent dans le cours de tous les siècles, est digne de nos soupirs ? Car ce qui a fait soupirer un Dieu, doit être bien déplorable : & l'homme ne peut avoir assez de larmes pour pleurer ce qui a été capable de faire gémir son Sauveur.",
+          "marges": [
+            "Matth. 3. 9.",
+            "Rom. 11. 33."
+          ],
+          "p": 100
+        },
+        {
+          "texte": "Ce qu'il dit ensuite avec serment, Qu'<em>il ne seroit point donné de prodige</em> aux Pharisiens, comme ils lui en demandoient, n'est point contraire à ce qu'il déclare dans saint Matthieu, touchant le prodige <em>du Prophète Jonas.</em> Car ce prodige qui arriva en la personne de Jonas, n'étoit point nouveau. Et J. C. leur donnoit lieu seulement de le remarquer, comme un signe ou une image de ce qui lui arriveroit à lui-même. D'ailleurs, il est vrai encore, qu'il refusa de leur accorder ce qu'ils demandoient ; puisqu'ils vouloient voir <em>un prodige dans le ciel.</em> Mais de quelle utilité eut pu être un tel prodige pour les convertir, eux à qui l'obscurcissement même du soleil, qui arriva à la mort de JESUS-CHRIST, ne servit qu'à augmenter les ténèbres de leur orgueil ?",
+          "marges": [
+            "Matt. 16. 4."
+          ],
+          "p": 101
+        }
+      ],
+      "nb": [
+        "℣. 12. lettr. gémissant en son esprit. = Ibid. lettr. cette génération."
+      ]
+    },
+    {
+      "n": 13,
+      "p": 96,
+      "lat": "Et dimittens eos , ascendit iterùm navim , & abiit trans fretum.",
+      "fr": "Et les quittant là , il remonta dans la barque , & passa à l'autre bord.",
+      "note": ""
+    },
+    {
+      "n": 14,
+      "p": 96,
+      "lat": "Et obliti sunt panes sumere ; & nisi unum panem non habebant secum in navi.",
+      "fr": "Or les disciples avoient oublié de prendre des pains ; & ils n'avoient qu'un seul pain dans leur barque.",
+      "note": "",
+      "marges": [
+        "Matt. 16. 5."
+      ]
+    },
+    {
+      "n": 15,
+      "p": 96,
+      "lat": "Et præcipiebat eis , dicens : Videte , & cavete à fermento Pharisæorum , & fermento Herodis.",
+      "fr": "JESUS leur donna ce précepte : Ayez soin de vous bien garder du levain des Pharisiens , & du levain d'Hérode.",
+      "note": ""
+    },
+    {
+      "n": 16,
+      "p": 96,
+      "lat": "Et cogitabant ad alterutrum , dicentes : Quia panes non habemus.",
+      "fr": "Sur quoi ils pensoient & se disoient l'un à l'autre : En effet nous n'avons point pris de pain.",
+      "note": ""
+    },
+    {
+      "n": 17,
+      "p": 96,
+      "lat": "Quo cognito , ait illis Jesus : Quid cogitatis , quia panes non habetis ? Nondum cognoscitis nec intelligitis ? Adhuc cæca<a class=\"page-inline\" href=\"page-97.html\" title=\"p. 97\">‖</a>tum habetis cor vestrum ?",
+      "fr": "Ce que JESUS connoissant , il leur dit : Pourquoi vous entretenez-vous de cette pensée , que vous n'avez point de pain ? N'avez-vous point encore de sens ni d'intelligen<a class=\"page-inline\" href=\"page-97.html\" title=\"p. 97\">‖</a>ce ? & votre cœur est-il encore dans l'aveuglement ?",
+      "note": ""
+    },
+    {
+      "n": 18,
+      "p": 97,
+      "lat": "Oculos habentes non videtis ? & aures habentes non auditis : Nec recordamini ?",
+      "fr": "Aurez-vous <em>toujours</em> des yeux sans voir & des oreilles sans entendre ? Et avez-vous perdu la mémoire ?",
+      "note": "",
+      "marges": [
+        "Suprà 6. 41.",
+        "Joan. 6. 11."
+      ]
+    },
+    {
+      "n": 19,
+      "p": 97,
+      "lat": "Quando quinque panes fregi in quinque millia , quot cophinos fragmentorum plenos sustulistis ? Dicunt ei : Duodecim.",
+      "fr": "Lorsque je rompis les cinq pains pour cinq mille hommes , combien remportâtes-vous de paniers pleins de morceaux ? Douze , lui dirent-ils.",
+      "note": ""
+    },
+    {
+      "n": 20,
+      "p": 97,
+      "lat": "Quando & septem panes in quatuor millia , quot sportas fragmentorum tulistis ? Et dicunt ei : Septem.",
+      "fr": "Et lorsque je rompis les sept pains pour quatre mille hommes , combien remportâtes-vous de corbeilles pleines de morceaux ? Sept , lui dirent-ils.",
+      "note": ""
+    },
+    {
+      "n": 21,
+      "p": 97,
+      "lat": "Et dicebat eis : Quomodo nondùm intelligitis ?",
+      "fr": "Et il ajouta : Comment <em>donc</em> ne comprenez-vous pas encore ce que je vous dis ?",
+      "note": ""
+    },
+    {
+      "n": 22,
+      "p": 97,
+      "lat": "Et veniunt Bethsaidam , & adducunt ei cæcum , & rogabant eum ut illum tangerent.",
+      "fr": "Et étant arrivés à Bethsaïde , on lui amena un aveugle , qu'on le pria de toucher.",
+      "note": [
+        {
+          "texte": "<em>Etant arrivés à Bethsaïde, on lui amena un aveugle, qu'on le pria de toucher : & prenant l'aveugle par la main, il le mena hors du bourg, &c.</em>",
+          "marges": [],
+          "p": 101
+        },
+        {
+          "texte": "Ceux qui amenèrent cet aveugle à J. C. faisoient paroître leur foi en ce qu'ils le regardoient comme pouvant rendre la vue à cet homme qui l'avoit perdue. Mais ils témoignoient en même temps que leur foi n'étoit pas assez éclairée ; puisqu'en priant le Sauveur de <em>le toucher</em>, ils sembloient borner sa puissance comme s'il n'eut pu guérir cet aveugle qu'en le touchant. Il est vrai aussi, que comme le Fils de Dieu guérissoit souvent les malades <a class=\"page-inline\" href=\"page-102.html\" title=\"p. 102\">‖</a>en leur imposant les mains, ceux qui vinrent lui présenter celui-ci, purent bien agir simplement lorsqu'ils le prièrent de le toucher, à cause de cette manière dont il en usoit dans la guérison de plusieurs malades. <em>Il prend</em> celui-ci <em>par la main</em> pour le conduire hors de Bethsaïde, voulant éviter le concours du peuple, que lui auroit attiré la vue de sa guérison miraculeuse, & nous apprendre, selon sa coutume, à fuir les actions éclatantes. Mais il nous enseigne encore en le prenant par la main, que tous ceux qui sont aveugles dans l'ame, comme cet homme l'étoit des yeux corporels, ont souvent besoin d'être conduits par la main du Fils de Dieu, c'est-à-dire, par son Esprit & par sa grâce, hors du tumulte des villes, où ils peuvent difficilement recouvrer la lumière de la charité & d'une foi vive, que la vue même du siècle leur a peut-être fait perdre. Après avoir <em>mis de sa salive</em> sur ses yeux, pour les raisons que l'on a marquées auparavant dans la guérison de celui qui étoit sourd & muet ; & après lui avoir <em>imposé les mains</em>, il lui demanda <em>s'il voyoit quelque chose.</em> La foi nous apprend que J. C. ne doutoit pas du pouvoir très-absolu qu'il avoit de guérir cet homme. Et ainsi cette demande qu'il lui fait, tendoit seulement à lui faire remarquer le commencement de sa guérison, & même à lui faire peut-être sentir qu'il manquoit encore quelque chose de nécessaire à sa foi. Car quoiqu'il l'eut pu guérir tout-d'un-coup, comme tant d'autres, il le voulut faire par degrés, & en augmentant sans doute peu à peu la foi de cet homme, pour nous tracer dans sa guérison une image de ce qui se passe presque toujours d'une manière invisible dans la guérison spirituelle de l'aveuglement de nos ames, dont la parfaite conversion n'est pas ordinairement l'ouvrage d'un jour, mais de plusieurs mois, & même de plusieurs années.",
+          "marges": [
+            "Sup. 7. 33."
+          ],
+          "p": 101
+        },
+        {
+          "texte": "Que veut dire cet aveugle, lorsque J. C. lui demandant s'il commençoit à voir quelque chose, il répond : Qu'<em>il voit des hommes qui marchent ; mais que ces hommes lui paroissent comme des arbres ?</em> Cela signifie seulement, selon la lettre, qu'il voyoit encore d'une manière fort imparfaite. Car quand des hommes nous paroissent comme des arbres, c'est signe que nous ne distinguons point encore ce que nous voyons, & que les objets se présentent tout informes à nos yeux par le défaut même de notre vue. Il fut donc besoin, selon le dessein qu'avoit J. C. de faire connoître plus sensiblement la nécessité de son secours, & l'excès de l'aveuglement des hommes, qui nous étoit figuré dans ces guérisons corporelles, qu'il imposât encore une fois les mains sur les yeux de cet aveugle, afin qu'il put voir distinctement <a class=\"page-inline\" href=\"page-103.html\" title=\"p. 103\">‖</a>les objets. Car ç'eut été une guérison trop imparfaite, que celle qui l'auroit mis seulement en état de prendre des hommes pour des arbres.",
+          "marges": [],
+          "p": 102
+        },
+        {
+          "texte": "Et c'est ainsi qu'il arrive encore souvent dans les guérisons spirituelles des ames, que la lumière de la foi ne leur est rendue, pour le dire ainsi, qu'à demi. Elles commencent en effet à <em>voir quelque chose</em> comme cet aveugle, lorsque J. C. leur a mis comme le premier appareil de sa grâce sur les yeux. Mais parce qu'elles négligent de lui demander qu'il confirme & acheve en elles ce qu'il y a commencé, elles demeurent comme entre la lumière & les ténèbres, ne discernant qu'à demi toutes les choses qui regardent leur salut ; & elles retombent même assez souvent dans cette première obscurité d'où elles étoient sorties. C'est la raison pour laquelle le grand Apôtre disoit aux premiers Chrétiens : Qu'<em>il ne cessoit point de prier pour eux, & de demander à Dieu qu'il les remplit de la connoissance de sa volonté, en leur donnant toute la sagesse & toute l'intelligence spirituelle, afin qu'ils marchassent d'une manière digne de Dieu, s'appliquant à lui plaire en toutes choses, portant des fruits de toutes sortes de bonnes œuvres, & croissant en la connoissance de Dieu.</em> C'est à cette divine lumière de la foi, qui agit par la charité, que nous devons aspirer sans cesse. C'est elle que nous devons attirer continuellement par nos prières. Sans elles nous sommes vraiment aveugles plus ou moins, selon ou qu'elle s'éloigne de nous, ou qu'elle se dérobe entièrement à nous. Mais nous ne pouvons néanmoins nous attendre en cette vie à être, comme cet aveugle, tellement guéris, que <em>nous voyons distinctement toutes choses.</em> Ce n'est point ici le temps de la claire vision. <em>Ce que nous avons maintenant de connoissance</em>, dit saint Paul, <em>n'est qu'imparfait.... Nous ne voyons présentement que comme en un miroir & en des énigmes : mais alors nous verrons face à face.</em>",
+          "marges": [
+            "Coloss. 1. 9. 10.",
+            "1. Cor. 15. 9. 10. 12."
+          ],
+          "p": 103
+        },
+        {
+          "texte": "J. C. après avoir rétabli la vue de cet homme, <em>le renvoie dans sa maison</em>, & lui défend, en cas qu'il entrât dans Bethsaïde, de dire à aucun des habitans le miracle par lequel il avoit été guéri. Sur quoi l'on peut demander deux choses ; la première, pourquoi le Sauveur le renvoie en sa maison ; & la seconde, pourquoi il lui fait défense en le renvoyant, de parler de sa guérison miraculeuse. Nous voyons bien en effet, qu'ayant guéri d'autres malades, il les renvoyoit de même chez eux ; mais il leur commandoit en même-temps de publier les grandes grâces qu'ils avoient reçues du Seigneur, & la miséricorde qu'il leur avoit faite. Il paroît donc que le Fils de Dieu renvoie cet hom<a class=\"page-inline\" href=\"page-104.html\" title=\"p. 104\">‖</a>me chez lui, pour l'empêcher d'aller à Bethsaïde faire du bruit de ce grand miracle. Car il est clair que la maison de cet homme n'étoit pas dans Bethsaïde, puisqu'il lui dit, qu'en cas qu'il entrât dans cette ville ou dans ce bourg, parce qu'il falloit peut-être y passer pour s'en retourner chez lui, il ne parlât à personne de ce miracle, c'est-à-dire, à aucun des habitans de Bethsaïde. C'est donc au peuple de cette ville qu'il ne vouloit pas qu'il en parlât, & non à ses proches ; puisqu'il est juste de les informer de la manière dont JESUS l'avoit guéri, & que même il auroit été difficile de le leur cacher.",
+          "marges": [
+            "Marc. 5. 19."
+          ],
+          "p": 103
+        },
+        {
+          "texte": "Que si l'on demande maintenant pourquoi il ne vouloit pas que ce miracle fut divulgué dans Bethsaïde, on peut dire premièrement, que ce pouvoit être la raison générale, dont on a déjà parlé plusieurs fois ; c'est-à-dire, que c'étoit pour éviter un trop grand éclat, & pour nous apprendre à l'éviter avec encore bien plus de soin. En second lieu, il vouloit peut-être punir l'orgueil & l'ingratitude de cette ville, qui avoit déjà négligé beaucoup de grâces qu'elle avoit reçues, comme J. C. le lui reproche dans saint Matthieu, en la joignant à Corozaïn dans la même insensibilité, lorsqu'il leur dit : <em>Malheur à toi, Corozaïn, malheur à toi, Bethsaïde ; parce que si les miracles qui ont été faits au milieu de vous, avoient été faits dans Tyr & Sidon, il y a déjà long-temps qu'elles auroient fait pénitence.</em> Il paroît donc que cette ville de Bethsaïde s'étoit rendue indigne des grâces du Fils de Dieu, & qu'ainsi elle ne méritoit pas même de connoître davantage les miracles qu'il faisoit, étant plus aveugle dans le cœur que l'aveugle qu'il venoit de guérir, & d'une espèce d'aveuglement beaucoup plus incurable aux hommes, quoiqu'il ne le fut pas néanmoins à la puissance de J. C.",
+          "marges": [
+            "Matth. 11. 21."
+          ],
+          "p": 104
+        }
+      ],
+      "noteVersets": [
+        22,
+        23
+      ]
+    },
+    {
+      "n": 23,
+      "p": 97,
+      "lat": "Et apprehensâ manu cæci , eduxit eum extra vicum : & expuens in oculos ejus , impositis manibus suis , interrogavit eum si quid videret.",
+      "fr": "Et prenant l'aveugle par la main , il le mena hors du bourg : il lui * mit de sa salive sur les yeux ; & lui ayant imposé les mains , il lui demanda s'il voyoit quelque chose.",
+      "note": "",
+      "nb": [
+        "℣. 23. Lettr. cracha sur ses yeux."
+      ]
+    },
+    {
+      "n": 24,
+      "p": 97,
+      "lat": "Et aspiciens , ait : Video homines velut arbores ambulantes.",
+      "fr": "Cet homme regardant , lui dit : Je vois marcher des hommes , qui me paroissent comme des arbres.",
+      "note": ""
+    },
+    {
+      "n": 25,
+      "p": 97,
+      "lat": "Deinde iterùm imposuit manus super oculos ejus , & cœpit videre ; & restitutus est ita , ut clarè videret omnia.",
+      "fr": "JESUS lui mit encore une fois les mains sur les yeux , & il * commença à <em>mieux</em> voir ; & fut tellement guéri , qu'il voyoit distinctement toutes choses.",
+      "note": "",
+      "nb": [
+        "℣. 25. gr. le fit voir , ou il le fit regarder."
+      ]
+    },
+    {
+      "n": 26,
+      "p": 97,
+      "lat": "Et misit illum in domum suam , dicens : Vade in domum tuam ; & si in <a class=\"page-inline\" href=\"page-98.html\" title=\"p. 98\">‖</a>vicum introieris , neminì dixeris.",
+      "fr": "Il le renvoya ensuite dans sa maison , & lui dit : Allez-vous-en en votre maison ; * & si vous en<a class=\"page-inline\" href=\"page-98.html\" title=\"p. 98\">‖</a>trez dans le bourg , n'y dites à personne <em>ce qui vous est arrivé.</em>",
+      "note": "",
+      "nb": [
+        "℣. 26. gr. n'entrez point dans le bourg , & ne dites à personne de ceux qui y demeurent , ce qui vous est arrivé."
+      ]
+    },
+    {
+      "n": 27,
+      "p": 98,
+      "lat": "Et egressus est Jesus , & discipuli ejus , in castella Cæsareæ Philippi : & in via interrogabat discipulos suos , dicens eis : Quem me dicunt esse homines ?",
+      "fr": "JESUS partit de là avec ses disciples , pour s'en aller dans les villages <em>qui sont aux environs</em> de Césarée de Philippe , & il leur fit en chemin cette question : Qui * dit-on que je suis ?",
+      "note": "",
+      "marges": [
+        "Matt. 16. 13.",
+        "Luc. 9. 18."
+      ],
+      "nb": [
+        "℣. 27. lett. disent les hommes que je suis."
+      ]
+    },
+    {
+      "n": 28,
+      "p": 98,
+      "lat": "Qui responderunt illi , dicentes : Joannem Baptistam ; alii Eliam ; alii verò quasi unum de Prophetis.",
+      "fr": "Ils lui répondirent : Les uns disent que vous êtes Jean-Baptiste ; les autres Elie ; les autres que vous êtes égal à l'un des <em>anciens</em> Prophètes *.",
+      "note": "",
+      "nb": [
+        "℣. 28. autr. l'un des anciens Prophètes qui est ressuscité. V. Luc. 9. 8."
+      ]
+    },
+    {
+      "n": 29,
+      "p": 98,
+      "lat": "Tunc dicit illis : Vos verò quem me esse dicitis ? Respondens Petrus , ait ei : Tu es Christus.",
+      "fr": "Mais vous , leur dit-il , qui dites-vous que je suis ? Pierre lui répondit : Vous êtes le CHRIST.",
+      "note": ""
+    },
+    {
+      "n": 30,
+      "p": 98,
+      "lat": "Et comminatus est eis , ne cui dicerent de illo.",
+      "fr": "Et il leur défendit avec menaces de le dire à personne.",
+      "note": ""
+    },
+    {
+      "n": 31,
+      "p": 98,
+      "lat": "Et cœpit docere eos , quoniam oportet Filium hominis pati multa , & reprobari à senioribus , & à summis Sacerdotibus , & Scribis , & occidi , & post tres dies resurgere :",
+      "fr": "Il commença en même-temps à leur déclarer , qu'il falloit que le Fils de l'homme souffrît beaucoup , qu'il fut rejeté par les Sénateurs , par les Princes des Prêtres & par les Scribes , qu'il fût mis à mort , & qu'il ressuscitât trois jours après :",
+      "note": ""
+    },
+    {
+      "n": 32,
+      "p": 98,
+      "lat": "Et palàm verbum loquebatur. Et apprehendens eum Petrus , cœpit increpare eum.",
+      "fr": "& il en parloit tout ouvertement. Alors Pierre le tirant à part , commença à le reprendre.",
+      "note": ""
+    },
+    {
+      "n": 33,
+      "p": 98,
+      "lat": "Qui conversus , & videns discipulos suos , comminatus est Petro , dicens : Vade retro me , satana , quoniam non sapis quæ Dei sunt , sed quæ sunt hominum.",
+      "fr": "Mais lui se retournant , & regardant ses disciples , reprit rudement Pierre , & lui dit : Retirez-vous de moi , satan ; parce que vous n'avez point de goût pour les choses de Dieu , mais seulement pour * les choses de la terre.",
+      "note": "",
+      "nb": [
+        "℣. 33. autr. mais seulement pour celles des hommes."
+      ]
+    },
+    {
+      "n": 34,
+      "p": 98,
+      "lat": "Et convocatà turbà cum discipulis suis , dixit <a class=\"page-inline\" href=\"page-99.html\" title=\"p. 99\">‖</a>eis : Si quis vult me sequi , deneget semetipsum , & tollat crucem suam , & sequatur me.",
+      "fr": "Et appelant à soi le peuple avec ses disciples , il leur dit : Si <a class=\"page-inline\" href=\"page-99.html\" title=\"p. 99\">‖</a>quelqu'un veut venir après moi , qu'il renonce à soi-même , & qu'il se charge de sa croix , & me suive.",
+      "note": "",
+      "marges": [
+        "Matt. 10. 38. 16. 24.",
+        "Luc. 9. 23. 14. 27."
+      ]
+    },
+    {
+      "n": 35,
+      "p": 99,
+      "lat": "Qui enim voluerit animam suam salvam facere , perdet eam ? qui autem perdiderit animam suam propter me & Evangelium , salvam faciet eam.",
+      "fr": "Car celui qui se voudra sauver * soi-même , se perdra ; & celui qui se perdra pour l'amour de moi & de l'Evangile , se sauvera.",
+      "note": "",
+      "marges": [
+        "Luc. 17. 33.",
+        "Joan. 12. 25."
+      ],
+      "nb": [
+        "℣. 35. expl. Il y a par tout le mot d'ame : Qui voudra sauver son ame , &c. Mais voyez saint Matthieu , 16. 25."
+      ]
+    },
+    {
+      "n": 36,
+      "p": 99,
+      "lat": "Quid enim proderit homini , si lucretur mundum totum , & detrimentum animæ suæ faciat ?",
+      "fr": "Car que serviroit à un homme de gagner tout le monde , & de se perdre soi-même ?",
+      "note": ""
+    },
+    {
+      "n": 37,
+      "p": 99,
+      "lat": "Aut quid dabit homo commutationis , pro anima sua ?",
+      "fr": "<em>Et s'étant perdu une fois ,</em> * par quel échange se pourra-t-il racheter ?",
+      "note": "",
+      "nb": [
+        "℣. 37. autr. ou que pourra donner l'homme en échange pour soi-même ?"
+      ]
+    },
+    {
+      "n": 38,
+      "p": 99,
+      "lat": "Qui enim me confusus fuerit , & verba mea , in generatione ista adultera & peccatrice , & Filius hominis confundetur eum , cùm venerit in gloria Patris sui cum Angelis sanctis.",
+      "fr": "Car si quelqu'un rougit de moi & de mes paroles parmi cette race adultère & péchéresse , le Fils de l'homme rougira aussi de lui , lorsqu'il viendra accompagné des saints Anges dans la gloire de son Père.",
+      "note": [
+        {
+          "texte": "<em>Car si quelqu'un rougit de moi, & de mes paroles parmi cette race adultère & péchéresse, le Fils de l'homme rougira aussi de lui, lorsqu'il viendra accompagné des saints Anges dans la gloire de son Père.</em>",
+          "marges": [],
+          "p": 104
+        },
+        {
+          "texte": "C'est une des plus grandes tentations pour les justes d'être exposés aux insultes & aux moqueries des méchans, lorsqu'ils ne songent qu'à plaire à Dieu. Car le Diable ne pouvant les détourner de la voie de la justice, dans laquelle ils ont commencé de marcher avec courage, a recours à ce moyen comme au plus puissant qu'il ait, pour ébranler ou pour renverser leur piété, s'ils ne sont, comme dit saint Paul, enracinés très-fortement dans l'amour de J. C. Il oppose donc sans cesse à la race des hommes justes, une autre race, qui est celle des méchans, que <a class=\"page-inline\" href=\"page-105.html\" title=\"p. 105\">‖</a>le Fils de Dieu appelle ici une <em>race adultère & péchéresse.</em> Elle est <em>adultère</em>, à cause de sa prostitution à toutes sortes d'impuretés, & de son éloignement de Dieu, à qui elle auroit dû se tenir inviolablement attachée, comme à son véritable époux. Elle est <em>péchéresse</em>, parce qu'elle fait comme une profession publique d'offenser Dieu, s'abandonnant au péché avec plaisir, & l'avalant comme l'eau, selon l'expression de l'Ecriture.",
+          "marges": [],
+          "p": 104
+        },
+        {
+          "texte": "Cette race de méchans, qui est toute possédée de l'esprit du démon, n'aspire non plus que lui à autre chose qu'à pervertir les voies du Seigneur dans ses serviteurs : & autant que le mensonge est exposé à la vérité, que la cupidité est contraire à la charité, que l'orgueil est ennemi de l'humilité ; autant cette race adultère & péchéresse est aussi nécessairement opposée à la race des hommes justes, de ceux qui cherchent sincèrement le Seigneur, comme parle le Prophète. Ils sont donc sans cesse obligés de se roidir contre ce torrent de la malice des pécheurs, qui s'opposent continuellement à leur piété par leur exemple, par leurs insultes, par leurs persécutions. Et comme il est assez ordinaire qu'une mauvaise honte l'emporte enfin sur ce que l'on doit à Dieu, & à sa conscience, & qu'on se lasse de résister aux moqueries de ceux qui foulent aux pieds les saintes maximes de l'Evangile ; J. C. oppose ici à cette confusion criminelle dont on est touché à son égard, lorsque par des considérations humaines on s'écarte de la piété, une autre sorte de confusion bien plus redoutable, & qui doit servir à affermir dans la vertu ceux que cette autre honte auroit eu la force d'ébranler.",
+          "marges": [
+            "Ps. 13. 6.",
+            "Ps. 23. 6."
+          ],
+          "p": 105
+        },
+        {
+          "texte": "Il proteste donc que si quelqu'un <em>rougissoit de lui & de sa parole</em>, c'est-à-dire, de son Evangile, au milieu de ces méchans & de ces pécheurs, en craignant de pratiquer ses préceptes & de suivre son exemple, de peur de déplaire au monde & à tous ses sectateurs, <em>il rougiroit aussi de lui</em> ; c'est-à-dire, qu'il refuseroit de le reconnoître pour son disciple <em>en présence des saints Anges, lorsqu'il viendroit</em> à la fin du monde <em>dans la gloire de son Père</em> pour juger toute la terre. Quelle différence de cette mauvaise honte dont on est frappé présentement dans un petit coin de la terre, & devant quelque petit nombre de personnes, que leur impiété même nous doit rendre méprisables ; & cette autre honte qu'on recevra très-justement à la vue de tous les hommes & de tous les Anges, lorsqu'on sera convaincu d'avoir préféré à son Dieu & à son salut la vaine estime de quelques méchans, & qu'on se verra privé pour toujours de <em>la gloire de Dieu</em> même, pour avoir ainsi cherché vainement la gloire des hommes ! Il <a class=\"page-inline\" href=\"page-106.html\" title=\"p. 106\">‖</a>faut donc que la foi détrompe nos sens, & qu'elle nous représente si vivement cette éternelle confusion, qui doit être le châtiment de cette autre honte passagère, qu'elle nous fasse fouler aux pieds toutes vues & toutes craintes humaines, lorsqu'il s'agit d'assurer notre bonheur éternel. C'étoit dans cette dernière confusion, que le roi David demandoit à Dieu d'être préservé ; parce, disoit-il, qu'il s'attachoit à ses ordonnances. Et le fondement sur lequel il s'appuyoit, lorsqu'il disoit à Dieu même, qu'il ne tomberoit point dans cette confusion éternelle, étoit qu'il avoit mis son espérance en lui seul, & non dans les créatures : <em>In te Domine speravi, non confundar in æternum.</em>",
+          "marges": [
+            "Ps. 118. 22.",
+            "Ps. 70. 1."
+          ],
+          "p": 105
+        }
+      ],
+      "marges": [
+        "Matt. 10. 33.",
+        "Luc. 9. 26. 12. 9."
+      ]
+    },
+    {
+      "n": 39,
+      "p": 99,
+      "lat": "Et dicebat illis : Amen dico vobis , quia sunt quidam de hìc stantibus , qui non gustabunt mortem , donec videant regnum Dei veniens in virtute.",
+      "fr": "Et il ajouta : Je vous dis en vérité , qu'il y en a quelques-uns de ceux qui sont ici qui ne * mourront point , qu'ils n'ayent vu arriver le règne de Dieu dans sa puissance.",
+      "note": "",
+      "marges": [
+        "Matt. 16. 28.",
+        "Luc. 9. 27."
+      ],
+      "nb": [
+        "℣. 39. lett. ne goûteront point la mort."
+      ]
+    }
+  ]
+};
+  </script>
+</head>
+<body data-base="../">
+
+<div class="page-shell">
+  <button class="sidebar-open-btn" aria-label="Ouvrir le sommaire">☰</button>
+  <div class="sidebar-backdrop"></div>
+
+  <aside class="sidebar">
+    <div class="sidebar-head">
+      <a class="sidebar-brand" href="../index.html">Bible de Sacy</a>
+      <button class="sidebar-collapse-btn" title="Replier le sommaire">«</button>
+    </div>
+    <div class="sidebar-search">
+      <input type="search" class="sidebar-search-input" placeholder="Rechercher…" autocomplete="off" spellcheck="false">
+      <div class="sidebar-search-results" hidden></div>
+    </div>
+    <nav class="sidebar-tree"><details class="canon-group" open><summary>Nouveau Testament</summary>
+<details class="livre-group" data-livre="marc"><summary><span class="abr">Mc</span> <span class="nom">Évangile de saint Marc</span></summary>
+<div class="chap-list">
+<a href="../marc/index.html" data-ch="0">Préface</a>
+<a href="../marc/ch01.html" data-ch="1">1</a>
+<a href="../marc/ch02.html" data-ch="2">2</a>
+<a href="../marc/ch03.html" data-ch="3">3</a>
+<a href="../marc/ch04.html" data-ch="4">4</a>
+<a href="../marc/ch05.html" data-ch="5">5</a>
+<a href="../marc/ch06.html" data-ch="6">6</a>
+<a href="../marc/ch07.html" data-ch="7">7</a>
+<a href="../marc/ch08.html" data-ch="8">8</a>
+<a href="../marc/ch09.html" data-ch="9">9</a>
+<a href="../marc/ch10.html" data-ch="10">10</a>
+<a href="../marc/ch11.html" data-ch="11">11</a>
+<a href="../marc/ch12.html" data-ch="12">12</a>
+<a href="../marc/ch13.html" data-ch="13">13</a>
+<a href="../marc/ch14.html" data-ch="14">14</a>
+<a href="../marc/ch15.html" data-ch="15">15</a>
+<a href="../marc/ch16.html" data-ch="16">16</a>
+</div></details>
+<details class="livre-group" data-livre="luc"><summary><span class="abr">Lc</span> <span class="nom">Évangile de saint Luc</span></summary>
+<div class="chap-list">
+<a href="../luc/index.html" data-ch="0">Préface</a>
+<a href="../luc/ch01.html" data-ch="1">1</a>
+<a href="../luc/ch02.html" data-ch="2">2</a>
+<a href="../luc/ch03.html" data-ch="3">3</a>
+<a href="../luc/ch04.html" data-ch="4">4</a>
+<a href="../luc/ch05.html" data-ch="5">5</a>
+<a href="../luc/ch06.html" data-ch="6">6</a>
+<a href="../luc/ch07.html" data-ch="7">7</a>
+<a href="../luc/ch08.html" data-ch="8">8</a>
+<a href="../luc/ch09.html" data-ch="9">9</a>
+<a href="../luc/ch10.html" data-ch="10">10</a>
+<a href="../luc/ch11.html" data-ch="11">11</a>
+<a href="../luc/ch12.html" data-ch="12">12</a>
+<a href="../luc/ch13.html" data-ch="13">13</a>
+<a href="../luc/ch14.html" data-ch="14">14</a>
+<a href="../luc/ch15.html" data-ch="15">15</a>
+<a href="../luc/ch16.html" data-ch="16">16</a>
+<a href="../luc/ch17.html" data-ch="17">17</a>
+<a href="../luc/ch18.html" data-ch="18">18</a>
+<a href="../luc/ch19.html" data-ch="19">19</a>
+<a href="../luc/ch20.html" data-ch="20">20</a>
+<a href="../luc/ch21.html" data-ch="21">21</a>
+<a href="../luc/ch22.html" data-ch="22">22</a>
+<a href="../luc/ch23.html" data-ch="23">23</a>
+<a href="../luc/ch24.html" data-ch="24">24</a>
+</div></details>
+</details></nav>
+    <div class="sidebar-foot">
+      <a href="../biblio.html">Bibliographie</a>
+      <a href="../recherche.html">Recherche</a>
+      <button class="theme-toggle" title="Thème clair / sombre"><span class="theme-icon">☾</span></button>
+    </div>
+  </aside>
+
+  <main class="main main-wide">
+    <p class="breadcrumb">
+      <a href="../index.html">Bible de Sacy</a> › <span class="breadcrumb-livre"></span>
+    </p>
+
+    <header class="chapter-header">
+      <p class="livre"></p>
+      <h1></h1>
+      <h2></h2>
+      <div class="chapter-actions">
+        <button class="btn" id="latin-toggle">Afficher le latin</button>
+        <a class="btn lien-pages" href="#" hidden>📄 Page à page</a>
+        <a class="btn lien-facs" href="#" target="_blank" rel="noopener">📖 Fac-similé</a>
+      </div>
+    </header>
+
+    <div class="chapitre-columns">
+      <section class="col-francais" aria-label="Texte français"></section>
+      <section class="col-commentaire" aria-label="Commentaire">
+        <p class="col-label">Notes de la <em>Bible de Sacy</em></p>
+        <div class="commentaire-texte"></div>
+      </section>
+      <section class="col-litteral" aria-label="Sens littéral" hidden>
+        <p class="col-label">
+          <span>Sens littéral</span>
+          <span class="sens-toggle">
+            <button class="btn sens-btn active" data-sens="litteral">Littéral</button>
+            <button class="btn sens-btn" data-sens="spirituel">Spirituel</button>
+          </span>
+        </p>
+        <div class="litteral-texte"></div>
+      </section>
+      <section class="col-spirituel" aria-label="Sens spirituel" hidden>
+        <p class="col-label">Sens spirituel</p>
+        <div class="spirituel-texte"></div>
+      </section>
+    </div>
+
+    <nav class="chapter-nav">
+      <a class="nav-prev" href="#">←</a>
+      <span class="chapitre-num"></span>
+      <a class="nav-next" href="#">→</a>
+    </nav>
+  </main>
+</div>
+
+<script src="../render.js"></script>
+</body>
+</html>

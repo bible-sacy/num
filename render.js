@@ -1,4 +1,4 @@
-const SACY_PUBLISHED = ["luc"];
+const SACY_PUBLISHED = ["luc", "marc"];
 // render.js — moteur de rendu commun (accueil, sommaire, chapitres, pages-livres, recherche)
 
 (function () {
@@ -709,8 +709,9 @@ function renderPage(data) {
   const base = siteBase();
   SACY_CURRENT_BOOK = { slug: meta.livre, fr: meta.livreFr };
   const abr = meta.livreAbr || meta.livreFr;
-  document.title = `${abr} — p. ${page.p} — Bible de Sacy`;
-  setText('.breadcrumb-livre', `${abr} · page ${page.p}`);
+  const lab = typeof page.imprime === 'string' ? page.imprime : page.p;     // chiffre romain pour les pages liminaires
+  document.title = `${abr} — p. ${lab} — Bible de Sacy`;
+  setText('.breadcrumb-livre', `${abr} · page ${lab}`);
 
   const img = document.querySelector('.pf-image img');
   if (img) { img.src = meta.imageUrl; img.alt = `Scan de la page ${page.p}`; }
@@ -720,17 +721,17 @@ function renderPage(data) {
   if (sacy) sacy.href = `https://bible.sacy.be/#/${meta.facSlug}/${page.p}`;
 
   const chRef = (ch, n) => `ch${pad2(ch)}.html${n ? '#v' + n : ''}`;
-  const impr = (page.imprime && page.imprime !== page.p)
+  const impr = (page.imprime && typeof page.imprime !== 'string' && page.imprime !== page.p)
     ? ` <span class="pf-imprime" title="Numéro imprimé sur la page : ${page.imprime}">(imprimée « ${page.imprime} »)</span>` : '';
-  setText('.pf-num', `Page ${page.p}`);
+  setText('.pf-num', `Page ${lab}`);
   const numEl = document.querySelector('.pf-num');
   if (numEl && impr) numEl.insertAdjacentHTML('beforeend', impr);
 
   document.querySelectorAll('.pf-prev').forEach(a => {
-    if (meta.prev) { a.href = `page-${meta.prev}.html`; a.textContent = `← p. ${meta.prev}`; } else a.style.visibility = 'hidden';
+    if (meta.prev != null) { a.href = `page-${meta.prev}.html`; a.textContent = `← p. ${meta.prevLabel ?? meta.prev}`; } else a.style.visibility = 'hidden';
   });
   document.querySelectorAll('.pf-next').forEach(a => {
-    if (meta.next) { a.href = `page-${meta.next}.html`; a.textContent = `p. ${meta.next} →`; } else a.style.visibility = 'hidden';
+    if (meta.next != null) { a.href = `page-${meta.next}.html`; a.textContent = `p. ${meta.nextLabel ?? meta.next} →`; } else a.style.visibility = 'hidden';
   });
 
   const parts = [];
@@ -776,8 +777,8 @@ function renderPage(data) {
 
   document.addEventListener('keydown', e => {
     if (e.target.matches('input, textarea')) return;
-    if (e.key === 'ArrowLeft' && meta.prev) location.href = `page-${meta.prev}.html`;
-    if (e.key === 'ArrowRight' && meta.next) location.href = `page-${meta.next}.html`;
+    if (e.key === 'ArrowLeft' && meta.prev != null) location.href = `page-${meta.prev}.html`;
+    if (e.key === 'ArrowRight' && meta.next != null) location.href = `page-${meta.next}.html`;
   });
   setupCrosslinks();
   highlightSidebarCurrent(meta.livre, page.chapitre === 0 ? null : page.chapitre);

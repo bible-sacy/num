@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><!-- rempli par render.js --></title>
+  <link rel="stylesheet" href="../style.css">
+  <script>
+    (function(){ document.documentElement.setAttribute('data-theme', localStorage.getItem('sacy-theme')||'light'); })();
+  </script>
+  <script src="../search-index.js"></script>
+  <script>
+  const SACY_DATA = {
+  "meta": {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 10,
+    "chapTotal": 16,
+    "titre": "Mariage indissoluble. Petits enfans. Conseils de perfection. Salut des riches difficile. Centuple promis. Passion prédite. Demande des enfans de Zébedée. Domination interdite. Aveugle de Jéricho.",
+    "pageFacs": 125,
+    "pageView": true,
+    "chapitresDisponibles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "facsimile": {
+      "slug": "marc",
+      "page": 125
+    }
+  },
+  "versets": [
+    {
+      "n": 1,
+      "p": 125,
+      "lat": "Et inde exurgens venit in fines Judææ ultra Jordanem : & conveniunt iterùm turbæ ad eum ; & sicut consueverat, iterùm docebat illos.",
+      "fr": "JESUS étant parti de ce lieu , vint aux confins de la Judée par le pays qui est * au-delà du Jourdain : & le peuple s'étant encore assemblé auprès de lui , il recommença aussi à les instruire selon sa coutume.",
+      "note": "",
+      "marges": [
+        "Matt. 19. 1."
+      ],
+      "nb": [
+        "℣. 1. autr. le long."
+      ]
+    },
+    {
+      "n": 2,
+      "p": 125,
+      "lat": "Et accedentes Pharisæi interrogabant eum : Si licet viro uxorem dimittere , tentantes eum.",
+      "fr": "Les Pharisiens y étant venus , lui demandèrent pour le tenter : Est-il permis à un homme de renvoyer sa femme ?",
+      "note": ""
+    },
+    {
+      "n": 3,
+      "p": 125,
+      "lat": "At ille respondens , dixit eis : Quid vobis præcepit Moyses ?",
+      "fr": "Mais il leur répondit : Que vous a ordonné Moyse ?",
+      "note": ""
+    },
+    {
+      "n": 4,
+      "p": 125,
+      "lat": "Qui dixerunt : Moyses permisit libellum repudii scribere , & dimittere.",
+      "fr": "Ils lui répartirent : * Moyse a permis de renvoyer sa femme , en lui donnant un écrit , par lequel on déclare qu'on la répudie.",
+      "note": "",
+      "marges": [
+        "Deut. 24. 1."
+      ],
+      "nb": [
+        "℣. 4. lettr. Moyse a ordonné qu'on écrivît un acte de répudiation , & qu'on la laissât."
+      ]
+    },
+    {
+      "n": 5,
+      "p": 125,
+      "lat": "Quibus respondens Jesus , ait : Ad duritiam cordis vestri scripsit vobis præceptum istud.",
+      "fr": "JESUS leur dit : c'est à cause de la dureté de votre cœur qu'il vous a fait cette ordonnance.",
+      "note": ""
+    },
+    {
+      "n": 6,
+      "p": 125,
+      "lat": "Ab initio autem creaturæ , masculum & fœminam fecit eos Deus.",
+      "fr": "Mais dès le commencement * que le monde fut créé , Dieu forma un homme & une femme.",
+      "note": "",
+      "marges": [
+        "Genes. 1. 27."
+      ],
+      "nb": [
+        "℣. 6. lettr. de la création."
+      ]
+    },
+    {
+      "n": 7,
+      "p": 125,
+      "lat": "Propter hoc relinquet homo patrem suum & matrem , & adhærebit ad uxorem suam :",
+      "fr": "C'est pourquoi l'homme quittera son père & sa mère , & demeurera avec sa femme ,",
+      "note": "",
+      "marges": [
+        "Genes. 6. 24.",
+        "Matt. 19. 5."
+      ]
+    },
+    {
+      "n": 8,
+      "p": 125,
+      "lat": "& erunt duo in carne una. Itaque jam non sunt duo , sed una caro.",
+      "fr": "* & ils ne seront tous deux qu'une seule chair. Ainsi ils ne sont plus deux ; mais une seule chair.",
+      "note": "",
+      "marges": [
+        "1. Cor. 7. 20. & 6. 11.",
+        "Ephes. 5. 31."
+      ],
+      "nb": [
+        "℣. 8. lettr. & ils seront deux dans une seule chair , &c."
+      ]
+    },
+    {
+      "n": 9,
+      "p": 126,
+      "lat": "Quod ergo Deus conjunxit , homo non separet.",
+      "fr": "Que l'homme donc ne sépare point ce que Dieu a joint.",
+      "note": "",
+      "marges": [
+        "1. Cor. 6. 16."
+      ]
+    },
+    {
+      "n": 10,
+      "p": 126,
+      "lat": "Et in domo iterùm discipuli ejus de eodem interrogaverunt eum.",
+      "fr": "Etant dans la maison , ses disciples l'interrogèrent encore sur la même chose.",
+      "note": ""
+    },
+    {
+      "n": 11,
+      "p": 126,
+      "lat": "Et ait illis : Quicumque dimiserit uxorem suam , & aliam duxerit , adulterium committit super eam ?",
+      "fr": "Et il leur dit : * Si un homme quitte sa femme , & en épouse une autre , il commet un adultère à l'égard de sa première femme :",
+      "note": "",
+      "nb": [
+        "℣. 11. autr. Quiconque renvoie sa femme , & en épouse une autre , commet avec elle un adultère."
+      ]
+    },
+    {
+      "n": 12,
+      "p": 126,
+      "lat": "& si uxor dimiserit virum suum , & alii nupserit , mœchatur.",
+      "fr": "& si une femme quitte son mari , & en épouse un autre , elle commet un adultère.",
+      "note": ""
+    },
+    {
+      "n": 13,
+      "p": 126,
+      "lat": "Et offerebant illi parvulos , ut tangeret illos : discipuli autem comminabantur offerentibus :",
+      "fr": "Alors on lui présenta de petits enfans , afin qu'il les touchât , & comme ses disciples repoussoient avec des paroles rudes ceux qui les lui présentoient ;",
+      "note": ""
+    },
+    {
+      "n": 14,
+      "p": 126,
+      "lat": "quos cum videret Jesus , indigne tulit , & ait illis : Sinite parvulos venire ad me , & ne prohibueritis eos ; talium enim est regnum Dei.",
+      "fr": "JESUS les voyant , s'en fâcha , & leur dit : Laissez venir à moi les petits enfans , & ne les empêchez point ; car le royaume de Dieu est pour ceux qui leur ressemblent.",
+      "note": ""
+    },
+    {
+      "n": 15,
+      "p": 126,
+      "lat": "Amen dico vobis : Quisquis non receperit regnum Dei velut parvulus , non intrabit in illud.",
+      "fr": "Je vous dis & je vous en assure , que quiconque ne recevra point le royaume de Dieu comme un enfant , n'y entrera point.",
+      "note": ""
+    },
+    {
+      "n": 16,
+      "p": 126,
+      "lat": "Et complexans eos , & imponens manus super illos , benedicebat eos.",
+      "fr": "* Et les ayant embrassés , il les bénit en leur imposant les mains.",
+      "note": "",
+      "nb": [
+        "℣. 16. autr. Il les embrassa en même temps , & leur imposant les mains , il les bénit."
+      ]
+    },
+    {
+      "n": 17,
+      "p": 126,
+      "lat": "Et cùm egressus esset in viam , procurrens quidam , genu flexo ante eum , rogabat eum : Magister bone , quid faciam ut vitam æternam percipiam ?",
+      "fr": "Comme il sortoit pour se mettre en chemin , une personne accourut , & se mettant à genoux devant lui , lui dit : Bon Maître , que dois-je faire , <em>je vous prie</em> , pour acquérir la vie éternelle ?",
+      "note": "",
+      "marges": [
+        "Matt. 19. 16.",
+        "Luc. 18. 18."
+      ]
+    },
+    {
+      "n": 18,
+      "p": 126,
+      "lat": "Jesus autem dixit ei : Quid me dicis bonum ? Nemo bonus , nisi unus Deus.",
+      "fr": "JESUS lui répondit : Pourquoi m'appellez-vous bon ? * Il n'y a que Dieu seul qui soit bon.",
+      "note": "",
+      "nb": [
+        "℣. 18. lettr. Nul n'est bon que Dieu seul."
+      ]
+    },
+    {
+      "n": 19,
+      "p": 127,
+      "lat": "Præcepta nosti : Ne adulteres : Ne occidas : ne fureris : Ne falsum testimonium dixeris : Ne fraudem feceris : Honora patrem tuum & matrem.",
+      "fr": "Vous savez les commandemens : Vous ne commettrez point d'adultère : Vous ne tuerez point : Vous ne déroberez point : Vous ne porterez point de faux témoignage : Vous ne ferez tort à personne : Honorez votre père & votre mère.",
+      "note": "",
+      "marges": [
+        "Exod. 20. 13."
+      ]
+    },
+    {
+      "n": 20,
+      "p": 127,
+      "lat": "At ille respondens , ait illi : Magister , hæc omnia observavi à juventute mea.",
+      "fr": "Il lui répondit : Maître , j'ai observé toutes ces choses dès ma jeunesse.",
+      "note": ""
+    },
+    {
+      "n": 21,
+      "p": 127,
+      "lat": "Jesus autem intuitus eum , dilexit eum & dixit ei : Unum tibi deest ; vade , quæcumque habes vende , & da pauperibus , & habebis thesaurum in cœlo ; & veni , sequere me.",
+      "fr": "Et JESUS jetant la vue sur lui , l'aima & lui dit : Il vous manque encore une chose : Allez , vendez tout ce que vous avez , donnez-le aux pauvres , & vous aurez un trésor dans le ciel ; puis venez , & me suivez *.",
+      "note": "",
+      "nb": [
+        "℣. 21. gr. vous étant chargé de la croix."
+      ]
+    },
+    {
+      "n": 22,
+      "p": 127,
+      "lat": "Qui contristatus in verbo , abiit mœrens ; erat enim habens multas possessiones.",
+      "fr": "Mais cet homme affligé de ces paroles , s'en alla tout triste , parce qu'il avoit de grands biens.",
+      "note": ""
+    },
+    {
+      "n": 23,
+      "p": 127,
+      "lat": "Et circumspiciens Jesus , ait discipulis suis : Quàm difficilè qui pecunias habent , in regnum Dei introibunt !",
+      "fr": "Alors JESUS regardant autour de lui , dit à ses disciples : Qu'il est difficile que ceux qui ont des richesses entrent dans le royaume de Dieu !",
+      "note": ""
+    },
+    {
+      "n": 24,
+      "p": 127,
+      "lat": "Discipuli autem obstupescebant in verbis ejus. At Jesus rursus respondens , ait illis : Filioli , quàm difficile est , confidentes in pecuniis in regnum Dei introire !",
+      "fr": "Et comme les disciples étoient tout étonnés de ce discours , JESUS ajouta : Mes enfans , qu'il est difficile que ceux qui mettent leur confiance dans les richesses , entrent dans le royaume de Dieu !",
+      "note": ""
+    },
+    {
+      "n": 25,
+      "p": 127,
+      "lat": "Facilius est camelum per foramen acûs transire , quàm divitem intrare in regnum Dei.",
+      "fr": "Il est plus aisé qu'un chameau passe par le trou d'une aiguille , que non pas qu'un riche entre dans le royaume de Dieu.",
+      "note": ""
+    },
+    {
+      "n": 26,
+      "p": 127,
+      "lat": "Qui magis admirabantur , dicentes ad semetipsos : & quis potest salvus fieri ?",
+      "fr": "Ils furent remplis d'un étonnement beaucoup plus grand , & ils * se disoient l'un à l'autre : Et qui peut donc être sauvé ?",
+      "note": "",
+      "nb": [
+        "℣. 26. autr. disoient en eux-mêmes."
+      ]
+    },
+    {
+      "n": 27,
+      "p": 128,
+      "lat": "Et intuens illos Jesus , ait : Apud homines impossibile est , sed non apud Deum ; omnia enim possibilia sunt apud Deum.",
+      "fr": "Mais JESUS les regardant , <em>leur</em> dit : Cela est impossible aux hommes , mais non pas à Dieu ; car toutes choses sont possibles à Dieu.",
+      "note": ""
+    },
+    {
+      "n": 28,
+      "p": 128,
+      "lat": "Et cœpit ei Petrus dicere : Ecce nos dimisimus omnia , & secuti sumus te.",
+      "fr": "Alors Pierre prenant la parole , lui dit : Pour nous vous voyez que nous avons tout quitté , & que nous vous avons suivi.",
+      "note": "",
+      "marges": [
+        "Matt. 19. 29.",
+        "Luc. 18. 28."
+      ]
+    },
+    {
+      "n": 29,
+      "p": 128,
+      "lat": "Respondens Jesus , ait : Amen dico vobis : Nemo est : qui reliquerit domum , aut fratres , aut sorores , aut patrem , aut matrem , aut filios , aut agros , propter me , & propter Evangelium ;",
+      "fr": "JESUS répondit : Je vous dis & je vous en assure , que personne ne quittera pour moi & pour l'Evangile , sa maison , ou ses frères , ou ses sœurs , ou son père , ou sa mère , * ou ses enfans , ou ses terres ,",
+      "note": [
+        {
+          "texte": "<em>Personne ne quittera pour moi & pour l'Evangile, sa maison, ou ses frères... que présentement dans le siècle même, il ne reçoive cent fois autant.... avec des persécutions, &c.</em>",
+          "marges": [],
+          "p": 131
+        },
+        {
+          "texte": "Il y a une grande différence entre la Philosophie & le Christianisme. On peut être aux yeux du monde un grand philosophe, en quittant extérieurement les biens du siècle ; quoiqu'on ne se quitte pas soi-même, & qu'on soit peut-être d'autant plus rempli d'orgueil au-dedans de soi, qu'on s'est dépouillé de plus de choses en apparence. Mais on n'est Chrétien parfait aux yeux de Dieu & de l'Eglise, que lorsqu'on quitte toutes ces choses <em>pour J. C. & pour l'Evangile</em> ; c'est-à-dire, pour imiter J. C. & pour pratiquer les saintes maximes de son Evangile, en se renonçant soi-même, & se consacrant intérieurement à Dieu. Car il est aisé, dit saint Paulin, de quitter des choses qui ne nous sont que purement extérieures, & comme un manteau, ou un habit dont on se dépouille. Mais la grande difficulté est de consacrer à Dieu ce qui est vraiment à nous, c'est-à-dire, notre cœur, notre ame, & notre chair même, en rendant nos corps comme des hosties vivantes pour la gloire du Seigneur. Ce n'est pas que l'Evangile oblige pour être Chrétien, d'abandonner tous ses proches, & tous ses biens, puisqu'on peut être au milieu de ses parens, & dans la possession de ses richesses, très-bon Chrétien, par l'usage évangélique de toutes ces choses. Aussi le même S. Paulin répondant à son ami Sévère Sulpice, qui l'avoit loué d'avoir tout vendu & tout donné pour l'amour de J. C. & qui se blâmoit lui-même de n'en avoir pas ainsi usé, il lui dit ces excellentes paroles : » Considérez, je vous prie, qu'il y a divers par- » tages de grâces, & différentes mesures de dons, qu'un même » Seigneur distribue, comme il lui plaît, à tous les membres de » son corps mystique : & remarquez en même-temps combien<a class=\"page-inline\" href=\"page-132.html\" title=\"p. 132\">‖</a>» vous avez reçu pour votre part, lorsque Dieu vous a donné » le partage de ceux qui ont vécu dans la perfection de la loi, » en possédant de telle sorte les biens de la terre, qu'ils n'en » étoient point possédés eux-mêmes, & n'ayant jamais préféré » l'amour ni de ces biens, ni de leurs proches à l'amour de Dieu, » & à ce qu'ils lui devoient.... Et je ne sai, ajoute ce Saint, » si ce n'est point même l'effet d'une foi plus forte, & d'un » cœur plus ferme & plus constant, d'être, comme vous, au » milieu des feux, sans brûler, & au milieu de tant de piéges, » sans s'y laisser prendre, & de toucher à la poix, sans néan- » moins en être souillé, que de se hâter par un sentiment de » sa foiblesse, d'éloigner de soi des choses auxquelles on crai- » gnoit de s'attacher : » <em>Atque haud scio, an fortioris fidei judicanda sit ista constantia & firmitas tui cordis, qua inter ignes non uréris ; inter laqueos non caperis ; picem tangis, nec inquinaris ; quam eorum, quos tu fortes putas, ego autem infirmiores arbitror judicandos ; quia non credentes infirmitati suæ, festinaverunt alienare omnia, quibus inhærere timuerunt.</em>",
+          "marges": [
+            "Paulin. ep. 2."
+          ],
+          "p": 131
+        },
+        {
+          "texte": "Ce qui est dit ici du précepte évangélique, est d'être prêt de quitter & tous ses biens & tous ses proches, si l'amour de Dieu & notre devoir nous y obligent ; c'est-à-dire, si nous ne pouvons les conserver sans manquer à cet amour & à ce devoir. Et c'étoit-là, selon saint Paulin, la perfection de la loi. Mais la perfection de l'Evangile va plus loin, puisqu'elle porte à tout quitter actuellement pour J. C. comme avoient fait les Apôtres, qui quittèrent tout afin de le suivre, & de prêcher l'Evangile, tant par leurs paroles, que par leur exemple. Or le Fils de Dieu leur promet ici, & à tous ceux qui les auront imités, <em>le centuple</em> de ce qu'ils auront quitté, non-seulement <em>dans le siècle futur</em>, où <em>la vie éternelle</em>, qu'ils recevront, réparera d'une manière infinie la perte de toutes ces choses ; mais dès-à-présent <em>dans ce siècle même</em>, pour les raisons que l'on a marquées en expliquant ces mêmes paroles de J. C. dans saint Matthieu.",
+          "marges": [
+            "Matt. 19. 27."
+          ],
+          "p": 132
+        },
+        {
+          "texte": "Saint Marc rapporte en ce lieu une parole très-remarquable du Sauveur, lorsqu'après avoir déclaré que ceux qui auront quitté toutes choses pour son amour, en recevront le centuple dès ce monde, il ajoute : <em>avec des persécutions.</em> Comme les disciples du Fils de Dieu, entendant parler de récompense au centuple dès cette vie, auroient pu avoir en vue ces récompenses temporelles, en abandonnant toutes choses pour le suivre, & se promettre ici-bas une espèce de félicité humaine & terrestre ; il leur apprend en leur parlant aussitôt <em>de persécutions</em>, qu'ils ne <a class=\"page-inline\" href=\"page-133.html\" title=\"p. 133\">‖</a>devoient nullement se proposer dans son service de jouir ici d'une vie calme, & d'une paix de Philosophe. Le centuple qu'il leur promet se doit donc entendre principalement des biens spirituels, des consolations intérieures, & de la joie toute sainte qui se goûte dans la charité qui unit ensemble les vrais serviteurs de Dieu ; & non des richesses & des plaisirs de la terre, qui sont le partage de ceux qui aiment le siècle. Car la parole de saint Paul, qui nous assure que <em>tous ceux qui veulent vivre avec piété en J. C. souffriront persécution</em>, se vérifiera dans tous les siècles. Et le même Apôtre nous exhortant de jeter les yeux sur J. C. <em>comme sur l'auteur & le consommateur de la foi</em>, ajoute, selon le texte grec : <em>Qu'au lieu de la joie & du bonheur dont il pouvoit jouir, il a souffert la croix, en méprisant la honte & l'ignominie.</em>",
+          "marges": [
+            "1. Tim. 3. 12.",
+            "Hebr. 12. 2."
+          ],
+          "p": 132
+        },
+        {
+          "texte": "Si donc le Sauveur nous promet dès la vie présente, dans le sens qu'on l'a marqué, le centuple de ce que nous aurons quitté pour l'amour de lui, il nous promet en même-temps des persécutions, comme la récompense même de notre foi, qui nous aura fait renoncer à toutes ces choses. Car comme la gloire du Chrétien est d'être conforme à l'image du Fils de Dieu ; & qu'il est dit du Fils de Dieu dans un Prophète, <em>Qu'il a été rassasié d'opprobres</em> ; aussi un Chrétien doit mettre sa gloire dans ses souffrances, afin que plus il aura pris de part à la croix de J. C. plus il participe un jour à sa gloire : <em>Si compatimur, ut & conglorificemur.</em> Ainsi plus Dieu lui présente d'occasions de souffrir, plus il récompense en quelque sorte sa piété, qui lui a fait tout quitter pour l'amour de lui, puisqu'il multiplie en même-temps ses couronnes. C'est-là sans doute <em>un centuple</em>, connu de peu de personnes, & encore moins goûté. Mais saint Paul le connoissoit & le goûtoit parfaitement lorsqu'il disoit : <em>Nous nous glorifions même dans nos différentes afflictions, sachant que l'affliction produit la patience, la patience l'épreuve, & l'épreuve l'espérance.</em>",
+          "marges": [
+            "Lament. 3. 30.",
+            "Rom. 8. 17.",
+            "Rom. 5. 3."
+          ],
+          "p": 133
+        }
+      ],
+      "noteVersets": [
+        29,
+        30
+      ],
+      "nb": [
+        "℣. 29. gr. ou sa femme."
+      ]
+    },
+    {
+      "n": 30,
+      "p": 128,
+      "lat": "qui non accipiat centies tantum , nunc in tempore hoc , domos , & fratres , & sorores , & matres , & filios , & agros , cum persecutionibus , & in sæculo futuro vitam æternam.",
+      "fr": "que présentement dans ce siècle même il ne reçoive cent fois autant de maisons , de frères , de sœurs , de mères , d'enfans , & de terres * , avec des persécutions , & dans le siècle à venir la vie éternelle.",
+      "note": "",
+      "nb": [
+        "℣. 30. autr. au milieu même des persécutions."
+      ]
+    },
+    {
+      "n": 31,
+      "p": 128,
+      "lat": "Multi autem erunt primi novissimi , & novissimi primi.",
+      "fr": "Mais plusieurs de ceux qui auront été les premiers , seront les derniers ; & <em>plusieurs de</em> ceux qui auront été les derniers , seront les premiers.",
+      "note": "",
+      "marges": [
+        "Matt. 19. 30."
+      ]
+    },
+    {
+      "n": 32,
+      "p": 128,
+      "lat": "Erant autem in via ascendentes Jerosolymam , & præcedebat illos Jesus , & stupebant , & sequentes timebant. Et assumens iterùm duodecim , cœpit illis dicere quæ essent ei eventura.",
+      "fr": "Lorsqu'ils étoient en chemin * pour aller à Jérusalem , JESUS marchoit devant eux , & ils étoient tout étonnés , & le suivoient saisis de crainte. Et JESUS prenant à part de nouveau les douze <em>disciples</em> , commença à leur dire ce qui lui devoit arriver.",
+      "note": [
+        {
+          "texte": "<em>Lorsqu'ils étoient en chemin pour aller à Jérusalem, JESUS marchoit devant eux, & ils étoient tout étonnés, & le suivoient saisis de crainte. Et JESUS prenant à part de nouveau les douze disciples, commença à leur dire ce qui lui devoit arriver.</em>",
+          "marges": [],
+          "p": 133
+        },
+        {
+          "texte": "On a vu auparavant, que le Fils de Dieu avoit déjà averti ses Apôtres qu'il devoit être livré entre les mains des hommes, & mis à mort, & ressusciter le troisième jour. Ainsi ce que dit S. Marc en ce lieu, qu'il <em>commença à leur dire ce qui lui devoit arriver</em>, est seulement une manière de parler, qui ne signifie autre chose, sinon que JESUS les entretenoit de ce qui lui arriveroit dans Jérusalem. Il prenoit toujours le temps qu'ils étoient seuls, pour leur <a class=\"page-inline\" href=\"page-134.html\" title=\"p. 134\">‖</a>parler de ce grand mystère, qui étoit beaucoup au-dessus de la portée du commun du peuple. Et c'est pour cette raison qu'il est dit ici, Que JESUS <em>prit encore à part les douze</em> disciples pour leur en parler. Un ancien Auteur a remarqué, Que JESUS <em>marchoit devant eux</em>, allant à Jérusalem pour y mourir ; & <em>qu'eux le suivoient tout étonnés & saisis de crainte</em> ; parce, dit-il, qu'il vouloit leur faire connoître que c'étoit volontairement qu'il alloit où il savoit bien qu'il devoit souffrir la mort. Il marchoit donc à leur tête comme leur chef, & comme chef intrépide. Les Apôtres au contraire le <em>suivoient</em>, n'allant sans doute en Judée qu'avec peine, comme en un lieu où les Juifs avoient conspiré sa mort. C'est pourquoi même il est dit, qu'ils étoient saisis <em>d'étonnement</em> & de crainte. Car ils ne pouvoient assez admirer, comme dit un Interprète, cette grandeur d'ame & cette force extraordinaire d'esprit, avec laquelle il alloit ainsi s'exposer à une mort très-certaine. Et ils craignoient, selon la pensée du pieux Bede, ou d'être eux-mêmes tués aussi avec lui, ou au moins d'être privés tout-d'un-coup de la présence de celui qui étoit alors toute leur consolation & tout leur soutien. <em>Ecce</em>, leur dit-il, <em>ascendimus Jerosolymam</em> ; c'est-à-dire : Voici pour la dernière fois que nous allons à Jérusalem ; parce que c'est là que le Fils de l'homme doit mourir, comme je vous l'ai déjà prédit. Mais si vous êtes étonnés des <em>outrages</em>, & de <em>la mort</em> que les Princes des Prêtres, les Docteurs & les Sénateurs <em>lui feront souffrir</em>, envisagez aussitôt la gloire de sa prompte <em>résurrection</em>. Et concevez bien que celui qui aura le pouvoir de <em>ressusciter le troisième jour</em>, pourroit bien plus aisément empêcher sa mort, si lui-même ne vouloit mourir, & procurer en mourant le salut des hommes. Envisageons donc aussi nous autres, au milieu des confusions & des souffrances, qui sont comme inséparables de sa piété, la résurrection de J. C. comme l'image & le gage de la nôtre. N'allons pas à Jérusalem avec frayeur, comme les Apôtres y alloient alors ; mais allons-y avec joie & avec confiance, pourvu que nous <em>suivions</em> véritablement J. C. Car ceux qui le suivent ne doivent point être étonnés de sa croix & de ses souffrances, lorsqu'ils envisagent ce <em>poids éternel d'une souveraine & incomparable gloire, que doit produire en nous</em>, comme dit saint Paul, <em>le moment si court & si léger des afflictions que nous souffrons en cette vie.</em>",
+          "marges": [
+            "cap. 9. 30.",
+            "Theoph. in hunc locum.",
+            "Grotius.",
+            "Bed. in hunc loc.",
+            "1. Cor. 4. 17."
+          ],
+          "p": 133
+        }
+      ],
+      "marges": [
+        "Suprà 9. 30.",
+        "Luc. 18. 31."
+      ],
+      "nb": [
+        "℣. 32. lettr. montant."
+      ]
+    },
+    {
+      "n": 33,
+      "p": 128,
+      "lat": "Quia ecce ascendimus Jerosolymam , & filius hominis tradetur Principibus Sacerdotum , & Scribis , & Senioribus , & <a class=\"page-inline\" href=\"page-129.html\" title=\"p. 129\">‖</a>damnabunt eum morte , & tradent eum gentibus ;",
+      "fr": "Nous allons , comme vous voyez , à Jérusalem ; & le Fils de l'homme sera livré aux Princes des Prêtres , aux Scribes & aux Sénateurs ; ils le condamneront à la <a class=\"page-inline\" href=\"page-129.html\" title=\"p. 129\">‖</a>mort , & ils le livreront aux Gentils ;",
+      "note": ""
+    },
+    {
+      "n": 34,
+      "p": 129,
+      "lat": "& illudent ei , & conspuent eum , & flagellabunt eum , & interficient eum ; & tertiâ die resurget.",
+      "fr": "ils le traiteront avec moquerie & avec outrage ; ils lui cracheront au visage ; ils le fouetteront ; ils le feront mourir ; & il ressuscitera le troisième jour.",
+      "note": ""
+    },
+    {
+      "n": 35,
+      "p": 129,
+      "lat": "Et accedunt ad eum Jacobus & Joannes filii Zebedæi , dicentes : Magister , volumus ut quodcumque petierimus , facias nobis.",
+      "fr": "Alors Jacques & Jean fils de Zébedée , vinrent à lui , & lui dirent : Maître , nous * voudrions bien que vous fissiez pour nous tout ce que nous vous demanderons.",
+      "note": "",
+      "marges": [
+        "Matt. 20. 20."
+      ],
+      "nb": [
+        "℣. 35. lettr. voulons que vous fassiez pour nous."
+      ]
+    },
+    {
+      "n": 36,
+      "p": 129,
+      "lat": "At ille dixit illis : Quid vultis ut faciam vobis ?",
+      "fr": "Il leur répondit : Que voulez-vous que je fasse pour vous ?",
+      "note": ""
+    },
+    {
+      "n": 37,
+      "p": 129,
+      "lat": "Et dixerunt : Da nobis , ut unus ad dexteram tuam , & alius ad sinistram tuam , sedeamus in gloria tua.",
+      "fr": "Accordez-nous , lui dirent-ils , que dans votre gloire nous soyons assis , l'un à votre droite , & l'autre à votre gauche.",
+      "note": ""
+    },
+    {
+      "n": 38,
+      "p": 129,
+      "lat": "Jesus autem ait eis : Nescitis quid petatis. Potestis bibere calicem quem ego bibo ; aut baptismo , quo ego baptizor , baptizari ?",
+      "fr": "Mais JESUS leur répondit : Vous ne savez ce que vous demandez. Pouvez-vous boire le calice que je * dois boire , & être baptisés du baptême dont je * dois être baptisé ?",
+      "note": "",
+      "nb": [
+        "℣. 38. lettr. bois. = Ibid. lettr. suis baptisé."
+      ]
+    },
+    {
+      "n": 39,
+      "p": 129,
+      "lat": "At illi dixerunt ei : Possumus. Jesus autem ait eis : Calicem quidem , quem ego bibo , bibetis ; & baptismo , quo ego baptizor , baptizabimini :",
+      "fr": "Ils lui dirent : Nous le pouvons. Et JESUS répartit : Vous boirez en effet le calice que je dois boire , & vous serez baptisés du bap- du baptême dont je dois être baptisé :",
+      "note": ""
+    },
+    {
+      "n": 40,
+      "p": 129,
+      "lat": "sedere autem ad dexteram meam , vel ad sinistram , non est meum dare vobis , sed quibus paratum est ;",
+      "fr": "mais pour ce qui est d'être assis à ma droite ou à ma gauche , ce n'est point à moi à vous le donner ; mais ce sera pour ceux à qui il a été préparé.",
+      "note": ""
+    },
+    {
+      "n": 41,
+      "p": 129,
+      "lat": "Et audientes decem , cœperunt indignari de Jacobo , & Joanne.",
+      "fr": "Et les dix <em>autres Apôtres</em> ayant entendu ceci , en conçurent de l'indignation contre Jacques & Jean.",
+      "note": ""
+    },
+    {
+      "n": 42,
+      "p": 129,
+      "lat": "Jesus autem vocans eos , ait illi : Scitis quia hi , <a class=\"page-inline\" href=\"page-130.html\" title=\"p. 130\">‖</a>qui videntur principari gentibus , dominantur eis ; & Principes eorum potestatem habent ipsorum.",
+      "fr": "C'est pourquoi JESUS les appelant à lui , leur dit : Vous savez <a class=\"page-inline\" href=\"page-130.html\" title=\"p. 130\">‖</a>que ceux qui ont l'autorité de commander aux peuples , exercent une domination sur eux , & que leurs princes les traitent avec empire.",
+      "note": "",
+      "marges": [
+        "Luc. 22. 25."
+      ]
+    },
+    {
+      "n": 43,
+      "p": 130,
+      "lat": "Non ita est autem in vobis ; sed quicumque voluerit fieri major , erit vester minister :",
+      "fr": "Il n'en doit pas être de même parmi vous ; mais si quelqu'un veut y devenir le plus grand , il faut qu'il soit * prêt à vous servir :",
+      "note": "",
+      "nb": [
+        "℣. 43. Minister , qui est moins que servus ; du verset suivant."
+      ]
+    },
+    {
+      "n": 44,
+      "p": 130,
+      "lat": "& quicumque voluerit in vobis primus esse , erit omnium servus.",
+      "fr": "* & quiconque voudra être le premier d'entre vous , doit être le serviteur de tous.",
+      "note": "",
+      "nb": [
+        "℣. 44. autr. & si quelqu'un veut être le premier d'entre vous , il faut qu'il soit l'esclave de tous."
+      ]
+    },
+    {
+      "n": 45,
+      "p": 130,
+      "lat": "Nam & Filius hominis non venit ut ministraretur ei , sed ut ministraret , & daret animam suam redemptionem pro multis.",
+      "fr": "Car le Fils de l'homme même n'est pas venu pour être servi , mais pour servir , & donner sa vie pour la rédemption de plusieurs.",
+      "note": ""
+    },
+    {
+      "n": 46,
+      "p": 130,
+      "lat": "Et veniunt Jericho , & proficiscente eo de Jericho , & discipulis ejus , & plurimâ multitudine , filius Timæi Bartimæus cæcus , sedebat juxta viam mendicans ,",
+      "fr": "Après cela ils vinrent à Jéricho : & comme il sortoit de Jéricho avec ses disciples , suivi d'une grande troupe de peuple , un aveugle nommé Bartimée , fils de Timée , qui étoit assis sur le chemin pour demander l'aumône ,",
+      "note": "",
+      "marges": [
+        "Matt. 20. 29.",
+        "Luc. 18. 35."
+      ]
+    },
+    {
+      "n": 47,
+      "p": 130,
+      "lat": "qui cùm audisset quia Jesus Nazarenus est , cœpit clamare , & dicere : Jesu fili David , miserere meî.",
+      "fr": "ayant appris que c'étoit JESUS de Nazareth , se mit à crier : JESUS fils de David , ayez pitié de moi.",
+      "note": ""
+    },
+    {
+      "n": 48,
+      "p": 130,
+      "lat": "Et comminabantur ei multi ut taceret : at ille multò magis clamabat : Fili David , miserere meî.",
+      "fr": "Et plusieurs le reprenoient rudement , & lui disoient qu'il se tût ; mais il crioit encore beaucoup plus haut : Fils de David , ayez pitié de moi.",
+      "note": ""
+    },
+    {
+      "n": 49,
+      "p": 130,
+      "lat": "Et stans Jesus præcepit illum vocari. Et vocant cæcum , dicentes ei : Animæquior esto , surge , vocat te.",
+      "fr": "Alors JESUS s'étant arrêté , commanda qu'on l'appelât. Et quelques-uns appelèrent l'aveugle , lui disant : Ayez bonne espérance , levez-vous , il vous appelle.",
+      "note": ""
+    },
+    {
+      "n": 50,
+      "p": 130,
+      "lat": "Qui projecto vestimento suo , exiliens venit ad eum.",
+      "fr": "Aussitôt il jeta son manteau , & se levant il vint à JESUS.",
+      "note": ""
+    },
+    {
+      "n": 51,
+      "p": 131,
+      "lat": "Et respondens Jesus dixit illi : Quid tibi vis faciam ? Cæcus autem dixit ei : Rabboni, ut videam.",
+      "fr": "Et JESUS lui dit : Que voulez-vous que je vous fasse ? L'aveugle lui répondit : Maître, <em>faites</em> que je voie.",
+      "note": ""
+    },
+    {
+      "n": 52,
+      "p": 131,
+      "lat": "Jesus autem ait illi : Vade, fides tua te salvum fecit. Et confestim vidit, & sequebatur eum in via.",
+      "fr": "Allez, lui dit JESUS, votre foi vous a sauvé. Et il vit au même instant, & il suivoit JESUS dans le chemin.",
+      "note": [
+        {
+          "texte": "<em>Alors JESUS lui dit : Votre foi vous a sauvé. Et il vit au même instant, & il suivoit JESUS dans le chemin.</em>",
+          "marges": [],
+          "p": 134
+        },
+        {
+          "texte": "On a déjà expliqué dans saint Matthieu l'histoire de la guérison de cet aveugle ; & on a tâché de concilier autant qu'on a <a class=\"page-inline\" href=\"page-135.html\" title=\"p. 135\">‖</a>pu ce qu'il y a de différent dans les trois Evangélistes qui en ont parlé. Il suffit donc d'éclaircir ici deux ou trois circonstances particulières qui n'ont point été touchées ailleurs. On voit en différentes occasions, que le Fils de Dieu guérissant quelque malade, lui disoit cette parole, <em>Votre foi vous a sauvé</em> ; parce qu'ordinairement lorsqu'il en vouloit guérir quelqu'un, il lui inspiroit cette foi vive, qui lui faisoit espérer d'être guéri. Et ainsi sa guérison étoit doublement un don de Dieu ; puisqu'elle étoit un fruit de sa foi, & que sa foi étoit elle-même une grâce du Seigneur. Mais elle paroît d'une manière toute singulière dans cet aveugle nommé Bartimée, & c'étoit avec beaucoup de raison qu'elle méritoit l'éloge de J. C. Car si l'on se représente ce que l'on a dit sur saint Matthieu, que cet aveugle étoit d'abord, selon saint Luc, le long du chemin par où passa le Sauveur avant que d'entrer dans Jéricho ; & que n'ayant pu obtenir cette première fois sa guérison, il alla se mettre de l'autre côté de Jéricho, où JESUS devoit passer au sortir de cette ville, pour aller à Jérusalem ; & si l'on considère de plus la persévérance avec laquelle il cria, & redoubla même ses cris à mesure qu'on s'efforçoit davantage de lui imposer silence, on sera très-convaincu que sa foi étoit vraiment grande, & méritoit bien que J. C. s'arrêtât pour l'exaucer en le guérissant. C'étoit donc véritablement, comme le dit le Sauveur, <em>sa foi</em> qui <em>l'avoit sauvé</em>. Car ce fut à la grandeur de sa foi qu'il voulut accorder sa guérison : au lieu que d'autres malades étoient quelquefois guéris par un effet de la foi de ceux qui le présentoient.",
+          "marges": [
+            "Matth. 20. 29. &c.",
+            "Luc. 18. 35."
+          ],
+          "p": 134
+        },
+        {
+          "texte": "Secondement, il est remarquable que l'Evangile dit de cet aveugle, que J. C. s'étant arrêté pour l'appeler, <em>il jeta</em> aussitôt <em>son manteau</em>, pour pouvoir venir le trouver plus vîte. Car il y a des obstacles qui nous empêchent de courir à J. C. lorsqu'il nous appelle. Et c'est souvent un des effets les plus sensibles de la foi vive qui accompagne la grâce par laquelle Dieu nous invite intérieurement à son service ; de nous inspirer, comme à cet aveugle, une grande ardeur pour nous dépouiller de ce qui pourroit nous retarder, & ralentir notre course vers celui qui nous appelle.",
+          "marges": [],
+          "p": 135
+        },
+        {
+          "texte": "En troisième lieu, il est dit de cet aveugle, qu'aussitôt qu'il fut guéri, il se mit à <em>suivre</em> le Fils de Dieu <em>dans le chemin</em> ; c'est-à-dire, qu'il fit connoître sa guérison, en se conduisant alors lui-même, au lieu qu'il avoit besoin auparavant d'un conducteur, & marchant après son suprême médecin, par un effet de son humble reconnoissance, qui le portoit à publier le miracle <a class=\"page-inline\" href=\"page-136.html\" title=\"p. 136\">‖</a>par lequel il avoit été guéri, & à s'attacher à son bienfaiteur. Telle est l'image très-naturelle de la disposition qui se doit aussi rencontrer dans les aveugles spirituels, que la lumière de la vérité, & la grâce du Fils de Dieu a éclairés d'une manière beaucoup plus miraculeuse, quoiqu'invisible. Ils étoient aveugles ; parce qu'ils étoient privés de la vraie lumière des ames, qui est le Verbe fait homme, pour éclairer tous les hommes. Mais après que J. C. par sa grâce leur a rendu la lumière spirituelle qu'ils avoient perdue, ils commencent alors à le suivre comme leur chef & leur modèle. Et comment <em>suivent</em>-ils JESUS ? <em>En marchant dans le chemin</em> où il a marché, Car c'est-là & l'effet, & la marque la plus visible de leur guérison, <em>de marcher</em>, comme dit saint Paul, <em>dans la voie de Dieu, de la manière qu'ils ont appris qu'ils y doivent marcher pour lui plaire.</em> Et c'est, comme il dit encore, en observant les préceptes que J. C. nous a donnés, & en accomplissant la volonté du Seigneur, qu'on marche après lui dans cette voie.",
+          "marges": [
+            "1. Thess. 4. 1."
+          ],
+          "p": 135
+        }
+      ]
+    }
+  ]
+};
+  </script>
+</head>
+<body data-base="../">
+
+<div class="page-shell">
+  <button class="sidebar-open-btn" aria-label="Ouvrir le sommaire">☰</button>
+  <div class="sidebar-backdrop"></div>
+
+  <aside class="sidebar">
+    <div class="sidebar-head">
+      <a class="sidebar-brand" href="../index.html">Bible de Sacy</a>
+      <button class="sidebar-collapse-btn" title="Replier le sommaire">«</button>
+    </div>
+    <div class="sidebar-search">
+      <input type="search" class="sidebar-search-input" placeholder="Rechercher…" autocomplete="off" spellcheck="false">
+      <div class="sidebar-search-results" hidden></div>
+    </div>
+    <nav class="sidebar-tree"><details class="canon-group" open><summary>Nouveau Testament</summary>
+<details class="livre-group" data-livre="marc"><summary><span class="abr">Mc</span> <span class="nom">Évangile de saint Marc</span></summary>
+<div class="chap-list">
+<a href="../marc/index.html" data-ch="0">Préface</a>
+<a href="../marc/ch01.html" data-ch="1">1</a>
+<a href="../marc/ch02.html" data-ch="2">2</a>
+<a href="../marc/ch03.html" data-ch="3">3</a>
+<a href="../marc/ch04.html" data-ch="4">4</a>
+<a href="../marc/ch05.html" data-ch="5">5</a>
+<a href="../marc/ch06.html" data-ch="6">6</a>
+<a href="../marc/ch07.html" data-ch="7">7</a>
+<a href="../marc/ch08.html" data-ch="8">8</a>
+<a href="../marc/ch09.html" data-ch="9">9</a>
+<a href="../marc/ch10.html" data-ch="10">10</a>
+<a href="../marc/ch11.html" data-ch="11">11</a>
+<a href="../marc/ch12.html" data-ch="12">12</a>
+<a href="../marc/ch13.html" data-ch="13">13</a>
+<a href="../marc/ch14.html" data-ch="14">14</a>
+<a href="../marc/ch15.html" data-ch="15">15</a>
+<a href="../marc/ch16.html" data-ch="16">16</a>
+</div></details>
+<details class="livre-group" data-livre="luc"><summary><span class="abr">Lc</span> <span class="nom">Évangile de saint Luc</span></summary>
+<div class="chap-list">
+<a href="../luc/index.html" data-ch="0">Préface</a>
+<a href="../luc/ch01.html" data-ch="1">1</a>
+<a href="../luc/ch02.html" data-ch="2">2</a>
+<a href="../luc/ch03.html" data-ch="3">3</a>
+<a href="../luc/ch04.html" data-ch="4">4</a>
+<a href="../luc/ch05.html" data-ch="5">5</a>
+<a href="../luc/ch06.html" data-ch="6">6</a>
+<a href="../luc/ch07.html" data-ch="7">7</a>
+<a href="../luc/ch08.html" data-ch="8">8</a>
+<a href="../luc/ch09.html" data-ch="9">9</a>
+<a href="../luc/ch10.html" data-ch="10">10</a>
+<a href="../luc/ch11.html" data-ch="11">11</a>
+<a href="../luc/ch12.html" data-ch="12">12</a>
+<a href="../luc/ch13.html" data-ch="13">13</a>
+<a href="../luc/ch14.html" data-ch="14">14</a>
+<a href="../luc/ch15.html" data-ch="15">15</a>
+<a href="../luc/ch16.html" data-ch="16">16</a>
+<a href="../luc/ch17.html" data-ch="17">17</a>
+<a href="../luc/ch18.html" data-ch="18">18</a>
+<a href="../luc/ch19.html" data-ch="19">19</a>
+<a href="../luc/ch20.html" data-ch="20">20</a>
+<a href="../luc/ch21.html" data-ch="21">21</a>
+<a href="../luc/ch22.html" data-ch="22">22</a>
+<a href="../luc/ch23.html" data-ch="23">23</a>
+<a href="../luc/ch24.html" data-ch="24">24</a>
+</div></details>
+</details></nav>
+    <div class="sidebar-foot">
+      <a href="../biblio.html">Bibliographie</a>
+      <a href="../recherche.html">Recherche</a>
+      <button class="theme-toggle" title="Thème clair / sombre"><span class="theme-icon">☾</span></button>
+    </div>
+  </aside>
+
+  <main class="main main-wide">
+    <p class="breadcrumb">
+      <a href="../index.html">Bible de Sacy</a> › <span class="breadcrumb-livre"></span>
+    </p>
+
+    <header class="chapter-header">
+      <p class="livre"></p>
+      <h1></h1>
+      <h2></h2>
+      <div class="chapter-actions">
+        <button class="btn" id="latin-toggle">Afficher le latin</button>
+        <a class="btn lien-pages" href="#" hidden>📄 Page à page</a>
+        <a class="btn lien-facs" href="#" target="_blank" rel="noopener">📖 Fac-similé</a>
+      </div>
+    </header>
+
+    <div class="chapitre-columns">
+      <section class="col-francais" aria-label="Texte français"></section>
+      <section class="col-commentaire" aria-label="Commentaire">
+        <p class="col-label">Notes de la <em>Bible de Sacy</em></p>
+        <div class="commentaire-texte"></div>
+      </section>
+      <section class="col-litteral" aria-label="Sens littéral" hidden>
+        <p class="col-label">
+          <span>Sens littéral</span>
+          <span class="sens-toggle">
+            <button class="btn sens-btn active" data-sens="litteral">Littéral</button>
+            <button class="btn sens-btn" data-sens="spirituel">Spirituel</button>
+          </span>
+        </p>
+        <div class="litteral-texte"></div>
+      </section>
+      <section class="col-spirituel" aria-label="Sens spirituel" hidden>
+        <p class="col-label">Sens spirituel</p>
+        <div class="spirituel-texte"></div>
+      </section>
+    </div>
+
+    <nav class="chapter-nav">
+      <a class="nav-prev" href="#">←</a>
+      <span class="chapitre-num"></span>
+      <a class="nav-next" href="#">→</a>
+    </nav>
+  </main>
+</div>
+
+<script src="../render.js"></script>
+</body>
+</html>

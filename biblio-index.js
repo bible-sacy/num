@@ -14,6 +14,34 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "1. Mach. 2. 41.": {
+    "slug": "1-mach-2-41",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 2,
+        "n": 7
+      }
+    ]
+  },
+  "2. Joan. v. 8.": {
+    "slug": "2-joan-v-8",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 5,
+        "n": 41
+      }
+    ]
+  },
   "2. Pet. 1. 4. 7. 8.": {
     "slug": "2-pet-1-4-7-8",
     "auteur": "",
@@ -53,6 +81,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 24,
         "n": 52
+      }
+    ]
+  },
+  "Agg. 2. 7.": {
+    "slug": "agg-2-7",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 3,
+        "n": 13
       }
     ]
   },
@@ -523,6 +565,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Ambros. de Salom. cap. 5.": {
+    "slug": "ambros-de-salom-cap-5",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 16,
+        "n": 9
+      }
+    ]
+  },
   "Ambros. de fug. secul. c. 7.": {
     "slug": "ambros-de-fug-secul-c-7",
     "auteur": "",
@@ -562,6 +618,48 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 1,
         "n": 34
+      }
+    ]
+  },
+  "Ambros. in Luc. l. 8. c. 17.": {
+    "slug": "ambros-in-luc-l-8-c-17",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 13,
+        "n": 32
+      }
+    ]
+  },
+  "Ambros. in Ps. 36.": {
+    "slug": "ambros-in-ps-36",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 14,
+        "n": 51
+      }
+    ]
+  },
+  "Ambros. in Ps. 43.": {
+    "slug": "ambros-in-ps-43",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 4,
+        "n": 33
       }
     ]
   },
@@ -765,12 +863,33 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Athan. Syn. t. 2. p. 155.": {
+    "slug": "athan-syn-t-2-p-155",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
+  },
   "Athanas. Synops. p. 155.": {
     "slug": "athanas-synops-p-155",
     "auteur": "",
     "oeuvre": "",
     "notice": "",
     "citations": []
+  },
+  "Athanas. contr. Arian. to. 1. orat. 4. p. 493. 494.": {
+    "slug": "athanas-contr-arian-to-1-orat-4-p-493-494",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 13,
+        "n": 32
+      }
+    ]
   },
   "Athanas. epist. ad Epict. to. 1. p. 585.": {
     "slug": "athanas-epist-ad-epict-to-1-p-585",
@@ -814,6 +933,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Aug. de civ. Dei. l. 21. c. 9.": {
+    "slug": "aug-de-civ-dei-l-21-c-9",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 9,
+        "n": 43
+      }
+    ]
+  },
   "Aug. de consens.": {
     "slug": "aug-de-consens",
     "auteur": "",
@@ -832,6 +965,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 1,
         "n": 34
+      }
+    ]
+  },
+  "Aug. de utilit. credend. c. 14.": {
+    "slug": "aug-de-utilit-credend-c-14",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 16,
+        "n": 17
       }
     ]
   },
@@ -1009,6 +1156,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Augus. de Trin. l. 1. c. 12.": {
+    "slug": "augus-de-trin-l-1-c-12",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 13,
+        "n": 32
+      }
+    ]
+  },
   "August.": {
     "slug": "august",
     "auteur": "",
@@ -1149,6 +1310,68 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "August. de conf. Evangel. l. 2. c. 24.": {
+    "slug": "august-de-conf-evangel-l-2-c-24",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 5,
+        "n": 2
+      }
+    ]
+  },
+  "August. de conf. Evangel. l. 2. c. 49.": {
+    "slug": "august-de-conf-evangel-l-2-c-49",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 7,
+        "n": 24
+      }
+    ]
+  },
+  "August. de conf. Evangel. l. 3. c. 24.": {
+    "slug": "august-de-conf-evangel-l-3-c-24",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 16,
+        "n": 5
+      }
+    ]
+  },
+  "August. de conf. Evangel. l. 3. c. 25.": {
+    "slug": "august-de-conf-evangel-l-3-c-25",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 16,
+        "n": 12
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 16,
+        "n": 14
+      }
+    ]
+  },
   "August. de cons. Evang. l. 2. 7.": {
     "slug": "august-de-cons-evang-l-2-7",
     "auteur": "",
@@ -1176,6 +1399,13 @@ const SACY_BIBLIO = {
         "n": 11
       }
     ]
+  },
+  "August. de cons. Evangel.": {
+    "slug": "august-de-cons-evangel",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
   },
   "August. de cons. Evangel. l. 1. c. 1.": {
     "slug": "august-de-cons-evangel-l-1-c-1",
@@ -1387,6 +1617,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "August. de temp. serm. 155. cap. 3.": {
+    "slug": "august-de-temp-serm-155-cap-3",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 5,
+        "n": 30
+      }
+    ]
+  },
   "August. de temp. serm. 61.": {
     "slug": "august-de-temp-serm-61",
     "auteur": "",
@@ -1594,6 +1838,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 11,
         "n": 37
+      }
+    ]
+  },
+  "August. de verb. Domini serm. 1. c. 3.": {
+    "slug": "august-de-verb-domini-serm-1-c-3",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 5,
+        "n": 30
       }
     ]
   },
@@ -1881,6 +2139,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "August. in Psal. 142. 6.": {
+    "slug": "august-in-psal-142-6",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 9,
+        "n": 16
+      }
+    ]
+  },
   "August. in Psal. 146. to. 3. p. 9. c. 8.": {
     "slug": "august-in-psal-146-to-3-p-9-c-8",
     "auteur": "",
@@ -2061,6 +2333,27 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "August. quæstion. Evangel. l. 1. q. 21.": {
+    "slug": "august-qu-stion-evangel-l-1-q-21",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 9,
+        "n": 11
+      }
+    ]
+  },
+  "August. ser. 249. to 3. edit. Bened. p. 998.": {
+    "slug": "august-ser-249-to-3-edit-bened-p-998",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
+  },
   "August. ut supr.": {
     "slug": "august-ut-supr",
     "auteur": "",
@@ -2133,6 +2426,12 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 15,
         "n": 20
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 5,
+        "n": 34
       }
     ]
   },
@@ -2161,6 +2460,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 16,
         "n": 19
+      }
+    ]
+  },
+  "Basil. in Gordium Martyr. tom. 1. 451.": {
+    "slug": "basil-in-gordium-martyr-tom-1-451",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 15,
+        "n": 39
       }
     ]
   },
@@ -2220,6 +2533,13 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Bed. in Marc. 19. 4. p. 92.": {
+    "slug": "bed-in-marc-19-4-p-92",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
+  },
   "Bed. in hunc loc.": {
     "slug": "bed-in-hunc-loc",
     "auteur": "",
@@ -2273,6 +2593,38 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 24,
         "n": 41
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 1,
+        "n": 13
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 4,
+        "n": 33
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 10,
+        "n": 32
+      }
+    ]
+  },
+  "Beda in hunc loc.": {
+    "slug": "beda-in-hunc-loc",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 7,
+        "n": 32
       }
     ]
   },
@@ -2408,6 +2760,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Bernard. de Ascension. Domin. serm. 1. n. 2. 3.": {
+    "slug": "bernard-de-ascension-domin-serm-1-n-2-3",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 16,
+        "n": 18
+      }
+    ]
+  },
   "Bernard. de Virg. Deipar. serm. 1. num. 9.": {
     "slug": "bernard-de-virg-deipar-serm-1-num-9",
     "auteur": "",
@@ -2456,12 +2822,54 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Cap. 1. 21. &c.": {
+    "slug": "cap-1-21-c",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 3,
+        "n": 1
+      }
+    ]
+  },
+  "Cap. 3. 11. 12.": {
+    "slug": "cap-3-11-12",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 1,
+        "n": 23
+      }
+    ]
+  },
   "Chrys. in 1. Tim. hom. 10. p. 610. in Act. hom. 1. p. 2.": {
     "slug": "chrys-in-1-tim-hom-10-p-610-in-act-hom-1-p-2",
     "auteur": "",
     "oeuvre": "",
     "notice": "",
     "citations": []
+  },
+  "Chrys. in Psal. 12.": {
+    "slug": "chrys-in-psal-12",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 14,
+        "n": 51
+      }
+    ]
   },
   "Chrysost. hom. 6. in Matt.": {
     "slug": "chrysost-hom-6-in-matt",
@@ -2490,6 +2898,62 @@ const SACY_BIBLIO = {
         "n": 35
       }
     ]
+  },
+  "Chrysost. in Matt. hom.": {
+    "slug": "chrysost-in-matt-hom",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 5,
+        "n": 2
+      }
+    ]
+  },
+  "Chrysost. in Matt. hom. 16.": {
+    "slug": "chrysost-in-matt-hom-16",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 1,
+        "n": 45
+      }
+    ]
+  },
+  "Chrysost. in Matt. hom. 78.": {
+    "slug": "chrysost-in-matt-hom-78",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 13,
+        "n": 32
+      }
+    ]
+  },
+  "Chrysost. in Matth. hom. 4.": {
+    "slug": "chrysost-in-matth-hom-4",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
+  },
+  "Chrysost. in Matth. hom. 59. to. 1. p. 634.": {
+    "slug": "chrysost-in-matth-hom-59-to-1-p-634",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
   },
   "Chrysost. serm. 21. to. 5.": {
     "slug": "chrysost-serm-21-to-5",
@@ -2575,6 +3039,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Clement. Alexand. Strom. l. 1.": {
+    "slug": "clement-alexand-strom-l-1",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 4,
+        "n": 33
+      }
+    ]
+  },
   "Concil. Trident. Sess. 22. can. 2.": {
     "slug": "concil-trident-sess-22-can-2",
     "auteur": "",
@@ -2602,6 +3080,27 @@ const SACY_BIBLIO = {
         "n": 19
       }
     ]
+  },
+  "Concil. Trident. sess. 14. cap. 2.": {
+    "slug": "concil-trident-sess-14-cap-2",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 6,
+        "n": 12
+      }
+    ]
+  },
+  "Cornel. à lapid. in Marc. p. 571.": {
+    "slug": "cornel-a-lapid-in-marc-p-571",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
   },
   "Cyprian. de mort. init.": {
     "slug": "cyprian-de-mort-init",
@@ -2645,6 +3144,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Cyprian. de unit. Ecclesiæ": {
+    "slug": "cyprian-de-unit-ecclesi",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 13,
+        "n": 34
+      }
+    ]
+  },
   "Cyprian. ep. 63. p. 116. edit. Rigalt.": {
     "slug": "cyprian-ep-63-p-116-edit-rigalt",
     "auteur": "",
@@ -2670,6 +3183,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 1,
         "n": 14
+      }
+    ]
+  },
+  "Cyprian. epist. 1. ad Don.": {
+    "slug": "cyprian-epist-1-ad-don",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 16,
+        "n": 3
       }
     ]
   },
@@ -2736,6 +3263,20 @@ const SACY_BIBLIO = {
     "notice": "",
     "citations": []
   },
+  "Epiph. hæres. 51. c. 6.": {
+    "slug": "epiph-h-res-51-c-6",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
+  },
+  "Epiph. hæres. 52. c. 6.": {
+    "slug": "epiph-h-res-52-c-6",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
+  },
   "Epiphan. haeres. 51. c. 11.": {
     "slug": "epiphan-haeres-51-c-11",
     "auteur": "",
@@ -2796,6 +3337,34 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 2,
         "n": 21
+      }
+    ]
+  },
+  "Epiphan. hæres. 71.": {
+    "slug": "epiphan-h-res-71",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 3,
+        "n": 13
+      }
+    ]
+  },
+  "Epiphan. hæres. 87.": {
+    "slug": "epiphan-h-res-87",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 14,
+        "n": 51
       }
     ]
   },
@@ -2887,6 +3456,27 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Euseb. demonst. Evangel. l. 3. c. 5.": {
+    "slug": "euseb-demonst-evangel-l-3-c-5",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
+  },
+  "Euseb. hist. Eccl. l. 2. c. 15.": {
+    "slug": "euseb-hist-eccl-l-2-c-15",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 15,
+        "n": 21
+      }
+    ]
+  },
   "Euseb. hist. l. 1. c. 7.": {
     "slug": "euseb-hist-l-1-c-7",
     "auteur": "",
@@ -2901,12 +3491,33 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Euseb. l. 1. hist. Ecclesiast. c. 39.": {
+    "slug": "euseb-l-1-hist-ecclesiast-c-39",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
+  },
   "Euseb. l. 3. c. 4.": {
     "slug": "euseb-l-3-c-4",
     "auteur": "",
     "oeuvre": "",
     "notice": "",
     "citations": []
+  },
+  "Euthym. & Theophilact. in hunc locum.": {
+    "slug": "euthym-theophilact-in-hunc-locum",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 7,
+        "n": 32
+      }
+    ]
   },
   "Euthym. Grotius. Maldon. Jansen. in hunc locum.": {
     "slug": "euthym-grotius-maldon-jansen-in-hunc-locum",
@@ -3076,6 +3687,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Gregor. Magn. Moral. l. 14. c. 2[?]. nov. edit. cap. 49. n. 57.": {
+    "slug": "gregor-magn-moral-l-14-c-2-nov-edit-cap-49-n-57",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 14,
+        "n": 51
+      }
+    ]
+  },
   "Gregor. Magn. Moral. l. 4. c. 17.": {
     "slug": "gregor-magn-moral-l-4-c-17",
     "auteur": "",
@@ -3160,6 +3785,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Gregor. Magn. in Evangel. hom. 89.": {
+    "slug": "gregor-magn-in-evangel-hom-89",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 16,
+        "n": 15
+      }
+    ]
+  },
   "Gregor. Magn. in Ezech. hom. 1.": {
     "slug": "gregor-magn-in-ezech-hom-1",
     "auteur": "",
@@ -3174,6 +3813,48 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Gregor. Magn. in Ezech. hom. 50.": {
+    "slug": "gregor-magn-in-ezech-hom-50",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 7,
+        "n": 32
+      }
+    ]
+  },
+  "Gregor. Magn. in Matt. hom. 12.": {
+    "slug": "gregor-magn-in-matt-hom-12",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 1,
+        "n": 25
+      }
+    ]
+  },
+  "Gregor. Magn. l. 18. epist. 42.": {
+    "slug": "gregor-magn-l-18-epist-42",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 13,
+        "n": 32
+      }
+    ]
+  },
   "Gregor. Magn. moral. l. 18. c. 7.": {
     "slug": "gregor-magn-moral-l-18-c-7",
     "auteur": "",
@@ -3184,6 +3865,20 @@ const SACY_BIBLIO = {
         "livre": "luc",
         "livreAbr": "Lc",
         "chapitre": 13,
+        "n": 26
+      }
+    ]
+  },
+  "Gregor. Magn. moral. l. 22. c. 14.": {
+    "slug": "gregor-magn-moral-l-22-c-14",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 4,
         "n": 26
       }
     ]
@@ -3244,6 +3939,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Gregor. Nazian. orat. 4. de Theolog.": {
+    "slug": "gregor-nazian-orat-4-de-theolog",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 1,
+        "n": 45
+      }
+    ]
+  },
   "Gregor. Nazianz. Carm. 33.": {
     "slug": "gregor-nazianz-carm-33",
     "auteur": "",
@@ -3257,6 +3966,20 @@ const SACY_BIBLIO = {
     "oeuvre": "",
     "notice": "",
     "citations": []
+  },
+  "Gregor. Nazianz. orat. 34. to. 1. p. 588.": {
+    "slug": "gregor-nazianz-orat-34-to-1-p-588",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 13,
+        "n": 32
+      }
+    ]
   },
   "Gregor. Niss. or. de sanct. Chrysm.": {
     "slug": "gregor-niss-or-de-sanct-chrysm",
@@ -3444,6 +4167,18 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 23,
         "n": 2
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 16,
+        "n": 12
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 16,
+        "n": 15
       }
     ]
   },
@@ -3488,6 +4223,30 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 17,
         "n": 15
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 1,
+        "n": 27
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 4,
+        "n": 35
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 10,
+        "n": 32
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 14,
+        "n": 51
       }
     ]
   },
@@ -3571,6 +4330,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Grotius. in Matt. c. 27. 45. & in": {
+    "slug": "grotius-in-matt-c-27-45-in",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 15,
+        "n": 25
+      }
+    ]
+  },
   "Grotius. in hunc locum.": {
     "slug": "grotius-in-hunc-locum",
     "auteur": "",
@@ -3606,6 +4379,32 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 24,
         "n": 50
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 7,
+        "n": 1
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 16,
+        "n": 14
+      }
+    ]
+  },
+  "Grégor. Nazianz. oratio 4. de Theol.": {
+    "slug": "gregor-nazianz-oratio-4-de-theol",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 6,
+        "n": 5
       }
     ]
   },
@@ -3662,6 +4461,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 16,
         "n": 14
+      }
+    ]
+  },
+  "Hier. in Matt. 27. 47.": {
+    "slug": "hier-in-matt-27-47",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 15,
+        "n": 36
       }
     ]
   },
@@ -3728,6 +4541,34 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Hieron. & Bed. in hunc locum.": {
+    "slug": "hieron-bed-in-hunc-locum",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 1,
+        "n": 13
+      }
+    ]
+  },
+  "Hieron. Chrysost. Hilarius in Matt. 17. 13.": {
+    "slug": "hieron-chrysost-hilarius-in-matt-17-13",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 9,
+        "n": 11
+      }
+    ]
+  },
   "Hieron. Script. eccles. c. 17.": {
     "slug": "hieron-script-eccles-c-17",
     "auteur": "",
@@ -3790,6 +4631,20 @@ const SACY_BIBLIO = {
         "n": 80
       }
     ]
+  },
+  "Hieron. de Scrip. Eccles. c. 8.": {
+    "slug": "hieron-de-scrip-eccles-c-8",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
+  },
+  "Hieron. de Script. Eccles. c. 18.": {
+    "slug": "hieron-de-script-eccles-c-18",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
   },
   "Hieron. de loc. hebr.": {
     "slug": "hieron-de-loc-hebr",
@@ -4025,6 +4880,13 @@ const SACY_BIBLIO = {
     "notice": "",
     "citations": []
   },
+  "Hieron. in Isai. c. 65. v. 23.": {
+    "slug": "hieron-in-isai-c-65-v-23",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
+  },
   "Hieron. in Isai. c. 8. 6.": {
     "slug": "hieron-in-isai-c-8-6",
     "auteur": "",
@@ -4045,6 +4907,27 @@ const SACY_BIBLIO = {
     "oeuvre": "",
     "notice": "",
     "citations": []
+  },
+  "Hieron. in Marc. præfat.": {
+    "slug": "hieron-in-marc-pr-fat",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
+  },
+  "Hieron. in Matt. 24. 36.": {
+    "slug": "hieron-in-matt-24-36",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 13,
+        "n": 32
+      }
+    ]
   },
   "Hieron. in Matt. 27. 55.": {
     "slug": "hieron-in-matt-27-55",
@@ -4095,6 +4978,13 @@ const SACY_BIBLIO = {
     "notice": "",
     "citations": []
   },
+  "Hieron. in Matt. proœm.": {
+    "slug": "hieron-in-matt-pro-m",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
+  },
   "Hieron. in Num. 6. 3.": {
     "slug": "hieron-in-num-6-3",
     "auteur": "",
@@ -4122,6 +5012,13 @@ const SACY_BIBLIO = {
         "n": 36
       }
     ]
+  },
+  "Hieron. præfat. in 4. Evang.": {
+    "slug": "hieron-pr-fat-in-4-evang",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
   },
   "Hieron. præfat. l. 18. in Isai t. 2. p. 45.": {
     "slug": "hieron-pr-fat-l-18-in-isai-t-2-p-45",
@@ -4471,6 +5368,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Ibid. 13.": {
+    "slug": "ibid-13",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 6,
+        "n": 30
+      }
+    ]
+  },
   "Ibid. 15. 13. 14.": {
     "slug": "ibid-15-13-14",
     "auteur": "",
@@ -4513,6 +5424,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Ibid. 21. 43.": {
+    "slug": "ibid-21-43",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 12,
+        "n": 2
+      }
+    ]
+  },
   "Ibid. 3. 20.": {
     "slug": "ibid-3-20",
     "auteur": "",
@@ -4524,6 +5449,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 14,
         "n": 7
+      }
+    ]
+  },
+  "Ibid. 38. 40.": {
+    "slug": "ibid-38-40",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 5,
+        "n": 41
       }
     ]
   },
@@ -4541,6 +5480,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Ibid. 8.": {
+    "slug": "ibid-8",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 3,
+        "n": 13
+      }
+    ]
+  },
   "Ibid. 9.": {
     "slug": "ibid-9",
     "auteur": "",
@@ -4552,6 +5505,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 18,
         "n": 1
+      }
+    ]
+  },
+  "Ibid. 9. 33. 34.": {
+    "slug": "ibid-9-33-34",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 5,
+        "n": 41
       }
     ]
   },
@@ -4580,6 +5547,34 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 3,
         "n": 38
+      }
+    ]
+  },
+  "Id. 1. 14.": {
+    "slug": "id-1-14",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 12,
+        "n": 34
+      }
+    ]
+  },
+  "Id. 23. 1.": {
+    "slug": "id-23-1",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 12,
+        "n": 37
       }
     ]
   },
@@ -4639,6 +5634,34 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Idem. 5. 25.": {
+    "slug": "idem-5-25",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 5,
+        "n": 41
+      }
+    ]
+  },
+  "Idem. 6. 33.": {
+    "slug": "idem-6-33",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 5,
+        "n": 41
+      }
+    ]
+  },
   "Idem. c. 2. 3. c. 60. v. 1. 2.": {
     "slug": "idem-c-2-3-c-60-v-1-2",
     "auteur": "",
@@ -4666,6 +5689,13 @@ const SACY_BIBLIO = {
         "n": 30
       }
     ]
+  },
+  "Idem. ep. 150. qu. 11. Bibloth. Patrum, to. 1. p. 563.": {
+    "slug": "idem-ep-150-qu-11-bibloth-patrum-to-1-p-563",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
   },
   "Idem. ep. 27. t. 1. col. 223.": {
     "slug": "idem-ep-27-t-1-col-223",
@@ -4863,6 +5893,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Iren. l. 3. c. 11.": {
+    "slug": "iren-l-3-c-11",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 1,
+        "n": 1
+      }
+    ]
+  },
   "Iren. l. 3. c. 14.": {
     "slug": "iren-l-3-c-14",
     "auteur": "",
@@ -4881,6 +5925,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 2,
         "n": 25
+      }
+    ]
+  },
+  "Irenæus ; lib. 2.": {
+    "slug": "iren-us-lib-2",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 16,
+        "n": 17
       }
     ]
   },
@@ -4965,6 +6023,40 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 3,
         "n": 1
+      }
+    ]
+  },
+  "Jansen.": {
+    "slug": "jansen",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 14,
+        "n": 51
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 16,
+        "n": 14
+      }
+    ]
+  },
+  "Jansen. Gand.": {
+    "slug": "jansen-gand",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 6,
+        "n": 37
       }
     ]
   },
@@ -5114,6 +6206,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Joseph. de Bell. Jud. l. 7. 6. 38.": {
+    "slug": "joseph-de-bell-jud-l-7-6-38",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 15,
+        "n": 21
+      }
+    ]
+  },
   "Joseph. de bell. Jud. l. 5. c. 14.": {
     "slug": "joseph-de-bell-jud-l-5-c-14",
     "auteur": "",
@@ -5139,6 +6245,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 19,
         "n": 27
+      }
+    ]
+  },
+  "Jud. v. 9.": {
+    "slug": "jud-v-9",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 5,
+        "n": 2
       }
     ]
   },
@@ -5170,6 +6290,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Lament. 3. 30.": {
+    "slug": "lament-3-30",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 10,
+        "n": 29
+      }
+    ]
+  },
   "Leo Ep. 4.": {
     "slug": "leo-ep-4",
     "auteur": "",
@@ -5183,6 +6317,41 @@ const SACY_BIBLIO = {
         "n": 22
       }
     ]
+  },
+  "Lips. 1. de cruce.": {
+    "slug": "lips-1-de-cruce",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 15,
+        "n": 28
+      }
+    ]
+  },
+  "Luc. [?]. 15.": {
+    "slug": "luc-15",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 1,
+        "n": 25
+      }
+    ]
+  },
+  "Mabil. Itin. Ital. p. 33.": {
+    "slug": "mabil-itin-ital-p-33",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
   },
   "Magn. in Evang. hom. 13.": {
     "slug": "magn-in-evang-hom-13",
@@ -5212,6 +6381,34 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Malac. 4. 5. 6.": {
+    "slug": "malac-4-5-6",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 9,
+        "n": 11
+      }
+    ]
+  },
+  "Malach. 3. 1.": {
+    "slug": "malach-3-1",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 1,
+        "n": 1
+      }
+    ]
+  },
   "Mald.": {
     "slug": "mald",
     "auteur": "",
@@ -5237,6 +6434,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 10,
         "n": 1
+      }
+    ]
+  },
+  "Maldon.": {
+    "slug": "maldon",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 14,
+        "n": 51
       }
     ]
   },
@@ -5271,6 +6482,12 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 12,
         "n": 49
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 4,
+        "n": 35
       }
     ]
   },
@@ -5316,6 +6533,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Maldon. ibid.": {
+    "slug": "maldon-ibid",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 4,
+        "n": 33
+      }
+    ]
+  },
   "Maldon. in hunc locum.": {
     "slug": "maldon-in-hunc-locum",
     "auteur": "",
@@ -5327,6 +6558,12 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 9,
         "n": 61
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 3,
+        "n": 20
       }
     ]
   },
@@ -5355,6 +6592,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 5,
         "n": 33
+      }
+    ]
+  },
+  "Matt. ib. ut suprà.": {
+    "slug": "matt-ib-ut-supra",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 15,
+        "n": 42
       }
     ]
   },
@@ -5587,6 +6838,27 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "Papias.": {
+    "slug": "papias",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
+  },
+  "Paulin. ep. 2.": {
+    "slug": "paulin-ep-2",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 10,
+        "n": 29
+      }
+    ]
+  },
   "Paulin. ep. 22. p. 155.": {
     "slug": "paulin-ep-22-p-155",
     "auteur": "",
@@ -5605,6 +6877,26 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 7,
         "n": 15
+      }
+    ]
+  },
+  "Proverb. 4. 23.": {
+    "slug": "proverb-4-23",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 13,
+        "n": 33
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 14,
+        "n": 44
       }
     ]
   },
@@ -5664,6 +6956,20 @@ const SACY_BIBLIO = {
     "notice": "SC 507 (éd. Munier). PG 6, 327–440. Justin cite Is. VII, 14 et la naissance virginale comme preuve de la vérité du christianisme.",
     "citations": []
   },
+  "Sapient. 2. 18.": {
+    "slug": "sapient-2-18",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 15,
+        "n": 39
+      }
+    ]
+  },
   "Sedul.": {
     "slug": "sedul",
     "auteur": "",
@@ -5684,6 +6990,20 @@ const SACY_BIBLIO = {
     "oeuvre": "Traduction grecque de l'Ancien Testament",
     "notice": "Éd. Rahlfs–Hanhart (Deutsche Bibelgesellschaft, 2006). Traduite à Alexandrie (IIIe–IIe s. av. J.-C.). Pour Is. VII, 14, la LXX traduit l'hébreu 'almah par parthenos (vierge).",
     "citations": []
+  },
+  "Tertul. apolog. cap. 21.": {
+    "slug": "tertul-apolog-cap-21",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 15,
+        "n": 44
+      }
+    ]
   },
   "Tertull. Apolog. c. 39.": {
     "slug": "tertull-apolog-c-39",
@@ -5730,6 +7050,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 14,
         "n": 21
+      }
+    ]
+  },
+  "Tertull. advers. Marcion. l. 4. c. 8.": {
+    "slug": "tertull-advers-marcion-l-4-c-8",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 1,
+        "n": 25
       }
     ]
   },
@@ -5834,6 +7168,34 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 19,
         "n": 5
+      }
+    ]
+  },
+  "Tertull. apol. cap. 23. 24.": {
+    "slug": "tertull-apol-cap-23-24",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 16,
+        "n": 17
+      }
+    ]
+  },
+  "Tertull. apolog.": {
+    "slug": "tertull-apolog",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 1,
+        "n": 25
       }
     ]
   },
@@ -6030,6 +7392,12 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 13,
         "n": 31
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 5,
+        "n": 18
       }
     ]
   },
@@ -6050,6 +7418,18 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 17,
         "n": 11
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 10,
+        "n": 32
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 14,
+        "n": 51
       }
     ]
   },
@@ -6078,6 +7458,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 22,
         "n": 38
+      }
+    ]
+  },
+  "Theophylact. & Euthym. in hunc locum.": {
+    "slug": "theophylact-euthym-in-hunc-locum",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 1,
+        "n": 32
       }
     ]
   },
@@ -6151,6 +7545,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "cap. 15. 46. 47.": {
+    "slug": "cap-15-46-47",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 16,
+        "n": 3
+      }
+    ]
+  },
   "cap. 6.": {
     "slug": "cap-6",
     "auteur": "",
@@ -6193,6 +7601,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "cap. 9. 30.": {
+    "slug": "cap-9-30",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 10,
+        "n": 32
+      }
+    ]
+  },
   "contra Priscil. & Orig. c. 7.": {
     "slug": "contra-priscil-orig-c-7",
     "auteur": "",
@@ -6204,6 +7626,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 1,
         "n": 32
+      }
+    ]
+  },
+  "epist. 1. ad Donat.": {
+    "slug": "epist-1-ad-donat",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 4,
+        "n": 24
       }
     ]
   },
@@ -6429,6 +7865,47 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "l. 1. c. 2[?]": {
+    "slug": "l-1-c-2",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": []
+  },
+  "℣. 11.": {
+    "slug": "11",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 4,
+        "n": 21
+      },
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 4,
+        "n": 33
+      }
+    ]
+  },
+  "℣. 11. 12.": {
+    "slug": "11-12",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 4,
+        "n": 33
+      }
+    ]
+  },
   "℣. 15.": {
     "slug": "15",
     "auteur": "",
@@ -6454,6 +7931,90 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 22,
         "n": 19
+      }
+    ]
+  },
+  "℣. 21.": {
+    "slug": "21",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 4,
+        "n": 1
+      }
+    ]
+  },
+  "℣. 22.": {
+    "slug": "22",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 4,
+        "n": 1
+      }
+    ]
+  },
+  "℣. 23.": {
+    "slug": "23",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 4,
+        "n": 13
+      }
+    ]
+  },
+  "℣. 24.": {
+    "slug": "24",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 9,
+        "n": 16
+      }
+    ]
+  },
+  "℣. 38.": {
+    "slug": "38",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 9,
+        "n": 37
+      }
+    ]
+  },
+  "℣. 39.": {
+    "slug": "39",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "marc",
+        "livreAbr": "Mc",
+        "chapitre": 9,
+        "n": 37
       }
     ]
   }

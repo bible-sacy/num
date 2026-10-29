@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><!-- rempli par render.js --></title>
+  <link rel="stylesheet" href="../style.css">
+  <script>
+    (function(){ document.documentElement.setAttribute('data-theme', localStorage.getItem('sacy-theme')||'light'); })();
+  </script>
+  <script src="../search-index.js"></script>
+  <script>
+  const SACY_DATA = {
+  "meta": {
+    "livre": "marc",
+    "livreFr": "Évangile de saint Marc",
+    "livreAbr": "Mc",
+    "chapitre": 9,
+    "chapTotal": 16,
+    "titre": "Transfiguration. Avénement d'Elie. Lunatique. Puissance de la foi. Prière & jeûne. Passion prédite. S'humilier. Fuir le scandale.",
+    "pageFacs": 106,
+    "pageView": true,
+    "chapitresDisponibles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "facsimile": {
+      "slug": "marc",
+      "page": 106
+    }
+  },
+  "versets": [
+    {
+      "n": 1,
+      "p": 106,
+      "lat": "Et post dies sex assumit Jesus Petrum , & Jacobum , & Joannem , & ducit illos in montem excelsum seorsum solos , & transfiguratus est coram ipsis.",
+      "fr": "Six jours après , JESUS ayant pris Pierre , Jacques & Jean , les mena seuls avec lui sur une haute montagne à l'écart , & il fut transfiguré devant eux.",
+      "note": "",
+      "marges": [
+        "Matth. 17. 1.",
+        "Luc. 9. 28."
+      ]
+    },
+    {
+      "n": 2,
+      "p": 106,
+      "lat": "Et vestimenta ejus facta sunt splendentia , & candida nimis velut nix , qualia fullo non potest super terram candida facere.",
+      "fr": "Ses vêtemens divinrent tout brillans de lumière , & blancs comme la neige , & d'une blancheur que nul foulon sur la terre ne pourroit jamais égaler.",
+      "note": ""
+    },
+    {
+      "n": 3,
+      "p": 106,
+      "lat": "Et apparuit illis Elias cum Moysè , & erant loquentes cum Jesu.",
+      "fr": "Et ils virent paroître Elie & Moyse , qui s'entretenoient avec JESUS.",
+      "note": ""
+    },
+    {
+      "n": 4,
+      "p": 106,
+      "lat": "Et respondens Petrus , ait Jesu : Rabbi , bonum est nos hìc esse : & faciamus tria tabernacula , tibi unum , & Moysi unum , & Eliæ unum :",
+      "fr": "Alors Pierre dit à JESUS : Maître , nous sommes bien ici ; faisons-y trois tentes , une pour vous , une pour Moyse , & une pour Elie :",
+      "note": ""
+    },
+    {
+      "n": 5,
+      "p": 106,
+      "lat": "non enim sciebat quid diceret , erant enim timore exterriti.",
+      "fr": "car il ne savoit ce qu'il disoit , tant ils étoient effrayés.",
+      "note": ""
+    },
+    {
+      "n": 6,
+      "p": 106,
+      "lat": "Et facta est nubes obumbrans eos : & venit <a class=\"page-inline\" href=\"page-107.html\" title=\"p. 107\">‖</a>vox de nube , dicens : Hic est Filius meus carissimus , audite illum.",
+      "fr": "En même-temps il parut une nuée * qui les couvrit ; & il sortit <a class=\"page-inline\" href=\"page-107.html\" title=\"p. 107\">‖</a>une voix de cette nuée , qui fit entendre ces mots : Celui-ci est mon Fils bien-aimé ; écoutez-le.",
+      "note": "",
+      "nb": [
+        "℣. 6. obumbravit. On n'a pas cru devoir traduire , qui les couvrit de son ombre , parce que cette nuée étoit lumineuse , comme il paroît par S. Matthieu 17."
+      ]
+    },
+    {
+      "n": 7,
+      "p": 107,
+      "lat": "Et statim circumspicientes , neminem amplius viderunt , nisi Jesum tantùm secum.",
+      "fr": "Aussitôt regardant de tous côtés , ils ne virent plus personne que JESUS , qui étoit demeuré seul avec eux.",
+      "note": ""
+    },
+    {
+      "n": 8,
+      "p": 107,
+      "lat": "Et descendentibus illis de monte , præcepit illis ne cuiquam quæ vidissent , narrarent , nisi cùm filius hominis à mortuis resurrexerit.",
+      "fr": "Lorsqu'ils descendoient de la montagne , il leur commanda de ne parler à personne de ce qu'ils avoient vu , jusqu'à ce que le Fils de l'homme fût ressuscité d'entre les morts.",
+      "note": "",
+      "marges": [
+        "Matt. 17. 9."
+      ]
+    },
+    {
+      "n": 9,
+      "p": 107,
+      "lat": "Et verbum continuerunt apud se , conquirentes quid esset : Cùm à mortuis resurrexerit.",
+      "fr": "Et ils tinrent la chose secrète , s'entredemandant ce qu'il vouloit dire par ce mot : Jusqu'à ce que le Fils de l'homme fût ressuscité.",
+      "note": ""
+    },
+    {
+      "n": 10,
+      "p": 107,
+      "lat": "Et interrogabant eum , dicentes : Quid ergo dicunt Pharisæi & Scribæ , quia Eliam oportet venire primùm ?",
+      "fr": "Alors ils lui demandèrent : Pourquoi les Pharisiens & les Scribes disent-ils qu'il faut qu'Elie vienne auparavant ?",
+      "note": "",
+      "marges": [
+        "Matt. 17. 10.",
+        "Malach. 4. 5."
+      ]
+    },
+    {
+      "n": 11,
+      "p": 107,
+      "lat": "Qui respondens , ait illis : Elias cùm venerit primò , restituet omnia : & quomodo scriptum est in Filium hominis , ut multa patiatur & contemnatur.",
+      "fr": "* Il leur répondit : Il est vrai qu'auparavant Elie doit venir , & rétablir toutes choses , & qu'il souffrira beaucoup , & sera rejeté avec le même mépris qu'il a été écrit que le Fils de l'homme le doit être.",
+      "note": [
+        {
+          "texte": "<em>Il est vrai qu'Elie viendra d'abord , & rétablira toutes choses ; & que de même qu'il est écrit du Fils de l'homme , il doit souffrir beaucoup , & être méprisé</em> par les hommes , &c.",
+          "marges": [],
+          "p": 112
+        },
+        {
+          "texte": "J. C. parle ici visiblement du prophète Elie, lorsqu'il dit : <em>Qu'il viendra d'abord.</em> Car en effet ce Prophète ne fut autrefois enlevé dans un char de feu, que pour être mis en réserve, dans un lieu que Dieu seul connoît, en attendant l'heure du dernier avénement du Sauveur. <em>Elie viendra</em> donc <em>d'abord</em> ; c'est-à-dire, qu'il paroîtra sur la terre de nouveau avant que le Fils de Dieu se montre dans la gloire de son Père. Et <em>il rétablira toutes choses</em> ; c'est-à-dire, que faisant alors la fonction d'Apôtre à l'égard des Juifs, il fera entrer ceux qui resteront, en leur faisant reconnoître & adorer J. C. comme le Messie véritable qu'ils attendoient depuis tant de siècles. Mais étant le Précurseur du second avénement du Fils de l'homme, il sera traité comme le Fils de l'homme l'a été lui-même à son premier avénement ; c'est-à-dire, qu'il <em>souffrira beaucoup</em> de maux de la part des hommes, & qu'il <em>sera méprisé</em> par les méchans. Car il est marqué dans l'Apocalypse, que ceux qui sont nommés <em>les deux témoins</em> du Seigneur, & <em>les deux Prophètes</em> de la fin du monde ; c'est-à-dire, Enoc & Elie, ayant prophétisé revêtus de sacs, & achevé de rendre leur témoignage, <em>la bête qui monte de l'abîme leur fera la guerre, les vaincra & les tuera ; ... & que les habitans de la terre s'en réjouiront, parce que ces deux Prophètes les auront fort tourmentés</em> par leurs reproches, par leurs menaces de la part de Dieu, & par l'exemple de la pureté de leur vie, toute opposée à la corruption de la leur.",
+          "marges": [
+            "4. Reg. 2. 11.",
+            "Malac. 4. 5. 6.",
+            "August. quæstion. Evangel. l. 1. q. 21.",
+            "Hieron. Chrysost. Hilarius in Matt. 17. 13.",
+            "Apoc. 11. 7. 8. 6."
+          ],
+          "p": 112
+        },
+        {
+          "texte": "Mais après que J. C. a parlé ici du prophète Elie, il parle aussitôt de saint Jean-Baptiste, qui a été la figure de ce Prophète, en ce qu'il a été le Précurseur du premier avénement du <a class=\"page-inline\" href=\"page-113.html\" title=\"p. 113\">‖</a>Messie, comme ce Prophète le doit être du second ; & même il lui donne le nom d'Elie : <em>Je vous dis</em>, ajoute le Fils de Dieu, <em>qu'Elie même est déjà venu, & qu'ils l'ont traité comme il leur a plu, selon ce qui en avoit été écrit</em> ; c'est-à-dire, que Jean-Baptiste est déjà venu, <em>ayant marché devant le Seigneur dans l'esprit & dans la vertu d'Elie</em>, selon l'expression de l'Evangéliste saint Luc. On ne voit point en quel lieu de l'Ecriture il est marqué, selon qu'il est dit ici, que les Juifs <em>feroient à saint Jean tout ce qu'ils voudroient.</em> Mais ils lui firent en effet <em>tout ce qu'ils voulurent</em> ; & cette sorte d'expression marque le dernier outrage avec lequel après qu'ils l'eurent emprisonné, & qu'on lui eut coupé la tête, on apporta cette tête vénérable au milieu d'un grand festin, comme le prix de la danse d'une fille, & on le traita avec les dernières indignités.",
+          "marges": [
+            "Luc. 1. 17.",
+            "Marc. 6."
+          ],
+          "p": 112
+        }
+      ],
+      "noteVersets": [
+        11,
+        12
+      ],
+      "marges": [
+        "Isai. 53. 3. 4."
+      ],
+      "nb": [
+        "℣. 11. autr. Il leur répondit : Il est vrai qu'Elie viendra d'abord , & rétablira toutes choses , & que de même qu'il est écrit du Fils de l'homme , il doit souffrir beaucoup , & être méprisé par les hommes."
+      ]
+    },
+    {
+      "n": 12,
+      "p": 107,
+      "lat": "Sed dico vobis quia & Elias venit , & fecerunt illi quæcumque voluerit , sicut scriptum est de eo.",
+      "fr": "Mais je vous dis , qu'Elie même est déjà venu , & qu'ils l'ont traité comme il leur a plu , selon ce qui en avoit été écrit.",
+      "note": "",
+      "marges": [
+        "Matt. 17. 12."
+      ]
+    },
+    {
+      "n": 13,
+      "p": 107,
+      "lat": "Et veniens ad discipulos suos , vidit turbam magnam circa eos , & Scribas conquirentes cum illis.",
+      "fr": "Lorsqu'il fut venu au lieu où étoient ses <em>autres</em> disciples , il vit une grande multitude de personnes autour d'eux , & des Scribes qui disputoient avec eux.",
+      "note": [
+        {
+          "texte": "<em>Lorsqu'il fut venu au lieu où étoient ses Disciples, il vit une grande multitude de personnes autour d'eux, & des Docteurs de la loi qui disputoient avec eux. Aussitôt tout le peuple ayant aperçu</em> JESUS, <em>fut saisi d'étonnement & de frayeur, &c.</em>",
+          "marges": [],
+          "p": 113
+        },
+        {
+          "texte": "On a vu auparavant, que le Fils de Dieu ayant dessein de se montrer dans sa gloire à quelques-uns de ses disciples, mena avec soi sur une haute montagne Pierre, Jacques & Jean, & fut là transfiguré devant eux. Ce fut donc à son retour de cette montagne, qu'il trouva ses autres disciples environnés, comme il est marqué ici, de beaucoup de monde, & en disputes avec les Docteurs. Le sujet de ce grand concours de peuple, étoit un malade, dont on a déjà parlé sur saint Matthieu, que les Juifs avoient présenté aux disciples de J. C. en son absence pour être guéri ; & que ces disciples, manque de foi, de prières, & de jeûnes, ne purent guérir. Comme il se trouva au même lieu des Docteurs, qui cherchoient toujours à observer toutes les paroles & toutes les actions, tant du maître que des disciples, ils voulurent profiter en quelque sorte de l'absence du Sauveur, & de l'impuissance où se trouvèrent ses disciples, de guérir le malade qu'on leur présentoit ; & ils prirent cette occasion d'entrer en dispute avec eux, pour surprendre leur simplicité, & pour les pousser lorsqu'ils n'étoient point soutenus comme à l'ordinaire par leur divin maître. Ce fut donc dans ce temps même que JESUS revenant de la montagne avec Pierre, Jacques & Jean, parut tout-d'un-coup lorsqu'on ne l'attendoit pas. Et la surprise où fut tout le peuple en le voyant, leur causa cet <em>étonnement</em> dont il est parlé. <em>Ils furent saisis d'étonnement</em>, dit l'Evangéliste, & en même-temps de <em>frayeur</em>, peut-être à cause, comme dit un Inter<a class=\"page-inline\" href=\"page-114.html\" title=\"p. 114\">‖</a>prète, qu'il étoit resté sur le visage de J. C. quelques marques de cette gloire éclatante que les Apôtres y virent paroître dans sa transfiguration ; comme il est dit de Moyse, que les enfans d'Israël ayant aperçu sur son visage, après qu'il fut descendu de la montagne de Sinaï, où il avoit vu le Seigneur, des rayons de gloire, ils en furent effrayés.",
+          "marges": [
+            "Gen. 34. 30."
+          ],
+          "p": 113
+        }
+      ],
+      "noteVersets": [
+        13,
+        14
+      ]
+    },
+    {
+      "n": 14,
+      "p": 107,
+      "lat": "Et confestim omnis <a class=\"page-inline\" href=\"page-108.html\" title=\"p. 108\">‖</a>populus , videns Jesum , stupefactus est , & expaverunt , & accurrentes salutabant eum.",
+      "fr": "Aussitôt tout le peuple ayant <a class=\"page-inline\" href=\"page-108.html\" title=\"p. 108\">‖</a>aperçu JESUS , fut saisi d'étonnement & de frayeur , & étant accourus , ils le saluèrent.",
+      "note": ""
+    },
+    {
+      "n": 15,
+      "p": 108,
+      "lat": "Et interrogavit eos : Quid inter vos conquiritis.",
+      "fr": "Alors il leur demanda : De quoi disputez-vous ensemble ?",
+      "note": ""
+    },
+    {
+      "n": 16,
+      "p": 108,
+      "lat": "Et respondens unus de turba , dixit : Magister , attuli filium meum ad te habentem spiritum mutum :",
+      "fr": "† Et un homme d'entre le peuple prenant la parole , lui dit : Maître , je vous ai amené mon fils , qui est possédé d'un esprit muet :",
+      "note": [
+        {
+          "texte": "<em>Maître, je vous ai amené mon fils, qui est possédé d'un esprit muet : & toutes les fois qu'il se saisit de lui, il le jette contre terre, & l'enfant écume, grince les dents, & devient tout sec.</em>",
+          "marges": [],
+          "p": 114
+        },
+        {
+          "texte": "Quoique J. C. ne fut pas d'abord en ce lieu, cet homme lui dit : Qu'il <em>lui avoit amené son fils</em>, parce qu'il croyoit apparemment qu'il y fut, & qu'il avoit espéré l'y trouver avec ses disciples. Il prend la parole, & répond au Fils de Dieu, à cause que ses disciples & les Docteurs de la loi se tinrent dans le silence ; quoiqu'il semble qu'il se fut particulièrement adressé à eux lorsqu'il avoit demandé <em>de quoi ils disputoient.</em> Or la raison du silence qu'ils gardèrent les uns & les autres pouvoit être la confusion qu'ils eurent également ; les Docteurs, d'avoir abusé de la simplicité, & de s'être prévalus de l'ignorance de ses disciples ; & les disciples, de s'être engagés à vouloir guérir un malade sans l'avoir pu, & de s'être aussi peut-être embarrassés légérement dans quelque vaine dispute avec ces Docteurs.",
+          "marges": [],
+          "p": 114
+        },
+        {
+          "texte": "Quoi qu'il en soit, le père de ce malade parlant lui-même lorsqu'ils se taisoient, s'efforça d'exciter la compassion de J. C. par le récit qu'il lui fit de l'état si déplorable de son fils, & de tout ce que le démon lui faisoit souffrir. C'étoit <em>un démon muet</em> ; c'est-à-dire, que l'esprit qui possédoit ce malade le rendoit muet : & il le rendoit aussi sourd, comme il paroit dans la suite. <em>Toutes les fois</em>, ajoute-t-il, <em>qu'il se saisit de lui</em> ; ce qui marque qu'il ne le tourmentoit pas toujours, mais par intervalle ; <em>il le jette</em> très-rudement <em>contre terre</em>, comme voulant <em>le briser</em> ; & la violence de ce qu'il souffre lui fait <em>jeter de l'écume par la bouche, & grincer les dents</em>, & le rend tout décharné & <em>tout sec.</em>",
+          "marges": [
+            "℣. 24."
+          ],
+          "p": 114
+        },
+        {
+          "texte": "C'est l'état terrible où la fureur du démon réduisoit le corps de ce malade qu'il possédoit, & en même-temps l'image de celui où il réduit l'ame d'un pécheur qu'il rend <em>muet</em> devant Dieu. Ce pécheur muet est celui que son orgueil empêche de reconnoître & de confesser son péché. Le démon lui tient la langue comme liée, parce qu'il est maître de son cœur : c'est pourquoi il est aussi <em>sourd</em>, parce qu'il le tient fermé à toutes les inspirations de Dieu. Il <em>le brise contre terre</em> par la violence du mouvement avec lequel il le pousse vers les objets terrestres, où il se brise, pour <a class=\"page-inline\" href=\"page-115.html\" title=\"p. 115\">‖</a>le dire ainsi, de plus en plus devant Dieu. Cette <em>écume</em> aussi bien que ce <em>grincement de dents</em>, nous figurent l'excès de la fureur qui l'agite, tant qu'il s'abandonne aux différentes passions que le démon lui suggère : car il n'y a rien de plus furieux qu'un homme qui suit avec une impétuosité aveugle ce que lui inspire cet esprit dont il s'est rendu l'esclave ; comme il n'y a rien au contraire de plus doux que celui dont l'Esprit de Dieu s'est rendu le maître ; puisqu'autant que la cupidité est emportée & capricieuse, autant la charité est patiente, selon saint Paul, pleine de douceur, & éloignée de toute ambition & de tout orgueil. Ce malade à force de s'agiter <em>devenoit tout sec</em>, & tout décharné ; & l'ame de ce pécheur qu'il figuroit, <em>se sèche</em> de même, pour parler ainsi, en s'éloignant de plus en plus de la divine rosée de la grâce de celui qui est son soutien & sa vie ; ce qui faisoit dire au Roi prophète, parlant à Dieu dans l'amertume de son péché : <em>J'ai étendu mes mains vers vous ; mon ame est devant vous, Seigneur, comme une terre sans eau. Exaucez-moi promptement ; parce que je tombe en défaillance.</em> Répandez donc dans mon ame, disoit autrefois à Dieu un grand Saint, votre céleste rosée, afin que je porte de bons fruits. Je puis avoir soif de votre divine grâce ; mais je ne puis m'arroser moi-même pour désaltérer ma soif : <em>Complue me ad faciendum fructum bonum. Sitire tibi possum. Me irrigare non possum.</em>",
+          "marges": [
+            "1. Cor. 13.",
+            "August. in Psal. 142. 6."
+          ],
+          "p": 114
+        }
+      ],
+      "noteVersets": [
+        16,
+        17
+      ],
+      "marges": [
+        "Luc. 9. 38.",
+        "† Mercredi des Quatre Temps de Septemb."
+      ]
+    },
+    {
+      "n": 17,
+      "p": 108,
+      "lat": "qui ubicumque eum apprehenderit , allidit illum , & spumat , & stridet dentibus , & arescit. Et dixi discipulis tuis ut ejicerent illum , & non potuerunt.",
+      "fr": "& toutes les fois qu'il se saisit de lui , il le jette contre terre , & l'enfant écume , grince les dents , & devient tout sec. J'ai prié vos disciples de le chasser , mais ils ne l'ont pu.",
+      "note": ""
+    },
+    {
+      "n": 18,
+      "p": 108,
+      "lat": "Qui respondens eis , dixit : O generatio incredula , quandiù apud vos ero ? quandiù vos patiar ? Afferte illum ad me.",
+      "fr": "JESUS leur répondit : O gens incrédules , jusqu'à quand serai-je avec vous ? Jusqu'à quand vous souffrirai-je ? Amenez-le moi.",
+      "note": ""
+    },
+    {
+      "n": 19,
+      "p": 108,
+      "lat": "Et attulerunt eum , & cùm vidisset eum , statim spiritus conturbavit illum ; & elisus in terram voluptabatur spumans.",
+      "fr": "Ils le lui amenèrent ; & il n'eut pas plutôt vu JESUS , que l'esprit commença à l'agiter avec violence , & il tomba par terre , où il se rouloit en écumant.",
+      "note": [
+        {
+          "texte": "<em>Ils le lui amenèrent, & il n'eut pas plutôt vu</em> JESUS, <em>que l'esprit commença à l'agiter avec violence : & il tomba par terre, où il se rouloit en écumant.</em>",
+          "marges": [],
+          "p": 115
+        },
+        {
+          "texte": "Il est étonnant que la vue de J. C. au lieu d'arrêter toute la violence du démon, excite au contraire sa fureur. Il est aisé de juger que si le Sauveur l'avoit voulu, cet esprit tout furieux qu'il étoit, auroit fui dans le moment qu'il parut. Mais il ne le voulut pas. Et il permit même qu'il fit éclater toute sa rage en sa présence, pour donner ensuite une preuve plus sensible de la foiblesse de son ennemi, & de sa propre vertu. Car telle est l'admirable économie de la sagesse du Dieu tout-puissant, de ne donner quelquefois en apparence aucunes bornes à la fureur du démon, afin de confondre ensuite davantage son orgueil, en l'arrêtant tout-d'un-coup, lorsqu'il se flatte de pouvoir tout contre nous. Or il en use de cette sorte, parce qu'il est tout-puissant, & qu'il est maître par conséquent de lier quand il lui plaît, ce fort armé, qui n'est fort que par rapport à la foiblesse des hommes, que la propre corruption de leur volonté lui a assujettis. Et il fait paroître par cette conduite, combien les Princes qui <a class=\"page-inline\" href=\"page-116.html\" title=\"p. 116\">‖</a>vantent le plus leur puissance, sont foibles & impuissans en comparaison de lui ; puisque toute leur sagesse consiste toujours à affoiblir leurs ennemis, & à empêcher l'accroissement de leur puissance, par la juste crainte qu'ils doivent avoir, que ces ennemis de leur couronne ne deviennent à la fin plus forts qu'eux : au lieu que le fort armé de l'Evangile n'est jamais fort que par un effet de la volonté de Dieu, au pouvoir duquel il est toujours d'anéantir toute sa force, quand il veut. Ne soyons donc point touchés de frayeur, en voyant tous ces effets de la rage du démon. Ne le craignons point, lorsque nous avons une juste confiance que J. C. est présent au milieu de nous. Car cette présence du Sauveur peut bien exciter davantage la fureur de notre ennemi, & le désir qu'il a de nous perdre : mais elle donne certainement des bornes à son pouvoir, l'empêchant de faire tout ce qu'il voudroit contre nous ; & l'accroissement même de sa fureur, est quelquefois une marque des approches de sa ruine ; comme il parut plus violent à l'égard de ce possédé, dans le moment que J. C. l'en alloit chasser.",
+          "marges": [],
+          "p": 115
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "p": 108,
+      "lat": "Et interrogavit patrem ejus : Quantùm temporis est ex quo ei hoc accidit ? At ille ait ; Ab infantia :",
+      "fr": "JESUS demanda à son père : Combien y a-t-il que cela lui arrive ? Dès son enfance , dit le père :",
+      "note": [
+        {
+          "texte": "JESUS <em>demanda à son père : Combien y a-t-il que cela lui arrive ? Dès son enfance, dit le père : & l'esprit l'a souvent jeté tantôt dans le feu, & tantôt dans l'eau pour le faire périr : mais si vous pouvez quelque chose, &c.</em>",
+          "marges": [],
+          "p": 116
+        },
+        {
+          "texte": "On voit aisément que le Fils de Dieu n'avoit pas besoin pour lui-même, que le père de ce malade l'instruisît du temps auquel le démon avoit commencé à le tourmenter. Car que pouvoit ignorer celui à qui toutes choses sont toujours présentes, & devant lequel le vaste espace de tous les siècles est comme un point fixe qui ne s'écoule jamais ? Ce fut donc pour ceux qui étoient présens, que le Fils de Dieu demanda au père, quand la maladie ou la possession de son Fils avoit commencé. C'étoit pour les mieux convaincre de la puissance de Dieu, par la difficulté de la guérison d'un mal si grand, & qui étoit comme né avec lui. Mais c'étoit en même temps pour donner lieu à ce père de découvrir la plaie de son cœur ; c'est-à-dire, son infidélité, qui jointe à celle des Apôtres mêmes, avoit été cause jusqu'alors que son fils n'avoit point été guéri. Car nous avons vu dans saint Matthieu, que les Apôtres ayant demandé à J. C. pourquoi ils n'avoient pu chasser ce démon, il leur répondit, que leur propre incrédulité en avoit été la cause. Et l'on voit ici combien la foi de ce père étoit encore défectueuse ; puisqu'après avoir exagéré la grandeur du mal de son fils, en parlant au Fils de Dieu, il ajoute : <em>Si vous pouvez quelque chose, ayez compassion de nous, &</em> <a class=\"page-inline\" href=\"page-117.html\" title=\"p. 117\">‖</a><em>nous secourez.</em> Il doutoit donc si J. C. avoit le pouvoir de guérir son fils ; & par conséquent il ne reconnoissoit pas encore sa divinité.",
+          "marges": [
+            "Matt. 17. 19."
+          ],
+          "p": 116
+        }
+      ],
+      "noteVersets": [
+        20,
+        21
+      ]
+    },
+    {
+      "n": 21,
+      "p": 108,
+      "lat": "& frequenter eum in ignem , & in aquas misit , ut eum perderet , sed si quid potes , adjuva nos , misertus nostrî.",
+      "fr": "& l'esprit l'a souvent jeté , tantôt dans le feu , & tantôt dans l'eau , pour le faire périr : mais si vous pouvez quelque chose , ayez compassion de nous , & nous secourez.",
+      "note": ""
+    },
+    {
+      "n": 22,
+      "p": 108,
+      "lat": "Jesus autem ait illi : Si potes credere , omnia possibilia sunt credenti.",
+      "fr": "JESUS lui répondit : Si vous pouvez croire , toutes choses sont possibles à celui qui croit.",
+      "note": [
+        {
+          "texte": "JESUS <em>lui répondit : Si vous pouvez croire, toutes choses sont possibles à celui qui croit. Aussitôt le père de l'enfant s'écriant, lui dit avec larmes : Seigneur, je crois ; aidez-</em>moi dans <em>mon incrédulité.</em>",
+          "marges": [],
+          "p": 117
+        },
+        {
+          "texte": "Tout est certainement possible à Dieu. Mais Dieu ne veut pas tout ce qu'il peut. Ainsi quoiqu'il put guérir le fils de ce père qui lui parloit, sans qu'il eut la foi, il ne voulut pas le faire : & sa volonté étoit en cette rencontre, que la guérison de ce malade fut l'effet de la foi de son père.",
+          "marges": [],
+          "p": 117
+        },
+        {
+          "texte": "<em>Si</em> donc, lui dit J. C. <em>vous pouvez croire, toutes choses sont possibles à celui qui croit.</em> Or on ne peut pas douter qu'en lui disant ces paroles, <em>Si vous pouvez croire</em>, il ne lui ait inspiré la foi dont il lui parloit ; au moins la créance très-ferme qu'il dépendoit du Fils de Dieu, & qu'il étoit en son pouvoir de lui donner cette foi qui <em>pouvoit tout</em> ; puisque s'étant écrié dans le moment, <em>qu'il croyoit</em>, il ajouta : Aidez-moi dans mon incrédulité : <em>Adjuva incredulitatem meam</em> ; c'est-à-dire, suppléez à ce qui manque à ma foi. C'étoit aussi ce que J. C. avoit voulu lui faire comprendre, en lui disant : <em>Si vous pouvez croire.</em> Car il voulut par le sentiment même qu'il lui donna de la foiblesse de sa foi, l'exciter à avoir recours à lui, & à songer sérieusement à lui demander, comme <em>au Seigneur</em> véritable, cette foi vive à laquelle toutes choses sont possibles, & qui pouvoit par conséquent guérir aussi-bien l'ame du père, que le corps du fils.",
+          "marges": [],
+          "p": 117
+        }
+      ],
+      "noteVersets": [
+        22,
+        23
+      ]
+    },
+    {
+      "n": 23,
+      "p": 108,
+      "lat": "Et continuò exclamans pater pueri , cum <a class=\"page-inline\" href=\"page-109.html\" title=\"p. 109\">‖</a>lacrimis aiebat : Credo , Domine , adjuva incredulitatem meam.",
+      "fr": "Aussitôt le père de l'enfant s'écriant , lui dit avec larmes : Sei<a class=\"page-inline\" href=\"page-109.html\" title=\"p. 109\">‖</a>gneur , je crois ; * aidez-<em>moi dans</em> mon incrédulité.",
+      "note": "",
+      "nb": [
+        "℣. 23. expl. suppléez par votre bonté à ce qui manque à ma foi."
+      ]
+    },
+    {
+      "n": 24,
+      "p": 109,
+      "lat": "Et cùm videret Jesus concurrentem turbam , comminatus est spiritui immundo , dicens illi : Surde & mute spiritus , ego præcipio tibi , exi ab eo ; & amplius ne introeas in eum.",
+      "fr": "Et JESUS voyant que le peuple accouroit en foule , parla avec menaces à l'esprit impur , & lui dit : Esprit sourd & muet , sors de cet enfant , je te le commande ; & n'y rentre plus.",
+      "note": [
+        {
+          "texte": "JESUS <em>voyant que le peuple accouroit en foule, parla avec menaces à l'esprit impur, & lui dit : Esprit sourd & muet, sors de ce corps ; je te le commande, & n'y rentre plus. Alors</em> cet esprit <em>ayant jeté un grand cri, & l'ayant agité par de violentes convulsions, sortit, & le laissa comme mort, &c.</em>",
+          "marges": [],
+          "p": 117
+        },
+        {
+          "texte": "J. C. voulant toujours éviter l'éclat pour ménager les Pharisiens & les Docteurs jaloux de sa gloire, & pour nous donner dans sa conduite l'exemple d'une humilité toujours uniforme, se hâte de guérir le malade qu'on lui avoit présenté, aussitôt qu'il voit le peuple accourir. Et pour cet effet il parle avec l'autorité d'un Dieu au démon qui le tourmentoit, <em>le menaçant</em> comme un esclave qui étoit assujetti à sa puissance, & lui ordonnant de sortir du corps de celui dont il s'étoit rendu maître. L'Evangéliste nomme ce démon <em>l'esprit impur</em> ; & J. C. en s'adressant à lui-même, l'appelle <em>esprit sourd & muet.</em> Il est <em>impur</em>, comme on l'a marqué ailleurs, à cause de l'impureté qu'il inspire aux hommes ; <a class=\"page-inline\" href=\"page-118.html\" title=\"p. 118\">‖</a>& de son orgueil qui le rend abominable aux yeux de Dieu. Il est <em>sourd & muet</em>, à cause qu'étant devenu lui-même insensible à la voix de son Créateur, & inflexible dans son péché, qui l'empêche de se reconnoître pécheur, il rend ceux qui imitent son orgueil, sourds aussi & muets pour toutes les choses qui regardent leur salut ; & il rendoit même ce malade sourd des oreilles, & muet de la langue de son corps.",
+          "marges": [],
+          "p": 117
+        },
+        {
+          "texte": "Quand le Sauveur lui ordonne de <em>sortir</em>, il le fait, non-seulement en le menaçant, mais en lui disant, comme son maître : <em>C'est moi qui te le commande</em> ; c'est-à-dire, moi, qui suis ton Seigneur, & à qui tu ne saurois résister. Et parce que ce démon sembloit quitter ce malade, & n'entrer en lui que par intervalle pour le tourmenter, le Fils de Dieu <em>lui défend d'y rentrer à l'avenir</em>, voulant que la guérison qu'il lui procuroit fut parfaite & sans retour. Et en cela il donnoit à ceux qui sont figurés par ce malade, cette instruction importante ; qu'ils ne peuvent être non plus guéris que par un effet de la volonté toute-puissante de Dieu, qui daigne chasser pour toujours le démon de leurs cœurs, par la vertu de sa parole & de sa grâce, comme il chassa cet esprit impur, sourd & muet du corps de ce possédé ; & que c'est à la force toute divine de cette voix de leur Dieu, qu'ils sont redevables de leur parfaite justification. Ce n'est pas qu'il ne puisse arriver, & qu'il n'arrive en effet que l'on retombe sous la possession du démon après en être sorti. Mais les rechutes si fréquentes dans le péché, sont souvent un signe, au moins vraisemblable, qu'on n'a pas quitté le péché comme on le devoit ; & que cet esprit impur, qui ne tourmentoit ce malade que par intervalle, avant que le Fils de Dieu l'eut guéri parfaitement & sans retour, ne nous a peut-être quittés qu'en apparence & pour un temps.",
+          "marges": [],
+          "p": 118
+        },
+        {
+          "texte": "Quoiqu'on soit surpris de la résistance qu'il fit pour sortir du corps de ce possédé, & de la fureur avec laquelle il l'agita avant que de le quitter, jusqu'à <em>le laisser comme mort</em>, & que plusieurs crurent en effet qu'il étoit mort, c'est néanmoins ce qui prouvoit davantage la toute-puissance de Dieu. Car quoiqu'il eût pu, comme on l'a dit, d'une parole le mettre en fuite, il voulut exprès le laisser agir dans toute sa rage, tant pour faire voir l'excès de sa haine contre les hommes, que pour donner une idée plus vive de l'empire souverain avec lequel il tient cet esprit si furieux, assujetti à ses ordres. En effet, lorsque celui, dont il l'avoit obligé de sortir, <em>paroissoit mort</em>, il ne fit que le <em>prendre par la main pour le soulever, & il se leva</em> à l'heure même. Heureux <a class=\"page-inline\" href=\"page-119.html\" title=\"p. 119\">‖</a>donc celui que Dieu n'a abandonné, comme Job & comme ce possédé, pour un temps à la fureur du démon, qu'afin qu'il soit dans la suite un plus grand sujet de la compassion d'un Dieu ! Heureux celui à qui les violentes agitations que lui fait souffrir son ennemi, lorsqu'il travaille à se soustraire de sa domination, sont un préjugé favorable de sa prochaine délivrance ! Heureux enfin est celui à qui l'auteur de la vie <em>tend la main pour le relever</em> dans l'état de mort où il paroissoit aux yeux des hommes ; puisqu'il <em>ressuscitera</em> à la grâce par une parfaite conversion !",
+          "marges": [],
+          "p": 118
+        }
+      ],
+      "noteVersets": [
+        24,
+        25
+      ]
+    },
+    {
+      "n": 25,
+      "p": 109,
+      "lat": "Et exclamans , & multùm discerpens eum , exiit ab eo , & factus est sicut mortuus ; ita ut multi dicerent : Quia mortuus est.",
+      "fr": "Alors <em>cet esprit</em> ayant jeté un grand cri , & l'ayant agité par de violentes convulsions , sortit , & l'enfant devint comme mort ; de sorte que plusieurs disoient qu'il étoit mort.",
+      "note": ""
+    },
+    {
+      "n": 26,
+      "p": 109,
+      "lat": "Jesus autem tenens manum ejus , elevavit eum , & surrexit.",
+      "fr": "Mais JESUS l'ayant pris par la main , & le soulevant , il se leva.",
+      "note": ""
+    },
+    {
+      "n": 27,
+      "p": 109,
+      "lat": "Et cùm introisset in domum , discipuli ejus secretò interrogabant eum : Quare nos non potuimus ejicere eum ?",
+      "fr": "Lorsque JESUS fut entré dans la maison , ses disciples lui dirent en particulier : D'où vient que nous n'avons pu chasser ce démon ?",
+      "note": ""
+    },
+    {
+      "n": 28,
+      "p": 109,
+      "lat": "Et dixit illis : Hoc genus in nullo potest exire , nisi in oratione , & jejunio.",
+      "fr": "Il leur répondit : Cette sorte <em>de démons</em> ne peut être chassée par aucun autre moyen que par la prière , & par le jeûne ¶.",
+      "note": ""
+    },
+    {
+      "n": 29,
+      "p": 109,
+      "lat": "Et inde profecti prætergrediebantur Galilæam ; nec volebat quemquam scire.",
+      "fr": "Au sortir de ce lieu , ils traversèrent la Galilée : & il vouloit que personne ne le sût.",
+      "note": [
+        {
+          "texte": "<em>Au sortir de ce lieu ils traversèrent la Galilée, & il vouloit que personne ne le sut. Or il instruisoit ses disciples, & leur disoit : Le Fils de l'homme sera livré entre les mains des hommes.... Mais ils ne comprirent point ce qu'il leur disoit, &c.</em>",
+          "marges": [],
+          "p": 119
+        },
+        {
+          "texte": "J. C. ne vouloit point être connu dans la Galilée ; c'est-à-dire, qu'il ne vouloit point y faire d'éclat, ni attirer le concours du peuple après lui, & être obligé de s'arrêter lorsqu'il songeoit à aller à Jérusalem pour y souffrir. C'est donc aussi pour cela qu'il avertit de nouveau ses Apôtres de ce qui devoit lui arriver ; c'est-à-dire, de ses souffrances, de sa mort & de sa résurrection ; afin qu'ils y fussent préparés. Mais quoiqu'ils pussent aisément entendre ce qu'il leur disoit, Qu'il devoit mourir, & <em>ressusciter le troisième jour après sa mort</em>, l'Evangile marque expressément, qu'ils <em>ne le comprirent point.</em> Il est vrai qu'ils comprenoient bien que J. C. les assuroit qu'il souffriroit beaucoup de choses, & qu'il mourroit. Mais ce qu'ils ne pouvoient comprendre, c'est qu'étant le CHRIST, le Messie attendu depuis si long-temps, & que le Fils de Dieu, au lieu de rétablir le royaume d'Israël, comme les Juifs l'avoient toujours espéré du Messie, il ne leur parloit que de ses souffrances & de sa mort. Car quant à <em>sa résurrection</em> dont il leur parloit en même temps, c'étoit pour eux un mystère où ils ne pouvoient atteindre, n'alliant point dans leur esprit les humiliations de ses souffrances & de sa mort sur la croix, avec la gloire d'une résurrection triomphante.",
+          "marges": [],
+          "p": 119
+        },
+        {
+          "texte": "Mais quoiqu'ils ne pussent comprendre ce que JESUS leur disoit, il étoit bien nécessaire néanmoins qu'ils en fussent avertis, & il falloit que le Fils de Dieu, en leur prédisant ce qui devoit lui arriver, leur fit connoître qu'il ne lui arriveroit rien qu'il n'eût prévu, & qui ne fût un effet de sa volonté & de la justice de son Père. Cependant quelque incompréhensible que leur parut ce que JESUS leur disoit, <em>ils craignirent</em> par respect sans doute, de <em>l'interroger</em>, & de lui en demander l'éclaircissement. Peut-être aussi qu'ils avoient une véritable appréhension d'envisager de trop <a class=\"page-inline\" href=\"page-120.html\" title=\"p. 120\">‖</a>près, & de trop approfondir une chose qui les affligeoit extrêmement, selon S. Matthieu.",
+          "marges": [],
+          "p": 119
+        },
+        {
+          "texte": "On a expliqué au commencement du dix-huitième chapitre de saint Matthieu tout ce qui regarde la contestation des Apôtres touchant la prééminence.",
+          "marges": [
+            "Matt. 18. 22."
+          ],
+          "p": 120
+        }
+      ],
+      "noteVersets": [
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "n": 30,
+      "p": 109,
+      "lat": "Docebat autem discipulos suos , & dicebat illis : Quoniam Filius hominis tradetur in manus hominum , & occident eum , & occisus tertiâ die resurget.",
+      "fr": "Or il instruisoit ses disciples , & leur disoit : Le Fils de l'homme sera livré entre les mains des hommes , & ils le feront mourir , & il ressuscitera le troisième jour après sa mort.",
+      "note": "",
+      "marges": [
+        "Matt. 17. 22.",
+        "Luc. 9. 22. 44."
+      ]
+    },
+    {
+      "n": 31,
+      "p": 109,
+      "lat": "At illi ignorabant verbum ; & timebant interrogare eum.",
+      "fr": "* Mais ils n'entendoient rien à ce discours : & ils craignoient de lui en demander l'éclaircissement.",
+      "note": "",
+      "nb": [
+        "℣. 31. autr. Mais ils ne comprirent point ce qu'il leur disoit , &c."
+      ]
+    },
+    {
+      "n": 32,
+      "p": 109,
+      "lat": "Et venerunt Capharnaüm. Qui cùm domi essent , <a class=\"page-inline\" href=\"page-110.html\" title=\"p. 110\">‖</a>interrogabat eos : Quid in via tractabatis ?",
+      "fr": "Ils vinrent ensuite à Capharnaüm. Et lorsqu'ils furent à la <a class=\"page-inline\" href=\"page-110.html\" title=\"p. 110\">‖</a>maison , il leur demanda : * De quoi disputiez-vous ensemble pendant le chemin ?",
+      "note": "",
+      "nb": [
+        "℣. 32. autr. De quoi vous entreteniez-vous dans le chemin ?"
+      ]
+    },
+    {
+      "n": 33,
+      "p": 110,
+      "lat": "At illi tacebant ; siquidem in via inter se disputaverant quis eorum major esset.",
+      "fr": "Mais ils demeurèrent dans le silence ; parce qu'ils avoient disputé entr'eux dans le chemin , qui d'eux tous étoit le plus grand.",
+      "note": "",
+      "marges": [
+        "Matt. 18. 1.",
+        "Luc. 9. 46."
+      ]
+    },
+    {
+      "n": 34,
+      "p": 110,
+      "lat": "Et residens vocavit duodecim , & ait illis : Si quis vult primus esse , erit omnium novissimus , & omnium minister.",
+      "fr": "Et s'étant assis , il appela les douze , & leur dit : Si quelqu'un veut être le premier , il sera le dernier de tous , & le serviteur de tous.",
+      "note": ""
+    },
+    {
+      "n": 35,
+      "p": 110,
+      "lat": "Et accipiens puerum , statuit eum in medio eorum ; quem cùm complexus esset , ait illis :",
+      "fr": "Puis il prit un petit enfant qu'il mit au milieu d'eux ; & l'ayant embrassé , il leur dit :",
+      "note": ""
+    },
+    {
+      "n": 36,
+      "p": 110,
+      "lat": "Quisquis unum ex hujusmodi pueris receperit in nomine meo , me recepit : & quicumque me susceperit , non me suscipit , sed eum , qui misit me.",
+      "fr": "Quiconque reçoit en mon nom un petit enfant , comme celui-ci , me reçoit : & quiconque me reçoit , ne me reçoit pas , mais celui qui m'a envoyé ,",
+      "note": ""
+    },
+    {
+      "n": 37,
+      "p": 110,
+      "lat": "Respondit illi Joannes , dicens : Magister , vidimus quemdam in nomine tuo ejicientem dæmonia , qui non sequitur nos , & prohibuimus eum.",
+      "fr": "Alors Jean prenant la parole , lui dit : Maître , nous avons vû un certain homme qui chasse les démons en votre nom , quoiqu'il ne nous suive pas ; & nous l'en avons empêché.",
+      "note": [
+        {
+          "texte": "<em>Alors Jean prenant la parole, lui dit : Maître, nous avons vu un homme chasser les démons en votre nom</em>, quoiqu'il <em>ne nous suive pas : & nous l'en avons empêché. Mais</em> JESUS <em>lui répondit : Ne l'en empêchez pas, &c.</em>",
+          "marges": [],
+          "p": 120
+        },
+        {
+          "texte": "Il semble que la liaison la plus naturelle qui se trouve entre ce que l'Apôtre saint Jean dit ici à J. C. & ce qui précède, est celle-ci : Le Fils de Dieu avoit pris occasion de la dispute des Apôtres touchant la prééminence, de leur présenter un petit enfant, & de leur faire connoître en l'embrassant devant eux, combien il prisoit la simplicité & l'humilité, qui est comme le principal caractère de cet âge. Il leur avoit dit ensuite, Que <em>quiconque auroit reçu en son nom un enfant comme celui-là, l'auroit lui-même reçu.</em> Saint Jean ayant donc compris par-là le mérite d'une action qui se faisoit <em>au nom du Sauveur</em>, commença à craindre d'avoir mal fait de s'être opposé à un homme qui ne suivoit point JESUS, & qui néanmoins chassoit les démons par la vertu de son nom. Les Interprètes ne croyent pas que les Apôtres se soient opposés par jalousie à cet homme, mais par un zèle pour la gloire de leur maître, & pour empêcher qu'une personne qui ne faisoit point profession d'être à sa suite, n'usurpât en quelque façon un droit qui n'appartenoit, & qu'il n'avoit accordé qu'à ceux qui le suivoient comme ses disciples. Il est toutefois assez croyable, qu'étant encore imparfaits, & venant même actuellement de disputer qui d'entre eux étoit le plus grand, ils ayent un peu ressemblé aux disciples de saint Jean, & qu'un secret mouvement de jalousie ait eu peut-être autant de part dans ce qu'ils dirent alors, qu'un vrai zèle pour les intérêts de J. C. Car on voit souvent des disciples se regarder eux-mêmes dans ce qui regarde le maître qu'ils suivent. Et les Apôtres purent bien être choqués de ce qu'un homme qu'ils ne connoissoient point, chassoit les démons comme eux, au nom de JESUS ; parce qu'eux-mêmes n'étoient pas encore dans cette triste disposition, où le grand Apôtre étoit depuis, lorsque parlant des différentes personnes qui annonçoient J. C. les uns le prêchant par un principe de charité, & les autres par un esprit de contention & de jalousie, & avec une intention qui n'étoit pas pure, & il ajoute, <em>Mais qu'importe, pourvu que J. C. soit annoncé en quelque manière que ce</em> <a class=\"page-inline\" href=\"page-121.html\" title=\"p. 121\">‖</a><em>soit, soit par occasion, soit par un vrai zèle ?</em> Les Apôtres auroient donc pu se réjouir aussi de voir un homme chasser les démons par l'invocation du nom de JESUS, quoiqu'il ne le suivît pas ; <em>puisque J. C.</em> étoit au moins glorifié par ces effets miraculeux de <em>sa puissance</em>, qui sembloit même se faire paroître alors d'une manière plus indépendante des hommes.",
+          "marges": [
+            "Philip. 1. 18."
+          ],
+          "p": 120
+        },
+        {
+          "texte": "Aussi il leur fit connoître par sa réponse, qu'ils avoient eu tort de s'opposer à cet homme. Et la raison qu'il en rend, est, <em>Que nul ayant fait un miracle en son nom, ne pourra aussitôt après parler mal de lui</em> ; c'est-à-dire, que cette œuvre miraculeuse qu'il aura faite par la vertu du nom de JESUS, lui imprimera un certain respect, qui l'empêchera pour le moins de parler contre celui dont il aura éprouvé le pouvoir suprême. Soit donc que celui dont saint Jean parloit, crût en J. C. quoiqu'il ne le suivît pas comme les Apôtres, soit qu'il n'y crût pas encore, mais que l'exemple des Apôtres l'eût excité seulement à invoquer son saint nom comme eux pour chasser des corps les démons, on ne devoit point, selon J. C. s'opposer à lui, parce que c'étoit en son nom qu'il opéroit ces merveilles, & que la vue même de ces prodiges pouvoit contribuer ou à le convertir, s'il ne l'étoit pas, ou à en toucher plusieurs autres comme lui.",
+          "marges": [
+            "℣. 38."
+          ],
+          "p": 121
+        },
+        {
+          "texte": "C'est en ce sens que l'on doit entendre ce que J. C. ajoute aussitôt : <em>Que celui qui n'étoit pas contre eux, étoit pour eux</em> ; ce qui signifie, que ceux qui comme cet homme n'étoient pas contre eux, quoiqu'ils ne leur fussent pas unis à l'extérieur, étoient effectivement pour eux ; c'est-à-dire, qu'ils contribuoient au même dessein, qui étoit l'accroissement de son royaume. Car en effet il suffisoit que les peuples vissent chasser les démons au nom de JESUS par cet homme, pour être persuadés que J. C. étoit plus puissant que les démons, puisque l'invocation seulement de son nom avoit la vertu de les mettre en fuite. Or ce que le Fils de Dieu dit ici, n'est point contraire, quoiqu'il le paroisse d'abord, à ce qu'il dit dans saint Matthieu ; Que <em>celui qui n'est point avec lui, est contre lui.</em> Car il est certain que cet homme, dont parle saint Marc, qui chassoit le diable au nom de JESUS, <em>n'étoit pas contre</em> le Sauveur, puisqu'il agissoit même <em>pour lui</em> & par lui. Et il est visible aussi que ceux dont parle saint Matthieu ; c'est-à-dire, & les démons & les Pharisiens, <em>n'étoient pas avec J. C.</em> puisqu'ils agissoient directement <em>contre lui</em>, & s'opposoient de toutes leurs forces à son Evangile. Les Pharisiens & les Docteurs, qui auroient dû contribuer les premiers à faire connoître & recevoir le Messie, eux qui paroissoient avoir une plus grande intelligen<a class=\"page-inline\" href=\"page-122.html\" title=\"p. 122\">‖</a>ce de la loi, qu'on regardoit comme les plus justes des Juifs, étoient au contraire ceux qui s'éloignoient le plus de lui, & par conséquent qui s'opposoient davantage à sa doctrine. Ainsi on pouvoit véritablement dire d'eux, que <em>n'étant pas avec J. C. ils étoient contre J. C.</em> Mais cet homme dont parle saint Jean, témoignoit bien <em>n'être pas contre J. C.</em> puisqu'en chassant les démons par l'invocation de son nom, il contribuoit lui-même à sa gloire.",
+          "marges": [
+            "℣. 39.",
+            "Matt. 12. 30."
+          ],
+          "p": 121
+        }
+      ],
+      "noteVersets": [
+        37,
+        38,
+        39
+      ],
+      "marges": [
+        "Luc. 9. 49."
+      ]
+    },
+    {
+      "n": 38,
+      "p": 110,
+      "lat": "Jesus autem ait : Nolite prohibere eum : nemo est enim qui faciat virtutem in nomine meo , & possit citò malè loqui de me.",
+      "fr": "Mais JESUS lui répondit : Ne l'en empêchez pas ; car il n'y a personne qui ayant fait un miracle en mon nom , puisse aussitôt après parler mal de moi.",
+      "note": "",
+      "marges": [
+        "1. Corint. 12. 3."
+      ]
+    },
+    {
+      "n": 39,
+      "p": 110,
+      "lat": "Qui enim non est adversum vos , pro vobis est ;",
+      "fr": "Qui n'est pas contre * vous , est pour vous ;",
+      "note": "",
+      "nb": [
+        "℣. 39. gr. nous , est pour nous."
+      ]
+    },
+    {
+      "n": 40,
+      "p": 110,
+      "lat": "Quisquis enim potum dederit vobis calicem aquæ in nomine meo quia Christi estis : amen dico vobis , non perdet mercedem suam.",
+      "fr": "& quiconque vous donnera à boire <em>seulement</em> un verre d'eau en mon nom , parce que vous appartenez au CHRIST , je vous dis en vérité qu'il ne perdra point sa récompense.",
+      "note": "",
+      "marges": [
+        "Matt. 10. 42."
+      ]
+    },
+    {
+      "n": 41,
+      "p": 111,
+      "lat": "Et quisquis scandalizaverit unum ex his pusillis credentibus in me , bonum est ei magis si circumdaretur mola asinaria collo ejus , & in mare mitteretur.",
+      "fr": "Que si quelqu'un est un sujet de scandale à l'un de ces plus petits qui croient en moi , il vaudroit mieux pour lui qu'on lui attachât au cou une de ces meules qu'un âne tourne , & qu'on le jetât dans la mer.",
+      "note": "",
+      "marges": [
+        "Matt. 18. 6.",
+        "Luc. 17. 2."
+      ]
+    },
+    {
+      "n": 42,
+      "p": 111,
+      "lat": "Et si scandalizaverit te manus tua , abscinde illam. Bonum est tibi debilem introire in vitam , quàm duas manus habentem ire in gehennam , in ignem inextinguibilem ;",
+      "fr": "Et si votre main vous est un sujet de scandale , coupez-la. Il vaut mieux pour vous que vous entriez dans la vie n'ayant qu'une main , que d'en avoir deux , & d'aller en enfer , dans ce feu qui brûle éternellement ;",
+      "note": "",
+      "marges": [
+        "Matth. 5. 30. 18. 8."
+      ]
+    },
+    {
+      "n": 43,
+      "p": 111,
+      "lat": "ubi vermis eorum non moritur , & ignis non extinguitur.",
+      "fr": "où le ver qui les ronge ne meurt point , & où le feu ne s'éteint jamais.",
+      "note": [
+        {
+          "texte": "<em>Où le ver</em> qui les ronge <em>ne meurt point, & où le feu ne s'éteint jamais.</em>",
+          "marges": [],
+          "p": 122
+        },
+        {
+          "texte": "Cette parole est tirée du prophète Isaïe. Ce Prophète ayant représenté la colère du Seigneur contre les Juifs, à cause de leurs continuelles prévarications & abominations, & prédit les tristes effets de sa divine justice, qui devoit les consumer par le feu, exprime le carnage qu'on feroit de cette nation par ces paroles : <em>Et egredientur, & videbunt cadavera virorum, qui prævaricati sunt in me.</em> Et ensuite pour faire voir que leur ruine seroit entière & sans espérance de rétablissement, il ajoute d'une manière métaphorique, Que <em>le ver ne mourra point</em>, & que <em>le feu ne s'éteindra point.</em> Au lieu donc que les vers mangent en très-peu de temps les corps de ceux qui ont été tués dans le combat, ou que le feu les réduit promptement en cendres ; le Prophète faisant une allusion à ces deux choses, montre que les peines destinées par la justice de Dieu à punir les Juifs, seroient d'une autre espèce ; puisque <em>le ver qui les rongera ne mourra point</em> ; c'est-à-dire, qu'il les rongera toujours, & que <em>le feu</em> qui les brûlera <em>ne s'éteindra</em> point non plus ; c'est-à-dire, qu'ils seront continuellement dans la souffrance.",
+          "marges": [
+            "Isai. 66. 17. 24."
+          ],
+          "p": 122
+        },
+        {
+          "texte": "Or cette explication littérale des paroles du Prophète, n'empêche pas qu'on ne puisse les entendre encore d'une manière spirituelle, des supplices éternels des réprouvés. Et c'est en ce sens que J. C. les a prises en ce lieu. Il se sert de ces paroles d'Isaïe, quoiqu'il ne le nomme point, car il est le maître des paroles des Prophètes, lui qui est le Verbe & la parole du Père ; & en cette qualité il a lui-même parlé par leur bouche, pour instruire, pour menacer, & pour corriger les peuples, avant que de s'être fait homme, & d'avoir instruit par lui-même ceux qu'il avoit enseignés auparavant par le ministère des hommes. « Or ce que Dieu a déclaré, dit saint Augustin, touchant l'éternel supplice des réprouvés, arrivera très-certainement. Et c'est afin de nous l'imprimer plus fortement dans l'esprit, que notre Seigneur J. C. nous représentant ce que nous aimons le plus sous <a class=\"page-inline\" href=\"page-123.html\" title=\"p. 123\">‖</a>la figure de ceux de nos membres qui nous doivent être les plus chers, & nous ordonnant de le retrancher lorsqu'il nous est un sujet de scandale, n'a pas dédaigné de répéter en ce même lieu par trois fois la même chose touchant ce <em>ver qui ne meurt point</em>, & ce <em>feu qui ne s'éteindra jamais.</em> Qui ne sera donc effrayé, ajoute ce Saint, par cette triple répétition d'une peine si terrible, lorsque c'est Dieu même qui nous en menace avec tant de véhémence » ? <em>Quem non terreat ista repetitio, & illius pœnæ comminatio tàm vehemens ore divino ?</em>",
+          "marges": [
+            "Aug. de civ. Dei. l. 21. c. 9.",
+            "Matth. 5. 29. &c."
+          ],
+          "p": 122
+        },
+        {
+          "texte": "On ne peut douter que ce <em>feu</em> dont parle ici J. C. ne soit très-réel : & quant au <em>ver</em> au contraire, on l'entend ordinairement d'une manière métaphorique, du regret & du désespoir éternel qui tourmentera l'ame des damnés dans les enfers ; quoique quelques-uns ont cru que ce ver pouvoit être aussi réel que le feu, par un effet de la toute-puissance du Créateur, qui peut, s'il le veut, comme dit saint Augustin, faire subsister les vers au milieu des feux, sans qu'ils en soient consumés. Or quoique l'on trouve qu'il soit difficile de comprendre comment ce feu étant corporel, peut agir sur une substance toute spirituelle, telle qu'est l'ame, ce qui nous paroît incompréhensible n'en est pas moins véritable, & ce n'est point à l'esprit de l'homme à vouloir borner la puissance du Seigneur, par l'étendue si étroite de sa propre intelligence. Ainsi nous pouvons dire encore avec S. Augustin sur ce sujet, qu'il faut attendre à connoître clairement ces choses, lorsque la lumière des Saints sera telle, qu'il ne sera pas besoin qu'ils fassent l'épreuve de ces peines dont nous parlons pour le comprendre, mais que leur science, qui sera alors pleine & parfaite, leur suffira pour leur en donner la connoissance : <em>Quando erit scientia tanta sanctorum, ut eis cognoscendarum illarum pœnarum necessaria non sit experientia, sed ea quæ tunc erit plena atque perfecta ; ad hoc quoque sciendum sapientia sola sufficiat.</em>",
+          "marges": [],
+          "p": 123
+        }
+      ],
+      "marges": [
+        "Isai. 66. 24."
+      ]
+    },
+    {
+      "n": 44,
+      "p": 111,
+      "lat": "Et si pes tuus te scandalizat , amputa illum. Bonum est tibi claudum introire in vitam æternam , quàm duos pedes habentem , mitti in gehennam ignis inextinguibilis ;",
+      "fr": "Et si votre pied vous est un sujet de scandale , coupez-le. Il vaut mieux pour vous , que n'ayant qu'un pied vous entriez dans la vie éternelle , que d'en avoir deux & être précipité dans l'enfer , dans ce feu qui brûle éternellement ;",
+      "note": ""
+    },
+    {
+      "n": 45,
+      "p": 111,
+      "lat": "ubi vermis eorum non moritur , & ignis non extinguitur.",
+      "fr": "où le ver qui les ronge ne meurt point , & où le feu ne s'éteint jamais.",
+      "note": ""
+    },
+    {
+      "n": 46,
+      "p": 111,
+      "lat": "Quod si oculus tuus scandalizat te , ejice eum. Bonum est tibi luscum introire in regnum Dei , quàm duos oculos habentem mitti in gehennam ignis ;",
+      "fr": "Et si votre œil vous est un sujet de scandale , arrachez-le. Il vaut mieux pour vous , que n'ayant qu'un œil vous entriez dans le royaume de Dieu , que d'en avoir deux & être précipité dans le feu de l'enfer ;",
+      "note": ""
+    },
+    {
+      "n": 47,
+      "p": 111,
+      "lat": "ubi vermis eorum non moritur , & ignis non extinguitur.",
+      "fr": "où le ver qui les ronge ne meurt point , & où le feu ne s'éteint jamais.",
+      "note": ""
+    },
+    {
+      "n": 48,
+      "p": 111,
+      "lat": "Omnis enim igne salietur , & omnis victima <a class=\"page-inline\" href=\"page-112.html\" title=\"p. 112\">‖</a>sale salietur.",
+      "fr": "* Car ils doivent tous être salés par le feu , * comme * toute <a class=\"page-inline\" href=\"page-112.html\" title=\"p. 112\">‖</a>victime doit être salée avec le sel.",
+      "note": [
+        {
+          "texte": "<em>Car ils doivent être tous salés par le feu, comme toute victime doit être salée avec le sel.</em>",
+          "marges": [],
+          "p": 123
+        },
+        {
+          "texte": "Dieu avoit ordonné dans l'ancienne loi, qu'on assaisonnât de sel tout ce qu'on lui offriroit, & il avoit défendu expressément qu'aucun sacrifice manquât de ce sel, qu'il nomme le sel de l'alliance qu'il avoit faite avec son peuple : <em>Quidquid obtuleris sacrificii, sale condies, nec auferes sal fœderis Dei tui de sacrificio tuo.</em> J. C. fait ici allusion à cette ancienne ordonnance, comme aussi à la qualité du sel, qui est de rendre incorruptibles les choses qui en sont assaisonnées, & il dit que le feu de l'enfer aura à l'égard des corps des damnés, la propriété du sel, en les rendant <a class=\"page-inline\" href=\"page-124.html\" title=\"p. 124\">‖</a>incorruptibles au milieu des flammes les plus ardentes ; & qu'ainsi ces réprouvés seront en un sens, comme des victimes assaisonnées de sel ; mais des victimes dévouées à la justice de Dieu, & destinées à souffrir éternellement dans les feux, qui leur tiendront lieu d'un sel, pour les rendre toujours immortelles dans une mort continuelle.",
+          "marges": [
+            "Levit. 2. 13."
+          ],
+          "p": 123
+        }
+      ],
+      "marges": [
+        "Levit. 2. 13."
+      ],
+      "nb": [
+        "℣. 48. expl. Le feu sera comme un sel , qui les rendra incorruptibles dans les tourmens. = Ibid. autr. & c'est ainsi que toute victime , &c. = Ibid. lett. & , qui se prend quelquefois pour comme , Prov. 15. v. 3. 23. & 25."
+      ]
+    },
+    {
+      "n": 49,
+      "p": 112,
+      "lat": "Bonum est sal : quòd si sal insulsum fuerit , in quo illud condietis ? Habete in vobis sal , & pacem habete inter vos.",
+      "fr": "Le sel est bon : mais si le sel devient fade , avec quoi l'assaisonnerez-vous ? Ayez du sel en vous , & conservez la paix entre vous.",
+      "note": [
+        {
+          "texte": "<em>Le sel est bon ; mais si le sel devient fade, avec quoi l'assaisonnerez-vous ? Ayez du sel en vous, & conservez la paix entre vous.</em>",
+          "marges": [],
+          "p": 124
+        },
+        {
+          "texte": "A l'occasion de ce sel, dont on étoit obligé, selon la loi d'assaisonner tout ce qu'on offroit en sacrifice, le Fils de Dieu prend sujet de donner une instruction importante à ses Apôtres, pour les préserver d'un aussi grand mal qu'étoit le désir de la préférence, & la jalousie, qui avoit été, comme on l'a vu, la première cause de tout ce qu'il avoit dit dans les versets précédens. Il compare donc les Apôtres, comme il est marqué plus particulièrement dans saint Matthieu, à du sel, qui est, dit-il, <em>une bonne chose.</em> Mais <em>ce sel devient fade</em> & perd sa force ; c'est-à-dire, si vous autres que j'ai destinés à être le sel de la terre par la sagesse & la sainteté de votre vie, & par la pureté de votre doctrine, vous perdez cette divine vertu, qui doit servir à communiquer l'incorruptibilité aux peuples, qui seront les hommes qui vous feront recouvrer ce que vous aurez perdu, puisque c'est vous-même qui devez le donner aux autres ?",
+          "marges": [
+            "vers. 33.",
+            "Matth. 5. 13."
+          ],
+          "p": 124
+        },
+        {
+          "texte": "<em>Ayez donc du sel en vous</em> ; c'est-à-dire, cette sagesse qui est figurée par le sel ; mais une sagesse qui soit d'en haut & selon Dieu, & une sagesse qui tende à la charité & à la <em>conservation de la paix entre vous</em>, en vous faisant renoncer à toute contestation & à toute jalousie. Car c'est pour cette raison que le Fils de Dieu joint ici <em>le sel</em>, qui est le symbole de la sagesse, à <em>la paix</em> qui est le fruit de l'humilité & de l'amour. Aussi l'Apôtre saint Jacques dit, que ceux qui sont vraiment sages de cette sagesse, qui est selon Dieu, doivent le faire paroître par la douceur de leur conduite. <em>Mais si vous avez</em>, continue ce Saint, <em>une amertume de jalousie, & s'il se trouve dans vous un esprit de contention & de dispute, ne vous glorifiez point vainement.... car ce n'est pas là la sagesse qui descend d'en haut ; mais c'est une sagesse terrestre, animale, diabolique : puisque là où il y a de la jalousie & de la dispute, il n'y a que de l'inconstance, & toute sorte de mal. Mais la sagesse qui est d'en haut, est premièrement chaste, & puis pacifique.</em> Telle est donc la liaison que ce saint Apôtre nous découvre entre <em>le sel de la sagesse & la</em> <a class=\"page-inline\" href=\"page-125.html\" title=\"p. 125\">‖</a>paix, dont parle ici J. C. lorsqu'il disoit aux Apôtres-mêmes : <em>Ayez du sel en vous, & conservez la paix entre vous.</em>",
+          "marges": [
+            "Jacob. 3. 17.",
+            "Ib. v. 13. &c."
+          ],
+          "p": 124
+        }
+      ],
+      "marges": [
+        "Matth. 5. 13.",
+        "Luc. 14. 34."
+      ]
+    }
+  ]
+};
+  </script>
+</head>
+<body data-base="../">
+
+<div class="page-shell">
+  <button class="sidebar-open-btn" aria-label="Ouvrir le sommaire">☰</button>
+  <div class="sidebar-backdrop"></div>
+
+  <aside class="sidebar">
+    <div class="sidebar-head">
+      <a class="sidebar-brand" href="../index.html">Bible de Sacy</a>
+      <button class="sidebar-collapse-btn" title="Replier le sommaire">«</button>
+    </div>
+    <div class="sidebar-search">
+      <input type="search" class="sidebar-search-input" placeholder="Rechercher…" autocomplete="off" spellcheck="false">
+      <div class="sidebar-search-results" hidden></div>
+    </div>
+    <nav class="sidebar-tree"><details class="canon-group" open><summary>Nouveau Testament</summary>
+<details class="livre-group" data-livre="marc"><summary><span class="abr">Mc</span> <span class="nom">Évangile de saint Marc</span></summary>
+<div class="chap-list">
+<a href="../marc/index.html" data-ch="0">Préface</a>
+<a href="../marc/ch01.html" data-ch="1">1</a>
+<a href="../marc/ch02.html" data-ch="2">2</a>
+<a href="../marc/ch03.html" data-ch="3">3</a>
+<a href="../marc/ch04.html" data-ch="4">4</a>
+<a href="../marc/ch05.html" data-ch="5">5</a>
+<a href="../marc/ch06.html" data-ch="6">6</a>
+<a href="../marc/ch07.html" data-ch="7">7</a>
+<a href="../marc/ch08.html" data-ch="8">8</a>
+<a href="../marc/ch09.html" data-ch="9">9</a>
+<a href="../marc/ch10.html" data-ch="10">10</a>
+<a href="../marc/ch11.html" data-ch="11">11</a>
+<a href="../marc/ch12.html" data-ch="12">12</a>
+<a href="../marc/ch13.html" data-ch="13">13</a>
+<a href="../marc/ch14.html" data-ch="14">14</a>
+<a href="../marc/ch15.html" data-ch="15">15</a>
+<a href="../marc/ch16.html" data-ch="16">16</a>
+</div></details>
+<details class="livre-group" data-livre="luc"><summary><span class="abr">Lc</span> <span class="nom">Évangile de saint Luc</span></summary>
+<div class="chap-list">
+<a href="../luc/index.html" data-ch="0">Préface</a>
+<a href="../luc/ch01.html" data-ch="1">1</a>
+<a href="../luc/ch02.html" data-ch="2">2</a>
+<a href="../luc/ch03.html" data-ch="3">3</a>
+<a href="../luc/ch04.html" data-ch="4">4</a>
+<a href="../luc/ch05.html" data-ch="5">5</a>
+<a href="../luc/ch06.html" data-ch="6">6</a>
+<a href="../luc/ch07.html" data-ch="7">7</a>
+<a href="../luc/ch08.html" data-ch="8">8</a>
+<a href="../luc/ch09.html" data-ch="9">9</a>
+<a href="../luc/ch10.html" data-ch="10">10</a>
+<a href="../luc/ch11.html" data-ch="11">11</a>
+<a href="../luc/ch12.html" data-ch="12">12</a>
+<a href="../luc/ch13.html" data-ch="13">13</a>
+<a href="../luc/ch14.html" data-ch="14">14</a>
+<a href="../luc/ch15.html" data-ch="15">15</a>
+<a href="../luc/ch16.html" data-ch="16">16</a>
+<a href="../luc/ch17.html" data-ch="17">17</a>
+<a href="../luc/ch18.html" data-ch="18">18</a>
+<a href="../luc/ch19.html" data-ch="19">19</a>
+<a href="../luc/ch20.html" data-ch="20">20</a>
+<a href="../luc/ch21.html" data-ch="21">21</a>
+<a href="../luc/ch22.html" data-ch="22">22</a>
+<a href="../luc/ch23.html" data-ch="23">23</a>
+<a href="../luc/ch24.html" data-ch="24">24</a>
+</div></details>
+</details></nav>
+    <div class="sidebar-foot">
+      <a href="../biblio.html">Bibliographie</a>
+      <a href="../recherche.html">Recherche</a>
+      <button class="theme-toggle" title="Thème clair / sombre"><span class="theme-icon">☾</span></button>
+    </div>
+  </aside>
+
+  <main class="main main-wide">
+    <p class="breadcrumb">
+      <a href="../index.html">Bible de Sacy</a> › <span class="breadcrumb-livre"></span>
+    </p>
+
+    <header class="chapter-header">
+      <p class="livre"></p>
+      <h1></h1>
+      <h2></h2>
+      <div class="chapter-actions">
+        <button class="btn" id="latin-toggle">Afficher le latin</button>
+        <a class="btn lien-pages" href="#" hidden>📄 Page à page</a>
+        <a class="btn lien-facs" href="#" target="_blank" rel="noopener">📖 Fac-similé</a>
+      </div>
+    </header>
+
+    <div class="chapitre-columns">
+      <section class="col-francais" aria-label="Texte français"></section>
+      <section class="col-commentaire" aria-label="Commentaire">
+        <p class="col-label">Notes de la <em>Bible de Sacy</em></p>
+        <div class="commentaire-texte"></div>
+      </section>
+      <section class="col-litteral" aria-label="Sens littéral" hidden>
+        <p class="col-label">
+          <span>Sens littéral</span>
+          <span class="sens-toggle">
+            <button class="btn sens-btn active" data-sens="litteral">Littéral</button>
+            <button class="btn sens-btn" data-sens="spirituel">Spirituel</button>
+          </span>
+        </p>
+        <div class="litteral-texte"></div>
+      </section>
+      <section class="col-spirituel" aria-label="Sens spirituel" hidden>
+        <p class="col-label">Sens spirituel</p>
+        <div class="spirituel-texte"></div>
+      </section>
+    </div>
+
+    <nav class="chapter-nav">
+      <a class="nav-prev" href="#">←</a>
+      <span class="chapitre-num"></span>
+      <a class="nav-next" href="#">→</a>
+    </nav>
+  </main>
+</div>
+
+<script src="../render.js"></script>
+</body>
+</html>
