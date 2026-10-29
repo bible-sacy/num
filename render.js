@@ -80,10 +80,22 @@ const BIBLE_BOOKS = {
   'Jacob':{slug:'jacques',fr:'Jacques'},'Daniel':{slug:'daniel',fr:'Daniel'},
   'Petr':{slug:'pierre',fr:'Pierre',num:true},'Paral':{slug:'paralipomenes',fr:'Paralipomènes',num:true},
   'Thess':{slug:'thessaloniciens',fr:'Thessaloniciens',num:true},
+  'Math':{slug:'matthieu',fr:'Matthieu'},'Joel':{slug:'joel',fr:'Joël'},'Proverb':{slug:'proverbes',fr:'Proverbes'},
+  'Sapient':{slug:'sagesse',fr:'Sagesse'},'Zach':{slug:'zacharie',fr:'Zacharie'},'Malac':{slug:'malachie',fr:'Malachie'},
+  'Amos':{slug:'amos',fr:'Amos'},'Eccles':{slug:'ecclesiaste',fr:'Ecclésiaste'},'Cantic':{slug:'cantique',fr:'Cantique'},
+  'Lament':{slug:'lamentations',fr:'Lamentations'},'Habac':{slug:'habacuc',fr:'Habacuc'},
+  'Supr':{same:true},'Suprà':{same:true},
+  'Zachar':{slug:'zacharie',fr:'Zacharie'},'Philem':{slug:'philemon',fr:'Philémon'},'Malach':{slug:'malachie',fr:'Malachie'},
+  'Levitiq':{slug:'levitique',fr:'Lévitique'},'Jean':{slug:'jean',fr:'Jean'},'Tite':{slug:'tite',fr:'Tite'},'Thren':{slug:'lamentations',fr:'Lamentations'},
+  'Psalm':{slug:'psaumes',fr:'Ps'},'Philipp':{slug:'philippiens',fr:'Philippiens'},'Numer':{slug:'nombres',fr:'Nombres'},'Nomb':{slug:'nombres',fr:'Nombres'},
+  'Mach':{slug:'maccabees',fr:'Maccabées',num:true},'Juges':{slug:'juges',fr:'Juges'},'Judic':{slug:'juges',fr:'Juges'},'Isaie':{slug:'isaie',fr:'Isaïe'},
+  'Ezechiel':{slug:'ezechiel',fr:'Ézéchiel'},'Ezec':{slug:'ezechiel',fr:'Ézéchiel'},'Ecc':{slug:'ecclesiaste',fr:'Ecclésiaste'},'Esdr':{slug:'esdras',fr:'Esdras'},
+  'Inf':{same:true},'Agg':{slug:'aggee',fr:'Aggée'},'Apocal':{slug:'apocalypse',fr:'Apocalypse'},'Isaï':{slug:'isaie',fr:'Isaïe'},'Isaïe':{slug:'isaie',fr:'Isaïe'},
   // renvois à l'intérieur du même livre
   'Sup':{same:true},'Supra':{same:true},'Infr':{same:true},'Infrà':{same:true},'Infra':{same:true},
 };
 let SACY_CURRENT_BOOK = null;
+let SACY_VERSE_HREF = n => '#v' + n;   // lien d'un « ℣. N » : verset du chapitre affiché (vue chapitre) ou du chapitre en cours (vue page)
 let SACY_CURRENT_CHAP = null;   // chapitre en cours de lecture (pour les renvois « v. 22. » sans chapitre)
 
 function fromRoman(s) {
@@ -114,7 +126,7 @@ function parseBibleRef(text) {
   }
   // Formes acceptées : « Matt. 11. 14. », « 1. Cor. 15. 24. », « Joan. XVI, 7 », « Sup. 9. 22. »
   const m = text.match(
-    /^((?:[IVX]+|[1-4])\.?\s+)?([A-Za-zÀ-ÿ]+)\.?\s+([IVXLCD]+|\d+)(?:\s*[.,]\s*(\d+))?/
+    /^((?:[IVX]+|[1-4])\.?\s+)?([A-Za-zÀ-ÿ]+)\.?\s+(?:(?:c|cap)\.?\s*)?([IVXLCD]+|\d+)(?:\s*[.,]\s*(\d+))?/
   );
   if (!m) return null;
 
@@ -150,6 +162,49 @@ function slugify(text) {
     .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 }
 
+// ── Sources non bibliques (Pères, commentateurs) : clé d'auteur d'une marge, pour renvoyer à la bibliographie ─────────────
+// Miroir de scripts/sources.py (cle_auteur_seule) — vérifié par scripts/check_sources.py. « Ibid. »/« Idem » = auteur de la source précédente.
+const SOURCE_ALIAS = {
+  august:'augustin',aug:'augustin',augst:'augustin',augustin:'augustin',augus:'augustin',augusti:'augustin',ench:'augustin',enchir:'augustin',
+  ambr:'ambroise',ambros:'ambroise',ambrosius:'ambroise',amb:'ambroise',
+  hieron:'jerome',hier:'jerome',hieronym:'jerome',hierom:'jerome',hyeron:'jerome',
+  gregor:'gregoire-le-grand',greg:'gregoire-le-grand',gregorius:'gregoire-le-grand',magn:'gregoire-le-grand',mor:'gregoire-le-grand',moral:'gregoire-le-grand',pastor:'gregoire-le-grand',
+  tertull:'tertullien',tertul:'tertullien',tertullian:'tertullien',origen:'origene',orig:'origene',
+  chrysost:'chrysostome',chrys:'chrysostome',chrysostom:'chrysostome',bern:'bernard',ber:'bernard',bernard:'bernard',
+  bed:'bede',beda:'bede',euseb:'eusebe',iren:'irenee','irenæus':'irenee',irenaeus:'irenee',ireneus:'irenee',
+  cyprian:'cyprien',cypr:'cyprien',epiph:'epiphane',epiphan:'epiphane',athanas:'athanase',athan:'athanase',leo:'leon',
+  basil:'basile',basilius:'basile',hilar:'hilaire',hil:'hilaire',cyrill:'cyrille',paulin:'paulin',joseph:'josephe',
+  grotius:'grotius',grot:'grotius',maldon:'maldonat',mald:'maldonat',estius:'estius',jansen:'jansenius',jansenius:'jansenius',
+  theoph:'theophylacte',theophil:'theophylacte',theophyl:'theophylacte',theophylact:'theophylacte',euthym:'euthyme',eutym:'euthyme',sedul:'sedulius',mabil:'mabillon',
+  conc:'conciles',concil:'conciles'
+};
+const SOURCE_LITURGIE = new Set(['circoncision','suite','un','plusieurs','dim','veille','lundi','mardi','mercredi','jeudi','vendredi','samedi','aux','visitation','octave','dimanche','fête','fete','s','st']);
+const SOURCE_CONTINUATION = new Set(['in','de','hom','homil','tract','part','sess','item','apud','ep','epist','serm','ser','orat','evangel','dom','contra']);
+const SOURCE_REPERAGE = new Set(['ch','l','lib','liv','c','cap','chap','p','pag','n','num','v','vers','q','qu','quaest','quæst','col','to','tom','t','art','part']);
+let SACY_PREV_SOURCE = null;
+let BIBLE_LOOSE_RE = null;
+function bibleLoose(marge) {   // renvoi biblique irrégulier (« Hebr. [?]. 6. 7. », « Jud. v. 9. ») : texte simple, pas une source
+  if (!BIBLE_LOOSE_RE) BIBLE_LOOSE_RE = new RegExp('^(?:[1-4IV]+\\.?\\s+)?(' + Object.keys(BIBLE_BOOKS).filter(k => !BIBLE_BOOKS[k].same).sort((a, b) => b.length - a.length).join('|') +
+    ')\\.?\\s+(?:\\[\\?\\]|v\\.|ib\\.|ut\\b|[ivxlcdm]+\\.\\s*\\d)', 'i');
+  return BIBLE_LOOSE_RE.test(marge.trim());
+}      // dernière source citée dans le flux en cours (Ibid./Idem) ; remise à zéro à chaque colonne
+
+function sourceAuthorKey(marge, prevKey) {
+  const t = marge.trim();
+  const tokens = t.split(/\s+/);
+  const first = (tokens[0] || '').replace(/\.$/, '').toLowerCase();
+  const isLit = t.startsWith('†') || (/^[A-Za-zÀ-ÿ]+/.test(t) && SOURCE_LITURGIE.has(first) && !(first in SOURCE_ALIAS));
+  if (isLit) return 'liturgie';
+  if (/^(ib|ibid|ibidem|id|idem)\b/i.test(t) || (SOURCE_REPERAGE.has(first) && first.length <= 3) || SOURCE_CONTINUATION.has(first) || !/^[A-Za-zÀ-ÿ]/.test(first)) return prevKey || 'non-identifie';
+  let key = SOURCE_ALIAS[first];
+  if (key === 'gregoire-le-grand' && tokens.length > 1) {
+    const nxt = tokens[1].replace(/[.,]$/, '').toLowerCase();
+    if (nxt.startsWith('nazianz')) return 'gregoire-de-nazianze';
+    if (nxt.startsWith('nyss')) return 'gregoire-de-nysse';
+  }
+  return key || (slugify(tokens[0].replace(/\.$/, '')) || 'divers');
+}
+
 // Renvoi d'une marge dans sa liste (`list`, position `i`) : gère « Ib. v. N » par rapport à la marge précédente.
 // Si la marge précédente n'est pas un renvoi biblique (ex. un Père de l'Église : « Ambr. in Luc. c. 2. v. 26. »),
 // « Ib. » désigne cet ouvrage et le renvoi n'est pas résolu (pas de lien biblique).
@@ -166,6 +221,7 @@ function refForMarge(list, i) {
 
 function renderMarge(marge, base, list, idx) {
   const ref = list ? refForMarge(list, idx) : parseBibleRef(marge);
+  if (ref) SACY_PREV_SOURCE = '__bible__';
   if (ref && typeof SACY_PUBLISHED !== 'undefined' && !SACY_PUBLISHED.includes(ref.slug)) {
     const lab = ref.verset ? `${ref.fr} ${toRoman(ref.chapitre)}, ${ref.verset}` : `${ref.fr} ${toRoman(ref.chapitre)}`;
     return `<span class="marge-link marge-bible marge-hors-site" title="${lab} — livre pas encore publié sur ce site">${marge}</span>`;
@@ -180,8 +236,13 @@ function renderMarge(marge, base, list, idx) {
     return `<a href="${url}" class="marge-link marge-bible" title="${label}">${marge}</a>`;
   }
   if (IB_VERSE_RE.test(marge.trim())) return `<span class="marge-link">${marge}</span>`;   // « Ib. v. N » d'un ouvrage patristique : pas de lien
-  const slug = slugify(marge);
-  return `<a href="${base}biblio.html#${slug}" class="marge-link marge-extern">${marge}</a>`;
+  if (bibleLoose(marge)) { SACY_PREV_SOURCE = '__bible__'; return `<span class="marge-link marge-bible-flou">${marge}</span>`; }
+  if (IB_VERSE_RE.test(marge.trim())) return `<span class="marge-link">${marge}</span>`;   // « Ib. v. N » d'un ouvrage patristique : pas de lien
+  if (SACY_PREV_SOURCE === '__bible__' && /^(ib|ibid|ibidem|id|idem)\b/i.test(marge.trim()))
+    return `<span class="marge-link">${marge}</span>`;                                 // « Ibid. 12. » après un renvoi biblique
+  const key = sourceAuthorKey(marge, SACY_PREV_SOURCE && SACY_PREV_SOURCE !== '__bible__' ? SACY_PREV_SOURCE : null);
+  if (key !== 'liturgie') SACY_PREV_SOURCE = key;
+  return `<a href="${base}biblio.html#a-${key}" class="marge-link marge-extern">${marge}</a>`;
 }
 
 // ── Utilitaires généraux ──────────────────────────────────────────────────────
@@ -528,6 +589,11 @@ function renderChapitre(data) {
 
 // ── Colonne française (versets, latin optionnel, renvois) ────────────────────
 
+// « ℣. 38 » (dans les notes de bas de page et le commentaire) = verset 38 du chapitre en cours : lien vers ce verset.
+function linkVerses(html, hrefFor) {
+  return String(html).replace(/(℣\.?\s*)(\d+)/g, (m, lead, n) => `<a class="ref-verset" href="${hrefFor(parseInt(n, 10))}" title="Verset ${n}">${lead}${n}</a>`);
+}
+
 function pageHref(meta, p, n) {
   // Vue page à page interne si le livre en dispose, sinon fac-similé externe (bible.sacy.be)
   if (meta.pageView) return `page-${p}.html${n ? '#v' + n : ''}`;
@@ -536,6 +602,7 @@ function pageHref(meta, p, n) {
 }
 
 function buildFrancais(versets, meta, base, hasDoubleSens) {
+  SACY_PREV_SOURCE = null;
   const noteRefMap = {};
   const litRefMap = {};
   const spiRefMap = {};
@@ -580,7 +647,7 @@ function buildFrancais(versets, meta, base, hasDoubleSens) {
     const margesHtml = (v.marges && v.marges.length)
       ? `<aside class="verset-marges">${v.marges.map((m, i, arr) => `<span class="marge-item">${renderMarge(m, base, arr, i)}</span>`).join('')}</aside>` : '';
     const nbHtml = (v.nb && v.nb.length)
-      ? `<div class="verset-notebas">${v.nb.map(t => `<p>${t}</p>`).join('')}</div>` : '';
+      ? `<div class="verset-notebas">${v.nb.map(t => `<p>${linkVerses(t, n => '#v' + n)}</p>`).join('')}</div>` : '';
 
     rows.push(`
     <div class="verset" id="v${v.n}">
@@ -594,6 +661,7 @@ function buildFrancais(versets, meta, base, hasDoubleSens) {
 // ── Commentaire ────────────────────────────────────────────────────────────────
 
 function buildCommentaire(versets, meta, base, field, versetsField, prefix) {
+  SACY_PREV_SOURCE = null;
   field = field || 'note';
   versetsField = versetsField || 'noteVersets';
   prefix = prefix || '';
@@ -659,7 +727,7 @@ function buildParaRow(texte, marges, base, pageLink) {
       `</aside>`
     : '';
   return `<div class="note-para-row${hasMarges ? ' has-marges' : ''}">` +
-    `<p class="note-para-text">${pageLink || ''}${texte}</p>${margesHtml}</div>`;
+    `<p class="note-para-text">${pageLink || ''}${SACY_CURRENT_CHAP ? linkVerses(texte, SACY_VERSE_HREF) : texte}</p>${margesHtml}</div>`;
 }
 
 // ── Latin optionnel (persisté dans l'URL) ─────────────────────────────────────
@@ -765,6 +833,8 @@ function renderPage(data) {
     if (meta.next != null) { a.href = `page-${meta.next}.html`; a.textContent = `p. ${meta.nextLabel ?? meta.next} →`; } else a.style.visibility = 'hidden';
   });
 
+  SACY_PREV_SOURCE = null;
+  SACY_VERSE_HREF = n => chRef(SACY_CURRENT_CHAP || page.chapitre, n);
   const parts = [];
   if (page.coupureDebut) parts.push(`<p class="pf-suite">↩ suite de la page précédente</p>`);
   (page.titres || []).forEach(t => parts.push(`<h3 class="pf-titre">${t}</h3>`));
@@ -784,7 +854,7 @@ function renderPage(data) {
       <div class="pf-fr">${ref} ${v.fr || ''}</div>
       <div class="pf-lat">${v.lat || ''}</div>${msHtml}</div>`);
   });
-  (page.notesBas || []).forEach(t => parts.push(`<p class="pf-notebas">${t}</p>`));
+  (page.notesBas || []).forEach(t => parts.push(`<p class="pf-notebas">${linkVerses(t, n => chRef(((page.versets || []).slice(-1)[0] || {}).chapitre || page.chapitre, n))}</p>`));
 
   let senPrec = null;
   (page.commentaire || []).forEach(c => {

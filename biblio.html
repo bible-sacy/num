@@ -153,55 +153,51 @@
 <script src="render.js"></script>
 <script>
 (function () {
-  if (typeof SACY_BIBLIO === 'undefined') {
-    document.getElementById('biblio-hint').innerHTML =
-      'L\'index bibliographique n\'a pas encore été généré.<br>Lancez <code>python scripts/build.py</code>.';
+  const hint = document.getElementById('biblio-hint');
+  if (typeof SACY_BIBLIO === 'undefined' || !SACY_BIBLIO.auteurs) {
+    hint.innerHTML = 'L\'index bibliographique n\'a pas encore été généré.<br>Lancez <code>python scripts/build.py</code>.';
     return;
   }
+  const auteurs = SACY_BIBLIO.auteurs;
+  if (!auteurs.length) { hint.textContent = 'Aucune référence externe dans les données actuelles.'; return; }
 
-  const keys = Object.keys(SACY_BIBLIO).sort((a, b) => {
-    const ka = (SACY_BIBLIO[a].auteur || a).toLowerCase();
-    const kb = (SACY_BIBLIO[b].auteur || b).toLowerCase();
-    return ka.localeCompare(kb, 'fr');
-  });
-
-  if (keys.length === 0) {
-    document.getElementById('biblio-hint').textContent = 'Aucune référence externe dans les données actuelles.';
-    return;
+  const pad = n => String(n).padStart(2, '0');
+  function toRoman(n) {
+    const v = [1000,900,500,400,100,90,50,40,10,9,5,4,1], s = ['M','CM','D','CD','C','XC','L','XL','X','IX','V','IV','I'];
+    let r = ''; for (let i = 0; i < v.length; i++) while (n >= v[i]) { r += s[i]; n -= v[i]; } return r;
   }
-
-  function pad(n) { return String(n).padStart(2, '0'); }
-  function toRomanLocal(n) {
-    const v=[1000,900,500,400,100,90,50,40,10,9,5,4,1];
-    const s=['M','CM','D','CD','C','XC','L','XL','X','IX','V','IV','I'];
-    let r=''; for(let i=0;i<v.length;i++) while(n>=v[i]){r+=s[i];n-=v[i];} return r;
+  // lien vers l'endroit cité : commentaire (id selon le sens), renvoi en marge du verset, ou préface
+  function lien(c) {
+    if (c.sens === 'P') return `${c.livre}/index.html`;
+    if (c.sens === 'V') return `${c.livre}/ch${pad(c.chapitre)}.html#v${c.n}`;
+    if (c.sens === 'L') return `${c.livre}/ch${pad(c.chapitre)}.html?sens=litteral#com-lit-v${c.n}`;
+    if (c.sens === 'S') return `${c.livre}/ch${pad(c.chapitre)}.html?sens=spirituel#com-spi-v${c.n}`;
+    return `${c.livre}/ch${pad(c.chapitre)}.html#com-v${c.n}`;
   }
+  const libelle = c => c.sens === 'P' ? `${c.livreAbr}, préface` : `${c.livreAbr} ${toRoman(c.chapitre)}, ${c.n}${c.sens === 'S' ? ' (sens spirituel)' : ''}`;
+  const esc = t => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;');
 
-  let html = '';
-  for (const key of keys) {
-    const ref = SACY_BIBLIO[key];
-    const citationsHtml = ref.citations.map(c => {
-      const url = `${c.livre}/ch${pad(c.chapitre)}.html#com-v${c.n}`;
-      return `<a href="${url}" class="biblio-citation">${c.livreAbr} ${toRomanLocal(c.chapitre)}, ${c.n}</a>`;
-    }).join('');
+  const nCites = auteurs.reduce((n, a) => n + a.oeuvres.reduce((m, o) => m + o.refs.reduce((k, r) => k + r.cites.length, 0), 0), 0);
+  let html = `<p class="search-count">${auteurs.length} auteur${auteurs.length > 1 ? 's' : ''} · ${nCites} citations</p>`;
+  html += '<nav class="biblio-index">' + auteurs.map(a => `<a href="#a-${a.cle}">${esc(a.nom)}</a>`).join(' · ') + '</nav>';
 
-    html += `
-    <div class="biblio-entry" id="${ref.slug}">
-      <div class="biblio-ref-text">${key}</div>
-      <div class="biblio-meta">
-        <span class="biblio-auteur">${ref.auteur || ''}</span>
-        ${ref.oeuvre ? `<span class="biblio-oeuvre">${ref.oeuvre}</span>` : ''}
-      </div>
-      ${ref.notice ? `<p class="biblio-notice">${ref.notice}</p>` : ''}
-      <div class="biblio-citations-line">
-        <span class="biblio-citations-label">Cité en :</span>
-        ${citationsHtml}
-      </div>
-    </div>`;
+  for (const a of auteurs) {
+    html += `<section class="biblio-auteur" id="a-${a.cle}"><h2>${esc(a.nom)}${a.dates ? ` <small>(${a.dates})</small>` : ''}</h2>`;
+    for (const o of a.oeuvres) {
+      const titre = o.titre ? esc(o.titre) : (a.cle === 'liturgie' ? '' : 'références générales à l\'auteur');
+      html += `<div class="biblio-entry" id="${o.slug}">`;
+      if (titre) html += `<div class="biblio-ref-text">${titre}</div>`;
+      html += '<ul class="biblio-refs">';
+      for (const r of o.refs) {
+        const cites = r.cites.map(c => `<a href="${lien(c)}" class="biblio-citation">${libelle(c)}</a>`).join('');
+        html += `<li><span class="biblio-ref">${esc(r.ref)}</span><span class="biblio-citations-line"><span class="biblio-citations-label">Cité en :</span> ${cites}</span></li>`;
+      }
+      html += '</ul></div>';
+    }
+    html += '</section>';
   }
-
-  const main = document.getElementById('biblio-main');
-  main.innerHTML = `<p class="search-count">${keys.length} entrée${keys.length > 1 ? 's' : ''}</p>${html}`;
+  document.getElementById('biblio-main').innerHTML = html;
+  if (location.hash) { const el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView(); }
 })();
 </script>
 </body>

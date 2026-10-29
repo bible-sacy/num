@@ -817,3 +817,16 @@ mark { background: transparent; color: var(--accent); font-weight: 600; }
 .sens-index { font-size: 0.9rem; color: var(--muted); margin: 0 0 1rem; text-align: left; }
 .sens-index a { margin: 0 0.1em; }
 @media (max-width: 980px) { .sens-switch { flex-wrap: wrap; justify-content: center; } }
+
+/* ── Bibliographie : auteur → ouvrage → référence interne ────────────────────────────────────────────────────── */
+.biblio-index { font-size: 0.92rem; line-height: 1.9; margin: 0 0 1.6rem; text-align: left; }
+.biblio-index a { white-space: nowrap; }
+.biblio-auteur { margin: 0 0 1.8rem; }
+.biblio-auteur h2 { font-size: 1.25rem; font-weight: 600; margin: 1.4rem 0 0.4rem; border-bottom: 1px solid var(--border-light); padding-bottom: 0.2rem; }
+.biblio-auteur h2 small { font-weight: 500; color: var(--muted); font-size: 0.75em; }
+.biblio-auteur .biblio-entry { padding: 0.5rem 0 0.7rem; border-bottom: none; max-width: none; }
+.biblio-refs { list-style: none; margin: 0.25rem 0 0 0.2rem; padding: 0; }
+.biblio-refs li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2rem 0.9rem; padding: 0.15rem 0; }
+.biblio-ref { font-variant-numeric: tabular-nums; font-weight: 600; min-width: 5.5rem; color: var(--accent); }
+.ref-verset { color: inherit; border-bottom: 1px dotted var(--muted); }
+.ref-verset:hover { color: var(--accent); text-decoration: none; border-bottom-color: var(--accent); }
