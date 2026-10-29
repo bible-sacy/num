@@ -2551,6 +2551,536 @@ const SACY_SEARCH_INDEX = [
     "note": "Que la grace de notre Seigneur JESUS-CHRIST, l'amour de Dieu, & la communication du Saint-Esprit demeure avec vous tous. Amen. Que la grace de notre Seigneur JESUS-CHRIST, &c. L'Apôtre exprime la même chose par trois termes differens, pour faire voir qu'elle procede également des trois Personnes divines, & pour établir par occasion la verité du ministere de la Trinité. Amen. Ce mot ne se trouve pas dans des manuscrits fort anciens ; il semble qu'il a été ajoûté par l'Eglise de Corinthe, qui répondoit, Amen, toutes les fois qu'on lisoit cette Epître."
   },
   {
+    "livre": "jean2",
+    "livreFr": "Deuxième épître de saint Jean",
+    "livreAbr": "2 Jn",
+    "chapitre": 1,
+    "n": 1,
+    "lat": "Senior Electæ dominæ, & natis ejus, quos ego diligo in veritate, & non ego solus, sed & omnes qui cognoverunt veritatem,",
+    "fr": "Le Prêtre *, à la Dame Electe & à ses enfans, que j'aime dans la verité ; & qui ne sont pas aimés de moi seul, mais que tous ceux qui connoissent la verité, aiment comme moi,",
+    "note": "Le Prêtre, à la Dame Electe, & à ses enfans, que j'aime dans la verité, &c. Saint Jean écrit cette petite lettre à une Dame de grande qualité, & de grande pieté, nommée Electe, qui étoit veuve ; il la loue de ce qu'elle & ses enfans conservoient la foi en JESUS-CHRIST : mais il semble qu'il craignoit qu'elle ne se laissât séduire par les heretiques ; c'étoient les Basilidiens, qui enseignoient que JESUS-CHRIST n'avoit eu qu'une chair apparente & fantastique. Il paroît qu'ils s'étoient insinués dans ses bonnes-graces, & qu'ils conversoient familierement avec elle ; il la prévient contre leur impieté, & lui ordonne de fuir leur conversation. Le saint Apôtre prend le nom de Prêtre, qui étoit alors commun aux Prêtres & aux Evêques, & lui convenoit bien, parcequ'il conduisoit toutes les Eglises d'Asie. Ce mot qui est Grec, & que l'Interprete de la Vulgate rend ici par celui de senior, signifie proprement ancien, ou vieillard. C'est pourquoi saint Augustin dit que l'Apôtre prenoit ce nom, parceque son grand âge le lui faisoit donner ordinairement, comme on le donnoit au plus ancien Evêque d'Afrique en chaque province. Voyez ce qui a été dit de ce mot sur le cinquiéme chapitre de la premiere de saint Pierre. Il témoigne à cette Dame & à ses enfans, qu'il a pour eux une amitié veritable, solide, & tout-à-fait chrétienne, n'y en ayant point d'autre veritable que celle qui a les caracteres de celle-ci, qui en est un parfait modelle. La premiere marque d'une amitié veritable, est d'être sincere, & qu'elle parte d'une affection veritable sans déguisement ; c'est ce que l'Apôtre montre ici quand il dit, qu'il les aime dans la verité. Les gens-du-monde se font les uns aux autres des protestations d'amitié ; mais comme c'est ordinairement sans charité, c'est aussi sans sincerité : ils croient avoir bien satisfait au devoir de l'amitié, de se traiter l'un l'autre honnêtement à l'exterieur ; & sont fort contens d'eux-mêmes, lorsqu'ils pensent avoir persuadé aux autres par des complimens affectés & faits de bonne-grace, qu'ils leur sont fort affectionnés : mais, comme dit le même Apôtre, il ne faut pas aimer de paroles ni de la langue, mais par amour & en verité. Le second caractere d'une amitié veritable, c'est la conformité des sentimens. Cette maxime est une regle parmi les payens mêmes, qui disent que la veritable amitié consiste à vouloir & à ne pas vouloir les mêmes choses : Nam eadem velle & eadem nolle ea demum vera amicitia est. Mais cette regle est fort sujette à l'illusion ; car les voleurs & les autres méchans peuvent bien s'entendre ensemble pour contenter leurs passions : mais afin que cette maxime soit vraie, il faut qu'elle soit fondée sur la verité, & que la foi & la charité en soient le lien. Saint Paul exhorte souvent les fidelles de s'aimer dans les mêmes sentimens ; mais il ajoûte, que c'étoit en notre Seigneur : Idipsum sapere in Domino. Ainsi saint Jean fait voir quelle est la vraie marque d'une amitié chrétienne, quand il dit qu'il aime la Dame Electe & ses enfans pour l'amour de la verité qui demeure en nous ; & que tous ceux qui connoissent cette même verité, les aiment comme lui. Cette verité est celle de la vraie foi catholique & de la doctrine de l'Evangile ; cette conformité dans la doctrine de la foi & des mœurs, est cause de l'amitié que tous les Chrétiens qui sont répandus par tout le monde, ont les uns pour les autres : ainsi cette amitié est veritable, parcequ'elle est sainte ; elle est sainte, parcequ'elle n'a point d'autre fin que la verité, qui est la charité. La troisiéme marque certaine d'une amitié veritable, c'est la perséverance non seulement jusqu'à la mort, mais encore dans l'éternité : il n'y a que l'amitié chrétienne qui est fondée sur la charité, qui puisse être éternelle ; les autres amitiés qui ne sont fondées que sur des biens perissables, perissent aussi avec ceux qui meurent, & ne peuvent durer tout-au-plus que jusqu'à leur mort : mais l'amitié chrétienne dure autant que la verité qui demeure en nous éternellement ; elle ne forme point d'autre liaison que par rapport à celle qui nous doit unir éternellement avec Dieu. Le quatriéme caractere de la vraie amitié, c'est de souhaiter à ses amis des biens solides & permanens ; telle est l'amitié, que sont les biens que l'on desire à ses amis : si l'amitié est chrétienne, on desire à ses amis les biens du ciel, qui ne perissent jamais ; & par là on reconnoît la fausseté des amitiés ordinaires, qui ne desirent à ceux qu'ils aiment que les biens de cette vie, qui passent avec le monde, & qui nous quittent à la mort. Les biens que saint Jean desire à la Dame Electe & à ses enfans, ne sont pas de ce genre, mais ils sont solides & perpetuels. Il leur desire de la part de Dieu le Pere & de JESUS-CHRIST son Fils unique, dont il il insinue la divinité & l'égalité avec son Pere, contre les heresies de ce temps-là ; il leur desire, dis-je, la grace, la misericorde, & la paix : la grace est un don de Dieu qu'il fait gratuitement à ceux à qui il veut, pour operer leur salut éternel selon sa volonté : la misericorde est cette même grace que JESUS-CHRIST nous a acquise par ses merites, & qu'il exerce envers des miserables pour les assister dans leurs miseres spirituelles & temporelles : la paix, qui signifie dans le stile de l'Ecriture, toutes sortes de biens, marque ici principalement le fruit du Saint-Esprit, qui nous sanctifie & calme toutes nos passions, pour nous rendre capables d'entrer dans le ciel. Ce sont-là les biens solides que les Apôtres desirent à ceux à qui ils écrivent, en les saluant au commencement de leurs lettres. Saint Jean ajoûte ici ces mots, dans la verité & dans la charité, soit qu'il leur souhaite l'accroissement de ces vertus, ou plutôt qu'il veuille marquer que ces dons de Dieu qu'il leur souhaite, consistent dans la verité, c'est-à-dire, dans la doctrine de la foi, & dans la charité par laquelle ils s'aiment les uns les autres sincerement pour l'amour de Dieu ; car ces deux vertus font la perfection du Christianisme, & l'unique ressort d'un vrai Chrétien."
+  },
+  {
+    "livre": "jean2",
+    "livreFr": "Deuxième épître de saint Jean",
+    "livreAbr": "2 Jn",
+    "chapitre": 1,
+    "n": 2,
+    "lat": "propter veritatem quæ permanet in nobis, & nobiscum erit in æternum.",
+    "fr": "pour l'amour de cette même verité qui demeure en nous, & qui sera en nous éternellement.",
+    "note": ""
+  },
+  {
+    "livre": "jean2",
+    "livreFr": "Deuxième épître de saint Jean",
+    "livreAbr": "2 Jn",
+    "chapitre": 1,
+    "n": 3,
+    "lat": "Sit vobiscum gratia, misericordia, pax à Deo Patre, & à Christo Jesu Filio Patris, in veritate & caritate.",
+    "fr": "Que Dieu le Pere, & JESUS-CHRIST Fils du Pere, vous donnent la grace, la misericorde & la paix dans la verité & dans la charité.",
+    "note": ""
+  },
+  {
+    "livre": "jean2",
+    "livreFr": "Deuxième épître de saint Jean",
+    "livreAbr": "2 Jn",
+    "chapitre": 1,
+    "n": 4,
+    "lat": "Gavisus sum valdè, quoniam inveni de filiis tuis ambulantes in veritate, sicut mandatum accepimus à Patre.",
+    "fr": "J'ai eu bien de la joie de voir quelques-uns de vos enfans qui marchent dans la verité *, selon le commandement que nous avons reçû du Pere.",
+    "note": "J'ai eu bien de la joie de voir quelques-uns de vos enfans qui marchent dans la verité, &c. Le saint Apôtre commence à exhorter cette Dame chrétienne à demeurer ferme dans la vraie foi ; mais il fait voir quelles sont ses entrailles de charité, lorsqu'il lui dit qu'il s'est extrêmement réjoui quand il a su qu'elle & ses enfans servoient Dieu fidellement. Il nous apprend par là à ressentir le bonheur de ceux qui se donnent à Dieu, & à être ravis de joie en considerant la sainteté de ceux qui le servent de bon-cœur. Le mot de marcher dont il se sert, fait voir qu'on ne doit point cesser d'avancer durant cette vie, & qu'il faut penser toûjours à ce qui est devant nous ; comme le grand Apôtre saint Paul : Je ne pense point, dit-il, avoir encore atteint où je tends ; mais tout ce que je fais maintenant, c'est qu'oubliant ce qui est derriere moi, & m'avançant vers ce qui est devant moi, je cours incessamment vers le but de la carriere, pour remporter le prix de la felicité du ciel, à laquelle Dieu nous a appellés en JESUS-CHRIST."
+  },
+  {
+    "livre": "jean2",
+    "livreFr": "Deuxième épître de saint Jean",
+    "livreAbr": "2 Jn",
+    "chapitre": 1,
+    "n": 5,
+    "lat": "Et nunc rogo te, domina, non tanquam mandatum novum scribens tibi, sed quod habuimus ab initio, ut diligamus alterutrum.",
+    "fr": "Et je vous prie maintenant, Madame, que nous ayons une charité mutuelle les uns pour les autres : & ce que je vous écris, n'est pas un commandement nouveau ; mais le même que nous avons reçû dès le commencement.",
+    "note": "Saint Jean, le disciple bien-aimé, ne se lasse point de recommander le grand précepte de l'amour du prochain ; l'empressement qu'il a de faire observer ce précepte dont il étoit pénetré, lui fait user de priere à l'égard de cette Dame, au-lieu de remontrance & d'avertissement : il lui fait considerer que ce n'est point un commandement nouveau qu'il lui fait, mais que c'est un précepte exprès du Seigneur, qu'ils avoient reçû d'abord en recevant la foi : ce sont presque les mêmes termes dont il a usé dans sa premiere épître ch. 2. 7. où l'on en peut voir l'explication. Il marque encore, comme il a déja fait plusieurs fois, en quoi consiste ce commandement si necessaire : l'amour de Dieu & du prochain ne se pratique pas par les paroles seulement, par les pensées de l'esprit, & par les desirs steriles de la volonté, il demande des œuvres & des services effectifs & réels ; ainsi il consiste dans l'observation des commandemens de Dieu, & dans la conformité de notre volonté avec la sienne par une humble observation de sa loi. Mais comme un des principaux commandemens de la loi de Dieu, c'est de conserver, comme dit saint Paul, le dépôt de la foi ; ce seroit en vain qu'on observeroit exactement toute la loi, si l'on ne gardoit avec grand soin la pureté de la doctrine que nous avons reçûe de JESUS-CHRIST par les Apôtres & par leurs successeurs. C'est pourquoi il avertit ici la dame Electe & ses enfans, de se donner-de-garde des imposteurs qui corrompoient la foi de JESUS-CHRIST par leurs discours empestés. Il semble que cette Dame chrétienne donnoit entrée dans sa maison à quelques-uns de ces séducteurs, & qu'ils y conversoient familierement. Il marque en particulier quelle étoit cette heresie, qui est une des plus pernicieuses que l'impieté puisse inventer ; car de dire que JESUS-CHRIST n'est point venu dans une chair veritable, & qu'il s'est seulement couvert de l'apparence d'un homme, est un dogme execrable, qui ruine entierement le mystere de l'Incarnation, & par consequent toute l'œconomie de notre salut : car si le Fils de Dieu ne s'est point incarné, & n'a point souffert pour nous, nous ne sommes pas encore reconciliés avec Dieu le Pere, & nos péchés ne sont pas encore expiés. C'est pourquoi l'Apôtre en appelle l'auteur, un séducteur & un antechrist, comme en étant le précurseur, & un des plus grands adversaires de JESUS-CHRIST, qui le combat directement en lui ôtant son humanité sacrée, & même sa divinité, en lui imputant de n'avoir rien fait qui ne fût feint & déguisé. Soit que ces heretiques fussent Basilide & ses sectateurs, ou quelques autres qui les ont précedés, ( car on croit que Basilide n'a paru à Alexandrie que sous Adrien ) il falloit qu'ils fussent bien impudens, pour avancer que JESUS-CHRIST ne fût qu'un fantôme, & qu'il n'avoit pas eu une veritable chair ; & de le dire du vivant de saint Jean qui avoit été un de ses douze disciples, qui avoit conversé avec lui familierement, avoit reposé sur sa poitrine, étoit présent à sa passion lorsqu'il expira, & l'avoit vû après sa resurrection."
+  },
+  {
+    "livre": "jean2",
+    "livreFr": "Deuxième épître de saint Jean",
+    "livreAbr": "2 Jn",
+    "chapitre": 1,
+    "n": 6,
+    "lat": "Et hæc est caritas, ut ambulemus secundum mandata ejus. Hoc est enim mandatum, ut quemadmodum audistis ab initio, in eo ambuletis :",
+    "fr": "Or la charité consiste à marcher selon les commandemens de Dieu. Tel est le commandement que vous avez reçû d'abord, afin que vous l'observiez.",
+    "note": ""
+  },
+  {
+    "livre": "jean2",
+    "livreFr": "Deuxième épître de saint Jean",
+    "livreAbr": "2 Jn",
+    "chapitre": 1,
+    "n": 7,
+    "lat": "quoniam multi seductores exierunt in mundum, qui non confitentur Jesum Christum venisse in carnem : hic est seductor & antichristus.",
+    "fr": "Car plusieurs imposteurs se sont élevés dans le monde, qui ne confessent point que JESUS-CHRIST est venu dans une chair veritable *. Celui qui ne le confesse point, est un séducteur & un antechrist.",
+    "note": ""
+  },
+  {
+    "livre": "jean2",
+    "livreFr": "Deuxième épître de saint Jean",
+    "livreAbr": "2 Jn",
+    "chapitre": 1,
+    "n": 8,
+    "lat": "Videte vosmetipsos, ne perdatis quæ operati estis ; sed ut mercedem plenam accipiatis.",
+    "fr": "Prenez-garde à vous, afin que vous ne perdiez pas les bonnes œuvres que vous avez faites ; mais que vous receviez une pleine récompense *.",
+    "note": "Prenez-garde à vous, afin que vous ne perdiez pas les bonnes œuvres que vous avez faites, &c. Le saint Apôtre exhorte ces personnes à se donner-de-garde avec grand soin de ces séducteurs, & leur représente les pertes qu'ils recevroient, s'ils ne demeuroient pas fermes dans la verité dans laquelle ils ont été instruits ; tout ce qu'ils ont fait de bien leur deviendroit inutile, & perdroient en perdant la foi tout le fruit de leurs bonnes œuvres, & renonceroient à cette récompense abondante que Dieu promet à ceux qui perseverent dans son service jusqu'à la fin. Bien plus, il leur declare que ceux qui abandonnent la doctrine que JESUS-CHRIST nous a laissée, n'ont point de societé avec Dieu, sont sans Dieu, & comme athées, & par consequent n'auront point de part à son heritage, & ne peuvent attendre qu'une mort éternelle : au-lieu que ceux qui font une profession sincere de sa doctrine, en reglant sur elle leur vie & leurs actions, possedent Dieu en cette vie, & sont unis avec lui par une union intime & une residence de grace inexplicable, qui est le gage du bonheur éternel dont ils jouiront dans l'autre. On peut remarquer ici avec les Interpretes, plusieurs verités importantes que les Novateurs refusent de recevoir : La premiere, que les bonnes œuvres que nous faisons par le mouvement de l'Esprit de Dieu, meritent la récompense, & Dieu est si bon qu'il veut bien nous la devoir, quoique nous ne les fassions que par sa grace : La seconde, qu'on peut perdre la charité, & que toutes les bonnes œuvres qu'on a faites auparavant peuvent devenir steriles & sans fruit : La troisiéme, que le juste en faisant le bien peut avoir en vûe la récompense éternelle, puisque le Saint-Esprit la propose aux fidelles dans ses Ecritures."
+  },
+  {
+    "livre": "jean2",
+    "livreFr": "Deuxième épître de saint Jean",
+    "livreAbr": "2 Jn",
+    "chapitre": 1,
+    "n": 9,
+    "lat": "Omnis qui recedit, & non permanet in doctrina Christi, Deum non habet : qui permanet in doctrina, hic & Patrem & Filium habet.",
+    "fr": "Quiconque ne demeure point dans la doctrine de JESUS-CHRIST, mais s'en éloigne, ne possede point Dieu : & quiconque demeure dans sa doctrine, possede le Pere & le Fils.",
+    "note": ""
+  },
+  {
+    "livre": "jean2",
+    "livreFr": "Deuxième épître de saint Jean",
+    "livreAbr": "2 Jn",
+    "chapitre": 1,
+    "n": 10,
+    "lat": "Si quis venit ad vos, & hanc doctrinam non affert, nolite recipere eum in domum, nec Ave ei dixeritis.",
+    "fr": "Si quelqu'un vient vers vous, & ne fait pas profession de cette doctrine *, ne le recevez pas dans votre maison, & ne le saluez point.",
+    "note": "Enfin, l'Apôtre donne à cette Dame des regles pour se conduire à l'égard de ces heretiques. La premiere, c'est non seulement d'éviter ceux qui seroient infectés de cette doctrine si pernicieuse, mais encore de ne les point recevoir sous couleur d'hospitalité ; car il est vraisemblable que cette Dame qui étoit noble & riche, recevoit selon l'usage de ces premiers temps, les pauvres & les Chrétiens dans sa maison : que si on recevoit ces heretiques sans qu'on les connût, saint Jean vouloit qu'on les fit sortir aussi-tôt. La seconde chose qu'il leur recommande, c'est même de ne leur point rendre les devoirs communs que l'on rend à tous les hommes, & de ne les point saluer dans les rencontres ; ainsi le saint Apôtre ordonne d'en user à l'égard d'un heretique, comme notre Seigneur veut qu'on en use à l'égard d'un Chrétien rebelle à l'Eglise : Que s'il n'écoute pas l'Eglise même, dit-il, qu'il soit à votre égard comme un payen & un publicain. Les Juifs évitoient les rencontres des payens & des publicains qu'ils tenoient pour infames, & ne les saluoient pas, lors même que ceux-là leur rendoient ces civilités. Il faut donc traiter de même les heretiques ; soit pour témoigner à Dieu notre fidelité en ne faisant point de cas de ceux qui font la guerre à un si bon Maître ; soit depeur d'exposer notre propre salut : car comme dit saint Paul, leur doctrine, comme la gangrene, répand insensiblement sa corruption, & gâte peu-à-peu ce qui est sain ; soit enfin pour leur causer une confusion salutaire. C'est ce que saint Paul ordonne aussi aux Corinthiens de pratiquer à l'égard des Chrétiens vicieux : Je vous ai écrit que vous n'eussiez point de commerce avec des fornicateurs.... & si celui qui est du nombre de vos freres est fornicateur, ou avare, ou idolâtre, ou médisant, ou ivrogne, ou ravisseur du bien d'autrui, que vous ne mangiez pas même avec lui. C'étoit sans doute pour leur faire honte, & par ce reproche secret les faire rentrer en eux-mêmes. Saint Jean apporte encore une autre raison de cette conduite qu'on doit garder à l'égard des heretiques, c'est que celui qui les salue participe à leurs mauvaises actions : c'est donc pour éviter le scandale & le danger d'être perverti ; car en saluant des personnes égarées dans la foi, nous témoignons que nous sommes compagnons de leurs erreurs, & qu'ils nous ont attirés avec eux dans leurs égaremens, & il semble qu'on autorise leur revolte quand on n'en témoigne pas de l'horreur, & qu'on ne la condamne pas ouvertement. Notre saint Apôtre a fait voir par son exemple ce qu'il préscrit ici ; car comme un jour il entroit dans un bain à Ephese, y ayant apperçû Cerinthe, il en sortit au plus vîte, en s'écriant : Fuyons d'ici, depeur que nous ne soyons accablés sous les ruines d'un bain où se lave Cerinthe, l'ennemi de la verité. Saint Polycarpe en a usé à-peu-près de même à l'égard de Marcion ; car cet heretique dans une rencontre ayant dit à ce saint Evêque : Me connoissez-vous bien ? Je vous connois, lui répondit-il, pour le fils aîné de satan : tant étoit grande, ajoûte saint Irenée, l'apprehension qu'avoient les Apôtres & leurs disciples de communiquer le moins du monde avec quelqu'un de ceux qui corrompoient la verité. Si donc la necessité oblige de se trouver avec des heretiques, ou de demeurer parmi eux, il faut que ce soit avec grande précaution, depeur d'en être perverti. Il en est de même de leurs livres qu'il faut éviter de lire autant qu'on peut ; il ne peut y avoir que des personnes bien fermes dans leur foi & bien instruites dans leur Religion, qui puissent sûrement converser avec les heretiques, ou lire leurs livres. Saint Jean finit cette lettre, en disant : Qu'il avoit encore bien des choses à lui écrire, mais qu'il ne veut pas les confier au papier. Il est de la prudence des Pasteurs de ne donner que des avis generaux dans des lettres, & de reserver les choses secrettes & les avis particuliers à des entrevûes, où l'on s'explique bien mieux de vive-voix & à cœur ouvert, que non pas avec l'encre & le papier : outre que la présence du Pasteur en qui on a confiance, donne à ceux qu'il conduit une joie incomparablement plus sensible, & les anime tout autrement à bien faire, que les lettres qu'on reçoit de sa part. Il ferme sa lettre en saluant cette Dame de la part des enfans de sa sœur qui portoit comme elle le nom d'Electe ; il n'est pas fort extraordinaire que dans une grande famille deux sœurs s'appellent de même nom. Ces sortes de salutations ne sont point des complimens de civilité ordinaire aux gens du monde, qui ne souhaitent que la santé du corps & la prosperité temporelle ; mais ce sont des souhaits tout chrétiens, où le salut de l'ame a la principale part."
+  },
+  {
+    "livre": "jean2",
+    "livreFr": "Deuxième épître de saint Jean",
+    "livreAbr": "2 Jn",
+    "chapitre": 1,
+    "n": 11,
+    "lat": "Qui enim dicit illi Ave, communicat operibus ejus malignis.",
+    "fr": "Car celui qui le salue, participe à ses mauvaises actions.",
+    "note": ""
+  },
+  {
+    "livre": "jean2",
+    "livreFr": "Deuxième épître de saint Jean",
+    "livreAbr": "2 Jn",
+    "chapitre": 1,
+    "n": 12,
+    "lat": "Plura habens vobis scribere, nolui per chartam & atramentum : spero enim me futurum apud vos, & os ad os loqui : ut gaudium vestrum plenum sit.",
+    "fr": "Quoique j'eusse plusieurs choses à vous écrire, je n'ai pas voulu le faire par écrit, espérant vous aller voir, & vous en entretenir de vive voix, afin que votre joie soit pleine & parfaite.",
+    "note": ""
+  },
+  {
+    "livre": "jean2",
+    "livreFr": "Deuxième épître de saint Jean",
+    "livreAbr": "2 Jn",
+    "chapitre": 1,
+    "n": 13,
+    "lat": "Salutant te filii sororis tuæ Electæ.",
+    "fr": "Les enfans de votre sœur Electe vous saluent.",
+    "note": ""
+  },
+  {
+    "livre": "jean3",
+    "livreFr": "Troisième épître de saint Jean",
+    "livreAbr": "3 Jn",
+    "chapitre": 1,
+    "n": 1,
+    "lat": "Senior Gaio carissimo, quem ego diligo in veritate.",
+    "fr": "Le Prêtre, à mon cher Gaiüs, que j'aime dans la verité.",
+    "note": "Le Prêtre, à mon cher Caïus, que j'aime dans la verité, &c. Ce Caïus-ci n'est pas, comme quelques-uns ont cru, le même que celui de Corinthe chez qui saint Paul étoit logé, ni celui de Macedoine dont il est parlé au chap. 19. des Actes v. 29. car ils étoient apparemment tous deux disciples de saint Paul : au-lieu que celui-ci étoit disciple de saint Jean, qui l'avoit instruit & formé dans la doctrine de la foi, & dans la pratique des bonnes œuvres ; c'est pourquoi il le nomme son fils v. 4. Il lui témoigne une affection tendre, en lui disant qu'il offre à Dieu ses prieres pour ses affaires spirituelles & temporelles : afin qu'il soit aussi heureux en ce qui regarde sa santé & le bon état de sa famille, qu'il l'est en ce qui regarde l'état de son ame. On peut sûrement souhaiter la prosperité & la santé à ceux qui en font un aussi bon usage que ce disciple. Il lui marque la joie qu'il a d'apprendre les soins charitables qu'il a pour les freres, en les assistant & les recevant dans sa maison ; car ceux qui venoient de la ville où Caïus demeuroit, ayant souvent fait en pleine assemblée au saint Apôtre le récit de la charité avec laquelle Caïus les avoit reçûs chez lui, & de toutes les assistances & les bons offices qu'il leur avoit rendus, saint Jean fut non seulement fort réjoui d'une si agreable nouvelle, mais il crut lui en devoir témoigner sa joie par cette épître : ainsi il le loue de sa pieté sincere, de la fermeté de sa foi, & de ce qu'il marche selon la verité, c'est-à-dire, selon la simplicité de l'Evangile, sans hesiter, & sans trop raisonner, en obeissant simplement à ce qu'il commande. Ce marcher marque un progrès dans l'ame, & un avancement toûjours égal, qui vient d'une sainte ferveur de l'ame, comme le marcher vient de la chaleur & de la vigueur du corps."
+  },
+  {
+    "livre": "jean3",
+    "livreFr": "Troisième épître de saint Jean",
+    "livreAbr": "3 Jn",
+    "chapitre": 1,
+    "n": 2,
+    "lat": "Carissime, de omnibus orationem facio prosperè te ingredi, & valere, sicut prosperè agit anima tua.",
+    "fr": "Mon bien-aimé, je prie Dieu que tout soit chez vous en aussi bon état, pour ce qui regarde vos affaires & votre santé, que je sai qu'il y est, pour ce qui regarde votre ame.",
+    "note": ""
+  },
+  {
+    "livre": "jean3",
+    "livreFr": "Troisième épître de saint Jean",
+    "livreAbr": "3 Jn",
+    "chapitre": 1,
+    "n": 3,
+    "lat": "Gavisus sum valdè venientibus fratribus, & testimonium perhibentibus veritati tuæ, sicut tu in veritate ambulas.",
+    "fr": "Car je me suis fort réjoui, lorsque les freres qui sont venus, ont rendu témoignage à votre pieté sincere, & à la vie que vous menez selon la verité *.",
+    "note": ""
+  },
+  {
+    "livre": "jean3",
+    "livreFr": "Troisième épître de saint Jean",
+    "livreAbr": "3 Jn",
+    "chapitre": 1,
+    "n": 4,
+    "lat": "Majorem horum non habeo gratiam, quàm ut audiam filios meos in veritate ambulare.",
+    "fr": "Je n'ai point de plus grande joie que d'apprendre que mes enfans marchent dans la verité.",
+    "note": "La parole de ce grand Saint, qui n'avoit point de plus grande joie que d'apprendre que ses enfans marchoient dans la verité, devroit être, dit saint Jean Chrysostome, la devise de tous les Pasteurs de l'Eglise ; & elle confond la negligence de ceux qui voient marcher leurs peuples dans la vanité ou dans l'erreur, sans s'en mettre en peine."
+  },
+  {
+    "livre": "jean3",
+    "livreFr": "Troisième épître de saint Jean",
+    "livreAbr": "3 Jn",
+    "chapitre": 1,
+    "n": 5,
+    "lat": "Carissime, fideliter facis quidquid operaris in fratres, & hoc in peregrinos,",
+    "fr": "Mon bien-aimé, vous faites une bonne œuvre *, d'avoir un soin charitable pour les freres, & particulierement pour les étrangers,",
+    "note": ""
+  },
+  {
+    "livre": "jean3",
+    "livreFr": "Troisième épître de saint Jean",
+    "livreAbr": "3 Jn",
+    "chapitre": 1,
+    "n": 6,
+    "lat": "qui testimonium reddiderunt caritati tuæ in conspectu Ecclesiæ : quos, benefaciens, deduces dignè Deo.",
+    "fr": "qui ont rendu témoignage à votre charité en présence de l'Eglise ; & vous ferez bien de les faire conduire & assister en leurs voyages d'une maniere digne de Dieu *.",
+    "note": "Il loue donc son cher disciple, de ce qu'il exerce l'hospitalité non seulement à l'égard des pauvres Chrétiens du pays, mais encore à l'égard des étrangers qui y venoient ; & l'exhorte à continuer de leur rendre ces offices de charité, & à leur départ de les faire conduire, comme le doivent être de fidelles serviteurs de JESUS-CHRIST. Cette conduite ne consistoit pas seulement à les faire accompagner pendant leur voyage, mais aussi à les assister de toutes les choses qui leur étoient necessaires. Cette pratique se voit aussi dans les Actes, & dans les épîtres de saint Paul en plusieurs endroits."
+  },
+  {
+    "livre": "jean3",
+    "livreFr": "Troisième épître de saint Jean",
+    "livreAbr": "3 Jn",
+    "chapitre": 1,
+    "n": 7,
+    "lat": "Pro nomine enim ejus profecti sunt, nihil accipientes à gentibus.",
+    "fr": "Car c'est pour son nom qu'ils se sont retirés d'avec les Gentils, sans rien emporter avec eux.",
+    "note": "Lorsqu'il dit que ç'a été pour le nom de JESUS-CHRIST qu'ils sont sortis de leur pays, il montre qu'il parle principalement des voyageurs, ou de ceux que la persecution qu'ils avoient soufferte pour la foi avoit chassés de leur pays ; ou bien qui avoient été envoyés pour annoncer l'Evangile aux Gentils ; & ce sens paroît plus probable par les paroles suivantes : Ils sont partis de leur pays, sans recevoir aucune assistance des Gentils. Les Prédicateurs de l'Evangile, qui prenoient-garde avec plus de soin d'apporter quelque obstacle au fruit qu'ils pouvoient faire dans la conversion des peuples, s'abstenoient de rien prendre d'eux, pour n'être point à charge aux personnes nouvellement converties, qui n'avoient pas accoutumé de nourrir leurs Docteurs, & pour les édifier davantage par cette generosité toute chrétienne. Saint Paul a pratiqué cette sainte maxime avec un desinteressement surprenant, & dans une perfection presque inimitable ; car non seulement il n'a voulu rien recevoir des Corinthiens à qui il prêchoit, pour n'apporter aucun empêchement au progrès de l'Evangile, & pour n'être en cela inferieur aux faux-apôtres qui en usoient de même ; mais il travailloit de ses mains pour se procurer à lui & à ceux qui étoient avec lui de quoi subsister dans cette fonction. On peut voir ce qu'il a écrit sur ce sujet 1. Cor. 9. 9. 2. Cor. c. 11. 7. & suiv. c. 12. 13. & suiv."
+  },
+  {
+    "livre": "jean3",
+    "livreFr": "Troisième épître de saint Jean",
+    "livreAbr": "3 Jn",
+    "chapitre": 1,
+    "n": 8,
+    "lat": "Nos ergo debemus suscipere hujusmodi, ut cooperatores simus veritatis.",
+    "fr": "Nous sommes donc obligés de traiter favorablement ces sortes de personnes, pour travailler avec eux à l'avancement de la verité.",
+    "note": "Notre saint Apôtre conclut de cette conduite si desinteressée & si genereuse, que quand il se trouve des personnes qui souffrent de la sorte pour la cause de la verité, nous sommes d'autant plus obligés de les assister dans leurs besoins : & selon le texte original, nous devons aller au-devant d'eux, sans attendre qu'ils nous en prient ; la charité, l'honneur de la Religion, & même la justice, nous engagent à leur fournir tout ce qui leur est necessaire. Saint Jean en donne encore un nouveau motif, c'est que nous avons part à leur merite, & qu'en assistant ceux qui travaillent de la sorte, nous devenons cooperateurs de la verité qu'ils annoncent ou qu'ils défendent. On contribue à la défense de la verité, en secourant ceux qui s'exposent pour elle, & l'on entre dans les mêmes droits qu'ils ont à la récompense que Dieu leur promet. Celui, dit JESUS-CHRIST, qui vous reçoit, me reçoit ; & celui qui me reçoit, reçoit celui qui m'a envoyé ; celui qui reçoit le Prophete en qualité de Prophete, recevra la récompense du Prophete ; & celui qui reçoit le juste en qualité de juste, recevra la récompense du juste. Ainsi les riches qui font part de leurs biens aux fidelles dans leurs besoins, ont part à leurs vertus, & aux dons spirituels qu'ils possedent. Ce fidelle disciple de saint Jean pouvoit lui dire qu'il auroit dû en écrire à l'Eglise du lieu, afin que tous contribuassent chacun de son côté pour la subsistance des pauvres, & le soulagement des voyageurs & des ouvriers évangeliques qui prêchent l'Evangile. L'Apôtre prévient cette objection, & dit qu'il auroit écrit à cette Eglise sur ce sujet ; mais qu'il a jugé que cela seroit inutile à cause de Diotrephe, qui en ayant usurpé le gouvernement, en abusoit avec insolence, & ne vouloit point avoir de societé avec lui. Quelques-uns croient qu'il étoit Evêque de cette Eglise, ou du moins qu'il aspiroit à l'Episcopat, & que saint Jean lui resistant, il s'opposoit à l'autorité de l'Apôtre, n'obeïssoit pas à ses lettres, & maltraitoit même ceux qui n'entroient pas dans sa faction. On croit que ce Prelat ambitieux étoit infecté de l'heresie des Cerinthiens ou des Ebionites, qu'il vouloit allier la loi Judaïque avec l'Evangile, & qu'il étoit du nombre de ceux que saint Paul appelle faux-apôtres. Ce Diotrephe fait voir que ceux qui font quelque desordre dans l'Eglise, sont toûjours animés d'une ambition secrette, qui les pousse ensuite dans l'heresie & dans tous leurs autres crimes. L'Apôtre en fait ici remarquer trois principaux : Son ambition, en ce qu'il vouloit être le premier, par un esprit de domination : Sa médisance contre saint Jean ; il est probable qu'il faisoit à cet Apôtre les mêmes reproches que les faux-apôtres, qui favorisoient le Judaïsme, faisoient à saint Pierre & à saint Paul, que c'étoient des ennemis de la loi de Moïse qui la vouloient abolir : Son inhumanité à l'égard des vrais fidelles ; il n'assistoit apparemment que ces demi-Chrétiens qui vouloient observer avec la foi de JESUS-CHRIST les ceremonies de la loi, & avoit fait une ordonnance severe pour empêcher de recevoir les vrais Chrétiens, sous peine d'être chassés des assemblées. On peut encore y ajoûter son orgueil en ce qu'il ne vouloit point recevoir un grand Apôtre tel qu'étoit saint Jean, qu'il méprisoit ses avis & ses lettres : Sa haine & son envie contre lui, en ce qu'il traitoit mal ceux qui entroient dans les bons desseins de l'Apôtre : enfin sa cruauté, en ce que non seulement il ne faisoit pas de bien, mais qu'il empêchoit même ceux qui vouloient en faire, & les maltraitoit jusqu'à les chasser de l'Eglise. Le saint Apôtre, qui en cette qualité avoit reçû le pouvoir de regler toutes les Eglises d'Asie, ne pouvoit supporter les excès de cet homme ambitieux & insolent : c'est pourquoi il dit qu'il les lui représentera, & les relevera hautement. Ce n'étoit point par un esprit de vengeance, mais par un devoir dont il étoit redevable à la verité de l'Evangile, qu'il ne devoit pas laisser perir par son silence, en ne contredisant point ceux qui la corrompoient. On peut & on doit pardonner aux ennemis lorsqu'ils n'attaquent que nos personnes ; mais lorsqu'ils alterent & pervertissent les voies droites du Seigneur, il faut être animé de l'esprit de saint Jean, & de celui de saint Paul lorsqu'il parla à Elymas."
+  },
+  {
+    "livre": "jean3",
+    "livreFr": "Troisième épître de saint Jean",
+    "livreAbr": "3 Jn",
+    "chapitre": 1,
+    "n": 9,
+    "lat": "Scripsissem forsitan Ecclesiæ : sed is, qui amat primatum gerere in eis, Diotrephes, non recipit nos.",
+    "fr": "J'aurois écrit à l'Eglise *; mais Diotrephe, qui aime à y tenir le premier rang, ne veut point nous recevoir.",
+    "note": ""
+  },
+  {
+    "livre": "jean3",
+    "livreFr": "Troisième épître de saint Jean",
+    "livreAbr": "3 Jn",
+    "chapitre": 1,
+    "n": 10,
+    "lat": "Propter hoc si venero, commonebo ejus opera, quæ facit, verbis malignis garriens in nos : & quasi non ei ista sufficiant, neque ipse suscipit fratres, & eos, qui suscipiunt, prohibet, & de Ecclesia ejicit.",
+    "fr": "C'est pourquoi si je viens jamais chez vous, je lui ferai bien connoître quel est le mal qu'il commet, en semant contre nous des médisances malignes : & ne se contentant point de cela, non seulement il ne reçoit point les freres ; mais il empêche même ceux qui les voudroient recevoir, & les chasse de l'Eglise *.",
+    "note": ""
+  },
+  {
+    "livre": "jean3",
+    "livreFr": "Troisième épître de saint Jean",
+    "livreAbr": "3 Jn",
+    "chapitre": 1,
+    "n": 11,
+    "lat": "Carissime, noli imitari malum, sed quod bonum est. Qui benefacit, ex Deo est : qui malefacit non vidit Deum.",
+    "fr": "Mon bien-aimé, n'imitez point ce qui est mauvais, mais ce qui est bon. Celui qui fait bien est de Dieu ; mais celui qui fait mal ne connoît point Dieu.",
+    "note": "Il est vraisemblable que l'Apôtre, comme porte le Grec, avoit écrit à cette Eglise où dominoit Diotrephe, pour le faire rentrer dans son devoir : mais que ce Ministre insolent s'en étoit mocqué, c'est pour cela qu'il le menace de le reprendre publiquement lorsqu'il iroit en ce lieu-là. Il avertit son disciple de ne se point laisser aller aux sollicitations qu'on lui pourroit faire pour suivre la conduite de celui qui avoit la principale autorité dans l'Eglise où il se trouvoit, & lui représente que ce seroit renoncer à Dieu même, & à son salut, car celui qui fait bien, suit le parti de Dieu, & s'attache à son service, il imite sa bonté, & se rend semblable à lui. Celui au-contraire qui fait mal, & qui n'a pour les pauvres que des entrailles cruelles, ne connoît point Dieu, ni la bonté qu'il a pour les hommes. Ces paroles ont été expliquées dans la premiere épître c. 3. 6. 10. &c. 4. 7. 8. L'Apôtre propose à Caïus un autre exemple tout contraire à imiter, c'est celui de Demetrius qui étoit vraisemblablement Prêtre dans la même Eglise, tout rendoit témoignage à sa vertu, à sa probité & à son amour pour les pauvres ; le public qui ressentoit les effets de sa bonté, ne manquoit pas de la publier ; mais quoique le peuple se puisse tromper dans l'estime qu'il fait des gens-de-bien, la verité ne se trompe pas ; les bonnes actions de Demetrius parloient assez pour lui, & sa charité pour les pauvres étoit trop publique pour laisser aucun lieu d'en douter : l'Apôtre y ajoûte aussi son témoignage qui étoit reconnu très-sincere & très-certain. En proposant à Caïus cet exemple avec tant de force, il veut le porter à suivre la conduite de ce saint homme, & à mépriser les menaces de Diotrephe. Les louanges que le Saint donnoit à Demetrius ne lui étoient nullement avantageuses : on n'est point heureux de recevoir de si grands éloges ; mais le bonheur consiste à vivre de telle sorte, qu'on merite d'être loué par un Apôtre de la verité, & de la verité même. Saint Jean Chrysostome dit que ce témoignage que tous rendoient à Demetrius, doit nous avertir du bon exemple que nous devons donner à tout le monde, & de vivre d'une maniere si irreprehensible, qu'il n'y ait personne, Chrétien, Payen, ami, ennemi, qui ne soit édifié de notre conduite, & qu'on ne peut manquer à ce point sans faire une grande faute. Il finit sa lettre presque en mêmes termes que la précedente. On y peut voir l'explication de ces derniers versets."
+  },
+  {
+    "livre": "jean3",
+    "livreFr": "Troisième épître de saint Jean",
+    "livreAbr": "3 Jn",
+    "chapitre": 1,
+    "n": 12,
+    "lat": "Demetrio testimonium redditur ab omnibus, & ab ipsa veritate. Sed & nos testimonium perhibemus ; & nosti quoniam testimonium nostrum verum est.",
+    "fr": "Tout le monde rend un témoignage avantageux à Demetrius, & la verité même le lui rend. Nous le lui rendons aussi nous-mêmes, & vous savez que notre témoignage est veritable.",
+    "note": ""
+  },
+  {
+    "livre": "jean3",
+    "livreFr": "Troisième épître de saint Jean",
+    "livreAbr": "3 Jn",
+    "chapitre": 1,
+    "n": 13,
+    "lat": "Multa habui tibi scribere, sed nolui per atramentum & calamum scribere tibi.",
+    "fr": "J'avois plusieurs choses à vous écrire, mais je ne veux point vous écrire avec une plume & de l'encre ;",
+    "note": ""
+  },
+  {
+    "livre": "jean3",
+    "livreFr": "Troisième épître de saint Jean",
+    "livreAbr": "3 Jn",
+    "chapitre": 1,
+    "n": 14,
+    "lat": "Spero autem protinus te videre, & os ad os loquemur.",
+    "fr": "parceque j'espere de vous voir bien-tôt : alors nous nous entretiendrons de vive-voix.",
+    "note": ""
+  },
+  {
+    "livre": "jean3",
+    "livreFr": "Troisième épître de saint Jean",
+    "livreAbr": "3 Jn",
+    "chapitre": 1,
+    "n": 15,
+    "lat": "Pax tibi. Salutant te amici. Saluta amicos nominatim.",
+    "fr": "La paix soit avec vous. Nos amis d'ici vous saluent. Saluez nos amis de ma part chacun en particulier.",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 1,
+    "lat": "Judas Jesu Christi servus, frater autem Jacobi, his qui sunt in Deo Patre dilectis, & Christo Jesu conservatis, & vocatis.",
+    "fr": "Jude, serviteur de JESUS-CHRIST, & frere de Jacque *, à ceux que Dieu le Pere a sanctifiés *, & que JESUS-CHRIST a conservés en les appellant *.",
+    "note": "Jude, serviteur de JESUS-CHRIST, & frere de Jacque, à ceux qui ont été appellés à la foi, &c. Saint Jude, qui est aussi appellé Thaddée, est un des douze Apôtres, & frere de saint Jacque le Mineur Evêque de Jerusalem : il se qualifie, comme a fait son frere au commencement de son épître, serviteur de JESUS-CHRIST. Ce n'est pas seulement par le droit de la creation & de la redemption qu'il se dit serviteur de JESUS-CHRIST, comme nous sommes tous, mais encore par sa vocation à l'apostolat, qui l'engageoit au service de JESUS-CHRIST d'une façon particuliere. Il prend aussi la qualité de frere de Jacque, pour donner plus de poids & d'autorité à sa lettre, parceque cet Apôtre étoit dans une très-grande veneration auprès de ceux à qui il écrivoit. Il s'adresse aux mêmes à qui saint Pierre a écrit ses deux lettres, c'est-à-dire, aux Juifs dispersés par toute la terre, sans exclure les Gentils convertis parmi lesquels ils vivoient. Il leur donne les caracteres qui sont propres aux vrais Chrétiens prédestinés à la vie éternelle ; il dit qu'ils ont été aimés de Dieu le Pere dans l'éternité : c'est aller à la premiere source de la vocation, que de l'attribuer à l'amour du Pere ; car, comme dit saint Paul, il nous a élus en lui avant la creation du monde par l'amour qu'il nous a porté : il dit qu'ils ont été appellés à la connoissance de son Fils, & conservés par sa grace. Le Grec qui est plus clair renverse cet ordre, & met les trois degrés necessaires pour parvenir à la gloire ; la vocation à la foi, la justification, & la perseverance. Car quoique le mot qui marque la vocation qui est la porte du salut, soit mis le dernier, cependant on doit commencer par là l'ordre de la construction ; parceque c'est en Grec un nom auquel se raportent les mots de sanctifiés & conservés, comme si l'on disoit, aux appellés de Dieu, que le Pere a sanctifiés, & le Fils a conservés par une grace continuelle, pour arriver au bonheur éternel : mais pour l'obtenir, nous avons besoin que le Pere nous prévienne de sa misericorde, que les autres Apôtres marquent par le nom de grace ; que le Fils qui est notre paix, & qui nous l'a acquise par son sang, nous en applique les merites ; & que le Saint-Esprit répande sans cesse la charité dans nos cœurs ; ce sont aussi les trois choses dont saint Jude souhaite un nouvel accroissement aux fidelles en les saluant : ce qui étoit une marque de l'affection & de la tendresse qu'il avoit pour eux, & un bon moyen de gagner leur affection. Mais pouvoit-il s'insinuer davantage dans leur esprit, & leur faire mieux agréer ce qu'il avoit à leur dire, que de leur témoigner qu'il a toûjours eu un violent desir de leur écrire, pour les exhorter à assûrer par les bonnes œuvres leur salut, en y travaillant avec un soin qui leur devoit être commun avec tous les fidelles, tous y étant également interessés : mais qu'il y est maintenant obligé par une necessité pressante, qui ne lui permet pas de differer davantage à leur écrire ; qu'il s'agit de conserver ce qu'ils ont de plus precieux au monde, & qu'ils sont sur le point de le perdre, s'ils n'y prennent bien garde. Ce tresor inestimable est celui de la foi qu'ils ont reçû ; il les prie donc, & les exhorte à recueillir tout ce qu'ils ont de force & de courage pour combattre contre ceux qui la leur pourroient ravir, & pour maintenir avec une fermeté inébranlable ce dépôt sacré qui a été une fois laissé par tradition à l'Eglise, où se trouve la communion des Saints. Sur quoi on peut remarquer deux choses : La premiere, que la foi que nous avons reçûe par une tradition apostolique, soit en ce qui regarde les mysteres, soit en ce qui regarde les mœurs, soit qu'elle nous ait été laissée par écrit, ou sans écrit, par une tradition constante de tous les siecles ; que cette foi, dis-je, est unique & invariable, qu'on ne peut y rien changer, & qu'il faut faire tous ses efforts pour la conserver pure telle que nous l'avons reçûe. Quand un Ange du ciel annonceroit un Evangile different de celui que nous vous avons annoncé, dit saint Paul, qu'il soit anathème. La seconde, c'est qu'on n'y peut rien ajoûter ni en rien diminuer, parcequ'elle nous a été laissée toute entiere, comme un dépôt qu'il faut conserver religieusement sans y toucher. De là on doit conclure, qu'il ne faut point attendre de nouvelles revelations qui nous apprennent quelque mystere qui n'ait point été découvert, qu'on n'est point obligé d'ajoûter foi aux revelations & aux apparitions qui se font ou peuvent se faire, qu'autant qu'on y est porté par l'évidence même des choses ; qu'on ne doit point non plus en recevoir & en approuver qui ne soient conformes à l'analogie de la foi, & à la pureté de la doctrine évangelique ; qu'enfin l'Eglise assemblée dans les Conciles ne fait point de nouveaux articles de foi par ses decrets, mais qu'elle détermine contre les heresies qui s'élevent de temps en temps sur les dogmes contestés, ce qu'on a toûjours cru par-tout. C'est pour assûrer l'Eglise de l'unité & de l'immutabilité de sa foi, que JESUS-CHRIST envoyant ses Apôtres prêcher l'Evangile par tout l'univers, leur promet qu'il seroit lui-même toûjours avec eux jusqu'à la fin du monde. Le saint Apôtre marque en particulier quelle a été la necessité qui l'a obligé de leur écrire ; c'est, dit-il, qu'il s'est glissé parmi vous des gens impies dont il faut vous donner-de-garde ; ce sont des loups qui se sont revêtus de peaux de brebis pour entrer furtivement dans la bergerie de JESUS-CHRIST pour la ravager. Saint Jude commence ici à faire la même peinture de ces hommes impies, que fait saint Pierre dans sa seconde lettre, dont celle-ci n'est en quelque façon qu'une copie ; car il imite les mêmes expressions, les mêmes exemples, & souvent les mêmes termes. Ainsi ces deux épîtres servent l'une à l'autre d'explication, elles n'ont toutes deux que le même but, qui est de prévenir les fidelles contre les erreurs des disciples de Simon & des Nicolaïtes, qui introduisoient dans l'Eglise le libertinage, ce sont ceux que saint Pierre marque par ces faux-docteurs qui devoient introduire en secret de pernicieuses heresies. Notre Apôtre les représente par deux caracteres qui leur étoient propres. Le premier, c'est qu'ils changeoient en libertinage & en dissolution la grace de la liberté que JESUS-CHRIST nous a acquise. Car le principal avantage que nous avons reçû des merites de JESUS-CHRIST, c'est d'avoir été délivrés du joug de l'ancienne loi, de la servitude du peché, & de la tyrannie du démon : c'est de cette liberté sainte qu'ils prenoient occasion de se permettre tout ce qu'il leur plaisoit de faire pour contenter leurs mauvais desirs ; en quoi ils montroient une méchanceté consommée, à laquelle ils parvenoient par trois degrés. Le premier étoit de s'abandonner avec une licence effrenée à toute sorte de dissolutions, qui entraînoient plusieurs personnes dans les mêmes débauches, & faisoient décrier la sainteté du nom Chrétien. C'est ce que dit saint Pierre de ces imposteurs : Leurs impuretés & leurs débauches seront suivies de plusieurs, qui exposeront la voie de la verité aux blasphêmes & aux médisances des infidelles. Le second degré de malice étoit une extrême ingratitude envers Dieu, de mépriser la grace qu'il leur faisoit, en abusant non seulement des commodités de la vie présente & des biens naturels dont Dieu les gratifioit ; mais encore en préferant la satisfaction de leurs desirs déreglés & de leurs passions honteuses, à la grace de Dieu, & aux faveurs que JESUS-CHRIST leur offroit par l'Evangile avec tant de bonté. Le troisiéme degré de malice étoit non seulement de manquer de respect pour la doctrine de l'Evangile, mais même de porter leur impieté jusqu'à un tel excès, que de faire servir la parole de Dieu pour prouver & confirmer leur libertinage ; car ils disoient que la foi suffisoit sans les œuvres pour être sauvé : de là naissoit un abandon à toutes sortes de plaisirs illicites. C'est à-peu-près comme en ont usé les novateurs de ce temps, qui sous prétexte de la liberté évangelique, se dispensent des saintes ordonnances de l'Eglise, & les méprisent, pour vivre avec plus de licence : Vous êtes libres, disoit saint Pierre, non pour vous servir de votre liberté comme d'un voile qui couvre vos mauvaises actions, mais pour agir en vrais serviteurs de Dieu. Le second caractere de ces docteurs corrompus, c'étoit de renoncer JESUS-CHRIST notre unique Maître & notre Seigneur ; ou selon le Grec, qui renoncent Dieu notre unique Maître, & JESUS-CHRIST notre Seigneur. Neanmoins l'original se peut rapporter à JESUS-CHRIST seul, conformément à ce que dit saint Pierre : Et renoncent au Seigneur qui les a rachetés. Il se peut faire aussi que saint Jude ait dit ici quelque chose de plus que saint Pierre, comme il a fait en d'autres endroits. Les premiers heretiques avoient inventé sur la nature de Dieu beaucoup d'imaginations ridicules ; & en la place de Dieu seul, ils en faisoient plusieurs qui gouvernoient le monde. Pour ce qui est de JESUS-CHRIST, ils nioient qu'il fût Dieu, qu'il fût veritablement né, qu'il eût souffert, & qu'il fût ressuscité ; ainsi ils le renonçoient en toutes manieres par leur doctrine, & par leurs actions infames : c'étoient les faux-prophetes que saint Jean appelle antechrists, qui nioient que JESUS-CHRIST fût Fils de Dieu, & qu'on reconnoissoit à cette marque."
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 2,
+    "lat": "Misericordia vobis, & pax, & caritas adimpleatur.",
+    "fr": "Que la misericorde, la paix & la charité s'augmentent en vous de plus en plus.",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 3,
+    "lat": "Carissimi, omnem sollicitudinem faciens scribendi vobis de communi vestra salute, necesse habui scribere vobis, deprecans supercertari semel traditæ sanctis fidei.",
+    "fr": "Mes bien-aimés, ayant toûjours souhaité avec grande ardeur de vous écrire touchant le salut * qui nous est commun, je m'y trouve maintenant obligé par necessité, pour vous exhorter à combattre pour la foi qui a été une fois laissée par tradition aux saints.",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 4,
+    "lat": "Subintroierunt enim quidam homines (qui olim præscripti sunt in hoc judicium) impii, Dei nostri gratiam transferentes in luxuriam, & solum Dominatorem & Dominum nostrum Jesum Christum negantes.",
+    "fr": "Car il s'est glissé parmi vous certaines gens, dont il avoit été prédit il y a long-temps, qu'ils s'attireroient ce jugement ; gens qui changent la grace de notre Dieu en une licence de dissolution ; & qui renoncent JESUS-CHRIST notre unique Maître *, & notre Seigneur.",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 5,
+    "lat": "Commonere autem vos volo, scientes semel omnia, quoniam Jesus populum de terra Ægypti salvans, secundò eos, qui non crediderunt, perdidit :",
+    "fr": "Or je veux vous faire souvenir de ce que vous aurez appris autrefois * : qu'après que le Seigneur * eut sauvé le peuple en le tirant de l'Egypte, il fit perir ensuite ceux qui furent incredules * ;",
+    "note": "Or je veux vous faire souvenir de ce qu'autrefois sans doute vous aurez appris, &c. Saint Jude qui s'éleve avec grande force contre les excès de ces heretiques, fait voir par la vengeance que Dieu a tirée de l'impieté de ceux qui ont desobeï à ses ordres, que ces séducteurs infames n'échapperont pas à sa colere. Il rapporte pour cela trois exemples les plus terribles qui soient dans l'histoire, dont il fait ressouvenir ceux à qui il écrit, pour montrer que ces impies qui renfermoient dans leurs excès les crimes marqués dans ces trois exemples, ne devoient pas attendre un traitement moins rigoureux. L'Apôtre venoit de dire qu'ils ont été marqués il y a long-temps, comme devant tomber dans ce jugement de Dieu, c'est-à-dire, dans cette condamnation qui leur est préparée, dont les exemples & les figures ont éclaté dans la punition terrible que Dieu a exercée contre les Israelites, les anges rebelles, & les habitans de Sodome. C'est pourquoi saint Pierre dit sur le même sujet : Que leur condamnation qui a été ordonnée dès long-temps, s'avance à grands pas. On peut voir ce qui a déja été dit dans l'explication de cet endroit. Le premier exemple de la vengeance de Dieu sur les incredules est celui des Israelites, qui après avoir éprouvé les merveilles que Dieu avoit faites en leur faveur, ne laisserent pas de lui être rebelles & desobéissans à ses ordres. Ainsi ils éprouverent une punition severe & rigoureuse : car après qu'il les eut tirés de la servitude des Egyptiens avec une bonté extraordinaire, & par les effets redoutables de sa toute-puissance, ils ne firent autre chose pendant quarante ans que se revolter contre lui par leur impatience & leur opiniâtreté ; ainsi il les fit tous mourir dans le desert, n'ayant épargné de cette grande multitude que deux hommes, Josué & Caleb, & ceux qui se trouverent au-dessous de 20. ans. L'histoire s'en voit dans l'Exode ch. 12. 13. 14. & dans les Nombres ch. 14. & 26. Le saint Apôtre dit, que c'est JESUS qui a tiré les Israelites de la servitude d'Egypte, & qui les a ensuite exterminés dans le desert ; cela ne se peut entendre de Josué, que les Septante appellent Jesus ; car c'est Moïse, & non pas Josué, qui a retiré le peuple de la captivité d'Egypte : mais c'est JESUS, le Seigneur selon le Grec, qui comme Dieu, mais neanmoins représenté comme Sauveur par l'Ange qui conduisoit le peuple, sauva les Israelites de la tyrannie de Pharaon, & nous a depuis délivrés d'une plus cruelle servitude. JESUS-CHRIST, dit saint Paul, étoit hier, il est aujourd'hui, & il sera le même dans tous les siecles. Les anciens Peres Grecs & Latins ont cru que c'étoit lui qui étoit sous la figure de l'Ange dans lequel étoit le nom ineffable de Dieu, & que même cet Ange paroissoit sous la forme que devoit avoir JESUS-CHRIST ; c'est dans ce sentiment qu'ils prouvoient sa divinité contre les Arriens : ce qui paroît encore confirmé par saint Paul, qui avertit les fidelles de ne tenter point JESUS-CHRIST comme le tenterent quelques-uns d'eux, qui furent tués par les serpens. Ce qui n'empêche pas que le Pere & le Saint-Esprit n'ayent aussi paru sous des formes visibles, comme le prouve saint Augustin contre les Arriens. Quoi qu'il en soit, l'Apôtre fait voir par cet exemple, que Dieu étant le même Dieu dans le vieux & dans le nouveau Testament, il ne feroit pas dans le temps de grace moins éclater la severité de sa justice, qu'il l'avoit fait autrefois en punissant ceux qu'il avoit tirés avec tant d'éclat de l'Egypte, & après tant de promesses & tant de graces qu'il avoit faites à leurs peres. Saint Pierre met au-lieu des Israelites, l'exemple de ceux qui perirent dans le deluge. Le second exemple est celui des anges rebelles que Dieu précipita après leur orgueil jusques aux abysmes de l'enfer, quoiqu'il les eût enrichis & embellis de dons excellens ; car Dieu les avoit créés dans la justice & en état de grace, & comme dit saint Augustin, dans une bonne volonté, c'est-à-dire, dans une volonté sage, & dans un amour chaste, plein de respect pour la grandeur & la bonté de Dieu. Ainsi ils ont été créés, comme dit Ezechiel, pleins de sagesse & d'une parfaite bonté ; ayant comme amis & favoris de Dieu une preéminence sur toutes les autres creatures. Ces esprits superbes ne sont pas demeurés dans cet état heureux ; mais ayant suivi Lucifer leur chef, qui a voulu établir sa tyrannie dans le ciel même, en voulant usurper la souveraineté & l'indépendance qui n'appartient qu'au Createur, ils n'ont pas conservé leur premiere dignité, dit notre Apôtre, mais ils ont quitté leur propre demeure ; c'est-à-dire, que s'étant élevés par leur orgueil contre Dieu même, ils n'ont pu conserver, ni les avantages excellens de la nature qu'ils avoient reçûs, ni le poste honorable où ils avoient été placés dans le ciel ; mais ils ont été précipités dans les profondes tenebres, où ils sont liés & tenus en reserve pour le grand jour du jugement, afin d'y recevoir l'arrest de leur condamnation. On peut voir cet endroit expliqué plus au long dans saint Pierre 2. épître ch. 2. v. 4. Le troisiéme exemple, qui est aussi le troisiéme dans l'épître de saint Pierre, paroît dans la ruine de ces villes impudiques, Sodome, Gomorrhe & les autres d'alentour, sçavoir Adama & Seboïm, que le prophete Osée nomme ch. 11. Les habitans de ce pays s'étoient portés à des excès d'impureté monstrueux, que saint Jude marque en disant qu'ils abusoient d'une chair étrangere. C'est un crime abominable, à quoi saint Paul dit que Dieu a abandonné ceux, qui ayant connu Dieu, n'ont pas voulu le reconnoître & lui rendre le culte qui lui est dû : Les hommes, dit-il, rejettant l'alliance des deux sexes, qui est selon la nature, ont été embrasés d'un desir brutal les uns envers les autres, l'homme commettant avec l'homme une infamie détestable, & ainsi ils ont reçû en eux-mêmes la juste peine qui étoit dûe à leur impieté. Comme ces abominations font horreur à la nature, aussi ces villes ont-elles été punies d'une façon qui n'est pas ordinaire ; car ce n'a pas été assez qu'elles ayent été abolies, mais elles ont été proposées à toute la posterité pour servir d'exemple d'une punition remarquable : Dieu ayant voulu qu'il soit resté des marques sensibles de la vengeance qu'il en a tirée. C'est ce que le Saint-Esprit témoigne en ces termes : La corruption de ces villes détestables qui perirent par le feu, est marquée par l'état même de cette terre qui en fume encore, qui est demeurée toute deserte, & où les arbres portent des fruits qui ne meurissent jamais. Outre cela le feu & le souffre que Dieu a fait pleuvoir sur ces villes détestables pour les reduire en cendre, sont selon l'Ecriture, la matiere dont il se sert pour punir les damnés : ainsi elles ont encore en cela servi d'un exemple redoutable aux pecheurs par la peine même qu'elles ont soufferte, parceque Dieu s'est servi pour les punir ; de ce feu éternel qui fait le supplice des damnés ; c'est ce que saint Pierre semble marquer quand il dit : Que Dieu en a fait un exemple pour ceux qui vivront dans l'impieté. On peut voir encore sur saint Pierre cet endroit expliqué plus au long. On donne encore un autre sens à ces paroles de l'Apôtre, qui est que ces villes, c'est-à-dire, les habitans de ces villes détestables, souffrent maintenant le feu éternel, pour servir d'exemple à ces infames heretiques, du suplice qui les attend, comme elles leur ont donné l'exemple des infamies abominables qu'ils ont commises aussi-bien qu'elles. Ce sens est favorisé par le texte Grec qui répond aux mots Latins simili modo, qui ne signifie point, comme elles, mais comme eux : c'est-à-dire, que ces villes ayant commis les mêmes abominations que ces heretiques, leur ont donné l'exemple de la peine qu'ils doivent aussi souffrir. Notre Saint fait voir ensuite ici par l'énormité des crimes de ces infames docteurs, quelle est la grandeur des peines qu'ils meritent, & montre qu'ils renferment dans leur conduite malheureuse tous les excès dont il vient de représenter le châtiment rigoureux dans les Israelites rebelles, dans les anges apostats, & dans les miserables citoyens de Sodome & Gomorrhe. Car ils se souillent des mêmes impuretés que ceux-ci, & n'ont l'esprit occupé qu'à trouver de nouvelles manieres de se corrompre ; & pour satisfaire leurs desirs impurs, ils se plaisent dans leurs illusions & leurs songes pendant la nuit, & durant le jour ils ont les yeux pleins d'adultere, comme dit saint Pierre, & d'un peché qui ne cesse jamais. Et comme les Israelites par leur dureté & leur opiniâtreté méprisoient les chefs & les conducteurs que Dieu leur donnoit pour les conduire & les gouverner ; car combien de fois se sont-ils élevés contre Moïse, jusqu'à être près de le lapider ? De même aussi ces infames Docteurs méprisent Dieu dans ses ministres, en parlant avec insolence contre les Puissances seculieres & ecclesiastiques. Enfin, comme les esprits orgueilleux se sont revoltés contre Dieu même, en perdant le respect & la soumission qu'ils devoient avoir pour sa sainte majesté ; de même aussi ces Docteurs superbes n'ont pas apprehendé d'outrager la majesté de Dieu, en niant sa providence, sa justice & ses autres attributs, en calomniant ses ouvrages, en ravalant sa puissance ; enfin en corrompant le sens des mysteres qui sont cachés dans l'Ecriture. Mais sur-tout ils blasphémoient la Majesté divine, sa sagesse & la bonté infinie qu'il nous a fait paroître par JESUS-CHRIST, en rendant inutile l'ouvrage de la redemption des hommes : car ils dégradoient JESUS-CHRIST de sa divinité & de sa qualité de Fils de Dieu, & nioient même qu'il fût né, & qu'il eût veritablement souffert ; ce qui se rapporte à ce qu'il a déja dit, que ces heretiques renoncent JESUS-CHRIST notre unique Maître, notre Dieu & notre Seigneur. Il est aisé de conclure quelle est la rigueur des peines qu'ils attirent sur eux par leurs impietés, puisqu'elles égalent en énormité les plus criantes qui se soient jamais trouvées."
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 6,
+    "lat": "Angelos verò, qui non servaverunt suum principatum, sed dereliquerunt suum domicilium, in judicium magni diei, vinculis æternis sub caligine reservavit :",
+    "fr": "qu'il retient liés de chaînes éternelles dans de profondes tenebres ; & reserve pour le jugement du grand jour, les Anges qui n'ont pas conservé leur premiere dignité, mais qui ont quitté leur propre demeure ;",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 7,
+    "lat": "Sicut Sodoma, & Gomorrha, & finitimæ civitates simili modo exfornicatæ, & abeuntes post carnem alteram, factæ sunt exemplum, ignis æterni pœnam sustinentes.",
+    "fr": "& que de même, Sodome & Gomorrhe & les villes voisines, qui s'étoient débordées comme elles dans les excès d'impureté, & s'étoient portées à abuser d'une chair étrangere, ont été proposées pour un exemple du feu éternel par la peine qu'elles ont soufferte.",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 8,
+    "lat": "Similiter & hi carnem quidem maculant, dominationem autem spernunt, majestatem autem blasphemant.",
+    "fr": "Après cela ces personnes ne laissent pas de souiller la chair par de semblables corruptions, & de plus ils méprisent la domination, & maudissent ceux qui sont élevés en dignité *.",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 9,
+    "lat": "Cùm Michael Archangelus cum diabolo disputans altercaretur de Moysi corpore, non est ausus judicium inferre blasphemiæ ; sed dixit : Imperet tibi Dominus.",
+    "fr": "Cependant l'Archange Michel dans la contestation qu'il eut avec le diable touchant le corps de Moïse, n'osa le condamner avec execration, mais il se contenta de dire : Que le Seigneur exerce sur toi sa puissance.",
+    "note": "Cependant l'Archange Michel dans la contestation qu'il eut avec le diable touchant le corps de Moïse, n'osa le condamner avec execration, &c. Le saint Apôtre, pour confondre l'impieté de ces hommes détestables, compare leur insolence avec la moderation des Anges mêmes à l'égard des démons, & rapporte la retenue que saint Michel fit paroître à l'égard du diable, lorsque cet esprit malin voulant découvrir aux Israelites le lieu de la sepulture de Moïse, pour leur faire rendre à son corps des honneurs divins, saint Michel tout plein de zele pour la gloire de Dieu l'en empêcha ; & pour arrêter son entreprise, il se contenta de lui commander de la part de Dieu d'en desister, en lui disant : Que le Seigneur te reprime, ou selon la Vulgate, te commande lui-même, & exerce sur toi sa puissance. D'autres croient que cette contestation venoit d'un autre sujet, qui est que Moïse étant mort sur le mont Nebo, son corps fut transporté par saint Michel dans une vallée de la terre de Moab, où étoit situé le temple de Béelphegor. Le diable s'opposa à cette translation, parcequ'il avoit peur que le voisinage de ce saint corps ne troublât le culte profane qu'il s'y faisoit rendre par les Moabites. Cette histoire que l'Apôtre rapporte a son fondement dans le dernier chapitre du Deuteronome : mais il a tiré les circonstances qu'il y ajoûte ou de la tradition, ou de quelque écrit qui ne paroît pas ; tout ce qu'il en a dit est neanmoins indubitable. Voyez ce que nous en avons dit sur l'Epître de saint Pierre ch. 2. 11. Quoi qu'il en soit, le saint Apôtre fait voir l'étrange égarement de ces heretiques, par une comparaison qui marque une si grande disproportion entr'eux & ceux qu'on y fait entrer. C'est le prince des Anges qui ne veut pas prononcer une parole d'execration contre la plus maudite & la plus digne de malediction de toutes les creatures ; au-lieu que des hommes de neant, méprisables par leurs vies infames, osent regarder avec mépris les Puissances legitimes, & s'élever avec un orgueil insolent contre ce qu'il y a de plus saint & de plus sacré. Ainsi quoique saint Michel pût legitimement user d'autorité contre le diable dont il connoissoit l'impieté & l'injustice dans cette contestation, quoiqu'il pût le maudire & le frapper par des paroles de reproche & d'execration ; neanmoins soit qu'il respectât le Createur dans une malheureuse creature, ou qu'il voulût donner un exemple de modestie, il aima mieux abandonner tout à Dieu comme au souverain dominateur de toutes choses. Et des hommes ignorans osent proferer des paroles de blasphème contre la Majesté divine, & contre les mysteres qui surpassent la portée de leur esprit ; car ces premiers heretiques blasphémoient, comme dit saint Epiphane, non seulement contre Abraham, Moïse & Elie, & les autres Prophetes, mais aussi contre Dieu même qui les avoit choisis. C'est ainsi que les Arriens ne comprenant point le mystere de la sainte Trinité ineffable, & voulant l'examiner par les foibles lumieres de leur esprit, osoient bien le nier & le critiquer avec impieté. C'est de la maniere qu'en usent aussi les Calvinistes à l'égard de JESUS-CHRIST présent dans l'Eucharistie ; car les heretiques ne prennent point pour regle la foi & la parole de Dieu, mais les sens & la raison naturelle ; ils ne croient que ce qu'ils voient, & que ce qu'ils comprennent. Mais quand la raison refuse de s'assujettir à Dieu dans les mysteres qu'il lui a plu de lui cacher, il est juste que le corps ne soit point assujetti à la raison : c'est pour cela que notre Apôtre dit que ces hommes impies se corrompent dans les choses qu'ils connoissent naturellement par les sens, & par le sentiment de leur appetit naturel, comme les bêtes irraisonables. Mais il y a cette difference entre eux & les bêtes, que celles-ci ont appris de la nature à se regler dans l'usage des choses qui regardent leur subsistance ; au-lieu que ceux-là étouffant la lumiere de la raison & les sentimens de la nature, poussent beaucoup plus loin les excès de leur convoitise & de leurs desirs déreglés. Mais comme dit saint Pierre, ils sont semblables à des animaux sans raison dans un point, en ce que ces animaux sont nés pour être la proie des hommes qui les font perir ; de même aussi ces Docteurs corrompus periront dans les infamies où ils se plongent, & ils remporteront la récompense que merite leur iniquité."
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 10,
+    "lat": "Hi autem, quæcunque quidem ignorant, blasphemant : quæcunque autem naturaliter, tanquam muta animalia, norunt, in his corrumpuntur.",
+    "fr": "Au-lieu que ceux-ci condamnent avec execration tout ce qu'ils ignorent *, & ils se corrompent en tout ce qu'ils connoissent naturellement, comme les bêtes irraisonnables.",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 11,
+    "lat": "Væ illis, quia in via Cain abierunt, & errore Balaam mercede effusi sunt, & in contradictione Core perierunt.",
+    "fr": "Malheur sur eux, parcequ'ils suivent la voie de Cain ; qu'étant trompés comme Balaam, & emportés par le desir du gain, ils s'abandonnent au dérèglement ; & qu'imitant la rebellion de Coré *, ils periront comme lui.",
+    "note": "Malheur sur eux, parcequ'ils suivent la voie de Caïn, &c. On ne peut pas dépeindre d'une maniere plus vive & plus animée les crimes de ces maîtres abominables, que le fait ici notre Apôtre : car après leur avoir reproché la rebellion opiniâtre des Israelites, l'apostasie des anges rebelles, les infamies détestables des Sodomites, il les compare encore ici à ceux qui se sont le plus signalés par differentes sortes d'impietés, & leur prédit une fin malheureuse comme a été celle des méchans dont ils imitent les crimes. Il rapporte encore trois exemples comme auparavant. Le premier est celui de Caïn : ce méchant homme poussé d'envie de voir que son frere Abel étoit plus agreable à Dieu que lui, se porta jusqu'à cet excès de malice que de répandre ce sang innocent par un meurtre horrible. Il dit donc que ces heretiques imitent sa conduite ; premierement, par leur envie & leur jalousie contre les orthodoxes qu'ils déchiroient par leurs médisances & leurs calomnies ; en second lieu, par les meurtres spirituels qu'ils commettoient, lorsqu'ils empoisonnoient les ames de ceux qu'ils attiroient dans leurs erreurs & dans leurs débauches. Voyez l'Epître 1. de saint Jean, chap. 3. 12. Le second exemple est celui de Balaam, qui ayant le cœur corrompu par l'avarice, fut trompé par l'esperance du gain ; & n'ayant pu maudire le peuple de Dieu, cette passion le porta à donner un avis qui fut cause de la corruption & de la perte des Israelites : aussi saint Pierre dit que ces mêmes heretiques avoient dans le cœur toutes les adresses que l'avarice peut suggerer, & qu'ayant quitté le droit chemin, ils se sont égarés en suivant la voie de Balaam. Voyez cet endroit expliqué, 2. Petr. 2. 15. & suiv. Le troisiéme exemple est la rebellion de Coré : cet homme ambitieux se revolta avec ses complices contre Moïse & Aaron, & voulut usurper le ministere du sacerdoce contre l'ordre de Dieu ; ainsi il causa une grande division dans le peuple de Dieu : mais ce schisme fut bien-tôt calmé par la punition extraordinaire de ces factieux qui furent engloutis tout vivans dans la terre. Mais comme ces anciens schismatiques ont donné à ceux-ci l'exemple de s'élever contre l'autorité legitime des Apôtres, ils doivent bien s'attendre à avoir part à leur supplice comme à leur rebellion. Voyez Nomb. 16. cette histoire expliquée. Saint Jude continue de faire la peinture des mœurs corrompus des disciples de Simon, par plusieurs sortes d'images, qui sont autant de traits qui composent le tableau qu'il en fait ; il écrit leur intemperance, & leurs excès de bouche dans les festins de charité où ils se trouvoient. Les premiers Chrétiens après avoir participé à la sainte Eucharistie, mangeoient ensemble pour marquer l'union, & l'affection qu'ils avoient les uns pour les autres ; ces faux-docteurs souilloient par leurs paroles & leurs actions ces festins établis pour conserver entr'eux la charité ; ils y faisoient paroître par leur peu de retenue leur intemperance, & sans considerer que c'étoient des repas où la pieté & la charité devoient regner, ils n'avoient pas plus de reconnoissance & de respect pour Dieu, en l'honneur de qui ils étoient assemblés, que de soin des pauvres qui y assistoient, ou du troupeau qui leur étoit confié. Ils meritoient bien d'être frappés de la malediction du Prophete : Malheur aux Pasteurs d'Israël, qui se paissoient eux-mêmes. On croit même que ce peu de retenue marque l'impudence & l'effronterie de ces heretiques, qui commettoient dans ces festins des actions capables de faire horreur ; c'est pourquoi le texte ne dit pas seulement qu'ils se souilloient, mais qu'ils étoient les souillures mêmes. Ceci a été déja expliqué sur l'endroit de saint Pierre, qui répond à celui-ci, ch. 2. 13. 14. L'Apôtre se sert ensuite de quatre comparaisons, tirées des choses naturelles, pour expliquer les vices de ces heretiques malheureux. Ce sont des nuées, des arbres, des flots, & des étoiles errantes. Il les compare à des nuées sans eau ; les nuées dans l'Ecriture signifient les Docteurs ; & l'eau dont elles sont chargées, marque la doctrine salutaire qu'ils doivent répandre dans les cœurs. Ainsi quand Dieu menace les peuples de leur ôter les instructions des Pasteurs, il dit qu'il défendra à ses nuées de pleuvoir sur la terre ; car comme la terre devient feconde quand elle est arrosée de la pluie qui tombe des nuées ; de même aussi les fidelles produisent de bonnes œuvres lorsqu'ils sont instruits par les Pasteurs d'une doctrine salutaire, qui est représentée par la pluie, Deut. 32. 2. Que ma doctrine tombe comme la pluie. C'est pourquoi les Pasteurs qui n'ont soin que de se paître eux-mêmes, sans se mettre en peine de nourrir & engraisser leur troupeau de la parole de Dieu, sont des nuées sans eau : ils ont belle apparence, & promettent le rafraîchissement spirituel, & la doctrine du salut ; mais ils ne produisent que de l'obscurité & du vent : de sorte qu'on peut fort bien leur appliquer ce que dit Salomon : Les nuées & le vent qui ne sont pas suivis de pluie, c'est un homme glorieux, & qui ne tient pas ses promesses. Saint Pierre dit aussi de ces heretiques, que ce sont des fontaines sans eau ; ce qui s'explique en même sens, comme on le peut voir en cet endroit-là ch. 2. 17. Saint Jude les compare aussi à des arbres, mais à des arbres dont le fruit ne meurit point ; ou selon d'autres, dont le fruit ne meurit que sur la fin de l'automne, & qui par consequent ne vient pas à maturité, parceque le froid qui survient le fait tomber ; à des arbres steriles, & qui ne peuvent pas même porter de fruit : à des arbres doublement morts, qui ne portent ni fruit ni feuilles, ou même qui sont desséchés non seulement dans le tronc, mais encore dans les racines : enfin à des arbres déracinés & séparés de la terre, dont le suc pouvoit les faire revivre. Cette exageration marque qu'il ne reste à ces arbres aucune esperance de porter du fruit, & ne servent plus qu'à être jettés au feu. Les heretiques de ces premiers temps étoient si corrompus, qu'il ne paroissoit point qu'ils pussent revenir de leurs égaremens. Ils avoient été plantés dans l'Eglise pour y porter le fruit des bonnes œuvres, & d'une doctrine salutaire ; mais c'étoit des arbres steriles en toutes choses : ils étoient doublement morts, ayant perdu par le peché la vie de la grace qu'ils avoient reçûe dans le Batême, & ce qui leur restoit de foi étoit éteint par l'erreur & l'heresie ; mais de plus, étant séparés de l'Eglise par le schisme, comme des arbres déracinés, il ne leur restoit plus d'esperance d'être renouvellés par la Penitence."
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 12,
+    "lat": "Hi sunt in æpulis suis maculæ, convivantes sine timore : semetipsos pascentes : nubes sine aqua, quæ a ventis circumferuntur : arbores autumnales, infructuosæ, bis mortuæ, eradicatæ :",
+    "fr": "Ces personnes sont la honte & le deshonneur des festins de charité, lorsqu'ils y mangent avec vous sans aucune retenue : ils n'ont soin que de se nourrir eux-mêmes : ce sont des nuées sans eau que le vent emporte çà & là : ce sont des arbres qui ne fleurissent qu'en automne, des arbres steriles, doublement morts & déracinés :",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 13,
+    "lat": "fluctus feri maris, despumantes suas confusiones : sidera errantia, quibus procella tenebrarum servata est in æternum.",
+    "fr": "ce sont des vagues furieuses de la mer, d'où sortent comme une écume sale ; leurs ordures & leurs infamies : ce sont des étoiles errantes, auxquelles une tempête noire & tenebreuse est reservée pour l'éternité.",
+    "note": "En troisiéme lieu, ils sont comparés aux vagues furieuses de la mer : les flots d'une mer irritée font grand bruit, menacent de bouleverser tout, & de causer une desolation entiere ; cependant toute leur fureur se termine à se briser contre les rochers & contre les rivages, qu'ils salissent d'une vilaine écume. Les impies, dit Isaïe, sont comme une mer bouillante qui est toûjours dans le trouble & l'agitation, ses flots jettent l'ordure & la bourbe. C'est ainsi que les heretiques s'élevent avec fureur contre l'Eglise, elle en est troublée & agitée ; mais après qu'ils l'ont menaçée d'une ruine entiere, toutes leurs fougues s'évanouissent, & laissant des traces scandaleuses de leurs débordemens, ils ne s'attirent que de l'opprobre & de la confusion. Enfin le saint Apôtre compare ces heretiques à des étoiles errantes : mais il en faut distinguer de deux sortes. 1. Celles qui s'appellent planetes, au nombre de sept, que nous voyons dans les cieux qui sont au-dessous du firmament ; leur cours est reglé, & ne sont errantes qu'au jugement du peuple, qui les voit tantôt dans une partie du monde, tantôt dans l'autre. 2. On appelle aussi étoiles errantes ces méteores & ces exhalaisons séches qui s'enflamment dans l'air, & qui en tombent comme des étoiles. Plusieurs Interprètes croient plus vraisemblable que l'Apôtre ne parle point des sept planetes qui sont les plus beaux astres du ciel, mais de ces méteores qui courent dans l'air, & qui s'allument tantôt d'un côté, tantôt de l'autre, & qui étant poussés par les vents, n'ont point de mouvement reglé. C'est encore là une belle image des heretiques : ils sont souvent placés dans le ciel de l'Eglise pour y éclairer le monde par la lumiere qu'ils reçoivent du soleil de justice ; mais au-lieu d'y être comme des étoiles luisantes par la pureté de la doctrine, ils n'y paroissent que comme des méteores d'exhalaisons malignes, qui ayant brillé quelque temps dans l'air, s'évaporent en une épaisse fumée : & comme ces cometes disparoissent pour jamais sans laisser aucune trace de leur lueur ; les heretiques de même qui remplissent ici les esprits des simples de leurs erreurs & de leurs fausses lumieres, tomberont comme ces méteores, & par une punition qui répondra à leurs fautes, ils seront plongés dans une nuit éternelle. Voyez ces dernieres paroles expliquées dans la seconde de saint Pierre, ch. 2. 17. Le saint Apôtre confirme ce qu'il avance sur la condamnation de ces impies, par un témoignage tiré du livre d'Enoch : ce Patriarche qui a été le septiéme depuis Adam, a prédit la ruine du monde par un deluge universel, à cause des abominations des hommes de son temps, & à cause des paroles outrageuses & des blasphêmes qu'ils proferoient contre Dieu. Or comme ce sont les mêmes crimes que saint Jude reprend dans ces heretiques, c'est aussi contr'eux indirectement que ce saint Prophete a prononcé ces menaces. Le livre d'où ce passage est tiré a été pur & sans mêlange avant le deluge, & depuis a été conservé par Noé, comme le dit Tertulien ; mais depuis il a été corrompu par les heretiques & a passé pour apocryphe : cela n'empêche pas que le témoignage que saint Jude en tire ne soit vrai ; car étant inspiré de Dieu il a bien pu discerner le vrai d'avec le faux. Tout ce qui est dans un livre apocryphe n'est pas à rejetter comme apocryphe ; ainsi quoique la corruption qui s'est introduite dans ce livre, lui ait fait perdre son autorité, le saint Apôtre en a choisi ce qui est pur & indubitable. Il le cite en un point qui n'est nullement contesté. Cet ancien Prophete représente le souverain Juge qui vient avec des milliers de ses Saints pour exercer son jugement sur tous les hommes, & principalement contre les impies. Il n'y a rien qui soit plus commun dans les Ecritures anciennes & nouvelles, que cette arrivée triomphante de JESUS-CHRIST accompagné de ses Anges & de ses Saints pour juger le monde ; mais ce qui a porté saint Jude à se servir de ce témoignage, c'est qu'Enoch prédit que le Seigneur viendra sur-tout pour juger des impietés & des blasphêmes, ce qui venoit parfaitement bien à son sujet. Pour achever la peinture qu'il a faite des mœurs déreglés de ces impies, il y ajoûte encore quelques traits pour accomplir l'ouvrage, & pour faire voir qu'il ne leur manquoit rien pour avoir une malice consommée, en pensées, en actions, & en paroles : comme c'étoit des gens qui ne s'aimoient qu'eux-mêmes, ils grondoient contre les Superieurs & les Pasteurs de l'Eglise, & n'osant se declarer ouvertement, ils avoient l'esprit rongé de chagrin & de mécontentement : ils se plaignoient en secret de la severité de la discipline, & de la rigueur des loix, comme si l'Eglise par ses ordonnances diminuoit la liberté que la nature a donnée à l'homme. Pour ce qui regarde leurs actions & leurs occupations, ils étoient continuellement appliqués à contenter leurs passions & leurs desirs déreglés, comme l'Apôtre l'a fait voir ci-devant. Mais quoiqu'ils fussent par leurs infamies semblables aux bêtes, & au-dessous de tous les hommes, ils ne laissoient pas de se vanter eux-mêmes d'une maniere fiere & fastueuse, parlant avec mépris des petits, & avec estime des personnes puissantes ; & pour un interêt bas & sordide, ils employoient les flatteries & les louanges affectées pour avoir les bonnes-graces des Grands du monde. Voyez saint Pierre ch. 2. 18. C'est ainsi que notre saint Apôtre représente la conduite des Simoniens & des Nicolaïtes, pour avertir les fidelles de se donner-de-garde de leurs pieges & de leurs séductions ; & comme ils étoient si abominables & plongés dans une si profonde méchanceté, il ne faut pas s'étonner qu'il les menace de la rigueur du jugement redoutable que le Seigneur doit exercer contre les impies & les blasphémateurs."
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 14,
+    "lat": "Prophetavit autem & de his septimus ab Adam Enoch, dicens : Ecce venit Dominus in sanctis millibus suis",
+    "fr": "C'est d'eux qu'Enoch, qui a été le septiéme depuis Adam, a prophetizé en ces termes * :",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 15,
+    "lat": "facere judicium contra omnes, & arguere omnes impios de omnibus operibus impietatis eorum, quibus impiè egerunt, & de omnibus duris, quæ locuti sunt contra Deum peccatores impii.",
+    "fr": "Voilà le Seigneur qui va venir avec une multitude innombrable de ses Saints, pour exercer son jugement sur tous les hommes, & pour convaincre tous les impies de toutes les actions d'impieté qu'ils ont commises, & de toutes les paroles injurieuses que ces pecheurs impies ont proferées contre lui.",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 16,
+    "lat": "Hi sunt murmuratores querulosi, secundum desideria sua ambulantes, & os eorum loquitur superba, mirantes personas quæstûs causâ.",
+    "fr": "Ce sont des murmurateurs qui se plaignent sans cesse * ; qui suivent leurs passions ; dont les discours sont pleins de faste & de vanité, & qui se rendent admirateurs des personnes, selon qu'il est utile pour leurs interêts.",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 17,
+    "lat": "Vos autem, carissimi, memores estote verborum, quæ prædicta sunt ab Apostolis Domini nostri Jesu Christi,",
+    "fr": "Mais pour vous, mes bien-aimés, souvenez-vous de ce qui a été prédit par les Apôtres de notre Seigneur JESUS-CHRIST *,",
+    "note": "Mais pour vous, mes bien-aimés, souvenez-vous de ce qui a été prédit par les Apôtres, &c. Saint Jude conclut sa lettre en exhortant ceux à qui il écrit, de se souvenir de ce que les Apôtres ont dit pour garantir les fidelles des surprises des heretiques qui viendroient après eux : saint Pierre, que notre Apôtre copie presque en mêmes termes, avoit déja donné aux fidelles cet avertissement, & l'on peut voir ces versets 17. & 18. expliqués sur le ch. 3. 1. 2. 3. Mais saint Jude qui n'a écrit qu'après les autres Apôtres, & qui semble les avoir survêcu, si l'on en excepte saint Jean, éprouvoit peut-être déja de son temps les ravages que ces heretiques devoient faire : il les fait connoître encore ici par quelques marques. La premiere, c'est qu'ils se séparent eux-mêmes par le schisme en se retirant de l'assemblée des fidelles, & faisant à part une Eglise : cette séparation du corps de l'Eglise, & de la communion des fidelles, ne subsiste que très-rarement sans être aussi séparée par la doctrine. La seconde marque c'est qu'ils sont sensuels, ne se conduisant que par le mouvement de leurs desirs naturels & de leurs convoitises, & non point par l'Esprit de Dieu dont ils sont dénués. L'Apôtre oppose à ces vices les vertus que les fidelles doivent pratiquer pour se fortifier contre les heresies : il veut premierement qu'ils travaillent à s'élever eux-mêmes comme un édifice spirituel sur le fondement de leur foi ; c'est-à-dire, qu'en demeurant fermes sur le fondement de la foi qu'ils avoient reçûe des Apôtres, ils bâtissent dessus toutes leurs autres actions pour élever un édifice parfait ; car il ne suffit pas à chaque fidelle d'entrer dans la structure du temple de Dieu, qui est l'Eglise, il faut encore qu'il croisse par la pratique des bonnes œuvres, sans lesquelles la foi est inutile. C'est ainsi que le corps de l'Eglise, comme dit saint Paul, s'entretient & s'augmente par l'accroissement que Dieu lui donne. Ainsi il oppose au schisme que font les heretiques, l'attachement à l'Eglise, & l'union des fidelles dans un même corps animé de la charité, soûtenu par la foi, & entretenu par les exercices d'une pieté solide : mais comme nous avons un besoin continuel de la grace de Dieu pour croître & pour nous fortifier, il faut employer la priere pour l'obtenir, & une priere efficace, qui ne le peut être que par l'Esprit de Dieu ; car nous ne savons, dit l'Apôtre, ce que nous devons demander à Dieu dans nos prieres, pour le prier comme il faut ; mais c'est le Saint-Esprit qui prie pour nous, & nous fait prier par des gemissemens ineffables. La foi, la priere, & les bonnes œuvres ne serviroient de rien si elles n'étoient animées de la vertu qui en fait tout le merite : c'est l'amour de Dieu dans lequel l'Apôtre veut que les fidelles ayent soin de se conserver, soit qu'on entende l'amour que Dieu a pour nous, ou celui que nous devons avoir pour Dieu ; l'un & l'autre s'entretient par la crainte de Dieu & l'amour du prochain, & par le soin exact de garder ses commandemens. Si vous gardez mes commandemens, vous demeure- rez dans mon amour, comme j'ai gardé les commandemens de mon Pere, & que je demeure dans son amour. C'est JESUS-CHRIST qui parle. Notre saint Apôtre n'omet rien pour assûrer le salut de ceux à qui il écrit. Il veut encore qu'en se conservant en l'amour de Dieu, ils attendent la misericorde de notre Seigneur JESUS-CHRIST pour obtenir la vie éternelle. Et par là il nous enseigne deux choses : La premiere, qu'encore que nous ayons une foi vive, animée de la charité, & remplie de bonnes œuvres, nous n'arriverons point au bonheur qui nous est promis dans le ciel, si nous n'avons une esperance ferme & courageuse qui nous le fasse attendre, non seulement avec patience ; mais aussi avec une douceur perseverante au milieu des peines, des afflictions, & des persecutions que nous avons à souffrir ici-bas. C'est cette esperance ferme, & cette attente inébranlable qui rend comme assûrée la récompense qui nous est promise : Saint Pierre ne veut pas seulement que nous attendions l'avenement de JESUS-CHRIST, mais encore que nous le desirions avec ardeur. La seconde, c'est que cette récompense éternelle est un pur effet de sa misericorde & de sa liberalité toute gratuite : car quoique nous la meritions par nos bonnes œuvres, nos merites mêmes & nos bonnes œuvres sont des dons de Dieu, qui ne doit la vie éternelle que parcequ'il l'a promise à ceux qui feroient de bonnes œuvres par le secours de sa sainte grace. Il nous a sauvés, dit saint Paul, non à cause des œuvres de justice que nous eussions faites, mais à cause de sa misericorde ; c'est pour cela que saint Jude dit : Qu'il faut vivre dans l'attente de la misericorde de JESUS-CHRIST pour obtenir la vie éternelle : Il sembloit que le saint Apôtre n'avoit plus rien à dire aux fidelles, pour les exhorter à prendre soin de leur salut. Mais comme nous ne pouvons pas nous sauver tout seuls, & que pour nous sauver il faut que chacun travaille au salut du prochain selon son pouvoir, il instruit ici les fidelles de la maniere dont ils en doivent user à l'égard de ceux qui auroient été séduits par ces imposteurs, selon leurs differentes dispositions. La Vulgate distingue de trois sortes de personnes. Les premiers sont ceux qui paroissent endurcis, & sont déja condamnés par leur propre jugement, comme parle saint Paul : à l'égard de ceux-là, il conseille de les convaincre par de bonnes raisons, afin qu'en découvrant leurs erreurs on puisse s'en garder. Les autres sont ceux qui sont séduits, ou qui commencent de prêter l'oreille aux séducteurs : il veut qu'on les retire au-plûtôt du danger où ils sont de s'engager dans les erreurs & les dissolutions de ces faux-docteurs, comme ce que l'on sauve en le tirant du feu où il devoit être bien-tôt consumé. Le Grec ajoûte, en les intimidant ; ce que plusieurs entendent de ceux qui sont plongés dans les plaisirs sensuels, dont on ne peut les faire revenir qu'en les effrayant par la crainte du feu d'enfer, à quoi l'Apôtre fait allusion. Il exhorte enfin d'user à l'égard des autres de beaucoup de compassion & d'humanité, soit pour les porter par la douceur à revenir de leur égarement, ou pour les recevoir avec toutes les marques de bonté & d'affection, s'ils se trouvent touchés de repentir de leurs fautes, en se souvenant eux-mêmes de leur propre foiblesse, & craignant pour eux-mêmes de tomber aussi-bien que ceux qu'ils tâchent de relever de leur chute. Ainsi l'Apôtre les avertit de se donner-de-garde d'être surpris par ces maîtres corrompus, & de regarder avec horreur, comme un vêtement souillé, tout ce qui tient de la corruption de la chair, que ces imposteurs inspiroient avec le venin de leur doctrine corrompuë. Il fait allusion aux impuretés légales, que l'on contractoit non seulement en touchant un homme infecté de lépre, mais aussi ses habits ; & marque par cette expression figurée, qu'il faut éviter non seulement la conversation de ces séducteurs, mais encore tout ce qui vient de leur part. Le texte original ne fait que deux parties de ceux qui se sont laissé séduire par ces abominables. Le saint Apôtre veut qu'on ait compassion de tous, en usant de discernement : s'ils sont endurcis & obstinés dans leur iniquité, il faut en gemir, & plaindre leur malheur. Pour ce qui est des autres qui sont capables d'en revenir, il faut s'empresser pour les retirer de cet état malheureux, comme l'on fait pour retirer du feu quelque chose qui y va brûler, en les menaçant de la séverité des jugemens de Dieu, s'ils veulent continuer opiniâtrément à demeurer dans ce miserable état."
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 18,
+    "lat": "qui dicebant vobis, quoniam in novissimo tempore venient illusores, secundum desideria sua ambulantes in impietatibus.",
+    "fr": "qui vous disoient, qu'aux derniers temps il y auroit des imposteurs *, qui suivroient leurs passions déreglées & pleines d'impieté.",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 19,
+    "lat": "Hi sunt qui segregant semetipsos, animales, Spiritum non habentes.",
+    "fr": "Ce sont des gens qui se séparent eux-mêmes * ; des hommes sensuels *, qui n'ont point l'Esprit de Dieu.",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 20,
+    "lat": "Vos autem, carissimi, superædificantes vosmetipsos sanctissimæ vestræ fidei, in Spiritu sancto orantes,",
+    "fr": "Mais vous, mes bien-aimés, vous élevant vous-mêmes comme un édifice spirituel sur le fondement de votre très-sainte foi, & priant par le Saint-Esprit,",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 21,
+    "lat": "vosmetipsos in dilectione Dei servate, expectantes misericordiam Domini nostri Jesu Christi in vitam æternam.",
+    "fr": "conservez-vous en l'amour de Dieu, attendant la misericorde de notre Seigneur JESUS-CHRIST pour obtenir la vie éternelle.",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 22,
+    "lat": "Et hos quidem arguite judicatos :",
+    "fr": "Reprenez tous ceux qui paroissent endurcis & condamnés.",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 23,
+    "lat": "illos verò salvate, de igne rapientes : aliis autem miseremini in timore : odientes & eam, quæ carnalis est, maculatam tunicam.",
+    "fr": "Sauvez les uns * en les retirant comme du feu : ayez compassion des autres * en craignant pour vous-mêmes ; & haïssez comme un vêtement souillé tout ce qui tient de la corruption de la chair.",
+    "note": ""
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 24,
+    "lat": "Ei autem, qui potens est vos conservare sine peccato, & constituere ante conspectum gloriæ suæ immaculatos in exultatione in adventu Domini nostri Jesu Christi ;",
+    "fr": "A celui qui est puissant pour vous conserver sans peché, & pour vous faire comparoître devant le trône de sa gloire purs & sans tache, & dans un ravissement de joie, à l'avenement de notre Seigneur JESUS-CHRIST ;",
+    "note": "A celui qui est puissant pour vous conserver sans peché, & pour vous faire comparoître devant le trône de sa gloire purs & sans tâche, &c. Saint Jude finit son épître en relevant par des termes magnifiques la grandeur de la Majesté divine. Il lui souhaite la gloire, qui n'est dûe proprement qu'à lui ; & que tous les Anges, tous les hommes, & toutes les creatures rendent à sa Majesté souveraine les hommages & les profonds respects qu'ils lui doivent. Il loue sa magnificence, c'est-àdire l'operation de ses grandes merveilles, & l'éclat de sa Majesté infinie environnée de mille millions d'Anges. Il releve son empire, c'est-à-dire le plein droit & le domaine parfait qu'il a sur toutes les creatures, comme étant le souverain Seigneur, & l'arbitre suprême de tout l'univers. Le Grec porte sa force, parceque rien ne lui peut resister lorsqu'il commande, & que sa volonté se fait toûjours avec une efficacité insurmontable. Enfin, il glorifie la puissance de Dieu, qui est comme l'executrice de ses ordres, & la souveraine arbitre du sort de tout ce qui vit & qui subsiste dans tout le monde. Tous ces attributs lui appartiennent avant tous les siecles, dans le temps, & dans toute l'éternité ; & marquent en general, que Dieu a une puissance souveraine sur tout, & qu'en cette qualité il le faut louer & glorifier à jamais. C'est donc à lui à qui il faut s'adresser pour obtenir les graces qui nous sont necessaires ; à lui, dis-je, qui peut tout de lui-même, & par lui-même, puisqu'il est le souverain Seigneur tout-puissant ; à lui qui connoît nos veritables besoins ; puisqu'il est le seul sage ; à lui enfin qui veut nous les accorder ; puisqu'il est notre Sauveur, s'étant donné ce nom ; parcequ'il veut que tous les hommes soient sauvés ; & qu'ils viennent à la connoissance de la verité. Ce que le saint Apôtre souhaite aux fidelles, renferme toutes les graces qu'ils pouvoient obtenir de Dieu par JESUS-CHRIST notre Sauveur. Il leur souhaite deux choses : La premiere, que Dieu tout-puissant les conserve sans peché ; c'est la plus grande grace qu'on puisse desirer, de pouvoir vivre sans crime, & de perseverer de la sorte jusqu'à la fin de la vie ; car cela ne s'entend pas des pechés legers sans lesquels la vie présente ne se passe point ; mais des pechés griefs qui tuent l'ame, & éloignent la charité par la préference que l'homme fait de la creature à Dieu. Quand l'Apôtre dit que Dieu peut les conserver sans peché, il fait voir le pouvoir & l'efficace de la grace de Dieu, sans laquelle on ne peut nullement éviter de tomber dans le peché mortel. La seconde chose qu'il leur souhaite, c'est que Dieu les fasse comparoître devant le trône de sa gloire purs & sans tache dans un ravissement de joie. C'est-là le bonheur qui est préparé dans la gloire à ceux qui se trouveront à la mort exemts de la corruption du siecle ; car rien de souillé n'entrera dans le ciel. Or combien grande doit être la pureté qui doit paroître devant la sainteté de Dieu ? Qui est-ce qui osera présumer de paroître devant son tribunal pour être examiné à sa lumiere, sans travailler avec tout le soin possible à se purifier de plus en plus de ses taches ? afin de pouvoir entrer dans cette joie ineffable dont les Saints jouiront dans l'éternité, où ils publieront sans cesse la gloire, la magnificence, la force & l'empire de la majesté de Dieu, qui regne maintenant, & dans tous les siecles des siecles. Amen."
+  },
+  {
+    "livre": "jude",
+    "livreFr": "Épître de saint Jude",
+    "livreAbr": "Jude",
+    "chapitre": 1,
+    "n": 25,
+    "lat": "soli Deo Salvatori nostro, per Jesum Christum Dominum nostrum, gloria & magnificentia, imperium & potestas ante omne sæculum, & nunc, & in omnia sæcula sæculorum. Amen.",
+    "fr": "à Dieu seul notre Sauveur, par notre Seigneur JESUS-CHRIST, gloire & magnificence, empire & force, avant tous les siecles, & maintenant, & dans tous les siecles des siecles. Amen.",
+    "note": ""
+  },
+  {
     "livre": "luc",
     "livreFr": "Évangile de saint Luc",
     "livreAbr": "Lc",

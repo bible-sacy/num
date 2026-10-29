@@ -1646,6 +1646,20 @@ const SACY_BIBLIO = {
       }
     ]
   },
+  "August. de civ. Dei l. 12. c. 9.": {
+    "slug": "august-de-civ-dei-l-12-c-9",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "jude",
+        "livreAbr": "Jude",
+        "chapitre": 1,
+        "n": 5
+      }
+    ]
+  },
   "August. de civ. Dei. l. 22. c. 1.": {
     "slug": "august-de-civ-dei-l-22-c-1",
     "auteur": "",
@@ -4067,6 +4081,20 @@ const SACY_BIBLIO = {
     "notice": "",
     "citations": []
   },
+  "Epiph. hæres. 26.": {
+    "slug": "epiph-h-res-26",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "jude",
+        "livreAbr": "Jude",
+        "chapitre": 1,
+        "n": 9
+      }
+    ]
+  },
   "Epiph. hæres. 51. c. 6.": {
     "slug": "epiph-h-res-51-c-6",
     "auteur": "",
@@ -4266,6 +4294,20 @@ const SACY_BIBLIO = {
     "oeuvre": "",
     "notice": "",
     "citations": []
+  },
+  "Euseb. hist. 3. c. 22.": {
+    "slug": "euseb-hist-3-c-22",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "jean2",
+        "livreAbr": "2 Jn",
+        "chapitre": 1,
+        "n": 10
+      }
+    ]
   },
   "Euseb. hist. Eccl. l. 2. c. 15.": {
     "slug": "euseb-hist-eccl-l-2-c-15",
@@ -7226,6 +7268,20 @@ const SACY_BIBLIO = {
     "notice": "",
     "citations": []
   },
+  "Iren. l. 3. c. 3.": {
+    "slug": "iren-l-3-c-3",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "jean2",
+        "livreAbr": "2 Jn",
+        "chapitre": 1,
+        "n": 10
+      }
+    ]
+  },
   "Irenæus , l. 3. 6. 18.": {
     "slug": "iren-us-l-3-6-18",
     "auteur": "",
@@ -8534,6 +8590,20 @@ const SACY_BIBLIO = {
     "notice": "SC 507 (éd. Munier). PG 6, 327–440. Justin cite Is. VII, 14 et la naissance virginale comme preuve de la vérité du christianisme.",
     "citations": []
   },
+  "Sallust. in bell. Catilin.": {
+    "slug": "sallust-in-bell-catilin",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "jean2",
+        "livreAbr": "2 Jn",
+        "chapitre": 1,
+        "n": 1
+      }
+    ]
+  },
   "Sapient. 2. 18.": {
     "slug": "sapient-2-18",
     "auteur": "",
@@ -8594,6 +8664,20 @@ const SACY_BIBLIO = {
         "livreAbr": "Mc",
         "chapitre": 15,
         "n": 44
+      }
+    ]
+  },
+  "Tertul. de habit. mul. c. 3.": {
+    "slug": "tertul-de-habit-mul-c-3",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "jude",
+        "livreAbr": "Jude",
+        "chapitre": 1,
+        "n": 13
       }
     ]
   },
@@ -9162,6 +9246,26 @@ const SACY_BIBLIO = {
         "livreAbr": "Lc",
         "chapitre": 1,
         "n": 69
+      }
+    ]
+  },
+  "[?]": {
+    "slug": "",
+    "auteur": "",
+    "oeuvre": "",
+    "notice": "",
+    "citations": [
+      {
+        "livre": "jean3",
+        "livreAbr": "3 Jn",
+        "chapitre": 1,
+        "n": 7
+      },
+      {
+        "livre": "jean3",
+        "livreAbr": "3 Jn",
+        "chapitre": 1,
+        "n": 8
       }
     ]
   },
