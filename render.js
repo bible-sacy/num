@@ -461,12 +461,14 @@ function renderChapitre(data) {
   const columns = document.querySelector('.chapitre-columns');
 
   if (hasDoubleSens) {
-    if (columns) columns.classList.add('triple', 'show-litteral');
+    if (columns) columns.classList.add('triple');
     const comCol = document.querySelector('.col-commentaire');
     if (comCol) comCol.hidden = true;
 
     const litCol = document.querySelector('.col-litteral');
     const spiCol = document.querySelector('.col-spirituel');
+    const nLit = versets.filter(v => !v.section && noteHasContent(v.noteLitteral));
+    const nSpi = versets.filter(v => !v.section && noteHasContent(v.noteSpirituel));
     if (litCol) {
       litCol.hidden = false;
       const t = litCol.querySelector('.litteral-texte');
@@ -475,15 +477,44 @@ function renderChapitre(data) {
     if (spiCol) {
       spiCol.hidden = false;
       const t = spiCol.querySelector('.spirituel-texte');
-      if (t) t.innerHTML = buildCommentaire(versets, meta, base, 'noteSpirituel', 'noteSpirituelVersets', 'spi');
+      const index = nSpi.length
+        ? `<p class="sens-index">Passages commentés au sens spirituel : ${nSpi.map(v => `<a href="#com-spi-v${v.n}" class="ref-com-lien">${v.n}</a>`).join(', ')}</p>` : '';
+      if (t) t.innerHTML = index + buildCommentaire(versets, meta, base, 'noteSpirituel', 'noteSpirituelVersets', 'spi');
     }
-    document.querySelectorAll('.sens-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.sens-btn').forEach(b => b.classList.toggle('active', b === btn));
-        columns.classList.toggle('show-litteral', btn.dataset.sens === 'litteral');
-        columns.classList.toggle('show-spirituel', btn.dataset.sens === 'spirituel');
-      });
-    });
+
+    // sélecteur : sens littéral / sens spirituel / les deux (trois colonnes, grands écrans seulement)
+    const sw = document.querySelector('.sens-switch');
+    if (sw && columns) {
+      sw.hidden = false;
+      sw.querySelector('[data-mode="litteral"] .n').textContent = nLit.length ? `· ${nLit.length}` : '';
+      sw.querySelector('[data-mode="spirituel"] .n').textContent = nSpi.length ? `· ${nSpi.length}` : '';
+      const wide = window.matchMedia('(min-width: 1280px)');
+      let stored = new URLSearchParams(location.search).get('sens');          // ?sens=litteral|spirituel|both (lien partageable)
+      if (!['litteral', 'spirituel', 'both'].includes(stored)) stored = null;
+      if (!stored) { try { stored = localStorage.getItem('sacy-sens'); } catch (e) {} }
+      const apply = (m, remember) => {
+        if (m === 'both' && !wide.matches) m = 'litteral';
+        columns.dataset.mode = m;
+        sw.querySelectorAll('.sens-mode').forEach(b => b.classList.toggle('active', b.dataset.mode === m));
+        sw.querySelector('[data-mode="both"]').hidden = !wide.matches;
+        if (remember) {
+          try { localStorage.setItem('sacy-sens', m); } catch (e) {}
+          const q = new URLSearchParams(location.search); q.set('sens', m);
+          history.replaceState(null, '', location.pathname + '?' + q.toString() + location.hash);
+        }
+      };
+      apply(stored || (window.matchMedia('(min-width: 1700px)').matches ? 'both' : 'litteral'), false);
+      sw.querySelectorAll('.sens-mode').forEach(b => b.addEventListener('click', () => apply(b.dataset.mode, true)));
+      wide.addEventListener('change', () => apply(columns.dataset.mode, false));
+      // un renvoi §L / §S du texte français ouvre le commentaire correspondant
+      document.addEventListener('click', e => {
+        const a = e.target.closest('.ref-com, .ref-com-lien');
+        if (!a) return;
+        const h = a.getAttribute('href') || '';
+        if (h.startsWith('#com-spi-') && columns.dataset.mode === 'litteral') apply('spirituel', true);
+        if (h.startsWith('#com-lit-') && columns.dataset.mode === 'spirituel') apply('litteral', true);
+      }, true);
+    }
   } else {
     const comTexte = document.querySelector('.col-commentaire .commentaire-texte');
     if (comTexte) comTexte.innerHTML = buildCommentaire(versets, meta, base);
@@ -755,7 +786,12 @@ function renderPage(data) {
   });
   (page.notesBas || []).forEach(t => parts.push(`<p class="pf-notebas">${t}</p>`));
 
+  let senPrec = null;
   (page.commentaire || []).forEach(c => {
+    if (c.sens && c.sens !== 'N' && c.sens !== senPrec) {
+      parts.push(`<p class="pf-sens pf-sens-${c.sens}">${c.sens === 'L' ? 'Sens littéral' : 'Sens spirituel'}</p>`);
+    }
+    senPrec = c.sens || senPrec;
     const vs = c.versets || [];
     const ch = (page.versets && page.versets.length ? page.versets[page.versets.length - 1].chapitre : page.chapitre) || page.chapitre;
     const head = vs.length

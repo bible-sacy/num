@@ -356,13 +356,11 @@ details.livre-group.indisponible > summary { color: var(--muted); opacity: 0.5; 
 }
 
 /* ── Chapitres à double commentaire (sens littéral / spirituel) ───── */
-.chapitre-columns.triple .col-francais { flex: 0 0 30%; }
 .col-litteral, .col-spirituel {
   flex: 1 1 0;
   min-width: 0;
 }
-.sens-toggle { display: none; gap: 0.4rem; }
-.sens-toggle .btn { padding: 0.15rem 0.6rem; font-size: 0.76rem; }
+.sens-toggle { display: none !important; }
 
 .verset {
   padding: 0.35rem 0;
@@ -481,12 +479,12 @@ details.livre-group.indisponible > summary { color: var(--muted); opacity: 0.5; 
 .note-para-row.has-marges { display: grid; grid-template-columns: 1fr 210px; gap: 0 2rem; }
 /* Colonnes littéral/spirituel : trop étroites pour la grille à marge fixe,
    on empile citation sous le texte comme en mobile. */
-.col-litteral .note-para-row.has-marges,
-.col-spirituel .note-para-row.has-marges {
+.chapitre-columns[data-mode="both"] .col-litteral .note-para-row.has-marges,
+.chapitre-columns[data-mode="both"] .col-spirituel .note-para-row.has-marges {
   grid-template-columns: 1fr;
 }
-.col-litteral .note-para-marges,
-.col-spirituel .note-para-marges {
+.chapitre-columns[data-mode="both"] .col-litteral .note-para-marges,
+.chapitre-columns[data-mode="both"] .col-spirituel .note-para-marges {
   border-left: none;
   border-top: 1px dotted var(--border-light);
   padding-left: 0;
@@ -496,7 +494,7 @@ details.livre-group.indisponible > summary { color: var(--muted); opacity: 0.5; 
   flex-wrap: wrap;
   gap: 0.3em 1.2em;
 }
-.col-litteral .marge-item, .col-spirituel .marge-item { display: inline; }
+.chapitre-columns[data-mode="both"] .col-litteral .marge-item, .chapitre-columns[data-mode="both"] .col-spirituel .marge-item { display: inline; }
 .note-para-text { font-size: 1.02rem; font-weight: 500; line-height: 1.8; margin: 0; }
 .note-para-marges {
   font-size: 0.78rem;
@@ -654,11 +652,6 @@ mark { background: transparent; color: var(--accent); font-weight: 600; }
   .chapitre-columns { flex-direction: column; gap: 2rem; }
   .col-francais { position: static; max-height: none; flex: 1 1 auto; padding-right: 0; }
 
-  .sens-toggle { display: inline-flex; }
-  .chapitre-columns.triple .col-litteral,
-  .chapitre-columns.triple .col-spirituel { display: none; }
-  .chapitre-columns.triple.show-litteral .col-litteral { display: block; }
-  .chapitre-columns.triple.show-spirituel .col-spirituel { display: block; }
 }
 
 @media (max-width: 860px) {
@@ -769,10 +762,6 @@ mark { background: transparent; color: var(--accent); font-weight: 600; }
   .verset-marges { margin: 0.2rem 0 0 1.5em; border-left: none; padding-left: 0; }
   .verset-marges .marge-item { display: inline; margin-right: 0.9em; }
 }
-.chapitre-columns.triple .col-francais { --gutter: 0; flex-basis: 30%; }
-.chapitre-columns.triple .col-francais .verset { display: block; }
-.chapitre-columns.triple .verset-marges { margin: 0.2rem 0 0 1.5em; border-left: none; padding-left: 0; }
-.chapitre-columns.triple .verset-marges .marge-item { display: inline; margin-right: 0.9em; }
 
 /* vue page à page : même principe */
 .pf-verset { display: grid; grid-template-columns: minmax(0, 1fr) 8.2rem; column-gap: 1rem; }
@@ -804,3 +793,27 @@ mark { background: transparent; color: var(--accent); font-weight: 600; }
   .pf-verset > .pf-marges { display: flex; flex-wrap: wrap; gap: 0.2em 1.1em; margin: 0.25rem 0 0 1.4em; padding-left: 0; border-left: none; }
   .pf-marges .marge-item { display: inline; margin: 0; }
 }
+
+/* vue page à page : étiquette de section du commentaire (sens littéral / sens spirituel) */
+.pf-sens { font-variant: small-caps; letter-spacing: 0.08em; font-size: 0.85rem; color: var(--accent); margin: 1.1rem 0 0.2rem; border-bottom: 1px solid var(--border-light); padding-bottom: 0.15rem; }
+
+/* ── Double commentaire : sens littéral / sens spirituel ────────────────────────────────────────────────────────── */
+.sens-switch { display: inline-flex; border: 1px solid var(--border); border-radius: 4px; overflow: hidden; }
+.sens-switch[hidden], .sens-switch .sens-mode[hidden] { display: none; }
+.sens-switch .sens-mode { border: none; border-radius: 0; border-right: 1px solid var(--border-light); }
+.sens-switch .sens-mode:last-child { border-right: none; }
+.sens-switch .sens-mode .n { color: var(--muted); font-size: 0.8em; margin-left: 0.2em; }
+/* un seul commentaire visible : mise en page habituelle (texte français + commentaire) */
+.chapitre-columns.triple[data-mode="litteral"] .col-spirituel,
+.chapitre-columns.triple[data-mode="spirituel"] .col-litteral { display: none; }
+.chapitre-columns.triple:not([data-mode="both"]) .col-litteral,
+.chapitre-columns.triple:not([data-mode="both"]) .col-spirituel { flex: 1 1 auto; min-width: 0; }
+/* les deux : trois colonnes (grands écrans) */
+.chapitre-columns.triple[data-mode="both"] .col-francais { --gutter: 0; flex: 0 0 30%; }
+.chapitre-columns.triple[data-mode="both"] .col-francais .verset { display: block; }
+.chapitre-columns.triple[data-mode="both"] .verset-marges { margin: 0.2rem 0 0 1.5em; border-left: none; padding-left: 0; }
+.chapitre-columns.triple[data-mode="both"] .verset-marges .marge-item { display: inline; margin-right: 0.9em; }
+.chapitre-columns.triple[data-mode="both"] .col-litteral, .chapitre-columns.triple[data-mode="both"] .col-spirituel { flex: 1 1 0; }
+.sens-index { font-size: 0.9rem; color: var(--muted); margin: 0 0 1rem; text-align: left; }
+.sens-index a { margin: 0 0.1em; }
+@media (max-width: 980px) { .sens-switch { flex-wrap: wrap; justify-content: center; } }
