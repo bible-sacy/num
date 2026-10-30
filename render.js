@@ -196,6 +196,9 @@ function sourceAuthorKey(marge, prevKey) {
   const isLit = t.startsWith('†') || (/^[A-Za-zÀ-ÿ]+/.test(t) && SOURCE_LITURGIE.has(first) && !(first in SOURCE_ALIAS));
   if (isLit) return 'liturgie';
   if (/^(ib|ibid|ibidem|id|idem)\b/i.test(t) || (SOURCE_REPERAGE.has(first) && first.length <= 3) || SOURCE_CONTINUATION.has(first) || !/^[A-Za-zÀ-ÿ]/.test(first)) return prevKey || 'non-identifie';
+  const nx = tokens.length > 1 ? tokens[1].replace(/[.,]$/, '').toLowerCase() : '';
+  if ((first === 'jansen' || first === 'jansenius') && nx.startsWith('gand')) return 'jansenius-de-gand';   // Jansénius de Gand ≠ d'Ypres
+  if (first === 'act' && nx.startsWith('holst')) return 'holstenius';                                      // Actes des martyrs (éd. Holstenius)
   let key = SOURCE_ALIAS[first];
   if (key === 'gregoire-le-grand' && tokens.length > 1) {
     const nxt = tokens[1].replace(/[.,]$/, '').toLowerCase();

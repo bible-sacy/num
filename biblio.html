@@ -183,6 +183,7 @@
 
   for (const a of auteurs) {
     html += `<section class="biblio-auteur" id="a-${a.cle}"><h2>${esc(a.nom)}${a.dates ? ` <small>(${a.dates})</small>` : ''}</h2>`;
+    if (a.notice) html += `<p class="biblio-notice">${a.notice}</p>`;
     for (const o of a.oeuvres) {
       const titre = o.titre ? esc(o.titre) : (a.cle === 'liturgie' ? '' : 'références générales à l\'auteur');
       html += `<div class="biblio-entry" id="${o.slug}">`;

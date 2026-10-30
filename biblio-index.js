@@ -2,13 +2,13 @@
 const SACY_BIBLIO = {
   "auteurs": [
     {
-      "cle": "act",
-      "nom": "Act",
+      "cle": "holstenius",
+      "nom": "Actes des martyrs (éd. Holstenius)",
       "dates": "",
       "oeuvres": [
         {
-          "titre": "Holst.",
-          "slug": "act-holst",
+          "titre": "",
+          "slug": "holstenius",
           "refs": [
             {
               "ref": "p. 26",
@@ -24,7 +24,8 @@ const SACY_BIBLIO = {
             }
           ]
         }
-      ]
+      ],
+      "notice": "« Act. Holst., p. 26 » renvoie probablement aux <em>Actes des martyrs</em>, dans l'édition de Lucas Holstenius : <em>Passio sanctarum martyrum Perpetuae et Felicitatis</em>, Rome, Giacomo Dragondelli, 1663, publication posthume préparée par le jésuite Pierre Poussines. Une réédition paraît à Paris en 1664. Éditions numérisées sur Google Livres : <a href=\"https://play.google.com/store/books/details?id=U3gbyiWHndYC\" target=\"_blank\" rel=\"noopener\">Rome, 1663</a> ; <a href=\"https://play.google.com/store/books/details?id=6_ChTykrBAUC\" target=\"_blank\" rel=\"noopener\">Paris, 1664</a>."
     },
     {
       "cle": "ambroise",
@@ -79,42 +80,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 7,
                   "n": 36,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Hieron. August. ut supr.",
-          "slug": "ambroise-hieron-august-ut-supr",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 15,
-                  "n": 25,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "ibid.",
-          "slug": "ambroise-ibid",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 6,
                   "sens": "N"
                 }
               ]
@@ -375,6 +340,13 @@ const SACY_BIBLIO = {
                   "chapitre": 3,
                   "n": 31,
                   "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 15,
+                  "n": 25,
+                  "sens": "N"
                 }
               ]
             },
@@ -427,8 +399,27 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "ibid.",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "in hunc loc.",
               "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                },
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
@@ -1374,6 +1365,13 @@ const SACY_BIBLIO = {
                   "livre": "luc",
                   "livreAbr": "Lc",
                   "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
                   "n": 3,
                   "sens": "N"
                 }
@@ -1663,6 +1661,18 @@ const SACY_BIBLIO = {
           "refs": [
             {
               "ref": "140",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 24,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "140 c. 2",
               "cites": [
                 {
                   "livre": "luc",
@@ -2221,6 +2231,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 18,
                   "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "125",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 16,
+                  "n": 27,
                   "sens": "N"
                 }
               ]
@@ -2887,6 +2909,13 @@ const SACY_BIBLIO = {
                   "chapitre": 15,
                   "n": 15,
                   "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 15,
+                  "n": 22,
+                  "sens": "N"
                 }
               ]
             },
@@ -3108,6 +3137,13 @@ const SACY_BIBLIO = {
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
+                  "chapitre": 15,
+                  "n": 25,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
                   "chapitre": 16,
                   "n": 1,
                   "sens": "N"
@@ -3188,6 +3224,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mc",
                   "chapitre": 5,
                   "n": 34,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 15,
+                  "n": 17,
                   "sens": "N"
                 },
                 {
@@ -4520,6 +4563,25 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "51",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 2,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "51 c. 6",
               "cites": [
                 {
@@ -4594,6 +4656,13 @@ const SACY_BIBLIO = {
                   "livre": "luc",
                   "livreAbr": "Lc",
                   "chapitre": 17,
+                  "n": 15,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 17,
                   "n": 20,
                   "sens": "N"
                 },
@@ -4602,6 +4671,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 18,
                   "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 19,
+                  "n": 8,
                   "sens": "N"
                 },
                 {
@@ -4818,6 +4894,13 @@ const SACY_BIBLIO = {
             {
               "ref": "in hunc loc.",
               "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 1,
+                  "n": 32,
+                  "sens": "N"
+                },
                 {
                   "livre": "marc",
                   "livreAbr": "Mc",
@@ -5088,11 +5171,11 @@ const SACY_BIBLIO = {
       "dates": "",
       "oeuvres": [
         {
-          "titre": "ibid.",
-          "slug": "fromond-ibid",
+          "titre": "",
+          "slug": "fromond",
           "refs": [
             {
-              "ref": "",
+              "ref": "ibid.",
               "cites": [
                 {
                   "livre": "luc",
@@ -5268,6 +5351,24 @@ const SACY_BIBLIO = {
       "dates": "v. 335–après 394",
       "oeuvres": [
         {
+          "titre": "de Chr. nativ. or.",
+          "slug": "gregoire-de-nysse-de-chr-nativ-or",
+          "refs": [
+            {
+              "ref": "1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 2,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de resurrect. Chr. or.",
           "slug": "gregoire-de-nysse-de-resurrect-chr-or",
           "refs": [
@@ -5401,24 +5502,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "ib.",
-          "slug": "gregoire-le-grand-ib",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "timothee2",
-                  "livreAbr": "2 Tm",
-                  "chapitre": 4,
-                  "n": 7,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "in Evang. hom.",
           "slug": "gregoire-le-grand-in-evang-hom",
           "refs": [
@@ -5466,6 +5549,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 14,
                   "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "40",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 16,
+                  "n": 22,
                   "sens": "N"
                 }
               ]
@@ -5527,12 +5622,7 @@ const SACY_BIBLIO = {
                   "chapitre": 24,
                   "n": 13,
                   "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "23 Aug. de temp. ser. 140 c. 2",
-              "cites": [
+                },
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
@@ -5617,210 +5707,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "mor.",
-          "slug": "gregoire-le-grand-mor",
-          "refs": [
-            {
-              "ref": "l. 2 c. 12",
-              "cites": [
-                {
-                  "livre": "corinthiens2",
-                  "livreAbr": "2 Co",
-                  "chapitre": 1,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 10 c. 20",
-              "cites": [
-                {
-                  "livre": "corinthiens2",
-                  "livreAbr": "2 Co",
-                  "chapitre": 8,
-                  "n": 9,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Mor.",
-          "slug": "gregoire-le-grand-mor",
-          "refs": [
-            {
-              "ref": "ch. 4, 26",
-              "cites": [
-                {
-                  "livre": "timothee2",
-                  "livreAbr": "2 Tm",
-                  "chapitre": 2,
-                  "n": 5,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 5 c. 5",
-              "cites": [
-                {
-                  "livre": "timothee2",
-                  "livreAbr": "2 Tm",
-                  "chapitre": 2,
-                  "n": 4,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "moral.",
-          "slug": "gregoire-le-grand-moral",
-          "refs": [
-            {
-              "ref": "l. 4 c. 12",
-              "cites": [
-                {
-                  "livre": "corinthiens2",
-                  "livreAbr": "2 Co",
-                  "chapitre": 4,
-                  "n": 7,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 18 c. 7",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 13,
-                  "n": 26,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 22 c. 14",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 4,
-                  "n": 26,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 31 c. 16",
-              "cites": [
-                {
-                  "livre": "corinthiens2",
-                  "livreAbr": "2 Co",
-                  "chapitre": 5,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 33 c. 14",
-              "cites": [
-                {
-                  "livre": "corinthiens2",
-                  "livreAbr": "2 Co",
-                  "chapitre": 11,
-                  "n": 13,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 33 c. 18",
-              "cites": [
-                {
-                  "livre": "corinthiens2",
-                  "livreAbr": "2 Co",
-                  "chapitre": 11,
-                  "n": 13,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Moral.",
-          "slug": "gregoire-le-grand-moral",
-          "refs": [
-            {
-              "ref": "l. 4 c. 17",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 76,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 14 c. 2 nov. edit. cap. 49 n. 57",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 14,
-                  "n": 51,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 22 c. 3",
-              "cites": [
-                {
-                  "livre": "timothee2",
-                  "livreAbr": "2 Tm",
-                  "chapitre": 4,
-                  "n": 7,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 23 c. 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 10,
-                  "n": 17,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 18 cap. 10",
-              "cites": [
-                {
-                  "livre": "philemon",
-                  "livreAbr": "Phm",
-                  "chapitre": 1,
-                  "n": 15,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "Naz. de Chr. nat.",
           "slug": "gregoire-le-grand-naz-de-chr-nat",
           "refs": [
@@ -5893,26 +5779,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Pastor.",
-          "slug": "gregoire-le-grand-pastor",
-          "refs": [
-            {
-              "ref": "part. 2 c. 1",
-              "cites": [
-                {
-                  "livre": "tite",
-                  "livreAbr": "Tt",
-                  "chapitre": 3,
-                  "n": 2,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Pastor. par.",
-          "slug": "gregoire-le-grand-pastor-par",
+          "titre": "par.",
+          "slug": "gregoire-le-grand-par",
           "refs": [
             {
               "ref": "2 c. 6",
@@ -5963,6 +5831,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "c. 5",
+              "cites": [
+                {
+                  "livre": "corinthiens2",
+                  "livreAbr": "2 Co",
+                  "chapitre": 10,
+                  "n": 17,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "c. 6 v. 4. & suiv",
               "cites": [
                 {
@@ -5970,6 +5850,54 @@ const SACY_BIBLIO = {
                   "livreAbr": "2 Co",
                   "chapitre": 12,
                   "n": 10,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "c. 14",
+              "cites": [
+                {
+                  "livre": "timothee2",
+                  "livreAbr": "2 Tm",
+                  "chapitre": 4,
+                  "n": 7,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "ch. 4, 26",
+              "cites": [
+                {
+                  "livre": "timothee2",
+                  "livreAbr": "2 Tm",
+                  "chapitre": 2,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "ibid.",
+              "cites": [
+                {
+                  "livre": "timothee2",
+                  "livreAbr": "2 Tm",
+                  "chapitre": 4,
+                  "n": 7,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 12",
+              "cites": [
+                {
+                  "livre": "corinthiens2",
+                  "livreAbr": "2 Co",
+                  "chapitre": 1,
+                  "n": 1,
                   "sens": "S"
                 }
               ]
@@ -5987,7 +5915,43 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "l. 10 Mor. c. 14",
+              "ref": "l. 4 c. 12",
+              "cites": [
+                {
+                  "livre": "corinthiens2",
+                  "livreAbr": "2 Co",
+                  "chapitre": 4,
+                  "n": 7,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 c. 17",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 76,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 5 c. 5",
+              "cites": [
+                {
+                  "livre": "timothee2",
+                  "livreAbr": "2 Tm",
+                  "chapitre": 2,
+                  "n": 4,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 10",
               "cites": [
                 {
                   "livre": "timothee2",
@@ -5995,6 +5959,42 @@ const SACY_BIBLIO = {
                   "chapitre": 4,
                   "n": 7,
                   "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 10 c. 20",
+              "cites": [
+                {
+                  "livre": "corinthiens2",
+                  "livreAbr": "2 Co",
+                  "chapitre": 8,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 14 c. 2 nov. edit. cap. 49 n. 57",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 14,
+                  "n": 51,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 18 c. 7",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 13,
+                  "n": 26,
+                  "sens": "N"
                 }
               ]
             },
@@ -6047,6 +6047,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 22",
+              "cites": [
+                {
+                  "livre": "corinthiens2",
+                  "livreAbr": "2 Co",
+                  "chapitre": 10,
+                  "n": 17,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 22 c. 3",
+              "cites": [
+                {
+                  "livre": "timothee2",
+                  "livreAbr": "2 Tm",
+                  "chapitre": 4,
+                  "n": 7,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "l. 22 c. 5",
               "cites": [
                 {
@@ -6059,13 +6083,73 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "l. 22 Mor. c. 5",
+              "ref": "l. 22 c. 14",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 4,
+                  "n": 26,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 23 c. 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 10,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 31 c. 16",
               "cites": [
                 {
                   "livre": "corinthiens2",
                   "livreAbr": "2 Co",
-                  "chapitre": 10,
-                  "n": 17,
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 33 c. 14",
+              "cites": [
+                {
+                  "livre": "corinthiens2",
+                  "livreAbr": "2 Co",
+                  "chapitre": 11,
+                  "n": 13,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 33 c. 18",
+              "cites": [
+                {
+                  "livre": "corinthiens2",
+                  "livreAbr": "2 Co",
+                  "chapitre": 11,
+                  "n": 13,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 18 cap. 10",
+              "cites": [
+                {
+                  "livre": "philemon",
+                  "livreAbr": "Phm",
+                  "chapitre": 1,
+                  "n": 15,
                   "sens": "S"
                 }
               ]
@@ -6078,6 +6162,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "2 Tm",
                   "chapitre": 2,
                   "n": 15,
+                  "sens": "S"
+                },
+                {
+                  "livre": "tite",
+                  "livreAbr": "Tt",
+                  "chapitre": 3,
+                  "n": 2,
                   "sens": "S"
                 }
               ]
@@ -6172,70 +6263,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Maldon.",
-          "slug": "grotius-maldon",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 42,
-                  "sens": "N"
-                },
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 65,
-                  "sens": "N"
-                },
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 12,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Maldon. Jansen.",
-          "slug": "grotius-maldon-jansen",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 2,
-                  "n": 33,
-                  "sens": "N"
-                },
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 5,
-                  "n": 1,
-                  "sens": "N"
-                },
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 12,
-                  "n": 35,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "",
           "slug": "grotius",
           "refs": [
@@ -6287,7 +6314,35 @@ const SACY_BIBLIO = {
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 42,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 65,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
                   "chapitre": 2,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 2,
+                  "n": 33,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 5,
                   "n": 1,
                   "sens": "N"
                 },
@@ -6310,6 +6365,27 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 11,
                   "n": 52,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 12,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 12,
+                  "n": 35,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 12,
+                  "n": 49,
                   "sens": "N"
                 },
                 {
@@ -6364,6 +6440,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 1,
                   "n": 39,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 10,
+                  "n": 17,
                   "sens": "N"
                 },
                 {
@@ -6448,6 +6531,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 21,
                   "n": 15,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 22,
+                  "n": 35,
                   "sens": "N"
                 },
                 {
@@ -6819,27 +6909,9 @@ const SACY_BIBLIO = {
     },
     {
       "cle": "jansenius",
-      "nom": "Jansénius",
+      "nom": "Jansénius d'Ypres",
       "dates": "1585–1638",
       "oeuvres": [
-        {
-          "titre": "Gand.",
-          "slug": "jansenius-gand",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 6,
-                  "n": 37,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
         {
           "titre": "",
           "slug": "jansenius",
@@ -6860,18 +6932,143 @@ const SACY_BIBLIO = {
                   "chapitre": 16,
                   "n": 14,
                   "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 2,
+                  "n": 33,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 9,
+                  "n": 51,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 12,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "ibid.",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 7,
+                  "n": 48,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "in hunc loc.",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 12,
+                  "n": 47,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 13,
+                  "n": 6,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 13,
+                  "n": 31,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 17,
+                  "n": 15,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 22,
+                  "n": 35,
+                  "sens": "N"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "notice": "Cornelius Jansenius (1585–1638), évêque d'Ypres. À ne pas confondre avec Cornelius Jansen (1510–1576), évêque de Gand, cité sous « Jansen. Gand. » (voir <a href=\"#a-jansenius-de-gand\">Jansénius de Gand</a>)."
+    },
+    {
+      "cle": "jansenius-de-gand",
+      "nom": "Jansénius de Gand",
+      "dates": "1510–1576",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "jansenius-de-gand",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 6,
+                  "n": 37,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "notice": "Cornelius Jansen (1510–1576), évêque de Gand (<em>Jansenius Gandavensis</em>). Cité en marge sous « Jansen. Gand. ». À ne pas confondre avec Cornelius Jansenius (1585–1638), évêque d'Ypres (voir <a href=\"#a-jansenius\">Jansénius d'Ypres</a>)."
     },
     {
       "cle": "chrysostome",
       "nom": "S. Jean Chrysostome",
       "dates": "v. 349–407",
       "oeuvres": [
+        {
+          "titre": "Hilarius in Matt.",
+          "slug": "chrysostome-hilarius-in-matt",
+          "refs": [
+            {
+              "ref": "17, 13",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 9,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
         {
           "titre": "hom.",
           "slug": "chrysostome-hom",
@@ -7069,7 +7266,7 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "5 to. 5 p. 76 August. ep. 125",
+              "ref": "5 to. 5 p. 76",
               "cites": [
                 {
                   "livre": "luc",
@@ -7107,11 +7304,11 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "ut supr. Gregor. Magn. in Evang. hom.",
-          "slug": "chrysostome-ut-supr-gregor-magn-in-evang-hom",
+          "titre": "ut supr.",
+          "slug": "chrysostome-ut-supr",
           "refs": [
             {
-              "ref": "40",
+              "ref": "",
               "cites": [
                 {
                   "livre": "luc",
@@ -7194,42 +7391,6 @@ const SACY_BIBLIO = {
       "dates": "v. 347–420",
       "oeuvres": [
         {
-          "titre": "& Aug. ut supr.",
-          "slug": "jerome-aug-ut-supr",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 15,
-                  "n": 22,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "& Aug. ut suprà.",
-          "slug": "jerome-aug-ut-supra",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 15,
-                  "n": 17,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "ad Eustoch. de Epitaph. Paul. ep.",
           "slug": "jerome-ad-eustoch-de-epitaph-paul-ep",
           "refs": [
@@ -7259,24 +7420,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 4,
                   "n": 13,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Chrysost. Hilarius in Matt.",
-          "slug": "jerome-chrysost-hilarius-in-matt",
-          "refs": [
-            {
-              "ref": "17, 13",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 9,
-                  "n": 11,
                   "sens": "N"
                 }
               ]
@@ -7460,6 +7603,13 @@ const SACY_BIBLIO = {
                   "chapitre": 15,
                   "n": 17,
                   "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 15,
+                  "n": 22,
+                  "sens": "N"
                 }
               ]
             },
@@ -7563,18 +7713,18 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "ibid.",
-          "slug": "jerome-ibid",
+          "titre": "Hilarius in Matt.",
+          "slug": "jerome-hilarius-in-matt",
           "refs": [
             {
-              "ref": "",
+              "ref": "17, 13",
               "cites": [
                 {
-                  "livre": "tite",
-                  "livreAbr": "Tt",
-                  "chapitre": 1,
-                  "n": 16,
-                  "sens": "S"
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 9,
+                  "n": 11,
+                  "sens": "N"
                 }
               ]
             }
@@ -8019,6 +8169,20 @@ const SACY_BIBLIO = {
                   "chapitre": 15,
                   "n": 20,
                   "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 15,
+                  "n": 22,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 15,
+                  "n": 25,
+                  "sens": "N"
                 }
               ]
             }
@@ -8037,6 +8201,13 @@ const SACY_BIBLIO = {
                   "chapitre": 15,
                   "n": 13,
                   "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 15,
+                  "n": 17,
+                  "sens": "N"
                 }
               ]
             }
@@ -8046,6 +8217,18 @@ const SACY_BIBLIO = {
           "titre": "",
           "slug": "jerome",
           "refs": [
+            {
+              "ref": "ibid.",
+              "cites": [
+                {
+                  "livre": "tite",
+                  "livreAbr": "Tt",
+                  "chapitre": 1,
+                  "n": 16,
+                  "sens": "S"
+                }
+              ]
+            },
             {
               "ref": "in hunc loc.",
               "cites": [
@@ -8261,8 +8444,8 @@ const SACY_BIBLIO = {
       "dates": "1533–1583",
       "oeuvres": [
         {
-          "titre": "Grotius.",
-          "slug": "maldonat-grotius",
+          "titre": "",
+          "slug": "maldonat",
           "refs": [
             {
               "ref": "",
@@ -8275,72 +8458,6 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 },
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 12,
-                  "n": 49,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "ibid.",
-          "slug": "maldonat-ibid",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 4,
-                  "n": 33,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "℣. 11",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 4,
-                  "n": 33,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Jansen.",
-          "slug": "maldonat-jansen",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 9,
-                  "n": 51,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "",
-          "slug": "maldonat",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
                   "livre": "marc",
                   "livreAbr": "Mc",
                   "chapitre": 14,
@@ -8350,8 +8467,76 @@ const SACY_BIBLIO = {
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 42,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 65,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 2,
+                  "n": 33,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
                   "chapitre": 2,
                   "n": 41,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 9,
+                  "n": 51,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 12,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 12,
+                  "n": 35,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 12,
+                  "n": 49,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "ibid.",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 4,
+                  "n": 33,
                   "sens": "N"
                 }
               ]
@@ -8399,6 +8584,25 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 17,
                   "n": 15,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 22,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "℣. 11",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 4,
+                  "n": 33,
                   "sens": "N"
                 }
               ]
@@ -8647,18 +8851,6 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "13 Epiphan. hæres. 51 Gregor. Nyss. de Chr. nativ. or. 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 2,
-                  "n": 6,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
               "ref": "15",
               "cites": [
                 {
@@ -8685,6 +8877,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in Luc. homil.",
+          "slug": "origene-in-luc-homil",
+          "refs": [
+            {
+              "ref": "1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "",
           "slug": "origene",
           "refs": [
@@ -8703,13 +8913,6 @@ const SACY_BIBLIO = {
             {
               "ref": "in hunc loc.",
               "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 1,
-                  "sens": "N"
-                },
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
@@ -9322,26 +9525,15 @@ const SACY_BIBLIO = {
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
-                  "chapitre": 15,
-                  "n": 8,
+                  "chapitre": 2,
+                  "n": 1,
                   "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "ut suprà. Grotius.",
-          "slug": "tertullien-ut-supra-grotius",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
+                },
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
-                  "chapitre": 2,
-                  "n": 1,
+                  "chapitre": 15,
+                  "n": 8,
                   "sens": "N"
                 }
               ]
@@ -9432,6 +9624,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 11,
                   "n": 27,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 13,
+                  "n": 6,
                   "sens": "N"
                 },
                 {
