@@ -1,4 +1,5 @@
-const SACY_PUBLISHED = ["luc", "marc", "corinthiens2", "timothee2", "tite", "philemon", "jean2", "jean3", "jude"];
+const SACY_PUBLISHED = ["luc", "marc", "matthieu", "corinthiens2", "timothee2", "tite", "philemon", "jean2", "jean3", "jude"];
+const SACY_REFS = {"auteurs":[{"cle":"augustin","alias":["august","aug","augst","augustin","augus","augusti","ench","enchir"]},{"cle":"ambroise","alias":["ambr","ambros","ambrosius","amb"]},{"cle":"jerome","alias":["hieron","hier","hieronym","hierom","hyeron"]},{"cle":"gregoire-le-grand","alias":["gregor","greg","gregorius","magn","mor","moral","pastor"]},{"cle":"gregoire-de-nazianze","alias":[]},{"cle":"gregoire-de-nysse","alias":[]},{"cle":"tertullien","alias":["tertull","tertul","tertullian"]},{"cle":"origene","alias":["origen","orig"]},{"cle":"chrysostome","alias":["chrysost","chrys","chrysostom"]},{"cle":"bernard","alias":["bern","ber","bernard"]},{"cle":"bede","alias":["bed","beda"]},{"cle":"eusebe","alias":["euseb"]},{"cle":"irenee","alias":["iren","irenæus","irenaeus","ireneus"]},{"cle":"cyprien","alias":["cyprian","cypr"]},{"cle":"epiphane","alias":["epiph","epiphan"]},{"cle":"athanase","alias":["athanas","athan"]},{"cle":"leon","alias":["leo"]},{"cle":"basile","alias":["basil","basilius"]},{"cle":"hilaire","alias":["hilar","hil"]},{"cle":"cyrille","alias":["cyrill"]},{"cle":"paulin","alias":["paulin"]},{"cle":"josephe","alias":["joseph"]},{"cle":"grotius","alias":["grotius","grot"]},{"cle":"maldonat","alias":["maldon","mald"]},{"cle":"estius","alias":["estius"]},{"cle":"jansenius","alias":["jansen","jansenius"]},{"cle":"jansenius-de-gand","alias":[]},{"cle":"holstenius","alias":[]},{"cle":"theophylacte","alias":["theoph","theophil","theophyl","theophylact"]},{"cle":"euthyme","alias":["euthym","eutym"]},{"cle":"sedulius","alias":["sedul"]},{"cle":"mabillon","alias":["mabil"]},{"cle":"conciles","alias":["conc","concil"]}],"auteurs_composes":[{"auteur":"jansenius","suite":"gand","cle":"jansenius-de-gand"},{"premier":["act"],"suite":"holst","cle":"holstenius"},{"auteur":"gregoire-le-grand","suite":"nazianz","cle":"gregoire-de-nazianze"},{"auteur":"gregoire-le-grand","suite":"nyss","cle":"gregoire-de-nysse"},{"auteur":"gregoire-le-grand","suite":"magn","cle":"gregoire-le-grand"}],"mots":{"liturgie":["aux","circoncision","dim","dimanche","fete","fête","jeudi","lundi","mardi","mercredi","octave","plusieurs","s","samedi","st","suite","un","veille","vendredi","visitation"],"continuation":["apud","contra","de","dom","ep","epist","evangel","hom","homil","in","item","orat","part","ser","serm","sess","tract"],"reperage":["art","c","cap","ch","chap","col","l","lib","liv","n","num","p","pag","part","q","qu","quaest","quæst","t","to","tom","v","vers"]},"bible":{"livres":[{"slug":"genese","fr":"Genèse","abreviations":["Gen","Gn","Genes"]},{"slug":"exode","fr":"Exode","abreviations":["Ex","Exod"]},{"slug":"levitique","fr":"Lévitique","abreviations":["Lv","Lev","Levit","Levitic","Levitiq"]},{"slug":"nombres","fr":"Nombres","abreviations":["Nb","Num","Numer","Nomb"]},{"slug":"deuteronome","fr":"Deutéronome","abreviations":["Dt","Deut"]},{"slug":"josue","fr":"Josué","abreviations":["Jos"]},{"slug":"juges","fr":"Juges","abreviations":["Jg","Jug","Juges","Judic"]},{"slug":"ruth","fr":"Ruth","abreviations":["Rt","Ruth"]},{"slug":"rois","fr":"Rois","num":true,"abreviations":["Reg"]},{"slug":"esdras","fr":"Esdras","abreviations":["Esd","Esdr"]},{"slug":"nehemie","fr":"Néhémie","abreviations":["Neh"]},{"slug":"esther","fr":"Esther","abreviations":["Esth"]},{"slug":"tobie","fr":"Tobie","abreviations":["Tob"]},{"slug":"judith","fr":"Judith","abreviations":["Jdt"]},{"slug":"maccabees","fr":"Maccabées","num":true,"abreviations":["Mac","Mach"]},{"slug":"job","fr":"Job","abreviations":["Job"]},{"slug":"psaumes","fr":"Ps","abreviations":["Ps","Psal","Psalm"]},{"slug":"proverbes","fr":"Proverbes","abreviations":["Prov","Proverb"]},{"slug":"ecclesiaste","fr":"Ecclésiaste","abreviations":["Eccl","Eccles","Ecc","Ecclesiast"]},{"slug":"cantique","fr":"Cantique","abreviations":["Cant","Cantic"]},{"slug":"sagesse","fr":"Sagesse","abreviations":["Sap","Sag","Sapient"]},{"slug":"siracide","fr":"Siracide","abreviations":["Sir","Eccli"]},{"slug":"isaie","fr":"Isaïe","abreviations":["Is","Isai","Isa","Isaie","Isaï","Isaïe"]},{"slug":"jeremie","fr":"Jérémie","abreviations":["Jr","Jer","Jerem"]},{"slug":"lamentations","fr":"Lamentations","abreviations":["Lam","Lament","Thren"]},{"slug":"baruch","fr":"Baruch","abreviations":["Bar"]},{"slug":"ezechiel","fr":"Ézéchiel","abreviations":["Ez","Ezech","Ezechiel","Ezec"]},{"slug":"daniel","fr":"Daniel","abreviations":["Dan","Daniel"]},{"slug":"osee","fr":"Osée","abreviations":["Os","Osée","Osee"]},{"slug":"joel","fr":"Joël","abreviations":["Jl","Joel"]},{"slug":"amos","fr":"Amos","abreviations":["Am","Amos"]},{"slug":"abdias","fr":"Abdias","abreviations":["Ab"]},{"slug":"jonas","fr":"Jonas","abreviations":["Jon"]},{"slug":"michee","fr":"Michée","abreviations":["Mi","Mich"]},{"slug":"nahum","fr":"Nahum","abreviations":["Na"]},{"slug":"habacuc","fr":"Habacuc","abreviations":["Ha","Habac"]},{"slug":"sophonie","fr":"Sophonie","abreviations":["So"]},{"slug":"aggee","fr":"Aggée","abreviations":["Ag","Agg"]},{"slug":"zacharie","fr":"Zacharie","abreviations":["Za","Zach","Zachar"]},{"slug":"malachie","fr":"Malachie","abreviations":["Ml","Mal","Malac","Malach"]},{"slug":"matthieu","fr":"Matthieu","abreviations":["Mt","Matth","Matt","Mat","Math"]},{"slug":"marc","fr":"Marc","abreviations":["Mc","Marc"]},{"slug":"luc","fr":"Luc","abreviations":["Lc","Luc"]},{"slug":"jean","fr":"Jean","abreviations":["Jn","Jo","Joan","Jean"]},{"slug":"actes","fr":"Actes","abreviations":["Act","Ac"]},{"slug":"romains","fr":"Romains","abreviations":["Rm","Rom"]},{"slug":"corinthiens","fr":"Corinthiens","num":true,"abreviations":["Co","Cor"]},{"slug":"galates","fr":"Galates","abreviations":["Ga","Gal","Galat"]},{"slug":"ephesiens","fr":"Éphésiens","abreviations":["Ep","Eph","Ephes"]},{"slug":"philippiens","fr":"Philippiens","abreviations":["Ph","Phil","Philip","Philipp"]},{"slug":"colossiens","fr":"Colossiens","abreviations":["Col","Coloss"]},{"slug":"thessaloniciens","fr":"Thessaloniciens","num":true,"abreviations":["Th","Thess"]},{"slug":"timothee","fr":"Timothée","num":true,"abreviations":["Tim"]},{"slug":"tite","fr":"Tite","abreviations":["Tt","Tit","Tite"]},{"slug":"philemon","fr":"Philémon","abreviations":["Phm","Philem"]},{"slug":"hebreux","fr":"Hébreux","abreviations":["Heb","Hebr"]},{"slug":"jacques","fr":"Jacques","abreviations":["Jc","Jac","Jacob"]},{"slug":"jude","fr":"Jude","abreviations":["Jud"]},{"slug":"apocalypse","fr":"Apocalypse","abreviations":["Ap","Apoc","Apocal"]},{"slug":"pierre","fr":"Pierre","num":true,"abreviations":["Petr"]},{"slug":"paralipomenes","fr":"Paralipomènes","num":true,"abreviations":["Paral"]},{"slug":"samuel","fr":"Samuel","num":true,"abreviations":["Sam"]}],"meme_livre":["Supr","Suprà","Inf","Sup","Supra","Infr","Infrà","Infra"]}};
 // render.js — moteur de rendu commun (accueil, sommaire, chapitres, pages-livres, recherche)
 
 (function () {
@@ -8,92 +9,10 @@ const SACY_PUBLISHED = ["luc", "marc", "corinthiens2", "timothee2", "tite", "phi
 
 // ── Références bibliques ─────────────────────────────────────────────────────
 
-const BIBLE_BOOKS = {
-  'Gen':{slug:'genese',fr:'Genèse'},'Gn':{slug:'genese',fr:'Genèse'},
-  'Ex':{slug:'exode',fr:'Exode'},'Exod':{slug:'exode',fr:'Exode'},
-  'Lv':{slug:'levitique',fr:'Lévitique'},'Lev':{slug:'levitique',fr:'Lévitique'},
-  'Nb':{slug:'nombres',fr:'Nombres'},'Num':{slug:'nombres',fr:'Nombres'},
-  'Dt':{slug:'deuteronome',fr:'Deutéronome'},'Deut':{slug:'deuteronome',fr:'Deutéronome'},
-  'Jos':{slug:'josue',fr:'Josué'},
-  'Jg':{slug:'juges',fr:'Juges'},'Jug':{slug:'juges',fr:'Juges'},
-  'Rt':{slug:'ruth',fr:'Ruth'},'Ruth':{slug:'ruth',fr:'Ruth'},
-  'Reg':{slug:'rois',fr:'Rois',num:true},
-  'Esd':{slug:'esdras',fr:'Esdras'},
-  'Neh':{slug:'nehemie',fr:'Néhémie'},
-  'Esth':{slug:'esther',fr:'Esther'},
-  'Tob':{slug:'tobie',fr:'Tobie'},
-  'Jdt':{slug:'judith',fr:'Judith'},
-  'Mac':{slug:'maccabees',fr:'Maccées',num:true},
-  'Job':{slug:'job',fr:'Job'},
-  'Ps':{slug:'psaumes',fr:'Ps'},
-  'Prov':{slug:'proverbes',fr:'Proverbes'},
-  'Eccl':{slug:'ecclesiaste',fr:'Ecclésiaste'},
-  'Cant':{slug:'cantique',fr:'Cantique'},
-  'Sap':{slug:'sagesse',fr:'Sagesse'},'Sag':{slug:'sagesse',fr:'Sagesse'},
-  'Sir':{slug:'siracide',fr:'Siracide'},'Eccli':{slug:'siracide',fr:'Siracide'},
-  'Is':{slug:'isaie',fr:'Isaïe'},
-  'Jr':{slug:'jeremie',fr:'Jérémie'},'Jer':{slug:'jeremie',fr:'Jérémie'},
-  'Lam':{slug:'lamentations',fr:'Lamentations'},
-  'Bar':{slug:'baruch',fr:'Baruch'},
-  'Ez':{slug:'ezechiel',fr:'Ézéchiel'},'Ezech':{slug:'ezechiel',fr:'Ézéchiel'},
-  'Dan':{slug:'daniel',fr:'Daniel'},
-  'Os':{slug:'osee',fr:'Osée'},
-  'Jl':{slug:'joel',fr:'Joël'},
-  'Am':{slug:'amos',fr:'Amos'},
-  'Ab':{slug:'abdias',fr:'Abdias'},
-  'Jon':{slug:'jonas',fr:'Jonas'},
-  'Mi':{slug:'michee',fr:'Michée'},
-  'Na':{slug:'nahum',fr:'Nahum'},
-  'Ha':{slug:'habacuc',fr:'Habacuc'},
-  'So':{slug:'sophonie',fr:'Sophonie'},
-  'Ag':{slug:'aggee',fr:'Aggeé'},
-  'Za':{slug:'zacharie',fr:'Zacharie'},
-  'Ml':{slug:'malachie',fr:'Malachie'},
-  'Mt':{slug:'matthieu',fr:'Matthieu'},'Matth':{slug:'matthieu',fr:'Matthieu'},
-  'Mc':{slug:'marc',fr:'Marc'},'Marc':{slug:'marc',fr:'Marc'},
-  'Lc':{slug:'luc',fr:'Luc'},'Luc':{slug:'luc',fr:'Luc'},
-  'Jn':{slug:'jean',fr:'Jean'},'Jo':{slug:'jean',fr:'Jean'},'Joan':{slug:'jean',fr:'Jean'},
-  'Act':{slug:'actes',fr:'Actes'},'Ac':{slug:'actes',fr:'Actes'},
-  'Rm':{slug:'romains',fr:'Romains'},'Rom':{slug:'romains',fr:'Romains'},
-  'Co':{slug:'corinthiens',fr:'Corinthiens',num:true},'Cor':{slug:'corinthiens',fr:'Corinthiens',num:true},
-  'Ga':{slug:'galates',fr:'Galates'},'Gal':{slug:'galates',fr:'Galates'},
-  'Ep':{slug:'ephesiens',fr:'Éphésiens'},'Eph':{slug:'ephesiens',fr:'Éphésiens'},
-  'Ph':{slug:'philippiens',fr:'Philippiens'},'Phil':{slug:'philippiens',fr:'Philippiens'},
-  'Col':{slug:'colossiens',fr:'Colossiens'},
-  'Th':{slug:'thessaloniciens',fr:'Thessaloniciens',num:true},
-  'Tim':{slug:'timothee',fr:'Timothée',num:true},
-  'Tt':{slug:'tite',fr:'Tite'},'Tit':{slug:'tite',fr:'Tite'},
-  'Phm':{slug:'philemon',fr:'Philémon'},
-  'Heb':{slug:'hebreux',fr:'Hébreux'},'Hebr':{slug:'hebreux',fr:'Hébreux'},
-  'Jc':{slug:'jacques',fr:'Jacques'},'Jac':{slug:'jacques',fr:'Jacques'},
-  'Jud':{slug:'jude',fr:'Jude'},
-  'Ap':{slug:'apocalypse',fr:'Apocalypse'},'Apoc':{slug:'apocalypse',fr:'Apocalypse'},
-  // Abréviations rencontrées dans les marges de l'édition de 1759
-  'Matt':{slug:'matthieu',fr:'Matthieu'},'Mat':{slug:'matthieu',fr:'Matthieu'},
-  'Isai':{slug:'isaie',fr:'Isaïe'},'Isa':{slug:'isaie',fr:'Isaïe'},
-  'Jerem':{slug:'jeremie',fr:'Jérémie'},'Genes':{slug:'genese',fr:'Genèse'},
-  'Psal':{slug:'psaumes',fr:'Ps'},'Levit':{slug:'levitique',fr:'Lévitique'},'Levitic':{slug:'levitique',fr:'Lévitique'},
-  'Ephes':{slug:'ephesiens',fr:'Éphésiens'},'Coloss':{slug:'colossiens',fr:'Colossiens'},
-  'Galat':{slug:'galates',fr:'Galates'},'Philip':{slug:'philippiens',fr:'Philippiens'},
-  'Mich':{slug:'michee',fr:'Michée'},'Mal':{slug:'malachie',fr:'Malachie'},
-  'Osée':{slug:'osee',fr:'Osée'},'Osee':{slug:'osee',fr:'Osée'},
-  'Jacob':{slug:'jacques',fr:'Jacques'},'Daniel':{slug:'daniel',fr:'Daniel'},
-  'Petr':{slug:'pierre',fr:'Pierre',num:true},'Paral':{slug:'paralipomenes',fr:'Paralipomènes',num:true},
-  'Thess':{slug:'thessaloniciens',fr:'Thessaloniciens',num:true},
-  'Math':{slug:'matthieu',fr:'Matthieu'},'Joel':{slug:'joel',fr:'Joël'},'Proverb':{slug:'proverbes',fr:'Proverbes'},
-  'Sapient':{slug:'sagesse',fr:'Sagesse'},'Zach':{slug:'zacharie',fr:'Zacharie'},'Malac':{slug:'malachie',fr:'Malachie'},
-  'Amos':{slug:'amos',fr:'Amos'},'Eccles':{slug:'ecclesiaste',fr:'Ecclésiaste'},'Cantic':{slug:'cantique',fr:'Cantique'},
-  'Lament':{slug:'lamentations',fr:'Lamentations'},'Habac':{slug:'habacuc',fr:'Habacuc'},
-  'Supr':{same:true},'Suprà':{same:true},
-  'Zachar':{slug:'zacharie',fr:'Zacharie'},'Philem':{slug:'philemon',fr:'Philémon'},'Malach':{slug:'malachie',fr:'Malachie'},
-  'Levitiq':{slug:'levitique',fr:'Lévitique'},'Jean':{slug:'jean',fr:'Jean'},'Tite':{slug:'tite',fr:'Tite'},'Thren':{slug:'lamentations',fr:'Lamentations'},
-  'Psalm':{slug:'psaumes',fr:'Ps'},'Philipp':{slug:'philippiens',fr:'Philippiens'},'Numer':{slug:'nombres',fr:'Nombres'},'Nomb':{slug:'nombres',fr:'Nombres'},
-  'Mach':{slug:'maccabees',fr:'Maccabées',num:true},'Juges':{slug:'juges',fr:'Juges'},'Judic':{slug:'juges',fr:'Juges'},'Isaie':{slug:'isaie',fr:'Isaïe'},
-  'Ezechiel':{slug:'ezechiel',fr:'Ézéchiel'},'Ezec':{slug:'ezechiel',fr:'Ézéchiel'},'Ecc':{slug:'ecclesiaste',fr:'Ecclésiaste'},'Esdr':{slug:'esdras',fr:'Esdras'},
-  'Inf':{same:true},'Agg':{slug:'aggee',fr:'Aggée'},'Apocal':{slug:'apocalypse',fr:'Apocalypse'},'Isaï':{slug:'isaie',fr:'Isaïe'},'Isaïe':{slug:'isaie',fr:'Isaïe'},
-  // renvois à l'intérieur du même livre
-  'Sup':{same:true},'Supra':{same:true},'Infr':{same:true},'Infrà':{same:true},'Infra':{same:true},
-};
+// Données issues de content/references.json (injectées en tête de ce fichier par build.py : SACY_REFS)
+const BIBLE_BOOKS = {};
+for (const l of SACY_REFS.bible.livres) for (const a of l.abreviations) BIBLE_BOOKS[a] = l.num ? { slug: l.slug, fr: l.fr, num: true } : { slug: l.slug, fr: l.fr };
+for (const a of SACY_REFS.bible.meme_livre) BIBLE_BOOKS[a] = { same: true };   // « Supra », « Infra » : même livre
 let SACY_CURRENT_BOOK = null;
 let SACY_VERSE_HREF = n => '#v' + n;   // lien d'un « ℣. N » : verset du chapitre affiché (vue chapitre) ou du chapitre en cours (vue page)
 let SACY_CURRENT_CHAP = null;   // chapitre en cours de lecture (pour les renvois « v. 22. » sans chapitre)
@@ -164,23 +83,12 @@ function slugify(text) {
 
 // ── Sources non bibliques (Pères, commentateurs) : clé d'auteur d'une marge, pour renvoyer à la bibliographie ─────────────
 // Miroir de scripts/sources.py (cle_auteur_seule) — vérifié par scripts/check_sources.py. « Ibid. »/« Idem » = auteur de la source précédente.
-const SOURCE_ALIAS = {
-  august:'augustin',aug:'augustin',augst:'augustin',augustin:'augustin',augus:'augustin',augusti:'augustin',ench:'augustin',enchir:'augustin',
-  ambr:'ambroise',ambros:'ambroise',ambrosius:'ambroise',amb:'ambroise',
-  hieron:'jerome',hier:'jerome',hieronym:'jerome',hierom:'jerome',hyeron:'jerome',
-  gregor:'gregoire-le-grand',greg:'gregoire-le-grand',gregorius:'gregoire-le-grand',magn:'gregoire-le-grand',mor:'gregoire-le-grand',moral:'gregoire-le-grand',pastor:'gregoire-le-grand',
-  tertull:'tertullien',tertul:'tertullien',tertullian:'tertullien',origen:'origene',orig:'origene',
-  chrysost:'chrysostome',chrys:'chrysostome',chrysostom:'chrysostome',bern:'bernard',ber:'bernard',bernard:'bernard',
-  bed:'bede',beda:'bede',euseb:'eusebe',iren:'irenee','irenæus':'irenee',irenaeus:'irenee',ireneus:'irenee',
-  cyprian:'cyprien',cypr:'cyprien',epiph:'epiphane',epiphan:'epiphane',athanas:'athanase',athan:'athanase',leo:'leon',
-  basil:'basile',basilius:'basile',hilar:'hilaire',hil:'hilaire',cyrill:'cyrille',paulin:'paulin',joseph:'josephe',
-  grotius:'grotius',grot:'grotius',maldon:'maldonat',mald:'maldonat',estius:'estius',jansen:'jansenius',jansenius:'jansenius',
-  theoph:'theophylacte',theophil:'theophylacte',theophyl:'theophylacte',theophylact:'theophylacte',euthym:'euthyme',eutym:'euthyme',sedul:'sedulius',mabil:'mabillon',
-  conc:'conciles',concil:'conciles'
-};
-const SOURCE_LITURGIE = new Set(['circoncision','suite','un','plusieurs','dim','veille','lundi','mardi','mercredi','jeudi','vendredi','samedi','aux','visitation','octave','dimanche','fête','fete','s','st']);
-const SOURCE_CONTINUATION = new Set(['in','de','hom','homil','tract','part','sess','item','apud','ep','epist','serm','ser','orat','evangel','dom','contra']);
-const SOURCE_REPERAGE = new Set(['ch','l','lib','liv','c','cap','chap','p','pag','n','num','v','vers','q','qu','quaest','quæst','col','to','tom','t','art','part']);
+const SOURCE_ALIAS = {};
+for (const a of SACY_REFS.auteurs) for (const al of a.alias) SOURCE_ALIAS[al] = a.cle;
+const SOURCE_COMPOSES = SACY_REFS.auteurs_composes;
+const SOURCE_LITURGIE = new Set(SACY_REFS.mots.liturgie);
+const SOURCE_CONTINUATION = new Set(SACY_REFS.mots.continuation);
+const SOURCE_REPERAGE = new Set(SACY_REFS.mots.reperage);
 let SACY_PREV_SOURCE = null;
 let BIBLE_LOOSE_RE = null;
 function bibleLoose(marge) {   // renvoi biblique irrégulier (« Hebr. [?]. 6. 7. », « Jud. v. 9. ») : texte simple, pas une source
@@ -196,14 +104,10 @@ function sourceAuthorKey(marge, prevKey) {
   const isLit = t.startsWith('†') || (/^[A-Za-zÀ-ÿ]+/.test(t) && SOURCE_LITURGIE.has(first) && !(first in SOURCE_ALIAS));
   if (isLit) return 'liturgie';
   if (/^(ib|ibid|ibidem|id|idem)\b/i.test(t) || (SOURCE_REPERAGE.has(first) && first.length <= 3) || SOURCE_CONTINUATION.has(first) || !/^[A-Za-zÀ-ÿ]/.test(first)) return prevKey || 'non-identifie';
-  const nx = tokens.length > 1 ? tokens[1].replace(/[.,]$/, '').toLowerCase() : '';
-  if ((first === 'jansen' || first === 'jansenius') && nx.startsWith('gand')) return 'jansenius-de-gand';   // Jansénius de Gand ≠ d'Ypres
-  if (first === 'act' && nx.startsWith('holst')) return 'holstenius';                                      // Actes des martyrs (éd. Holstenius)
-  let key = SOURCE_ALIAS[first];
-  if (key === 'gregoire-le-grand' && tokens.length > 1) {
+  const key = SOURCE_ALIAS[first];
+  if (tokens.length > 1) {                       // auteurs composés (« Jansen. Gand. », « Greg. Nazianz. », « Act. Holst. »)
     const nxt = tokens[1].replace(/[.,]$/, '').toLowerCase();
-    if (nxt.startsWith('nazianz')) return 'gregoire-de-nazianze';
-    if (nxt.startsWith('nyss')) return 'gregoire-de-nysse';
+    for (const c of SOURCE_COMPOSES) if ((c.auteur ? c.auteur === key : (c.premier || []).includes(first)) && nxt.startsWith(c.suite)) return c.cle;
   }
   return key || (slugify(tokens[0].replace(/\.$/, '')) || 'divers');
 }
