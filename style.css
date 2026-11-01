@@ -477,13 +477,18 @@ details.livre-group.indisponible > summary { color: var(--muted); opacity: 0.5; 
 .note-quote-num { font-variant: small-caps; font-size: 0.74rem; color: var(--accent-light); margin-right: 0.3em; }
 
 .note-para-row { margin-bottom: 0.7rem; }
-.note-para-row.has-marges { display: grid; grid-template-columns: 1fr 210px; gap: 0 2rem; }
+.note-para-row { --note-gutter: 9.5rem; --note-gap: 1.2rem; }
+.note-para-row.has-marges { display: grid; grid-template-columns: minmax(0, 1fr) var(--note-gutter); gap: 0 var(--note-gap); }
+/* même largeur de texte avec ou sans renvois : la gouttière reste réservée */
+.note-para-row:not(.has-marges) { padding-right: calc(var(--note-gutter) + var(--note-gap)); }
 /* Colonnes littéral/spirituel : trop étroites pour la grille à marge fixe,
    on empile citation sous le texte comme en mobile. */
 .chapitre-columns[data-mode="both"] .col-litteral .note-para-row.has-marges,
 .chapitre-columns[data-mode="both"] .col-spirituel .note-para-row.has-marges {
   grid-template-columns: 1fr;
 }
+.chapitre-columns[data-mode="both"] .col-litteral .note-para-row:not(.has-marges),
+.chapitre-columns[data-mode="both"] .col-spirituel .note-para-row:not(.has-marges) { padding-right: 0; }
 .chapitre-columns[data-mode="both"] .col-litteral .note-para-marges,
 .chapitre-columns[data-mode="both"] .col-spirituel .note-para-marges {
   border-left: none;
@@ -502,9 +507,10 @@ details.livre-group.indisponible > summary { color: var(--muted); opacity: 0.5; 
   line-height: 1.5;
   color: var(--muted);
   font-style: italic;
-  padding-left: 0.9rem;
+  padding-left: 0.6rem;
   border-left: 2px solid var(--border-light);
-  align-self: start;                 /* le trait suit la hauteur des renvois, pas celle du paragraphe */
+  align-self: start;
+  hyphens: none;                 /* le trait suit la hauteur des renvois, pas celle du paragraphe */
 }
 .marge-item { display: block; margin-bottom: 0.2em; }
 
@@ -677,6 +683,7 @@ mark { background: transparent; color: var(--accent); font-weight: 600; }
   }
   .main { padding-top: 3.4rem; }
   .note-para-row.has-marges { grid-template-columns: 1fr; }
+  .note-para-row:not(.has-marges) { padding-right: 0; }
   .note-para-marges { border-left: none; border-top: 1px dotted var(--border-light); padding-left: 0; padding-top: 0.4rem; margin-top: 0.35rem; display: flex; flex-wrap: wrap; gap: 0.3em 1.2em; }
   .chapter-actions { flex-direction: column; align-items: center; }
 }
