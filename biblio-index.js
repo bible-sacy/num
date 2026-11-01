@@ -27,6 +27,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "abr",
+      "nom": "Abr",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "abr",
+          "refs": [
+            {
+              "ref": "15, 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 15,
+                  "n": 6,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "actes",
       "nom": "Actes",
       "dates": "",
@@ -153,10 +178,78 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "ait",
+      "nom": "ait",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": ": Da mihi de coctione hac rufa, quia oppidò lassus sum. Quam ob causam vocatum est nomen ejus Edom.",
+          "slug": "ait-da-mihi-de-coctione-hac-rufa-quia-oppido-lassus-sum-quam-ob-causam-vocatum-est-nomen-ejus-edom",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 30,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "amat",
+      "nom": "Amat",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "amat",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 21,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "ambroise",
       "nom": "S. Ambroise",
       "dates": "340–397",
       "oeuvres": [
+        {
+          "titre": "de bened. Patriar.",
+          "slug": "ambroise-de-bened-patriar",
+          "refs": [
+            {
+              "ref": "cap. 9",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 49,
+                  "n": 20,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
         {
           "titre": "de Elia & jejun.",
           "slug": "ambroise-de-elia-jejun",
@@ -230,6 +323,90 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de Job. Patr.",
+          "slug": "ambroise-de-job-patr",
+          "refs": [
+            {
+              "ref": "cap. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 37,
+                  "n": 3,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Joseph Patriar.",
+          "slug": "ambroise-de-joseph-patriar",
+          "refs": [
+            {
+              "ref": "cap. 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 40,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Noe & Ar.",
+          "slug": "ambroise-de-noe-ar",
+          "refs": [
+            {
+              "ref": "cap. 19",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 8,
+                  "n": 6,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Noe & Arc.",
+          "slug": "ambroise-de-noe-arc",
+          "refs": [
+            {
+              "ref": "cap. 19",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 8,
+                  "n": 6,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 8,
+                  "n": 13,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de Offic.",
           "slug": "ambroise-de-offic",
           "refs": [
@@ -242,6 +419,24 @@ const SACY_BIBLIO = {
                   "chapitre": 12,
                   "n": 33,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Patriarch.",
+          "slug": "ambroise-de-patriarch",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 37,
+                  "n": 3,
+                  "sens": "S"
                 }
               ]
             }
@@ -434,6 +629,24 @@ const SACY_BIBLIO = {
                   "chapitre": 8,
                   "n": 6,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in hexam.",
+          "slug": "ambroise-in-hexam",
+          "refs": [
+            {
+              "ref": "lib. 2 c. 15",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "S"
                 }
               ]
             }
@@ -869,6 +1082,13 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 6,
                   "sens": "N"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 37,
+                  "n": 3,
+                  "sens": "S"
                 }
               ]
             },
@@ -1242,6 +1462,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 1 de Abraham in fine",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 24,
+                  "n": 67,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
               "ref": "l. 1 de interpell. c. 4",
               "cites": [
                 {
@@ -1282,6 +1514,56 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "an",
+      "nom": "An",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "an",
+          "refs": [
+            {
+              "ref": "2 Reg. in 30, 11 tract. 9",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "anges",
+      "nom": "Anges",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "anges",
+          "refs": [
+            {
+              "ref": "ibid.",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "annales",
       "nom": "Annales",
       "dates": "",
@@ -1299,6 +1581,56 @@ const SACY_BIBLIO = {
                   "chapitre": 12,
                   "n": 22,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "anselm",
+      "nom": "Anselm",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "anselm",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 13,
+                  "n": 8,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "antiq",
+      "nom": "Antiq",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "antiq",
+          "refs": [
+            {
+              "ref": "lib. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 17,
+                  "sens": "S"
                 }
               ]
             }
@@ -1336,6 +1668,31 @@ const SACY_BIBLIO = {
                   "chapitre": 10,
                   "n": 23,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "aristote",
+      "nom": "Aristote",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "aristote",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
                 }
               ]
             }
@@ -1567,6 +1924,24 @@ const SACY_BIBLIO = {
       "dates": "",
       "oeuvres": [
         {
+          "titre": "contra Manich.",
+          "slug": "auguf-contra-manich",
+          "refs": [
+            {
+              "ref": "lib. 2 cap. 22",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in Joan. tract.",
           "slug": "auguf-in-joan-tract",
           "refs": [
@@ -1599,10 +1974,107 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "august",
+      "nom": "August.,",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "contra Faust.",
+          "slug": "august-contra-faust",
+          "refs": [
+            {
+              "ref": "lib. 1 cap. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "en C. de Civ. Dei,",
+          "slug": "august-en-c-de-civ-dei",
+          "refs": [
+            {
+              "ref": "l. 15 c. 22",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "quaest. Evang.,",
+          "slug": "august-quaest-evang",
+          "refs": [
+            {
+              "ref": "lib. 2., quaest. 34",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "",
+          "slug": "august",
+          "refs": [
+            {
+              "ref": "ibid.",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "auguste",
       "nom": "Auguste",
       "dates": "",
       "oeuvres": [
+        {
+          "titre": "de Trinit.",
+          "slug": "auguste-de-trinit",
+          "refs": [
+            {
+              "ref": "lib. 1 cap. 13",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
         {
           "titre": "in suprà.",
           "slug": "auguste-in-supra",
@@ -1695,6 +2167,66 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 20,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ad lit.",
+          "slug": "augustin-ad-lit",
+          "refs": [
+            {
+              "ref": "lib. 8 cap. 9",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "« Aug. St. d. Gr. « ad litt. « lib. 8 cap. 12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "« Aug. St. « Lib. 8. « Enchir",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Agon.",
+          "slug": "augustin-agon",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
                 }
               ]
             }
@@ -1843,6 +2375,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 8 c. 5",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
               "ref": "l. 8 cap. 12",
               "cites": [
                 {
@@ -1851,6 +2395,48 @@ const SACY_BIBLIO = {
                   "chapitre": 18,
                   "n": 12,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 13 c. 17",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. c. 13",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Conf.",
+          "slug": "augustin-conf",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 32,
+                  "sens": "S"
                 }
               ]
             }
@@ -1869,6 +2455,42 @@ const SACY_BIBLIO = {
                   "chapitre": 7,
                   "n": 44,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 6 c. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 2,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 12 cap. 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "L"
                 }
               ]
             }
@@ -1899,6 +2521,18 @@ const SACY_BIBLIO = {
                   "chapitre": 15,
                   "n": 17,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 9 c. 13",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 31,
+                  "n": 38,
+                  "sens": "S"
                 }
               ]
             },
@@ -1947,6 +2581,228 @@ const SACY_BIBLIO = {
                   "chapitre": 4,
                   "n": 17,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 1 cap. 4",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 4,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 1 cap. 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 1 cap. 12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 6,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 8 cap. 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 17,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 8 cap. 12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 6,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 9 cap. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 c. 12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 cap. 14",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 cap. 31",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 12 c. 15",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 12 cap. 18",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 13 c. 15",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 13 c. 17",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 13 cap. 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 20,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 13 cap. 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 13 cap. 11 cap. 12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 20,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Confess. alib.",
+          "slug": "augustin-confess-alib",
+          "refs": [
+            {
+              "ref": "11",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 17",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             }
@@ -2057,6 +2913,36 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "lib. 2 cap. 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "contr. Jul.",
+          "slug": "augustin-contr-jul",
+          "refs": [
+            {
+              "ref": "l. 4 c. 15",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
             }
           ]
         },
@@ -2079,9 +2965,63 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "contra Fauss.",
+          "slug": "augustin-contra-fauss",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "contra Faust.",
           "slug": "augustin-contra-faust",
           "refs": [
+            {
+              "ref": "1 Pet. 3, 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 12,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "1 Petri 3, 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 12,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "de Christo Dei, lib. 16",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
             {
               "ref": "ibid.",
               "cites": [
@@ -2191,6 +3131,116 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "lib. 1 cap. 20",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 8,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 cap. 14. & seq",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 7,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 cap. 23",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 8,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 12 cap. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 15,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 12 cap. 23",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 12 cap. 24",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 21,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 27,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 12 cap. 45",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 13 c. 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
               "ref": "lib. 16 cap. 24",
               "cites": [
                 {
@@ -2199,6 +3249,193 @@ const SACY_BIBLIO = {
                   "chapitre": 5,
                   "n": 45,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 21 cap. 36",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 12,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 22 cap. 24",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 12,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 22 cap. 26",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 12,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 22 cap. 32",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 12,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 22 cap. 36",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 12,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 22 cap. 38",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 12,
+                  "n": 11,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 30,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 22 cap. 44",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 22 cap. 47",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 30,
+                  "n": 4,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 22 cap. 53",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 29,
+                  "n": 19,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 22 cap. 56",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 30,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 22 cap. 94",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "contra Faustum",
+          "slug": "augustin-contra-faustum",
+          "refs": [
+            {
+              "ref": "lib. 19 cap. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "contra Faustum.",
+          "slug": "augustin-contra-faustum",
+          "refs": [
+            {
+              "ref": "lib. 6 cap. 11",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 12 cap. 14",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "S"
                 }
               ]
             }
@@ -2241,6 +3478,42 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "contra…",
+          "slug": "augustin-contra",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 27,
+                  "n": 18,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "contre",
+          "slug": "augustin-contre",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "cp.",
           "slug": "augustin-cp",
           "refs": [
@@ -2253,6 +3526,54 @@ const SACY_BIBLIO = {
                   "chapitre": 25,
                   "n": 10,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "d. cor. & grat.",
+          "slug": "augustin-d-cor-grat",
+          "refs": [
+            {
+              "ref": "c. 11",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de",
+          "slug": "augustin-de",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 29,
+                  "n": 19,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 4 c. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "L"
                 }
               ]
             }
@@ -2361,6 +3682,66 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de catech. rud.",
+          "slug": "augustin-de-catech-rud",
+          "refs": [
+            {
+              "ref": "c. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 19",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 38,
+                  "n": 20,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 38,
+                  "n": 20,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Catech. rud.",
+          "slug": "augustin-de-catech-rud",
+          "refs": [
+            {
+              "ref": "c. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de civ.",
           "slug": "augustin-de-civ",
           "refs": [
@@ -2373,6 +3754,72 @@ const SACY_BIBLIO = {
                   "chapitre": 24,
                   "n": 3,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 14 c. 27",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Civ.",
+          "slug": "augustin-de-civ",
+          "refs": [
+            {
+              "ref": "l. 14 cap. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 25,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 16 cap. 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 cap. 22",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 14,
+                  "n": 18,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 cap. 32",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 10,
+                  "sens": "S"
                 }
               ]
             }
@@ -2395,6 +3842,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 19 c. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
               "ref": "l. 20 cap. 30",
               "cites": [
                 {
@@ -2405,6 +3864,548 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "lib. 14 c. 11",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 14 cap. 13",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Civ. Dei",
+          "slug": "augustin-de-civ-dei",
+          "refs": [
+            {
+              "ref": "lib. 16 cap. 35",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 27,
+                  "n": 18,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Civ. Dei,",
+          "slug": "augustin-de-civ-dei",
+          "refs": [
+            {
+              "ref": "l. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 1 c. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 1 c. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 26,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 10 c. 4",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 4,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 11",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 12 c. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 13, c. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 10,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 15 c. 22",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 8,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 16 c. 4",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 11,
+                  "n": 31,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 16 cap. 3 Gen. 46, 26. & 49, 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 24,
+                  "n": 2,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 1 c. 26",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 10 c. 4",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 4,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 10 c. 4. : Hic est Dei cultus ; hæc recta pietas ; hæc tantum Deo debita servitus",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 4,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 c. 33",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 cap. 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 cap. 16",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 14 c. 11",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 14 c. 17. & 19",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 25,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 14 cap. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 25,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 15 cap. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 17,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 15 cap. 24",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 7,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 cap. 4",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 11,
+                  "n": 7,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 11,
+                  "n": 31,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 cap. 13",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 11,
+                  "n": 31,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 21 cap. 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "De Civ. Dei,",
+          "slug": "augustin-de-civ-dei",
+          "refs": [
+            {
+              "ref": "lib. 11 cap. 29",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 26,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de civ. Dei,",
+          "slug": "augustin-de-civ-dei",
+          "refs": [
+            {
+              "ref": "cap. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 10 c. 4",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 14 c. 13",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 16 c. 27",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 1 cap. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 6,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 6 c. 26",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 14 c. 13",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 14 cap. 13",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 14 cap. 24 Idem de temp. firm. 54",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 15,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 15 c. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 15 cap. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 17,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 15 cap. 20",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 16,
+                  "n": 6,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 cap. 24",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 15,
+                  "n": 9,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 16,
+                  "n": 1,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 26 cap. 32",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
             }
           ]
         },
@@ -2412,6 +4413,25 @@ const SACY_BIBLIO = {
           "titre": "de civ. Dei.",
           "slug": "augustin-de-civ-dei",
           "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 14,
+                  "n": 18,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 32,
+                  "sens": "S"
+                }
+              ]
+            },
             {
               "ref": "l. 5 c. 24",
               "cites": [
@@ -2421,6 +4441,18 @@ const SACY_BIBLIO = {
                   "chapitre": 20,
                   "n": 24,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 14 c. 17",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 32,
+                  "sens": "S"
                 }
               ]
             },
@@ -2437,6 +4469,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 16 c. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 10,
+                  "n": 32,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
               "ref": "l. 16 c. 24",
               "cites": [
                 {
@@ -2445,6 +4489,18 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 34,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 16 c. 26",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 17,
+                  "sens": "S"
                 }
               ]
             },
@@ -2487,6 +4543,151 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de Civ. Dei.",
+          "slug": "augustin-de-civ-dei",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 21,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 12 c. 9",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 16 c. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 16 c. 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 16 c. 37",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 27,
+                  "n": 18,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "De civ. Dei.",
+          "slug": "augustin-de-civ-dei",
+          "refs": [
+            {
+              "ref": "lib. 2 quaest. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 23,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Civi. Dei,",
+          "slug": "augustin-de-civi-dei",
+          "refs": [
+            {
+              "ref": "lib. 15 cap. 27",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de civit.",
+          "slug": "augustin-de-civit",
+          "refs": [
+            {
+              "ref": "l. 19 c. 12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de civit. contre Faust.",
+          "slug": "augustin-de-civit-contre-faust",
+          "refs": [
+            {
+              "ref": "l. 22 c. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 29,
+                  "n": 19,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de civit. Dei",
           "slug": "augustin-de-civit-dei",
           "refs": [
@@ -2499,6 +4700,252 @@ const SACY_BIBLIO = {
                   "chapitre": 22,
                   "n": 29,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Civit. Dei",
+          "slug": "augustin-de-civit-dei",
+          "refs": [
+            {
+              "ref": "lib. 14 cap. 28",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 11,
+                  "n": 31,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de civit. Dei,",
+          "slug": "augustin-de-civit-dei",
+          "refs": [
+            {
+              "ref": "l. 14 c. 27",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 c. 30",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 10 c. 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 c. 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 26,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 14 c. 24",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 15 c. 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 15 c. 9",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 12,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 15 c. 26",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 15 c. 32",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 c. 5",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 5,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 c. 24",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 15,
+                  "n": 8,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 c. 26",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 c. 41",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 49,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 cap. 33, 34",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 cap. 39",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 32,
+                  "n": 28,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Civit. Dei,",
+          "slug": "augustin-de-civit-dei",
+          "refs": [
+            {
+              "ref": "lib. 1 c. 41 contra Faustum lib. 11 cap. 42",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 49,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 12 c. 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 19 cap. 19",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 12,
+                  "n": 17,
+                  "sens": "L"
                 }
               ]
             }
@@ -2583,6 +5030,42 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de Civitate Dei,",
+          "slug": "augustin-de-civitate-dei",
+          "refs": [
+            {
+              "ref": "lib. 14 c. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 25,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Civitate Dei.",
+          "slug": "augustin-de-civitate-dei",
+          "refs": [
+            {
+              "ref": "lib. 1 cap. 14",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 40,
+                  "n": 15,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de con. Evang.",
           "slug": "augustin-de-con-evang",
           "refs": [
@@ -2595,6 +5078,24 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 16,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Conf.",
+          "slug": "augustin-de-conf",
+          "refs": [
+            {
+              "ref": "lib. 6 cap. 4",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             }
@@ -2698,6 +5199,24 @@ const SACY_BIBLIO = {
                   "chapitre": 24,
                   "n": 30,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Confess.",
+          "slug": "augustin-de-confess",
+          "refs": [
+            {
+              "ref": "lib. 10 cap. 31",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
                 }
               ]
             }
@@ -2818,6 +5337,18 @@ const SACY_BIBLIO = {
                   "chapitre": 8,
                   "n": 18,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 1 cap. 28",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             }
@@ -3101,6 +5632,60 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de cor.",
+          "slug": "augustin-de-cor",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "c. 14",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 11",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de corr. & gr.",
           "slug": "augustin-de-corr-gr",
           "refs": [
@@ -3333,6 +5918,18 @@ const SACY_BIBLIO = {
           "slug": "augustin-de-doctr-christ",
           "refs": [
             {
+              "ref": "l. 1 c. 5",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "l. 3 c. 10 n. 16",
               "cites": [
                 {
@@ -3409,6 +6006,541 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "cap. 23",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Gen ad lit.",
+          "slug": "augustin-de-gen-ad-lit",
+          "refs": [
+            {
+              "ref": "lib. 11 cap. 1 Idem de cor. & grat. cap. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Gen.",
+          "slug": "augustin-de-gen",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 8,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 1 c. 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 cap. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 8,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Gen. ad",
+          "slug": "augustin-de-gen-ad",
+          "refs": [
+            {
+              "ref": "l. l. lib. 4 cap. 17",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Gen. ad lit.",
+          "slug": "augustin-de-gen-ad-lit",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 4,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 4",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 5",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 7",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 2,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "l. 8 c. 7",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 8,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 8 c. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 15,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "l. 9 c. 4",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "l. 11",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 11 c. 17",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 11 c. 24",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 11 c. 39",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 22,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 1 cap. 9",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 c. 19",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 6,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 3 c. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 8,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 3 cap. 4",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 31,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 4 cap. 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 26,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 4 cap. 15",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 4 cap. 17",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 6 cap. 25",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 25,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 8 c. 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 8 cap. 12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 9 cap. 19",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 10 cap. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 c. 42",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 cap. 13",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 10,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 cap. 22",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 23,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 cap. 30",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 cap. 31",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 12,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 cap. 32",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 7,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 cap. 34",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 8,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 cap. 35",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 13,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 12 c. 34",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "Lib. de spiritu & anima. c. 48",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Gen. ad lit. lib.",
+          "slug": "augustin-de-gen-ad-lit-lib",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Gen. ad litt.",
+          "slug": "augustin-de-gen-ad-litt",
+          "refs": [
+            {
+              "ref": "l. 8 c. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 8,
+                  "sens": "L"
+                }
+              ]
             }
           ]
         },
@@ -3431,6 +6563,138 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de Gen. cont. Man.",
+          "slug": "augustin-de-gen-cont-man",
+          "refs": [
+            {
+              "ref": "lib. 2 c. 15",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Gen. contra Man.",
+          "slug": "augustin-de-gen-contra-man",
+          "refs": [
+            {
+              "ref": "l. 2 c. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 6,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Gen. contra Manic.",
+          "slug": "augustin-de-gen-contra-manic",
+          "refs": [
+            {
+              "ref": "lib. 2 c. 23",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 8 c. 23",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Gen. contra Manich.",
+          "slug": "augustin-de-gen-contra-manich",
+          "refs": [
+            {
+              "ref": "l. 1 c. 16",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 24,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 17",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 1 cap. 25",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 26,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 c. 28",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de Genes. ad litter.",
           "slug": "augustin-de-genes-ad-litter",
           "refs": [
@@ -3443,6 +6707,24 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 4,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Genes. contra Manich.",
+          "slug": "augustin-de-genes-contra-manich",
+          "refs": [
+            {
+              "ref": "l. 1 c. 28",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
                 }
               ]
             }
@@ -3503,6 +6785,42 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de hæresib. hæres.",
+          "slug": "augustin-de-h-resib-h-res",
+          "refs": [
+            {
+              "ref": "43",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 8,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de imp. ?",
+          "slug": "augustin-de-imp",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 15,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de Mor. Relig.",
           "slug": "augustin-de-mor-relig",
           "refs": [
@@ -3527,6 +6845,24 @@ const SACY_BIBLIO = {
                   "chapitre": 4,
                   "n": 8,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de morib. Ecc.",
+          "slug": "augustin-de-morib-ecc",
+          "refs": [
+            {
+              "ref": "cap. 15",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 10,
+                  "sens": "S"
                 }
               ]
             }
@@ -3563,6 +6899,42 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de nu. & concup.",
+          "slug": "augustin-de-nu-concup",
+          "refs": [
+            {
+              "ref": "l. 16 cap. 25",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 16,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Nupt. et conc.",
+          "slug": "augustin-de-nupt-et-conc",
+          "refs": [
+            {
+              "ref": "lib. 2 cap. 34",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de Pastor.",
           "slug": "augustin-de-pastor",
           "refs": [
@@ -3581,6 +6953,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de pecc. mer. & rem.",
+          "slug": "augustin-de-pecc-mer-rem",
+          "refs": [
+            {
+              "ref": "l. 1 c. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 9,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de peccat. merit.",
           "slug": "augustin-de-peccat-merit",
           "refs": [
@@ -3593,6 +6983,24 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 6,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de remp. ferm.",
+          "slug": "augustin-de-remp-ferm",
+          "refs": [
+            {
+              "ref": "78",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 22,
+                  "sens": "S"
                 }
               ]
             }
@@ -4193,6 +7601,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de Temp. serm.",
+          "slug": "augustin-de-temp-serm",
+          "refs": [
+            {
+              "ref": "82",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 40,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de Trin.",
           "slug": "augustin-de-trin",
           "refs": [
@@ -4229,6 +7655,54 @@ const SACY_BIBLIO = {
                   "chapitre": 2,
                   "n": 12,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 cap. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 cap. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 11,
+                  "n": 7,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 cap. 12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 cap. 18",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 2,
+                  "sens": "S"
                 }
               ]
             }
@@ -4829,6 +8303,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "du jardin de Gen. ad lit.",
+          "slug": "augustin-du-jardin-de-gen-ad-lit",
+          "refs": [
+            {
+              "ref": "lib. 11 cap. 40",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 23,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "ep.",
           "slug": "augustin-ep",
           "refs": [
@@ -4853,6 +8345,13 @@ const SACY_BIBLIO = {
                   "chapitre": 2,
                   "n": 6,
                   "sens": "N"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
                 }
               ]
             },
@@ -4865,6 +8364,30 @@ const SACY_BIBLIO = {
                   "chapitre": 11,
                   "n": 28,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "49 ad Deo gratias, qu. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 4,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "55 ad Sixtum",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 15,
+                  "n": 6,
+                  "sens": "S"
                 }
               ]
             },
@@ -4889,6 +8412,18 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 6,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "99 ad Evod",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
                 }
               ]
             },
@@ -5063,6 +8598,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "Ep.",
+          "slug": "augustin-ep",
+          "refs": [
+            {
+              "ref": "109 Regula salut",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 23,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "epis.",
           "slug": "augustin-epis",
           "refs": [
@@ -5105,6 +8658,18 @@ const SACY_BIBLIO = {
                   "chapitre": 24,
                   "n": 19,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "23 de Trin. I. 5 c. 1 n° 1 c. 1 Cyr. l. 9",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
                 }
               ]
             },
@@ -5204,6 +8769,42 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "Epist.",
+          "slug": "augustin-epist",
+          "refs": [
+            {
+              "ref": "144",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 21,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Epist. ad Volusian.",
+          "slug": "augustin-epist-ad-volusian",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "epist. sup. cit.",
           "slug": "augustin-epist-sup-cit",
           "refs": [
@@ -5294,6 +8895,54 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "f.",
+          "slug": "augustin-f",
+          "refs": [
+            {
+              "ref": "1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "19 de Trin. lib. 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Gen.",
+          "slug": "augustin-gen",
+          "refs": [
+            {
+              "ref": "quaest. 93",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 30,
+                  "n": 42,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "haer.",
           "slug": "augustin-haer",
           "refs": [
@@ -5306,6 +8955,24 @@ const SACY_BIBLIO = {
                   "chapitre": 24,
                   "n": 3,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Hist.",
+          "slug": "augustin-hist",
+          "refs": [
+            {
+              "ref": "c. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             }
@@ -5591,6 +9258,78 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "ibid.",
+          "slug": "augustin-ibid",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 11,
+                  "n": 7,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "c. 5",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 4,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 13",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ibid. & contra Julian.",
+          "slug": "augustin-ibid-contra-julian",
+          "refs": [
+            {
+              "ref": "lib. 3 cap. 11",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "ibid. ut suprà.",
           "slug": "augustin-ibid-ut-supra",
           "refs": [
@@ -5609,6 +9348,42 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "ibidem",
+          "slug": "augustin-ibidem",
+          "refs": [
+            {
+              "ref": "cap. 2.6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 25,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ibidem.",
+          "slug": "augustin-ibidem",
+          "refs": [
+            {
+              "ref": "cap. 48",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 30,
+                  "n": 4,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in",
           "slug": "augustin-in",
           "refs": [
@@ -5621,6 +9396,36 @@ const SACY_BIBLIO = {
                   "chapitre": 17,
                   "n": 25,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. c. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in ... de sancta Virg.",
+          "slug": "augustin-in-de-sancta-virg",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 15,
+                  "n": 8,
+                  "sens": "S"
                 }
               ]
             }
@@ -5657,6 +9462,24 @@ const SACY_BIBLIO = {
                   "chapitre": 7,
                   "n": 21,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in de civit. serm.",
+          "slug": "augustin-in-de-civit-serm",
+          "refs": [
+            {
+              "ref": "78",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 22,
+                  "sens": "S"
                 }
               ]
             }
@@ -5735,6 +9558,246 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in Gen.",
+          "slug": "augustin-in-gen",
+          "refs": [
+            {
+              "ref": "q. 95",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 32,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "quaest. 144",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 43,
+                  "n": 34,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "quæst. 4",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 7,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "quæst. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 32,
+                  "n": 6,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "quæst. 45",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 31,
+                  "n": 6,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "quæst. 60",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 21,
+                  "n": 8,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "quæst. 111",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 35,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "quæst. 146",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 45,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "quæst. 196",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 33,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "quæst. lib. 1 quæst. 70",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 26,
+                  "n": 13,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Gen. ad lit.",
+          "slug": "augustin-in-gen-ad-lit",
+          "refs": [
+            {
+              "ref": "l. 8 c. 7",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 8,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Gen. contra Faust.",
+          "slug": "augustin-in-gen-contra-faust",
+          "refs": [
+            {
+              "ref": "lib. 12 cap. 44",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Gen. quest.",
+          "slug": "augustin-in-gen-quest",
+          "refs": [
+            {
+              "ref": "11",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 46,
+                  "n": 34,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "119",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 36,
+                  "n": 6,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "145",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 44,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Gen. quæst.",
+          "slug": "augustin-in-gen-qu-st",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 36,
+                  "n": 6,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in idem.",
+          "slug": "augustin-in-idem",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in Joan.",
           "slug": "augustin-in-joan",
           "refs": [
@@ -5789,6 +9852,32 @@ const SACY_BIBLIO = {
                   "chapitre": 14,
                   "n": 5,
                   "sens": "N"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 32,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 28,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "5, 15",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 27,
+                  "n": 18,
+                  "sens": "S"
                 }
               ]
             },
@@ -5933,6 +10022,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in Joan. ibid.",
+          "slug": "augustin-in-joan-ibid",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in Joan. ser. tract.",
           "slug": "augustin-in-joan-ser-tract",
           "refs": [
@@ -6059,6 +10166,18 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 5,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 7,
+                  "n": 11,
+                  "sens": "S"
                 }
               ]
             },
@@ -6200,6 +10319,13 @@ const SACY_BIBLIO = {
                   "chapitre": 3,
                   "n": 16,
                   "sens": "N"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 15,
+                  "n": 8,
+                  "sens": "S"
                 }
               ]
             },
@@ -6212,6 +10338,13 @@ const SACY_BIBLIO = {
                   "chapitre": 3,
                   "n": 22,
                   "sens": "N"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 15,
+                  "sens": "S"
                 }
               ]
             },
@@ -6629,6 +10762,13 @@ const SACY_BIBLIO = {
                   "chapitre": 10,
                   "n": 36,
                   "sens": "N"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 10,
+                  "sens": "S"
                 }
               ]
             },
@@ -7567,6 +11707,18 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "72",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
             }
           ]
         },
@@ -7583,6 +11735,30 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 1,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "7",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 28,
+                  "n": 12,
+                  "sens": "S"
                 }
               ]
             },
@@ -7797,6 +11973,18 @@ const SACY_BIBLIO = {
           "slug": "augustin-in-ps",
           "refs": [
             {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 26,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "2, 1",
               "cites": [
                 {
@@ -7805,6 +11993,18 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 51,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "14 de Sanctis",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 49,
+                  "n": 27,
+                  "sens": "S"
                 }
               ]
             },
@@ -7828,6 +12028,42 @@ const SACY_BIBLIO = {
                   "livreAbr": "Tt",
                   "chapitre": 1,
                   "n": 16,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "41",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 23,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "42",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "50",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
                   "sens": "S"
                 }
               ]
@@ -7869,6 +12105,25 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "64",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 20,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 11,
+                  "n": 31,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "68, 39",
               "cites": [
                 {
@@ -7889,6 +12144,42 @@ const SACY_BIBLIO = {
                   "chapitre": 26,
                   "n": 40,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "70",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "70 bibl",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "103",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             },
@@ -7953,6 +12244,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "148 v. 16",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 20,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "In Ps. 83",
               "cites": [
                 {
@@ -7970,6 +12273,54 @@ const SACY_BIBLIO = {
           "titre": "in Psal.",
           "slug": "augustin-in-psal",
           "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 14,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "14 v. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 20,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "17",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 21,
+                  "n": 3,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "29",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            },
             {
               "ref": "31 to. 8 p. 79",
               "cites": [
@@ -7991,6 +12342,18 @@ const SACY_BIBLIO = {
                   "chapitre": 17,
                   "n": 32,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "50",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
                 }
               ]
             },
@@ -8031,6 +12394,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "79",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 7,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "104",
               "cites": [
                 {
@@ -8063,6 +12438,24 @@ const SACY_BIBLIO = {
                   "chapitre": 18,
                   "n": 9,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in quaest. in Gen.",
+          "slug": "augustin-in-quaest-in-gen",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 8,
+                  "n": 6,
+                  "sens": "S"
                 }
               ]
             }
@@ -8586,6 +12979,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in … de civ. Dei, lib. …",
+          "slug": "augustin-in-de-civ-dei-lib",
+          "refs": [
+            {
+              "ref": "c. 14",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 49,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "init.",
           "slug": "augustin-init",
           "refs": [
@@ -8597,6 +13008,24 @@ const SACY_BIBLIO = {
                   "livreAbr": "2 Tm",
                   "chapitre": 3,
                   "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in…",
+          "slug": "augustin-in",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 27,
+                  "n": 18,
                   "sens": "S"
                 }
               ]
@@ -8664,6 +13093,67 @@ const SACY_BIBLIO = {
                   "chapitre": 27,
                   "n": 62,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "lib.",
+          "slug": "augustin-lib",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 30,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "lib. de Mend.",
+          "slug": "augustin-lib-de-mend",
+          "refs": [
+            {
+              "ref": "ch. 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 12,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "lib. de nupt. et conc.",
+          "slug": "augustin-lib-de-nupt-et-conc",
+          "refs": [
+            {
+              "ref": "l. 1 c. 23",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
                 }
               ]
             }
@@ -8796,6 +13286,60 @@ const SACY_BIBLIO = {
                   "chapitre": 20,
                   "n": 29,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "quaest. in Genes.",
+          "slug": "augustin-quaest-in-genes",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 26,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "quest.",
+          "slug": "augustin-quest",
+          "refs": [
+            {
+              "ref": "4 in Gen",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "quest. in Gen.",
+          "slug": "augustin-quest-in-gen",
+          "refs": [
+            {
+              "ref": "lib. 94 q. 72",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 22,
+                  "sens": "L"
                 }
               ]
             }
@@ -9074,6 +13618,60 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "S. (?)",
+          "slug": "augustin-s",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 30,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "S. (?) ibid.",
+          "slug": "augustin-s-ibid",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 30,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Sainct Augustin, de civ. Dei,",
+          "slug": "augustin-sainct-augustin-de-civ-dei",
+          "refs": [
+            {
+              "ref": "lib. 1 c. 26",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 12,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "ser.",
           "slug": "augustin-ser",
           "refs": [
@@ -9240,6 +13838,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "16 de verb. Dom",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "18 de verb. Domini. c. 10",
               "cites": [
                 {
@@ -9264,6 +13874,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "40 de divers. &c. 14 de verb. Apost",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "Ch. 7, 68 in Luc",
               "cites": [
                 {
@@ -9272,6 +13894,24 @@ const SACY_BIBLIO = {
                   "chapitre": 3,
                   "n": 13,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Serm.",
+          "slug": "augustin-serm",
+          "refs": [
+            {
+              "ref": "27 de verb. Dom",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 13,
+                  "sens": "S"
                 }
               ]
             }
@@ -9326,6 +13966,24 @@ const SACY_BIBLIO = {
                   "chapitre": 7,
                   "n": 21,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Singulis quisque Deus, & simul omnes unus Deus. de doct. Christ.",
+          "slug": "augustin-singulis-quisque-deus-simul-omnes-unus-deus-de-doct-christ",
+          "refs": [
+            {
+              "ref": "l. 1 c. 5",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "S"
                 }
               ]
             }
@@ -10030,6 +14688,48 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 32,
                   "sens": "N"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 8,
+                  "n": 6,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 27,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 13,
+                  "n": 8,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 2,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 29,
+                  "n": 19,
+                  "sens": "S"
                 }
               ]
             },
@@ -10118,6 +14818,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "20, 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 15,
+                  "n": 17,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "33, 34",
               "cites": [
                 {
@@ -10137,6 +14849,30 @@ const SACY_BIBLIO = {
                   "livreAbr": "2 Co",
                   "chapitre": 6,
                   "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "& rem. l. 1 c. 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "c. 4.?",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 13,
+                  "n": 8,
                   "sens": "S"
                 }
               ]
@@ -10178,6 +14914,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "cap. 45",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "contra Priscil. & Orig. c. 7",
               "cites": [
                 {
@@ -10186,6 +14934,18 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 32,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "de pecc. mer",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
                 }
               ]
             },
@@ -10252,6 +15012,216 @@ const SACY_BIBLIO = {
                   "chapitre": 13,
                   "n": 6,
                   "sens": "N"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 9,
+                  "sens": "L"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 14,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 2,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 25,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 11,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 23,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "L"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 4,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 8,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 27,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 11,
+                  "n": 31,
+                  "sens": "L"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 12,
+                  "n": 11,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 14,
+                  "n": 18,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 15,
+                  "n": 9,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 16,
+                  "n": 4,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 15,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 17,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 2,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 21,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 27,
+                  "n": 18,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 28,
+                  "n": 12,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 29,
+                  "n": 19,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 30,
+                  "n": 15,
+                  "sens": "S"
                 }
               ]
             },
@@ -10306,6 +15276,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "l. 2 de grat. & lib. arb. cap. 17 n. 33",
               "cites": [
                 {
@@ -10330,6 +15312,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 3 de Heres. heres. 25",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "l. 4 de serm. Dom. in mont. l. 2 c. 4",
               "cites": [
                 {
@@ -10338,6 +15332,18 @@ const SACY_BIBLIO = {
                   "chapitre": 5,
                   "n": 7,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 8 de Gen. ad litt. lib. 9 c. 19",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 23,
+                  "sens": "S"
                 }
               ]
             },
@@ -10366,6 +15372,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "lib. 1 quæst. in Gen. qu. 70",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "lib. 2 de doctrin. Christ. c. 40",
               "cites": [
                 {
@@ -10378,6 +15396,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "lib. 2 oper. imperf. p. 189",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 Retract. cap. 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
               "ref": "lib. 8 epist. 32",
               "cites": [
                 {
@@ -10386,6 +15428,18 @@ const SACY_BIBLIO = {
                   "chapitre": 19,
                   "n": 28,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. c. 12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
                 }
               ]
             },
@@ -10438,6 +15492,42 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "quaest. 16 in lib. Jud",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 14,
+                  "n": 5,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "quaest. 43",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 30,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "quaest. 43 Evang. lib. 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 26,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "quæst. 6",
               "cites": [
                 {
@@ -10446,6 +15536,305 @@ const SACY_BIBLIO = {
                   "chapitre": 28,
                   "n": 1,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "av",
+      "nom": "Av",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "J.",
+          "slug": "av-j",
+          "refs": [
+            {
+              "ref": "C. 2470",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 11,
+                  "n": 17,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "",
+          "slug": "av",
+          "refs": [
+            {
+              "ref": "18 C. 17, 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 39,
+                  "n": 7,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "avant",
+      "nom": "Avant",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "J.",
+          "slug": "avant-j",
+          "refs": [
+            {
+              "ref": "C. 1715 l",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 41,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "C. 1738",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 29,
+                  "n": 28,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "C. 1739",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 31,
+                  "n": 4,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "C. 1793",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 29,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "C. 1856",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 24,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "C. 1911",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 14,
+                  "n": 5,
+                  "sens": "V"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 16,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "C. 1921",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 12,
+                  "n": 4,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "C. 2948",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 29,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "C. 3769",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 7,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "℣. 58 letr. J’irai",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 24,
+                  "n": 58,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "℣. 60 letr. des portes",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 24,
+                  "n": 60,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "",
+          "slug": "avant",
+          "refs": [
+            {
+              "ref": "4004",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "c. 4, 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "c. 4, 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "L. C. 2739",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 33,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "avari",
+      "nom": "AVARI",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "vieux, les yeux s'obscurcirent. I. (CHA)",
+          "slug": "avari-vieux-les-yeux-s-obscurcirent-i-cha",
+          "refs": [
+            {
+              "ref": "1759",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 27,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "ayant",
+      "nom": "Ayant",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "ayant",
+          "refs": [
+            {
+              "ref": "18.97",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 1,
+                  "sens": "V"
                 }
               ]
             }
@@ -10483,6 +15872,36 @@ const SACY_BIBLIO = {
       "nom": "Baron",
       "dates": "",
       "oeuvres": [
+        {
+          "titre": "ad ann. Chr.",
+          "slug": "baron-ad-ann-chr",
+          "refs": [
+            {
+              "ref": "200 num. 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "in Martyr",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
         {
           "titre": "",
           "slug": "baron",
@@ -10582,6 +16001,24 @@ const SACY_BIBLIO = {
                   "chapitre": 12,
                   "n": 15,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "homil. in Hexam.",
+          "slug": "basile-homil-in-hexam",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 26,
+                  "sens": "L"
                 }
               ]
             }
@@ -10903,6 +16340,67 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "berm",
+      "nom": "Berm",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "de divers. ser.",
+          "slug": "berm-de-divers-ser",
+          "refs": [
+            {
+              "ref": "79",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "des divers. ser.",
+          "slug": "berm-des-divers-ser",
+          "refs": [
+            {
+              "ref": "79",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "",
+          "slug": "berm",
+          "refs": [
+            {
+              "ref": "ibid.",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "bernard",
       "nom": "S. Bernard",
       "dates": "1090–1153",
@@ -10937,6 +16435,24 @@ const SACY_BIBLIO = {
                   "livreAbr": "2 Co",
                   "chapitre": 7,
                   "n": 8,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "conf. ad Eug.",
+          "slug": "bernard-conf-ad-eug",
+          "refs": [
+            {
+              "ref": "2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 20,
                   "sens": "S"
                 }
               ]
@@ -11040,6 +16556,144 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de dilig. Deo.",
+          "slug": "bernard-de-dilig-deo",
+          "refs": [
+            {
+              "ref": "c. 9",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de div. fer.",
+          "slug": "bernard-de-div-fer",
+          "refs": [
+            {
+              "ref": "22 n. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 4,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de divers.",
+          "slug": "bernard-de-divers",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de divers. ser.",
+          "slug": "bernard-de-divers-ser",
+          "refs": [
+            {
+              "ref": "41 num. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de divers. serm.",
+          "slug": "bernard-de-divers-serm",
+          "refs": [
+            {
+              "ref": "4 num. 9",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "12 quam. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "41, 2 Sam. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "41 num. 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "41 num. 4",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de Epiph. serm.",
           "slug": "bernard-de-epiph-serm",
           "refs": [
@@ -11052,6 +16706,24 @@ const SACY_BIBLIO = {
                   "chapitre": 2,
                   "n": 3,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de laud. Virg. hom.",
+          "slug": "bernard-de-laud-virg-hom",
+          "refs": [
+            {
+              "ref": "2a",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
                 }
               ]
             }
@@ -11133,6 +16805,36 @@ const SACY_BIBLIO = {
                   "sens": "S"
                 }
               ]
+            },
+            {
+              "ref": "7 ad Adam. Mon. num. 12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Epist.",
+          "slug": "bernard-epist",
+          "refs": [
+            {
+              "ref": "237 ad Eugen. num. 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
             }
           ]
         },
@@ -11140,6 +16842,18 @@ const SACY_BIBLIO = {
           "titre": "ib.",
           "slug": "bernard-ib",
           "refs": [
+            {
+              "ref": "num. 5",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
             {
               "ref": "num. 12",
               "cites": [
@@ -11203,6 +16917,114 @@ const SACY_BIBLIO = {
                   "chapitre": 5,
                   "n": 8,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ib. prim.",
+          "slug": "bernard-ib-prim",
+          "refs": [
+            {
+              "ref": "6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "7",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Cant. ser.",
+          "slug": "bernard-in-cant-ser",
+          "refs": [
+            {
+              "ref": "2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 28,
+                  "n": 16,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "24 num. 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 20,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Cant. serm.",
+          "slug": "bernard-in-cant-serm",
+          "refs": [
+            {
+              "ref": "24",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 20,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Cantico ferm.",
+          "slug": "bernard-in-cantico-ferm",
+          "refs": [
+            {
+              "ref": "5 quæ. 5",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 26,
+                  "sens": "S"
                 }
               ]
             }
@@ -11617,6 +17439,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "Tract.",
+          "slug": "bernard-tract",
+          "refs": [
+            {
+              "ref": "7",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "tract. de gradib. humilit.",
           "slug": "bernard-tract-de-gradib-humilit",
           "refs": [
@@ -11635,6 +17475,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "Trad. ad Hug. de S. Victore",
+          "slug": "bernard-trad-ad-hug-de-s-victore",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "",
           "slug": "bernard",
           "refs": [
@@ -11647,6 +17505,25 @@ const SACY_BIBLIO = {
                   "chapitre": 21,
                   "n": 6,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "ibid.",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 26,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
                 }
               ]
             }
@@ -11792,6 +17669,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "carit",
+      "nom": "Carit",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "in",
+          "slug": "carit-in",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 29,
+                  "n": 19,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "cass",
       "nom": "Cass",
       "dates": "",
@@ -11822,6 +17724,24 @@ const SACY_BIBLIO = {
       "dates": "",
       "oeuvres": [
         {
+          "titre": "Collat.",
+          "slug": "cassian-collat",
+          "refs": [
+            {
+              "ref": "15 cap. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 50,
+                  "n": 2,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "collat. collat.",
           "slug": "cassian-collat-collat",
           "refs": [
@@ -11834,6 +17754,128 @@ const SACY_BIBLIO = {
                   "chapitre": 19,
                   "n": 21,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "chap",
+      "nom": "Chap",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "chap",
+          "refs": [
+            {
+              "ref": "12 sens spir. p. 605",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "13 sens spir. p. 422",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "17 sens spir. p. 523",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "19 sens spir. p. 551",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "24 sens spir. p. 639",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "37",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "chapit",
+      "nom": "Chapit",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "chapit",
+          "refs": [
+            {
+              "ref": "5 sens spir. p. 261",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "5 sens spir. p. 268",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             }
@@ -12064,6 +18106,43 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "cicer",
+      "nom": "Cicer",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "in Hortensio apud August.",
+          "slug": "cicer-in-hortensio-apud-august",
+          "refs": [
+            {
+              "ref": "lib. 4 contr. Julian",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 4 contr. Julian. c. 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "clement",
       "nom": "Clement",
       "dates": "",
@@ -12161,6 +18240,42 @@ const SACY_BIBLIO = {
                   "chapitre": 11,
                   "n": 1,
                   "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Later.",
+          "slug": "conciles-later",
+          "refs": [
+            {
+              "ref": "c. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Later. sub Innocent. III. ann.",
+          "slug": "conciles-later-sub-innocent-iii-ann",
+          "refs": [
+            {
+              "ref": "1215 cap. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "L"
                 }
               ]
             }
@@ -12303,6 +18418,73 @@ const SACY_BIBLIO = {
               ]
             }
           ]
+        },
+        {
+          "titre": "",
+          "slug": "conciles",
+          "refs": [
+            {
+              "ref": "1 p. 70",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "1 post med",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "confes",
+      "nom": "Confes",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "confes",
+          "refs": [
+            {
+              "ref": "ibid.",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 13 c. 15",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -12349,6 +18531,56 @@ const SACY_BIBLIO = {
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "coxit",
+      "nom": "Coxit",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "autem Jacob pulmentum : ad quem cùm venisset Esau de agro lassus,",
+          "slug": "coxit-autem-jacob-pulmentum-ad-quem-cum-venisset-esau-de-agro-lassus",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 29,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "cui",
+      "nom": "Cui",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "dixit Jacob :",
+          "slug": "cui-dixit-jacob",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 31,
+                  "sens": "V"
                 }
               ]
             }
@@ -12722,6 +18954,24 @@ const SACY_BIBLIO = {
                   "chapitre": 2,
                   "n": 13,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "cont. Julian.",
+          "slug": "cyril-cont-julian",
+          "refs": [
+            {
+              "ref": "l. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "L"
                 }
               ]
             }
@@ -17067,6 +23317,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "lib. 3 in Gen",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "p. 185",
               "cites": [
                 {
@@ -17415,6 +23677,49 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "dans",
+      "nom": "Dans",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "la Preface.",
+          "slug": "dans-la-preface",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "la Préface.",
+          "slug": "dans-la-preface",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 17,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "dernier",
       "nom": "Dernier",
       "dates": "",
@@ -17513,6 +23818,31 @@ const SACY_BIBLIO = {
                   "chapitre": 8,
                   "n": 1,
                   "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "domin",
+      "nom": "Domin",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "domin",
+          "refs": [
+            {
+              "ref": "1 post Pentec",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 15,
+                  "sens": "S"
                 }
               ]
             }
@@ -17638,6 +23968,43 @@ const SACY_BIBLIO = {
                   "chapitre": 6,
                   "n": 35,
                   "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "ecli",
+      "nom": "Ecli",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "ecli",
+          "refs": [
+            {
+              "ref": "2, 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 26,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "44",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 12,
+                  "n": 1,
+                  "sens": "S"
                 }
               ]
             }
@@ -18254,6 +24621,56 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "esai",
+      "nom": "Esai",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "esai",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 31,
+                  "n": 19,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "esau",
+      "nom": "Esaü",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "esau",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 31,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "esius",
       "nom": "Esius",
       "dates": "",
@@ -18351,6 +24768,60 @@ const SACY_BIBLIO = {
       "dates": "",
       "oeuvres": [
         {
+          "titre": "facti sunt omnes dies Cainan nongenti decem anni, & mortuus est.",
+          "slug": "et-facti-sunt-omnes-dies-cainan-nongenti-decem-anni-mortuus-est",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 14,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "facti sunt omnes dies Malaleel octingenti nonginta quinque anni, &",
+          "slug": "et-facti-sunt-omnes-dies-malaleel-octingenti-nonginta-quinque-anni",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 17,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "facti sunt omnes dies Seth nongenti duodecim annorum, & mortuus est.",
+          "slug": "et-facti-sunt-omnes-dies-seth-nongenti-duodecim-annorum-mortuus-est",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 8,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "il ne sera Matth.",
           "slug": "et-il-ne-sera-matth",
           "refs": [
@@ -18363,6 +24834,42 @@ const SACY_BIBLIO = {
                   "chapitre": 5,
                   "n": 33,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "vixit Cainan postquam genuit Malaleel, octingentis quadraginta annis, genuitque filios & filias.",
+          "slug": "et-vixit-cainan-postquam-genuit-malaleel-octingentis-quadraginta-annis-genuitque-filios-filias",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 13,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "vixit Malaleel postquam genuit Jared, octingentis triginta annis, & genuit filios, & filias.",
+          "slug": "et-vixit-malaleel-postquam-genuit-jared-octingentis-triginta-annis-genuit-filios-filias",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 16,
+                  "sens": "V"
                 }
               ]
             }
@@ -18639,6 +25146,24 @@ const SACY_BIBLIO = {
                   "chapitre": 27,
                   "n": 32,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "hom.",
+          "slug": "eusebe-hom",
+          "refs": [
+            {
+              "ref": "1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 2,
+                  "sens": "S"
                 }
               ]
             }
@@ -18960,6 +25485,43 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "lib. 1, 11",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 32,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "ex",
+      "nom": "Ex",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Hil. de Syn.",
+          "slug": "ex-hil-de-syn",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
             }
           ]
         }
@@ -19076,6 +25638,56 @@ const SACY_BIBLIO = {
                   "chapitre": 18,
                   "n": 12,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "factique",
+      "nom": "Factique",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "sunt omnes dies Enos nongenti quinque anni, & mortuus est.",
+          "slug": "factique-sunt-omnes-dies-enos-nongenti-quinque-anni-mortuus-est",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 11,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "fauss",
+      "nom": "Fauss",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "fauss",
+          "refs": [
+            {
+              "ref": "lib. 33, 66",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             }
@@ -19510,9 +26122,39 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in Ps.",
+          "slug": "josephe-in-ps",
+          "refs": [
+            {
+              "ref": "41",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 50,
+                  "n": 22,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "",
           "slug": "josephe",
           "refs": [
+            {
+              "ref": "cap. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 37,
+                  "n": 3,
+                  "sens": "S"
+                }
+              ]
+            },
             {
               "ref": "l. 5 de bell. Jud",
               "cites": [
@@ -19741,6 +26383,122 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "gen",
+      "nom": "Gen",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "ad",
+          "slug": "gen-ad",
+          "refs": [
+            {
+              "ref": "lib. cap. 37",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 16,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "contra Manich.",
+          "slug": "gen-contra-manich",
+          "refs": [
+            {
+              "ref": "lib. 1 cap. 15",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 26,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Civit. Dei,",
+          "slug": "gen-de-civit-dei",
+          "refs": [
+            {
+              "ref": "lib. 16 cap. 37",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 28,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "",
+          "slug": "gen",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 13,
+                  "n": 6,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "ch. 4 sens spir. p. 65",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "geneb",
+      "nom": "Geneb",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "geneb",
+          "refs": [
+            {
+              "ref": "1, 3, 5",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 13,
+                  "n": 8,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "genebr",
       "nom": "Genebr",
       "dates": "",
@@ -19783,6 +26541,18 @@ const SACY_BIBLIO = {
                   "chapitre": 4,
                   "n": 17,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4, 3. & 5",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             },
@@ -19831,6 +26601,55 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 45,
                   "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "genese",
+      "nom": "Genese",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "genese",
+          "refs": [
+            {
+              "ref": "4, 5",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "4, 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "4, 15",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             }
@@ -20201,6 +27020,18 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "lib. 1 cap. 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
             }
           ]
         },
@@ -20298,6 +27129,18 @@ const SACY_BIBLIO = {
           "titre": "in Evang. hom.",
           "slug": "gregoire-le-grand-in-evang-hom",
           "refs": [
+            {
+              "ref": "2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 16,
+                  "n": 13,
+                  "sens": "S"
+                }
+              ]
+            },
             {
               "ref": "7",
               "cites": [
@@ -20585,6 +27428,42 @@ const SACY_BIBLIO = {
                   "chapitre": 7,
                   "n": 32,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Gen. hom.",
+          "slug": "gregoire-le-grand-in-gen-hom",
+          "refs": [
+            {
+              "ref": "10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 24,
+                  "n": 54,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Job.",
+          "slug": "gregoire-le-grand-in-job",
+          "refs": [
+            {
+              "ref": "lib. 2 cap. 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 4,
+                  "sens": "S"
                 }
               ]
             }
@@ -20933,6 +27812,13 @@ const SACY_BIBLIO = {
                   "chapitre": 4,
                   "n": 7,
                   "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 21,
+                  "sens": "S"
                 }
               ]
             },
@@ -20992,6 +27878,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "2 Co",
                   "chapitre": 11,
                   "n": 28,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 c. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 14,
                   "sens": "S"
                 }
               ]
@@ -21237,6 +28135,54 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "lib. 5 c. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 28,
+                  "n": 10,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 5 cap. 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 28,
+                  "n": 10,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 10 cap. 16",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 31,
+                  "n": 29,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 10 ibid",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 31,
+                  "n": 29,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "lib. 18 cap. 10",
               "cites": [
                 {
@@ -21244,6 +28190,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Phm",
                   "chapitre": 1,
                   "n": 15,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 19 cap. 14",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 20,
                   "sens": "S"
                 }
               ]
@@ -21746,6 +28704,13 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 47,
                   "sens": "N"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 49,
+                  "n": 10,
+                  "sens": "L"
                 }
               ]
             },
@@ -23283,6 +30248,18 @@ const SACY_BIBLIO = {
           "slug": "hilaire-in-ps",
           "refs": [
             {
+              "ref": "28",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
               "ref": "52",
               "cites": [
                 {
@@ -23291,6 +30268,18 @@ const SACY_BIBLIO = {
                   "chapitre": 4,
                   "n": 16,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "131",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 49,
+                  "n": 9,
+                  "sens": "S"
                 }
               ]
             }
@@ -23378,6 +30367,13 @@ const SACY_BIBLIO = {
                   "chapitre": 11,
                   "n": 25,
                   "sens": "N"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 8,
+                  "n": 6,
+                  "sens": "S"
                 }
               ]
             },
@@ -24128,6 +31124,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "horace",
+      "nom": "Horace,",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "horace",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "horat",
       "nom": "Horat",
       "dates": "",
@@ -24145,6 +31166,43 @@ const SACY_BIBLIO = {
                   "chapitre": 5,
                   "n": 46,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "hug",
+      "nom": "Hug",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "de S. Vict.",
+          "slug": "hug-de-s-vict",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "3 fin",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "S"
                 }
               ]
             }
@@ -24337,6 +31395,61 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "innoc",
+      "nom": "Innoc",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "c. I. I.",
+          "slug": "innoc-c-i-i",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "ibid.",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "III. in Tyad.",
+          "slug": "innoc-iii-in-tyad",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "innocent",
       "nom": "Innocent",
       "dates": "",
@@ -24354,6 +31467,31 @@ const SACY_BIBLIO = {
                   "chapitre": 19,
                   "n": 34,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "iob",
+      "nom": "Iob",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "iob",
+          "refs": [
+            {
+              "ref": "2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 28,
+                  "n": 10,
+                  "sens": "S"
                 }
               ]
             }
@@ -24427,6 +31565,42 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 1,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "adv. haer.",
+          "slug": "irenee-adv-haer",
+          "refs": [
+            {
+              "ref": "l. 3 c. 30",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "adv. hæret.",
+          "slug": "irenee-adv-h-ret",
+          "refs": [
+            {
+              "ref": "lib. 5 cap. 19. & cap. 33",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
                 }
               ]
             }
@@ -24541,6 +31715,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "ibid.",
+          "slug": "irenee-ibid",
+          "refs": [
+            {
+              "ref": "c. 34",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "tract.",
           "slug": "irenee-tract",
           "refs": [
@@ -24583,6 +31775,18 @@ const SACY_BIBLIO = {
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "ibid.",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
                 }
               ]
             },
@@ -24759,6 +31963,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "isaac",
+      "nom": "Isaac",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "amabat Esau, eo quod de venationibus illius vesceretur : & Rebecca diligebat Jacob.",
+          "slug": "isaac-amabat-esau-eo-quod-de-venationibus-illius-vesceretur-rebecca-diligebat-jacob",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 28,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "j",
       "nom": "J",
       "dates": "",
@@ -24826,6 +32055,54 @@ const SACY_BIBLIO = {
                   "chapitre": 21,
                   "n": 18,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "3, 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 7,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "3, 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "5",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 7,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "℣. Thess. 5, 16 Ephesi. 3, 17",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "S"
                 }
               ]
             }
@@ -25487,6 +32764,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "6 in Gen",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
               "ref": "6 in Matt",
               "cites": [
                 {
@@ -25514,6 +32803,18 @@ const SACY_BIBLIO = {
                   "chapitre": 4,
                   "n": 17,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "12 in S",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 2,
+                  "sens": "S"
                 }
               ]
             },
@@ -25562,6 +32863,18 @@ const SACY_BIBLIO = {
                   "chapitre": 12,
                   "n": 30,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "48",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 24,
+                  "n": 3,
+                  "sens": "S"
                 }
               ]
             },
@@ -25760,6 +33073,18 @@ const SACY_BIBLIO = {
                   "chapitre": 2,
                   "n": 2,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "33",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 13,
+                  "n": 6,
+                  "sens": "S"
                 }
               ]
             }
@@ -26327,9 +33652,324 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in Gen.",
+          "slug": "chrysostome-in-gen",
+          "refs": [
+            {
+              "ref": "18",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Gen. hom.",
+          "slug": "chrysostome-in-gen-hom",
+          "refs": [
+            {
+              "ref": "1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 40,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 38,
+                  "n": 20,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "13",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "15",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "16",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 7,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "18",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 25,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "31",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 13,
+                  "n": 8,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "33",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 13,
+                  "n": 8,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "35, 341",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 15,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "41",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 7,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "47",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 9,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 10,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "48",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 24,
+                  "n": 3,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "57",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 31,
+                  "n": 38,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "63",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 40,
+                  "n": 15,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "124",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 38,
+                  "n": 20,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "hom. 16",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "hom. 17",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "in Gen. hom. 31",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 13,
+                  "n": 8,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Gen. homil.",
+          "slug": "chrysostome-in-gen-homil",
+          "refs": [
+            {
+              "ref": "19 post init",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 22,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "48",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 24,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in Genes. hom.",
           "slug": "chrysostome-in-genes-hom",
           "refs": [
+            {
+              "ref": "8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 4,
+                  "sens": "L"
+                }
+              ]
+            },
             {
               "ref": "49",
               "cites": [
@@ -26339,6 +33979,18 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 35,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "61",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 41,
+                  "n": 14,
+                  "sens": "S"
                 }
               ]
             }
@@ -29928,6 +37580,13 @@ const SACY_BIBLIO = {
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 38,
+                  "n": 20,
+                  "sens": "S"
                 }
               ]
             },
@@ -33122,6 +40781,20 @@ const SACY_BIBLIO = {
                   "chapitre": 10,
                   "n": 6,
                   "sens": "N"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 13,
+                  "n": 6,
+                  "sens": "S"
                 }
               ]
             },
@@ -33318,6 +40991,27 @@ const SACY_BIBLIO = {
                   "chapitre": 12,
                   "n": 30,
                   "sens": "N"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 13,
+                  "n": 8,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 7,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 24,
+                  "n": 3,
+                  "sens": "S"
                 }
               ]
             },
@@ -33427,6 +41121,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Tt",
                   "chapitre": 2,
                   "n": 2,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 9,
                   "sens": "S"
                 }
               ]
@@ -36031,6 +43732,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in Trad. hebraic.",
+          "slug": "jerome-in-trad-hebraic",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 43,
+                  "n": 34,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "loc. libr.",
           "slug": "jerome-loc-libr",
           "refs": [
@@ -37728,6 +45447,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "josue",
+      "nom": "Josué,",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "josue",
+          "refs": [
+            {
+              "ref": "24, 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 11,
+                  "n": 31,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "jsi",
       "nom": "Jsi",
       "dates": "",
@@ -37745,6 +45489,31 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 20,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "jubal",
+      "nom": "Jubal",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "IV.",
+          "slug": "jubal-iv",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
                 }
               ]
             }
@@ -37795,6 +45564,31 @@ const SACY_BIBLIO = {
                   "chapitre": 26,
                   "n": 14,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "judith",
+      "nom": "Judith",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "judith",
+          "refs": [
+            {
+              "ref": "9, 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 49,
+                  "n": 5,
+                  "sens": "L"
                 }
               ]
             }
@@ -38377,6 +46171,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "longin",
+      "nom": "Longin",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "longin",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "mabillon",
       "nom": "Mabillon",
       "dates": "1632–1707",
@@ -38444,6 +46263,31 @@ const SACY_BIBLIO = {
                   "chapitre": 9,
                   "n": 40,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "machab",
+      "nom": "Machab",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "machab",
+          "refs": [
+            {
+              "ref": "1, 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 10,
+                  "n": 4,
+                  "sens": "L"
                 }
               ]
             }
@@ -39579,6 +47423,96 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in Dial.",
+          "slug": "origene-in-dial",
+          "refs": [
+            {
+              "ref": "3 de ... in Bibl. Patr",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Gen. hom.",
+          "slug": "origene-in-gen-hom",
+          "refs": [
+            {
+              "ref": "5",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "7",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 21,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "13",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 26,
+                  "n": 18,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "20",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan.",
+          "slug": "origene-in-joan",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in Luc.",
           "slug": "origene-in-luc",
           "refs": [
@@ -39771,6 +47705,25 @@ const SACY_BIBLIO = {
                   "chapitre": 2,
                   "n": 41,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "ibid.",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 11,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 26,
+                  "n": 18,
+                  "sens": "S"
                 }
               ]
             },
@@ -40086,10 +48039,89 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "paul",
+      "nom": "Paul",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Epist.",
+          "slug": "paul-epist",
+          "refs": [
+            {
+              "ref": "5 vide si nihil habemus, qui omnia habentem habemus",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 12,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Ep.",
+          "slug": "paul-in-ep",
+          "refs": [
+            {
+              "ref": "2 ad Ephes",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 32,
+                  "n": 28,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in ibid.",
+          "slug": "paul-in-ibid",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 32,
+                  "n": 28,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "paulin",
       "nom": "S. Paulin de Nole",
       "dates": "354–431",
       "oeuvres": [
+        {
+          "titre": "[réf. illisible]",
+          "slug": "paulin-ref-illisible",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 14,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
         {
           "titre": "ep.",
           "slug": "paulin-ep",
@@ -40127,6 +48159,49 @@ const SACY_BIBLIO = {
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Epist.",
+          "slug": "paulin-epist",
+          "refs": [
+            {
+              "ref": "30 ad Corinth. 11",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 20,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "pensees",
+      "nom": "Pensées",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "sur la Religion",
+          "slug": "pensees-sur-la-religion",
+          "refs": [
+            {
+              "ref": "Art. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 12,
+                  "sens": "S"
                 }
               ]
             }
@@ -40185,6 +48260,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "petav",
+      "nom": "Petav",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Ration. tempor. pars. I.",
+          "slug": "petav-ration-tempor-pars-i",
+          "refs": [
+            {
+              "ref": "7 c. 13",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "petrus",
       "nom": "Petrus",
       "dates": "",
@@ -40202,6 +48302,31 @@ const SACY_BIBLIO = {
                   "chapitre": 19,
                   "n": 27,
                   "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "phil",
+      "nom": "Phil",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Ab. bonæ spei, de sal. primi hom.",
+          "slug": "phil-ab-bon-spei-de-sal-primi-hom",
+          "refs": [
+            {
+              "ref": "l. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
                 }
               ]
             }
@@ -40315,6 +48440,36 @@ const SACY_BIBLIO = {
       "dates": "",
       "oeuvres": [
         {
+          "titre": "hist. nat.",
+          "slug": "plin-hist-nat",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "1, 7",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "",
           "slug": "plin",
           "refs": [
@@ -40347,10 +48502,158 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "pline",
+      "nom": "Pline",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "second.",
+          "slug": "pline-second",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "post",
+      "nom": "Post",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "cujus ortum vixit octingentis quindecim annis, & genuit filios & filias.",
+          "slug": "post-cujus-ortum-vixit-octingentis-quindecim-annis-genuit-filios-filias",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 10,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "prol",
+      "nom": "Prol.?",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "prol",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 13,
+                  "n": 8,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "prosp",
+      "nom": "Prosp",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Carm. de Ing.",
+          "slug": "prosp-carm-de-ing",
+          "refs": [
+            {
+              "ref": "cap. 15",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "contra Julian. l. 3 c. 12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "prosper",
       "nom": "Prosper",
       "dates": "",
       "oeuvres": [
+        {
+          "titre": "Carm. de Ingrat.",
+          "slug": "prosper-carm-de-ingrat",
+          "refs": [
+            {
+              "ref": "cap. 45",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Carm. de la.",
+          "slug": "prosper-carm-de-la",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
         {
           "titre": "de promiss. & praedest.",
           "slug": "prosper-de-promiss-praedest",
@@ -40390,10 +48693,65 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "quibus",
+      "nom": "Quibus",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "adultis, factus est Esau vir gnarus venandi, & homo agricola : Jacob autem vir simplex habitabat in tabernaculis.",
+          "slug": "quibus-adultis-factus-est-esau-vir-gnarus-venandi-homo-agricola-jacob-autem-vir-simplex-habitabat-in-tabernaculis",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 27,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "r",
       "nom": "R",
       "dates": "",
       "oeuvres": [
+        {
+          "titre": "iij",
+          "slug": "r-iij",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "[références marginales illisibles]",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
         {
           "titre": "S. in hist.",
           "slug": "r-s-in-hist",
@@ -40425,6 +48783,93 @@ const SACY_BIBLIO = {
                   "chapitre": 26,
                   "n": 57,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "ration",
+      "nom": "Ration",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "temp. pars.",
+          "slug": "ration-temp-pars",
+          "refs": [
+            {
+              "ref": "1 lib. 7 cap. 13",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "rom",
+      "nom": "Rom",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": ".",
+          "slug": "rom",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "rud",
+      "nom": "rud",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "c.",
+          "slug": "rud-c",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 29,
+                  "n": 19,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 29,
+                  "n": 19,
+                  "sens": "S"
                 }
               ]
             }
@@ -40712,6 +49157,30 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "10, 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "17, 7",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
             }
           ]
         }
@@ -40760,6 +49229,56 @@ const SACY_BIBLIO = {
                   "chapitre": 23,
                   "n": 2,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "senec",
+      "nom": "Senec",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Epist.",
+          "slug": "senec-epist",
+          "refs": [
+            {
+              "ref": "47",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 24,
+                  "n": 54,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "sexagenarius",
+      "nom": "Sexagenarius",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "erat Isaac quando nati sunt ei parvuli.",
+          "slug": "sexagenarius-erat-isaac-quando-nati-sunt-ei-parvuli",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 26,
+                  "sens": "V"
                 }
               ]
             }
@@ -40867,6 +49386,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "sus",
+      "nom": "sus",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "est, rufus erat, & totus in morem pellis hispidus : vocatumque est nomen ejus Esau.",
+          "slug": "sus-est-rufus-erat-totus-in-morem-pellis-hispidus-vocatumque-est-nomen-ejus-esau",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 25,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "syrac",
       "nom": "Syrac",
       "dates": "",
@@ -40884,6 +49428,43 @@ const SACY_BIBLIO = {
                   "chapitre": 12,
                   "n": 7,
                   "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "tab",
+      "nom": "Tab",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "tab",
+          "refs": [
+            {
+              "ref": "12, 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "13, 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             }
@@ -40947,6 +49528,24 @@ const SACY_BIBLIO = {
       "dates": "v. 155–v. 220",
       "oeuvres": [
         {
+          "titre": "adv. Hermog. f.",
+          "slug": "tertullien-adv-hermog-f",
+          "refs": [
+            {
+              "ref": "35",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "adv. Jud.",
           "slug": "tertullien-adv-jud",
           "refs": [
@@ -40959,6 +49558,24 @@ const SACY_BIBLIO = {
                   "chapitre": 2,
                   "n": 1,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "adv. Marc.",
+          "slug": "tertullien-adv-marc",
+          "refs": [
+            {
+              "ref": "lib. 2 c. 23",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 9,
+                  "sens": "S"
                 }
               ]
             }
@@ -40984,6 +49601,24 @@ const SACY_BIBLIO = {
                   "chapitre": 14,
                   "n": 21,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "advers. Marc.",
+          "slug": "tertullien-advers-marc",
+          "refs": [
+            {
+              "ref": "lib. 2 cap. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 9,
+                  "sens": "S"
                 }
               ]
             }
@@ -41570,6 +50205,66 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de Pen.",
+          "slug": "tertullien-de-pen",
+          "refs": [
+            {
+              "ref": "1 Deut. Eccles",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 23,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "2 Aug. 5, 1, 12 de l'emp",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 23,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 23,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de praescrip.",
+          "slug": "tertullien-de-praescrip",
+          "refs": [
+            {
+              "ref": "c. 46",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de præsc.",
           "slug": "tertullien-de-pr-sc",
           "refs": [
@@ -41642,6 +50337,48 @@ const SACY_BIBLIO = {
                   "chapitre": 12,
                   "n": 47,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Apol.",
+          "slug": "tertullien-in-apol",
+          "refs": [
+            {
+              "ref": "c. 23",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 5",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 23",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             }
@@ -41741,6 +50478,18 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "ibid.",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
             }
           ]
         }
@@ -41788,6 +50537,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "quest.",
+          "slug": "theod-quest",
+          "refs": [
+            {
+              "ref": "25",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 15,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "",
           "slug": "theod",
           "refs": [
@@ -41800,6 +50567,18 @@ const SACY_BIBLIO = {
                   "chapitre": 3,
                   "n": 12,
                   "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "quæst. 61",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 12,
+                  "n": 17,
+                  "sens": "L"
                 }
               ]
             }
@@ -41861,6 +50640,74 @@ const SACY_BIBLIO = {
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "theodore",
+      "nom": "Theodore",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "quest.",
+          "slug": "theodore-quest",
+          "refs": [
+            {
+              "ref": "53",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 8,
+                  "n": 20,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "theodoret",
+      "nom": "Theodoret",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "in Gen.",
+          "slug": "theodoret-in-gen",
+          "refs": [
+            {
+              "ref": "quæst. 67",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 47,
+                  "n": 22,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "",
+          "slug": "theodoret",
+          "refs": [
+            {
+              "ref": "quæst. 38",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 22,
+                  "sens": "L"
                 }
               ]
             }
@@ -42144,6 +50991,49 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "ver",
+      "nom": "ver",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "ibidem.",
+          "slug": "ver-ibidem",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 10,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "",
+          "slug": "ver",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 10,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "vie",
       "nom": "Vie",
       "dates": "",
@@ -42237,6 +51127,92 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "vita",
+      "nom": "Vita",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Bern.",
+          "slug": "vita-bern",
+          "refs": [
+            {
+              "ref": "lib. 3 cap. 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 41,
+                  "n": 40,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "vixit",
+      "nom": "Vixit",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "autem Malaleel sexaginta quinque annis, & genuit Jared.",
+          "slug": "vixit-autem-malaleel-sexaginta-quinque-annis-genuit-jared",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 15,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "quoque Cainan septuaginta annis, & genuit Malaleel.",
+          "slug": "vixit-quoque-cainan-septuaginta-annis-genuit-malaleel",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 12,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "verò Enos nonaginta annis, & genuit Cainan.",
+          "slug": "vixit-vero-enos-nonaginta-annis-genuit-cainan",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 9,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "xiv",
       "nom": "XIV",
       "dates": "",
@@ -42296,12 +51272,72 @@ const SACY_BIBLIO = {
           "slug": "non-identifie",
           "refs": [
             {
+              "ref": "1. C. 17",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "3. Israël autem diligebat Joseph super omnes filios suos : cò quod in senectute genuisset eum : fecitque ei tunicam polymitam",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 37,
+                  "n": 3,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "3. reversæque sunt aquæ de terra euntes & redeuntes : & cœperunt minui post centum quinquaginta dies",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 8,
+                  "n": 3,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
               "ref": "4. Dim. après Pâq. que",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
                   "chapitre": 16,
+                  "n": 5,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "4 Videntes autem fratres ejus, quod à patre plus cunctis filiis amaretur, oderant eum, nec poterant ei quidquam pacificè loqui",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 37,
+                  "n": 4,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "5. Appellavitque lucem Diem, & tenebras Noctem : factumque est vespere & mane dies unus",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
                   "n": 5,
                   "sens": "V"
                 }
@@ -42316,6 +51352,234 @@ const SACY_BIBLIO = {
                   "chapitre": 11,
                   "n": 1,
                   "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "5 Accidit quoque ut visum somnium referret fratribus suis : quæ causa majoris odii seminarium fuit",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 37,
+                  "n": 5,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "6 Dixit quoque Deus : Fiat firmamentum in medio aquarum : & dividat aquas ab aquis",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "6 Dixitque ad eos : Audite somnium meum quod vidi",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 37,
+                  "n": 6,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "7 Et fecit Deus firmamentum : divisitque aquas quæ erant sub firmamento, ab his quæ erant super firmamentum. Et factum est ita",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 7,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "7 Putabam nos ligare manipulos in agro : & quasi consurgere manipulum meum, & stare, vestrosque manipulos circumstantes adorare manipulum meum",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 37,
+                  "n": 6,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "8 Responderunt fratres ejus : Numquid Rex noster eris ? aut subjiciemur ditioni tuæ ? Hæc ergo causa somniorum atque sermonum, invidiæ & odii fontem ministravit",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 37,
+                  "n": 8,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "8 Vocavitque Deus firmamentum, Cælum : & factum est vespere & mane, dies secundus",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 8,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "9 Dixit verò Deus : Congregentur aquæ, quæ sub cælo sunt, in locum unum : & appareat arida. Et factum est ita",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 9,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "10 Et vocavit Deus aridam, Terram : congregationesque aquarum appellavit Maria. Et vidit Deus quod esset bonum",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 10,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "11 Et ait : Germinet terra herbam virentem & facientem semen & lignum pomiferum faciens fructum juxta genus suum,",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 11,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "19. Filii Rachel uxoris Jacob : Joseph & Benjamin",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 46,
+                  "n": 19,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "20 Natique sunt Joseph filii in terra Ægypti, quos genuit ei Aseneth filia Putiphare sacerdotis Heliopoleos : Manasses & Ephraïm",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 46,
+                  "n": 20,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "21 Filii Benjamin : Bela & Bechor & Asbel & Gera & Naaman & Echi & Ros & Mophim & Ophim & Ared",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 46,
+                  "n": 21,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "22 Hi filii Rachel quos genuit Jacob : omnes animæ, quatuordecim",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 46,
+                  "n": 22,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "23 Filii Dan : Husim",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 46,
+                  "n": 23,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "24 Filii Nephthali : Jasiel & Guni & Jeser & Sallem",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 46,
+                  "n": 24,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "25 Hi filii Bala ; quam dedit Laban Racheli filiæ suæ : & hos genuit Jacob : omnes animæ, septem",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 46,
+                  "n": 25,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "26 Cunctæ animæ ; quæ ingressæ sunt cum Jacob in Ægyptum, & egressæ sunt de femore illius, absque uxoribus filiorum ejus, sexaginta sex",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 46,
+                  "n": 26,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "29. 23",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 14,
+                  "n": 3,
+                  "sens": "L"
                 }
               ]
             },
@@ -42352,6 +51616,18 @@ const SACY_BIBLIO = {
                   "chapitre": 7,
                   "n": 1,
                   "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "C. 15. 19",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 15,
+                  "n": 1,
+                  "sens": "V"
                 }
               ]
             },
@@ -42440,6 +51716,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "ch. 3. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "De Civitate Dei. lib. 15. cap. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 2,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
               "ref": "epist. 1. ad Donat",
               "cites": [
                 {
@@ -42448,6 +51748,42 @@ const SACY_BIBLIO = {
                   "chapitre": 4,
                   "n": 24,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "Epist. ad Hebr. locum. Pauli",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 14,
+                  "n": 18,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "Epist. ad Sever",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "Epist. ibid",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 14,
+                  "n": 18,
+                  "sens": "S"
                 }
               ]
             },
@@ -42496,6 +51832,18 @@ const SACY_BIBLIO = {
                   "chapitre": 2,
                   "n": 11,
                   "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "P. 104. 21. & 22",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 50,
+                  "n": 22,
+                  "sens": "S"
                 }
               ]
             },
@@ -42556,6 +51904,30 @@ const SACY_BIBLIO = {
                   "chapitre": 16,
                   "n": 23,
                   "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "℣. 32. 105",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 33,
+                  "n": 10,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "℣. 32 Esprit",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 33,
+                  "n": 10,
+                  "sens": "S"
                 }
               ]
             },
@@ -43229,6 +52601,30 @@ const SACY_BIBLIO = {
                   "chapitre": 8,
                   "n": 9,
                   "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "S. Paulini S. Fel. Natali. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "S. Thom. in 1. par. quest. 31. art. 4",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "S"
                 }
               ]
             },
