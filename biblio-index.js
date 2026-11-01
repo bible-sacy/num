@@ -103,6 +103,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "adrichom",
+      "nom": "Adrichom",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "adrichom",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "advers",
       "nom": "Advers",
       "dates": "",
@@ -181,6 +206,24 @@ const SACY_BIBLIO = {
                   "chapitre": 10,
                   "n": 17,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de instit. Virgin.",
+          "slug": "ambroise-de-instit-virgin",
+          "refs": [
+            {
+              "ref": "c. 7",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             }
@@ -289,6 +332,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de Spirit. sanct.",
+          "slug": "ambroise-de-spirit-sanct",
+          "refs": [
+            {
+              "ref": "lib. 3 c. 11",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de supra-fa vigne",
           "slug": "ambroise-de-supra-fa-vigne",
           "refs": [
@@ -336,6 +397,42 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 10,
                   "n": 5,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Epist.",
+          "slug": "ambroise-epist",
+          "refs": [
+            {
+              "ref": "75",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "I.",
+          "slug": "ambroise-i",
+          "refs": [
+            {
+              "ref": "2 c. 7 epist. 32 Matt. 7, 3",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 6,
                   "sens": "N"
                 }
               ]
@@ -474,6 +571,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 10",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "l. 10 tom. 3 p. 132",
               "cites": [
                 {
@@ -518,6 +627,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in Luc. præfat.",
+          "slug": "ambroise-in-luc-pr-fat",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in Ps.",
           "slug": "ambroise-in-ps",
           "refs": [
@@ -551,6 +678,18 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "47, 10",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
             }
           ]
         },
@@ -558,6 +697,18 @@ const SACY_BIBLIO = {
           "titre": "in Psal.",
           "slug": "ambroise-in-psal",
           "refs": [
+            {
+              "ref": "40, 10",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "43 v. 22",
               "cites": [
@@ -1423,6 +1574,43 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "auguf",
+      "nom": "Auguf",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "in Joan. tract.",
+          "slug": "auguf-in-joan-tract",
+          "refs": [
+            {
+              "ref": "103",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "122 p. 139 Gregor. in Evang. hom. 24",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "auguste",
       "nom": "Auguste",
       "dates": "",
@@ -1453,6 +1641,60 @@ const SACY_BIBLIO = {
       "dates": "354–430",
       "oeuvres": [
         {
+          "titre": "! ô cruauté folle aveugle ! in Joan. tract.",
+          "slug": "augustin-o-cruaute-folle-aveugle-in-joan-tract",
+          "refs": [
+            {
+              "ref": "50 p. 152",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "* supr.",
+          "slug": "augustin-supr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ad Bonif.",
+          "slug": "augustin-ad-bonif",
+          "refs": [
+            {
+              "ref": "l. 1 c. 3 Rom. 7 p. 451",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "ad Dardan. ep.",
           "slug": "augustin-ad-dardan-ep",
           "refs": [
@@ -1471,6 +1713,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "aime, selon Jean. tract.",
+          "slug": "augustin-aime-selon-jean-tract",
+          "refs": [
+            {
+              "ref": "87 p. 107",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "arde[nte] & persévérante.",
           "slug": "augustin-arde-nte-perseverante",
           "refs": [
@@ -1482,6 +1742,24 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 15,
                   "n": 25,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Ce que mon Père m'a donné est plus grand que toutes choses; c'est-à-dire.",
+          "slug": "augustin-ce-que-mon-pere-m-a-donne-est-plus-grand-que-toutes-choses-c-est-a-dire",
+          "refs": [
+            {
+              "ref": "p. 145",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 27,
                   "sens": "N"
                 }
               ]
@@ -1661,6 +1939,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 10 cap. 23 n. 5",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "l. 13 c. 14",
               "cites": [
                 {
@@ -1668,6 +1958,42 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 4,
                   "n": 17,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "confess. Evang.",
+          "slug": "augustin-confess-evang",
+          "refs": [
+            {
+              "ref": "l. 3 c. 25",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "conjointement avec son Père, qui fait par lui toutes choses. ut supr. ℣.",
+          "slug": "augustin-conjointement-avec-son-pere-qui-fait-par-lui-toutes-choses-ut-supr",
+          "refs": [
+            {
+              "ref": "82",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 30,
                   "sens": "N"
                 }
               ]
@@ -1787,6 +2113,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 17 c. 6 tom. 6",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "l. 17 c. ult",
               "cites": [
                 {
@@ -1842,6 +2180,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 1,
                   "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 cap. 24",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 45,
                   "sens": "N"
                 }
               ]
@@ -2034,6 +2384,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jude",
                   "chapitre": 1,
                   "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 20 cap. 30",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 21,
                   "sens": "N"
                 }
               ]
@@ -2437,6 +2799,24 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 8,
                   "n": 18,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "De cons. Evang.",
+          "slug": "augustin-de-cons-evang",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 31,
                   "sens": "N"
                 }
               ]
@@ -3051,6 +3431,60 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de Gen. ad litter.",
+          "slug": "augustin-de-gen-ad-litter",
+          "refs": [
+            {
+              "ref": "l. 1 c. 2",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Genes. ad litter.",
+          "slug": "augustin-de-genes-ad-litter",
+          "refs": [
+            {
+              "ref": "l. 1 c. 5",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de gest. sup.",
+          "slug": "augustin-de-gest-sup",
+          "refs": [
+            {
+              "ref": "p. 132",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 54,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de grat. & lib. arb.",
           "slug": "augustin-de-grat-lib-arb",
           "refs": [
@@ -3159,6 +3593,24 @@ const SACY_BIBLIO = {
                   "chapitre": 4,
                   "n": 1,
                   "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de peccat. merit.",
+          "slug": "augustin-de-peccat-merit",
+          "refs": [
+            {
+              "ref": "l. 1 c. 25. & 7 p. 284, 285",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "N"
                 }
               ]
             }
@@ -3489,6 +3941,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de spirit. & litt. sup.",
+          "slug": "augustin-de-spirit-litt-sup",
+          "refs": [
+            {
+              "ref": "c. 54",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 36,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de spiritu et lit.",
           "slug": "augustin-de-spiritu-et-lit",
           "refs": [
@@ -3500,6 +3970,60 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 6,
                   "n": 9,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de sup.",
+          "slug": "augustin-de-sup",
+          "refs": [
+            {
+              "ref": "p. 158",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 37,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de supp.",
+          "slug": "augustin-de-supp",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de supr.",
+          "slug": "augustin-de-supr",
+          "refs": [
+            {
+              "ref": "p. 134",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 13,
                   "sens": "N"
                 }
               ]
@@ -4287,6 +4811,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de Virgin.",
+          "slug": "augustin-de-virgin",
+          "refs": [
+            {
+              "ref": "c. 49",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de ſin les rapporte aux trois",
           "slug": "augustin-de-in-les-rapporte-aux-trois",
           "refs": [
@@ -4310,6 +4852,24 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 4,
                   "n": 11,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "demander alors tout ce que l’on veut, en sup.",
+          "slug": "augustin-demander-alors-tout-ce-que-l-on-veut-en-sup",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 7,
                   "sens": "N"
                 }
               ]
@@ -4381,6 +4941,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "108",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "112",
               "cites": [
                 {
@@ -4400,6 +4972,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 26,
                   "n": 26,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "120 c. 4 Cyril. in Joan. c. 6 p. 94 seq",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 14,
                   "sens": "N"
                 }
               ]
@@ -4686,6 +5270,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "et supr.",
+          "slug": "augustin-et-supr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "ex supra.",
           "slug": "augustin-ex-supra",
           "refs": [
@@ -4716,6 +5318,24 @@ const SACY_BIBLIO = {
                   "chapitre": 4,
                   "n": 1,
                   "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "extravagante, s’écrie S.",
+          "slug": "augustin-extravagante-s-ecrie-s",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 9,
+                  "sens": "N"
                 }
               ]
             }
@@ -4901,6 +5521,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "p. 179",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "qu. 12",
               "cites": [
                 {
@@ -5025,6 +5657,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in",
+          "slug": "augustin-in",
+          "refs": [
+            {
+              "ref": "cap. 4 tract. III. p. 217",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in Chrysost. hom.",
           "slug": "augustin-in-chrysost-hom",
           "refs": [
@@ -5115,6 +5765,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in fup. Joan.",
+          "slug": "augustin-in-fup-joan",
+          "refs": [
+            {
+              "ref": "3, 17",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in Joan.",
           "slug": "augustin-in-joan",
           "refs": [
@@ -5126,6 +5794,72 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 26,
                   "n": 26,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 27,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 53,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 28,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 39,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 43,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "29",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "Apud. Cyprian. de singul. cleric. p. 496 edit. Rigalt",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 28,
                   "sens": "N"
                 }
               ]
@@ -5165,6 +5899,102 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "p. 135",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 40,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 238",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "Tract. 27 P. 46 Cyprian. serm. de cæna Domini",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 53,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. hom.",
+          "slug": "augustin-in-joan-hom",
+          "refs": [
+            {
+              "ref": "48 p. 100",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "119 p. 225",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "124 p. 235",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. ser. tract.",
+          "slug": "augustin-in-joan-ser-tract",
+          "refs": [
+            {
+              "ref": "1 c. 9",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
             }
           ]
         },
@@ -5187,9 +6017,209 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in Joan. tr.",
+          "slug": "augustin-in-joan-tr",
+          "refs": [
+            {
+              "ref": "3 tom. 9 p. 11",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "12",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "48 p. 144",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 124",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in Joan. tract.",
           "slug": "augustin-in-joan-tract",
           "refs": [
+            {
+              "ref": "1",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "1 c. 9 p. 6",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "1 in fin. Rom. 1, 19, 21",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "2 n. 9 p. 9",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "3 tom. 9 p. 11",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "7",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 50,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "8",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 3,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "8 init",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "9 p. 110",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "10",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "10 n. 3",
               "cites": [
@@ -5203,6 +6233,277 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "12",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 5,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "13",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "14. &c. sub fin",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "14 n. 108",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "14 p. 109, 110",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "15 c. 1 qui fin",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "15 p. 54",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "15 p. 55",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "15 p. 58",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "15 p. 90",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 37,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "15 tom. 9 p. 49",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "16 p. 138, 139",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "17",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 7,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "17 Joan. 1",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "18, 19",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "18 par. 98, 99",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 7,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "21",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "21 p. 76, 77",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "21 p. 80",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "25",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "25 p. 89",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "25 p. 90",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "26 Idem in Ps. 8. & 55",
               "cites": [
                 {
@@ -5210,6 +6511,85 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 26,
                   "n": 26,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "26 p. 92",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "26 p. 93",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 40,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "26 p. 94",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 53,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 58,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "27 p. 95",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 60,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "27 p. 96",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 65,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "28 p. 97",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -5234,6 +6614,61 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "31 p. 103",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 25,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "38",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "41 p. 125",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 33,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "42 p. 128",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "43",
               "cites": [
                 {
@@ -5246,6 +6681,690 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "43 p. 131",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 51,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "44 p. 135",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "44 p. 333",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "45 p. 136",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "45 tom. 9 p. 136 col. 2 p. 137 col. 1. & 2 p. 138 col. 1",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "46 p. 140",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "46 tom. 9 p. 139",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "47 p. 143",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "48 p. 145",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "49",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "49 P. 147",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "49 p. 148",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "49 p. 149",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "49 p. 150",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 49,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "49 tom. 9 P. 149",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "50 p. 150",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 55,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "51. §. 153",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 20,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "52 p. 155",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "53, 157",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 37,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "54. & p. 159",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 44,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "56 p. 161",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "59 p. 164",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "60 p. 163",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "63 p. 168",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "65 p. 170",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "67 P. 161",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "68 p. 172",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "73 p. 176",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "74 p. 177",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "75 p. 178",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "76 p. 178",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "78 pag. 180. § 38",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "79 p. 181",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "80 p. 182 Iſai. 5, 2 Joan. 1",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "81 p. 183",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "85",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "86",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "89",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 20,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "90",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "92",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 26,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "94",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "99 p. 201",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "102 p. 205",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "104 p. 206",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "105 p. 107",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "106",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "108 p. 211",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "111 p. 215",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "112",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "112 p. 217",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "113 in supr",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "114 p. 219",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "115 p. 221",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 36,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "116 p. 232",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "119 p. 725",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "120 Act. 20",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "121 p. 228",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "122",
               "cites": [
                 {
@@ -5253,6 +7372,348 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 5,
                   "n": 4,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "123",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "123 p. 231",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "124 f. 135",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 26",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 52",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 118",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "tom. 9",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "℣. 228, 229",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "In Joan. tract.",
+          "slug": "augustin-in-joan-tract",
+          "refs": [
+            {
+              "ref": "7",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 47,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "36 P. 113",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "44 p. 135",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "58 p. 154",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. Tract.",
+          "slug": "augustin-in-joan-tract",
+          "refs": [
+            {
+              "ref": "9",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "11",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "14 p. 51",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "17",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "21",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "42 p. 123",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "49 p. 147",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. trad.",
+          "slug": "augustin-in-joan-trad",
+          "refs": [
+            {
+              "ref": "2, 9 p. 4. &c. Chrysost. in Joan. hom. 3 tom. 2 p. 33",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "15 p. 59",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "54",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "55 p. 161",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "113 p. 218",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. ut supr.",
+          "slug": "augustin-in-joan-ut-supr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. ut supra",
+          "slug": "augustin-in-joan-ut-supra",
+          "refs": [
+            {
+              "ref": "p. 151",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 6,
                   "sens": "N"
                 }
               ]
@@ -5564,6 +8025,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "58 Idem. in Joan. tract. 27 n. 95, 96",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 46,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "75",
               "cites": [
                 {
@@ -5632,6 +8105,42 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in Sapr.",
+          "slug": "augustin-in-sapr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in sept.",
+          "slug": "augustin-in-sept",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 65,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in serm. Dom. in mont.",
           "slug": "augustin-in-serm-dom-in-mont",
           "refs": [
@@ -5686,9 +8195,75 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in Sup.",
+          "slug": "augustin-in-sup",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in sup. Joan.",
+          "slug": "augustin-in-sup-joan",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Sup. Tract.",
+          "slug": "augustin-in-sup-tract",
+          "refs": [
+            {
+              "ref": "37 p. 116",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in supp.",
           "slug": "augustin-in-supp",
           "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "cap. 5 ut supra",
               "cites": [
@@ -5716,6 +8291,67 @@ const SACY_BIBLIO = {
                   "chapitre": 5,
                   "n": 1,
                   "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 19,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 28,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 35,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 53,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 25,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 30,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "in Joan. hom. 55 p. 355, 356",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 6,
+                  "sens": "N"
                 }
               ]
             },
@@ -5727,6 +8363,108 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 5,
                   "n": 42,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 53",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 93",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 45,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 134",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 148",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 210",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 231",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "tom. 4 p. 221 Luc. 24, 43, 15",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in supr. tract.",
+          "slug": "augustin-in-supr-tract",
+          "refs": [
+            {
+              "ref": "62 p. 167",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 27,
                   "sens": "N"
                 }
               ]
@@ -5745,6 +8483,30 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 5,
                   "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 56",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 90",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 30,
                   "sens": "N"
                 }
               ]
@@ -5878,6 +8640,36 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "Joan.",
+          "slug": "augustin-joan",
+          "refs": [
+            {
+              "ref": "6, 66, 67",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 67,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "6, 69, 70, 71",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 67,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "Joan. ib.",
           "slug": "augustin-joan-ib",
           "refs": [
@@ -5914,6 +8706,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "mt. supr.",
+          "slug": "augustin-mt-supr",
+          "refs": [
+            {
+              "ref": "p. 210",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "op.",
           "slug": "augustin-op",
           "refs": [
@@ -5925,6 +8735,36 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 6,
                   "n": 13,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Peut-être même, comme dit saint Augustin,",
+          "slug": "augustin-peut-etre-meme-comme-dit-saint-augustin",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "℣. 228",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 29,
                   "sens": "N"
                 }
               ]
@@ -6516,6 +9356,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "sup.",
+          "slug": "augustin-sup",
+          "refs": [
+            {
+              "ref": "p. 9",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "suprâ.",
           "slug": "augustin-supra",
           "refs": [
@@ -6552,6 +9410,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "tr. in Joan. tract.",
+          "slug": "augustin-tr-in-joan-tract",
+          "refs": [
+            {
+              "ref": "120 p. 226",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "tract.",
           "slug": "augustin-tract",
           "refs": [
@@ -6582,6 +9458,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "trait. sup.",
+          "slug": "augustin-trait-sup",
+          "refs": [
+            {
+              "ref": "p. 91",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 40,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "ut in corpore.",
           "slug": "augustin-ut-in-corpore",
           "refs": [
@@ -6593,6 +9487,31 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 10,
                   "n": 9,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut sup.",
+          "slug": "augustin-ut-sup",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 14,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 28,
                   "sens": "N"
                 }
               ]
@@ -6633,6 +9552,102 @@ const SACY_BIBLIO = {
                   "chapitre": 16,
                   "n": 1,
                   "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 27,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 31,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 33,
+                  "sens": "V"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 33,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 34,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 27,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 46,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 30,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 47,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 30,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 37,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "1 Thes. 3, 8",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 31,
+                  "sens": "N"
                 }
               ]
             },
@@ -6649,6 +9664,42 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "p. 103, 104",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 138",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 150",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "qu. 5",
               "cites": [
                 {
@@ -6656,6 +9707,132 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 16,
                   "n": 10,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut supr. Chrysoft. ibid.",
+          "slug": "augustin-ut-supr-chrysoft-ibid",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut supr. Eucher. Quaest. in Joan. Biblioth. PP.",
+          "slug": "augustin-ut-supr-eucher-quaest-in-joan-biblioth-pp",
+          "refs": [
+            {
+              "ref": "tom. 6 p. 849",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 8,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut supr. in Joan.",
+          "slug": "augustin-ut-supr-in-joan",
+          "refs": [
+            {
+              "ref": "t. 5 c. 1 p. 459",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut supr. tract.",
+          "slug": "augustin-ut-supr-tract",
+          "refs": [
+            {
+              "ref": "66 p. 170",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 36,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "100",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "107",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut supr. trad.",
+          "slug": "augustin-ut-supr-trad",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "77 p. 181",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 27,
                   "sens": "N"
                 }
               ]
@@ -6762,6 +9939,60 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "ut suprà. tract.",
+          "slug": "augustin-ut-supra-tract",
+          "refs": [
+            {
+              "ref": "100 p. 103",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Venenz & voyez, ils l'invitoient à satisfaire à sa compassion.",
+          "slug": "augustin-venenz-voyez-ils-l-invitoient-a-satisfaire-a-sa-compassion",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "« supr. »",
+          "slug": "augustin-supr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "",
           "slug": "augustin",
           "refs": [
@@ -6847,6 +10078,18 @@ const SACY_BIBLIO = {
                   "chapitre": 27,
                   "n": 32,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "2, 70",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             },
@@ -7019,6 +10262,46 @@ const SACY_BIBLIO = {
                   "chapitre": 12,
                   "n": 15,
                   "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 22,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "in hunc loc.",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 24,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 28,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 4,
+                  "sens": "N"
                 }
               ]
             },
@@ -7131,6 +10414,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "lib. quæst. 120",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 41,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 56",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "p. 117 nov. edit. 78 n. 9",
               "cites": [
                 {
@@ -7143,6 +10450,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "p. 133",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 59,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "quæst. 6",
               "cites": [
                 {
@@ -7150,6 +10469,31 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 28,
                   "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "b",
+      "nom": "b",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "b",
+          "refs": [
+            {
+              "ref": "21",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 40,
                   "sens": "N"
                 }
               ]
@@ -7567,6 +10911,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 24,
                   "n": 41,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 10,
                   "sens": "N"
                 }
               ]
@@ -8290,6 +11641,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "tract. de gradib. humilit.",
+          "slug": "bernard-tract-de-gradib-humilit",
+          "refs": [
+            {
+              "ref": "tom. 4",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "",
           "slug": "bernard",
           "refs": [
@@ -8497,6 +11866,68 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "christ",
+      "nom": "Christ",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "ut supr.",
+          "slug": "christ-ut-supr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 36,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "chronic",
+      "nom": "Chronic",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Alexan.",
+          "slug": "chronic-alexan",
+          "refs": [
+            {
+              "ref": "594",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 518",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "chry-o-t",
       "nom": "Chryſoſt",
       "dates": "",
@@ -8531,6 +11962,24 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 27,
                   "n": 22,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in ſupr.",
+          "slug": "chry-o-t-in-upr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 48,
                   "sens": "N"
                 }
               ]
@@ -8635,6 +12084,79 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 5,
                   "n": 13,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "chrysoft",
+      "nom": "Chrysoft",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "ib. hom.",
+          "slug": "chrysoft-ib-hom",
+          "refs": [
+            {
+              "ref": "46 pag. 295, 296",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 58,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. hom.",
+          "slug": "chrysoft-in-joan-hom",
+          "refs": [
+            {
+              "ref": "45 p. 292",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 58,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in supr.",
+          "slug": "chrysoft-in-supr",
+          "refs": [
+            {
+              "ref": "P. 202",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 258 Matt. 1, 17",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 35,
                   "sens": "N"
                 }
               ]
@@ -9284,6 +12806,31 @@ const SACY_BIBLIO = {
       "dates": "",
       "oeuvres": [
         {
+          "titre": "* supr.",
+          "slug": "cyril-supr",
+          "refs": [
+            {
+              "ref": "p. 943",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 29,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "ad Regin.",
           "slug": "cyril-ad-regin",
           "refs": [
@@ -9320,9 +12867,357 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "ib.",
+          "slug": "cyril-ib",
+          "refs": [
+            {
+              "ref": "p. 382",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 67,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 308, 309",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ib. sup.",
+          "slug": "cyril-ib-sup",
+          "refs": [
+            {
+              "ref": "p. 1046",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1409",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan.",
+          "slug": "cyril-in-joan",
+          "refs": [
+            {
+              "ref": "c. 4 p. 185",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 9 tom. 4 pag. 100. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 3 c. 4 pag. 281",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 8 p. 818",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. p. 3, 64",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 19",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 202",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 261",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 41,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. ut supra",
+          "slug": "cyril-in-joan-ut-supra",
+          "refs": [
+            {
+              "ref": "pag. 292",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in sup.",
+          "slug": "cyril-in-sup",
+          "refs": [
+            {
+              "ref": "p. 92. & seq",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 99",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in supr.",
+          "slug": "cyril-in-supr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 808",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1082, 1083",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut supr.",
+          "slug": "cyril-ut-supr",
+          "refs": [
+            {
+              "ref": "p. 173",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 294",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 665",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 708",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 37,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 181",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut supr. Chrysoft. ut supr.",
+          "slug": "cyril-ut-supr-chrysoft-ut-supr",
+          "refs": [
+            {
+              "ref": "p. 180",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "",
           "slug": "cyril",
           "refs": [
+            {
+              "ref": "8, 18 Sup",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "10",
               "cites": [
@@ -9331,6 +13226,32 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 11,
                   "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "in hunc loc.",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 46,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 25,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 8,
                   "sens": "N"
                 }
               ]
@@ -9375,6 +13296,36 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "Alexand. in Joan.",
+          "slug": "cyrille-alexand-in-joan",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 10 tom. 4 p. 109",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "cateches.",
           "slug": "cyrille-cateches",
           "refs": [
@@ -9393,9 +13344,883 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "de hyp.",
+          "slug": "cyrille-de-hyp",
+          "refs": [
+            {
+              "ref": "p. 980, 981",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de leur déclarer hautement, Qu'il est lui-même ce bon Pasteur.",
+          "slug": "cyrille-de-leur-declarer-hautement-qu-il-est-lui-meme-ce-bon-pasteur",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "et supr.",
+          "slug": "cyrille-et-supr",
+          "refs": [
+            {
+              "ref": "P. 1054",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 15,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ib.",
+          "slug": "cyrille-ib",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "726, 727",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 481",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 50,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 874, 875",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 59",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 877, 878",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 7,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ib. ut supr.",
+          "slug": "cyrille-ib-ut-supr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 19,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ibid.",
+          "slug": "cyrille-ibid",
+          "refs": [
+            {
+              "ref": "p. 118",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 633. &c. Isaï. 61",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 39,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 638",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 668",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 676",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 971",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 421",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 904, 905",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 20,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ibid. ut supra.",
+          "slug": "cyrille-ibid-ut-supra",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in",
+          "slug": "cyrille-in",
+          "refs": [
+            {
+              "ref": "1 cap. P. 1020",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 8 Joan. p. 271",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in fup.",
+          "slug": "cyrille-in-fup",
+          "refs": [
+            {
+              "ref": "P. 499",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in Joan.",
           "slug": "cyrille-in-joan",
           "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 18,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "2 tom. 4 p. 15",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4, 5",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 7,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4 Sup. pag. 137, 138",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "6 t. 4 p. 9, 50 c. 7 pag. 54",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "7, 41",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 40,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "7, 206",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "8, 46 p. 564, 565",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 46,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "11 supr. pag. 376, 377",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 46,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "1095, 198",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "1096, 1099a",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 5 l. 4 p. 37, 44",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 7 n. 4 p. 65, 61 Deut. 19, 15",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 10 tom. 4 p. 107",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 10 tom. 4 p. 105, 106, 107",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 1 c. 8 p. 966. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 1 c. 33",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 2 t. 4 p. 150",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 4 p. 146",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 cap. 1",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 cap. 9 p. 241 Joan. 4, 26 ; 9, 37",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 3 c. 1 p. 153",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 3 c. 1 pag. 264",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 45,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 3 c. 2 p. 256, 257",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 3 c. 4, 276",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 c. 1 p. 343",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 41,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 c. 13 p. 364",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 57,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 c. 24 p. 358",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 53,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 cap. 14",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 p. 8, 9, 8c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 p. 63",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 40,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 p. 149",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 5 c. 1",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 5 c. 3 p. 499",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 5 c. 4 p. 287",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 5 c. 4 p. 509",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 5 c. 5 p. 554",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 41,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 6 c. 1 p. 637",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 8",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 14,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 9 c. 4",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 10 c. 2 p. 857",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 11 c. 1 p. 928. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 11 c. 3 p. 947",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 12 c. 1 p. 1093. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "l. 16 c. 37",
               "cites": [
@@ -9404,6 +14229,2003 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 27,
                   "n": 45,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 1 p. 13 p. 14",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 cap. 1",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 cap. 1 tom. 4 p. 335",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 3 c. 6 p. 322",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 5 p. 444",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 5 p. 450",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 6 p. 119, 120",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 6 p. 568",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 48,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 6 p. 649. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 6 p. 654",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 9 p. 721",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 9 p. 750, 751",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 10 p. 817",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 88",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 118",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 168",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 180",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 201. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 39,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 204",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 49,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 207, 208",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 208",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 7,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 215",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 224",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 375",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 60,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 481 Deut. 18, 19",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 45,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 486",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 623",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 632",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 633",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 637",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 645",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 664",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 668",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 677",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 680",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 683",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 691",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 49,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 693",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 53,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 697",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 698",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 699",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 700",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 20,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 710",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 711, 712",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 44,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 734",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 763",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 838",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 882",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 899",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 20,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 912, 913",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 917. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 925, 926",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 982",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 1015",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1065",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1078",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1116",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 7,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 123",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 348, 3 sup",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 45,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 416 item. c. 6 pag. 420, 421",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 613, 614",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "t. 4 p. 158",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "tom. 4 p. 155",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "tom. 14 p. 132",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. * suprà",
+          "slug": "cyrille-in-joan-supra",
+          "refs": [
+            {
+              "ref": "p. 1423",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. apud",
+          "slug": "cyrille-in-joan-apud",
+          "refs": [
+            {
+              "ref": "p. 250",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. au suprà",
+          "slug": "cyrille-in-joan-au-supra",
+          "refs": [
+            {
+              "ref": "P. 310",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. et supr.",
+          "slug": "cyrille-in-joan-et-supr",
+          "refs": [
+            {
+              "ref": "p. 136",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. f.",
+          "slug": "cyrille-in-joan-f",
+          "refs": [
+            {
+              "ref": "4 p. 148",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. hom.",
+          "slug": "cyrille-in-joan-hom",
+          "refs": [
+            {
+              "ref": "1 Pet. 5, 5",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4 p. 155, 158",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "49 p. 315",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "49 p. 447",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "59 p. 658",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "87 p. 568",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. in Joan. præf.",
+          "slug": "cyrille-in-joan-in-joan-pr-f",
+          "refs": [
+            {
+              "ref": "p. 410",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. in Sapr.",
+          "slug": "cyrille-in-joan-in-sapr",
+          "refs": [
+            {
+              "ref": "cap. 10 p. 936",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. in supr.",
+          "slug": "cyrille-in-joan-in-supr",
+          "refs": [
+            {
+              "ref": "p. 345",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 45,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1060",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. sup.",
+          "slug": "cyrille-in-joan-sup",
+          "refs": [
+            {
+              "ref": "9, 61",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 88",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 89",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 671",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 37,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. supra",
+          "slug": "cyrille-in-joan-supra",
+          "refs": [
+            {
+              "ref": "p. 892, 893",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. ut supr.",
+          "slug": "cyrille-in-joan-ut-supr",
+          "refs": [
+            {
+              "ref": "cap. 11 p. 998, 999",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 20,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 378",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 65,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 807",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 814",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 944, 945",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 33,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 951",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1003. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. ut suprà",
+          "slug": "cyrille-in-joan-ut-supra",
+          "refs": [
+            {
+              "ref": "p. 1041",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. ut suprà.",
+          "slug": "cyrille-in-joan-ut-supra",
+          "refs": [
+            {
+              "ref": "p. 937, 938",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joann. lib. sup.",
+          "slug": "cyrille-in-joann-lib-sup",
+          "refs": [
+            {
+              "ref": "8 p. 578",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 54,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Sup.",
+          "slug": "cyrille-in-sup",
+          "refs": [
+            {
+              "ref": "p. 495-496",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in sup.",
+          "slug": "cyrille-in-sup",
+          "refs": [
+            {
+              "ref": "p. 709",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 37,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 866",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 868",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in supr.",
+          "slug": "cyrille-in-supr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 28,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 31,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 35,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 9 p. 238",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 24",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 85, 86",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 117",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 150",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 415",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 486",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 602",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 604",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 6,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 606",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 679",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 683",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 683",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 706",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 712",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 44,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 727, 728",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 841",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 871, 873",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 885",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 936",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 939",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 963",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 969",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1011, 1012. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1044",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1110, 1121",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1120",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1326",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 62",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in supr. in Joan.",
+          "slug": "cyrille-in-supr-in-joan",
+          "refs": [
+            {
+              "ref": "p. 147",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in supra",
+          "slug": "cyrille-in-supra",
+          "refs": [
+            {
+              "ref": "p. 407",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in suprà",
+          "slug": "cyrille-in-supra",
+          "refs": [
+            {
+              "ref": "p. 183",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in suprà. & suprà.",
+          "slug": "cyrille-in-supra-supra",
+          "refs": [
+            {
+              "ref": "p. 529",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in ſup.",
+          "slug": "cyrille-in-up",
+          "refs": [
+            {
+              "ref": "p. 571",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 50,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in. supr.",
+          "slug": "cyrille-in-supr",
+          "refs": [
+            {
+              "ref": "p. 1104",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Joan.",
+          "slug": "cyrille-joan",
+          "refs": [
+            {
+              "ref": "2 c. 8 p. 236",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "tom. 4 pag. 153",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "mt supr.",
+          "slug": "cyrille-mt-supr",
+          "refs": [
+            {
+              "ref": "p. 1037",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 33,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "nt supr.",
+          "slug": "cyrille-nt-supr",
+          "refs": [
+            {
+              "ref": "2, 725",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "S.",
+          "slug": "cyrille-s",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "saint Cyrille, ce qui étoit arrivé aux autres Apôtres",
+          "slug": "cyrille-saint-cyrille-ce-qui-etoit-arrive-aux-autres-apotres",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Saint. in Joan.",
+          "slug": "cyrille-saint-in-joan",
+          "refs": [
+            {
+              "ref": "lib. 12 p. 1032, 1033",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "sup.",
+          "slug": "cyrille-sup",
+          "refs": [
+            {
+              "ref": "c. 5 p. 301",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 385, 386",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 58,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 468",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 37,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Sup.",
+          "slug": "cyrille-sup",
+          "refs": [
+            {
+              "ref": "p. 743",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "sur.",
+          "slug": "cyrille-sur",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1073",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 31,
                   "sens": "N"
                 }
               ]
@@ -9429,6 +16251,708 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "ut sup.",
+          "slug": "cyrille-ut-sup",
+          "refs": [
+            {
+              "ref": "p. 415",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 879, 880",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 8,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 1078",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut supp.",
+          "slug": "cyrille-ut-supp",
+          "refs": [
+            {
+              "ref": "c. 9 p. 75",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut supr.",
+          "slug": "cyrille-ut-supr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 50,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 6,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 28,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 30,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 34,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 37,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "1 Joan. S. Jean : Que celui qui croit être sans péché se séduit lui-même, & n'a point en soi la vérité",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "1 Machi, 4, 59",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "663",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 5 pag. 522, 523",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 2 p. 932. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 4 p. 383",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 67,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 7 p. 660, 661",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 19, 20",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 32",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 45",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 133, 134",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 47,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 176",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 179",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 314",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 330, 631",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 341",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 40,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 446",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 462",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 33,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "p. 462",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 33,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 489",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 496, 497",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 515",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 534, 535",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 632",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 657, 658, 659",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 661",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 672",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 678",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 684",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 691",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 46,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 746",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 753",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 845",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 853",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 901",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 20,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 904",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 20,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 952",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 967",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 983",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 984",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 1040",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 37,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1066",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1081",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 1084",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 583, 584",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 56,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 722, 723",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "℣. 35",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 33,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut supra",
+          "slug": "cyrille-ut-supra",
+          "refs": [
+            {
+              "ref": "p. 708",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "ut supra.",
           "slug": "cyrille-ut-supra",
           "refs": [
@@ -9443,6 +16967,132 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "p. 876",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut suprà",
+          "slug": "cyrille-ut-supra",
+          "refs": [
+            {
+              "ref": "p. 655, 656",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 761, 702",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 20,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 502",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "V. supr.",
+          "slug": "cyrille-v-supr",
+          "refs": [
+            {
+              "ref": "p. 1044",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Voir être contestée, se croit en droit, dit S.",
+          "slug": "cyrille-voir-etre-contestee-se-croit-en-droit-dit-s",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "« supr. »",
+          "slug": "cyrille-supr",
+          "refs": [
+            {
+              "ref": "p. 412",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "à-fait. Joan. sup.",
+          "slug": "cyrille-a-fait-joan-sup",
+          "refs": [
+            {
+              "ref": "p. 380",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 67,
+                  "sens": "N"
+                }
+              ]
             }
           ]
         },
@@ -9451,6 +17101,49 @@ const SACY_BIBLIO = {
           "slug": "cyrille",
           "refs": [
             {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 43,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "8 in supra c. 8 S. 5",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "12",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "12 in Joan. 22",
               "cites": [
                 {
@@ -9458,6 +17151,400 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 4,
                   "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "in hunc loc.",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 31,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 17,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 c. 3 p. 372",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 60,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 in Joan. p. 1055",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 185",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 264",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 413",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 570",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 48,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 572, 47",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 51,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 580",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 54,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 600",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 604",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 55,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 608",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 611",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 625",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 627",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 680",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 760, 761",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 842, 843. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1045",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1053",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 8,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 616, 617",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "cyrilli",
+      "nom": "Cyrilli",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "in supr.",
+          "slug": "cyrilli-in-supr",
+          "refs": [
+            {
+              "ref": "1 Pet. 2, 21",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 703",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in ſup.",
+          "slug": "cyrilli-in-up",
+          "refs": [
+            {
+              "ref": "P. 394",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 67,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "cyrillus",
+      "nom": "Cyrillus",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "in suprd.",
+          "slug": "cyrillus-in-suprd",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 38,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 1102, 1103",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "sup.",
+          "slug": "cyrillus-sup",
+          "refs": [
+            {
+              "ref": "p. 968",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Suppl.",
+          "slug": "cyrillus-suppl",
+          "refs": [
+            {
+              "ref": "p. 744",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 31,
                   "sens": "N"
                 }
               ]
@@ -9623,6 +17710,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "dredie",
+      "nom": "drediè",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "du",
+          "slug": "dredie-du",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 47,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "ecc",
       "nom": "Ecc",
       "dates": "",
@@ -9640,6 +17752,31 @@ const SACY_BIBLIO = {
                   "chapitre": 19,
                   "n": 28,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "eccll",
+      "nom": "Eccll",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "eccll",
+          "refs": [
+            {
+              "ref": "24, 29",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 35,
+                  "sens": "V"
                 }
               ]
             }
@@ -9688,6 +17825,31 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 14,
                   "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "ejusdem",
+      "nom": "Ejusdem",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "ejusdem",
+          "refs": [
+            {
+              "ref": "in hunc loc.",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 5,
                   "sens": "N"
                 }
               ]
@@ -9773,6 +17935,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "2, 13",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "2, 14, 16, 18",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "3, 17",
               "cites": [
                 {
@@ -9797,6 +17983,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "4, 8",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "4, 24",
               "cites": [
                 {
@@ -9816,6 +18014,30 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 19,
                   "n": 7,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "5, 23, 29, 30",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "in hunc loc.",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 20,
                   "sens": "N"
                 }
               ]
@@ -9881,6 +18103,18 @@ const SACY_BIBLIO = {
                   "sens": "P"
                 }
               ]
+            },
+            {
+              "ref": "73 c. 7",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
             }
           ]
         },
@@ -9925,6 +18159,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "51 n. 15",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "75 Author. respons",
               "cites": [
                 {
@@ -9960,6 +18206,18 @@ const SACY_BIBLIO = {
           "titre": "hæres.",
           "slug": "epiphane-h-res",
           "refs": [
+            {
+              "ref": "15 c. 12",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
             {
               "ref": "23 c. 6",
               "cites": [
@@ -10083,6 +18341,56 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mc",
                   "chapitre": 14,
                   "n": 51,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "",
+          "slug": "epiphane",
+          "refs": [
+            {
+              "ref": "ibid.",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "esius",
+      "nom": "Esius",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "esius",
+          "refs": [
+            {
+              "ref": "in hunc loc.",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 11,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 12,
                   "sens": "N"
                 }
               ]
@@ -10318,6 +18626,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "Demonstr. Evangel.",
+          "slug": "eusebe-demonstr-evangel",
+          "refs": [
+            {
+              "ref": "l. 8 c. 2",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "hist.",
           "slug": "eusebe-hist",
           "refs": [
@@ -10433,6 +18759,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "ibid. in supr.",
+          "slug": "eusebe-ibid-in-supr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in Chron.",
           "slug": "eusebe-in-chron",
           "refs": [
@@ -10481,6 +18825,24 @@ const SACY_BIBLIO = {
                   "chapitre": 10,
                   "n": 23,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in supp.",
+          "slug": "eusebe-in-supp",
+          "refs": [
+            {
+              "ref": "p. 275",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             }
@@ -10678,6 +19040,13 @@ const SACY_BIBLIO = {
                   "chapitre": 22,
                   "n": 35,
                   "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 27,
+                  "sens": "N"
                 }
               ]
             }
@@ -10703,6 +19072,31 @@ const SACY_BIBLIO = {
                   "chapitre": 10,
                   "n": 9,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "exaltation",
+      "nom": "Exaltation",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "de la sainte Croix.",
+          "slug": "exaltation-de-la-sainte-croix",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 31,
+                  "sens": "V"
                 }
               ]
             }
@@ -10874,6 +19268,30 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 24,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 11 c. 7",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 13 c. 17",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
                   "n": 19,
                   "sens": "N"
                 }
@@ -11405,6 +19823,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "gaud",
+      "nom": "Gaud",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "gaud",
+          "refs": [
+            {
+              "ref": "15, 1",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "gaudent",
       "nom": "Gaudent",
       "dates": "",
@@ -11455,6 +19898,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "genebr",
+      "nom": "Genebr",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "genebr",
+          "refs": [
+            {
+              "ref": "in hunc loc.",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 8,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "genef",
       "nom": "Genef",
       "dates": "",
@@ -11472,6 +19940,54 @@ const SACY_BIBLIO = {
                   "chapitre": 4,
                   "n": 17,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "17, 10",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "17, 12",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "27, 10",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 22,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "29, 10",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 45,
+                  "sens": "V"
                 }
               ]
             }
@@ -11864,6 +20380,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "Evang.",
+          "slug": "gregoire-le-grand-evang",
+          "refs": [
+            {
+              "ref": "tom. 3a. p. 83",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "hom",
           "slug": "gregoire-le-grand-hom",
           "refs": [
@@ -11940,6 +20474,18 @@ const SACY_BIBLIO = {
           "slug": "gregoire-le-grand-in-evang-hom",
           "refs": [
             {
+              "ref": "7",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "10",
               "cites": [
                 {
@@ -11990,6 +20536,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 24,
                   "n": 41,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "26 tom. 3 P. 83",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 24,
                   "sens": "N"
                 }
               ]
@@ -12123,6 +20681,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 24,
                   "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "24 c. 3 p. 73",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 15,
                   "sens": "N"
                 }
               ]
@@ -12285,6 +20855,24 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 20,
                   "n": 16,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Mag. in Evang. hom.",
+          "slug": "gregoire-le-grand-mag-in-evang-hom",
+          "refs": [
+            {
+              "ref": "7",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 19,
                   "sens": "N"
                 }
               ]
@@ -12903,10 +21491,90 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "gregori",
+      "nom": "Gregori",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Nyss. in Cant. hom.",
+          "slug": "gregori-nyss-in-cant-hom",
+          "refs": [
+            {
+              "ref": "1 circa fin. Augustin. Ps. 141 pag. 684 col. 2 in Joan. hom. 18 init. Paulin. ep. 24 Cycrani",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "in Matth. præfat. Ambros. in Luc. præfat",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "grollius",
+      "nom": "Grollius",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "in J.",
+          "slug": "grollius-in-j",
+          "refs": [
+            {
+              "ref": "P. 1106",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 7,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "grotius",
       "nom": "Grotius",
       "dates": "1583–1645",
       "oeuvres": [
+        {
+          "titre": "Bibl. Vit.",
+          "slug": "grotius-bibl-vit",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
         {
           "titre": "in",
           "slug": "grotius-in",
@@ -12973,6 +21641,24 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 26,
                   "n": 14,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut supr.",
+          "slug": "grotius-ut-supr",
+          "refs": [
+            {
+              "ref": "pag. 320",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 34,
                   "sens": "N"
                 }
               ]
@@ -13216,6 +21902,13 @@ const SACY_BIBLIO = {
                   "chapitre": 17,
                   "n": 15,
                   "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 47,
+                  "sens": "N"
                 }
               ]
             },
@@ -13389,6 +22082,132 @@ const SACY_BIBLIO = {
                   "chapitre": 24,
                   "n": 50,
                   "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 19,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 28,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 18,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 21,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 30,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 39,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 35,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 6,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 22,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 6,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 20,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 30,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 15,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 33,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 8,
+                  "sens": "N"
                 }
               ]
             },
@@ -13450,6 +22269,36 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 5,
                   "n": 4,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Mat.",
+          "slug": "hebr-in-mat",
+          "refs": [
+            {
+              "ref": "2 Pet. 2, 16, 18",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "17 v. 9",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 14,
                   "sens": "N"
                 }
               ]
@@ -13575,6 +22424,66 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 17,
                   "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Trin.",
+          "slug": "hilaire-de-trin",
+          "refs": [
+            {
+              "ref": "l. 8 Joan. 1",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 57,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Trinit.",
+          "slug": "hilaire-de-trinit",
+          "refs": [
+            {
+              "ref": "l. 2 p. 15",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 8",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 8 p. 125",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 20,
                   "sens": "N"
                 }
               ]
@@ -15524,6 +24433,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "iansen",
+      "nom": "Iansen",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "iansen",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "ignat",
       "nom": "Ignat",
       "dates": "",
@@ -15558,6 +24492,36 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 1,
                   "n": 18,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "epist. ad Antioch.",
+          "slug": "ignat-epist-ad-antioch",
+          "refs": [
+            {
+              "ref": "p. 154 Cyrill. in Joan. l. 9 p. 715",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 47,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "℣. 16 p. 716",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 47,
                   "sens": "N"
                 }
               ]
@@ -15603,6 +24567,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "innocent",
+      "nom": "Innocent",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "III. Decret. lib. de cele- bras. Miss.",
+          "slug": "innocent-iii-decret-lib-de-cele-bras-miss",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "irenee",
       "nom": "S. Irénée",
       "dates": "v. 130–v. 202",
@@ -15637,6 +24626,36 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mc",
                   "chapitre": 16,
                   "n": 17,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ad hæres.",
+          "slug": "irenee-ad-h-res",
+          "refs": [
+            {
+              "ref": "l. 3 c. 11",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 3 supr. p. 257",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -15752,9 +24771,51 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "tract.",
+          "slug": "irenee-tract",
+          "refs": [
+            {
+              "ref": "106",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "",
           "slug": "irenee",
           "refs": [
+            {
+              "ref": "1 Cor. de l'Evangile. 15, 30",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "3 cap. 1, 11 Sulpit. l. 3 p. 149",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
             {
               "ref": "l. 1 c. 20",
               "cites": [
@@ -15799,6 +24860,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 4,
                   "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 39",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -15864,6 +24937,42 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 4 c. 25",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2, 40",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 56,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 4 c. 40, 41",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "v. 16, 17",
               "cites": [
                 {
@@ -15872,6 +24981,56 @@ const SACY_BIBLIO = {
                   "chapitre": 27,
                   "n": 26,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "j",
+      "nom": "J",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Sap. Ps.",
+          "slug": "j-sap-ps",
+          "refs": [
+            {
+              "ref": "68",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "j-ai",
+      "nom": "J/ai",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "j-ai",
+          "refs": [
+            {
+              "ref": "40, 11",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 11,
+                  "sens": "V"
                 }
               ]
             }
@@ -15965,6 +25124,50 @@ const SACY_BIBLIO = {
                   "chapitre": 24,
                   "n": 23,
                   "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 47,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "in hunc loc.",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "jans-nius",
+      "nom": "Jansænius",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Concord.",
+          "slug": "jans-nius-concord",
+          "refs": [
+            {
+              "ref": "cap. 38",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 12,
+                  "sens": "N"
                 }
               ]
             }
@@ -16002,6 +25205,24 @@ const SACY_BIBLIO = {
       "nom": "Jansénius d'Ypres",
       "dates": "1585–1638",
       "oeuvres": [
+        {
+          "titre": "Bibl. Vit.",
+          "slug": "jansenius-bibl-vit",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
         {
           "titre": "",
           "slug": "jansenius",
@@ -16144,6 +25365,13 @@ const SACY_BIBLIO = {
                   "chapitre": 22,
                   "n": 35,
                   "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 12,
+                  "sens": "N"
                 }
               ]
             },
@@ -16195,6 +25423,168 @@ const SACY_BIBLIO = {
       "nom": "S. Jean Chrysostome",
       "dates": "v. 349–407",
       "oeuvres": [
+        {
+          "titre": "& Cyril. ibid. ut supr.",
+          "slug": "chrysostome-cyril-ibid-ut-supr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 7,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "& Cyril. in supr.",
+          "slug": "chrysostome-cyril-in-supr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "& Cyrilli ibid.",
+          "slug": "chrysostome-cyrilli-ibid",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 20,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "& supp.",
+          "slug": "chrysostome-supp",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 47,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": ": [référence imprimée illisible]",
+          "slug": "chrysostome-reference-imprimee-illisible",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "aucun soupçon du miracle qu'il vouloit faire ; ils pensoient seulement qu'il avoit dessein d'aller pleurer sur le tombeau de celui qu'il avoit aimé, comme en effet ils lui voyoient actuellement répandre des larmes.",
+          "slug": "chrysostome-aucun-soupcon-du-miracle-qu-il-vouloit-faire-ils-pensoient-seulement-qu-il-avoit-dessein-d-aller-pleurer-sur-le-tombeau-de-celui-qu-il-avoit-aime-comme-en-effet-ils-lui-voyoient-actuellement-repandre-des-larmes",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "auſſi ſur S. Jean",
+          "slug": "chrysostome-au-i-ur-s-jean",
+          "refs": [
+            {
+              "ref": "p. 207",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Cyril.",
+          "slug": "chrysostome-cyril",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Cyril. in Joan.",
+          "slug": "chrysostome-cyril-in-joan",
+          "refs": [
+            {
+              "ref": "P. 211",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
         {
           "titre": "de [mot illisible].",
           "slug": "chrysostome-de-mot-illisible",
@@ -16315,6 +25705,18 @@ const SACY_BIBLIO = {
           "slug": "chrysostome-hom",
           "refs": [
             {
+              "ref": "2 tom. 2",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "6 in Matt",
               "cites": [
                 {
@@ -16353,6 +25755,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 5,
                   "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "30 p. 195",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 11,
                   "sens": "N"
                 }
               ]
@@ -16473,6 +25887,30 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 26,
                   "n": 51,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "86 p. 660",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 25",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -16614,6 +26052,18 @@ const SACY_BIBLIO = {
                   "sens": "P"
                 }
               ]
+            },
+            {
+              "ref": "p. 249",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
             }
           ]
         },
@@ -16722,6 +26172,42 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "ib. in supr. F.",
+          "slug": "chrysostome-ib-in-supr-f",
+          "refs": [
+            {
+              "ref": "50",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ib. ut supr.",
+          "slug": "chrysostome-ib-ut-supr",
+          "refs": [
+            {
+              "ref": "pag. 47",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "ib. ut supra.",
           "slug": "chrysostome-ib-ut-supra",
           "refs": [
@@ -16754,6 +26240,54 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "p. 16, 13",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 317",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 33,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "p. 363",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 300",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 67,
+                  "sens": "N"
+                }
+              ]
             }
           ]
         },
@@ -16769,6 +26303,24 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 2,
                   "n": 13,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ibid. in supr. hom.",
+          "slug": "chrysostome-ibid-in-supr-hom",
+          "refs": [
+            {
+              "ref": "40",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 39,
                   "sens": "N"
                 }
               ]
@@ -16812,6 +26364,36 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "ibid. ut supr.",
+          "slug": "chrysostome-ibid-ut-supr",
+          "refs": [
+            {
+              "ref": "p. 54",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 166, 167",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "ibid. ut suprà.",
           "slug": "chrysostome-ibid-ut-supra",
           "refs": [
@@ -16830,9 +26412,75 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "ibidem,",
+          "slug": "chrysostome-ibidem",
+          "refs": [
+            {
+              "ref": "p. 351",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ibidem.",
+          "slug": "chrysostome-ibidem",
+          "refs": [
+            {
+              "ref": "P. 326, 327",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 45,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ibidem. hom.",
+          "slug": "chrysostome-ibidem-hom",
+          "refs": [
+            {
+              "ref": "9 p. 66, 67, 68",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in",
           "slug": "chrysostome-in",
           "refs": [
+            {
+              "ref": "1 Cor. p. 87",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "1 Tim. hom. 10 p. 610 in Act. hom. 1 p. 2",
               "cites": [
@@ -16854,6 +26502,48 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 20,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Ep. ad Hebr. hom.",
+          "slug": "chrysostome-in-ep-ad-hebr-hom",
+          "refs": [
+            {
+              "ref": "26",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "Apud",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "P. 917",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             }
@@ -16944,6 +26634,247 @@ const SACY_BIBLIO = {
                   "chapitre": 14,
                   "n": 13,
                   "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "2 p. 63",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "23",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "26 tom. 2 p. 187. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 10 hom. 4 p. 94",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "hom. 17",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 p. 94, 10, 8c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 3 c. 5 p. 531 p. 532",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 11 c. 7 p. 961. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 17",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 144",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 145",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 204",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 51,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 206",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 307",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 319",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 465",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "t. 4 p. 160",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "tom. 2",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. B.",
+          "slug": "chrysostome-in-joan-b",
+          "refs": [
+            {
+              "ref": "56",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "N"
                 }
               ]
             }
@@ -16954,6 +26885,138 @@ const SACY_BIBLIO = {
           "slug": "chrysostome-in-joan-hom",
           "refs": [
             {
+              "ref": "1",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "1 in supr",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "1 p. 16",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "1 Thes. 4, 15",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "2. § 8. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "3 tom. 2 pag. 37",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4 t. 2 p. 46, 47",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4 tom. 2 p. 52, 33",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4 tom. 2 pag. 412",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "5, 2 p. 49",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "7 p. 56, 57",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "8",
               "cites": [
                 {
@@ -16961,6 +27024,42 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 26,
                   "n": 57,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "12 tom. 2 p. 82, 83",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "15",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "16",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 29,
                   "sens": "N"
                 }
               ]
@@ -16978,6 +27077,1020 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "17",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "19",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "20 Philip. 2, 7",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "21",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 3,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "21 tom. 2 p. 140a",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "22 tom. 2 p. 144",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "23",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 18,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "23 p. 210",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "23 p. 213",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 31,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "24 p. 217. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 39,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "25",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 19,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "25 cœn. 2 p. 163",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "28 p. 178",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "28 tom. 2 p. 172",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "29 tom. 2 p. 184, 185",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "30 p. 189",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "31 p. 204",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "33 p. 235",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "35 p. 22",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "35 p. 114",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "37 p. 232. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "38",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "38 p. 240",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "38 p. 248",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "39 p. 254",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "40 p. 261",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 39,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "41 hom. 7, 267",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "41 p. 271",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "42 p. 273",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "42 p. 294",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "42 p. 310",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "43 p. 279",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "43 p. 538",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "44 p. 316",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 7,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "45 p. 288",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 41,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "45 p. 292",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 53,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "46",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 58,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "46 p. 209",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 67,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "46 p. 295",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 53,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "46 p. 298",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 46,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "48 p. 309",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "48 pag. 308, 309",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "49 p. 316",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "49 p. 317",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "50 p. 320",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 37,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "51 p. 325",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 45,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "51 pag. 328",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "52 p. 333",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 23,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "53 p. 318",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "53 p. 341",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "53 pag. 340",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "54 p. 344",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 48,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "55 p. 561",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "57",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "57 p. 360",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "58 p. 372",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "58 p. 569",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "59 p. 337-378",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "59 p. 379",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "60 p. 388",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "60 p. 389",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "60 p. 390",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "60 pag. 392",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 39,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "61 p. 397",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "61 P. 399",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 17,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "62 p. 395",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "62 p. 404",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "63 p. 410, 413",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 41,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "64 p. 419",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 55,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "65, 4, 418",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 49,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "65 p. 411",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 46,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "65 P. 425",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "65 p. 426",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 20,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "66 p. 431",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "67 p. 435",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "69 p. 440",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 47,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "69 p. 444",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "70 p. 449",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "71 p. 456",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "71 p. 457",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "71 p. 462",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 36,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "72",
               "cites": [
                 {
@@ -16985,6 +28098,234 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 22,
                   "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "73 p. 467, 468",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "73 p. 470",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "74 p. 472",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "74 p. 473, 474",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "74 p. 477",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "75 p. 481",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "75 p. 483",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "76 p. 480",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 26,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "76 p. 486",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "76 p. 490",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "77",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "77 p. 494",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "77 p. 496",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "78 p. 501, 502",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "79 p. 511",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "80 p. 515",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "81 p. 521",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "83 P. 528",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "83 p. 579",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 16,
                   "sens": "N"
                 }
               ]
@@ -17007,6 +28348,126 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "84 Cyril. p. 1074",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "84 p. 545",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "85d",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "85 p. 553",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "86 p. 562",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 7,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "87 p. 568",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "88. * suprà",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "Apud",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "hom. 39 pag. 259",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 39,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 276",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
             }
           ]
         },
@@ -17022,6 +28483,24 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 7,
                   "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. Rom.",
+          "slug": "chrysostome-in-joan-rom",
+          "refs": [
+            {
+              "ref": "8, 520",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 14,
                   "sens": "N"
                 }
               ]
@@ -17052,6 +28531,126 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 22,
                   "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. trad.",
+          "slug": "chrysostome-in-joan-trad",
+          "refs": [
+            {
+              "ref": "17",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. ut supr.",
+          "slug": "chrysostome-in-joan-ut-supr",
+          "refs": [
+            {
+              "ref": "p. 150",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 436",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 37,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 522",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 20,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 562",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 562",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joann.",
+          "slug": "chrysostome-in-joann",
+          "refs": [
+            {
+              "ref": "P. 255",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joann. in supr.",
+          "slug": "chrysostome-in-joann-in-supr",
+          "refs": [
+            {
+              "ref": "p. 32. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 4,
                   "sens": "N"
                 }
               ]
@@ -18610,6 +30209,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "11 tom. 1 p. 123",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "13",
               "cites": [
                 {
@@ -20056,6 +31667,109 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in sup.",
+          "slug": "chrysostome-in-sup",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 52,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "687 in Joan. hom. 81; Cyrill. in Joan. hom. 81; P. 436",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 38,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 84",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 86",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 436",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 38,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 437",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 37,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in supp.",
+          "slug": "chrysostome-in-supp",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 22,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in supr.",
           "slug": "chrysostome-in-supr",
           "refs": [
@@ -20081,6 +31795,435 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 14,
                   "n": 13,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 5,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 16,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 19,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 21,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 28,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 35,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 25,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 60,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 50,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 6,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 10,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 55,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 22,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 32",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 98",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 166",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 181",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 200",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 229",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 322",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 37,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 419",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 44,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 432",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 465",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 471",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 529",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 530, 531",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 531",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 554",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 566, 567",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1021",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Supr.",
+          "slug": "chrysostome-in-supr",
+          "refs": [
+            {
+              "ref": "p. 257",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in supr. Cœcil. lib.",
+          "slug": "chrysostome-in-supr-c-cil-lib",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in supr. hom.",
+          "slug": "chrysostome-in-supr-hom",
+          "refs": [
+            {
+              "ref": "31 p. 198",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "55 p. 349, 450",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "80 p. 517",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "86 p. 559",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in supra",
+          "slug": "chrysostome-in-supra",
+          "refs": [
+            {
+              "ref": "p. 318",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 319",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 35,
                   "sens": "N"
                 }
               ]
@@ -20131,6 +32274,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 13,
                   "n": 57,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 362",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 24,
                   "sens": "N"
                 }
               ]
@@ -20331,6 +32486,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "mt. supr.",
+          "slug": "chrysostome-mt-supr",
+          "refs": [
+            {
+              "ref": "p. 533",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 33,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "orat.",
           "slug": "chrysostome-orat",
           "refs": [
@@ -20489,6 +32662,18 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "p. 347",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 58,
+                  "sens": "N"
+                }
+              ]
             }
           ]
         },
@@ -20565,6 +32750,48 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "ut sup.",
+          "slug": "chrysostome-ut-sup",
+          "refs": [
+            {
+              "ref": "p. 72, 73, 76",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 441",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 47,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 547 Matth. 27, 57",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "ut supr.",
           "slug": "chrysostome-ut-supr",
           "refs": [
@@ -20576,6 +32803,313 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 16,
                   "n": 22,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 39,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 67,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 13,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 6,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 20,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 119",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 23",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 34",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 146",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 192",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 218,",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 414",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 433",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 445",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 446",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 462",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 36,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 503",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 546",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 549",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 562",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 789",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 41,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut supr. Cyril. ib.",
+          "slug": "chrysostome-ut-supr-cyril-ib",
+          "refs": [
+            {
+              "ref": "p. 511",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut supr. ℣.",
+          "slug": "chrysostome-ut-supr",
+          "refs": [
+            {
+              "ref": "250",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut supra",
+          "slug": "chrysostome-ut-supra",
+          "refs": [
+            {
+              "ref": "p. 256",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 33,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1039",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 37,
                   "sens": "N"
                 }
               ]
@@ -20594,6 +33128,24 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 10,
                   "n": 32,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut suprà",
+          "slug": "chrysostome-ut-supra",
+          "refs": [
+            {
+              "ref": "p. 334",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 28,
                   "sens": "N"
                 }
               ]
@@ -20626,6 +33178,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 11,
                   "n": 7,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 469",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 6,
                   "sens": "N"
                 }
               ]
@@ -20662,6 +33226,24 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 17,
                   "n": 10,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "« supr. »",
+          "slug": "chrysostome-supr",
+          "refs": [
+            {
+              "ref": "pag. 309, 310",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 16,
                   "sens": "N"
                 }
               ]
@@ -20744,6 +33326,34 @@ const SACY_BIBLIO = {
                   "chapitre": 26,
                   "n": 17,
                   "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 5,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 35,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 43,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 6,
+                  "sens": "N"
                 }
               ]
             },
@@ -20755,6 +33365,30 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 22,
                   "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "2 in Joan. hom. 15",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4, 2",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 22,
                   "sens": "N"
                 }
               ]
@@ -20779,6 +33413,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 26,
                   "n": 45,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "65",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
                   "sens": "N"
                 }
               ]
@@ -20860,6 +33506,48 @@ const SACY_BIBLIO = {
                   "chapitre": 27,
                   "n": 15,
                   "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 16,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 28,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 54,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 24,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 17,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 30,
+                  "sens": "N"
                 }
               ]
             },
@@ -20937,6 +33625,20 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 },
                 {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 7,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 43,
+                  "sens": "N"
+                },
+                {
                   "livre": "tite",
                   "livreAbr": "Tt",
                   "chapitre": 1,
@@ -20953,6 +33655,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "in Joan. hom. 24",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "l. 6 in Matth. hom. 45",
               "cites": [
                 {
@@ -20960,6 +33674,162 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 12,
                   "n": 43,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 88",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 186",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 201",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 257",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 316, 317",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 33,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 317",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 318",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 33,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "p. 344",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 51,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 361",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 364",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 973",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1050",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 361, 362",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 18,
                   "sens": "N"
                 }
               ]
@@ -20973,6 +33843,18 @@ const SACY_BIBLIO = {
                   "chapitre": 2,
                   "n": 7,
                   "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "t. 6 p. 61",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 11,
+                  "sens": "N"
                 }
               ]
             },
@@ -21180,6 +34062,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "advers. Jovin.",
+          "slug": "jerome-advers-jovin",
+          "refs": [
+            {
+              "ref": "l. 1 tom. 1 p. 480",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "adversus Pelag.",
           "slug": "jerome-adversus-pelag",
           "refs": [
@@ -21252,6 +34152,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "contra Pelag.",
+          "slug": "jerome-contra-pelag",
+          "refs": [
+            {
+              "ref": "lib. 2 p. 864",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "contre Helvid.",
           "slug": "jerome-contre-helvid",
           "refs": [
@@ -21299,6 +34217,31 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 7,
                   "n": 11,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de loc. hebr. Id. Epist. ad Evag.",
+          "slug": "jerome-de-loc-hebr-id-epist-ad-evag",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 22,
                   "sens": "N"
                 }
               ]
@@ -21657,6 +34600,24 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 24,
                   "n": 30,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Epitaph. Paul. Genes.",
+          "slug": "jerome-epitaph-paul-genes",
+          "refs": [
+            {
+              "ref": "33, 19. & 48, 11 Jos. 24, 32",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -22124,6 +35085,18 @@ const SACY_BIBLIO = {
           "titre": "in Isa.",
           "slug": "jerome-in-isa",
           "refs": [
+            {
+              "ref": "56, 4",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
             {
               "ref": "c. 6 p. 30",
               "cites": [
@@ -23191,6 +36164,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in Matth. præfat.",
+          "slug": "jerome-in-matth-pr-fat",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in Osee,",
           "slug": "jerome-in-osee",
           "refs": [
@@ -23328,6 +36319,24 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 20,
                   "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "loc. libr.",
+          "slug": "jerome-loc-libr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 28,
                   "sens": "N"
                 }
               ]
@@ -23561,6 +36570,36 @@ const SACY_BIBLIO = {
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Scriptor. Eccles.",
+          "slug": "jerome-scriptor-eccles",
+          "refs": [
+            {
+              "ref": "c. 9 apud Euseb. A 6 c. 4",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "c. 19",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
@@ -24727,6 +37766,13 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 },
                 {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                },
+                {
                   "livre": "tite",
                   "livreAbr": "Tt",
                   "chapitre": 1,
@@ -24784,6 +37830,18 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "tom. 1 contra Pelag. I. 3 p. 364",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
             }
           ]
         }
@@ -24831,6 +37889,67 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 11,
                   "n": 25,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "hom.",
+          "slug": "joan-hom",
+          "refs": [
+            {
+              "ref": "54 p. 346",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 54,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "",
+          "slug": "joan",
+          "refs": [
+            {
+              "ref": "p. 147",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "joel",
+      "nom": "Joël",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "joel",
+          "refs": [
+            {
+              "ref": "2, 28, 29",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 37,
                   "sens": "N"
                 }
               ]
@@ -25068,6 +38187,31 @@ const SACY_BIBLIO = {
                   "chapitre": 18,
                   "n": 12,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "le",
+      "nom": "Le",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Jeudi Saint.",
+          "slug": "le-jeudi-saint",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 1,
+                  "sens": "V"
                 }
               ]
             }
@@ -25316,6 +38460,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "ser.",
+          "slug": "leon-ser",
+          "refs": [
+            {
+              "ref": "7 Paschæ Dom",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "serm.",
           "slug": "leon-serm",
           "refs": [
@@ -25360,6 +38522,18 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "in hunc loc.",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
             }
           ]
         }
@@ -25370,6 +38544,24 @@ const SACY_BIBLIO = {
       "nom": "Les",
       "dates": "",
       "oeuvres": [
+        {
+          "titre": "S. Simon & Jude.",
+          "slug": "les-s-simon-jude",
+          "refs": [
+            {
+              "ref": "1 Joan. 3, 14, 4, 7",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 17,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        },
         {
           "titre": "SS. Innocens.",
           "slug": "les-ss-innocens",
@@ -25516,6 +38708,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "mach",
+      "nom": "Mach",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "n'auriez point de péché",
+          "slug": "mach-n-auriez-point-de-peche",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 40,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "malbon",
       "nom": "Malbon",
       "dates": "",
@@ -25600,6 +38817,24 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 24,
                   "n": 3,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Joan. hom.",
+          "slug": "maldonat-in-joan-hom",
+          "refs": [
+            {
+              "ref": "61 p. 398",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 11,
                   "sens": "N"
                 }
               ]
@@ -25745,6 +38980,13 @@ const SACY_BIBLIO = {
                   "chapitre": 12,
                   "n": 49,
                   "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 47,
+                  "sens": "N"
                 }
               ]
             },
@@ -25831,6 +39073,55 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 22,
                   "n": 35,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 21,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 11,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 24,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 23,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 7,
                   "sens": "N"
                 }
               ]
@@ -25957,10 +39248,53 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "marth",
+      "nom": "Marth",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "marth",
+          "refs": [
+            {
+              "ref": "26, 7",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 2,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "matt",
       "nom": "Matt",
       "dates": "",
       "oeuvres": [
+        {
+          "titre": "Apôtres :",
+          "slug": "matt-apotres",
+          "refs": [
+            {
+              "ref": "20, 18. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
         {
           "titre": "hom.",
           "slug": "matt-hom",
@@ -26009,6 +39343,55 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 4,
                   "n": 13,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "matth",
+      "nom": "Matth",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "il s'en alla , & se cacha d'eux : ce qui signifie , selon S. Matthieu",
+          "slug": "matth-il-s-en-alla-se-cacha-d-eux-ce-qui-signifie-selon-s-matthieu",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "21, 17 Marc. & S. Marc , qu'il s'en alla le soir à Béthanie avec ses Apôtres",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "21, 25",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 34,
                   "sens": "N"
                 }
               ]
@@ -26129,6 +39512,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "mon",
+      "nom": "Mon",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Père, l'heure est venue",
+          "slug": "mon-pere-l-heure-est-venue",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "monach",
       "nom": "Monach",
       "dates": "",
@@ -26183,6 +39591,56 @@ const SACY_BIBLIO = {
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "nil",
+      "nom": "Nîl",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "nil",
+          "refs": [
+            {
+              "ref": "l. 2 ep. 171 p. 106",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "nonnus",
+      "nom": "Nonnus",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "nonnus",
+          "refs": [
+            {
+              "ref": "in hunc loc.",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 25,
+                  "sens": "N"
                 }
               ]
             }
@@ -26629,6 +40087,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "origenes",
+      "nom": "Origenes",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "origenes",
+          "refs": [
+            {
+              "ref": "in hunc loc.",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "ose",
       "nom": "Ose",
       "dates": "",
@@ -26714,6 +40197,31 @@ const SACY_BIBLIO = {
                   "chapitre": 20,
                   "n": 20,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "paffion",
+      "nom": "Paffion",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "paffion",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 47,
+                  "sens": "V"
                 }
               ]
             }
@@ -26897,6 +40405,18 @@ const SACY_BIBLIO = {
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "43 p. 396",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
@@ -27120,6 +40640,49 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "prosper",
+      "nom": "Prosper",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "de promiss. & praedest.",
+          "slug": "prosper-de-promiss-praedest",
+          "refs": [
+            {
+              "ref": "part. 2 cap. 22",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ut supr.",
+          "slug": "prosper-ut-supr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "r",
       "nom": "R",
       "dates": "",
@@ -27154,6 +40717,31 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 26,
                   "n": 57,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "ruper",
+      "nom": "Ruper",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "ruper",
+          "refs": [
+            {
+              "ref": "in hunc loc.",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 10,
                   "sens": "N"
                 }
               ]
@@ -27323,6 +40911,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "saints",
+      "nom": "Saints",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Philippe & Jac-",
+          "slug": "saints-philippe-jac",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "sallust",
       "nom": "Sallust",
       "dates": "",
@@ -27364,6 +40977,31 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 4,
                   "n": 13,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "sapien",
+      "nom": "Sapien",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "sapien",
+          "refs": [
+            {
+              "ref": "2, 12",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 34,
                   "sens": "N"
                 }
               ]
@@ -27440,6 +41078,43 @@ const SACY_BIBLIO = {
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "sup",
+      "nom": "Sup",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "sup",
+          "refs": [
+            {
+              "ref": "p. 33",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 519, 517, 519",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 28,
+                  "sens": "N"
                 }
               ]
             }
@@ -27526,6 +41201,31 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 10,
                   "n": 23,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cle": "tert",
+      "nom": "Tert",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "tert",
+          "refs": [
+            {
+              "ref": "2, 13",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 19,
                   "sens": "N"
                 }
               ]
@@ -27781,6 +41481,20 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 16,
                   "n": 18,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 20,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 16,
                   "sens": "N"
                 }
               ]
@@ -28227,6 +41941,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in Apolog.",
+          "slug": "tertullien-in-apolog",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in Marcion.",
           "slug": "tertullien-in-marcion",
           "refs": [
@@ -28239,6 +41971,24 @@ const SACY_BIBLIO = {
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Scorpiac.",
+          "slug": "tertullien-scorpiac",
+          "refs": [
+            {
+              "ref": "cap. 15",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 18,
+                  "sens": "N"
                 }
               ]
             }
@@ -28294,6 +42044,42 @@ const SACY_BIBLIO = {
       "nom": "Theod",
       "dates": "",
       "oeuvres": [
+        {
+          "titre": "Basil.",
+          "slug": "theod-basil",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 4,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in hunc Psalm.",
+          "slug": "theod-in-hunc-psalm",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
         {
           "titre": "",
           "slug": "theod",
@@ -28503,6 +42289,20 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 22,
                   "n": 38,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 10,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 23,
                   "sens": "N"
                 }
               ]
@@ -28789,6 +42589,30 @@ const SACY_BIBLIO = {
           "slug": "non-identifie",
           "refs": [
             {
+              "ref": "4. Dim. après Pâq. que",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 5,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "5. Vendredi de Carême",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
               "ref": "Apud. Aug. in append. serm. 7. 6. Maxim. homil. 3. de Joan",
               "cites": [
                 {
@@ -28921,6 +42745,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "hom. 14. tres-élevé. tom. 2. p. 92. 93",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "Hom. 17. in Luc",
               "cites": [
                 {
@@ -28969,6 +42805,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "pag. 194",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 7,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "Tract. de dilig. Deo c. 8",
               "cites": [
                 {
@@ -28977,6 +42825,42 @@ const SACY_BIBLIO = {
                   "chapitre": 8,
                   "n": 1,
                   "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "℣. 5. Mer-Carmel",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "℣. 23 Dim. terroger ez plus de rien. † En vérité, en vérité. Matth. vous demandez quelque chose à mon Père en mon nom. Marc. donnera",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 23,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "℣. 134. 7",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 8,
+                  "sens": "V"
                 }
               ]
             }
@@ -29013,6 +42897,30 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 2,
                   "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "2. Dimanche après les Rois",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "2. Dimanche après Pâque",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 11,
                   "sens": "V"
                 }
               ]
@@ -29066,6 +42974,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "4. Dimanche de Carême",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "4. Samedi de Carême",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
               "ref": "8. Dimanche après la Pentec",
               "cites": [
                 {
@@ -29090,6 +43022,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "14. Lundi de Carême",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 13,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
               "ref": "16. Dimanche après la Pentec",
               "cites": [
                 {
@@ -29109,6 +43053,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Tt",
                   "chapitre": 2,
                   "n": 11,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "Dim. après Pâque",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 16,
                   "sens": "V"
                 }
               ]
@@ -29162,6 +43118,54 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "Lundi I. † Saint",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "Mardi 1. † de la Passion",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "Mercredi après Pâque",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "Passion 1. † pour le Vendredi Saint",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
               "ref": "Passion pour le Dimanc. des Rameaux",
               "cites": [
                 {
@@ -29205,6 +43209,30 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 24,
                   "n": 3,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "Plusieurs Ss. Martyrs",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 20,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "Pour un mort",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 37,
                   "sens": "V"
                 }
               ]
@@ -29270,6 +43298,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "S. Aug. in Joan. & Chrysost. in Joan. hom. 88",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "S. August. ad consi-",
               "cites": [
                 {
@@ -29277,6 +43317,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 27,
                   "n": 45,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "S. Chrys. ut supr. Matt. 7. 7",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 3,
                   "sens": "N"
                 }
               ]
@@ -29302,6 +43354,18 @@ const SACY_BIBLIO = {
                   "chapitre": 6,
                   "n": 11,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "S. Euseb. l. 7. c. 25",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             },
@@ -29349,6 +43413,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 20,
                   "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "S. Joan. 2. 5. c. 1",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 30,
                   "sens": "N"
                 }
               ]
@@ -29462,6 +43538,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "Samedi 1. après Pâque",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
               "ref": "Samedi des 4. temps de la Pentecôte",
               "cites": [
                 {
@@ -29541,6 +43629,30 @@ const SACY_BIBLIO = {
                   "livreAbr": "2 Tm",
                   "chapitre": 2,
                   "n": 8,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "Un S. Mattyr",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "Veille de l'Asc",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 1,
                   "sens": "V"
                 }
               ]

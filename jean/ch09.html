@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><!-- rempli par render.js --></title>
+  <link rel="stylesheet" href="../style.css">
+  <script>
+    (function(){ document.documentElement.setAttribute('data-theme', localStorage.getItem('sacy-theme')||'light'); })();
+  </script>
+  <script src="../search-index.js"></script>
+  <script>
+  const SACY_DATA = {
+  "meta": {
+    "livre": "jean",
+    "livreFr": "Évangile de saint Jean",
+    "livreAbr": "Jn",
+    "chapitre": 9,
+    "chapTotal": 21,
+    "titre": "Aveugle-né guéri par J. C. Enquête des Pharisiens sur ce miracle. Ils chassent de la synagogue celui qui avoit été guéri. J. C. l'instruit. Double jugement exercé par J. C.",
+    "pageFacs": 297,
+    "pageView": true,
+    "chapitresDisponibles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "facsimile": {
+      "slug": "jean",
+      "page": 297
+    }
+  },
+  "versets": [
+    {
+      "n": 1,
+      "p": 297,
+      "lat": "Et præteriens Jesus, vidit hominem cæcum à nativitate :",
+      "fr": "Or lorsque JESUS passoit, il vit un homme qui étoit aveugle dès sa naissance :",
+      "note": [
+        {
+          "texte": "<em>Lorsque JESUS passoit, il vit un homme qui étoit aveugle dès sa naissance. Et ses disciples lui firent cette demande : Maître, est-ce le péché de cet homme, ou de ceux qui l'ont mis au monde, qui est cause qu'il est né aveugle ? &c.</em> Saint Jean Chrysostôme dit que le Sauveur sortit du temple pour aller guérir cet aveugle-né, & pour confirmer par ses œuvres ce qu'il avoit dit, <em>Qu'il étoit véritablement avant Abraham.</em> Il voulut donc, au sortir du temple, fermer la bouche à ses ennemis par ce grand miracle, qui leur prouvoit mieux sa divinité que tout ce qu'il auroit pu leur dire ; & il <a class=\"page-inline\" href=\"page-302.html\" title=\"p. 302\">‖</a>travailla ainsi par cet effet tout nouveau de sa bonté, à annoblir la dureté de leur cœur, qui résistoit à toute la force de ses paroles. Ce fut <em>en passant</em>, comme dit le texte sacré, <em>qu'il vit un homme qui étoit aveugle dès sa naissance.</em> Mais ce qui pouvoit paroître un hasard aux yeux des hommes, ne l'étoit pas devant Dieu, à l'égard duquel il n'arrive rien que de concerté par sa providence, qui fait régner & faire servir les événemens humains à sa gloire & au salut des élus. Ce n'est pas aussi sans grande raison que l'Evangéliste remarque ici, que cet aveugle l'étoit de naissance. Et il le fait selon S. Ambroise, pour montrer que sa guérison ne pouvoit être que l'effet de la puissance de Dieu. Car, comme il dit, un aveugle-né n'est point l'objet de l'habileté du médecin, mais du pouvoir souverain du Créateur ; & JESUS ne guérissoit dans ces grandes occasions, que ceux qui étoient incurables à tous les hommes.",
+          "marges": [
+            "Joan. p. 147.",
+            "Ambr. Epist. 75."
+          ],
+          "p": 301
+        },
+        {
+          "texte": "JESUS le vit ; car ce ne fut pas, dit S. Chrysostôme, l'aveugle qui s'approcha & qui s'adressa à JESUS-CHRIST. Ainsi il faut, selon la réflexion d'un Interprète, que JESUS-CHRIST nous regarde aussi les premiers, afin que nous soyons guéris. Il vit donc, & il regarda de telle sorte cet aveugle, que ce regard même si attentif du Sauveur donna lieu à <em>ses disciples de lui demander si c'étoit à cause du péché de cet homme, ou de celui de ses parens, qu'il étoit ainsi né aveugle.</em> Ce qui put bien en partie les porter à lui faire cette demande, étoit la parole que JESUS-CHRIST avoit dite au paralytique qu'il avoit guéri, <em>de ne plus pécher, de peur qu'il ne lui arrivât encore pis.</em> Ainsi ne sachant à quelle cause attribuer un mal de naissance, ils lui demandent ce qui est marqué ici. Et JESUS-CHRIST leur répond, que ce <em>n'étoit point qu'il eût péché, ni ceux qui l'avoient mis au monde.</em> Mais en parlant de la sorte, il ne prétend pas nous faire entendre que ni cet aveugle, ni son père, ni sa mère n'avoient point du tout péché ; car ils étoient des pécheurs comme tous les autres hommes. Il veut dire seulement, qu'ils n'avoient point commis de péché qui leur eût fait mériter ce châtiment plus qu'aux autres ; & il répond aux disciples dans le sens qu'ils lui avoient parlé ; car il faut ici suppléer dans la réponse de JESUS-CHRIST, la même chose qui étoit dans leur demande ; c'est-à-dire, cet homme n'est point né aveugle à cause de son péché, ou de celui de son père & de sa mère.",
+          "marges": [
+            "Maldon. in hunc locum.",
+            "Joan. 5. 14.",
+            "Chrysost. in supr. hom. 55. p. 349. 450.",
+            "August. in Joan. tract. 44. p. 333."
+          ],
+          "p": 302
+        },
+        {
+          "texte": "Mais pourquoi donc est-il né aveugle ? C'est <em>afin que les œuvres de la puissance de Dieu éclatent en lui</em> ; ce qu'il entend, selon saint Jean Chrysostôme, de soi-même comme Dieu, & non <a class=\"page-inline\" href=\"page-303.html\" title=\"p. 303\">‖</a>de son Père, dont la puissance s'étoit fait assez connoître parmi son peuple. Ainsi il paroît par la guérison du paralytique de la piscine dont on a parlé, qu'il y a des maladies qui sont envoyées aux hommes à cause de leurs péchés. On voit aussi par l'exemple du saint homme Job, qu'il y en a qui sont proprement pour l'épreuve de la patience, & pour la perfection des justes. Et enfin ce que JESUS-CHRIST dit ici nous fait comprendre, qu'il y a des maux dont Dieu afflige les hommes, particulièrement pour donner lieu à faire éclater sa toute-puissance, à confondre l'incrédulité des impies, & à affermir la foi des justes par ses œuvres miraculeuses, telle que fut la guérison de cet aveugle de naissance, & la résurrection du Lazare.",
+          "marges": [
+            "Chrysost. ibidem, p. 351."
+          ],
+          "p": 302
+        }
+      ],
+      "noteVersets": [
+        1,
+        2,
+        3
+      ],
+      "marges": [
+        "℣. 5. Mer-Carmel."
+      ]
+    },
+    {
+      "n": 2,
+      "p": 297,
+      "lat": "& interrogaverunt eum discipuli ejus : Rabbi, quis peccavit, hic aut parentes ejus, ut cæcus nasceretur ?",
+      "fr": "& ses disciples lui firent cette demande : Maître, est-ce le péché de cet homme, ou de ceux qui l'ont mis au monde, qui est cause qu'il est né aveugle ?",
+      "note": ""
+    },
+    {
+      "n": 3,
+      "p": 297,
+      "lat": "Respondit Jesus : Neque hic peccavit, neque parentes ejus : sed ut manifestentur opera Dei in illo.",
+      "fr": "JESUS leur répondit : ce n'est point qu'il ait péché, ni ceux qui l'ont mis au monde, mais c'est afin que les œuvres * de la puissance de Dieu éclatent en lui.",
+      "note": "",
+      "nb": [
+        "℣. 3. letr. de Dieu soit manifestées en lui."
+      ]
+    },
+    {
+      "n": 4,
+      "p": 297,
+      "lat": "Me oportet operari opera ejus, qui misit me, donec dies est : venit nox, quando nemo potest operari.",
+      "fr": "Il faut que je fasse les œuvres de celui qui m'a envoyé, pendant qu'il est jour : la nuit vient, dans laquelle personne ne peut agir.",
+      "note": [
+        {
+          "texte": "<em>Il faut que je fasse les œuvres de celui qui m'a envoyé, pendant qu'il est jour ; la nuit vient dans laquelle personne ne peut agir. Tant que je suis dans le monde, je suis la lumière du monde.</em>\nJESUS-CHRIST se sert d'une comparaison familière pour exprimer une grande vérité. Le jour naturel, qui est formé par la lumière du soleil, est destiné pour agir ; & la nuit qui n'est autre chose que l'absence de la lumière, causée par l'éloignement de cet astre, est destinée au contraire pour se reposer de son travail, selon cette expression du Prophète roi : Il faut de même, dit le Sauveur, <em>que je fasse pendant qu'il est jour, les œuvres de celui qui m'a envoyé.</em> Il explique ensuite ce qu'il entend par ce jour, lorsqu'il dit : <em>Tant que je suis dans le monde, je suis la lumière du monde.</em> Le jour dont il parle étoit donc le temps qu'il devoit être encore dans le monde, & l'éclairer par sa présence, lui qui en étoit la vraie lumière, par la vérité qu'il prêchoit aux hommes, & qu'il confirmoit par ses miracles. C'étoient-là les œuvres de Dieu, <em>les œuvres de celui qui l'avoit envoyé dans le monde, qu'il falloit qu'il fit</em>, pendant qu'il formoit ce jour de grâce & de vérité par sa présence corporelle au milieu des hommes. Car <em>la nuit vient</em>, ajoute-t-il, <em>dans laquelle personne ne peut agir.</em> Cette nuit étoit le temps de sa mort, où il a cessé d'agir visiblement & sensiblement par lui-même, ne s'acquittant plus, comme auparavant, du ministère de la prédication, & des œuvres de sa divine mission ; quoique ses Apôtres & tous les autres Ministres de son Evangile ayent continué à agir par son esprit, & même tous les fidèles remplis de cet esprit saint, ont travaillé, comme ils <a class=\"page-inline\" href=\"page-304.html\" title=\"p. 304\">‖</a>travaillent encore, & travailleront jusqu'à la fin des siècles ; chacun selon la mesure de sa foi & de son don de grâce, à l'œuvre de Dieu, & à l'accroissement du Corps de JESUS-CHRIST, qui se forme, comme dit saint Paul, & s'édifie par la charité. C'est-là, selon un habile Interprète, le sens littéral & naturel de ces paroles de JESUS-CHRIST.",
+          "marges": [
+            "Ps. 103. 24. Exibit homo ad opus suum, & ad operationem suam usque ad vesperam.",
+            "Ephes. 4. 16."
+          ],
+          "p": 303
+        },
+        {
+          "texte": "Mais les Anciens expliquant d'une manière plus générale ces mêmes paroles, appliquant, pour le dire ainsi, aux membres du Fils de Dieu, ce qui regardoit principalement le chef, en ont tiré pour notre édification une instruction importante. Ils disent que <em>le jour, pendant lequel il faut faire les œuvres</em> de Dieu, est le temps de la vie présente ; & que <em>la nuit dans laquelle personne ne peut agir</em>, nous marque le temps de la mort, où il n'y a plus d'exercice ni de la foi ni des bonnes œuvres, & où le temps de la pénitence & du travail est passé. C'est ce que l'Ange qui parle à S. Jean dans l'Apocalypse, lui déclare d'une manière étonnante, lorsqu'il est dit : <em>Que se tenant debout sur la mer & sur la terre, il leva sa main au ciel, & jura par celui qui vit dans les siècles des siècles, qu'il n'y auroit plus de temps.</em> Le jour formé par la lumière du soleil que nous voyons, est renfermé dans l'espace de ce peu d'heures que dure le cours de l'astre qui lui fournit sa lumière. Le jour formé par la lumière toute divine de JESUS-CHRIST, qui a promis de ne point abandonner son Eglise, s'étend jusqu'à la consommation des siècles. Mais le jour pendant lequel chacun de nous est obligé de travailler, est borné par les années de notre vie. Le Fils Dieu nous assure qu'il est la lumière du monde ; & il l'est, parce qu'étant la vérité même, lui seul peut nous éclairer dans la voie de notre salut. Il faut donc se souvenir que le temps de la vie présente est le temps que notre foi doit agir par la charité, c'est-à-dire par la grâce & par l'esprit de JESUS-CHRIST, de peur que nous ne soyons surpris par la nuit de notre mort, où on ne peut plus agir. Le mauvais riche se trouva surpris misérablement par cette nuit si terrible, dit saint Augustin, lorsqu'étant enseveli dans l'enfer, il demanda inutilement à Lazare une goutte d'eau qui pût rafraîchir sa langue dans l'extrême ardeur dont il se sentoit brûlé. O malheureux, s'écrie ce grand Saint, c'étoit le temps de travailler & d'agir pour votre salut, quand vous viviez dans le monde. Vous voilà présentement dans la nuit, pendant laquelle personne ne peut agir. Mais craignons même dès la vie présente cette autre sorte de nuit dont parle l'Apôtre, qui se forme en nous par la privation de la lumière de la vérité & de <a class=\"page-inline\" href=\"page-305.html\" title=\"p. 305\">‖</a>De la grâce, & pendant laquelle, si nous agissons encore, nous ne faisons plus que des œuvres de ténèbres. Car si JESUS-CHRIST, qui est la véritable lumière du monde, ne nous éclaire, nous sommes dans les ténèbres ; & s'il ne remue nos cœurs, les œuvres que nous faisons ne sont plus celles que l'on fait pendant le jour, c'est-à-dire ne sont plus les œuvres d'une foi vive & animée par la charité.",
+          "marges": [
+            "Chrysost. in Joann. in supr. p. 32. &c.",
+            "Cyrill. p. 600.",
+            "August. in supr. p. 134."
+          ],
+          "p": 304
+        }
+      ],
+      "noteVersets": [
+        4,
+        5
+      ]
+    },
+    {
+      "n": 5,
+      "p": 297,
+      "lat": "Quandiu sum in mundo, lux sum mundi.",
+      "fr": "Tant que je suis dans le monde, je suis la lumière du monde.",
+      "note": ""
+    },
+    {
+      "n": 6,
+      "p": 297,
+      "lat": "Hæc cùm dixisset, expuit in terram, & fecit lutum ex sputo, & linivit lutum super oculos ejus,",
+      "fr": "Après avoir dit cela, il cracha à terre, & ayant fait de la boue avec sa salive il oignit de cette boue les yeux de l'aveugle,",
+      "note": [
+        {
+          "texte": "<em>℣. 6. jusqu'au 10. Après qu'il eut dit cela, il cracha à terre ; & ayant fait de la boue avec sa salive, il oignit de cette boue les yeux de l'aveugle, & lui dit : Allez vous laver dans la piscine de Siloé, qui signifie Envoyé. Il y alla donc, &c.</em>\nLorsque JESUS-CHRIST eut dit ces choses, c'est-à-dire, après qu'il eut déclaré que cet homme étoit né aveugle, afin que la gloire de Dieu éclatât en lui ; qu'il falloit qu'il fit les œuvres de celui qui l'avoit envoyé, & qu'il étoit la lumière du monde ; il fit cette boue qui devoit guérir l'aveugle. Car il vouloit qu'on jugeât par-là, qu'il avoit dessein de confirmer par ses actions la vérité de ce qu'il venoit de dire. Mais d'où vient qu'il fait de la boue pour oindre les yeux de cet homme, puisque rien n'y paroissoit plus contraire ? Et pourquoi se sert-il de sa salive, & non pas d'eau commune, pour composer cette boue ? On en rend beaucoup de raisons : mais il suffira peut-être de marquer ici premièrement, que plus la chose dont il se servoit sembloit être contraire à la vue, plus elle étoit propre pour faire éclater la puissance de celui qui vouloit faire ce miracle. Secondement, le Sauveur fit voir, en se servant de cette boue pour guérir l'aveugle, qu'il pouvoit bien guérir dans l'homme un défaut de sa naissance avec cette espèce de limon, ainsi qu'il s'étoit servi de terre pour le former en le créant. En troisième lieu, la salive même qui étoit sortie du corps de JESUS-CHRIST avoit une vertu toute divine, & elle représentoit d'ailleurs admirablement, dans le mélange qui en étoit fait avec la terre, le mystère de son Incarnation, où la Sagesse éternelle s'est mêlée, pour le dire ainsi, & unie si parfaitement avec la terre de notre nature, dans la personne du Fils de Dieu, pour guérir l'aveuglement de tous les hommes figurés par ce seul aveugle.",
+          "marges": [
+            "in Joan. hom. 55. p. 355. 356."
+          ],
+          "p": 305
+        },
+        {
+          "texte": "On peut demander encore, pourquoi J. C. qui auroit pu d'une parole guérir cet aveugle, non-seulement se servit de cette boue, mais ne voulut pas même se contenter de l'en avoir oint, & l'envoya aussitôt après se laver dans la piscine de Siloé. Les Pères disent que ce fut pour rendre le miracle d'au<a class=\"page-inline\" href=\"page-306.html\" title=\"p. 306\">‖</a>tant plus public & plus authentique, que cet aveugle, dont les yeux avoient été oints de cette boue, devoit être vu de plus de personnes dans le chemin, en allant à la piscine de Siloé ; & ils ajoutent, qu'il étoit même besoin que sa foi fût éprouvée par cet ordre que J. C. lui donna. S'il n'avoit été en effet fort simple & fort humble dans l'obéissance qu'il lui rendit, il eût pu dire en lui-même : Si c'est cette boue formée par la main de J. C. qui me doit guérir, pourquoi m'envoyer à Siloé ? Et s'il est besoin que j'aille me laver dans Siloé, pourquoi m'oindre avec de la boue ? Il n'use point de tous ces raisonnemens, ni d'autres semblables. Il obéit ponctuellement à ce que Jesus lui commande, parce que celui-là même qui avoit d'abord jeté sur lui un regard si favorable, inspira au fond de son cœur cette humble soumission pour ce qu'il lui ordonnoit. Le Fils de Dieu voulut encore, selon saint Cyrille, faire connoître par la manière dont il en usa dans la guérison de cet aveugle, que ce n'étoit pas assez pour nous guérir, qu'il se fût fait homme par son Incarnation, ce qui étoit exprimé, comme on l'a dit, par le mélange mystérieux de la terre avec sa salive, & que nous le crussions par la foi ; mais qu'il falloit que le saint Baptême, rempli de la divine vertu de celui que le Père avoit envoyé, & figuré par les eaux de cette piscine, dont le nom même exprimoit sa mission, servît à nous appliquer l'effet des mérites de son Incarnation & de sa mort, en nous lavant effectivement de tous nos péchés, & en guérissant d'une manière tout-à-fait miraculeuse l'aveuglement criminel avec lequel nous naissons tous comme enfans d'Adam.",
+          "marges": [
+            "Cyrill. in supr. p. 602.",
+            "Chrysost. in supr."
+          ],
+          "p": 305
+        },
+        {
+          "texte": "Cet aveugle obéit donc à J. C., & fut guéri au moment qu'il se fut lavé par son ordre dans les eaux de la piscine de Siloé, qui étoit au pied de la montagne de Sion. Il revint ensuite <em>voyant clair</em>, & publia le miracle de sa guérison à tout le monde, sur-tout à ceux qui le connoissoient plus particulièrement, c'est-à-dire, <em>à ses voisins</em>, & à ceux qui avoient accoutumé de le voir <em>assis proche</em> la porte du temple. Cependant cette guérison si miraculeuse paroissoit presque incroyable, en même-temps que les uns disoient que cet homme qui voyoit alors si clair, étoit le même que l'aveugle-né qui leur demandoit ordinairement l'aumône ; d'autres soutenoient qu'il lui ressembloit seulement, & que ce n'étoit pas lui. Mais cet homme devint lui-même, dit saint Augustin, le prédicateur de la grâce de J. C., & il fit entendre cette voix de reconnoissance envers son libérateur : <em>c'est moi-même</em>, leur disoit-il, de peur que <a class=\"page-inline\" href=\"page-307.html\" title=\"p. 307\">‖</a>S'il eût manqué de gratitude, il ne méritât d'être condamné comme indigne de la grâce qu'il avoit reçue. Et l'on peut bien regarder cette contestation des Juifs au sujet de ce miracle, comme ayant servi à en relever beaucoup l'éclat ; puisque plus ils le trouvoient incroyable, plus ils étoient obligés d'admirer celui qui en étoit incontestablement l'auteur, n'étant pas possible, dit saint Cyrille, de douter du témoignage tout-à-fait irréprochable de celui qui avoit été guéri, & qui assuroit que c'étoit lui-même qui avoit été aveugle.",
+          "marges": [
+            "Chrysost. in supr.",
+            "Cyrille. in supr. p. 604."
+          ],
+          "p": 306
+        }
+      ],
+      "noteVersets": [
+        6,
+        10
+      ]
+    },
+    {
+      "n": 7,
+      "p": 297,
+      "lat": "& dixit ei : Vade, lava in natatoria Siloe, (quod interpretatur Missus.) Abiit ergo, & lavit, & venit videns.",
+      "fr": "& lui dit : Allez-vous laver dans la piscine de Siloé, qui signifie Envoyé. Il y alla donc, & s'y lava, & il s'en revint voyant clair.",
+      "note": ""
+    },
+    {
+      "n": 8,
+      "p": 297,
+      "lat": "Itaque vicini, & qui viderant eum priùs quia mendicus erat, dicebant : <a class=\"page-inline\" href=\"page-298.html\" title=\"p. 298\">‖</a>Nonne hic est, qui sedebat, & mendicabat ? Alii dicebant : Quia hic est ;",
+      "fr": "Ses voisins, & ceux qui l'avoient vu auparavant demander l'aumône, disoient : n'est-ce pas là <a class=\"page-inline\" href=\"page-298.html\" title=\"p. 298\">‖</a>cet aveugle qui étoit assis & qui demandoit l’aumône ? Les uns répondoient : c’est lui ;",
+      "note": "",
+      "nb": [
+        "℣. 8. gr. avoient vu auparavant qu'il étoit aveugle."
+      ]
+    },
+    {
+      "n": 9,
+      "p": 298,
+      "lat": "alii autem : Nequaquam, sed similis est ei. Ille vero dicebat : Quia ego sum.",
+      "fr": "d’autres disoient : non, c’en est un qui lui ressemble. Mais lui leur disoit : c’est moi-même.",
+      "note": ""
+    },
+    {
+      "n": 10,
+      "p": 298,
+      "lat": "Dicebant ergo ei : Quomodo aperti sunt tibi oculi ?",
+      "fr": "Ils lui demandoient donc : comment est-ce que vos yeux ont été ouverts ?",
+      "note": [
+        {
+          "texte": "<em>℣. 10. jusqu'au 13. Ils lui demandoient donc : Comment est-ce que vos yeux ont été ouverts ? Il leur répondit : Cet homme qu'on appelle JESUS, a fait de la boue, & en a oint mes yeux, & il m'a dit : Allez à la piscine de Siloé, &c.</em> On croit que ceux qui interrogeoient cet homme le firent avec une mauvaise intention, & non-seulement par le peu de foi qu'ils ajoûtoient à ce grand miracle, mais encore dans le dessein de nuire à J. C. La suite fait voir en effet qu'il y en avoit parmi eux qui étoient dans cette pensée, puisqu'ils eurent soin de mener eux-mêmes aux Pharisiens celui en qui ce miracle s'étoit fait, sachant bien qu'ils n'aimoient pas J. C., & qu'ils cherchoient les occasions de le perdre. Ce fut donc apparemment dans cette vue qu'ils lui demandèrent, <em>comment ses yeux avoient été ouverts</em> ; & qu'après avoir appris ce que J. C. avoit fait & avoit dit pour le guérir ; au lieu d'admirer sa bonté & sa puissance dans ce grand miracle, ils s'enquirent où il pouvoit être. Car il paroît qu'ils avoient dessein de l'arrêter lui-même, & de le conduire aux Pharisiens, s'ils l'avoient trouvé, pour lui faire un crime d'avoir violé la sainteté du Sabbat, en formant avec de la terre & de sa salive cette boue dont il oignit les yeux de l'aveugle.",
+          "marges": [
+            "Cyrille. in supr. p. 604.",
+            "Chrysost. p. 257.",
+            "Cyrille. in supr. p. 606.",
+            "Chrysost. in supr."
+          ],
+          "p": 307
+        }
+      ],
+      "noteVersets": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "n": 11,
+      "p": 298,
+      "lat": "Respondit : Ille homo, qui dicitur Jesus, lutum fecit, & unxit oculos meos, & dixit mihi : Vade ad natatoria Siloe ; & lava. Et abii, lavi, & video.",
+      "fr": "Il leur répondit : cet homme qu’on appelle Jesus a fait de la boue, & en a oint mes yeux, & il m’a dit : allez à la piscine de Siloé, & vous y lavez. J’y ai été, je m’y suis lavé, & je vois.",
+      "note": ""
+    },
+    {
+      "n": 12,
+      "p": 298,
+      "lat": "Et dixerunt ei : Ubi est ille ? Ait : Nescio.",
+      "fr": "Ils lui dirent : où est-il ? Il leur répondit : je ne sai.",
+      "note": ""
+    },
+    {
+      "n": 13,
+      "p": 298,
+      "lat": "Adducunt eum ad Pharisaeos, qui caecus fuerat.",
+      "fr": "Alors ils amenèrent aux Pharisiens cet homme qui avoit été aveugle.",
+      "note": [
+        {
+          "texte": "<em>℣. 13. jusqu'au 18. Alors ils amenèrent aux Pharisiens cet homme qui avoit été aveugle. Or c'étoit le jour du Sabbat que JESUS avoit fait cette boue, & lui avoit ouvert les yeux. Les Pharisiens l'interrogèrent donc, comment il avoit recouvré la vue, &c.</em> Ces Juifs qui sembloient favoriser les Pharisiens, n'ayant pu trouver JESUS, leur menèrent l'homme même qui d'aveugle-né étoit devenu clair-voyant. Et la remarque qui est faite par l'Evangéliste touchant le jour du Sabbat, auquel il avoit été guéri, fait assez juger du dessein qu'ils avoient pris de décrier son bienfaiteur, comme un ennemi de leur Religion. Les Pharisiens cependant, quelque indisposés qu'ils fussent à l'égard de J. C., le trouvèrent, par un effet singulier de sa <a class=\"page-inline\" href=\"page-308.html\" title=\"p. 308\">‖</a>puissance, partagées de sentimens sur la guérison de cet aveugle, soit que l’évidence du miracle forçât quelques-uns d’en convenir & d’en conclure que celui qui l’avoit fait, ne pouvoit pas être un méchant homme ; soit que ce fût Nicodème, ou quelqu’autre semblable à lui, qui n’eût point de part à tous leurs mauvais desseins. Quant aux autres, au lieu de dire, comme la raison sembloit l’exiger : Cet homme doit être un homme de Dieu, puisqu’il a pu faire un si grand miracle ; ils tirent cette conséquence ridicule : <em>Cet homme n’est point envoyé de Dieu, puisqu’il ne garde pas le Sabbat.</em> Quel excès, s’écrie S. Cyrille, de dire de J. C. qu’il n’étoit point un homme de Dieu, lorsque les œuvres qu’il faisoit étoient des œuvres tout-à-fait divines ; & de ne pouvoir souffrir qu’il fît du bien à un homme le jour du Sabbat, eux qui regardoient comme une chose permise en ce jour, de faire du bien à une bête, en la retirant d’une fosse où elle seroit tombée ?",
+          "marges": [
+            "Cyrill. S. Cyrille, p. 608."
+          ],
+          "p": 307
+        },
+        {
+          "texte": "Mais ils le condamnent visiblement par leurs paroles ; lorsqu’accablés par l’évidence d’un si grand miracle, ils tentent au moins de tirer de la propre bouche de celui qui avoit été guéri, quelque témoignage désavantageux à J. C. : <em>Et toi-même,</em> ajoutent-ils, <em>que dis-tu de cet homme qui t’a ouvert les yeux ?</em> Ils avouent donc que J. C. a ouvert les yeux d’un aveugle-né : que s’il est vrai qu’il les ait ouverts, il ne peut point l’avoir fait que par une vertu divine. Mais ils songent seulement, dit S. Cyrille, à presser cet homme de reconnoître que JESUS avoit violé la loi du Sabbat en le guérissant ; & ils espéroient qu’intimidé par leur fureur, il entreroit dans leurs sentimens ; ou au moins ils se préparaient à le chasser de leur Synagogue, s’il étoit assez hardi pour louer son bienfaiteur, & ils se flattoient d’étouffer ainsi l’éclat du miracle.",
+          "marges": [
+            "Cyrill. S. Cyrille, p. 611."
+          ],
+          "p": 308
+        },
+        {
+          "texte": "Mais Dieu opposa à la violente passion qui les animoit, la simplicité de celui qui avoit été guéri. Celui qui m’a ouvert les yeux, leur dit-il, est un <em>Prophète</em>, c’est-à-dire, un homme éminent en sainteté & en doctrine, tels qu’étoient ceux que le Seigneur envoyoit anciennement à son peuple, pour les secourir dans leurs besoins, & leur déclarer ses volontés, & dont il avoit accoutumé d’attester la mission par des signes & des prodiges. Car la connoissance qu’il avoit de J. C. étoit encore imparfaite. Admirez donc, dit S. Chrysostôme, la sagesse de ce pauvre qui fait la leçon aux plus éclairés d’entre les Juifs, & qui les surpasse en intelligence, parce qu’il n’a point le cœur gâté par la jalousie qui les aveugloit. Admirez <a class=\"page-inline\" href=\"page-309.html\" title=\"p. 309\">‖</a>Et fermeté à se soutenir contre le faux jugement de ces censeurs emportés de la conduite de J. C. Il ne craint point de déclarer que celui qui l'a guéri est un Prophète, quoique ceux qui l'interrogeoient l'eussent nommé un pécheur & un méchant homme. C'est Dieu même qui remue sa langue & son cœur, après lui avoir ouvert les yeux.",
+          "marges": [
+            "August. de supr. p. 134.",
+            "Chrysost. in Joan. hom. 57. p. 360."
+          ],
+          "p": 308
+        }
+      ],
+      "noteVersets": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "n": 14,
+      "p": 298,
+      "lat": "Erat autem sabbatum, quando lutum fecit Jesus, & aperuit oculos ejus.",
+      "fr": "Or c’étoit le jour du sabbat que Jesus avoit fait cette boue, & lui avoit ouvert les yeux.",
+      "note": [
+        {
+          "texte": "<em>Ils lui répondirent : Tu n'es que péché dès le ventre de ta mère, & tu veux nous enseigner. Et ils le chassèrent dehors.</em>\nTant qu'ils crurent pouvoir se servir de lui pour affoiblir dans l'esprit du peuple un si grand miracle, ils se contenoient. Mais le voyant déclaré pour J. C., <em>ils le chargèrent</em>, comme on l'a dit, <em>de malédictions</em> ; & ils l'outragèrent présentement de la manière la plus indigne, ne pouvant souffrir que celui qu'ils regardoient avec le dernier mépris, leur fit connoître leur égarement. <em>Tu n'es que péché dès le ventre de ta mère</em>, lui disent-ils ; c'est-à-dire, Etant né aveugle, tu as apporté avec toi la marque de ton péché. Car ils l'accusoient par-là d'être né aveugle à cause de la corruption de ses péchés, quoique ç'eût été, selon J. C., pour faire éclater la gloire de Dieu. <em>Et tu veux encore nous enseigner</em>, nous qui sommes établis en Israël pour instruire tous les autres ? Qu'il y a eu dans tous les siècles d'imitateurs de cette vaine présomption des Pharisiens, qui n'ont pu souffrir que la vérité qu'ils ignoroient leur fût annoncée par la bouche des petits, & qui par la fausse idée qu'ils avoient de leur science, n'ont pu se résoudre de reconnoître qu'ils s'étoient trompés ! Telle a été la source de toutes les hérésies qui sont nées du même principe de l'orgueil & de l'envie, qui cacha la divinité de J. C. à tous les anciens Docteurs. Qui ne tremblera en considérant qu'on peut se priver entièrement de la connoissance du Fils de Dieu, & des vérités qu'il nous enseigne, en s'abandonnant insensiblement aux mêmes passions qui privèrent les Pharisiens des fruits de son Incarnation, & qui en les attachant à la lettre de la loi, les empêchèrent de trouver la vie dans l'esprit même de cette loi ? Heureux fut cet homme à qui son aveuglement corporel devint par la grâce de J. C. une source de lumière pour connoître son Sauveur, dans le temps même que la science présomptueuse des Docteurs des Juifs fut la cause des ténèbres criminelles où ils se précipitèrent ! Heureux encore une fois fut cet homme, qui ayant été <a class=\"page-inline\" href=\"page-316.html\" title=\"p. 316\">‖</a>chassé dehors par les Prêtres de la loi & par les Scribes ; pour avoir osé soutenir la gloire de celui qui l’avoit guéri, mérita d’être reçu entre les bras de J. C., & de devenir par une foi éclairée l’un de ses disciples & de ses membres ! <em>Illi pellunt : accipit Dominus : magis enim, quia expulsus est, Christianus factus est.</em> Quelques-uns disent que ce fut de la Synagogue qu’ils le chassèrent. Mais cela est incertain. Et comme il n’avoit point encore confessé Jesus pour le CHRIST, ce qui étoit le sujet pour lequel les Pharisiens avoient résolu qu’on le chasseroit de la Synagogue, il paroît plus vraisemblable qu’ils le chassèrent simplement du lieu où ils l’avoient fait venir.",
+          "marges": [
+            "Chrysost. in Joan. hom. 57.",
+            "August. in Joan. tract. 44. p. 135."
+          ],
+          "p": 315
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "p": 298,
+      "lat": "Iterum ergo interrogabant eum Pharisaei, quomodo vidisset. Ille autem dixit eis : Lutum mihi posuit super oculos, & lavi, & video.",
+      "fr": "Les Pharisiens l’interrogèrent donc aussi eux-mêmes, comment il avoit recouvré la vue. Et il leur dit : il m’a mis de la boue sur les yeux ; je me suis lavé, & je vois.",
+      "note": ""
+    },
+    {
+      "n": 16,
+      "p": 298,
+      "lat": "Dicebant ergo ex Pharisaeis quidam : Non est hic homo à Deo, qui sabbatum non custodit. Alii autem dicebant : Quomodo potest homo peccator haec signa facere ? Et schisma erat inter eos.",
+      "fr": "Sur quoi quelques-uns des Pharisiens dirent : cet homme n’est point envoyé de Dieu, puisqu’il ne garde pas le sabbat. Mais d’autres disoient : comment un méchant homme pourroit-il faire de tels prodiges ? Et il y avoit sur cela de la division entr’eux.",
+      "note": "",
+      "nb": [
+        "℣. 16. leçtr. Pécheur."
+      ]
+    },
+    {
+      "n": 17,
+      "p": 298,
+      "lat": "Dicunt ergo caeco iterùm : Tu, quid dicis de illo qui aperuit oculos <a class=\"page-inline\" href=\"page-299.html\" title=\"p. 299\">‖</a>tnos ? Ille autem dixit :",
+      "fr": "Ils dirent donc de nouveau à l’aveugle : & toi, que dis-tu de cet homme qui t’a ouvert les yeux ? <a class=\"page-inline\" href=\"page-299.html\" title=\"p. 299\">‖</a>Il répondit : c'est un Prophète.",
+      "note": ""
+    },
+    {
+      "n": 18,
+      "p": 299,
+      "lat": "Non crediderunt ergo Judæi de illo, quia cæcus fuisset, & vidisset, donec vocaverunt parentes ejus qui viderat :",
+      "fr": "Mais les Juifs ne crurent point que cet homme eût été aveugle, & eût recouvré la vue, jusqu'à ce qu'ils eussent fait venir son père & sa mère,",
+      "note": [
+        {
+          "texte": "<em>Mais les Juifs ne crurent point que cet homme eût été aveugle & eût recouvré la vue, jusqu'à ce qu'ils eussent fait venir son père & sa mère, qu'ils interrogèrent en leur disant : Est-ce là votre fils que vous dites être né aveugle ? &c.</em> Voilà sans doute une étrange conséquence que tirent les Pharisiens de tout ce que cet aveugle, guéri miraculeusement, venoit de leur dire touchant le miracle de sa guérison, & du témoignage qu'il rendoit lui-même à celui qui l'avoit guéri. <em>Ils ne crurent point, dit l'Evangéliste, que cet homme eût été aveugle, & eût recouvré la vue.</em> Mais comment donc, dit S. Chrysostôme, accusoient-ils J. C. d'avoir violé la sainteté du sabbat en guérissant cet aveugle, s'il étoit vrai qu'il ne l'avoit point guéri ? Tant il est vrai que l'orgueil & la jalousie renversent toute la raison, & jettent ceux qui en ont le cœur possédé dans les plus grandes absurdités. Ainsi le mensonge, en attaquant la vérité, se détruit soi-même, & ne sert qu'à rendre la vérité plus évidente. Et c'est en effet une chose qui mérite d'être remarquée après ce grand Saint, que tout ce que firent ces Juifs envieux pour diminuer ou pour étouffer ce miracle, lui donna un nouvel éclat. Car tel est, dit-il, le caractère de la vérité, qu'elle s'affermit par les moyens mêmes que les gens du siècle emploient pour l'étouffer.",
+          "marges": [
+            "Chrysostôme, pag. 361. 362."
+          ],
+          "p": 309
+        },
+        {
+          "texte": "Afin donc qu'on ne pût dire que <em>les voisins de cet homme ; & ceux qui l'avoient vu auparavant demander l'aumône</em>, le trompoient en le prenant pour un autre, les Pharisiens font venir eux-mêmes son père & sa mère, qui ne pouvoient pas ne point connoître leur fils ; & ils contribuent malgré eux à mettre encore en une plus grande évidence la vérité de ce miracle. N'ayant pu intimider celui qui avoit été guéri, ni étouffer le témoignage qu'il rendoit à la sainteté de son bienfaiteur, ils espéroient se servir de ses plus proches, pour pouvoir au moins obscurcir le fait & le rendre moins certain. Ils les firent donc paroître au milieu de leur assemblée, continue S. Chrysostôme, afin de les effrayer, & leur demandèrent d'une manière qui marquoit assez leur mauvaise disposition : <em>Est-ce là votre fils ?</em> Car ils n'ajoutèrent pas, qui étoit aveugle ; mais, <em>que vous dites</em> <a class=\"page-inline\" href=\"page-310.html\" title=\"p. 310\">‖</a>être né aveugle : ce qui faisoit voir qu'ils ne croyoient point qu'il l'eût été, & qu'ils s'efforçoient de détruire la vérité de sa guérison miraculeuse par l'aversion qu'ils avoient conçue contre la personne de J. C.\nIl paroît donc qu'ils leur demandoient trois choses ; l'une ; si c'étoit leur fils ; l'autre, s'il avoit été aveugle ; & la troisième, <em>comment il voyoit présentement ?</em> Le père & la mère intimidés par la présence de ceux qui les interrogeoient, & par la fureur qu'ils remarquèrent sur leur visage, ne leur en avouèrent que deux, reconnoissant que c'étoit leur fils, & qu'il étoit né aveugle. Pour la troisième, ils témoignèrent l'ignorer, les renvoyant à leur fils même qui <em>avoit de l'âge</em>, comme ils le disent, & qui n'étant pas un enfant, pouvoit être cru sur son témoignage. Tout ce que les Pharisiens auroient souhaité, dit S. Cyrille, étoit qu'ils niassent que leur fils fut né aveugle. Mais quel moyen de les obliger de méconnoître leur propre fils, & de nier ce que tout le monde sçavoit comme eux ? Ils déclarèrent donc ce qu'ils ne pouvoient nier ; & ils se taisent par crainte sur ce qui sembloit demander moins leur témoignage que celui de l'aveugle même qui avoit été guéri. Quoiqu'ils dussent être dans la disposition de <em>défendre la justice jusqu'à la mort</em>, la crainte d'être chassés de la Synagogue, c'est-à-dire, excommuniés par les Juifs, agit avec plus de force sur leur esprit que l'amour de la vérité. Mais c'est cela même, dit S. Cyrille, qui doit nous faire juger de l'excès où s'abandonnoient les Pharisiens, par un effet de leur jalousie contre le Sauveur. Car de condamner à une aussi grande peine qu'étoit l'excommunication, ceux qui osoient <em>le reconnoître pour le CHRIST</em>, c'étoit fermer la bouche à la vérité ; c'étoit empêcher qu'on ne remarquât en lui l'accomplissement des prophéties, & qu'on ne le regardât comme ce Prophète que les Ecritures avoient prédit tant de siècles auparavant, devoir paroître dans la Judée, & y faire les mêmes œuvres qu'on voyoit faire à JESUS. Ceux qui sçavent combien ces sortes de menaces d'excommunication ont toujours paru terribles à ceux qui avoient de la piété, quelque injustes qu'elles puissent être d'ailleurs, ne seront point étonnés de l'effet qu'elles produisirent sur le père & sur la mère de cet homme que JESUS avoit guéri, puisqu'il a fallu que S. Augustin ait long-temps depuis affermi les vrais serviteurs de Dieu contre le scandale qu'elles pouvoient leur causer.",
+          "marges": [
+            "Chrysostôme, pag. 361. 362.",
+            "Cyrill. in Joan. pag. 613. 614.",
+            "Eccli. 4. 33.",
+            "Cyrill. in Joan. sup. 9. 61."
+          ],
+          "p": 309
+        }
+      ],
+      "noteVersets": [
+        18,
+        24
+      ]
+    },
+    {
+      "n": 19,
+      "p": 299,
+      "lat": "& interrogaverunt eos dicentes : Hic est filius vester, quem vos dicitis quia cæcus natus est ? Quomodo ergo nunc videt ?",
+      "fr": "qu'ils interrogèrent, en leur disant : est-ce là votre fils, que vous dites être né aveugle ? Comment est-ce donc qu'il voit maintenant ?",
+      "note": ""
+    },
+    {
+      "n": 20,
+      "p": 299,
+      "lat": "Responderunt eis parentes ejus, & dixerunt : Scimus quia hic est filius noster, & quia cæcus est :",
+      "fr": "Le père & la mère leur répondirent : nous savons que c'est là notre fils, & qu'il est né aveugle :",
+      "note": ""
+    },
+    {
+      "n": 21,
+      "p": 299,
+      "lat": "Quomodo autem nunc videat, nescimus : aut quis ejus aperuit oculos, nos nescimus. Ipsum interrogate, ætatem habet, ipse de se loquatur.",
+      "fr": "mais nous ne savons comment il voit maintenant : & nous ne savons pas non plus qui lui a ouvert les yeux. Interrogez-le, il a de l'âge ; * qu'il réponde pour lui-même.",
+      "note": ""
+    },
+    {
+      "n": 22,
+      "p": 299,
+      "lat": "Hæc dixerunt parentes ejus, quoniam timebant Judæos : jam enim conspiraverant Judæi, ut si quis eum confiteretur esse Christum, extra synagogam fieret.",
+      "fr": "La crainte que son père & sa mère avoient des Juifs les fit parler de la sorte : car les Juifs avoient déjà conspiré & résolu ensemble, que quiconque reconnoîtroit JESUS pour être le CHRIST, seroit chassé de la Synagogue.",
+      "note": ""
+    },
+    {
+      "n": 23,
+      "p": 299,
+      "lat": "Propterea parentes ejus dixerunt : Quia ætatem habet, ipsum interrogate.",
+      "fr": "Ce fut ce qui obligea le père & la mère de répondre : il a de l'âge, interrogez-le lui-même.",
+      "note": ""
+    },
+    {
+      "n": 24,
+      "p": 299,
+      "lat": "Vocaverunt ergo rursum hominem, qui fuerat cæcus, & dixerunt ei : Da gloriam Deo ; nos scimus quia hic homo peccator est.",
+      "fr": "Ils appelèrent donc une seconde fois cet homme qui avoit été aveugle, & lui dirent : rendez gloire à Dieu ; nous savons que cet homme est un pécheur.",
+      "note": [
+        {
+          "texte": "℣. 24 jusqu'au 29. <em>Ils appelèrent donc une seconde fois cet</em> <a class=\"page-inline\" href=\"page-311.html\" title=\"p. 311\">‖</a><em>homme qui avoit été aveugle, & lui dirent : Rends gloire à Dieu ; nous savons que cet homme est un pécheur. Il leur répondit : Si c'est un pécheur, je n'en sai rien. Tout ce que je sai, c'est que j'étois aveugle, &c.</em>",
+          "marges": [],
+          "p": 310
+        },
+        {
+          "texte": "Les Pharisiens n'osent pas dire ouvertement à cet homme, de nier que JESUS-CHRIST l'eût guéri. Mais se couvrant d'un masque de piété, ils veulent lui persuader la même chose. <em>Rends gloire à Dieu</em>, lui disent-ils ; ce qui étoit proprement lui dire : Reconnois que celui-ci ne t'a rien fait, & que c'est à Dieu que tu dois ta guérison, & toute ta reconnoissance. Rien n'étoit plus juste en soi que de <em>rendre gloire à Dieu</em> d'une guérison si miraculeuse, car il n'y avoit que Dieu qui pût guérir un aveugle-né. Mais leur dessein étoit criminel, puisqu'en décriant JESUS-CHRIST, ils s'efforçoient d'empêcher qu'on ne reconnût que celui qui avoit fait ce miracle étoit vraiment Dieu lui-même. <em>Nous savons</em>, lui disent-ils, <em>que cet homme est un pécheur</em>, c'est-à-dire un méchant & un scélérat. Quel orgueil de se vanter, comme ils font, <em>de savoir que celui qui étoit venu dans le monde pour détruire le péché, étoit lui-même un pécheur !</em> Mais comment le savoient-ils, & sur quoi étoit fondée cette science dont ils se vantoient, sinon sur leur propre présomption, & sur l'estime qu'ils s'imaginoient qu'on dût faire de leurs sentimens ? Car s'ils s'étoient appuyés sur la connoissance de la loi & des Prophètes, ils auroient pu, dit un Père, y trouver ce qu'un Prophète avoit prédit devoir arriver vers le temps de l'avénement du Messie : <em>Que les yeux des aveugles seroient ouverts, & les pieds de ceux qui étoient estropiés rendus aussi vîtes que ceux des cerfs</em> ; ce qui s'étoit accompli à la lettre en la personne du paralytique, & en celle de l'aveugle-né.",
+          "marges": [
+            "Chrysost. in suprà p. 362.",
+            "Cyrill. pag. 616. 617."
+          ],
+          "p": 311
+        },
+        {
+          "texte": "<em>Si c'est un pécheur</em>, leur répondit cet homme, <em>je n'en sai rien</em> ; ce qu'il ne dit pas par crainte, & comme s'il eût douté de la sainteté de JESUS-CHRIST ; mais pour les convaincre avec plus de force de leur faux raisonnement. Car ils se seroient moqués de lui, s'il eût entrepris de leur prouver par de longs discours, que c'étoit un vrai miracle que JESUS-CHRIST avoit fait en sa personne. Mais il vouloit par le seul récit du fait leur fermer la bouche, sans qu'ils pussent lui rien répondre : <em>Tout ce que je sai</em>, ajouta-t-il, <em>c'est que j'étois aveugle, & que je vois maintenant</em> ; ce qui est la même chose que s'il eût dit : Je ne juge que des choses dont je suis témoin moi-même, je sai que je ne me trompe point quand je dis que <em>j'étois aveugle</em> ; & je sai que je ne me trompe point aussi quand j'assure que je vois clair main<a class=\"page-inline\" href=\"page-312.html\" title=\"p. 312\">‖</a>tenant. Comme ils ne pouvoient rien reprendre dans la réponse si simple & si forte de celui dont nous parlons, ils lui demandèrent de nouveau tout interdits : <em>Mais que l’a-t-il fait, & comment l’a-t-il ouvert les yeux ?</em> C’est-à-dire, comme l’explique saint Chrysostôme : N’est-ce point par quelque magie & par quelque espèce d’enchantement ? Car ils ne pouvoient se persuader que ce fût un vrai miracle, & l’on voit ailleurs que lorsqu’il chassoit les démons des corps, ils aimoient mieux l’accuser de le faire au nom & par la puissance de Beelzebuth.",
+          "marges": [
+            "Chrysost. ibid. p. 363.",
+            "Cyrill. ibid. p. 118.",
+            "Chrysost. p. 361.",
+            "Matth. 12. 24.",
+            "Chrysost. p. 364."
+          ],
+          "p": 311
+        },
+        {
+          "texte": "Alors cet homme, qui connut très-clairement que ce n’étoit pas la vérité qu’ils cherchoient, & que le miracle de sa guérison étoit trop bien attesté pour pouvoir être révoqué en doute, fit connoître, dit saint Chrysostôme, combien la vérité dans la bouche même d’un pauvre, étoit plus forte que la calomnie dans la bouche de tous les Docteurs. Il ne se mit plus en peine de les ménager ; & les jugeant tout-à-fait indignes d’un plus grand éclaircissement, il leur reprocha de ce qu’ils vouloient l’obliger à répéter les mêmes choses, sans avoir dessein d’y ajouter foi. Il leur fit voir la folie qu’il y avoit à vouloir toujours entendre la vérité, lorsqu’on fermoit les oreilles de son cœur pour ne l’y pas recevoir. Et il eut même assez de courage pour leur demander, <em>s’ils avoient dessein de se rendre aussi ses disciples</em>, quoiqu’il pût croire que cette demande devoit les choquer beaucoup. Car à mesure qu’il faisoit paroître sa gratitude envers Jesus-Christ par la défense généreuse de sa gloire, il se sentoit fortifié par une nouvelle grâce, pour ne rien craindre de la part de ces faux zélés de la Loi. Ainsi, selon les saints Interprètes, il ne craint point maintenant de se déclarer le disciple de JESUS-CHRIST. Car ils croyoient qu’en leur demandant <em>s’ils ne vouloient point aussi devenir ses disciples</em>, il entendoit, aussi-bien que lui, quoiqu’il n’eût pas encore reçu une foi parfaite, comme il l’a reçue depuis. Saint Cyrille dit néanmoins, qu’il pouvoit avoir un désir sincère d’inspirer à ces Pharisiens le même respect qu’il avoit pour une personne aussi admirable qu’étoit celle de qui il avoit reçu sa guérison ; & que c’étoit même une espèce de reconnoissance de la faveur que Jesus lui avoit faite, de s’efforcer de les attirer à lui par son exemple.",
+          "marges": [
+            "Chrysost. ibid.",
+            "Cyrill. in Joan. lib. 6. p. 119. 120."
+          ],
+          "p": 312
+        },
+        {
+          "texte": "Mais ceux à qui ils parloient étoient des sourds spirituels ou des frénétiques, qui s’emportoient de fureur contre ceux qui désiroient leur faire du bien. <em>Ils chargèrent donc de malédiction & d’injures</em> cet homme qui ne leur disoit que la vérité, & qui <a class=\"page-inline\" href=\"page-313.html\" title=\"p. 313\">‖</a>ne les invitoit qu'à jouir de ce bonheur qu'ils avoient de posséder au milieu d'eux celui qui étoit tout-puissant pour les sauver. Mais cette même <em>malédiction</em> tomba sur leurs têtes : & en refusant d'être du nombre de ses disciples, lorsqu'ils dirent avec exécration à cet homme, <em>Sois toi-même son disciple ;</em> ils prononçoient la plus terrible malédiction contre eux-mêmes, puisque le plus grand malheur pour eux étoit de renoncer à devenir les disciples de JESUS. Quant à ce qu'ils ajoutèrent, qu'<em>ils étoient les disciples de Moyse</em>, ils ne savoient pas non plus ce qu'ils disoient. Car ils n'étoient véritablement, dit saint Chrysostôme, ni les disciples de Moyse, ni les disciples de JESUS-CHRIST ; puisque s'ils l'avoient été de Moyse, ils l'auroient été de JESUS-CHRIST, selon qu'il leur a dit ailleurs : <em>Si vous croyez Moyse, vous me croiriez aussi, parce que c'est de moi qu'il a écrit.</em>",
+          "marges": [
+            "Joan. 5. 46."
+          ],
+          "p": 312
+        }
+      ],
+      "noteVersets": [
+        24,
+        29
+      ]
+    },
+    {
+      "n": 25,
+      "p": 299,
+      "lat": "Dixit ergo eis ille : Si peccator est, nescio : unum scio quia cæcus cùm <a class=\"page-inline\" href=\"page-300.html\" title=\"p. 300\">‖</a>caecus eram, modò video.",
+      "fr": "Il leur répondit : Si c'est un pécheur, je n'en fais rien : tout ce que je sais, c'est que j'étois <a class=\"page-inline\" href=\"page-300.html\" title=\"p. 300\">‖</a>aveugle, & que je vois maintenant.",
+      "note": "",
+      "nb": [
+        "* 21. gr. il répondra lui-même."
+      ]
+    },
+    {
+      "n": 26,
+      "p": 300,
+      "lat": "Dixerunt ergo illi : Quid fecit tibi ? Quomodo aperuit tibi oculos ?",
+      "fr": "Ils lui dirent encore : que t’a-t-il fait ? Et comment t’a-t-il ouvert les yeux ?",
+      "note": ""
+    },
+    {
+      "n": 27,
+      "p": 300,
+      "lat": "Respondit eis : Dixi vobis jam, & audistis ; quid iterùm vultis audire ? Numquid & vos vultis discipuli ejus fieri ?",
+      "fr": "Il leur répondit : je vous l’ai déjà dit, * & vous l’avez entendu. Pourquoi voulez-vous l’entendre encore une fois ? Est-ce que vous voulez aussi devenir ses disciples ?",
+      "note": "",
+      "nb": [
+        "℣. 27. gr. ne l’avez-vous pas entendu ?"
+      ]
+    },
+    {
+      "n": 28,
+      "p": 300,
+      "lat": "Maledixerunt ergo ei, & dixerunt : Tu discipulus illius sis ; nos autem Moysi discipuli sumus.",
+      "fr": "Mais eux le chargèrent d’injures, & lui dirent : sois toi-même son disciple ; mais pour nous, nous sommes les disciples de Moyse.",
+      "note": ""
+    },
+    {
+      "n": 29,
+      "p": 300,
+      "lat": "Nos scimus quia Moysi locutus est Deus ; hunc autem nescimus unde sit.",
+      "fr": "Nous savons que Dieu a parlé à Moyse ; mais pour celui-ci, nous ne savons d’où il est.",
+      "note": [
+        {
+          "texte": "<em>℣. 29. jusqu'au 34. Nous savons que Dieu a parlé à Moyse : mais pour celui-ci, nous ne savons d'où il est. Cet homme leur répondit : C'est ce qui est étonnant, que vous ne sachiez d'où il est, & qu'il m'ait ouvert les yeux. Or nous savons que Dieu n'exauce point les pécheurs, &c.</em>",
+          "marges": [],
+          "p": 313
+        },
+        {
+          "texte": "Les Juifs savoient par les saintes Ecritures, & par la tradition constante qui s'étoit conservée parmi eux, que <em>Dieu avoit parlé à Moyse</em> pour lui faire entendre ses commandemens, & lui prescrire les ordonnances qui regardoient le gouvernement du peuple Juif. C'étoit sur cela que s'appuyoient les Pharisiens, pour s'attacher uniquement à écouter ce législateur. Et c'est le prétexte dont ils se couvraient préférentement pour rejeter l'autorité de JESUS-CHRIST, dont ils parlent avec le dernier mépris, lorsqu'ils ajoutent : <em>Mais pour celui-ci nous ne savons d'où il est</em> ; c'est-à-dire, quelle est son autorité & sa mission, lui qui prétend réformer les ordonnances de Moyse. C'étoit donc un simple prétexte qui servoit à mettre à couvert la jalousie qui les aveugloit ; puisqu'ils auroient pu savoir par Moyse même, à qui Dieu avoit parlé, <em>d'où venoit JESUS</em>, si en respectant la loi dans une de ses parties, ils ne l'avoient pas, dit saint Cyrille, rejetée dans la principale, qui regardoit la prophétie de l'Incarnation ; s'attachant ainsi aux figures, & méprisant la vérité même.",
+          "marges": [
+            "Cyrill. in Joan. p. 623."
+          ],
+          "p": 313
+        },
+        {
+          "texte": "C'est ce que cet homme qui mérita de devenir le défenseur de la divinité de J. C., leur reproche d'une manière très-solide dans sa réponse. <em>Il est étonnant</em>, leur dit-il, <em>que vous ne sachiez d'où il est, & qu'il m'ait ouvert les yeux</em> ; comme s'il leur avoit <a class=\"page-inline\" href=\"page-314.html\" title=\"p. 314\">‖</a>dit : Vous qui connoissez les Ecritures, & qui en étant les Interprètes devez être plus éclairés que tout le reste des Juifs, comment ne reconnoissez-vous pas qu’un homme qui m’a ouvert si miraculeusement <em>les yeux</em>, ne peut être qu’un grand Prophète ? Vous dites que <em>vous sçavez que Dieu a parlé à Moyse</em>, & qu’au contraire <em>vous ne sçavez d’où est celui-ci.</em> Mais <em>nous sçavons bien</em> aussi nous autres, tout ignorans que nous sommes, <em>que Dieu n’exauce point les pécheurs</em> ; c’est-à-dire, c’est une chose connue de tout le monde, qu’il n’accorde point le pouvoir de faire de tels miracles à ceux qui pèchent contre ses préceptes, & qui violent sa loi, comme vous en accusez celui qui m’a donné la vue ; mais que ce grand privilège est réservé <em>aux vrais serviteurs de Dieu, qui accomplissent sa volonté.</em>",
+          "marges": [],
+          "p": 313
+        },
+        {
+          "texte": "En cela, dit saint Cyrille, cet homme encore imparfait dans sa foi, parloit du Sauveur d’une manière trop rabaissée, ne connoissant pas qu’il étoit Dieu aussi-bien qu’homme, & que selon sa nature divine il n’avoit aucun besoin d’être <em>exaucé</em>, lui qui pouvoit exaucer les hommes. Mais ce qu’il disoit avoit néanmoins une grande force contre ceux qu’il réfutoit, puisqu’ils ne considéroient effectivement J. C. que comme un homme.",
+          "marges": [
+            "Cyrill. p. 625."
+          ],
+          "p": 314
+        },
+        {
+          "texte": "Saint Augustin trouve aussi dans ces paroles un grand défaut, qui est que la proposition prise en général n’est pas véritable, <em>Que Dieu n’exauce point les pécheurs</em> ; puisque si Dieu ne les exauçoit, le Publicain auroit inutilement baissé les yeux vers la terre, & dit en frappant sa poitrine, <em>Mon Dieu, ayez pitié de moi, qui suis un pécheur.</em> Mais il est visible qu’on doit restreindre cette proposition au sens que l’on a marqué, & que le mot d’exaucer s’entend ici seulement du pouvoir que Dieu donnoit de faire ces grandes merveilles en faveur des hommes, puisque c’est de quoi il s’agissoit entre celui que le Fils de Dieu avoit guéri, & les Pharisiens qui décrioient J. C. comme un misérable.",
+          "marges": [
+            "August. In Joan. tract. 44. p. 135.",
+            "Luc. 18. v. 13."
+          ],
+          "p": 314
+        },
+        {
+          "texte": "Ainsi c’est avec raison que cet homme généreux conclut contre les Pharisiens par cette déclaration, que le même saint a regardée comme également & hardie & véritable, <em>libre, constante, veraciter : Si cet homme ne venoit de la part de Dieu, il ne pourroit rien faire de ce qu’il fait.</em> Celui qui avoit reçu tout nouvellement la vue, avoit les yeux plus perçans pour connoître la vérité, que ces Juifs qui se vantoient d’être savans dans la loi. Car il jugea bien que la guérison d’un aveugle-né, <em>dont on n’a voit point encore entendu parler depuis le commencement du monde</em>, ne pouvoit être que l’effet de la puissance de Dieu ; <a class=\"page-inline\" href=\"page-315.html\" title=\"p. 315\">‖</a>Et que cette divine puissance ne se trouveroit point dans un homme qui ne venoit pas de la part de Dieu ; parce que Dieu ne communique point sa puissance à des étrangers qu'il ne connoît point pour ses Ministres. Quoiqu'il soit vrai donc qu'on avoit vu autrefois les magiciens de Pharaon faire en apparence une partie des prodiges que Dieu faisoit réellement par le ministère de Moyse son serviteur ; c'étoient des trompeurs qui se virent obligés de reconnoître à la fin <em>la main de Dieu</em> dans ce qu'ils ne purent faire eux-mêmes.",
+          "marges": [
+            "Cyrill. p. 627.",
+            "Exod. 8. 18. 19."
+          ],
+          "p": 314
+        }
+      ],
+      "noteVersets": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "n": 30,
+      "p": 300,
+      "lat": "Respondit ille homo, & dixit eis : In hoc enim mirabile est, quia vos nescitis unde sit, & aperuit meos oculos.",
+      "fr": "Cet homme leur répondit : c’est ce qui est étonnant, que vous ne sachiez d’où il est, & qu’il m’ait ouvert les yeux.",
+      "note": ""
+    },
+    {
+      "n": 31,
+      "p": 300,
+      "lat": "Scimus autem quia peccatores Deus non audit : sed si quis Dei cultor est, & voluntatem ejus facit, hunc exaudit.",
+      "fr": "Or nous savons que Dieu n’exauce point les pécheurs : mais si quelqu’un l’honore, & qu’il fasse sa volonté, c’est celui-là qu’il exauce.",
+      "note": ""
+    },
+    {
+      "n": 32,
+      "p": 300,
+      "lat": "A sæculo non est auditum, quia quis aperuit oculos cæci nati.",
+      "fr": "Depuis que le monde est, on n’a jamais ouï dire que personne ait ouvert les yeux à un aveugle né.",
+      "note": ""
+    },
+    {
+      "n": 33,
+      "p": 300,
+      "lat": "Nisi esset hic à Deo ; non poterat facere quidquam.",
+      "fr": "Si cet homme n’étoit point envoyé de Dieu, il ne pourroit rien faire de tout ce qu’il fait.",
+      "note": ""
+    },
+    {
+      "n": 34,
+      "p": 300,
+      "lat": "Responderunt, & dixerunt ei : In peccatis natus es totus, & tu doces nos ? Et ejecerunt eum foras.",
+      "fr": "Ils lui répondirent : tu n’es que péché dès le ventre de ta mère, & tu veux nous enseigner ? Et ils le chassèrent dehors.",
+      "note": ""
+    },
+    {
+      "n": 35,
+      "p": 300,
+      "lat": "Audivit Jesus quia ejecerunt eum foras ; & <a class=\"page-inline\" href=\"page-301.html\" title=\"p. 301\">‖</a>Cùm invenisset eum, dixit ei : Tu credis in Filium Dei ?",
+      "fr": "Jesus apprit qu’ils l’avoient ainsi chassé ; & l’ayant rencontré, <a class=\"page-inline\" href=\"page-301.html\" title=\"p. 301\">‖</a>JESUS l'ayant trouvé, il lui dit : croyez-vous au Fils de Dieu ?",
+      "note": [
+        {
+          "texte": "<em>℣. 35. jusqu’au 39. JESUS apprit qu’on l’avoit ainsi chassé ; & l’ayant rencontré, il lui dit : Croyez-vous au Fils de Dieu ? Il lui répondit : Qui est-il, Seigneur, afin que je croie en lui ? Jesus lui dit : Vous l’avez vu ; & c’est celui-là même qui parle à vous, &c.</em> Il est dit d’une manière humaine, que Jesus apprit ce qu’il savoit par lui-même, sans qu’il fût besoin que personne lui parlât. Il attendit donc que cet homme eût été chassé par les Docteurs & par les Pharisiens, & qu’on l’en eût averti, pour lui faire part de la grâce de la loi nouvelle. On ne peut pas néanmoins douter qu’il ne l’eût déjà intérieurement assisté, pour lui faire soutenir avec tant de force & de lumière la sainteté de son bienfaiteur. Mais il ne lui avoit point encore fait connoître qu’il étoit le CHRIST. Et c’est ce qu’il fait présentement en le rencontrant, non par hasard, mais par un effet de sa bonté & de sa grâce prévenante. Car on voit dans la conversion de cet homme une image & une preuve admirable de la divine miséricorde, qui va au-devant de ceux qui sont dans son éternelle élection. Combien de gens étoient rencontrés par J. C., sans qu’il s’arrêtât à eux ? À combien d’autres parloit-il, sans qu’ils l’écoutassent avec cette attention & ces oreilles du cœur qu’il donne lui-même, & qui sont absolument nécessaires pour se rendre & obéir à sa voix ? Il lui demande d’abord, <em>s’il croyoit au Fils de Dieu.</em> Il savoit qu’il n’y croyoit pas, puisque même il ne le connoissoit pas : mais il lui fait cette demande, pour exciter en lui le désir de connoître ce qui lui étoit inconnu, & pour l’engager par là à lui en demander la connoissance. Car Dieu conduit par degrés ceux qu’il aime, ne les faisant arriver ordinairement à la mesure de la perfection à laquelle il les destine, qu’après diverses démarches, qui selon l’ordre de sa providence, doivent précéder. Aussi dans l’instant que Jesus lui eut fait cette demande, <a class=\"page-inline\" href=\"page-317.html\" title=\"p. 317\">‖</a>Il répondit avec une ardeur extraordinaire, qui témoignoit son excellente préparation à recevoir la vérité : <em>Qui est-il, Seigneur, afin que je croie en lui ?</em> Sur quoi il faut remarquer qu'il n'avoit point vu auparavant J. C., parce qu'il ne fut guéri qu'après qu'il se fut lavé à la piscine de Siloé, & qu'il ne le trouva point à son retour, ayant témoigné aux Juifs, qu'il ne savoit pas où il étoit. Ainsi le Sauveur l'ayant rencontré depuis, il put bien ne le pas connoître d'abord pour celui qui l'avoit guéri, n'ayant point vu son visage ; à moins que sa voix ne lui fût connue. Quoi qu'il en soit, J. C. se faisant connoître à lui pour le Fils de Dieu, lui dit : <em>Vous l'avez vu</em>, c'est-à-dire, Grotius comme l'explique saint Cyrille, vous le voyez présentement ; ou, selon d'autres, c'est celui dont vous avez éprouvé la divine vertu, en recouvrant la vue. <em>Et c'est celui-là même qui parle à vous.</em> Ce saint Docteur nous fait remarquer dans la manière dont Jesus déclare à cet homme qui il est, & dans les termes dont il se sert pour cela, le mystère d'une très-grande sagesse. Car en disant, comme il fait, <em>Vous l'avez vu</em>, ou vous le voyez de vos propres yeux, & <em>c'est lui-même qui vous parle</em> présentement, il fait connoître que l'union que le Fils de Dieu avoit contractée avec la nature humaine, étoit si parfaite, qu'on pouvoit dire véritablement que le Verbe & le Fils unique du Père éternel se faisoit & voir aux yeux, & entendre aux oreilles de celui à qui il parloit alors.",
+          "marges": [
+            "Chrysost. in Joan. hom. 58. p. 569.",
+            "Cyrille ut supr. p. 330. 631.",
+            "v. 12.",
+            "Grotius in hunc locum.",
+            "Cyrille ut supr. p. 632."
+          ],
+          "p": 316
+        },
+        {
+          "texte": "Quelle surprise & quelle bénédiction pour ce pauvre homme rejeté des Pharisiens, d'entendre dire tout-d'un-coup à J. C., qu'il étoit le Fils de Dieu, & par conséquent Dieu lui-même ! On avoit vu autrefois Tobie & son fils tomber le visage contre terre, tout saisis de trouble & de frayeur, après avoir entendu dire à celui qui avoit conduit le jeune Tobie dans le royaume des Mèdes, qu'il étoit l'Ange Raphaël, l'un des sept Esprits qui assistoient continuellement devant le Seigneur. En quels transports fut donc cet homme, lorsqu'il entendit de la propre bouche du Fils de Dieu, que c'étoit lui-même, & qu'il le voyoit, & qui lui parloit ? Sa disposition toutefois n'étoit ni de trouble, ni de crainte, mais de confiance, par l'effet qu'il avoit déjà senti de la bonté toute singulière de celui qui l'avoit guéri. Et faisant à l'heure même, sans hésiter en aucune sorte, la profession de sa foi en J. C., comme Fils de Dieu : <em>Je crois, Seigneur</em>, s'écria-t-il ; puis se prosternant avec un profond respect, <em>il l'adora comme son Dieu</em>, dit saint Cyrille, quoiqu'il le vît environné d'une chair mortelle, & dépouillé extérieure<a class=\"page-inline\" href=\"page-318.html\" title=\"p. 318\">‖</a>ment de la gloire qui convenoit à sa nature divine. Car si les yeux de son corps pouvoient être scandalisés par la vue de cet état si rabaissé d’un homme-Dieu, son cœur étoit éclairé par une lumière intérieure, qui lui faisoit pénétrer jusqu’à la gloire & à la puissance de sa divinité, dont il avoit ressenti un effet si particulier dans la guérison miraculeuse de sa vue.",
+          "marges": [
+            "Tob. 12. 15.",
+            "15. 16.",
+            "Cyrill. in Joan. p. 633."
+          ],
+          "p": 317
+        }
+      ],
+      "noteVersets": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "n": 36,
+      "p": 301,
+      "lat": "Respondit ille, & dixit : Quis est, Domine, ut credam in eum ?",
+      "fr": "Il lui répondit : qui est-il, Seigneur, afin que je croie en lui ?",
+      "note": ""
+    },
+    {
+      "n": 37,
+      "p": 301,
+      "lat": "Et dixit ei Jesus : Et vidisti eum, & qui loquitur tecum, ipse est.",
+      "fr": "JESUS lui dit : vous l'avez vu, & c'est celui-là même qui parle à vous.",
+      "note": ""
+    },
+    {
+      "n": 38,
+      "p": 301,
+      "lat": "At ille ait : Credo, Domine ; & procidens adoravit eum.",
+      "fr": "Il lui répondit : je crois, Seigneur ; & se prosternant il l'adora.",
+      "note": ""
+    },
+    {
+      "n": 39,
+      "p": 301,
+      "lat": "Et dixit Jesus : In judicium ego in hunc mundum veni, ut qui non vident videant, & qui vident cæci fiant.",
+      "fr": "Et JESUS ajouta : je suis venu dans le monde pour exercer un jugement, afin que ceux qui ne voient point voient, & que ceux qui voient deviennent aveugles. <a class=\"page-inline\" href=\"page-318.html\" title=\"p. 318\">‖</a>Et Jesus ajouta : Je suis venu en ce monde pour exercer un jugement, afin que ceux qui ne voient point, voient ; & que ceux qui voient deviennent aveugles.",
+      "note": [
+        {
+          "texte": "Le Fils de Dieu marquant autrefois par la bouche d’Isaïe le sujet de son Incarnation, avoit dit : <em>L’Esprit du Seigneur s’est reposé sur moi, & m’a consacré par son onction. Il m’a envoyé annoncer sa parole aux pauvres, & le recouvrement de la vue aux aveugles.</em> Comment donc, dit saint Cyrille, celui qui avoit prédit que son Père l’envoyeroit guérir les aveugles, déclare-t-il en ce lieu, <em>Qu’il est venu en ce monde pour faire éclater ce terrible jugement, que ceux mêmes qui voient deviendroient aveugles ? JESUS-CHRIST a-t-il donc été ministre du péché, s’écrie saint Paul ? A Dieu ne plaise.</em> Mais voici de quelle manière ce passage peut être expliqué. Le Fils de Dieu qui avoit presque toujours en vue de rabaisser la vaine enflure des Scribes, & de confondre la fausse justice & la science présomptueuse des Pharisiens, prend occasion du double miracle par lequel il avoit ouvert les yeux du corps, & les yeux du cœur de cet homme dont nous parlons, pour faire voir que son Incarnation produisoit à l’égard des hommes deux effets terriblement différens. Et c’est ce que le saint vieillard Siméon avoit dit dès la naissance de J. C., <em>Qu’il étoit pour la ruine & pour la résurrection de plusieurs dans Israël.</em> Ainsi il est vrai que le Fils de Dieu <em>est venu dans le monde par son Incarnation, pour donner à son peuple</em>, comme dit Zacharie, <em>la connoissance du salut, afin qu’il obtienne la rémission de ses péchés ; & pour éclairer ceux qui étoient assis dans les ténèbres & dans l’ombre de la mort.</em> Telle a été, selon l’Ecriture, la fin que le Verbe s’est proposée en se faisant homme, & qu’il accomplit encore tous les jours, jusqu’à ce que le corps mystique de J. C. soit entièrement formé par l’union & par la perfection de tous ses membres ; ou, comme il est dit ailleurs, <em>jusqu’à ce que le nombre des frères & des serviteurs de Dieu soit accompli.</em> Mais par un effet effroyable de l’orgueil des hommes, ce même Soleil de justice, qui s’étoit levé pour communiquer sa lumière aux hommes, aveugloit encore plus ceux, qui enflés de leur science & de leur fausse vertu, <a class=\"page-inline\" href=\"page-319.html\" title=\"p. 319\">‖</a>timoient mieux, selon la parole de J. C., leurs ténèbres que sa lumière. Tels étoient ces Pharisiens & ces Docteurs de la loi, à qui le Sauveur s’adressoit plus particulièrement alors. Et tels seront dans la suite de tous les siècles, ceux qui attachés plutôt à la lumière trompeuse de leur esprit propre qu’à celle de l’Evangile, <em>ne peuvent souffrir</em>, comme dit saint Paul, <em>la saine doctrine, & ferment l’oreille à la vérité.</em> C’étoit donc un sujet terrible de jugement & de condamnation pour ces hommes orgueilleux de l’ancienne loi, qui se regardoient comme éclairés en comparaison du commun des Juifs, de tomber dans le dernier aveuglement, par le mépris qu’ils faisoient de la lumière qui se présentoit à eux, dans le temps même que ceux qu’ils traitoient d’aveugles & d’ignorans, avoient le bonheur de découvrir cette divine lumière qui éclaircit & dissipoit leurs ténèbres. Mais pour achever l’éclaircissement de ces paroles de J. C., il est nécessaire de voir la suite.",
+          "marges": [
+            "Cyrill. ibid. p. 633. &c.  Isaï. 61.",
+            "Galat. 2. 17.",
+            "Luc. 2. 34.",
+            "Ib. c. 1. 77. 79.",
+            "Apoc. 6. 11.",
+            "Joan. 3. 19.",
+            "2. Tim. 4. 3. 4."
+          ],
+          "p": 318
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "p": 301,
+      "lat": "Et audierunt quidam ex Pharisæis, qui cum ipso erant, & dixerunt ei : Numquid & nos cæci sumus ?",
+      "fr": "Quelques Pharisiens qui étoient avec lui, entendirent ces paroles, & lui dirent : sommes-nous donc aussi aveugles ?",
+      "note": [
+        {
+          "texte": "<em>Quelques Pharisiens qui étoient avec lui entendirent ces paroles, & lui dirent : Sommes-nous donc aussi aveugles ? Jesus leur répondit, Si vous étiez aveugles, vous n’auriez point de péché. Mais maintenant vous dites que vous voyez : & c’est pour cela que votre péché demeure en vous.</em>",
+          "marges": [],
+          "p": 319
+        },
+        {
+          "texte": "On a déjà remarqué qu’il se trouvoit presque toujours des Pharisiens à la suite de J. C., dont ils observoient sans cesse avec un esprit rempli de malignité toute la conduite & tous les discours. Quelques-uns d’entre eux qui l’accompagnoient alors, jugèrent bien que ce qu’il disoit, quoiqu’en général, <em>de ceux qui voyant, ou croyant voir, devenoient aveugles</em>, les regardoit en particulier ; & qu’il les nommoit des aveugles & des ignorans. Mais parce que son discours ne les attaquoit qu’indirectement, ils voulurent l’obliger de l’expliquer, pour avoir, disoit Cyrille, un sujet de l’accuser, comme ayant violé l’ordonnance de la loi, qui défendoit de parler d’une manière injurieuse du Prince du peuple. Ainsi ils lui demandèrent avec chaleur, <em>s’ils étoient aussi aveugles eux-mêmes ?</em> C’est-à-dire, s’il prétendoit qu’ils fussent du nombre de ces aveugles dont il parloit, eux qui étoient regardés comme les guides de tous les autres.",
+          "marges": [
+            "Cyrill. in Joan. l. 4. p. 63.",
+            "Exod. 22. 28."
+          ],
+          "p": 319
+        },
+        {
+          "texte": "J. C. qui connoissoit leur artifice, leur répondit d’une manière à laquelle ils ne s’attendoient pas : <em>Si vous étiez aveugles, leur dit-il, vous n’auriez point de péché.</em> Le péché, comme dit saint Augustin, est par lui-même un aveuglement. <em>Si donc vous étiez aveugles, ô Pharisiens,</em> c’est-à-dire, si vous con<a class=\"page-inline\" href=\"page-320.html\" title=\"p. 320\">‖</a>noissez humblement que vous êtes des aveugles, vous courriez au médecin pour lui demander votre guérison ; & ainsi vous n'auriez point de péché : parce que celui qui est venu dans le monde pour sauver le peuple, en le délivrant de ses péchés, vous délivreroit aussi du vôtre. Mais parce que vous dites que vous voyez, vous vantant d'être remplis de lumière, & ne vous apercevant point des ténèbres du péché qui sont en vous, vous ne songez point à chercher le médecin qui pourroit seul vous guérir ; & ainsi vous demeurez dans l'aveuglement de votre péché, où votre péché demeure en vous ; ce qui est la même chose.",
+          "marges": [
+            "August. in Joan. p. 135.",
+            "Mach. n'auriez point de péché",
+            "b. 21."
+          ],
+          "p": 319
+        },
+        {
+          "texte": "Voilà, selon ce grand Saint, le dénouement de ce que le Fils de Dieu avoit dit aux Pharisiens : <em>Qu'il étoit venu afin que ceux qui ne voyoient point, ou qui confessant leur aveuglement cherchoient à être guéris, recouvrassent la vue ; & qu'au contraire ceux qui voyoient, ou plutôt qui croyoient voir, & ne songeoient point à avoir recours au médecin, qui étoit lui-même, devinssent aveugles, ou s'affermissent davantage dans l'aveuglement de leur péché.</em> Le jugement dont il parle ici est donc le discernement de miséricorde ou de justice, par lequel ceux qui croient, & qui confessent humblement leurs crimes, sont séparés des superbes qui se croient pleins de lumières, & qui n'en deviennent que plus aveugles : <em>Quò discerni causam credentium & confitentium, à superbis se videre putantibus, & ideò graviùs excæcatis.</em>",
+          "marges": [],
+          "p": 320
+        }
+      ],
+      "noteVersets": [
+        40,
+        41
+      ]
+    },
+    {
+      "n": 41,
+      "p": 301,
+      "lat": "Dixit eis Jesus : Si cæci essetis, non haberetis peccatum : nunc verò dicitis, Quia videmus ; peccatum vestrum manet.",
+      "fr": "JESUS leur répondit : * Si vous étiez aveugles, vous n'auriez point de péché : mais maintenant vous dites que vous voyez ; & c'est pour cela que votre péché demeure en vous.",
+      "note": "",
+      "nb": [
+        "℣. 41. ex. c'est-à-dire, si vous vous reconnoissiez aveugles, vous n'auriez point de péché, parce que vous auriez recours au médecin, qui vous guériroit de votre aveuglement. August."
+      ]
+    }
+  ]
+};
+  </script>
+</head>
+<body data-base="../">
+
+<div class="page-shell">
+  <button class="sidebar-open-btn" aria-label="Ouvrir le sommaire">☰</button>
+  <div class="sidebar-backdrop"></div>
+
+  <aside class="sidebar">
+    <div class="sidebar-head">
+      <a class="sidebar-brand" href="../index.html">Bible de Sacy</a>
+      <button class="sidebar-collapse-btn" title="Replier le sommaire">«</button>
+    </div>
+    <div class="sidebar-search">
+      <input type="search" class="sidebar-search-input" placeholder="Rechercher…" autocomplete="off" spellcheck="false">
+      <div class="sidebar-search-results" hidden></div>
+    </div>
+    <nav class="sidebar-tree"><details class="canon-group" open><summary>Nouveau Testament</summary>
+<details class="livre-group" data-livre="matthieu"><summary><span class="abr">Mt</span> <span class="nom">Évangile de saint Matthieu</span></summary>
+<div class="chap-list">
+<a href="../matthieu/index.html" data-ch="0">Préface</a>
+<a href="../matthieu/ch01.html" data-ch="1">1</a>
+<a href="../matthieu/ch02.html" data-ch="2">2</a>
+<a href="../matthieu/ch03.html" data-ch="3">3</a>
+<a href="../matthieu/ch04.html" data-ch="4">4</a>
+<a href="../matthieu/ch05.html" data-ch="5">5</a>
+<a href="../matthieu/ch06.html" data-ch="6">6</a>
+<a href="../matthieu/ch07.html" data-ch="7">7</a>
+<a href="../matthieu/ch08.html" data-ch="8">8</a>
+<a href="../matthieu/ch09.html" data-ch="9">9</a>
+<a href="../matthieu/ch10.html" data-ch="10">10</a>
+<a href="../matthieu/ch11.html" data-ch="11">11</a>
+<a href="../matthieu/ch12.html" data-ch="12">12</a>
+<a href="../matthieu/ch13.html" data-ch="13">13</a>
+<a href="../matthieu/ch14.html" data-ch="14">14</a>
+<a href="../matthieu/ch15.html" data-ch="15">15</a>
+<a href="../matthieu/ch16.html" data-ch="16">16</a>
+<a href="../matthieu/ch17.html" data-ch="17">17</a>
+<a href="../matthieu/ch18.html" data-ch="18">18</a>
+<a href="../matthieu/ch19.html" data-ch="19">19</a>
+<a href="../matthieu/ch20.html" data-ch="20">20</a>
+<a href="../matthieu/ch21.html" data-ch="21">21</a>
+<a href="../matthieu/ch22.html" data-ch="22">22</a>
+<a href="../matthieu/ch23.html" data-ch="23">23</a>
+<a href="../matthieu/ch24.html" data-ch="24">24</a>
+<a href="../matthieu/ch25.html" data-ch="25">25</a>
+<a href="../matthieu/ch26.html" data-ch="26">26</a>
+<a href="../matthieu/ch27.html" data-ch="27">27</a>
+<a href="../matthieu/ch28.html" data-ch="28">28</a>
+</div></details>
+<details class="livre-group" data-livre="marc"><summary><span class="abr">Mc</span> <span class="nom">Évangile de saint Marc</span></summary>
+<div class="chap-list">
+<a href="../marc/index.html" data-ch="0">Préface</a>
+<a href="../marc/ch01.html" data-ch="1">1</a>
+<a href="../marc/ch02.html" data-ch="2">2</a>
+<a href="../marc/ch03.html" data-ch="3">3</a>
+<a href="../marc/ch04.html" data-ch="4">4</a>
+<a href="../marc/ch05.html" data-ch="5">5</a>
+<a href="../marc/ch06.html" data-ch="6">6</a>
+<a href="../marc/ch07.html" data-ch="7">7</a>
+<a href="../marc/ch08.html" data-ch="8">8</a>
+<a href="../marc/ch09.html" data-ch="9">9</a>
+<a href="../marc/ch10.html" data-ch="10">10</a>
+<a href="../marc/ch11.html" data-ch="11">11</a>
+<a href="../marc/ch12.html" data-ch="12">12</a>
+<a href="../marc/ch13.html" data-ch="13">13</a>
+<a href="../marc/ch14.html" data-ch="14">14</a>
+<a href="../marc/ch15.html" data-ch="15">15</a>
+<a href="../marc/ch16.html" data-ch="16">16</a>
+</div></details>
+<details class="livre-group" data-livre="luc"><summary><span class="abr">Lc</span> <span class="nom">Évangile de saint Luc</span></summary>
+<div class="chap-list">
+<a href="../luc/index.html" data-ch="0">Préface</a>
+<a href="../luc/ch01.html" data-ch="1">1</a>
+<a href="../luc/ch02.html" data-ch="2">2</a>
+<a href="../luc/ch03.html" data-ch="3">3</a>
+<a href="../luc/ch04.html" data-ch="4">4</a>
+<a href="../luc/ch05.html" data-ch="5">5</a>
+<a href="../luc/ch06.html" data-ch="6">6</a>
+<a href="../luc/ch07.html" data-ch="7">7</a>
+<a href="../luc/ch08.html" data-ch="8">8</a>
+<a href="../luc/ch09.html" data-ch="9">9</a>
+<a href="../luc/ch10.html" data-ch="10">10</a>
+<a href="../luc/ch11.html" data-ch="11">11</a>
+<a href="../luc/ch12.html" data-ch="12">12</a>
+<a href="../luc/ch13.html" data-ch="13">13</a>
+<a href="../luc/ch14.html" data-ch="14">14</a>
+<a href="../luc/ch15.html" data-ch="15">15</a>
+<a href="../luc/ch16.html" data-ch="16">16</a>
+<a href="../luc/ch17.html" data-ch="17">17</a>
+<a href="../luc/ch18.html" data-ch="18">18</a>
+<a href="../luc/ch19.html" data-ch="19">19</a>
+<a href="../luc/ch20.html" data-ch="20">20</a>
+<a href="../luc/ch21.html" data-ch="21">21</a>
+<a href="../luc/ch22.html" data-ch="22">22</a>
+<a href="../luc/ch23.html" data-ch="23">23</a>
+<a href="../luc/ch24.html" data-ch="24">24</a>
+</div></details>
+<details class="livre-group" data-livre="jean"><summary><span class="abr">Jn</span> <span class="nom">Évangile de saint Jean</span></summary>
+<div class="chap-list">
+<a href="../jean/index.html" data-ch="0">Préface</a>
+<a href="../jean/ch01.html" data-ch="1">1</a>
+<a href="../jean/ch02.html" data-ch="2">2</a>
+<a href="../jean/ch03.html" data-ch="3">3</a>
+<a href="../jean/ch04.html" data-ch="4">4</a>
+<a href="../jean/ch05.html" data-ch="5">5</a>
+<a href="../jean/ch06.html" data-ch="6">6</a>
+<a href="../jean/ch07.html" data-ch="7">7</a>
+<a href="../jean/ch08.html" data-ch="8">8</a>
+<a href="../jean/ch09.html" data-ch="9">9</a>
+<a href="../jean/ch10.html" data-ch="10">10</a>
+<a href="../jean/ch11.html" data-ch="11">11</a>
+<a href="../jean/ch12.html" data-ch="12">12</a>
+<a href="../jean/ch13.html" data-ch="13">13</a>
+<a href="../jean/ch14.html" data-ch="14">14</a>
+<a href="../jean/ch15.html" data-ch="15">15</a>
+<a href="../jean/ch16.html" data-ch="16">16</a>
+<a href="../jean/ch17.html" data-ch="17">17</a>
+<a href="../jean/ch18.html" data-ch="18">18</a>
+<a href="../jean/ch19.html" data-ch="19">19</a>
+<a href="../jean/ch20.html" data-ch="20">20</a>
+<a href="../jean/ch21.html" data-ch="21">21</a>
+</div></details>
+<details class="livre-group" data-livre="corinthiens2"><summary><span class="abr">2 Co</span> <span class="nom">Deuxième épître aux Corinthiens</span></summary>
+<div class="chap-list">
+<a href="../corinthiens2/index.html" data-ch="0">Préface</a>
+<a href="../corinthiens2/ch01.html" data-ch="1">1</a>
+<a href="../corinthiens2/ch02.html" data-ch="2">2</a>
+<a href="../corinthiens2/ch03.html" data-ch="3">3</a>
+<a href="../corinthiens2/ch04.html" data-ch="4">4</a>
+<a href="../corinthiens2/ch05.html" data-ch="5">5</a>
+<a href="../corinthiens2/ch06.html" data-ch="6">6</a>
+<a href="../corinthiens2/ch07.html" data-ch="7">7</a>
+<a href="../corinthiens2/ch08.html" data-ch="8">8</a>
+<a href="../corinthiens2/ch09.html" data-ch="9">9</a>
+<a href="../corinthiens2/ch10.html" data-ch="10">10</a>
+<a href="../corinthiens2/ch11.html" data-ch="11">11</a>
+<a href="../corinthiens2/ch12.html" data-ch="12">12</a>
+<a href="../corinthiens2/ch13.html" data-ch="13">13</a>
+</div></details>
+<details class="livre-group" data-livre="timothee2"><summary><span class="abr">2 Tm</span> <span class="nom">Deuxième épître à Timothée</span></summary>
+<div class="chap-list">
+<a href="../timothee2/index.html" data-ch="0">Préface</a>
+<a href="../timothee2/ch01.html" data-ch="1">1</a>
+<a href="../timothee2/ch02.html" data-ch="2">2</a>
+<a href="../timothee2/ch03.html" data-ch="3">3</a>
+<a href="../timothee2/ch04.html" data-ch="4">4</a>
+</div></details>
+<details class="livre-group" data-livre="tite"><summary><span class="abr">Tt</span> <span class="nom">Épître à Tite</span></summary>
+<div class="chap-list">
+<a href="../tite/index.html" data-ch="0">Préface</a>
+<a href="../tite/ch01.html" data-ch="1">1</a>
+<a href="../tite/ch02.html" data-ch="2">2</a>
+<a href="../tite/ch03.html" data-ch="3">3</a>
+</div></details>
+<details class="livre-group" data-livre="philemon"><summary><span class="abr">Phm</span> <span class="nom">Épître à Philémon</span></summary>
+<div class="chap-list">
+<a href="../philemon/index.html" data-ch="0">Préface</a>
+<a href="../philemon/ch01.html" data-ch="1">1</a>
+</div></details>
+<details class="livre-group" data-livre="jean2"><summary><span class="abr">2 Jn</span> <span class="nom">Deuxième épître de saint Jean</span></summary>
+<div class="chap-list">
+<a href="../jean2/index.html" data-ch="0">Préface</a>
+<a href="../jean2/ch01.html" data-ch="1">1</a>
+</div></details>
+<details class="livre-group" data-livre="jean3"><summary><span class="abr">3 Jn</span> <span class="nom">Troisième épître de saint Jean</span></summary>
+<div class="chap-list">
+<a href="../jean3/index.html" data-ch="0">Préface</a>
+<a href="../jean3/ch01.html" data-ch="1">1</a>
+</div></details>
+<details class="livre-group" data-livre="jude"><summary><span class="abr">Jude</span> <span class="nom">Épître de saint Jude</span></summary>
+<div class="chap-list">
+<a href="../jude/index.html" data-ch="0">Préface</a>
+<a href="../jude/ch01.html" data-ch="1">1</a>
+</div></details>
+</details></nav>
+    <div class="sidebar-foot">
+      <a href="../biblio.html">Bibliographie</a>
+      <a href="../recherche.html">Recherche</a>
+      <button class="theme-toggle" title="Thème clair / sombre"><span class="theme-icon">☾</span></button>
+    </div>
+  </aside>
+
+  <main class="main main-wide">
+    <p class="breadcrumb">
+      <a href="../index.html">Bible de Sacy</a> › <span class="breadcrumb-livre"></span>
+    </p>
+
+    <header class="chapter-header">
+      <p class="livre"></p>
+      <h1></h1>
+      <h2></h2>
+      <div class="chapter-actions">
+        <div class="sens-switch" role="group" aria-label="Commentaire" hidden>
+          <button class="btn sens-mode" data-mode="litteral" type="button">Sens littéral <small class="n"></small></button>
+          <button class="btn sens-mode" data-mode="spirituel" type="button">Sens spirituel <small class="n"></small></button>
+          <button class="btn sens-mode" data-mode="both" type="button">Les deux</button>
+        </div>
+        <button class="btn" id="latin-toggle">Afficher le latin</button>
+        <a class="btn lien-pages" href="#" hidden>📄 Page à page</a>
+        <a class="btn lien-facs" href="#" target="_blank" rel="noopener">📖 Fac-similé</a>
+      </div>
+    </header>
+
+    <div class="chapitre-columns">
+      <section class="col-francais" aria-label="Texte français"></section>
+      <section class="col-commentaire" aria-label="Commentaire">
+        <p class="col-label">Notes de la <em>Bible de Sacy</em></p>
+        <div class="commentaire-texte"></div>
+      </section>
+      <section class="col-litteral" aria-label="Sens littéral" hidden>
+        <p class="col-label">
+          <span>Sens littéral</span>
+          <span class="sens-toggle">
+            <button class="btn sens-btn active" data-sens="litteral">Littéral</button>
+            <button class="btn sens-btn" data-sens="spirituel">Spirituel</button>
+          </span>
+        </p>
+        <div class="litteral-texte"></div>
+      </section>
+      <section class="col-spirituel" aria-label="Sens spirituel" hidden>
+        <p class="col-label">Sens spirituel</p>
+        <div class="spirituel-texte"></div>
+      </section>
+    </div>
+
+    <nav class="chapter-nav">
+      <a class="nav-prev" href="#">←</a>
+      <span class="chapitre-num"></span>
+      <a class="nav-next" href="#">→</a>
+    </nav>
+  </main>
+</div>
+
+<script src="../render.js"></script>
+</body>
+</html>
