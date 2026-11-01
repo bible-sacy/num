@@ -1531,18 +1531,6 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            },
-            {
-              "ref": "in hunc loc.",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 30,
-                  "sens": "N"
-                }
-              ]
             }
           ]
         }
@@ -2055,6 +2043,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "contr. Faust.",
+          "slug": "augustin-contr-faust",
+          "refs": [
+            {
+              "ref": "l. 20 c. 16",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 9,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "contra",
           "slug": "augustin-contra",
           "refs": [
@@ -2462,6 +2468,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 1,
                   "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 10 c. 5",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 9,
+                  "n": 9,
                   "sens": "N"
                 }
               ]
@@ -3017,24 +3035,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de cons. in Marc. gr.",
-          "slug": "augustin-de-cons-in-marc-gr",
-          "refs": [
-            {
-              "ref": "8",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 16,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "de consens.",
           "slug": "augustin-de-consens",
           "refs": [
@@ -3340,24 +3340,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 24,
                   "n": 48,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de doctr. christ. Evangel.",
-          "slug": "augustin-de-doctr-christ-evangel",
-          "refs": [
-            {
-              "ref": "12",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 31,
                   "sens": "N"
                 }
               ]
@@ -4333,6 +4315,18 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "c. 38",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 4,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
             }
           ]
         },
@@ -4492,18 +4486,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 11,
                   "n": 25,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "11 c. 1. & 5",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 30,
                   "sens": "N"
                 }
               ]
@@ -4823,36 +4805,6 @@ const SACY_BIBLIO = {
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de ſin les rapporte aux trois",
-          "slug": "augustin-de-in-les-rapporte-aux-trois",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 11,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "ſt. Jean ; c'est-à-dire, à la concupiscence de la chair,",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 11,
-                  "sens": "N"
                 }
               ]
             }
@@ -7739,6 +7691,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "in Matt.",
+          "slug": "augustin-in-matt",
+          "refs": [
+            {
+              "ref": "quæst. 8",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "in Matt. hom.",
           "slug": "augustin-in-matt-hom",
           "refs": [
@@ -7871,6 +7841,18 @@ const SACY_BIBLIO = {
                   "chapitre": 3,
                   "n": 12,
                   "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "58 serm. 1 n. 8",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 9,
+                  "n": 9,
+                  "sens": "N"
                 }
               ]
             },
@@ -8622,24 +8604,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "J'aime mieux la miséricorde que le sacrifice.",
-          "slug": "augustin-j-aime-mieux-la-misericorde-que-le-sacrifice",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 9,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "Joan.",
           "slug": "augustin-joan",
           "refs": [
@@ -9065,6 +9029,18 @@ const SACY_BIBLIO = {
           "titre": "quæstion. Evangel.",
           "slug": "augustin-qu-stion-evangel",
           "refs": [
+            {
+              "ref": "12",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 33,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "l. 1 q. 21",
               "cites": [
@@ -11933,42 +11909,6 @@ const SACY_BIBLIO = {
       "dates": "",
       "oeuvres": [
         {
-          "titre": "Curioſité & à l'orgueil.",
-          "slug": "chry-o-t-curio-ite-a-l-orgueil",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 11,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. hom.",
-          "slug": "chry-o-t-in-matth-hom",
-          "refs": [
-            {
-              "ref": "87",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 22,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "in ſupr.",
           "slug": "chry-o-t-in-upr",
           "refs": [
@@ -11980,24 +11920,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 8,
                   "n": 48,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "",
-          "slug": "chry-o-t",
-          "refs": [
-            {
-              "ref": "in hunc loc.",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 11,
                   "sens": "N"
                 }
               ]
@@ -12023,67 +11945,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 28,
                   "n": 11,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "cle": "chryso-t",
-      "nom": "Chrysoſt",
-      "dates": "",
-      "oeuvres": [
-        {
-          "titre": "in Matth.",
-          "slug": "chryso-t-in-matth",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 11,
-                  "n": 7,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. hom.",
-          "slug": "chryso-t-in-matth-hom",
-          "refs": [
-            {
-              "ref": "15 c. 5 vers. 11",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 10,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in suprà.",
-          "slug": "chryso-t-in-supra",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 13,
                   "sens": "N"
                 }
               ]
@@ -17884,6 +17745,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "emm",
+      "nom": "Emm",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Sa. ibid.",
+          "slug": "emm-sa-ibid",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 21,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "ephes",
       "nom": "Ephés",
       "dates": "",
@@ -18883,7 +18769,7 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "De font. de Grâce. Jeſu",
+              "ref": "De font. de Grâce. Jesu",
               "cites": [
                 {
                   "livre": "matthieu",
@@ -19189,49 +19075,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 18,
                   "n": 12,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "cle": "faug",
-      "nom": "Faug",
-      "dates": "",
-      "oeuvres": [
-        {
-          "titre": "de civ. Dei.",
-          "slug": "faug-de-civ-dei",
-          "refs": [
-            {
-              "ref": "lib. 10 c. 5",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 9,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "",
-          "slug": "faug",
-          "refs": [
-            {
-              "ref": "l. 20 c. 16",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 9,
                   "sens": "N"
                 }
               ]
@@ -20001,8 +19844,8 @@ const SACY_BIBLIO = {
       "dates": "",
       "oeuvres": [
         {
-          "titre": "in Evan. Jean.",
-          "slug": "georg-in-evan-jean",
+          "titre": "in Evan. hom.",
+          "slug": "georg-in-evan-hom",
           "refs": [
             {
               "ref": "16",
@@ -20452,24 +20295,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Evang.",
-          "slug": "gregoire-le-grand-in-evang",
-          "refs": [
-            {
-              "ref": "l. 1 hom. 19 n. 4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 20,
-                  "n": 8,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "in Evang. hom.",
           "slug": "gregoire-le-grand-in-evang-hom",
           "refs": [
@@ -20620,6 +20445,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 19,
                   "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 1 hom. 19 n. 4",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 20,
+                  "n": 8,
                   "sens": "N"
                 }
               ]
@@ -22383,31 +22220,6 @@ const SACY_BIBLIO = {
       ]
     },
     {
-      "cle": "hieros",
-      "nom": "Hieros",
-      "dates": "",
-      "oeuvres": [
-        {
-          "titre": "",
-          "slug": "hieros",
-          "refs": [
-            {
-              "ref": "in hunc loc.",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 14,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "cle": "hilaire",
       "nom": "S. Hilaire",
       "dates": "v. 315–367",
@@ -22592,18 +22404,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 19,
                   "n": 23,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 3",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -22863,7 +22663,7 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 13,
-                  "n": 31,
+                  "n": 33,
                   "sens": "N"
                 }
               ]
@@ -22871,13 +22671,6 @@ const SACY_BIBLIO = {
             {
               "ref": "18",
               "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 18,
-                  "n": 10,
-                  "sens": "N"
-                },
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
@@ -23279,6 +23072,13 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 13,
+                  "n": 31,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
                   "n": 44,
                   "sens": "N"
                 }
@@ -23376,18 +23176,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 24,
                   "n": 9,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "27",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 25,
-                  "n": 26,
                   "sens": "N"
                 }
               ]
@@ -23509,24 +23297,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in scriptis les plus sublimes du siècle. Saint Hilaire a entendu par les branches de cet arbre, les saints Apôtres, qui sortant de J. C. comme de leur tige, ont cru, & se sont, pour le dire ainsi, étendus par sa divine vertu, pour mettre le monde comme à couvert sous leur ombre.",
-          "slug": "hilaire-in-scriptis-les-plus-sublimes-du-siecle-saint-hilaire-a-entendu-par-les-branches-de-cet-arbre-les-saints-apotres-qui-sortant-de-j-c-comme-de-leur-tige-ont-cru-se-sont-pour-le-dire-ainsi-etendus-par-sa-divine-vertu-pour-mettre-le-monde-comme-a-couvert-sous-leur-ombre",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 31,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "Matth. can.",
           "slug": "hilaire-matth-can",
           "refs": [
@@ -23550,24 +23320,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 23,
                   "n": 13,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "pour nous faire voir, dit saint Hilaire, que c'est après que nous avons été sanctifiés par son Esprit & par sa grâce, que le diable vient nous attaquer plus fortement ; parce que c'est principalement sur les ames saintes qu'il désire de remporter la victoire. Quia victoria ei est magis exoptata de sanctis.",
-          "slug": "hilaire-pour-nous-faire-voir-dit-saint-hilaire-que-c-est-apres-que-nous-avons-ete-sanctifies-par-son-esprit-par-sa-grace-que-le-diable-vient-nous-attaquer-plus-fortement-parce-que-c-est-principalement-sur-les-ames-saintes-qu-il-desire-de-remporter-la-victoire-quia-victoria-ei-est-magis-exoptata-de-sanctis",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -23668,6 +23420,13 @@ const SACY_BIBLIO = {
             {
               "ref": "in hunc loc.",
               "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 4,
+                  "n": 11,
+                  "sens": "N"
+                },
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
@@ -23943,6 +23702,18 @@ const SACY_BIBLIO = {
           "slug": "hilarius-in-matt-can",
           "refs": [
             {
+              "ref": "3",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "7",
               "cites": [
                 {
@@ -23967,6 +23738,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "18",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 18,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "19 v. 5",
               "cites": [
                 {
@@ -23986,6 +23769,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 21,
                   "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "27",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 25,
+                  "n": 26,
                   "sens": "N"
                 }
               ]
@@ -24374,31 +24169,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 5,
                   "n": 43,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "cle": "i-ai",
-      "nom": "Iſaï",
-      "dates": "",
-      "oeuvres": [
-        {
-          "titre": "",
-          "slug": "i-ai",
-          "refs": [
-            {
-              "ref": "51, 17",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 20,
-                  "n": 20,
                   "sens": "N"
                 }
               ]
@@ -25299,6 +25069,13 @@ const SACY_BIBLIO = {
               "ref": "ibid.",
               "cites": [
                 {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 21,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
                   "livre": "luc",
                   "livreAbr": "Lc",
                   "chapitre": 7,
@@ -25628,13 +25405,6 @@ const SACY_BIBLIO = {
             {
               "ref": "",
               "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 9,
-                  "sens": "N"
-                },
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
@@ -26136,24 +25906,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "ib. et suprà.",
-          "slug": "chrysostome-ib-et-supra",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 9,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "ib. in fine.",
           "slug": "chrysostome-ib-in-fine",
           "refs": [
@@ -26218,6 +25970,24 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 6,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ib. ut suprà.",
+          "slug": "chrysostome-ib-ut-supra",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 9,
                   "n": 9,
                   "sens": "N"
                 }
@@ -26346,24 +26116,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "ibid. usque supra.",
-          "slug": "chrysostome-ibid-usque-supra",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "ibid. ut supr.",
           "slug": "chrysostome-ibid-ut-supr",
           "refs": [
@@ -26400,6 +26152,13 @@ const SACY_BIBLIO = {
             {
               "ref": "",
               "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "N"
+                },
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
@@ -29206,7 +28965,7 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 2,
-                  "n": 13,
+                  "n": 14,
                   "sens": "N"
                 }
               ]
@@ -29437,7 +29196,7 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 13,
-                  "n": 31,
+                  "n": 33,
                   "sens": "N"
                 }
               ]
@@ -30043,6 +29802,13 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 11,
+                  "n": 7,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 11,
                   "n": 28,
                   "sens": "N"
                 },
@@ -30094,7 +29860,7 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "c. 1 v. 1, 2",
+              "ref": "c. 1 v. 1 hom. 2",
               "cites": [
                 {
                   "livre": "matthieu",
@@ -30259,6 +30025,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 5,
                   "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "15 c. 5 vers. 11",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 10,
                   "sens": "N"
                 }
               ]
@@ -31252,6 +31030,13 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 25,
+                  "n": 5,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 25,
                   "n": 19,
                   "sens": "N"
                 },
@@ -31388,6 +31173,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 27,
                   "n": 6,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 22,
                   "sens": "N"
                 }
               ]
@@ -31624,24 +31416,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 26,
                   "n": 45,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in son second, qui est le temps, comme l'appelle saint Hilaire, de la pénitence & de la miséricorde.",
-          "slug": "chrysostome-in-son-second-qui-est-le-temps-comme-l-appelle-saint-hilaire-de-la-penitence-de-la-misericorde",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 25,
-                  "n": 5,
                   "sens": "N"
                 }
               ]
@@ -32265,13 +32039,6 @@ const SACY_BIBLIO = {
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 16,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
                   "chapitre": 13,
                   "n": 57,
                   "sens": "N"
@@ -32356,15 +32123,15 @@ const SACY_BIBLIO = {
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 18,
+                  "chapitre": 5,
+                  "n": 13,
                   "sens": "N"
                 },
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 16,
+                  "chapitre": 9,
+                  "n": 18,
                   "sens": "N"
                 },
                 {
@@ -32515,24 +32282,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 28,
                   "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "pour s'approcher de J. C. que saint Pierre le prioit in Matt. hom.",
-          "slug": "chrysostome-pour-s-approcher-de-j-c-que-saint-pierre-le-prioit-in-matt-hom",
-          "refs": [
-            {
-              "ref": "51",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 14,
-                  "n": 23,
                   "sens": "N"
                 }
               ]
@@ -33139,6 +32888,18 @@ const SACY_BIBLIO = {
           "slug": "chrysostome-ut-supra",
           "refs": [
             {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "p. 334",
               "cites": [
                 {
@@ -33164,6 +32925,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 8,
                   "n": 14,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 9,
+                  "n": 9,
                   "sens": "N"
                 },
                 {
@@ -33406,18 +33174,6 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "26",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 45,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
               "ref": "65",
               "cites": [
                 {
@@ -33469,6 +33225,13 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 2,
+                  "n": 14,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
                   "n": 18,
                   "sens": "N"
                 },
@@ -33498,6 +33261,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 24,
                   "n": 23,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 45,
                   "sens": "N"
                 },
                 {
@@ -33594,6 +33364,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 4,
                   "n": 7,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 4,
+                  "n": 11,
                   "sens": "N"
                 },
                 {
@@ -33959,24 +33736,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 14,
                   "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "a regardés comme ces loups dont ils devoient se donner de garde, dont il dit, Qu'ils étoient comme les Clercs parmi les Juifs ;",
-          "slug": "jerome-a-regardes-comme-ces-loups-dont-ils-devoient-se-donner-de-garde-dont-il-dit-qu-ils-etoient-comme-les-clercs-parmi-les-juifs",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 16,
                   "sens": "N"
                 }
               ]
@@ -34737,7 +34496,7 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 13,
-                  "n": 31,
+                  "n": 33,
                   "sens": "N"
                 }
               ]
@@ -35064,24 +34823,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Is. hom.",
-          "slug": "jerome-in-is-hom",
-          "refs": [
-            {
-              "ref": "79",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 25,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "in Isa.",
           "slug": "jerome-in-isa",
           "refs": [
@@ -35207,24 +34948,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 24,
                   "n": 28,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Isaiam loc.",
-          "slug": "jerome-in-isaiam-loc",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 16,
                   "sens": "N"
                 }
               ]
@@ -35430,18 +35153,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 21,
                   "n": 33,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "27 n. 4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 25,
-                  "n": 5,
                   "sens": "N"
                 }
               ]
@@ -35766,6 +35477,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 13,
                   "n": 47,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "27 n. 4",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 25,
+                  "n": 5,
                   "sens": "N"
                 }
               ]
@@ -36192,7 +35915,7 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 2,
-                  "n": 13,
+                  "n": 14,
                   "sens": "N"
                 }
               ]
@@ -36229,24 +35952,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 14,
                   "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in S.",
-          "slug": "jerome-in-s",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 16,
                   "sens": "N"
                 }
               ]
@@ -37412,6 +37117,13 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 18,
+                  "n": 21,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 18,
                   "n": 32,
                   "sens": "N"
                 },
@@ -37630,6 +37342,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 24,
                   "n": 32,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 25,
+                  "n": 5,
                   "sens": "N"
                 },
                 {
@@ -38280,24 +37999,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Pass. Domini serm.",
-          "slug": "leon-de-pass-domini-serm",
-          "refs": [
-            {
-              "ref": "6",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 62,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "de Pass. Serm.",
           "slug": "leon-de-pass-serm",
           "refs": [
@@ -38309,6 +38010,24 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 26,
                   "n": 55,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "de Passion. Domini serm.",
+          "slug": "leon-de-passion-domini-serm",
+          "refs": [
+            {
+              "ref": "6",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 62,
                   "sens": "N"
                 }
               ]
@@ -39562,6 +39281,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "nativite",
+      "nom": "Nativité",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Conception de la Vierge.",
+          "slug": "nativite-conception-de-la-vierge",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "niceph",
       "nom": "Niceph",
       "dates": "",
@@ -40160,43 +39904,6 @@ const SACY_BIBLIO = {
                   "chapitre": 2,
                   "n": 15,
                   "sens": "V"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "cle": "p",
-      "nom": "Pſ",
-      "dates": "",
-      "oeuvres": [
-        {
-          "titre": "",
-          "slug": "p",
-          "refs": [
-            {
-              "ref": "10, 7",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 20,
-                  "n": 20,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "74, 9",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 20,
-                  "n": 20,
-                  "sens": "N"
                 }
               ]
             }
@@ -42387,16 +42094,16 @@ const SACY_BIBLIO = {
       ]
     },
     {
-      "cle": "tri",
-      "nom": "Tri",
+      "cle": "tirin",
+      "nom": "Tirin",
       "dates": "",
       "oeuvres": [
         {
-          "titre": "in Luc. loc.",
-          "slug": "tri-in-luc-loc",
+          "titre": "",
+          "slug": "tirin",
           "refs": [
             {
-              "ref": "",
+              "ref": "in hunc loc.",
               "cites": [
                 {
                   "livre": "matthieu",
