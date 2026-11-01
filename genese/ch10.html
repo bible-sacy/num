@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><!-- rempli par render.js --></title>
+  <link rel="stylesheet" href="../style.css">
+  <script>
+    (function(){ document.documentElement.setAttribute('data-theme', localStorage.getItem('sacy-theme')||'light'); })();
+  </script>
+  <script src="../search-index.js"></script>
+  <script>
+  const SACY_DATA = {
+  "meta": {
+    "livre": "genese",
+    "livreFr": "Genèse",
+    "livreAbr": "Gn",
+    "chapitre": 10,
+    "chapTotal": 50,
+    "titre": "",
+    "pageFacs": 361,
+    "pageView": true,
+    "chapitresDisponibles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "facsimile": {
+      "slug": "genese_1",
+      "page": 361
+    }
+  },
+  "versets": [
+    {
+      "n": 1,
+      "p": 361,
+      "lat": "Hæ sunt generationes filiorum Noe, Sem, Cham & Japheth : natique sunt eis filii post diluvium.",
+      "fr": "Voici le dénombrement des fils de Sem, Cham, & Japhet enfans de Noé, & ces fils naquirent d'eux après le deluge.",
+      "note": ""
+    },
+    {
+      "n": 2,
+      "p": 361,
+      "lat": "Filii Japheth : Gomer, & Magog, & Madai, & Javan, & Thubal, & Mosoch, & Thiras.",
+      "fr": "Les fils de Japhet, furent Gomer, Magog, Madaï, Javan, Thubal, Mosoch, & Thiras.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "<em>Les enfans de Japhet furent Gomer, &c.</em> De Gomer sont venus les premiers habitans du pays de Galatie. De Magog, les Getes, les Massagetes, & les Scythes. De Madai, les Medes ; ou, selon d'autres, les Macedoniens. De Javan, en transportant les points, les Ioniens ; ce qui comprend tous les autres Grecs, le nom hebreu Javan, étant quelquefois traduit dans la Vulgate par celui de Grecs. De Thubal, les Iberiens, qui sont au-delà du Pont-Euxin, & non ceux qui ont habité l'Espagne.",
+          "marges": [],
+          "p": 365
+        },
+        {
+          "texte": "De <em>Mosoch</em> sont venus les Moscovites ou les Cappadociens ; y ayant dans la Cappadoce une ville appellée Mazaca, & depuis nommée Cesatée, dont saint Basile fut Evêque.",
+          "marges": [],
+          "p": 366
+        },
+        {
+          "texte": "De <em>Thiras</em> sont venus les Thraces.",
+          "marges": [],
+          "p": 366
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "p": 361,
+      "lat": "Porro filii Gomer : Ascenez & Riphath & Thogorma.",
+      "fr": "Les fils de Gomer, Ascenez, Riphath, & Thogorma.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "<em>Les fils de Gomer, Ascenaz, Riphath, & Thogorma.</em>",
+          "marges": [],
+          "p": 366
+        },
+        {
+          "texte": "D'<em>Ascenaz</em> sont venus les Allemans, que les Hebreux encore aujourd'hui appellent Askenafim.",
+          "marges": [],
+          "p": 366
+        },
+        {
+          "texte": "De <em>Riphath</em>, les Paphlagoniens.",
+          "marges": [],
+          "p": 366
+        },
+        {
+          "texte": "De <em>Thogorma</em>, les Phrigiens.",
+          "marges": [],
+          "p": 366
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "p": 361,
+      "lat": "Filii autem Javan : Elisa & Tharsis, Cethim & Dodanim.",
+      "fr": "Les fils de Javan, furent Elisa, Tharsis, Cethim, & Dodanim.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "<em>Les enfans de Javan, furent Elisa, Tharsis, Cethim, & Dodanim.</em>",
+          "marges": [],
+          "p": 366
+        },
+        {
+          "texte": "D'<em>Elisa</em> sont venus les Italiens, ou les habitans des îles fortunées, appellées <em>Elise</em>.",
+          "marges": [],
+          "p": 366
+        },
+        {
+          "texte": "De <em>Tharsis</em>, les Ciliciens, dont Tharse est la capitale.",
+          "marges": [],
+          "p": 366
+        },
+        {
+          "texte": "De <em>Cethim</em>, les Cypriens, dont la ville principale s'appelle Cirion. De là vient, dit Josephe, que les Hébreux donnent le nom de <em>Cethim</em> à presque toutes les villes & les provinces maritimes ; & c'est pour cette raison qu'il est dit d'Alexandre le Grand, qu'il vint de la terre de <em>Cethim</em>, & que le même nom est donné dans l'Ecriture à l'Italie.",
+          "marges": [],
+          "p": 366
+        },
+        {
+          "texte": "De <em>Dodanim</em> sont venus les Rhodiens, le d ayant été changé en r, ou les Dodonéens dans l'Epire.",
+          "marges": [
+            "Machab. 1. 1."
+          ],
+          "p": 366
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "p": 362,
+      "lat": "Ab his divisae sunt insulae gentium in regionibus suis ; unusquisque secundum linguam suam & familias suas in nationibus suis.",
+      "fr": "Ils partagerent entr'eux les Isles des nations où chacun eut sa langue, ses familles, & son peuple particulier.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "<em>Les îles des nations furent divisées entre eux.</em> Les Hebreux appellent îles tous les pays où l'on va de la Judée par mer, & quelquefois généralement tous les pays.",
+          "marges": [],
+          "p": 366
+        }
+      ],
+      "nb": [
+        "℣. 5. extr. ils se disperserent en divers pays, &c."
+      ]
+    },
+    {
+      "n": 6,
+      "p": 362,
+      "lat": "Filii autem Cham : Chus, & Mesraim, & Phuth, & Chanaan.",
+      "fr": "Les fils de Cham, furent Chus, Mesraïm, Phuth, & Chanaan.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "<em>Les enfans de Cham ; furent Chus, &</em>",
+          "marges": [],
+          "p": 366
+        },
+        {
+          "texte": "On croit que Cham s'établit premierement dans l'Egypte. Et c'est ce que l'Ecriture sainte même témoigne, appellant l'Egypte la terre de Cham.",
+          "marges": [],
+          "p": 367
+        },
+        {
+          "texte": "Chus apparemment s'établit dans l'Ethiopie, qui est appellée encore aujourd'hui par les Hebreux du nom de Chus. Les descendans de Mesraim ont peuplé l'Egypte ; à laquelle l'Ecriture donne le même nom de Mesraïm ; & il y a encore aujourd'hui une ville appellée Mesra.",
+          "marges": [],
+          "p": 367
+        },
+        {
+          "texte": "De Phuth sont venus les peuples de Libye & de Mauritanie, où il y a encore aujourd'hui un fleuve appellé Phuth, qui donne son nom à tout le pays voisin.",
+          "marges": [],
+          "p": 367
+        },
+        {
+          "texte": "De Chanaan sont venus les Chananéens, qui ont habité la Phenicie, & même la Terre-Sainte, avant qu'ils eussent été chassez par le peuple d'Israel. Ils ont été celebres par leur grand trafic, d'où sont venues les grandes richesses de Tyr & de Sidon. C'est pourquoi l'Ecriture donne en general aux marchands & aux trafiqueurs le nom de Chananéens.",
+          "marges": [],
+          "p": 367
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "p": 362,
+      "lat": "Filii Chus : Saba, & Hevila, & Sabatha, & Regma, & Sabatacha. Filii Regma : Saba & Dadan.",
+      "fr": "Les fils de Chus, furent Saba, Hevila, Sabatha, Regma, & Sabatacha. Les fils de Regma, furent Saba & Dadan.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "<em>Les enfans de Chus, furent Saba, Hevila, Sabatha, Regma, & Sabatacha.</em>",
+          "marges": [],
+          "p": 367
+        },
+        {
+          "texte": "De Saba fils de Chus sont venus les Sabéens. Et de Saba fils de Regma, dont il est parlé ensuite, sont venus d'autres Sabéens, écrits comme ce second Saba par un Schin, Schebaïm. Car il y a dans l'Arabie heureuse deux pays de Saba, tous deux celebres par l'encens qui y vient en abondance, dont l'un s'écrit, comme nous venons de dire, par un Schin, & l'autre par un Samech. C'est du premier qu'étoit la Reine de Saba qui <a class=\"page-inline\" href=\"page-368.html\" title=\"p. 368\">‖</a>vint trouver Salomon. Et dans le Pſeaume 71. où nous liſons : <em>Reges Arabum & Saba,</em> il y a dans l'hebreu : <em>Reges Schaba & Saba.</em>",
+          "marges": [],
+          "p": 367
+        },
+        {
+          "texte": "D’<em>Hevila</em> ſont venus les Getuliens dans l’Afrique.",
+          "marges": [],
+          "p": 368
+        },
+        {
+          "texte": "De <em>Sabatha</em> ſont venus les Sabatheniens dans l’Arabie, où les Geographes mettent la ville de Sabathay ou de Sabatie.",
+          "marges": [],
+          "p": 368
+        },
+        {
+          "texte": "De <em>Regma & Sabatacha</em> ſont venus des peuples, dont il eſt difficile, ſelon ſaint Jerôme, d’allier les noms anciens avec les nouveaux. Ptolomée neanmoins met dans l’Arabie une ville appellée <em>Regma,</em> & le long du Sinus Perſicus les Sachabieus, qui ont du rapport avec <em>Sabatacha.</em>",
+          "marges": [],
+          "p": 368
+        },
+        {
+          "texte": "De <em>Dadan</em> eſt venu le nom d’une contrée d’Ethiopie, ſelon ſaint Jerôme.",
+          "marges": [],
+          "p": 368
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "p": 362,
+      "lat": "Porro Chus genuit Nemrod : ipse cœpit esse potens in terra.",
+      "fr": "Or Chus engendra Nemrod, qui commença à être puissant sur la terre.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "Or Chus engendra Nemrod, qui commença à être puiſſant ſur la terre. Avant ce temps-là, dit S. Jerôme, les chefs des familles commandoient dans leur maiſon, & les hommes ne reconnoiſſoient preſque pas d’autre autorité que celle des maîtres ſur leurs ſerviteurs, & des peres ſur leurs enfans. Mais celui-ci étant fier & ambitieux, uſurpa une domination tyrannique ſur les autres.",
+          "marges": [],
+          "p": 368
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "p": 362,
+      "lat": "Et erat robustus venator coram Domino. Ob hoc exivit proverbium : Quasi Nemrod robustus venator coram Domino.",
+      "fr": "Il fut un violent chasseur devant le Seigneur. De là est venu ce proverbe : Violent chasseur devant le Seigneur, comme Nemrod.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "Quand l’Ecriture, dit ſaint Auguſtin, appelle Nemrod chaſſeur, elle veut marquer que c’étoit un voleur & un brigand, qui pilloit, non quelques payſans, mais des provinces entieres. Ceci eſt conforme aux Interpretes Hebreux, qui diſent que Moïſe en marquant que <em>Nemrod étoit un grand chaſſeur,</em> nous donne à connoître par quelle voie il parvint à la tyrannie à laquelle ſon ambition le porta d’abord. Car ayant aſſemblé une troupe de jeunes-gens <a class=\"page-inline\" href=\"page-369.html\" title=\"p. 369\">‖</a>forts & hardis, qu'il grossit toujours de plus en plus, sous prétexte de s'exercer avec eux à la chasse des bêtes les plus farouches, après les avoir endurcis au travail, & les avoir accoutumés à le servir avec adresse de l'arc & des armes de ce temps-là, il en composa une armée très-forte. C'est ainsi qu'il s'assujettit sans peine des peuples nombreux, qui ayant toujours langui dans une profonde paix, furent surpris & emportés par une violence si imprévue.",
+          "marges": [],
+          "p": 368
+        },
+        {
+          "texte": "Quelques-uns expliquent ces paroles de la lettre, <em>devant le Seigneur</em>, par <em>véritablement</em>, comme il est dit de saint Jean, qu'il seroit grand <em>devant le Seigneur</em>. D'autres, selon saint Augustin, lisent <em>contre le Seigneur</em>. C'est-à-dire, qu'il étoit impie envers Dieu, & cruel envers les hommes.",
+          "marges": [],
+          "p": 369
+        }
+      ],
+      "nb": [
+        "℣. 9. expl. Il apprit en tuant les bêtes, à tuer les hommes."
+      ]
+    },
+    {
+      "n": 10,
+      "p": 362,
+      "lat": "Fuit autem principium regni ejus Babylon, & Arach, & Achad, & Chalanne, in terra Sennaar.",
+      "fr": "La ville capitale de son royaume fut Babylone, outre celles d'Arach, d'Achad, & de Chalanne dans la terre de Sennaar.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "<em>La ville capitale de son royaume fut Babylone.</em> Ces paroles ont fait croire à quelques-uns, que Nemrod a été Belus, qui donna le dessein de bâtir la tour de Babel, & qui depuis la dispersion des peuples bâtit Babylone. Il fut père de Ninus, & le premier auteur de l'idolâtrie, ayant désiré de se faire Dieu, & ayant été secondé puissamment par son fils dans ce dessein plein d'orgueil & d'impiété.",
+          "marges": [],
+          "p": 369
+        },
+        {
+          "texte": "Car <em>Ninus</em> étant devenu le successeur de sa tyrannie & de ses Etats, lui fit bâtir sous le nom de Belus, Bel, ou Baal, c'est-à-dire, seigneur, ou dominateur, un tombeau magnifique & un temple superbe ; & commanda à son peuple de l'adorer. Il surpassa son père même par la barbarie de son humeur, par l'éclat de ses victoires, & par l'étendue de ses conquêtes, ayant porté son empire jusqu'aux Indes, comme le rapportent <a class=\"page-inline\" href=\"page-370.html\" title=\"p. 370\">‖</a>les Historiens Payens. Il commença à bâtir Babylone, & Semiramis l'acheva. Il bâtit Ninive, qu'il appella de son nom, Nina ou Ninive ; & il y établit le siege de son empire.",
+          "marges": [],
+          "p": 369
+        },
+        {
+          "texte": "Quelques-uns disoient aussi, que <em>Nemrod est le Jupiter des Grecs.</em> Il regna non seulement dans Babylone, mais dans <em>Arach</em>, c'est-à-dire, dans Edesse en Mesopotamie ; dans Achad, que l'on croit être la ville celebre de Nisibe ; <em>dans Chalanne</em>, qui depuis fut appellée Seleucie, du nom du Roi Seleucus, ou Ctesiphonte, selon saint Jérôme.",
+          "marges": [],
+          "p": 370
+        },
+        {
+          "texte": "<em>Et dans Semaar</em>, c'est-à-dire, les campagnes voisines de Babylone.",
+          "marges": [],
+          "p": 370
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "p": 362,
+      "lat": "De terra illa egressus est Assur, & ædificavit Niniven, & plateas civitatis, & Chale.",
+      "fr": "Assur sortit de ce même pays, & il bâtit Ninive & les rues de cette ville, & Chalé.",
+      "note": ""
+    },
+    {
+      "n": 12,
+      "p": 362,
+      "lat": "Resen quoque inter Niniven & Chale : hæc est civitas magna.",
+      "fr": "Il bâtit aussi la grande ville de Resen, entre Ninive & Chalé.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "<em>Assur sortit de ce même pays, & il bâtit Ninive.</em> Saint Jérôme entend ainsi ces paroles : Assur, c'est-à-dire, l'empire de l'Assyrie, ainsi appellé à cause d'Assur fils de Sem, s'accrut de la sorte, étant fondé par Ninus fils de Nemrod. D'autres croyoient avec Joseph & saint Augustin, que ceci est dit par anticipation, d'Assur fils de Sem. Car ils prétendent que le pays de Babylone n'appartenoit point aux enfans de Cham, dont Nemrod étoit, mais aux enfans de Sem ; Assur ne pouvant ni souffrir ni arrêter la puissance tyrannique de Nemrod, sortit de Babylone, & commença à bâtir Ninive, & que Ninus après l'avoir conquise sur les enfans de Sem, l'embellit & l'agrandit extraordinairement, & lui ayant donné son nom, en fit la capitale de ses Etats.",
+          "marges": [],
+          "p": 370
+        }
+      ],
+      "nb": [
+        "Ibid. expl. violent devant le Seigneur, i. e. le plus violent qui fut sous le ciel, hébraïsme. Vatabl."
+      ]
+    },
+    {
+      "n": 13,
+      "p": 363,
+      "lat": "At vero Mesraim genuit Ludim, & Anamim, & Laabim, Nephuim,",
+      "fr": "Mais Mesraïm engendra Ludim, & Anamim, Laabim, & Nephuim.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "<em>Mesraim engendra Ludim, Anamim, Laabim, Nephtuhim, Pethrusim & Chasluim.</em> Ludim sont les Lydiens, non de la Lydie qui est dans l'Asie mineure, mais de la Lydie qui est <a class=\"page-inline\" href=\"page-371.html\" title=\"p. 371\">‖</a>dans l'Afrique, dont il est dit dans Isaïe : J'en- [lecture incertaine] voyeroi dans l'Afrique & dans la Lydie. Lubim, sont les Libiens, qui s'appelloient auparavant Phuthéens. Pour ce qui est des quatre autres peuples, Josephe & saint Jérôme témoignent qu'ils sont maintenant fort inconnus, parce qu'ils avoient été exterminés dans les guerres d'Ethiopie.",
+          "marges": [],
+          "p": 370
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "p": 363,
+      "lat": "& Pherrusim, & Chasluim : de quibus egressi sunt Philisthim & Caphtorim.",
+      "fr": "Pherrusim, & Chasluim ; d'où sont sortis les Philistins, & les Caphtorins.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "D'où sont sortis les Philistins & les Caphthorins. Les Septante traduisent les Cappadociens. Il ne faut pas entendre par ces Cappadociens ceux qui demeuroient auprès du Pont, dont le nom est celebre, mais un peuple qui demeuroit depuis Gaza jusqu'à l'Egypte le long de la côte de la mer, dans les terres qui appartenoient aux enfans de Cham, comme le témoignent Josephe & saint Jérôme. Les Caphthorins ou Cappadociens étant sortis de leurs terres, attaquerent les Hévéens, qui demeuroient le long de la côte du pays de Chanaan, & les ayant chassés de leur pays, s'y établirent. Les Philistins leur succederent, & donnerent le nom de Palestine à tout le pays.",
+          "marges": [],
+          "p": 371
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "p": 363,
+      "lat": "Chanaan autem genuit Sidonem primogenitum suum,",
+      "fr": "Chanaan engendra Sidon, qui fut son fils aîné ;",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "Chanaan engendra Sidon, qui bâtit la ville de Sidon, & lui donna son nom, Hethæus, Jebusæus, &c. Ces noms sont des noms de peuples, qui leur furent donnés par les premiers chefs de familles dont ils sont sortis. Ces peuples sont ceux qui habitoient dans la terre promise. Jebus étoit le premier nom de la ville de Jérusalem, dont les habitans & ceux de la contrée voisine s'appelloient Jébuséens.",
+          "marges": [],
+          "p": 371
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "p": 363,
+      "lat": "Hetheum, & Jebusæum, & Amorrhæum, Gergesæum ;",
+      "fr": "Hetheus, Jebuséus, Amorrhéus, Gergéséus ;",
+      "note": ""
+    },
+    {
+      "n": 17,
+      "p": 363,
+      "lat": "Heveum, & Araceum, Sinaeum,",
+      "fr": "Hevéus, Aracéus, Sinéus,",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "Arceus, d'où a pris son nom la ville d'Arcas auprès du Liban, selon saint Jérôme.",
+          "marges": [],
+          "p": 371
+        },
+        {
+          "texte": "<em>Sineus</em>, Les habitans du desert de Sin, ou du mont Sina, selon quelques-uns.",
+          "marges": [],
+          "p": 372
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "p": 363,
+      "lat": "& Aradium, Samareum, & Amatheum : & post hæc disseminati sunt populi Chananæorum.",
+      "fr": "Aradius, Samareus, & Amatheus ; & c'est par eux que les peuples des Chananéens se sont répandus depuis en divers endroits.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "<em>Aradius</em>, qui a donné le nom aux villes d'Aradie & d'Antarade près de Sidon, dont parle Ezechiel.",
+          "marges": [],
+          "p": 372
+        },
+        {
+          "texte": "<em>Samareus</em>, Les habitans de la ville & du pays de Samarie.",
+          "marges": [],
+          "p": 372
+        },
+        {
+          "texte": "<em>Amatheus</em>, Les habitans de la ville d'Emath. Il y en a deux dans l'Ecriture, la grande Emath qui est Antioche, & la petite Emath appellée Epiphanie.",
+          "marges": [],
+          "p": 372
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "p": 363,
+      "lat": "Factique sunt termini Chanaan venientibus à Sidone, Geraram usque Gazam, donec ingrediaris Sodomam & Gomorrham, & Adamam, & Seboim usque Lesa.",
+      "fr": "Les limites de Chanaan furent depuis le pays qui est en venant de Sidon à Gerara jusqu'à Gaza ; & jusques à ce qu'on entre dans Sodome, dans Gomorrhe, dans Adama, & Seboim jusques à Lesa.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "<em>Fysai à Lesa</em>, non Lesa ou Callirhoé près la Mer-Morte, mais la ville celebre de Dan qui est aux confins de la Terre-Sainte du côté du septentrion, qui s'appelloit autrefois Lesen, ensuite Lais, & enfin Dan, du nom du chef de cette tribu.",
+          "marges": [],
+          "p": 372
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "p": 363,
+      "lat": "Hi sunt filii Cham in cognationibus, & linguis, & generationibus, terrisque & gentibus suis.",
+      "fr": "Ce sont là les fils de Cham selon leurs alliances, leurs langues, leurs familles, leurs pays, & leurs nations.",
+      "note": ""
+    },
+    {
+      "n": 21,
+      "p": 363,
+      "lat": "De Sem quoque nati sunt, patre omnium filiorum Heber, fratre Japheth majore.",
+      "fr": "Sem qui fut le pere de tous les enfans d'Heber, & le frere aîné de Japhet, eut aussi divers fils.",
+      "note": ""
+    },
+    {
+      "n": 22,
+      "p": 364,
+      "lat": "Filii Sem Ælam, & Assur, & Arphaxad, & Lud, & Aram.",
+      "fr": "Et ces fils de Sem, furent Elam, Assur, Arphaxad, Lud & Aram.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "Ces enfans furent <em>Elam</em>, d'où sont venus les Elamites ayeuls des Perses.",
+          "marges": [],
+          "p": 372
+        },
+        {
+          "texte": "<em>Assur</em>, d'où est venu le nom de l'Assyrie & des Assyriens.",
+          "marges": [],
+          "p": 372
+        },
+        {
+          "texte": "<em>Arphaxad</em>, d'où sont venus les Chaldéens & la Chaldée, où étoit Babylone siege de l'empire de Nemrod.",
+          "marges": [],
+          "p": 372
+        },
+        {
+          "texte": "Et <em>Lud</em>, d'où sont venus les Lydiens, non ceux de l'Asie mineure qui sont celebres, mais d'autres moins connus sur les confins de la Perse.",
+          "marges": [],
+          "p": 372
+        },
+        {
+          "texte": "<em>Aram</em>, d'où sont venus les Syriens, le pays de Syrie s'appellant Aram en Hebreu.",
+          "marges": [],
+          "p": 372
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "p": 364,
+      "lat": "Filii Aram : Us, & Hul, & Gether, & Mes.",
+      "fr": "Les fils d'Aram, furent Us, Hul, Gether, & Mes.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "<em>Les enfans d'Aram, Hus</em>, qui s'empara de la Trachonitide & du pays de Damas, & donna à l'une de ces contrées le nom de Hus, où demeura Job.",
+          "marges": [],
+          "p": 372
+        },
+        {
+          "texte": "Et Hul, d'où sont venus les Armeniens. De Gebher, sont venus les Bactriens. De Mas, les Mesanéens le long du Sinus Persicus, selon Josephe.",
+          "marges": [],
+          "p": 373
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "p": 364,
+      "lat": "At verò Arphaxad genuit Sale, de quo ortus est Heber.",
+      "fr": "Or Arphaxad engendra Salé, dont est né Heber.",
+      "note": ""
+    },
+    {
+      "n": 25,
+      "p": 364,
+      "lat": "Natique sunt Heber filii duo : nomen uni Phaleg, eo quod in diebus ejus divisa sit terra : & nomen fratris ejus Jectan.",
+      "fr": "Heber eut deux fils ; l'un s'appella Phaleg //, parceque la terre fut divisée de son temps en des nations & des langues différentes : & son frere s'appelloit Jectan.",
+      "note": ""
+    },
+    {
+      "n": 26,
+      "p": 364,
+      "lat": "Qui Jectan genuit Elmodad, & Saleph, & Asarmoth, Jare,",
+      "fr": "Jectan engendra Elmodad, Saleph, Asarmoth, & Jaré,",
+      "note": ""
+    },
+    {
+      "n": 27,
+      "p": 364,
+      "lat": "& Aduram, & Uzal, & Decla,",
+      "fr": "Aduram, Uzal, Decla,",
+      "note": ""
+    },
+    {
+      "n": 28,
+      "p": 364,
+      "lat": "& Ebal, & Abimael, Saba,",
+      "fr": "Ebal, Abimael, Saba,",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "<em>Jectan engendra Elmodad,</em> Celui-ci s'empara de tous les pays des Indes, depuis le fleuve Cophene qui tombe dans le fleuve Indus, selon Josephe & saint Jérôme. Ce qui paroît vraisemblable, en ce qu'Ophir qui étoit l'un des enfans de Jectan, donna son nom au pays du même nom, où on alloit chercher l'or vers l'orient. C'est pourquoi il est parlé ici du mont Sephar vers l'orient, qui étoit aux confins de leurs pays.",
+          "marges": [],
+          "p": 373
+        }
+      ],
+      "noteLitteralVersets": [
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "n": 29,
+      "p": 364,
+      "lat": "& Ophir, & Hevila, & Jobab : omnes isti, filii Jectan.",
+      "fr": "Ophir, Hevila, & Jobab. Tous ceux-ci furent enfans de Jectan.",
+      "note": ""
+    },
+    {
+      "n": 30,
+      "p": 364,
+      "lat": "Et facta est habitatio eorum de Messa pergentibus usque Sephar montem orientalem.",
+      "fr": "Le pays où ils demeurerent s'étendoit depuis la sortie de Messa jusqu'à Sephar, qui est une montagne du côté de l'orient.",
+      "note": ""
+    },
+    {
+      "n": 31,
+      "p": 364,
+      "lat": "Isti filii Sem, secundum cognationes & linguas & regiones, in gentibus suis.",
+      "fr": "Ce sont là les fils de Sem selon leurs familles, leurs langues, leurs regions, & leurs peuples.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "<em>Selon leurs alliances & leurs langues.</em> Ces paroles qui sont repétées dans ce chapitre, marquent que cette dispersion des peuples n'a été faite qu'après la division des langues.",
+          "marges": [],
+          "p": 373
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "p": 364,
+      "lat": "Hæ familiæ Noe juxta populos & nationes suas. Ab <a class=\"page-inline\" href=\"page-365.html\" title=\"p. 365\">‖</a>his divisa sunt gentes in terra post diluvium.",
+      "fr": "Ce sont là les familles des enfans de Noé selon les di<a class=\"page-inline\" href=\"page-365.html\" title=\"p. 365\">‖</a>Et c'est de ces familles que se sont formés tous les peuples de la terre après le deluge.",
+      "note": "",
+      "noteLitteral": [
+        {
+          "texte": "<em>En divers peuples & diverses nations.</em> On peut demander, selon la remarque judicieuse de saint Augustin, d'où vient que l'Ecriture marquant les descendans des enfans de Noé, en rapporte quelques-uns seuls sans parler de leurs enfans, & nomme au-contraire avec soin les enfans des autres. A quoi on doit répondre, selon le même Saint, que tous les descendans de Noé, qui sont nommés ici, ont été les tiges d'autant de différentes nations ; & que c'est pour cette raison que les enfans de quelques-uns sont nommés après leurs peres, comme ayant été les chefs de ces peuples ; au-lieu que les enfans des autres n'ayant point été chefs des nations, ne sont point nommés. Le même Pere & d'autres Auteurs, comptent <a class=\"page-inline\" href=\"page-374.html\" title=\"p. 374\">‖</a>ici septante-deux différentes nations, selon les Septante. Il est plus difficile de rencontrer le même nombre dans l'Hébreu & dans la Vulgate.",
+          "marges": [
+            "Aug. de civ. Dei. l. 16. c. 3."
+          ],
+          "p": 373
+        },
+        {
+          "texte": "On n'a point trouvé de Sens spirituel assez naturel & assez simple, pour le joindre ici au Sens de la lettre. On ne doute point que des personnes plus éclairées & plus instruites des secrets de l'Ecriture, n'en puissent trouver. Mais nous devons nous souvenir de ce que les Saints nous ont dit si souvent, que la fin de l'Ecriture n'est pas proprement d'éclairer notre esprit, mais de convertir & de purifier notre cœur. Il n'est point nécessaire pour cela d'entrer dans les sens les plus cachés de la parole de Dieu, ni d'en développer les plus grands mystères. Il suffit d'adorer le Saint-Esprit renfermé dans ces paroles divines, qui est prêt de donner sa grace, non aux ames les plus sublimes & les plus éclairées, mais aux simples & aux petits, comme JESUS-CHRIST nous l'assûre dans l'Evangile. C'est pourquoi il est bon d'avoir souvent devant les yeux cette parole prise du fond de la doctrine des saints Peres, & qui se trouve dans quelques Auteurs de ces derniers temps : Il nous nuit d'entendre ce qu'il y a de plus caché dans l'Ecriture, lorsque ce que nous y comprenons, au-lieu d'édifier notre foi, ne sert qu'à satisfaire notre curiosité & à nourrir notre orgueil, & il nous est utile de ne l'entendre point dans ce qu'elle en-",
+          "marges": [
+            "Math. 11. 25."
+          ],
+          "p": 374
+        }
+      ],
+      "nb": [
+        "* v. 25. expl. c'est-à-dire, division."
+      ]
+    }
+  ]
+};
+  </script>
+</head>
+<body data-base="../">
+
+<div class="page-shell">
+  <button class="sidebar-open-btn" aria-label="Ouvrir le sommaire">☰</button>
+  <div class="sidebar-backdrop"></div>
+
+  <aside class="sidebar">
+    <div class="sidebar-head">
+      <a class="sidebar-brand" href="../index.html">Bible de Sacy</a>
+      <button class="sidebar-collapse-btn" title="Replier le sommaire">«</button>
+    </div>
+    <div class="sidebar-search">
+      <input type="search" class="sidebar-search-input" placeholder="Rechercher…" autocomplete="off" spellcheck="false">
+      <div class="sidebar-search-results" hidden></div>
+    </div>
+    <nav class="sidebar-tree"><details class="canon-group" open><summary>Nouveau Testament</summary>
+<a class="preface-gen" href="../preface-nt.html">Préface générale</a>
+<details class="livre-group" data-livre="matthieu"><summary><span class="abr">Mt</span> <span class="nom">Évangile de saint Matthieu</span></summary>
+<div class="chap-list">
+<a href="../matthieu/index.html" data-ch="0">Préface</a>
+<a href="../matthieu/ch01.html" data-ch="1">1</a>
+<a href="../matthieu/ch02.html" data-ch="2">2</a>
+<a href="../matthieu/ch03.html" data-ch="3">3</a>
+<a href="../matthieu/ch04.html" data-ch="4">4</a>
+<a href="../matthieu/ch05.html" data-ch="5">5</a>
+<a href="../matthieu/ch06.html" data-ch="6">6</a>
+<a href="../matthieu/ch07.html" data-ch="7">7</a>
+<a href="../matthieu/ch08.html" data-ch="8">8</a>
+<a href="../matthieu/ch09.html" data-ch="9">9</a>
+<a href="../matthieu/ch10.html" data-ch="10">10</a>
+<a href="../matthieu/ch11.html" data-ch="11">11</a>
+<a href="../matthieu/ch12.html" data-ch="12">12</a>
+<a href="../matthieu/ch13.html" data-ch="13">13</a>
+<a href="../matthieu/ch14.html" data-ch="14">14</a>
+<a href="../matthieu/ch15.html" data-ch="15">15</a>
+<a href="../matthieu/ch16.html" data-ch="16">16</a>
+<a href="../matthieu/ch17.html" data-ch="17">17</a>
+<a href="../matthieu/ch18.html" data-ch="18">18</a>
+<a href="../matthieu/ch19.html" data-ch="19">19</a>
+<a href="../matthieu/ch20.html" data-ch="20">20</a>
+<a href="../matthieu/ch21.html" data-ch="21">21</a>
+<a href="../matthieu/ch22.html" data-ch="22">22</a>
+<a href="../matthieu/ch23.html" data-ch="23">23</a>
+<a href="../matthieu/ch24.html" data-ch="24">24</a>
+<a href="../matthieu/ch25.html" data-ch="25">25</a>
+<a href="../matthieu/ch26.html" data-ch="26">26</a>
+<a href="../matthieu/ch27.html" data-ch="27">27</a>
+<a href="../matthieu/ch28.html" data-ch="28">28</a>
+</div></details>
+<details class="livre-group" data-livre="marc"><summary><span class="abr">Mc</span> <span class="nom">Évangile de saint Marc</span></summary>
+<div class="chap-list">
+<a href="../marc/index.html" data-ch="0">Préface</a>
+<a href="../marc/ch01.html" data-ch="1">1</a>
+<a href="../marc/ch02.html" data-ch="2">2</a>
+<a href="../marc/ch03.html" data-ch="3">3</a>
+<a href="../marc/ch04.html" data-ch="4">4</a>
+<a href="../marc/ch05.html" data-ch="5">5</a>
+<a href="../marc/ch06.html" data-ch="6">6</a>
+<a href="../marc/ch07.html" data-ch="7">7</a>
+<a href="../marc/ch08.html" data-ch="8">8</a>
+<a href="../marc/ch09.html" data-ch="9">9</a>
+<a href="../marc/ch10.html" data-ch="10">10</a>
+<a href="../marc/ch11.html" data-ch="11">11</a>
+<a href="../marc/ch12.html" data-ch="12">12</a>
+<a href="../marc/ch13.html" data-ch="13">13</a>
+<a href="../marc/ch14.html" data-ch="14">14</a>
+<a href="../marc/ch15.html" data-ch="15">15</a>
+<a href="../marc/ch16.html" data-ch="16">16</a>
+</div></details>
+<details class="livre-group" data-livre="luc"><summary><span class="abr">Lc</span> <span class="nom">Évangile de saint Luc</span></summary>
+<div class="chap-list">
+<a href="../luc/index.html" data-ch="0">Préface</a>
+<a href="../luc/ch01.html" data-ch="1">1</a>
+<a href="../luc/ch02.html" data-ch="2">2</a>
+<a href="../luc/ch03.html" data-ch="3">3</a>
+<a href="../luc/ch04.html" data-ch="4">4</a>
+<a href="../luc/ch05.html" data-ch="5">5</a>
+<a href="../luc/ch06.html" data-ch="6">6</a>
+<a href="../luc/ch07.html" data-ch="7">7</a>
+<a href="../luc/ch08.html" data-ch="8">8</a>
+<a href="../luc/ch09.html" data-ch="9">9</a>
+<a href="../luc/ch10.html" data-ch="10">10</a>
+<a href="../luc/ch11.html" data-ch="11">11</a>
+<a href="../luc/ch12.html" data-ch="12">12</a>
+<a href="../luc/ch13.html" data-ch="13">13</a>
+<a href="../luc/ch14.html" data-ch="14">14</a>
+<a href="../luc/ch15.html" data-ch="15">15</a>
+<a href="../luc/ch16.html" data-ch="16">16</a>
+<a href="../luc/ch17.html" data-ch="17">17</a>
+<a href="../luc/ch18.html" data-ch="18">18</a>
+<a href="../luc/ch19.html" data-ch="19">19</a>
+<a href="../luc/ch20.html" data-ch="20">20</a>
+<a href="../luc/ch21.html" data-ch="21">21</a>
+<a href="../luc/ch22.html" data-ch="22">22</a>
+<a href="../luc/ch23.html" data-ch="23">23</a>
+<a href="../luc/ch24.html" data-ch="24">24</a>
+</div></details>
+<details class="livre-group" data-livre="jean"><summary><span class="abr">Jn</span> <span class="nom">Évangile de saint Jean</span></summary>
+<div class="chap-list">
+<a href="../jean/index.html" data-ch="0">Préface</a>
+<a href="../jean/ch01.html" data-ch="1">1</a>
+<a href="../jean/ch02.html" data-ch="2">2</a>
+<a href="../jean/ch03.html" data-ch="3">3</a>
+<a href="../jean/ch04.html" data-ch="4">4</a>
+<a href="../jean/ch05.html" data-ch="5">5</a>
+<a href="../jean/ch06.html" data-ch="6">6</a>
+<a href="../jean/ch07.html" data-ch="7">7</a>
+<a href="../jean/ch08.html" data-ch="8">8</a>
+<a href="../jean/ch09.html" data-ch="9">9</a>
+<a href="../jean/ch10.html" data-ch="10">10</a>
+<a href="../jean/ch11.html" data-ch="11">11</a>
+<a href="../jean/ch12.html" data-ch="12">12</a>
+<a href="../jean/ch13.html" data-ch="13">13</a>
+<a href="../jean/ch14.html" data-ch="14">14</a>
+<a href="../jean/ch15.html" data-ch="15">15</a>
+<a href="../jean/ch16.html" data-ch="16">16</a>
+<a href="../jean/ch17.html" data-ch="17">17</a>
+<a href="../jean/ch18.html" data-ch="18">18</a>
+<a href="../jean/ch19.html" data-ch="19">19</a>
+<a href="../jean/ch20.html" data-ch="20">20</a>
+<a href="../jean/ch21.html" data-ch="21">21</a>
+</div></details>
+<details class="livre-group" data-livre="corinthiens2"><summary><span class="abr">2 Co</span> <span class="nom">Deuxième épître aux Corinthiens</span></summary>
+<div class="chap-list">
+<a href="../corinthiens2/index.html" data-ch="0">Préface</a>
+<a href="../corinthiens2/ch01.html" data-ch="1">1</a>
+<a href="../corinthiens2/ch02.html" data-ch="2">2</a>
+<a href="../corinthiens2/ch03.html" data-ch="3">3</a>
+<a href="../corinthiens2/ch04.html" data-ch="4">4</a>
+<a href="../corinthiens2/ch05.html" data-ch="5">5</a>
+<a href="../corinthiens2/ch06.html" data-ch="6">6</a>
+<a href="../corinthiens2/ch07.html" data-ch="7">7</a>
+<a href="../corinthiens2/ch08.html" data-ch="8">8</a>
+<a href="../corinthiens2/ch09.html" data-ch="9">9</a>
+<a href="../corinthiens2/ch10.html" data-ch="10">10</a>
+<a href="../corinthiens2/ch11.html" data-ch="11">11</a>
+<a href="../corinthiens2/ch12.html" data-ch="12">12</a>
+<a href="../corinthiens2/ch13.html" data-ch="13">13</a>
+</div></details>
+<details class="livre-group" data-livre="timothee2"><summary><span class="abr">2 Tm</span> <span class="nom">Deuxième épître à Timothée</span></summary>
+<div class="chap-list">
+<a href="../timothee2/index.html" data-ch="0">Préface</a>
+<a href="../timothee2/ch01.html" data-ch="1">1</a>
+<a href="../timothee2/ch02.html" data-ch="2">2</a>
+<a href="../timothee2/ch03.html" data-ch="3">3</a>
+<a href="../timothee2/ch04.html" data-ch="4">4</a>
+</div></details>
+<details class="livre-group" data-livre="tite"><summary><span class="abr">Tt</span> <span class="nom">Épître à Tite</span></summary>
+<div class="chap-list">
+<a href="../tite/index.html" data-ch="0">Préface</a>
+<a href="../tite/ch01.html" data-ch="1">1</a>
+<a href="../tite/ch02.html" data-ch="2">2</a>
+<a href="../tite/ch03.html" data-ch="3">3</a>
+</div></details>
+<details class="livre-group" data-livre="philemon"><summary><span class="abr">Phm</span> <span class="nom">Épître à Philémon</span></summary>
+<div class="chap-list">
+<a href="../philemon/index.html" data-ch="0">Préface</a>
+<a href="../philemon/ch01.html" data-ch="1">1</a>
+</div></details>
+<details class="livre-group" data-livre="jean2"><summary><span class="abr">2 Jn</span> <span class="nom">Deuxième épître de saint Jean</span></summary>
+<div class="chap-list">
+<a href="../jean2/index.html" data-ch="0">Préface</a>
+<a href="../jean2/ch01.html" data-ch="1">1</a>
+</div></details>
+<details class="livre-group" data-livre="jean3"><summary><span class="abr">3 Jn</span> <span class="nom">Troisième épître de saint Jean</span></summary>
+<div class="chap-list">
+<a href="../jean3/index.html" data-ch="0">Préface</a>
+<a href="../jean3/ch01.html" data-ch="1">1</a>
+</div></details>
+<details class="livre-group" data-livre="jude"><summary><span class="abr">Jude</span> <span class="nom">Épître de saint Jude</span></summary>
+<div class="chap-list">
+<a href="../jude/index.html" data-ch="0">Préface</a>
+<a href="../jude/ch01.html" data-ch="1">1</a>
+</div></details>
+</details>
+<details class="canon-group" open><summary>Ancien Testament</summary>
+<details class="livre-group" data-livre="genese"><summary><span class="abr">Gn</span> <span class="nom">Genèse</span></summary>
+<div class="chap-list">
+<a href="../genese/index.html" data-ch="0">Préface</a>
+<a href="../genese/ch01.html" data-ch="1">1</a>
+<a href="../genese/ch02.html" data-ch="2">2</a>
+<a href="../genese/ch03.html" data-ch="3">3</a>
+<a href="../genese/ch04.html" data-ch="4">4</a>
+<a href="../genese/ch05.html" data-ch="5">5</a>
+<a href="../genese/ch06.html" data-ch="6">6</a>
+<a href="../genese/ch07.html" data-ch="7">7</a>
+<a href="../genese/ch08.html" data-ch="8">8</a>
+<a href="../genese/ch09.html" data-ch="9">9</a>
+<a href="../genese/ch10.html" data-ch="10">10</a>
+<a href="../genese/ch11.html" data-ch="11">11</a>
+<a href="../genese/ch12.html" data-ch="12">12</a>
+<a href="../genese/ch13.html" data-ch="13">13</a>
+<a href="../genese/ch14.html" data-ch="14">14</a>
+<a href="../genese/ch15.html" data-ch="15">15</a>
+<a href="../genese/ch16.html" data-ch="16">16</a>
+<a href="../genese/ch17.html" data-ch="17">17</a>
+<a href="../genese/ch18.html" data-ch="18">18</a>
+<a href="../genese/ch19.html" data-ch="19">19</a>
+<a href="../genese/ch20.html" data-ch="20">20</a>
+<a href="../genese/ch21.html" data-ch="21">21</a>
+<a href="../genese/ch22.html" data-ch="22">22</a>
+<a href="../genese/ch23.html" data-ch="23">23</a>
+<a href="../genese/ch24.html" data-ch="24">24</a>
+<a href="../genese/ch25.html" data-ch="25">25</a>
+<a href="../genese/ch26.html" data-ch="26">26</a>
+<a href="../genese/ch27.html" data-ch="27">27</a>
+<a href="../genese/ch28.html" data-ch="28">28</a>
+<a href="../genese/ch29.html" data-ch="29">29</a>
+<a href="../genese/ch30.html" data-ch="30">30</a>
+<a href="../genese/ch31.html" data-ch="31">31</a>
+<a href="../genese/ch32.html" data-ch="32">32</a>
+<a href="../genese/ch33.html" data-ch="33">33</a>
+<a href="../genese/ch34.html" data-ch="34">34</a>
+<a href="../genese/ch35.html" data-ch="35">35</a>
+<a href="../genese/ch36.html" data-ch="36">36</a>
+<a href="../genese/ch37.html" data-ch="37">37</a>
+<a href="../genese/ch38.html" data-ch="38">38</a>
+<a href="../genese/ch39.html" data-ch="39">39</a>
+<a href="../genese/ch40.html" data-ch="40">40</a>
+<a href="../genese/ch41.html" data-ch="41">41</a>
+<a href="../genese/ch42.html" data-ch="42">42</a>
+<a href="../genese/ch43.html" data-ch="43">43</a>
+<a href="../genese/ch44.html" data-ch="44">44</a>
+<a href="../genese/ch45.html" data-ch="45">45</a>
+<a href="../genese/ch46.html" data-ch="46">46</a>
+<a href="../genese/ch47.html" data-ch="47">47</a>
+<a href="../genese/ch48.html" data-ch="48">48</a>
+<a href="../genese/ch49.html" data-ch="49">49</a>
+<a href="../genese/ch50.html" data-ch="50">50</a>
+</div></details>
+</details></nav>
+    <div class="sidebar-foot">
+      <a href="../biblio.html">Bibliographie</a>
+      <a href="../recherche.html">Recherche</a>
+      <button class="theme-toggle" title="Thème clair / sombre"><span class="theme-icon">☾</span></button>
+    </div>
+  </aside>
+
+  <main class="main main-wide">
+    <p class="breadcrumb">
+      <a href="../index.html">Bible de Sacy</a> › <span class="breadcrumb-livre"></span>
+    </p>
+
+    <header class="chapter-header">
+      <p class="livre"></p>
+      <h1></h1>
+      <h2></h2>
+      <div class="chapter-actions">
+        <div class="sens-switch" role="group" aria-label="Commentaire" hidden>
+          <button class="btn sens-mode" data-mode="litteral" type="button">Sens littéral <small class="n"></small></button>
+          <button class="btn sens-mode" data-mode="spirituel" type="button">Sens spirituel <small class="n"></small></button>
+          <button class="btn sens-mode" data-mode="both" type="button">Les deux</button>
+        </div>
+        <button class="btn" id="latin-toggle">Afficher le latin</button>
+        <a class="btn lien-pages" href="#" hidden>📄 Page à page</a>
+        <a class="btn lien-facs" href="#" target="_blank" rel="noopener">📖 Fac-similé</a>
+      </div>
+    </header>
+
+    <div class="chapitre-columns">
+      <section class="col-francais" aria-label="Texte français"></section>
+      <section class="col-commentaire" aria-label="Commentaire">
+        <p class="col-label">Notes de la <em>Bible de Sacy</em></p>
+        <div class="commentaire-texte"></div>
+      </section>
+      <section class="col-litteral" aria-label="Sens littéral" hidden>
+        <p class="col-label">
+          <span>Sens littéral</span>
+          <span class="sens-toggle">
+            <button class="btn sens-btn active" data-sens="litteral">Littéral</button>
+            <button class="btn sens-btn" data-sens="spirituel">Spirituel</button>
+          </span>
+        </p>
+        <div class="litteral-texte"></div>
+      </section>
+      <section class="col-spirituel" aria-label="Sens spirituel" hidden>
+        <p class="col-label">Sens spirituel</p>
+        <div class="spirituel-texte"></div>
+      </section>
+    </div>
+
+    <nav class="chapter-nav">
+      <a class="nav-prev" href="#">←</a>
+      <span class="chapitre-num"></span>
+      <a class="nav-next" href="#">→</a>
+    </nav>
+  </main>
+</div>
+
+<script src="../render.js"></script>
+</body>
+</html>
