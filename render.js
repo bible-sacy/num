@@ -348,6 +348,7 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.theme-toggle').forEach(btn => btn.addEventListener('click', toggleTheme));
   setupSidebar();
 
+  if (typeof SACY_PREFACE_NT !== 'undefined') { renderPrefaceNT(SACY_PREFACE_NT); return; }
   if (typeof SACY_LIVRE !== 'undefined') { renderLivre(SACY_LIVRE); return; }
   if (typeof SACY_DATA  !== 'undefined') { renderChapitre(SACY_DATA); return; }
   if (typeof SACY_PAGE  !== 'undefined') { renderPage(SACY_PAGE); return; }
@@ -378,6 +379,19 @@ function renderLivre(livre) {
   }
 
   highlightSidebarCurrent(livre.livre, null);
+}
+
+// ── Préface générale du Nouveau Testament (page à part) ───────────────────────
+
+function renderPrefaceNT(data) {
+  const base = siteBase();
+  const div = document.querySelector('.livre-preface');
+  if (div) div.innerHTML = data.preface.map(para => buildParaRow(para.texte, para.marges || [], base)).join('');
+  const lien = document.querySelector('.sidebar-tree a.preface-gen');
+  if (lien) {
+    lien.classList.add('current');
+    const g = lien.closest('details.canon-group'); if (g) g.open = true;
+  }
 }
 
 // ── Page-chapitre ────────────────────────────────────────────────────────────
