@@ -822,6 +822,10 @@ mark { background: transparent; color: var(--accent); font-weight: 600; }
 .chapitre-columns.triple[data-mode="both"] .verset-marges { margin: 0.2rem 0 0 1.5em; border-left: none; padding-left: 0; }
 .chapitre-columns.triple[data-mode="both"] .verset-marges .marge-item { display: inline; margin-right: 0.9em; }
 .chapitre-columns.triple[data-mode="both"] .col-litteral, .chapitre-columns.triple[data-mode="both"] .col-spirituel { flex: 1 1 0; }
+/* les deux : chaque commentaire défile séparément (comme la colonne française) */
+.chapitre-columns.triple[data-mode="both"] .col-litteral, .chapitre-columns.triple[data-mode="both"] .col-spirituel {
+  position: sticky; top: 1.2rem; max-height: calc(100vh - 2.4rem); overflow-y: auto; padding-right: 0.6rem;
+}
 .sens-index { font-size: 0.9rem; color: var(--muted); margin: 0 0 1rem; text-align: left; }
 .sens-index a { margin: 0 0.1em; }
 @media (max-width: 980px) { .sens-switch { flex-wrap: wrap; justify-content: center; } }
