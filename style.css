@@ -504,6 +504,7 @@ details.livre-group.indisponible > summary { color: var(--muted); opacity: 0.5; 
   font-style: italic;
   padding-left: 0.9rem;
   border-left: 2px solid var(--border-light);
+  align-self: start;                 /* le trait suit la hauteur des renvois, pas celle du paragraphe */
 }
 .marge-item { display: block; margin-bottom: 0.2em; }
 
