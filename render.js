@@ -716,13 +716,13 @@ function setupCrosslinks() {
     if (com) {
       e.preventDefault();
       const el = document.querySelector(com.getAttribute('href'));
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (el) el.scrollIntoView({ block: 'start' });
     }
     const ret = e.target.closest('.ref-retour[href^="#v"]');
     if (ret) {
       e.preventDefault();
       const el = document.querySelector(ret.getAttribute('href'));
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (el) el.scrollIntoView({ block: 'start' });
     }
   });
 }

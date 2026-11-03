@@ -65,7 +65,7 @@
 
 /* ── Reset & base ─────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; }
-html { font-size: 19px; scroll-behavior: smooth; }
+html { font-size: 19px; }
 body {
   margin: 0;
   background: var(--bg);
