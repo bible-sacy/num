@@ -841,6 +841,8 @@ mark { background: transparent; color: var(--accent); font-weight: 600; }
 .biblio-refs li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2rem 0.9rem; padding: 0.15rem 0; }
 .biblio-ref { font-variant-numeric: tabular-nums; font-weight: 600; min-width: 5.5rem; color: var(--accent); }
 .ref-verset { color: inherit; border-bottom: 1px dotted var(--muted); }
+.ref-bible { color: inherit; border-bottom: 1px dotted var(--muted); }
+.ref-bible:hover { color: var(--accent); text-decoration: none; border-bottom-color: var(--accent); }
 .ref-verset:hover { color: var(--accent); text-decoration: none; border-bottom-color: var(--accent); }
 
 /* ── Préface générale du Nouveau Testament : lien du sommaire, de l'accueil, notes de bas de page ── */

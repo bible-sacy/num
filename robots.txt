@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /num/recherche.html
+Sitemap: https://bible.sacy.be/num/sitemap.xml
