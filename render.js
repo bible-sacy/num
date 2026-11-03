@@ -378,11 +378,33 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.theme-toggle').forEach(btn => btn.addEventListener('click', toggleTheme));
   setupSidebar();
 
+  // pages pré-rendues à la compilation (scripts/prerender.js) : le contenu est déjà dans le HTML, on ne fait que l'activer
+  const pre = document.body.dataset.pre;
+  if (pre) { hydrate(pre); return; }
+
   if (typeof SACY_PREFACE_NT !== 'undefined') { renderPrefaceNT(SACY_PREFACE_NT); return; }
   if (typeof SACY_LIVRE !== 'undefined') { renderLivre(SACY_LIVRE); return; }
   if (typeof SACY_DATA  !== 'undefined') { renderChapitre(SACY_DATA); return; }
   if (typeof SACY_PAGE  !== 'undefined') { renderPage(SACY_PAGE); return; }
 });
+
+function hydrate(type) {
+  if (type === 'chapitre') {
+    const columns = document.querySelector('.chapitre-columns');
+    if (columns && columns.classList.contains('triple')) setupSensSwitch(columns, null, null);
+    setupLatinToggle();
+    setupCrosslinks();
+    setupCitations();
+  } else if (type === 'page') {
+    const prev = document.querySelector('.pf-prev[href]'), next = document.querySelector('.pf-next[href]');
+    document.addEventListener('keydown', e => {
+      if (e.target.matches('input, textarea')) return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.getAttribute('href');
+      if (e.key === 'ArrowRight' && next) location.href = next.getAttribute('href');
+    });
+    setupCrosslinks();
+  }
+}
 
 // ── Page-livre : préface + liste des chapitres ────────────────────────────────
 
@@ -494,39 +516,8 @@ function renderChapitre(data) {
       if (t) t.innerHTML = index + buildCommentaire(versets, meta, base, 'noteSpirituel', 'noteSpirituelVersets', 'spi');
     }
 
-    // sélecteur : sens littéral / sens spirituel / les deux (trois colonnes, grands écrans seulement)
-    const sw = document.querySelector('.sens-switch');
-    if (sw && columns) {
-      sw.hidden = false;
-      sw.querySelector('[data-mode="litteral"] .n').textContent = nLit.length ? `· ${nLit.length}` : '';
-      sw.querySelector('[data-mode="spirituel"] .n').textContent = nSpi.length ? `· ${nSpi.length}` : '';
-      const wide = window.matchMedia('(min-width: 1280px)');
-      let stored = new URLSearchParams(location.search).get('sens');          // ?sens=litteral|spirituel|both (lien partageable)
-      if (!['litteral', 'spirituel', 'both'].includes(stored)) stored = null;
-      if (!stored) { try { stored = localStorage.getItem('sacy-sens'); } catch (e) {} }
-      const apply = (m, remember) => {
-        if (m === 'both' && !wide.matches) m = 'litteral';
-        columns.dataset.mode = m;
-        sw.querySelectorAll('.sens-mode').forEach(b => b.classList.toggle('active', b.dataset.mode === m));
-        sw.querySelector('[data-mode="both"]').hidden = !wide.matches;
-        if (remember) {
-          try { localStorage.setItem('sacy-sens', m); } catch (e) {}
-          const q = new URLSearchParams(location.search); q.set('sens', m);
-          history.replaceState(null, '', location.pathname + '?' + q.toString() + location.hash);
-        }
-      };
-      apply(stored || (window.matchMedia('(min-width: 1700px)').matches ? 'both' : 'litteral'), false);
-      sw.querySelectorAll('.sens-mode').forEach(b => b.addEventListener('click', () => apply(b.dataset.mode, true)));
-      wide.addEventListener('change', () => apply(columns.dataset.mode, false));
-      // un renvoi §L / §S du texte français ouvre le commentaire correspondant
-      document.addEventListener('click', e => {
-        const a = e.target.closest('.ref-com, .ref-com-lien');
-        if (!a) return;
-        const h = a.getAttribute('href') || '';
-        if (h.startsWith('#com-spi-') && columns.dataset.mode === 'litteral') apply('spirituel', true);
-        if (h.startsWith('#com-lit-') && columns.dataset.mode === 'spirituel') apply('litteral', true);
-      }, true);
-    }
+    const sw0 = document.querySelector('.sens-switch');
+    if (sw0 && columns) { sw0.hidden = false; setupSensSwitch(columns, nLit.length, nSpi.length); }
   } else {
     const comTexte = document.querySelector('.col-commentaire .commentaire-texte');
     if (comTexte) comTexte.innerHTML = buildCommentaire(versets, meta, base);
@@ -536,6 +527,44 @@ function renderChapitre(data) {
   setupCrosslinks();
   setupCitations();
   highlightSidebarCurrent(meta.livre, meta.chapitre);
+}
+
+// Sélecteur : sens littéral / sens spirituel / les deux (trois colonnes, grands écrans seulement).
+// nLit / nSpi = nombres de passages commentés (null en hydratation : les compteurs sont déjà dans le HTML).
+function setupSensSwitch(columns, nLit, nSpi) {
+  const sw = document.querySelector('.sens-switch');
+  if (!sw || !columns) return;
+  sw.hidden = false;
+  if (nLit !== null) {
+    sw.querySelector('[data-mode="litteral"] .n').textContent = nLit ? `· ${nLit}` : '';
+    sw.querySelector('[data-mode="spirituel"] .n').textContent = nSpi ? `· ${nSpi}` : '';
+  }
+  const wide = window.matchMedia('(min-width: 1280px)');
+  let stored = new URLSearchParams(location.search).get('sens');          // ?sens=litteral|spirituel|both (lien partageable)
+  if (!['litteral', 'spirituel', 'both'].includes(stored)) stored = null;
+  if (!stored) { try { stored = localStorage.getItem('sacy-sens'); } catch (e) {} }
+  const apply = (m, remember) => {
+    if (m === 'both' && !wide.matches) m = 'litteral';
+    columns.dataset.mode = m;
+    sw.querySelectorAll('.sens-mode').forEach(b => b.classList.toggle('active', b.dataset.mode === m));
+    sw.querySelector('[data-mode="both"]').hidden = !wide.matches;
+    if (remember) {
+      try { localStorage.setItem('sacy-sens', m); } catch (e) {}
+      const q = new URLSearchParams(location.search); q.set('sens', m);
+      history.replaceState(null, '', location.pathname + '?' + q.toString() + location.hash);
+    }
+  };
+  apply(stored || (window.matchMedia('(min-width: 1700px)').matches ? 'both' : 'litteral'), false);
+  sw.querySelectorAll('.sens-mode').forEach(b => b.addEventListener('click', () => apply(b.dataset.mode, true)));
+  wide.addEventListener('change', () => apply(columns.dataset.mode, false));
+  // un renvoi §L / §S du texte français ouvre le commentaire correspondant
+  document.addEventListener('click', e => {
+    const a = e.target.closest('.ref-com, .ref-com-lien');
+    if (!a) return;
+    const h = a.getAttribute('href') || '';
+    if (h.startsWith('#com-spi-') && columns.dataset.mode === 'litteral') apply('spirituel', true);
+    if (h.startsWith('#com-lit-') && columns.dataset.mode === 'spirituel') apply('litteral', true);
+  }, true);
 }
 
 // ── Colonne française (versets, latin optionnel, renvois) ────────────────────

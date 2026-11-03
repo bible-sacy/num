@@ -1,571 +1,14 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
+<!DOCTYPE html><html lang="fr" data-theme="light"><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><!-- rempli par render.js --></title>
+  <title>Gn XXVII — Bible de Sacy</title>
   <link rel="stylesheet" href="../style.css">
   <script>
     (function(){ document.documentElement.setAttribute('data-theme', localStorage.getItem('sacy-theme')||'light'); })();
   </script>
-  <script>
-  const SACY_DATA = {
-  "meta": {
-    "livre": "genese",
-    "livreFr": "Genèse",
-    "livreAbr": "Gn",
-    "chapitre": 27,
-    "chapTotal": 50,
-    "titre": "",
-    "pageFacs": 677,
-    "pageView": true,
-    "chapitresDisponibles": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50
-    ],
-    "facsimile": {
-      "slug": "genese_2",
-      "page": 675
-    }
-  },
-  "versets": [
-    {
-      "n": 1,
-      "p": 677,
-      "lat": "Senuit autem Isaac, & caligaverunt oculi ejus, & videre non poterat : vocavitque Esau, filium suum majorem, & dixit ei : Fili mi. Qui respondit : Adsum.",
-      "fr": "Isaac étant devenu fort vieux, ses yeux s'obscurcirent tellement qu'il ne pouvoit plus voir. Il appella donc Esaü son fils aîné, & lui dit : Mon fils. Me voici, dit Esaü.",
-      "note": "",
-      "noteLitteral": [
-        {
-          "texte": "<em>Isaac étoit déjà fort vieux.</em> Il avoit pour lors cent trente-sept ans.",
-          "marges": [],
-          "p": 685
-        }
-      ],
-      "marges": [
-        "AVARI vieux, les yeux s'obscurcirent. I. (CHA) 1759."
-      ]
-    },
-    {
-      "n": 2,
-      "p": 677,
-      "lat": "Cui pater : Vides, inquit, quod senuerim, & ignorem diem mortis meæ.",
-      "fr": "Isaac ajoûta : Vous voyez que je suis fort âgé, & que j'ignore le jour de ma mort.",
-      "note": ""
-    },
-    {
-      "n": 3,
-      "p": 677,
-      "lat": "Sume arma tua, pharetram, & arcum, & egredere foras : cumque venatu aliquid apprehenderis,",
-      "fr": "Prenez vos armes, votre carquois & votre arc, & sortez dehors ; & lorsque vous aurez pris quelque chose à la chasse,",
-      "note": ""
-    },
-    {
-      "n": 4,
-      "p": 677,
-      "lat": "fac mihi inde pulmentum sicut velle me nosti, & affer ut comedam, & benedicat tibi anima mea antequam moriar.",
-      "fr": "vous me l'apprêterez comme vous savez que je l'aime ; & vous me l'apporterez afin que j'en mange, & que je vous benisse avant que je meure.",
-      "note": ""
-    },
-    {
-      "n": 5,
-      "p": 678,
-      "lat": "Quod cum audisset Rebecca, & ille abiisset in agrum ut jussionem patris impleret,",
-      "fr": "Rebecca entendit ces paroles ; & Esau étant allé dans les champs pour faire ce que son pere lui avoit commandé,",
-      "note": ""
-    },
-    {
-      "n": 6,
-      "p": 678,
-      "lat": "dixit filio suo Jacob : Audivi patrem tuum loquentem cum Esau fratre tuo, & dicentem ei :",
-      "fr": "elle dit à Jacob son fils : J'ai entendu votre pere qui parloit à votre frere Esai, & qui lui disoit :",
-      "note": ""
-    },
-    {
-      "n": 7,
-      "p": 678,
-      "lat": "Affer mihi de venatione tua, & fac cibos ut comedam, & benedicam tibi coram Domino antequam moriar.",
-      "fr": "Apportez-moi quelque chose de votre chasse, & préparez-moi de quoi manger, afin que je vous benisse devant le Seigneur avant que je meure.",
-      "note": ""
-    },
-    {
-      "n": 8,
-      "p": 678,
-      "lat": "Nunc ergo fili mi, acquiesce consiliis meis :",
-      "fr": "Suivez donc, mon fils, le conseil que je vais vous donner :",
-      "note": ""
-    },
-    {
-      "n": 9,
-      "p": 678,
-      "lat": "Et pergens ad gregem, affer mihi duos hædos optimos, ut faciam ex eis escas patri tuo, quibus libenter vescitur :",
-      "fr": "Allez vous-en au troupeau ; & apportez-moi deux des meilleurs chevreaux que vous trouverez, afin que j'en prépare à votre pere une sorte de mets que je sai qu'il aime :",
-      "note": ""
-    },
-    {
-      "n": 10,
-      "p": 678,
-      "lat": "quas cum intuleris, & comederit, benedicat tibi priusquam moriatur.",
-      "fr": "& qu'après que vous le lui aurez présenté, & qu'il en aura mangé, il vous benisse avant qu'il meure.",
-      "note": ""
-    },
-    {
-      "n": 11,
-      "p": 678,
-      "lat": "Cui ille respondit : Nosti quod Esau frater meus homo pilosus sit, & ego lenis :",
-      "fr": "Jacob lui répondit : Vous savez que mon frere Esai a le corps velu, & que moi je n'ai point de poil.",
-      "note": ""
-    },
-    {
-      "n": 12,
-      "p": 678,
-      "lat": "Si attrectaverit me pater meus, & senserit, timeo ne putet me sibi voluisse illudere, & inducam super me",
-      "fr": "Si mon pere vient donc à me toucher avec la main, & qu'il s'en apperçoive, j'ai peur qu'il ne croye que je l'ai voulu",
-      "note": ""
-    },
-    {
-      "n": 13,
-      "p": 679,
-      "lat": "",
-      "fr": "Sa mere lui répondit : Mon fils, je me charge moi-même de cette malédiction que vous craignez : faites seulement ce que je vous conseille, & allez me querir ce que je vous dis.",
-      "note": ""
-    },
-    {
-      "n": 14,
-      "p": 679,
-      "lat": "",
-      "fr": "Il y alla, il l'apporta, & il le donna à sa mere, qui en prépara à manger à son pere comme elle sçavoit qu'il le désiroit.",
-      "note": ""
-    },
-    {
-      "n": 15,
-      "p": 679,
-      "lat": "",
-      "fr": "Elle fit prendre ensuite à Jacob de très-beaux habits d'Esaü, qu'elle gardoit elle-même au logis.",
-      "note": ""
-    },
-    {
-      "n": 16,
-      "p": 679,
-      "lat": "",
-      "fr": "Et elle mit autour de ses mains la peau de ces chevreaux, & lui en couvrit le cou par-tout où il étoit découvert.",
-      "note": ""
-    },
-    {
-      "n": 17,
-      "p": 679,
-      "lat": "",
-      "fr": "Puis elle lui donna ce qu'elle avoit préparé à manger, & les pains qu'elle avoit cuits.",
-      "note": ""
-    },
-    {
-      "n": 18,
-      "p": 679,
-      "lat": "",
-      "fr": "Jacob porta le tout devant Isaac, & lui dit : Mon pere. Je vous entends, dit Isaac : Qui êtes-vous, mon fils ?",
-      "note": "",
-      "noteSpirituel": [
-        {
-          "texte": "<em>Jacob ayant apporté à manger à Isaac, lui dit : Mon pere, je vous entends, dit Isaac : Qui êtes-vous, mon fils ? Jacob lui répondit : Je suis Esau votre fils-aîné.</em> Cette action de Jacob, qui dit à son pere : qu'il est Esau, & qui prend ainsi pour lui-même la benediction qui étoit naturellement dûe au fils-aîné, est expliquée diversement par les Auteurs Ecclesiastiques..",
-          "marges": [],
-          "p": 687
-        },
-        {
-          "texte": "Quelques Anciens, comme Cassien & quelques autres, sont persuadés que ce que dit ici Jacob est un mensonge, & ils prétendent en même-temps qu'en cela il n'a point péché ; parce qu'ils croyent qu'il est quelquefois permis de mentir, pour quelque grand bien qui ne peut s'obtenir que par un mensonge. Cette doctrine que ces Auteurs semblent avoir prise de Platon où elle se trouve, & qui est plus digne d'un payen & d'un Philosophe, que des adorateurs & des disciples de l'éternelle Vérité, a été détruite avec grande force par saint Augustin dans ses livres contre le mensonge ; & les saints Docteurs l'ont rejetée après lui, comme contraire à la doctrine de l'Eglise.",
-          "marges": [],
-          "p": 687
-        },
-        {
-          "texte": "Plusieurs des Interpretes nouveaux croyent que Jacob n'a point dit la vérité ; mais que le mensonge qu'il a commis n'est que veniel, & d'autant plus excusable qu'il l'a fait en quelque sorte contre son inclination pour obéir au comman<a class=\"page-inline\" href=\"page-688.html\" title=\"p. 688\">‖</a>dement de sa mere. Ces Auteurs sont au moins à estimer en ce qu'ils demeurent d'accord que le mensonge en la bouche de qui que ce soit est toujours un mal, ou grand ou petit, & qu'il ne peut être justifié par le mérite de celui qui le commet, quelque saint qu'il puisse être, parce que toutes les actions des Saints ne sont pas saintes.",
-          "marges": [],
-          "p": 687
-        },
-        {
-          "texte": "Mais des Auteurs celebres, & entr'autres saint Augustin, soutiennent que tout ce que dit ici Jacob n'est point un mensonge : & saint Thomas enseigne la même chose avec beaucoup de lumiere & de succès.",
-          "marges": [],
-          "p": 688
-        },
-        {
-          "texte": "Cette justification de Jacob se prouve premièrement sans avoir recours au mystere, & se prend du sens litteral & naturel, & de ce qui s'est passé dans la suite de cette histoire entre Jacob & son frere Esaü. Car il a été marqué auparavant qu'Esaü avoit vendu à son frere son droit d'aînesse pour un plat de lentilles : que Jacob lui en ayant demandé son serment, il le lui jura en effet, & s'en alla, se mettant peu en peine de ce qu'il avoit vendu son droit d'aînesse. Il lui arriva en cette occasion ce que le Sage dit avec grande raison : <em>Que les insensés commettent des crimes comme en riant, Quasi per risum stultus operatur scelus.</em> Il crut se jouer en faisant une action qui étoit d'autant plus criminelle ; qu'il paroissoit n'avoir que du mépris pour ce qui étoit de soi-même très-grand & très-estimable. Mais Dieu en jugea selon la lumiere de sa vérité, & non selon l'aveuglement de cet homme endurci dans le mal. C'est ce que saint Paul nous témoigne par ces paroles : <em>Qu'il ne se trouve point parmi</em> <a class=\"page-inline\" href=\"page-689.html\" title=\"p. 689\">‖</a>sous quelque profane, comme Esaü, qui pour se rassasier une seule fois, vendit à son frere son droit d’aînesse ; car vous savez que desirant depuis d’avoir comme le premier heritier la benediction de son pere, il fut rejetté ; & il ne put le porter à reconquerir ce qu’il avoit fait pour Jacob, quoiqu’il en eût conjuré avec larmes.",
-          "marges": [
-            "Gen. 25. 31. 32. 33.",
-            "Proverb. 10. 23.",
-            "Hebr. 12. 16."
-          ],
-          "p": 688
-        },
-        {
-          "texte": "Ainsi Rebecca qui avoit été d’abord instruite divinement de ce qui devoit arriver à ces deux jumeaux qu’elle avoit senti s’entrebattre dans son sein, & à qui il avoit été dit, que l’aîné seroit assujetti au plus jeune, jugea de cette action d’Esaü, comme Dieu même en a jugé, selon saint Paul ; & elle crut qu’Esaü s’étant dépouillé du droit d’aînesse, il n’étoit plus effectivement l’aîné, & qu’il avoit mis Jacob en sa place, en lui vendant avec serment le droit qui lui avoit été acquis par sa naissance.",
-          "marges": [],
-          "p": 689
-        },
-        {
-          "texte": "Quand donc Isaac dit à Jacob : <em>Es-tu mon fils Esaü</em>, & qu’il lui répond : <em>Je le suis</em>, c’est-à-dire : Je suis votre fils aîné, puisque c’étoit par cette qualité qu’Isaac vouloit benir Esaü ; Jacob parle selon la vérité, comme un homme qui auroit acheté une terre que son aîné auroit eue auparavant, & dont il auroit le nom, ne diroit rien que de veritable, en s’attribuant ensuite & le domaine & le nom de cette terre.",
-          "marges": [],
-          "p": 689
-        },
-        {
-          "texte": "Quoique ce raisonnement semble très-solide, saint Augustin néanmoins n’établi pas la justification des paroles de Jacob, sur ce qu’il étoit devenu effectivement l’aîné, ayant acquis ce droit par le consentement d’Esaü son frere : mais en supposant cette premiere preuve, sans s’y <a class=\"page-inline\" href=\"page-690.html\" title=\"p. 690\">‖</a>arrêter, il établit la justification de Jacob sur une raison plus élevée, qui est que tout ce qui s'est passé dans cette action étoit réellement & véritablement devant Dieu & dans l'esprit de Rebecca à qui Dieu l'avoit révélé, une image vivante & présente des choses futures. Or il est certain, selon les Saints, qu'on donne à l'image le nom de la chose dont elle est l'image, sans blesser en aucune sorte la vérité.",
-          "marges": [],
-          "p": 689
-        },
-        {
-          "texte": "Lorsqu'on voit, par exemple, une statue de Jule César, on dit : Voilà Jule César ; & on ne commet point de mensonge, quoique cette statue ne soit qu'une pierre morte, parce qu'elle représente cet Empereur. Il est certain de même, que lorsque l'Ange qui apparut à Moïse lui dit : <em>Qu'il étoit celui qui est</em>, c'est-à-dire, qu'il étoit Dieu, & qu'il s'attribua le nom le plus grand qui nous puisse marquer la souveraineté de Dieu, il ne mentoit point, quoiqu'il ne fût qu'une simple créature ; parce qu'il parloit au nom de celui dont il représentoit la personne.",
-          "marges": [
-            "Exod. 3. 14."
-          ],
-          "p": 690
-        },
-        {
-          "texte": "C'est ainsi, ajoute saint Augustin, qu'il faut juger de l'action de Jacob. Il a été dit auparavant, que c'étoit <em>un homme simple</em>, c'est-à-dire, un homme sans déguisement & sans artifice. Il ne faut donc point chercher dans ce que ce saint homme a fait en une rencontre si importante, <em>aucune fiction ni aucun déguisement ;</em> mais il faut y reconnoître dépeinte comme dans une image vive, la profondeur & la vérité de nos mysteres : <em>Quis est dolus simplicis, qua fictio non mentientis, nisi profundum mysterium veritatis ?</em>",
-          "marges": [
-            "August. de Civ. Dei. l. 16. c. 37.",
-            "August. ibid."
-          ],
-          "p": 690
-        },
-        {
-          "texte": "Jacob représente JESUS-CHRIST en la personne de chef des élus, & en la personne de son corps qui est son Eglise. Il se couvre de peau de bouc, comme JESUS-CHRIST étant l'Agneau sans tache s'est revêtu de nos péchés, pour les effacer en les portant, & pour attirer sur nous la benediction de son Pere. Il prend les habits de l'aîné, & il dit qu'il est l'aîné, parce que le second peuple le peuple Gentil, dont l'Eglise qui est le corps de JESUS-CHRIST est composée, s'est assujetti l'aîné qui est le peuple Juif, & est devenu le peuple bien-aimé de Dieu, selon qu'il avoit été prédit à Rebecca, que <em>le plus jeune s'assujettiroit son aîné</em> : & selon que JESUS-CHRIST a dit lui-même dans l'Evangile, que <em>les derniers deviendroient les premiers, & que les premiers deviendroient les derniers.</em>",
-          "marges": [
-            "August. contra…",
-            "Gen. 27.",
-            "Aug. in…",
-            "Matt. 19. 30."
-          ],
-          "p": 691
-        },
-        {
-          "texte": "Le même Saint Augustin ajoute, que tout ce qu'Isaac souhaite à son fils en le benissant, se trouve accompli divinement en la personne de JESUS-CHRIST & de son Eglise. Il dit que ses vêtemens furent une admirable odeur semblable à celle d'un <em>champ rempli de fleurs & de fruits</em>, parce que la foi & la bonne odeur de JESUS-CHRIST s'est répandue dans toute la terre. Il lui souhaite <em>la rosée du ciel</em>, pour marquer cette pluye spirituelle de la parole divine qui ne tombe que sur l'Eglise. Il lui desire <em>la graisse de la terre</em>, pour montrer que l'Eglise est cette mere feconde dont les enfans se sont multipliés jusques aux extremités du monde. Il y joint <em>l'abondance du blé & du vin</em>, parce que le lien de tous ces peuples est le corps <a class=\"page-inline\" href=\"page-692.html\" title=\"p. 692\">‖</a>même de JESUS-CHRIST qu'il donne à tous les membres dans son Sacrement sous les especes du pain & du vin.",
-          "marges": [],
-          "p": 691
-        },
-        {
-          "texte": "C'est ce même JESUS-CHRIST, ajoûte ce Saint, représenté par Jacob, que tous les peuples de la terre sçavent, que les tribus, c'est-à-dire, que les Juifs convertis adorent. Il est devenu le Seigneur de ses freres ; & les enfans de sa mere l'ont adoré avec un profond respect, parce qu'étant lui-même fils d'Abraham selon la chair, il a été adoré en esprit & en vérité par la premiere Eglise composée de Juifs devenus par la foi les enfans d'Abraham selon l'esprit. Et c'est lui qui est tellement la source de toutes les benedictions & de toutes les graces : <em>Que tous ceux qui le maudissent seront maudits, & que tous ceux qui le benissent, seront benis éternellement.</em>",
-          "marges": [
-            "Aug. in Joan. 5. 15."
-          ],
-          "p": 692
-        },
-        {
-          "texte": "C'est pourquoi aussi-tôt qu'Isaac a sçu qu'il avoit beni Jacob, ce grand mystere qui étoit déjà connu de Rebecca lui est revelé. Il admire avec un profond étonnement la conduite que Dieu avoit tenue sur lui dans cette action. Non seulement il ne se plaint pas, & il ne se met pas en colere comme ayant été surpris dans cette benediction qu'il a donnée à Jacob, mais au-contraire il la reconnoît, il la confirme, & il la revere comme une œuvre qui est d'autant plus l'œuvre de Dieu, que Dieu l'a faite & par lui & comme sans lui, parcequ'il n'en a été que l'instrument : <em>Isaac deceptum se esse non cognoscit, queritur ; imò confirmat revelato sibi intus in corde Dei, lib. 16. cap. 35. magno Sacramento, devotâ indignationem, confirmat benedictionem.</em>",
-          "marges": [
-            "Aug. de Civ. Dei lib. 16. cap. 35."
-          ],
-          "p": 692
-        },
-        {
-          "texte": "Aussi saint Augustin étant lui-même ravi en admiration de la profondeur de ces mysteres, s’écrie avec grande raison : O histoire qu’on ne peut assez reverer ! C’est un tableau d’un événement passé, mais c’est une propherie des choses futures. Ce qui s’y fait, se fait sur la terre, mais tout s’y conduit par l’ordre du ciel. Les hommes en sont les acteurs & les instrumens, mais Dieu seul en est l’arbitre & le souverain moderateur : <em>O res gestas, sed prophetice gestas ; in terra, sed cœlestis ; per homines, sed divinis !</em>",
-          "marges": [],
-          "p": 693
-        }
-      ],
-      "noteSpirituelVersets": [
-        18,
-        19
-      ]
-    },
-    {
-      "n": 19,
-      "p": 679,
-      "lat": "tione mea, ut benedicat mihi anima tua.",
-      "fr": "Jacob lui répondit : Je suis Esaü votre fils aîné. J'ai fait ce que vous m'avez commandé : levez-vous, asseyez-vous <a class=\"page-inline\" href=\"page-680.html\" title=\"p. 680\">‖</a>vous [sur votre lit, & mangez de ma chasse, afin que vous me donniez votre benediction.",
-      "note": ""
-    },
-    {
-      "n": 20,
-      "p": 680,
-      "lat": "Rursumque Isaac ad filium suum : Quomodo, inquit, tam citò invenire potuisti, fili mi ? Qui respondit : Voluntas Dei fuit, ut citò occurreret mihi quod volebam.",
-      "fr": "Isaac dit encore à son fils : Mais comment avez-vous pû, mon fils, en trouver si-tôt ; il lui répondit : Dieu a voulu que ce que je désirois se présentât tout d'un coup à moi.",
-      "note": ""
-    },
-    {
-      "n": 21,
-      "p": 680,
-      "lat": "Dixitque Isaac : Accede huc, ut tangam te, fili mi, & probem utrum tu sis filius meus Esau, an non.",
-      "fr": "Isaac dit encore : Approchez-vous d'ici, mon fils, afin que je vous touche, & que je reconnoisse si vous êtes mon fils Esaü, ou non.",
-      "note": ""
-    },
-    {
-      "n": 22,
-      "p": 680,
-      "lat": "Accessit ille ad patrem, & palpato eo, dixit Isaac : Vox quidem, vox Jacob ; sed manus, manus sunt Esau.",
-      "fr": "Jacob s'approcha de son pere ; & Isaac l'ayant târé, dit : Pour la voix, c'est la voix de Jacob ; mais les mains sont les mains d'Esau.",
-      "note": ""
-    },
-    {
-      "n": 23,
-      "p": 680,
-      "lat": "Et non cognovit eum, quia pilosæ manus similitudinem majoris expressêrant. Benedicens ergo illi,",
-      "fr": "Et il ne le reconnut point ; parceque ses mains étant couvertes de poil, parurent toutes semblables à celles de son aîné. Isaac le benissant donc,",
-      "note": ""
-    },
-    {
-      "n": 24,
-      "p": 680,
-      "lat": "ait : Tu es filius meus Esau ? Respondit : Ego sum.",
-      "fr": "lui dit : Etes-vous mon fils Esau ? Je le suis, répondit Jacob.",
-      "note": ""
-    },
-    {
-      "n": 25,
-      "p": 680,
-      "lat": "At ille : Affer, inquit, cibos de venatione tua, fili mi, ut benedicat tibi anima mea. Quos cùm oblatus comedisset, obtulit ei etiam vinum, quod hausto,",
-      "fr": "Mon fils, ajouta Isaac, Apportez-moi à manger de votre chasse, afin que je vous benisse. Jacob lui en présenta ; & après qu'il en eut mangé, il lui présenta aussi du vin qu'il but,",
-      "note": ""
-    },
-    {
-      "n": 26,
-      "p": 681,
-      "lat": "dixit ad eum : Accede ad me, & da mihi osculum, fili mi.",
-      "fr": "Isaac lui dit ensuite, Approchez-vous de moi, mon fils, & venez me baiser.",
-      "note": ""
-    },
-    {
-      "n": 27,
-      "p": 681,
-      "lat": "Accessit, & osculatus est eum. Statimque ut sensit vestimentorum illius fragrantiam, benedicens illi, ait : Ecce odor filii mei sicut odor agri pleni, cui benedixit Dominus.",
-      "fr": "Il s'approcha donc de lui, & le baisa. Et Isaac, aussi-tôt qu'il eut senti la bonne odeur qui sortoit de ses habits, lui dit en le benissant : L'odeur qui sort de mon fils est semblable à celle d'un champ plein de fleurs que le Seigneur a comblé de ses benedictions //.",
-      "note": ""
-    },
-    {
-      "n": 28,
-      "p": 681,
-      "lat": "Det tibi Deus de rore cæli, & de pinguedine terræ, abundantiam frumenti & vini.",
-      "fr": "Que Dieu vous donne une abondance de blé & de vin, de la rosée du ciel, & de la graisse de la terre.",
-      "note": ""
-    },
-    {
-      "n": 29,
-      "p": 681,
-      "lat": "Et serviant tibi populi, & adorent te tribus. Esto dominus fratrum tuorum, & incurventur ante te filii matris tuæ. Qui maledixerit tibi, sit ille maledictus ; & qui benedixerit tibi, benedictionibus repleatur.",
-      "fr": "Que les peuples vous soient assujettis, & que les tribus vous adorent. Soyez le seigneur de vos freres, & que les enfans de votre mere s'abaissent profondément devant vous. Que celui qui vous maudira, soit maudit lui-même, & que celui qui vous benira, soit comblé de benedictions.",
-      "note": "",
-      "noteLitteral": [
-        {
-          "texte": "<em>Soyez le Seigneur de vos freres.</em> Cette benediction, selon le sens literal, n’a eu son effet que dans la posterité de Jacob, lorsque les Juifs qui sortoient de lui, se sont assujettis les Iduméens descendus d’Esaü, sous le regne de David. Car alors les Juifs se sont mis par les armes en possession d’un droit qui leur avoit été déjà acquis en la personne de Jacob, soit parce qu’Esaü lui avoit vendu son droit d’aînesse, soit parce qu’Isaac son pere, en le benissant, l’avoit rendu seigneur de ses freres.",
-          "marges": [],
-          "p": 685
-        }
-      ]
-    },
-    {
-      "n": 30,
-      "p": 681,
-      "lat": "Vix Isaac sermonem impleverat : & egresso Jacob foras, venit Esau,",
-      "fr": "Isaac ne faisoit que d'achever ces paroles, & Jacob étoit à peine sorti dehors, lors qu'Esaii entra ;",
-      "note": ""
-    },
-    {
-      "n": 31,
-      "p": 681,
-      "lat": "coctoque de venatione cibos intulit patri, dicens : Surge, pater mi, & comede de venatione filii tui, ut benedicat mihi anima tua. <a class=\"page-inline\" href=\"page-682.html\" title=\"p. 682\">‖</a>medens de venatione filii tui : ut benedicat mihi anima tua.",
-      "fr": "& que présentant à son pere ce qu'il avoit apprêté de la chasse, il lui dit : Levez<a class=\"page-inline\" href=\"page-682.html\" title=\"p. 682\">‖</a>vous, mon pere, & mangez de la chasse de votre fils, afin que vous me donniez votre benediction.",
-      "note": ""
-    },
-    {
-      "n": 32,
-      "p": 682,
-      "lat": "Dixitque illi Isaac : Quis enim es tu ? Qui respondit : Ego sum filius tuus primogenitus Esau.",
-      "fr": "Isaac lui dit : Qui êtes-vous donc ? Esau lui répondit : Je suis Esau votre fils aîné.",
-      "note": ""
-    },
-    {
-      "n": 33,
-      "p": 682,
-      "lat": "Expavit Isaac stupore vehementi ; & ultra quam credi potest, admirans, ait : Quis igitur ille est, qui dudum captam venationem attulit mihi, & comedi ex omnibus priusquam tu venires ? benedixique ei, & erit benedictus.",
-      "fr": "Isaac fut frappé d'un profond étonnement, & admirant au-delà de tout ce qu'on en peut croire ce qui étoit arrivé, il lui dit : Qui est donc celui qui m'a déjà apporté de ce qu'il avoit pris à la chasse, & qui m'a fait manger de tout avant que vous vinssiez ? Et je lui ai donné ma benediction, & il sera beni.",
-      "note": ""
-    },
-    {
-      "n": 34,
-      "p": 682,
-      "lat": "Auditis Esau sermonibus patris, irruguit clamore magno, & consternatus, ait : Benedic etiam & mihi, pater mi,",
-      "fr": "Esau à ces paroles de son pere jetta un cri furieux. Et étant dans une extrême consternation, il lui dit : Donnez-moi aussi votre benediction, mon pere.",
-      "note": "",
-      "nb": [
-        "℣. 34. Irrugit clamore magno."
-      ]
-    },
-    {
-      "n": 35,
-      "p": 682,
-      "lat": "Qui ait : Venit germanus tuus fraudulenter, & accepit benedictionem tuam.",
-      "fr": "Isaac lui répondit : Votre frere m'est venu surprendre, & il a reçu la benediction qui vous étoit dûe.",
-      "note": ""
-    },
-    {
-      "n": 36,
-      "p": 682,
-      "lat": "At ille subjunxit : Justè vocatum est nomen ejus Jacob : supplantavit enim me en altera vice : primogenita mea ante tulit, & nunc secundo fur<a class=\"page-inline\" href=\"page-683.html\" title=\"p. 683\">‖</a>[?]luit benedictionem meam. Rursumque ad patrem : Numquid non reservasti ait, & mihi benedictionem ?",
-      "fr": "C'est avec raison, dit Esau, qu'il a été appellé Jacob car voici la seconde fois qu'il m'a supplanté. Il m'a enlevé auparavant mon droit d'aînesse ; <a class=\"page-inline\" href=\"page-683.html\" title=\"p. 683\">‖</a>& présentement il vient encore de me dérober la benediction qui m’étoit dûë. Mais, mon pere, ajouta Esaü : N’avez-vous donc point réservé aussi une benediction pour moi ?",
-      "note": "",
-      "noteLitteral": [
-        {
-          "texte": "<em>Esaü ajouta : C’est avec raison qu’il a été appellé Jacob : car voici la seconde fois qu’il m’a supplanté.</em> Le nom de Jacob, qui signifie en hebreu <em>tenant le talon,</em> ou <em>supplantateur,</em> n’avoit été donné à ce Patriarche, que parce qu’il étoit né en tenant le talon de son frere. Mais comme le mot <em>supplanter,</em> en un sens figuré, signifie <em>surprendre un homme avec artifice & avec tromperie,</em> Esaü s’en sert en cette maniere odieuse, reprochant à son frere qu’il lui avoit enlevé malicieusement, premierement son droit d’aînesse, & ensuite la benediction de son pere.",
-          "marges": [],
-          "p": 685
-        }
-      ],
-      "nb": [
-        "℣. 36. Jacob signifie supplantateur."
-      ]
-    },
-    {
-      "n": 37,
-      "p": 683,
-      "lat": "Respondit Isaac : Dominum tuum illum constitui, & omnes fratres ejus servituti illius subjugavi : frumento & vino stabilivi cum : & tibi post hæc, fili mi, ultra quid faciam ?",
-      "fr": "Isaac lui répondit : Je l’ai établi votre seigneur, & j’ai assujetti à sa domination tous ses freres. Je l’ai affermi dans la possession du blé & du vin ; & après cela, mon fils, que me reste-t-il à faire pour vous ?",
-      "note": ""
-    },
-    {
-      "n": 38,
-      "p": 683,
-      "lat": "Cui Esau : Num unam, inquit, tantùm benedictionem habes, pater : Mihi quoque, obsecro, ut benedicas. Cumque ejulatu magno fleret.",
-      "fr": "Esaü lui repartit : N’avez-vous donc, mon pere, qu’une seule benediction ? Je vous conjure de me benir aussi. Il jetta ensuite de grands cris mêlés de larmes..",
-      "note": ""
-    },
-    {
-      "n": 39,
-      "p": 683,
-      "lat": "Motus Isaac, dixit ad eum : In pinguedine terræ, & in rore cœli desuper,",
-      "fr": "Et Isaac en étant touché, lui dit : Votre benediction sera dans la graisse de la terre & dans la rosée du ciel qui vient d’en-haut :",
-      "note": "",
-      "noteLitteral": [
-        {
-          "texte": "<em>Isaac dit à Esaü : Votre benediction sera dans la graisse de la terre, &c.</em> Ceci n’est point contraire à ce que saint Paul dit d’Esaü, <em>Qu’il ne put obtenir d’Isaac la benediction qu’il lui</em> <a class=\"page-inline\" href=\"page-686.html\" title=\"p. 686\">‖</a>avoir demandé : parceque saint Paul parle de la bénédiction due à l'aîné, qui devoit le rendre maître de ses freres ; au-lieu qu'il est dit ici, <em>qu'il sera le serviteur de son frere.</em>",
-          "marges": [
-            "Hebr. 12. 17."
-          ],
-          "p": 685
-        }
-      ]
-    },
-    {
-      "n": 40,
-      "p": 683,
-      "lat": "erìt benedictio tua. Vives in gladio, & fratri tuo servies : tempusque veniet, cùm excutias & solvas jugum ejus de cervicibus tuis.",
-      "fr": "Vous vivrez de l’épée, vous servirez votre frere ; & le temps viendra que vous secouerez son joug, & que vous vous en délivrerez.",
-      "note": "",
-      "noteLitteral": [
-        {
-          "texte": "Isaac dit à Esau : <em>Vous vivrez de l'épée.</em> Cette prédiction a été accomplie à la lettre dans les Iduméens qui descendoient d'Esau. Car c'étoit un peuple guerrier, aimant le fer & la violence. David se les assujettit, & les rendit tributaires. Mais ils secouerent le joug sous Joram fils de Josaphat.",
-          "marges": [],
-          "p": 686
-        }
-      ]
-    },
-    {
-      "n": 41,
-      "p": 683,
-      "lat": "Oderat ergo semper Esau Jacob pro benedictione quà benedixerat ei pater, dixitque in corde suo : Venient dies <a class=\"page-inline\" href=\"page-684.html\" title=\"p. 684\">‖</a>luctus patris mei, & occidam Jacob fratrem meum.",
-      "fr": "Esaü haïssoit donc toujours Jacob à cause de cette benediction qu’il avoit reçûe de son pere ; & il disoit en lui-même : <a class=\"page-inline\" href=\"page-684.html\" title=\"p. 684\">‖</a>me : Le temps de la mort de mon pere viendra, & alors je tuerai mon frere Jacob.",
-      "note": ""
-    },
-    {
-      "n": 42,
-      "p": 684,
-      "lat": "Nuntiatæ sunt hæc Rebecca : quæ mittens & vocans Jacob filium suum, dixit ad eum : Ecce Esau frater tuus minatur ut occidat te.",
-      "fr": "Ce qui ayant été rapporté à Rebecca, elle envoya querir son fils Jacob, & lui dit : Voilà votre frere Esau qui menace de vous tuer.",
-      "note": ""
-    },
-    {
-      "n": 43,
-      "p": 684,
-      "lat": "Nunc ergo, fili mi, audi vocem meam ; & consurgens fuge ad Laban fratrem meum in Haran.",
-      "fr": "Mais, mon fils, croyez-moi, hâtez-vous de vous retirer vers mon frere Laban, qui est à Haran.",
-      "note": ""
-    },
-    {
-      "n": 44,
-      "p": 684,
-      "lat": "Habitabisque cum eo dies paucos, donec requiescat furor fratris tui,",
-      "fr": "Vous demeurerez quelques jours avec lui, jusqu'à ce que la fureur de votre frere s'appaise ;",
-      "note": ""
-    },
-    {
-      "n": 45,
-      "p": 684,
-      "lat": "& cesset indignatio ejus, obliviscaturque eorum quæ fecisti in eum : postea mittam, & adducam te inde huc. Cur utroque orbabor filio in uno die ?",
-      "fr": "que sa colere se passe, & qu'il oublie ce que vous avez fait contre lui. J'envoyerai ensuite pour vous faire revenir ici. Pourquoi perdrai-je mes deux enfans en un même jour ?",
-      "note": "",
-      "noteLitteral": [
-        {
-          "texte": "<em>Pourquoi perdrai-je mes deux fils en un même jour ?</em> Pourquoi me mettrai-je en danger, ou que mes deux fils s'entretuent, ou qu'Esau ayant tué Jacob, soit contraint de s'enfuir, & que je ne le voie jamais ?",
-          "marges": [],
-          "p": 686
-        }
-      ]
-    },
-    {
-      "n": 46,
-      "p": 684,
-      "lat": "Dixitque Rebecca ad Isaac : Tædet me vitæ meæ propter filias Heth : si acceperit Jacob uxorem de stirpe hujus terræ, nolo vivere.",
-      "fr": "Rebecca dit ensuite à Isaac : La vie m'est devenue ennuyeuse à cause des filles de Heth qu'Esau a épousées. Si Jacob épouse une fille de ce pays-ci, je ne veux plus vivre.",
-      "note": "",
-      "noteLitteral": [
-        {
-          "texte": "Rebecca dit à Isaac : <em>Si Jacob épouse une fille de ce pays-ci, comme a fait Esau son frère, je ne veux plus vivre.</em> Rebecca étoit trop sage pour dire à Isaac qu'il falloit envoyer Jacob en Mésopotamie, de-peur qu'il ne fût maltraité par Esau, ce qui n'auroit pû qu'affliger Isaac très-sensiblement. Mais en supprimant la principale raison du dessein qu'elle avoit pris, elle lui en proposa une autre qui étoit vraie & très-favorable, qui est qu'ayant reçu tant de mécontentemens de leurs belles-filles, femmes d'Esau, qui étoient Hethéennes, il falloit envoyer Jacob en Mésopotamie, afin qu'il épousât une fille de la race & de la religion de ses ancêtres.",
-          "marges": [],
-          "p": 686
-        }
-      ],
-      "nb": [
-        "* 41. lettre du deuil."
-      ]
-    }
-  ]
-};
-  </script>
-</head>
-<body data-base="../">
+  
+<meta name="description" content="1 Isaac étant devenu fort vieux, ses yeux s'obscurcirent tellement qu'il ne pouvoit plus voir. Il appella donc Esaü son fils aîné, &amp; lui dit : Mon fils. Me voici, dit Esaü.§L📖 p. 677AVARI vieux,…"><link rel="canonical" href="https://bible.sacy.be/num/genese/ch27.html"><meta property="og:type" content="article"><meta property="og:site_name" content="Bible de Sacy"><meta property="og:title" content="Gn XXVII — Bible de Sacy"><meta property="og:description" content="1 Isaac étant devenu fort vieux, ses yeux s'obscurcirent tellement qu'il ne pouvoit plus voir. Il appella donc Esaü son fils aîné, &amp; lui dit : Mon fils. Me voici, dit Esaü.§L📖 p. 677AVARI vieux,…"><meta property="og:url" content="https://bible.sacy.be/num/genese/ch27.html"></head>
+<body data-base="../" data-pre="chapitre">
 
 <div class="page-shell">
   <button class="sidebar-open-btn" aria-label="Ouvrir le sommaire">☰</button>
@@ -578,9 +21,9 @@
     </div>
     <div class="sidebar-search">
       <input type="search" class="sidebar-search-input" placeholder="Rechercher…" autocomplete="off" spellcheck="false">
-      <div class="sidebar-search-results" hidden></div>
+      <div class="sidebar-search-results" hidden=""></div>
     </div>
-    <nav class="sidebar-tree"><details class="canon-group" open><summary>Nouveau Testament</summary>
+    <nav class="sidebar-tree"><details class="canon-group" open=""><summary>Nouveau Testament</summary>
 <a class="preface-gen" href="../preface-nt.html">Préface générale</a>
 <details class="livre-group" data-livre="matthieu"><summary><span class="abr">Mt</span> <span class="nom">Évangile de saint Matthieu</span></summary>
 <div class="chap-list">
@@ -740,8 +183,8 @@
 <a href="../jude/ch01.html" data-ch="1">1</a>
 </div></details>
 </details>
-<details class="canon-group" open><summary>Ancien Testament</summary>
-<details class="livre-group" data-livre="genese"><summary><span class="abr">Gn</span> <span class="nom">Genèse</span></summary>
+<details class="canon-group" open=""><summary>Ancien Testament</summary>
+<details class="livre-group" data-livre="genese" open=""><summary><span class="abr">Gn</span> <span class="nom">Genèse</span></summary>
 <div class="chap-list">
 <a href="../genese/index.html" data-ch="0">Préface</a>
 <a href="../genese/ch01.html" data-ch="1">1</a>
@@ -770,7 +213,7 @@
 <a href="../genese/ch24.html" data-ch="24">24</a>
 <a href="../genese/ch25.html" data-ch="25">25</a>
 <a href="../genese/ch26.html" data-ch="26">26</a>
-<a href="../genese/ch27.html" data-ch="27">27</a>
+<a href="../genese/ch27.html" data-ch="27" class="current">27</a>
 <a href="../genese/ch28.html" data-ch="28">28</a>
 <a href="../genese/ch29.html" data-ch="29">29</a>
 <a href="../genese/ch30.html" data-ch="30">30</a>
@@ -805,32 +248,216 @@
 
   <main class="main main-wide">
     <p class="breadcrumb">
-      <a href="../index.html">Bible de Sacy</a> › <span class="breadcrumb-livre"></span>
+      <a href="../index.html">Bible de Sacy</a> › <span class="breadcrumb-livre">Gn · Ch.&nbsp;XXVII</span>
     </p>
 
     <header class="chapter-header">
-      <p class="livre"></p>
-      <h1></h1>
+      <p class="livre">Genèse</p>
+      <h1>Chapitre XXVII</h1>
       <h2></h2>
       <div class="chapter-actions">
-        <div class="sens-switch" role="group" aria-label="Commentaire" hidden>
-          <button class="btn sens-mode" data-mode="litteral" type="button">Sens littéral <small class="n"></small></button>
-          <button class="btn sens-mode" data-mode="spirituel" type="button">Sens spirituel <small class="n"></small></button>
-          <button class="btn sens-mode" data-mode="both" type="button">Les deux</button>
+        <div class="sens-switch" role="group" aria-label="Commentaire">
+          <button class="btn sens-mode active" data-mode="litteral" type="button">Sens littéral <small class="n">· 7</small></button>
+          <button class="btn sens-mode" data-mode="spirituel" type="button">Sens spirituel <small class="n">· 1</small></button>
+          <button class="btn sens-mode" data-mode="both" type="button" hidden="">Les deux</button>
         </div>
         <button class="btn" id="latin-toggle">Afficher le latin</button>
-        <a class="btn lien-pages" href="#" hidden>📄 Page à page</a>
-        <a class="btn lien-facs" href="#" target="_blank" rel="noopener">📖 Fac-similé</a>
+        <a class="btn lien-pages" href="page-677.html">📄 Page à page</a>
+        <a class="btn lien-facs" href="https://bible.sacy.be/#/genese_2/675" target="_blank" rel="noopener">📖 Fac-similé</a>
       </div>
     </header>
 
-    <div class="chapitre-columns">
-      <section class="col-francais" aria-label="Texte français"></section>
-      <section class="col-commentaire" aria-label="Commentaire">
+    <div class="chapitre-columns triple" data-mode="litteral">
+      <section class="col-francais" aria-label="Texte français">
+    <div class="verset" id="v1">
+      <div class="verset-texte"><sup class="vnum">1</sup> Isaac étant devenu fort vieux, ses yeux s'obscurcirent tellement qu'il ne pouvoit plus voir. Il appella donc Esaü son fils aîné, &amp; lui dit&nbsp;: Mon fils. Me voici, dit Esaü.<a class="ref-com" href="#com-lit-v1" title="Sens littéral">§L</a><a class="ref-page" href="page-677.html#v1" title="Voir la page imprimée">📖 p. 677</a></div><aside class="verset-marges"><span class="marge-item"><a href="../biblio.html#a-avari" class="marge-link marge-extern">AVARI vieux, les yeux s'obscurcirent. I. (CHA) 1759.</a></span></aside>
+      <div class="verset-latin">Senuit autem Isaac, &amp; caligaverunt oculi ejus, &amp; videre non poterat&nbsp;: vocavitque Esau, filium suum majorem, &amp; dixit ei&nbsp;: Fili mi. Qui respondit&nbsp;: Adsum.</div>
+    </div>
+    <div class="verset" id="v2">
+      <div class="verset-texte"><sup class="vnum">2</sup> Isaac ajoûta&nbsp;: Vous voyez que je suis fort âgé, &amp; que j'ignore le jour de ma mort.</div>
+      <div class="verset-latin">Cui pater&nbsp;: Vides, inquit, quod senuerim, &amp; ignorem diem mortis meæ.</div>
+    </div>
+    <div class="verset" id="v3">
+      <div class="verset-texte"><sup class="vnum">3</sup> Prenez vos armes, votre carquois &amp; votre arc, &amp; sortez dehors ; &amp; lorsque vous aurez pris quelque chose à la chasse,</div>
+      <div class="verset-latin">Sume arma tua, pharetram, &amp; arcum, &amp; egredere foras&nbsp;: cumque venatu aliquid apprehenderis,</div>
+    </div>
+    <div class="verset" id="v4">
+      <div class="verset-texte"><sup class="vnum">4</sup> vous me l'apprêterez comme vous savez que je l'aime ; &amp; vous me l'apporterez afin que j'en mange, &amp; que je vous benisse avant que je meure.</div>
+      <div class="verset-latin">fac mihi inde pulmentum sicut velle me nosti, &amp; affer ut comedam, &amp; benedicat tibi anima mea antequam moriar.</div>
+    </div>
+    <div class="verset" id="v5">
+      <div class="verset-texte"><sup class="vnum">5</sup> Rebecca entendit ces paroles ; &amp; Esau étant allé dans les champs pour faire ce que son pere lui avoit commandé,<a class="ref-page" href="page-678.html#v5" title="Voir la page imprimée">📖 p. 678</a></div>
+      <div class="verset-latin">Quod cum audisset Rebecca, &amp; ille abiisset in agrum ut jussionem patris impleret,</div>
+    </div>
+    <div class="verset" id="v6">
+      <div class="verset-texte"><sup class="vnum">6</sup> elle dit à Jacob son fils&nbsp;: J'ai entendu votre pere qui parloit à votre frere Esai, &amp; qui lui disoit&nbsp;:</div>
+      <div class="verset-latin">dixit filio suo Jacob&nbsp;: Audivi patrem tuum loquentem cum Esau fratre tuo, &amp; dicentem ei&nbsp;:</div>
+    </div>
+    <div class="verset" id="v7">
+      <div class="verset-texte"><sup class="vnum">7</sup> Apportez-moi quelque chose de votre chasse, &amp; préparez-moi de quoi manger, afin que je vous benisse devant le Seigneur avant que je meure.</div>
+      <div class="verset-latin">Affer mihi de venatione tua, &amp; fac cibos ut comedam, &amp; benedicam tibi coram Domino antequam moriar.</div>
+    </div>
+    <div class="verset" id="v8">
+      <div class="verset-texte"><sup class="vnum">8</sup> Suivez donc, mon fils, le conseil que je vais vous donner&nbsp;:</div>
+      <div class="verset-latin">Nunc ergo fili mi, acquiesce consiliis meis&nbsp;:</div>
+    </div>
+    <div class="verset" id="v9">
+      <div class="verset-texte"><sup class="vnum">9</sup> Allez vous-en au troupeau ; &amp; apportez-moi deux des meilleurs chevreaux que vous trouverez, afin que j'en prépare à votre pere une sorte de mets que je sai qu'il aime&nbsp;:</div>
+      <div class="verset-latin">Et pergens ad gregem, affer mihi duos hædos optimos, ut faciam ex eis escas patri tuo, quibus libenter vescitur&nbsp;:</div>
+    </div>
+    <div class="verset" id="v10">
+      <div class="verset-texte"><sup class="vnum">10</sup> &amp; qu'après que vous le lui aurez présenté, &amp; qu'il en aura mangé, il vous benisse avant qu'il meure.</div>
+      <div class="verset-latin">quas cum intuleris, &amp; comederit, benedicat tibi priusquam moriatur.</div>
+    </div>
+    <div class="verset" id="v11">
+      <div class="verset-texte"><sup class="vnum">11</sup> Jacob lui répondit&nbsp;: Vous savez que mon frere Esai a le corps velu, &amp; que moi je n'ai point de poil.</div>
+      <div class="verset-latin">Cui ille respondit&nbsp;: Nosti quod Esau frater meus homo pilosus sit, &amp; ego lenis&nbsp;:</div>
+    </div>
+    <div class="verset" id="v12">
+      <div class="verset-texte"><sup class="vnum">12</sup> Si mon pere vient donc à me toucher avec la main, &amp; qu'il s'en apperçoive, j'ai peur qu'il ne croye que je l'ai voulu</div>
+      <div class="verset-latin">Si attrectaverit me pater meus, &amp; senserit, timeo ne putet me sibi voluisse illudere, &amp; inducam super me</div>
+    </div>
+    <div class="verset" id="v13">
+      <div class="verset-texte"><sup class="vnum">13</sup> Sa mere lui répondit&nbsp;: Mon fils, je me charge moi-même de cette malédiction que vous craignez&nbsp;: faites seulement ce que je vous conseille, &amp; allez me querir ce que je vous dis.<a class="ref-page" href="page-679.html#v13" title="Voir la page imprimée">📖 p. 679</a></div>
+      <div class="verset-latin"></div>
+    </div>
+    <div class="verset" id="v14">
+      <div class="verset-texte"><sup class="vnum">14</sup> Il y alla, il l'apporta, &amp; il le donna à sa mere, qui en prépara à manger à son pere comme elle sçavoit qu'il le désiroit.</div>
+      <div class="verset-latin"></div>
+    </div>
+    <div class="verset" id="v15">
+      <div class="verset-texte"><sup class="vnum">15</sup> Elle fit prendre ensuite à Jacob de très-beaux habits d'Esaü, qu'elle gardoit elle-même au logis.</div>
+      <div class="verset-latin"></div>
+    </div>
+    <div class="verset" id="v16">
+      <div class="verset-texte"><sup class="vnum">16</sup> Et elle mit autour de ses mains la peau de ces chevreaux, &amp; lui en couvrit le cou par-tout où il étoit découvert.</div>
+      <div class="verset-latin"></div>
+    </div>
+    <div class="verset" id="v17">
+      <div class="verset-texte"><sup class="vnum">17</sup> Puis elle lui donna ce qu'elle avoit préparé à manger, &amp; les pains qu'elle avoit cuits.</div>
+      <div class="verset-latin"></div>
+    </div>
+    <div class="verset" id="v18">
+      <div class="verset-texte"><sup class="vnum">18</sup> Jacob porta le tout devant Isaac, &amp; lui dit&nbsp;: Mon pere. Je vous entends, dit Isaac&nbsp;: Qui êtes-vous, mon fils ?<a class="ref-com" href="#com-spi-v18" title="Sens spirituel">§S</a></div>
+      <div class="verset-latin"></div>
+    </div>
+    <div class="verset" id="v19">
+      <div class="verset-texte"><sup class="vnum">19</sup> Jacob lui répondit&nbsp;: Je suis Esaü votre fils aîné. J'ai fait ce que vous m'avez commandé&nbsp;: levez-vous, asseyez-vous <a class="page-inline" href="page-680.html" title="p. 680">‖</a>vous [sur votre lit, &amp; mangez de ma chasse, afin que vous me donniez votre benediction.<a class="ref-com" href="#com-spi-v18" title="Sens spirituel">§S</a></div>
+      <div class="verset-latin">tione mea, ut benedicat mihi anima tua.</div>
+    </div>
+    <div class="verset" id="v20">
+      <div class="verset-texte"><sup class="vnum">20</sup> Isaac dit encore à son fils&nbsp;: Mais comment avez-vous pû, mon fils, en trouver si-tôt ; il lui répondit&nbsp;: Dieu a voulu que ce que je désirois se présentât tout d'un coup à moi.<a class="ref-page" href="page-680.html#v20" title="Voir la page imprimée">📖 p. 680</a></div>
+      <div class="verset-latin">Rursumque Isaac ad filium suum&nbsp;: Quomodo, inquit, tam citò invenire potuisti, fili mi ? Qui respondit&nbsp;: Voluntas Dei fuit, ut citò occurreret mihi quod volebam.</div>
+    </div>
+    <div class="verset" id="v21">
+      <div class="verset-texte"><sup class="vnum">21</sup> Isaac dit encore&nbsp;: Approchez-vous d'ici, mon fils, afin que je vous touche, &amp; que je reconnoisse si vous êtes mon fils Esaü, ou non.</div>
+      <div class="verset-latin">Dixitque Isaac&nbsp;: Accede huc, ut tangam te, fili mi, &amp; probem utrum tu sis filius meus Esau, an non.</div>
+    </div>
+    <div class="verset" id="v22">
+      <div class="verset-texte"><sup class="vnum">22</sup> Jacob s'approcha de son pere ; &amp; Isaac l'ayant târé, dit&nbsp;: Pour la voix, c'est la voix de Jacob ; mais les mains sont les mains d'Esau.</div>
+      <div class="verset-latin">Accessit ille ad patrem, &amp; palpato eo, dixit Isaac&nbsp;: Vox quidem, vox Jacob ; sed manus, manus sunt Esau.</div>
+    </div>
+    <div class="verset" id="v23">
+      <div class="verset-texte"><sup class="vnum">23</sup> Et il ne le reconnut point ; parceque ses mains étant couvertes de poil, parurent toutes semblables à celles de son aîné. Isaac le benissant donc,</div>
+      <div class="verset-latin">Et non cognovit eum, quia pilosæ manus similitudinem majoris expressêrant. Benedicens ergo illi,</div>
+    </div>
+    <div class="verset" id="v24">
+      <div class="verset-texte"><sup class="vnum">24</sup> lui dit&nbsp;: Etes-vous mon fils Esau ? Je le suis, répondit Jacob.</div>
+      <div class="verset-latin">ait&nbsp;: Tu es filius meus Esau ? Respondit&nbsp;: Ego sum.</div>
+    </div>
+    <div class="verset" id="v25">
+      <div class="verset-texte"><sup class="vnum">25</sup> Mon fils, ajouta Isaac, Apportez-moi à manger de votre chasse, afin que je vous benisse. Jacob lui en présenta ; &amp; après qu'il en eut mangé, il lui présenta aussi du vin qu'il but,</div>
+      <div class="verset-latin">At ille&nbsp;: Affer, inquit, cibos de venatione tua, fili mi, ut benedicat tibi anima mea. Quos cùm oblatus comedisset, obtulit ei etiam vinum, quod hausto,</div>
+    </div>
+    <div class="verset" id="v26">
+      <div class="verset-texte"><sup class="vnum">26</sup> Isaac lui dit ensuite, Approchez-vous de moi, mon fils, &amp; venez me baiser.<a class="ref-page" href="page-681.html#v26" title="Voir la page imprimée">📖 p. 681</a></div>
+      <div class="verset-latin">dixit ad eum&nbsp;: Accede ad me, &amp; da mihi osculum, fili mi.</div>
+    </div>
+    <div class="verset" id="v27">
+      <div class="verset-texte"><sup class="vnum">27</sup> Il s'approcha donc de lui, &amp; le baisa. Et Isaac, aussi-tôt qu'il eut senti la bonne odeur qui sortoit de ses habits, lui dit en le benissant&nbsp;: L'odeur qui sort de mon fils est semblable à celle d'un champ plein de fleurs que le Seigneur a comblé de ses benedictions //.</div>
+      <div class="verset-latin">Accessit, &amp; osculatus est eum. Statimque ut sensit vestimentorum illius fragrantiam, benedicens illi, ait&nbsp;: Ecce odor filii mei sicut odor agri pleni, cui benedixit Dominus.</div>
+    </div>
+    <div class="verset" id="v28">
+      <div class="verset-texte"><sup class="vnum">28</sup> Que Dieu vous donne une abondance de blé &amp; de vin, de la rosée du ciel, &amp; de la graisse de la terre.</div>
+      <div class="verset-latin">Det tibi Deus de rore cæli, &amp; de pinguedine terræ, abundantiam frumenti &amp; vini.</div>
+    </div>
+    <div class="verset" id="v29">
+      <div class="verset-texte"><sup class="vnum">29</sup> Que les peuples vous soient assujettis, &amp; que les tribus vous adorent. Soyez le seigneur de vos freres, &amp; que les enfans de votre mere s'abaissent profondément devant vous. Que celui qui vous maudira, soit maudit lui-même, &amp; que celui qui vous benira, soit comblé de benedictions.<a class="ref-com" href="#com-lit-v29" title="Sens littéral">§L</a></div>
+      <div class="verset-latin">Et serviant tibi populi, &amp; adorent te tribus. Esto dominus fratrum tuorum, &amp; incurventur ante te filii matris tuæ. Qui maledixerit tibi, sit ille maledictus ; &amp; qui benedixerit tibi, benedictionibus repleatur.</div>
+    </div>
+    <div class="verset" id="v30">
+      <div class="verset-texte"><sup class="vnum">30</sup> Isaac ne faisoit que d'achever ces paroles, &amp; Jacob étoit à peine sorti dehors, lors qu'Esaii entra ;</div>
+      <div class="verset-latin">Vix Isaac sermonem impleverat&nbsp;: &amp; egresso Jacob foras, venit Esau,</div>
+    </div>
+    <div class="verset" id="v31">
+      <div class="verset-texte"><sup class="vnum">31</sup> &amp; que présentant à son pere ce qu'il avoit apprêté de la chasse, il lui dit&nbsp;: Levez<a class="page-inline" href="page-682.html" title="p. 682">‖</a>vous, mon pere, &amp; mangez de la chasse de votre fils, afin que vous me donniez votre benediction.</div>
+      <div class="verset-latin">coctoque de venatione cibos intulit patri, dicens&nbsp;: Surge, pater mi, &amp; comede de venatione filii tui, ut benedicat mihi anima tua. <a class="page-inline" href="page-682.html" title="p. 682">‖</a>medens de venatione filii tui&nbsp;: ut benedicat mihi anima tua.</div>
+    </div>
+    <div class="verset" id="v32">
+      <div class="verset-texte"><sup class="vnum">32</sup> Isaac lui dit&nbsp;: Qui êtes-vous donc ? Esau lui répondit&nbsp;: Je suis Esau votre fils aîné.<a class="ref-page" href="page-682.html#v32" title="Voir la page imprimée">📖 p. 682</a></div>
+      <div class="verset-latin">Dixitque illi Isaac&nbsp;: Quis enim es tu ? Qui respondit&nbsp;: Ego sum filius tuus primogenitus Esau.</div>
+    </div>
+    <div class="verset" id="v33">
+      <div class="verset-texte"><sup class="vnum">33</sup> Isaac fut frappé d'un profond étonnement, &amp; admirant au-delà de tout ce qu'on en peut croire ce qui étoit arrivé, il lui dit&nbsp;: Qui est donc celui qui m'a déjà apporté de ce qu'il avoit pris à la chasse, &amp; qui m'a fait manger de tout avant que vous vinssiez ? Et je lui ai donné ma benediction, &amp; il sera beni.</div>
+      <div class="verset-latin">Expavit Isaac stupore vehementi ; &amp; ultra quam credi potest, admirans, ait&nbsp;: Quis igitur ille est, qui dudum captam venationem attulit mihi, &amp; comedi ex omnibus priusquam tu venires ? benedixique ei, &amp; erit benedictus.</div>
+    </div>
+    <div class="verset" id="v34">
+      <div class="verset-texte"><sup class="vnum">34</sup> Esau à ces paroles de son pere jetta un cri furieux. Et étant dans une extrême consternation, il lui dit&nbsp;: Donnez-moi aussi votre benediction, mon pere.</div>
+      <div class="verset-latin">Auditis Esau sermonibus patris, irruguit clamore magno, &amp; consternatus, ait&nbsp;: Benedic etiam &amp; mihi, pater mi,</div><div class="verset-notebas"><p><a class="ref-verset" href="#v34" title="Verset 34">℣. 34</a>. Irrugit clamore magno.</p></div>
+    </div>
+    <div class="verset" id="v35">
+      <div class="verset-texte"><sup class="vnum">35</sup> Isaac lui répondit&nbsp;: Votre frere m'est venu surprendre, &amp; il a reçu la benediction qui vous étoit dûe.</div>
+      <div class="verset-latin">Qui ait&nbsp;: Venit germanus tuus fraudulenter, &amp; accepit benedictionem tuam.</div>
+    </div>
+    <div class="verset" id="v36">
+      <div class="verset-texte"><sup class="vnum">36</sup> C'est avec raison, dit Esau, qu'il a été appellé Jacob car voici la seconde fois qu'il m'a supplanté. Il m'a enlevé auparavant mon droit d'aînesse ; <a class="page-inline" href="page-683.html" title="p. 683">‖</a>&amp; présentement il vient encore de me dérober la benediction qui m’étoit dûë. Mais, mon pere, ajouta Esaü&nbsp;: N’avez-vous donc point réservé aussi une benediction pour moi ?<a class="ref-com" href="#com-lit-v36" title="Sens littéral">§L</a></div>
+      <div class="verset-latin">At ille subjunxit&nbsp;: Justè vocatum est nomen ejus Jacob&nbsp;: supplantavit enim me en altera vice&nbsp;: primogenita mea ante tulit, &amp; nunc secundo fur<a class="page-inline" href="page-683.html" title="p. 683">‖</a>[?]luit benedictionem meam. Rursumque ad patrem&nbsp;: Numquid non reservasti ait, &amp; mihi benedictionem ?</div><div class="verset-notebas"><p><a class="ref-verset" href="#v36" title="Verset 36">℣. 36</a>. Jacob signifie supplantateur.</p></div>
+    </div>
+    <div class="verset" id="v37">
+      <div class="verset-texte"><sup class="vnum">37</sup> Isaac lui répondit&nbsp;: Je l’ai établi votre seigneur, &amp; j’ai assujetti à sa domination tous ses freres. Je l’ai affermi dans la possession du blé &amp; du vin ; &amp; après cela, mon fils, que me reste-t-il à faire pour vous ?<a class="ref-page" href="page-683.html#v37" title="Voir la page imprimée">📖 p. 683</a></div>
+      <div class="verset-latin">Respondit Isaac&nbsp;: Dominum tuum illum constitui, &amp; omnes fratres ejus servituti illius subjugavi&nbsp;: frumento &amp; vino stabilivi cum&nbsp;: &amp; tibi post hæc, fili mi, ultra quid faciam ?</div>
+    </div>
+    <div class="verset" id="v38">
+      <div class="verset-texte"><sup class="vnum">38</sup> Esaü lui repartit&nbsp;: N’avez-vous donc, mon pere, qu’une seule benediction ? Je vous conjure de me benir aussi. Il jetta ensuite de grands cris mêlés de larmes..</div>
+      <div class="verset-latin">Cui Esau&nbsp;: Num unam, inquit, tantùm benedictionem habes, pater&nbsp;: Mihi quoque, obsecro, ut benedicas. Cumque ejulatu magno fleret.</div>
+    </div>
+    <div class="verset" id="v39">
+      <div class="verset-texte"><sup class="vnum">39</sup> Et Isaac en étant touché, lui dit&nbsp;: Votre benediction sera dans la graisse de la terre &amp; dans la rosée du ciel qui vient d’en-haut&nbsp;:<a class="ref-com" href="#com-lit-v39" title="Sens littéral">§L</a></div>
+      <div class="verset-latin">Motus Isaac, dixit ad eum&nbsp;: In pinguedine terræ, &amp; in rore cœli desuper,</div>
+    </div>
+    <div class="verset" id="v40">
+      <div class="verset-texte"><sup class="vnum">40</sup> Vous vivrez de l’épée, vous servirez votre frere ; &amp; le temps viendra que vous secouerez son joug, &amp; que vous vous en délivrerez.<a class="ref-com" href="#com-lit-v40" title="Sens littéral">§L</a></div>
+      <div class="verset-latin">erìt benedictio tua. Vives in gladio, &amp; fratri tuo servies&nbsp;: tempusque veniet, cùm excutias &amp; solvas jugum ejus de cervicibus tuis.</div>
+    </div>
+    <div class="verset" id="v41">
+      <div class="verset-texte"><sup class="vnum">41</sup> Esaü haïssoit donc toujours Jacob à cause de cette benediction qu’il avoit reçûe de son pere ; &amp; il disoit en lui-même&nbsp;: <a class="page-inline" href="page-684.html" title="p. 684">‖</a>me&nbsp;: Le temps de la mort de mon pere viendra, &amp; alors je tuerai mon frere Jacob.</div>
+      <div class="verset-latin">Oderat ergo semper Esau Jacob pro benedictione quà benedixerat ei pater, dixitque in corde suo&nbsp;: Venient dies <a class="page-inline" href="page-684.html" title="p. 684">‖</a>luctus patris mei, &amp; occidam Jacob fratrem meum.</div>
+    </div>
+    <div class="verset" id="v42">
+      <div class="verset-texte"><sup class="vnum">42</sup> Ce qui ayant été rapporté à Rebecca, elle envoya querir son fils Jacob, &amp; lui dit&nbsp;: Voilà votre frere Esau qui menace de vous tuer.<a class="ref-page" href="page-684.html#v42" title="Voir la page imprimée">📖 p. 684</a></div>
+      <div class="verset-latin">Nuntiatæ sunt hæc Rebecca&nbsp;: quæ mittens &amp; vocans Jacob filium suum, dixit ad eum&nbsp;: Ecce Esau frater tuus minatur ut occidat te.</div>
+    </div>
+    <div class="verset" id="v43">
+      <div class="verset-texte"><sup class="vnum">43</sup> Mais, mon fils, croyez-moi, hâtez-vous de vous retirer vers mon frere Laban, qui est à Haran.</div>
+      <div class="verset-latin">Nunc ergo, fili mi, audi vocem meam ; &amp; consurgens fuge ad Laban fratrem meum in Haran.</div>
+    </div>
+    <div class="verset" id="v44">
+      <div class="verset-texte"><sup class="vnum">44</sup> Vous demeurerez quelques jours avec lui, jusqu'à ce que la fureur de votre frere s'appaise ;</div>
+      <div class="verset-latin">Habitabisque cum eo dies paucos, donec requiescat furor fratris tui,</div>
+    </div>
+    <div class="verset" id="v45">
+      <div class="verset-texte"><sup class="vnum">45</sup> que sa colere se passe, &amp; qu'il oublie ce que vous avez fait contre lui. J'envoyerai ensuite pour vous faire revenir ici. Pourquoi perdrai-je mes deux enfans en un même jour ?<a class="ref-com" href="#com-lit-v45" title="Sens littéral">§L</a></div>
+      <div class="verset-latin">&amp; cesset indignatio ejus, obliviscaturque eorum quæ fecisti in eum&nbsp;: postea mittam, &amp; adducam te inde huc. Cur utroque orbabor filio in uno die ?</div>
+    </div>
+    <div class="verset" id="v46">
+      <div class="verset-texte"><sup class="vnum">46</sup> Rebecca dit ensuite à Isaac&nbsp;: La vie m'est devenue ennuyeuse à cause des filles de Heth qu'Esau a épousées. Si Jacob épouse une fille de ce pays-ci, je ne veux plus vivre.<a class="ref-com" href="#com-lit-v46" title="Sens littéral">§L</a></div>
+      <div class="verset-latin">Dixitque Rebecca ad Isaac&nbsp;: Tædet me vitæ meæ propter filias Heth&nbsp;: si acceperit Jacob uxorem de stirpe hujus terræ, nolo vivere.</div><div class="verset-notebas"><p>* 41. lettre du deuil.</p></div>
+    </div></section>
+      <section class="col-commentaire" aria-label="Commentaire" hidden="">
         <p class="col-label">Notes de la <em>Bible de Sacy</em></p>
         <div class="commentaire-texte"></div>
       </section>
-      <section class="col-litteral" aria-label="Sens littéral" hidden>
+      <section class="col-litteral" aria-label="Sens littéral">
         <p class="col-label">
           <span>Sens littéral</span>
           <span class="sens-toggle">
@@ -838,22 +465,38 @@
             <button class="btn sens-btn" data-sens="spirituel">Spirituel</button>
           </span>
         </p>
-        <div class="litteral-texte"></div>
+        <div class="litteral-texte"><div class="note-row" id="com-lit-v1"><div class="note-verse-head">
+    <a class="ref-retour" href="#v1">↑</a>
+    <strong class="vnum-com">1</strong><button class="cite-btn" data-cite="Gn XXVII, 1">Citer ¶</button></div><div class="note-verse-quote"><p class="note-quote-line"><span class="note-quote-num">1.</span> Isaac étant devenu fort vieux, ses yeux s'obscurcirent tellement qu'il ne pouvoit plus voir. Il appella donc Esaü son fils aîné, &amp; lui dit&nbsp;: Mon fils. Me voici, dit Esaü.</p></div><div class="note-para-row"><p class="note-para-text"><a class="ref-page note-page" href="page-685.html" title="Voir la page imprimée">📖 p. 685</a><em>Isaac étoit déjà fort vieux.</em> Il avoit pour lors cent trente-sept ans.</p></div></div><div class="note-row" id="com-lit-v29"><div class="note-verse-head">
+    <a class="ref-retour" href="#v29">↑</a>
+    <strong class="vnum-com">29</strong><button class="cite-btn" data-cite="Gn XXVII, 29">Citer ¶</button></div><div class="note-verse-quote"><p class="note-quote-line"><span class="note-quote-num">29.</span> Que les peuples vous soient assujettis, &amp; que les tribus vous adorent. Soyez le seigneur de vos freres, &amp; que les enfans de votre mere s'abaissent profondément devant vous. Que celui qui vous maudira, soit maudit lui-même, &amp; que celui qui vous benira, soit comblé de benedictions.</p></div><div class="note-para-row"><p class="note-para-text"><a class="ref-page note-page" href="page-685.html" title="Voir la page imprimée">📖 p. 685</a><em>Soyez le Seigneur de vos freres.</em> Cette benediction, selon le sens literal, n’a eu son effet que dans la posterité de Jacob, lorsque les Juifs qui sortoient de lui, se sont assujettis les Iduméens descendus d’Esaü, sous le regne de David. Car alors les Juifs se sont mis par les armes en possession d’un droit qui leur avoit été déjà acquis en la personne de Jacob, soit parce qu’Esaü lui avoit vendu son droit d’aînesse, soit parce qu’Isaac son pere, en le benissant, l’avoit rendu seigneur de ses freres.</p></div></div><div class="note-row" id="com-lit-v36"><div class="note-verse-head">
+    <a class="ref-retour" href="#v36">↑</a>
+    <strong class="vnum-com">36</strong><button class="cite-btn" data-cite="Gn XXVII, 36">Citer ¶</button></div><div class="note-verse-quote"><p class="note-quote-line"><span class="note-quote-num">36.</span> C'est avec raison, dit Esau, qu'il a été appellé Jacob car voici la seconde fois qu'il m'a supplanté. Il m'a enlevé auparavant mon droit d'aînesse ; <a class="page-inline" href="page-683.html" title="p. 683">‖</a>&amp; présentement il vient encore de me dérober la benediction qui m’étoit dûë. Mais, mon pere, ajouta Esaü&nbsp;: N’avez-vous donc point réservé aussi une benediction pour moi ?</p></div><div class="note-para-row"><p class="note-para-text"><a class="ref-page note-page" href="page-685.html" title="Voir la page imprimée">📖 p. 685</a><em>Esaü ajouta&nbsp;: C’est avec raison qu’il a été appellé Jacob&nbsp;: car voici la seconde fois qu’il m’a supplanté.</em> Le nom de Jacob, qui signifie en hebreu <em>tenant le talon,</em> ou <em>supplantateur,</em> n’avoit été donné à ce Patriarche, que parce qu’il étoit né en tenant le talon de son frere. Mais comme le mot <em>supplanter,</em> en un sens figuré, signifie <em>surprendre un homme avec artifice &amp; avec tromperie,</em> Esaü s’en sert en cette maniere odieuse, reprochant à son frere qu’il lui avoit enlevé malicieusement, premierement son droit d’aînesse, &amp; ensuite la benediction de son pere.</p></div></div><div class="note-row" id="com-lit-v39"><div class="note-verse-head">
+    <a class="ref-retour" href="#v39">↑</a>
+    <strong class="vnum-com">39</strong><button class="cite-btn" data-cite="Gn XXVII, 39">Citer ¶</button></div><div class="note-verse-quote"><p class="note-quote-line"><span class="note-quote-num">39.</span> Et Isaac en étant touché, lui dit&nbsp;: Votre benediction sera dans la graisse de la terre &amp; dans la rosée du ciel qui vient d’en-haut&nbsp;:</p></div><div class="note-para-row has-marges"><p class="note-para-text"><a class="ref-page note-page" href="page-685.html" title="Voir la page imprimée">📖 p. 685</a><em>Isaac dit à Esaü&nbsp;: Votre benediction sera dans la graisse de la terre, &amp;c.</em> Ceci n’est point contraire à ce que saint Paul dit d’Esaü, <em>Qu’il ne put obtenir d’Isaac la benediction qu’il lui</em> <a class="page-inline" href="page-686.html" title="p. 686">‖</a>avoir demandé&nbsp;: parceque saint Paul parle de la bénédiction due à l'aîné, qui devoit le rendre maître de ses freres ; au-lieu qu'il est dit ici, <em>qu'il sera le serviteur de son frere.</em></p><aside class="note-para-marges"><span class="marge-item"><span class="marge-link marge-bible marge-hors-site" title="Hébreux XII, 17 — livre pas encore publié sur ce site">Hebr. 12. 17.</span></span></aside></div></div><div class="note-row" id="com-lit-v40"><div class="note-verse-head">
+    <a class="ref-retour" href="#v40">↑</a>
+    <strong class="vnum-com">40</strong><button class="cite-btn" data-cite="Gn XXVII, 40">Citer ¶</button></div><div class="note-verse-quote"><p class="note-quote-line"><span class="note-quote-num">40.</span> Vous vivrez de l’épée, vous servirez votre frere ; &amp; le temps viendra que vous secouerez son joug, &amp; que vous vous en délivrerez.</p></div><div class="note-para-row"><p class="note-para-text"><a class="ref-page note-page" href="page-686.html" title="Voir la page imprimée">📖 p. 686</a>Isaac dit à Esau&nbsp;: <em>Vous vivrez de l'épée.</em> Cette prédiction a été accomplie à la lettre dans les Iduméens qui descendoient d'Esau. Car c'étoit un peuple guerrier, aimant le fer &amp; la violence. David se les assujettit, &amp; les rendit tributaires. Mais ils secouerent le joug sous Joram fils de Josaphat.</p></div></div><div class="note-row" id="com-lit-v45"><div class="note-verse-head">
+    <a class="ref-retour" href="#v45">↑</a>
+    <strong class="vnum-com">45</strong><button class="cite-btn" data-cite="Gn XXVII, 45">Citer ¶</button></div><div class="note-verse-quote"><p class="note-quote-line"><span class="note-quote-num">45.</span> que sa colere se passe, &amp; qu'il oublie ce que vous avez fait contre lui. J'envoyerai ensuite pour vous faire revenir ici. Pourquoi perdrai-je mes deux enfans en un même jour ?</p></div><div class="note-para-row"><p class="note-para-text"><a class="ref-page note-page" href="page-686.html" title="Voir la page imprimée">📖 p. 686</a><em>Pourquoi perdrai-je mes deux fils en un même jour ?</em> Pourquoi me mettrai-je en danger, ou que mes deux fils s'entretuent, ou qu'Esau ayant tué Jacob, soit contraint de s'enfuir, &amp; que je ne le voie jamais ?</p></div></div><div class="note-row" id="com-lit-v46"><div class="note-verse-head">
+    <a class="ref-retour" href="#v46">↑</a>
+    <strong class="vnum-com">46</strong><button class="cite-btn" data-cite="Gn XXVII, 46">Citer ¶</button></div><div class="note-verse-quote"><p class="note-quote-line"><span class="note-quote-num">46.</span> Rebecca dit ensuite à Isaac&nbsp;: La vie m'est devenue ennuyeuse à cause des filles de Heth qu'Esau a épousées. Si Jacob épouse une fille de ce pays-ci, je ne veux plus vivre.</p></div><div class="note-para-row"><p class="note-para-text"><a class="ref-page note-page" href="page-686.html" title="Voir la page imprimée">📖 p. 686</a>Rebecca dit à Isaac&nbsp;: <em>Si Jacob épouse une fille de ce pays-ci, comme a fait Esau son frère, je ne veux plus vivre.</em> Rebecca étoit trop sage pour dire à Isaac qu'il falloit envoyer Jacob en Mésopotamie, de-peur qu'il ne fût maltraité par Esau, ce qui n'auroit pû qu'affliger Isaac très-sensiblement. Mais en supprimant la principale raison du dessein qu'elle avoit pris, elle lui en proposa une autre qui étoit vraie &amp; très-favorable, qui est qu'ayant reçu tant de mécontentemens de leurs belles-filles, femmes d'Esau, qui étoient Hethéennes, il falloit envoyer Jacob en Mésopotamie, afin qu'il épousât une fille de la race &amp; de la religion de ses ancêtres.</p></div></div></div>
       </section>
-      <section class="col-spirituel" aria-label="Sens spirituel" hidden>
+      <section class="col-spirituel" aria-label="Sens spirituel">
         <p class="col-label">Sens spirituel</p>
-        <div class="spirituel-texte"></div>
+        <div class="spirituel-texte"><p class="sens-index">Passages commentés au sens spirituel : <a href="#com-spi-v18" class="ref-com-lien">18</a></p><div class="note-row" id="com-spi-v18"><div class="note-verse-head">
+    <a class="ref-retour" href="#v18">↑</a>
+    <strong class="vnum-com">18–19</strong><button class="cite-btn" data-cite="Gn XXVII, 18–19">Citer ¶</button></div><div class="note-verse-quote"><p class="note-quote-line"><span class="note-quote-num">18.</span> Jacob porta le tout devant Isaac, &amp; lui dit&nbsp;: Mon pere. Je vous entends, dit Isaac&nbsp;: Qui êtes-vous, mon fils ?</p><p class="note-quote-line"><span class="note-quote-num">19.</span> Jacob lui répondit&nbsp;: Je suis Esaü votre fils aîné. J'ai fait ce que vous m'avez commandé&nbsp;: levez-vous, asseyez-vous <a class="page-inline" href="page-680.html" title="p. 680">‖</a>vous [sur votre lit, &amp; mangez de ma chasse, afin que vous me donniez votre benediction.</p></div><div class="note-para-row"><p class="note-para-text"><a class="ref-page note-page" href="page-687.html" title="Voir la page imprimée">📖 p. 687</a><em>Jacob ayant apporté à manger à Isaac, lui dit&nbsp;: Mon pere, je vous entends, dit Isaac&nbsp;: Qui êtes-vous, mon fils ? Jacob lui répondit&nbsp;: Je suis Esau votre fils-aîné.</em> Cette action de Jacob, qui dit à son pere&nbsp;: qu'il est Esau, &amp; qui prend ainsi pour lui-même la benediction qui étoit naturellement dûe au fils-aîné, est expliquée diversement par les Auteurs Ecclesiastiques..</p></div><div class="note-para-row"><p class="note-para-text">Quelques Anciens, comme Cassien &amp; quelques autres, sont persuadés que ce que dit ici Jacob est un mensonge, &amp; ils prétendent en même-temps qu'en cela il n'a point péché ; parce qu'ils croyent qu'il est quelquefois permis de mentir, pour quelque grand bien qui ne peut s'obtenir que par un mensonge. Cette doctrine que ces Auteurs semblent avoir prise de Platon où elle se trouve, &amp; qui est plus digne d'un payen &amp; d'un Philosophe, que des adorateurs &amp; des disciples de l'éternelle Vérité, a été détruite avec grande force par saint Augustin dans ses livres contre le mensonge ; &amp; les saints Docteurs l'ont rejetée après lui, comme contraire à la doctrine de l'Eglise.</p></div><div class="note-para-row"><p class="note-para-text">Plusieurs des Interpretes nouveaux croyent que Jacob n'a point dit la vérité ; mais que le mensonge qu'il a commis n'est que veniel, &amp; d'autant plus excusable qu'il l'a fait en quelque sorte contre son inclination pour obéir au comman<a class="page-inline" href="page-688.html" title="p. 688">‖</a>dement de sa mere. Ces Auteurs sont au moins à estimer en ce qu'ils demeurent d'accord que le mensonge en la bouche de qui que ce soit est toujours un mal, ou grand ou petit, &amp; qu'il ne peut être justifié par le mérite de celui qui le commet, quelque saint qu'il puisse être, parce que toutes les actions des Saints ne sont pas saintes.</p></div><div class="note-para-row"><p class="note-para-text"><a class="ref-page note-page" href="page-688.html" title="Voir la page imprimée">📖 p. 688</a>Mais des Auteurs celebres, &amp; entr'autres saint Augustin, soutiennent que tout ce que dit ici Jacob n'est point un mensonge&nbsp;: &amp; saint Thomas enseigne la même chose avec beaucoup de lumiere &amp; de succès.</p></div><div class="note-para-row has-marges"><p class="note-para-text">Cette justification de Jacob se prouve premièrement sans avoir recours au mystere, &amp; se prend du sens litteral &amp; naturel, &amp; de ce qui s'est passé dans la suite de cette histoire entre Jacob &amp; son frere Esaü. Car il a été marqué auparavant qu'Esaü avoit vendu à son frere son droit d'aînesse pour un plat de lentilles&nbsp;: que Jacob lui en ayant demandé son serment, il le lui jura en effet, &amp; s'en alla, se mettant peu en peine de ce qu'il avoit vendu son droit d'aînesse. Il lui arriva en cette occasion ce que le Sage dit avec grande raison&nbsp;: <em>Que les insensés commettent des crimes comme en riant, Quasi per risum stultus operatur scelus.</em> Il crut se jouer en faisant une action qui étoit d'autant plus criminelle ; qu'il paroissoit n'avoir que du mépris pour ce qui étoit de soi-même très-grand &amp; très-estimable. Mais Dieu en jugea selon la lumiere de sa vérité, &amp; non selon l'aveuglement de cet homme endurci dans le mal. C'est ce que saint Paul nous témoigne par ces paroles&nbsp;: <em>Qu'il ne se trouve point parmi</em> <a class="page-inline" href="page-689.html" title="p. 689">‖</a>sous quelque profane, comme Esaü, qui pour se rassasier une seule fois, vendit à son frere son droit d’aînesse ; car vous savez que desirant depuis d’avoir comme le premier heritier la benediction de son pere, il fut rejetté ; &amp; il ne put le porter à reconquerir ce qu’il avoit fait pour Jacob, quoiqu’il en eût conjuré avec larmes.</p><aside class="note-para-marges"><span class="marge-item"><a href="../genese/ch25.html#v31" class="marge-link marge-bible" title="Genèse&nbsp;XXV,&nbsp;31">Gen. 25. 31. 32. 33.</a></span><span class="marge-item"><span class="marge-link marge-bible marge-hors-site" title="Proverbes X, 23 — livre pas encore publié sur ce site">Proverb. 10. 23.</span></span><span class="marge-item"><span class="marge-link marge-bible marge-hors-site" title="Hébreux XII, 16 — livre pas encore publié sur ce site">Hebr. 12. 16.</span></span></aside></div><div class="note-para-row"><p class="note-para-text"><a class="ref-page note-page" href="page-689.html" title="Voir la page imprimée">📖 p. 689</a>Ainsi Rebecca qui avoit été d’abord instruite divinement de ce qui devoit arriver à ces deux jumeaux qu’elle avoit senti s’entrebattre dans son sein, &amp; à qui il avoit été dit, que l’aîné seroit assujetti au plus jeune, jugea de cette action d’Esaü, comme Dieu même en a jugé, selon saint Paul ; &amp; elle crut qu’Esaü s’étant dépouillé du droit d’aînesse, il n’étoit plus effectivement l’aîné, &amp; qu’il avoit mis Jacob en sa place, en lui vendant avec serment le droit qui lui avoit été acquis par sa naissance.</p></div><div class="note-para-row"><p class="note-para-text">Quand donc Isaac dit à Jacob&nbsp;: <em>Es-tu mon fils Esaü</em>, &amp; qu’il lui répond&nbsp;: <em>Je le suis</em>, c’est-à-dire&nbsp;: Je suis votre fils aîné, puisque c’étoit par cette qualité qu’Isaac vouloit benir Esaü ; Jacob parle selon la vérité, comme un homme qui auroit acheté une terre que son aîné auroit eue auparavant, &amp; dont il auroit le nom, ne diroit rien que de veritable, en s’attribuant ensuite &amp; le domaine &amp; le nom de cette terre.</p></div><div class="note-para-row"><p class="note-para-text">Quoique ce raisonnement semble très-solide, saint Augustin néanmoins n’établi pas la justification des paroles de Jacob, sur ce qu’il étoit devenu effectivement l’aîné, ayant acquis ce droit par le consentement d’Esaü son frere&nbsp;: mais en supposant cette premiere preuve, sans s’y <a class="page-inline" href="page-690.html" title="p. 690">‖</a>arrêter, il établit la justification de Jacob sur une raison plus élevée, qui est que tout ce qui s'est passé dans cette action étoit réellement &amp; véritablement devant Dieu &amp; dans l'esprit de Rebecca à qui Dieu l'avoit révélé, une image vivante &amp; présente des choses futures. Or il est certain, selon les Saints, qu'on donne à l'image le nom de la chose dont elle est l'image, sans blesser en aucune sorte la vérité.</p></div><div class="note-para-row has-marges"><p class="note-para-text"><a class="ref-page note-page" href="page-690.html" title="Voir la page imprimée">📖 p. 690</a>Lorsqu'on voit, par exemple, une statue de Jule César, on dit&nbsp;: Voilà Jule César ; &amp; on ne commet point de mensonge, quoique cette statue ne soit qu'une pierre morte, parce qu'elle représente cet Empereur. Il est certain de même, que lorsque l'Ange qui apparut à Moïse lui dit&nbsp;: <em>Qu'il étoit celui qui est</em>, c'est-à-dire, qu'il étoit Dieu, &amp; qu'il s'attribua le nom le plus grand qui nous puisse marquer la souveraineté de Dieu, il ne mentoit point, quoiqu'il ne fût qu'une simple créature ; parce qu'il parloit au nom de celui dont il représentoit la personne.</p><aside class="note-para-marges"><span class="marge-item"><span class="marge-link marge-bible marge-hors-site" title="Exode III, 14 — livre pas encore publié sur ce site">Exod. 3. 14.</span></span></aside></div><div class="note-para-row has-marges"><p class="note-para-text">C'est ainsi, ajoute saint Augustin, qu'il faut juger de l'action de Jacob. Il a été dit auparavant, que c'étoit <em>un homme simple</em>, c'est-à-dire, un homme sans déguisement &amp; sans artifice. Il ne faut donc point chercher dans ce que ce saint homme a fait en une rencontre si importante, <em>aucune fiction ni aucun déguisement ;</em> mais il faut y reconnoître dépeinte comme dans une image vive, la profondeur &amp; la vérité de nos mysteres&nbsp;: <em>Quis est dolus simplicis, qua fictio non mentientis, nisi profundum mysterium veritatis ?</em></p><aside class="note-para-marges"><span class="marge-item"><a href="../biblio.html#a-augustin" class="marge-link marge-extern">August. de Civ. Dei. l. 16. c. 37.</a></span><span class="marge-item"><a href="../biblio.html#a-augustin" class="marge-link marge-extern">August. ibid.</a></span></aside></div><div class="note-para-row has-marges"><p class="note-para-text"><a class="ref-page note-page" href="page-691.html" title="Voir la page imprimée">📖 p. 691</a>Jacob représente JESUS-CHRIST en la personne de chef des élus, &amp; en la personne de son corps qui est son Eglise. Il se couvre de peau de bouc, comme JESUS-CHRIST étant l'Agneau sans tache s'est revêtu de nos péchés, pour les effacer en les portant, &amp; pour attirer sur nous la benediction de son Pere. Il prend les habits de l'aîné, &amp; il dit qu'il est l'aîné, parce que le second peuple le peuple Gentil, dont l'Eglise qui est le corps de JESUS-CHRIST est composée, s'est assujetti l'aîné qui est le peuple Juif, &amp; est devenu le peuple bien-aimé de Dieu, selon qu'il avoit été prédit à Rebecca, que <em>le plus jeune s'assujettiroit son aîné</em>&nbsp;: &amp; selon que JESUS-CHRIST a dit lui-même dans l'Evangile, que <em>les derniers deviendroient les premiers, &amp; que les premiers deviendroient les derniers.</em></p><aside class="note-para-marges"><span class="marge-item"><a href="../biblio.html#a-augustin" class="marge-link marge-extern">August. contra…</a></span><span class="marge-item"><a href="../genese/ch27.html" class="marge-link marge-bible" title="Genèse&nbsp;XXVII">Gen. 27.</a></span><span class="marge-item"><a href="../biblio.html#a-augustin" class="marge-link marge-extern">Aug. in…</a></span><span class="marge-item"><a href="../matthieu/ch19.html#v30" class="marge-link marge-bible" title="Matthieu&nbsp;XIX,&nbsp;30">Matt. 19. 30.</a></span></aside></div><div class="note-para-row"><p class="note-para-text">Le même Saint Augustin ajoute, que tout ce qu'Isaac souhaite à son fils en le benissant, se trouve accompli divinement en la personne de JESUS-CHRIST &amp; de son Eglise. Il dit que ses vêtemens furent une admirable odeur semblable à celle d'un <em>champ rempli de fleurs &amp; de fruits</em>, parce que la foi &amp; la bonne odeur de JESUS-CHRIST s'est répandue dans toute la terre. Il lui souhaite <em>la rosée du ciel</em>, pour marquer cette pluye spirituelle de la parole divine qui ne tombe que sur l'Eglise. Il lui desire <em>la graisse de la terre</em>, pour montrer que l'Eglise est cette mere feconde dont les enfans se sont multipliés jusques aux extremités du monde. Il y joint <em>l'abondance du blé &amp; du vin</em>, parce que le lien de tous ces peuples est le corps <a class="page-inline" href="page-692.html" title="p. 692">‖</a>même de JESUS-CHRIST qu'il donne à tous les membres dans son Sacrement sous les especes du pain &amp; du vin.</p></div><div class="note-para-row has-marges"><p class="note-para-text"><a class="ref-page note-page" href="page-692.html" title="Voir la page imprimée">📖 p. 692</a>C'est ce même JESUS-CHRIST, ajoûte ce Saint, représenté par Jacob, que tous les peuples de la terre sçavent, que les tribus, c'est-à-dire, que les Juifs convertis adorent. Il est devenu le Seigneur de ses freres ; &amp; les enfans de sa mere l'ont adoré avec un profond respect, parce qu'étant lui-même fils d'Abraham selon la chair, il a été adoré en esprit &amp; en vérité par la premiere Eglise composée de Juifs devenus par la foi les enfans d'Abraham selon l'esprit. Et c'est lui qui est tellement la source de toutes les benedictions &amp; de toutes les graces&nbsp;: <em>Que tous ceux qui le maudissent seront maudits, &amp; que tous ceux qui le benissent, seront benis éternellement.</em></p><aside class="note-para-marges"><span class="marge-item"><a href="../biblio.html#a-augustin" class="marge-link marge-extern">Aug. in Joan. 5. 15.</a></span></aside></div><div class="note-para-row has-marges"><p class="note-para-text">C'est pourquoi aussi-tôt qu'Isaac a sçu qu'il avoit beni Jacob, ce grand mystere qui étoit déjà connu de Rebecca lui est revelé. Il admire avec un profond étonnement la conduite que Dieu avoit tenue sur lui dans cette action. Non seulement il ne se plaint pas, &amp; il ne se met pas en colere comme ayant été surpris dans cette benediction qu'il a donnée à Jacob, mais au-contraire il la reconnoît, il la confirme, &amp; il la revere comme une œuvre qui est d'autant plus l'œuvre de Dieu, que Dieu l'a faite &amp; par lui &amp; comme sans lui, parcequ'il n'en a été que l'instrument&nbsp;: <em>Isaac deceptum se esse non cognoscit, queritur ; imò confirmat revelato sibi intus in corde Dei, lib. 16. cap. 35. magno Sacramento, devotâ indignationem, confirmat benedictionem.</em></p><aside class="note-para-marges"><span class="marge-item"><a href="../biblio.html#a-augustin" class="marge-link marge-extern">Aug. de Civ. Dei lib. 16. cap. 35.</a></span></aside></div><div class="note-para-row"><p class="note-para-text"><a class="ref-page note-page" href="page-693.html" title="Voir la page imprimée">📖 p. 693</a>Aussi saint Augustin étant lui-même ravi en admiration de la profondeur de ces mysteres, s’écrie avec grande raison&nbsp;: O histoire qu’on ne peut assez reverer ! C’est un tableau d’un événement passé, mais c’est une propherie des choses futures. Ce qui s’y fait, se fait sur la terre, mais tout s’y conduit par l’ordre du ciel. Les hommes en sont les acteurs &amp; les instrumens, mais Dieu seul en est l’arbitre &amp; le souverain moderateur&nbsp;: <em>O res gestas, sed prophetice gestas ; in terra, sed cœlestis ; per homines, sed divinis !</em></p></div></div></div>
       </section>
     </div>
 
     <nav class="chapter-nav">
-      <a class="nav-prev" href="#">←</a>
-      <span class="chapitre-num"></span>
-      <a class="nav-next" href="#">→</a>
+      <a class="nav-prev" href="ch26.html">← XXVI</a>
+      <span class="chapitre-num">Gn · XXVII / L</span>
+      <a class="nav-next" href="ch28.html">XXVIII →</a>
     </nav>
   </main>
 </div>
 
-<script src="../render.js"></script>
-</body>
-</html>
+
+
+<script src="../render.js" defer=""></script></body></html>
