@@ -184,6 +184,22 @@ function siteBase() {
   return document.body.dataset.base || '';
 }
 
+// L'index de recherche (plusieurs Mo) n'est chargé qu'à la première recherche, pas avec chaque page.
+let _searchIndexPromise = null;
+function loadSearchIndex() {
+  if (typeof SACY_SEARCH_INDEX !== 'undefined') return Promise.resolve(SACY_SEARCH_INDEX);
+  if (!_searchIndexPromise) {
+    _searchIndexPromise = new Promise((resolve, reject) => {
+      const sc = document.createElement('script');
+      sc.src = siteBase() + 'search-index.js';
+      sc.onload = () => resolve(SACY_SEARCH_INDEX);
+      sc.onerror = () => { _searchIndexPromise = null; reject(new Error('index introuvable')); };
+      document.head.appendChild(sc);
+    });
+  }
+  return _searchIndexPromise;
+}
+
 // ── Thème ────────────────────────────────────────────────────────────────────
 
 function toggleTheme() {
@@ -294,6 +310,7 @@ function setupSidebar() {
   const resultsBox = document.querySelector('.sidebar-search-results');
   if (input && resultsBox) {
     let timer;
+    input.addEventListener('focus', () => { loadSearchIndex().catch(() => {}); }, { once: true });   // précharge dès qu'on clique dans le champ
     input.addEventListener('input', () => {
       clearTimeout(timer);
       timer = setTimeout(() => runSidebarSearch(input.value, resultsBox), 150);
@@ -304,10 +321,23 @@ function setupSidebar() {
   }
 }
 
+function input_current(resultsBox) {
+  const i = document.querySelector('.sidebar-search-input');
+  return i ? i.value.trim() : '';
+}
+
 function runSidebarSearch(query, resultsBox) {
   query = query.trim();
-  if (query.length < 2 || typeof SACY_SEARCH_INDEX === 'undefined') {
+  if (query.length < 2) {
     resultsBox.hidden = true;
+    return;
+  }
+  if (typeof SACY_SEARCH_INDEX === 'undefined') {
+    resultsBox.innerHTML = '<div class="res-empty">Chargement de l’index…</div>';
+    resultsBox.hidden = false;
+    loadSearchIndex().then(() => { if (input_current(resultsBox) === query) runSidebarSearch(query, resultsBox); }, () => {
+      resultsBox.innerHTML = '<div class="res-empty">Index indisponible</div>';
+    });
     return;
   }
   const { terms, results } = SacySearch.run(query, SACY_SEARCH_INDEX, 8);

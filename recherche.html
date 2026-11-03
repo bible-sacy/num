@@ -8,7 +8,6 @@
   <script>
     (function(){ document.documentElement.setAttribute('data-theme', localStorage.getItem('sacy-theme')||'light'); })();
   </script>
-  <script src="search-index.js"></script>
 </head>
 <body data-base="">
 
@@ -286,13 +285,14 @@
     el.addEventListener('change', () => { if (q) document.getElementById('search-form').submit(); });
   });
 
-  if (typeof SACY_SEARCH_INDEX === 'undefined') {
-    document.getElementById('search-results').innerHTML =
-      '<p class="manquant">L\'index de recherche n\'a pas encore été généré.<br>Lancez <code>python scripts/build.py</code>.</p>';
-    return;
-  }
   if (!q) return;
+  document.getElementById('search-results').innerHTML = '<p class="search-count">Chargement de l’index de recherche…</p>';
+  loadSearchIndex().then(afficher, () => {
+    document.getElementById('search-results').innerHTML =
+      '<p class="manquant">L’index de recherche n’a pas pu être chargé.</p>';
+  });
 
+  function afficher() {
   const { terms, results } = SacySearch.run(q, SACY_SEARCH_INDEX, null, scope);
   const container = document.getElementById('search-results');
 
@@ -330,6 +330,7 @@
   }
 
   container.innerHTML = html;
+  }
 })();
 </script>
 </body>
