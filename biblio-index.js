@@ -5006,6 +5006,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 8 c. 42",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 8,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "l. 9 c. 4",
               "cites": [
                 {
@@ -6408,6 +6420,13 @@ const SACY_BIBLIO = {
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 15,
+                  "sens": "S"
                 }
               ]
             },
@@ -11651,18 +11670,6 @@ const SACY_BIBLIO = {
           "slug": "augustin-de-gen",
           "refs": [
             {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 2,
-                  "n": 8,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
               "ref": "l. 1 c. 6",
               "cites": [
                 {
@@ -15182,18 +15189,10 @@ const SACY_BIBLIO = {
             }
           ],
           "classe": false
-        }
-      ],
-      "avecClasses": false
-    },
-    {
-      "cle": "avari",
-      "nom": "AVARI",
-      "dates": "",
-      "oeuvres": [
+        },
         {
-          "titre": "vieux, les yeux s'obscurcirent. I. (CHA)",
-          "slug": "avari-vieux-les-yeux-s-obscurcirent-i-cha",
+          "titre": "J. CHR.",
+          "slug": "avant-j-chr",
           "refs": [
             {
               "ref": "1759",
