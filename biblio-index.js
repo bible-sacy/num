@@ -52,6 +52,31 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "act",
+      "nom": "Act",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "Holst.",
+          "slug": "act-holst",
+          "refs": [
+            {
+              "ref": "p. 26",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 21,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "actes",
       "nom": "Actes",
       "dates": "",
@@ -75,32 +100,6 @@ const SACY_BIBLIO = {
           ]
         }
       ]
-    },
-    {
-      "cle": "holstenius",
-      "nom": "Actes des martyrs (éd. Holstenius)",
-      "dates": "",
-      "oeuvres": [
-        {
-          "titre": "",
-          "slug": "holstenius",
-          "refs": [
-            {
-              "ref": "p. 26",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 21,
-                  "n": 15,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "notice": "« Act. Holst., p. 26 » renvoie probablement aux <em>Actes des martyrs</em>, dans l'édition de Lucas Holstenius : <em>Passio sanctarum martyrum Perpetuae et Felicitatis</em>, Rome, Giacomo Dragondelli, 1663, publication posthume préparée par le jésuite Pierre Poussines. Une réédition paraît à Paris en 1664. Éditions numérisées sur Google Livres : <a href=\"https://play.google.com/store/books/details?id=U3gbyiWHndYC\" target=\"_blank\" rel=\"noopener\">Rome, 1663</a> ; <a href=\"https://play.google.com/store/books/details?id=6_ChTykrBAUC\" target=\"_blank\" rel=\"noopener\">Paris, 1664</a>."
     },
     {
       "cle": "ad",
@@ -233,8 +232,8 @@ const SACY_BIBLIO = {
       "dates": "340–397",
       "oeuvres": [
         {
-          "titre": "de bened. Patriar.",
-          "slug": "ambroise-de-bened-patriar",
+          "titre": "De benedictionibus patriarcharum",
+          "slug": "ambroise-de-benedictionibus-patriarcharum",
           "refs": [
             {
               "ref": "cap. 9",
@@ -251,25 +250,7 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Elia & jejun.",
-          "slug": "ambroise-de-elia-jejun",
-          "refs": [
-            {
-              "ref": "c. 10",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 6,
-                  "n": 16,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de fide",
+          "titre": "De fide",
           "slug": "ambroise-de-fide",
           "refs": [
             {
@@ -287,8 +268,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de fug. secul.",
-          "slug": "ambroise-de-fug-secul",
+          "titre": "De fuga saeculi",
+          "slug": "ambroise-de-fuga-saeculi",
           "refs": [
             {
               "ref": "c. 7",
@@ -305,26 +286,26 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de instit. Virgin.",
-          "slug": "ambroise-de-instit-virgin",
+          "titre": "De Helia et ieiunio",
+          "slug": "ambroise-de-helia-et-ieiunio",
           "refs": [
             {
-              "ref": "c. 7",
+              "ref": "c. 10",
               "cites": [
                 {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 6,
+                  "n": 16,
+                  "sens": "N"
                 }
               ]
             }
           ]
         },
         {
-          "titre": "de Job. Patr.",
-          "slug": "ambroise-de-job-patr",
+          "titre": "De interpellatione Iob et David",
+          "slug": "ambroise-de-interpellatione-iob-et-david",
           "refs": [
             {
               "ref": "cap. 21",
@@ -341,8 +322,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Joseph Patriar.",
-          "slug": "ambroise-de-joseph-patriar",
+          "titre": "De Ioseph",
+          "slug": "ambroise-de-ioseph",
           "refs": [
             {
               "ref": "cap. 6",
@@ -359,26 +340,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Noe & Ar.",
-          "slug": "ambroise-de-noe-ar",
-          "refs": [
-            {
-              "ref": "cap. 19",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 8,
-                  "n": 6,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Noe & Arc.",
-          "slug": "ambroise-de-noe-arc",
+          "titre": "De Noe",
+          "slug": "ambroise-de-noe",
           "refs": [
             {
               "ref": "cap. 19",
@@ -407,8 +370,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Offic.",
-          "slug": "ambroise-de-offic",
+          "titre": "De Officiis ministrorum",
+          "slug": "ambroise-de-officiis-ministrorum",
           "refs": [
             {
               "ref": "l. 1 c. 3",
@@ -419,6 +382,30 @@ const SACY_BIBLIO = {
                   "chapitre": 12,
                   "n": 33,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 1 c. 30",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 19,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 18",
+              "cites": [
+                {
+                  "livre": "tite",
+                  "livreAbr": "Tt",
+                  "chapitre": 2,
+                  "n": 7,
+                  "sens": "S"
                 }
               ]
             }
@@ -443,8 +430,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Sacr.",
-          "slug": "ambroise-de-sacr",
+          "titre": "De Sacramentis",
+          "slug": "ambroise-de-sacramentis",
           "refs": [
             {
               "ref": "de Spiri-tus c. 4",
@@ -454,6 +441,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 26,
                   "n": 26,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 c. 4",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 27,
                   "sens": "N"
                 }
               ]
@@ -469,31 +468,7 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "de Sacram.",
-          "slug": "ambroise-de-sacram",
-          "refs": [
-            {
-              "ref": "l. 4 c. 4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 27,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Sacrament.",
-          "slug": "ambroise-de-sacrament",
-          "refs": [
+            },
             {
               "ref": "l. 4 cap. 4",
               "cites": [
@@ -527,8 +502,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Spirit. sanct.",
-          "slug": "ambroise-de-spirit-sanct",
+          "titre": "De Spiritu Sancto",
+          "slug": "ambroise-de-spiritu-sancto",
           "refs": [
             {
               "ref": "lib. 3 c. 11",
@@ -563,9 +538,21 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Virg.",
-          "slug": "ambroise-de-virg",
+          "titre": "De Virginibus",
+          "slug": "ambroise-de-virginibus",
           "refs": [
+            {
+              "ref": "c. 7",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
             {
               "ref": "l. 3 Phot. c. 275",
               "cites": [
@@ -599,8 +586,81 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Epist.",
-          "slug": "ambroise-epist",
+          "titre": "Enarrationes in Psalmos",
+          "slug": "ambroise-enarrationes-in-psalmos",
+          "refs": [
+            {
+              "ref": "36",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 14,
+                  "n": 51,
+                  "sens": "N"
+                },
+                {
+                  "livre": "corinthiens2",
+                  "livreAbr": "2 Co",
+                  "chapitre": 5,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "40, 10",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "43",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 4,
+                  "n": 33,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "43 v. 22",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 22,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "47, 10",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Epistulæ",
+          "slug": "ambroise-epistul",
           "refs": [
             {
               "ref": "75",
@@ -617,44 +677,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "I.",
-          "slug": "ambroise-i",
-          "refs": [
-            {
-              "ref": "2 c. 7 epist. 32 Matt. 7, 3",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 8,
-                  "n": 6,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in hexam.",
-          "slug": "ambroise-in-hexam",
-          "refs": [
-            {
-              "ref": "lib. 2 c. 15",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 1,
-                  "n": 3,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Luc.",
-          "slug": "ambroise-in-luc",
+          "titre": "Expositio Evangelii secundum Lucam",
+          "slug": "ambroise-expositio-evangelii-secundum-lucam",
           "refs": [
             {
               "ref": "",
@@ -672,6 +696,13 @@ const SACY_BIBLIO = {
                   "chapitre": 27,
                   "n": 32,
                   "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             },
@@ -683,6 +714,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 1,
                   "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "3 init",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 36,
                   "sens": "N"
                 }
               ]
@@ -822,145 +865,36 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Luc. ibid.",
-          "slug": "ambroise-in-luc-ibid",
+          "titre": "Hexaemeron",
+          "slug": "ambroise-hexaemeron",
           "refs": [
             {
-              "ref": "3 init",
+              "ref": "lib. 2 c. 15",
               "cites": [
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
+                  "livre": "genese",
+                  "livreAbr": "Gn",
                   "chapitre": 1,
-                  "n": 36,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Luc. præfat.",
-          "slug": "ambroise-in-luc-pr-fat",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Ps.",
-          "slug": "ambroise-in-ps",
-          "refs": [
-            {
-              "ref": "36",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 14,
-                  "n": 51,
-                  "sens": "N"
-                },
-                {
-                  "livre": "corinthiens2",
-                  "livreAbr": "2 Co",
-                  "chapitre": 5,
-                  "n": 14,
+                  "n": 3,
                   "sens": "S"
                 }
               ]
-            },
-            {
-              "ref": "43",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 4,
-                  "n": 33,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "47, 10",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 2,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
             }
           ]
         },
         {
-          "titre": "in Psal.",
-          "slug": "ambroise-in-psal",
+          "titre": "I.",
+          "slug": "ambroise-i",
           "refs": [
             {
-              "ref": "40, 10",
+              "ref": "2 c. 7 epist. 32 Matt. 7, 3",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
-                  "chapitre": 13,
-                  "n": 16,
+                  "chapitre": 8,
+                  "n": 6,
                   "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "43 v. 22",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 22,
-                  "n": 31,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Offic.",
-          "slug": "ambroise-offic",
-          "refs": [
-            {
-              "ref": "l. 1 c. 30",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 19,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 2 c. 18",
-              "cites": [
-                {
-                  "livre": "tite",
-                  "livreAbr": "Tt",
-                  "chapitre": 2,
-                  "n": 7,
-                  "sens": "S"
                 }
               ]
             }
@@ -1706,26 +1640,8 @@ const SACY_BIBLIO = {
       "dates": "v. 296–373",
       "oeuvres": [
         {
-          "titre": "contr. Arian.",
-          "slug": "athanase-contr-arian",
-          "refs": [
-            {
-              "ref": "to. 1 orat. 4 p. 493, 494",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 13,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de fug.",
-          "slug": "athanase-de-fug",
+          "titre": "De fuga sua",
+          "slug": "athanase-de-fuga-sua",
           "refs": [
             {
               "ref": "",
@@ -1742,8 +1658,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "epist. ad Epict.",
-          "slug": "athanase-epist-ad-epict",
+          "titre": "Epistula ad Epictetum",
+          "slug": "athanase-epistula-ad-epictetum",
           "refs": [
             {
               "ref": "to. 1 p. 585",
@@ -1826,6 +1742,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "Orationes contra Arianos",
+          "slug": "athanase-orationes-contra-arianos",
+          "refs": [
+            {
+              "ref": "to. 1 orat. 4 p. 493, 494",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 13,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "Syn.",
           "slug": "athanase-syn",
           "refs": [
@@ -1844,8 +1778,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Synops.",
-          "slug": "athanase-synops",
+          "titre": "Synopsis Scripturae sacrae",
+          "slug": "athanase-synopsis-scripturae-sacrae",
           "refs": [
             {
               "ref": "p. 155",
@@ -2173,66 +2107,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "ad lit.",
-          "slug": "augustin-ad-lit",
-          "refs": [
-            {
-              "ref": "lib. 8 cap. 9",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 2,
-                  "n": 15,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "« Aug. St. d. Gr. « ad litt. « lib. 8 cap. 12",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 2,
-                  "n": 15,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "« Aug. St. « Lib. 8. « Enchir",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 2,
-                  "n": 15,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Agon.",
-          "slug": "augustin-agon",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 5,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "aime, selon Jean. tract.",
           "slug": "augustin-aime-selon-jean-tract",
           "refs": [
@@ -2335,9 +2209,40 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "conf.",
-          "slug": "augustin-conf",
+          "titre": "Confessionum",
+          "slug": "augustin-confessionum",
           "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 7,
+                  "n": 44,
+                  "sens": "N"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 32,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "11",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
             {
               "ref": "c. 3",
               "cites": [
@@ -2351,6 +2256,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "cap. 17",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
               "ref": "in Matt. hom. 61",
               "cites": [
                 {
@@ -2358,6 +2275,54 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 18,
                   "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 1 c. 2",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 13,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 3 c. 25",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 6 c. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "l. 6 c. 16",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 15,
+                  "n": 17,
                   "sens": "N"
                 }
               ]
@@ -2394,132 +2359,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 18,
                   "n": 12,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 13 c. 17",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 1,
-                  "n": 9,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "lib. c. 13",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Conf.",
-          "slug": "augustin-conf",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 25,
-                  "n": 32,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Confes.",
-          "slug": "augustin-confes",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 7,
-                  "n": 44,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 6 c. 1",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 12",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 1,
-                  "n": 2,
-                  "sens": "L"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 12 cap. 8",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 1,
-                  "n": 1,
-                  "sens": "L"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Confess.",
-          "slug": "augustin-confess",
-          "refs": [
-            {
-              "ref": "l. 1 c. 2",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 13,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 6 c. 16",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 15,
-                  "n": 17,
                   "sens": "N"
                 }
               ]
@@ -2693,6 +2532,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "lib. 12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 2,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
               "ref": "lib. 12 c. 15",
               "cites": [
                 {
@@ -2701,6 +2552,18 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 3,
                   "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 12 cap. 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "L"
                 }
               ]
             },
@@ -2775,52 +2638,16 @@ const SACY_BIBLIO = {
                   "sens": "S"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "Confess. alib.",
-          "slug": "augustin-confess-alib",
-          "refs": [
-            {
-              "ref": "11",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
             },
             {
-              "ref": "cap. 17",
+              "ref": "lib. c. 13",
               "cites": [
                 {
                   "livre": "genese",
                   "livreAbr": "Gn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "confess. Evang.",
-          "slug": "augustin-confess-evang",
-          "refs": [
-            {
-              "ref": "l. 3 c. 25",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 20,
-                  "n": 24,
-                  "sens": "N"
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
                 }
               ]
             }
@@ -2838,24 +2665,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 5,
                   "n": 30,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "cont. Faust.",
-          "slug": "augustin-cont-faust",
-          "refs": [
-            {
-              "ref": "l. 22 c. 74",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 3,
-                  "n": 12,
                   "sens": "N"
                 }
               ]
@@ -2899,54 +2708,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "contr. Faust.",
-          "slug": "augustin-contr-faust",
-          "refs": [
-            {
-              "ref": "l. 20 c. 16",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 9,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 2 cap. 6",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "contr. Jul.",
-          "slug": "augustin-contr-jul",
-          "refs": [
-            {
-              "ref": "l. 4 c. 15",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 5,
-                  "n": 12,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "contra",
           "slug": "augustin-contra",
           "refs": [
@@ -2983,8 +2744,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "contra Faust.",
-          "slug": "augustin-contra-faust",
+          "titre": "Contra Faustum Manichaeum",
+          "slug": "augustin-contra-faustum-manichaeum",
           "refs": [
             {
               "ref": "1 Pet. 3, 3",
@@ -3107,6 +2868,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 20 c. 16",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 9,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "l. 22 c. 70",
               "cites": [
                 {
@@ -3114,6 +2887,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 26,
                   "n": 51,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 22 c. 74",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 3,
+                  "n": 12,
                   "sens": "N"
                 }
               ]
@@ -3139,6 +2924,18 @@ const SACY_BIBLIO = {
                   "chapitre": 8,
                   "n": 12,
                   "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 cap. 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             },
@@ -3174,6 +2971,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "lib. 6 cap. 11",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "lib. 12 cap. 3",
               "cites": [
                 {
@@ -3181,6 +2990,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Gn",
                   "chapitre": 15,
                   "n": 2,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 12 cap. 14",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 14,
                   "sens": "S"
                 }
               ]
@@ -3249,6 +3070,18 @@ const SACY_BIBLIO = {
                   "chapitre": 5,
                   "n": 45,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 19 cap. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             },
@@ -3394,54 +3227,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "contra Faustum",
-          "slug": "augustin-contra-faustum",
-          "refs": [
-            {
-              "ref": "lib. 19 cap. 21",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "contra Faustum.",
-          "slug": "augustin-contra-faustum",
-          "refs": [
-            {
-              "ref": "lib. 6 cap. 11",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 17,
-                  "n": 14,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 12 cap. 14",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 6,
-                  "n": 14,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "contra Gaudent.",
           "slug": "augustin-contra-gaudent",
           "refs": [
@@ -3454,6 +3239,24 @@ const SACY_BIBLIO = {
                   "chapitre": 18,
                   "n": 1,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Contra Iulianum",
+          "slug": "augustin-contra-iulianum",
+          "refs": [
+            {
+              "ref": "l. 4 c. 15",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 12,
+                  "sens": "S"
                 }
               ]
             }
@@ -3580,6 +3383,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "De agone christiano",
+          "slug": "augustin-de-agone-christiano",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "de Augustin. Pastor.",
           "slug": "augustin-de-augustin-pastor",
           "refs": [
@@ -3598,9 +3419,21 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Bapt.",
-          "slug": "augustin-de-bapt",
+          "titre": "De baptismo contra Donatistas",
+          "slug": "augustin-de-baptismo-contra-donatistas",
           "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 22,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "l. 6 c. 25, 6 c. 29, 7",
               "cites": [
@@ -3621,24 +3454,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 12,
                   "n": 30,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de bapt. Pel.",
-          "slug": "augustin-de-bapt-pel",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 11,
                   "sens": "N"
                 }
               ]
@@ -3682,9 +3497,21 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de catech. rud.",
-          "slug": "augustin-de-catech-rud",
+          "titre": "De catechizandis rudibus",
+          "slug": "augustin-de-catechizandis-rudibus",
           "refs": [
+            {
+              "ref": "c. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            },
             {
               "ref": "c. 10",
               "cites": [
@@ -3724,27 +3551,42 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Catech. rud.",
-          "slug": "augustin-de-catech-rud",
+          "titre": "De civitate Dei",
+          "slug": "augustin-de-civitate-dei",
           "refs": [
             {
-              "ref": "c. 3",
+              "ref": "",
               "cites": [
                 {
                   "livre": "genese",
                   "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 24,
+                  "chapitre": 14,
+                  "n": 18,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 21,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 32,
                   "sens": "S"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "de civ.",
-          "slug": "augustin-de-civ",
-          "refs": [
+            },
             {
               "ref": "20 nov. edit. 199 c. 35",
               "cites": [
@@ -3758,7 +3600,7 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "l. 14 c. 27",
+              "ref": "cap. 10",
               "cites": [
                 {
                   "livre": "genese",
@@ -3768,151 +3610,7 @@ const SACY_BIBLIO = {
                   "sens": "S"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "de Civ.",
-          "slug": "augustin-de-civ",
-          "refs": [
-            {
-              "ref": "l. 14 cap. 10",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 2,
-                  "n": 25,
-                  "sens": "S"
-                }
-              ]
             },
-            {
-              "ref": "l. 16 cap. 2",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 9,
-                  "n": 21,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 16 cap. 22",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 14,
-                  "n": 18,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 16 cap. 32",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 22,
-                  "n": 10,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de civ. Dei",
-          "slug": "augustin-de-civ-dei",
-          "refs": [
-            {
-              "ref": "l. 12 c. 9",
-              "cites": [
-                {
-                  "livre": "jude",
-                  "livreAbr": "Jude",
-                  "chapitre": 1,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 19 c. 21",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            },
-            {
-              "ref": "l. 20 cap. 30",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 5,
-                  "n": 21,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 14 c. 11",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 14 cap. 13",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 11,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Civ. Dei",
-          "slug": "augustin-de-civ-dei",
-          "refs": [
-            {
-              "ref": "lib. 16 cap. 35",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 27,
-                  "n": 18,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Civ. Dei,",
-          "slug": "augustin-de-civ-dei",
-          "refs": [
             {
               "ref": "l. 1",
               "cites": [
@@ -3950,6 +3648,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 5 c. 24",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 20,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 9 c. 21",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "l. 10 c. 4",
               "cites": [
                 {
@@ -3958,6 +3680,25 @@ const SACY_BIBLIO = {
                   "chapitre": 4,
                   "n": 4,
                   "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 10 c. 32",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 2,
+                  "n": 6,
+                  "sens": "N"
                 }
               ]
             },
@@ -3986,6 +3727,25 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 12 c. 9",
+              "cites": [
+                {
+                  "livre": "jude",
+                  "livreAbr": "Jude",
+                  "chapitre": 1,
+                  "n": 5,
+                  "sens": "N"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "l. 13, c. 21",
               "cites": [
                 {
@@ -3993,6 +3753,66 @@ const SACY_BIBLIO = {
                   "livreAbr": "Gn",
                   "chapitre": 2,
                   "n": 10,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 14 c. 13",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 14 c. 17",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 32,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 14 c. 27",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 14 c. 29",
+              "cites": [
+                {
+                  "livre": "corinthiens2",
+                  "livreAbr": "2 Co",
+                  "chapitre": 5,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 14 cap. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 25,
                   "sens": "S"
                 }
               ]
@@ -4010,6 +3830,42 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 16 c. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 16 c. 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 16 c. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 10,
+                  "n": 32,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
               "ref": "l. 16 c. 4",
               "cites": [
                 {
@@ -4017,6 +3873,66 @@ const SACY_BIBLIO = {
                   "livreAbr": "Gn",
                   "chapitre": 11,
                   "n": 31,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 16 c. 24",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 16 c. 26",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 17,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 16 c. 27",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "l. 16 c. 37",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 27,
+                  "n": 18,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 16 cap. 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 21,
                   "sens": "S"
                 }
               ]
@@ -4034,6 +3950,102 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 19 c. 12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "l. 19 c. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "l. 20 cap. 30",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 21 c. 9",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 9,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 21 cap. 24",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 12,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 22 c. 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 22 c. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 29,
+                  "n": 19,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 22 cap. 17",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 22,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "lib. 1 c. 26",
               "cites": [
                 {
@@ -4042,6 +4054,90 @@ const SACY_BIBLIO = {
                   "chapitre": 6,
                   "n": 14,
                   "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 1 c. 41 contra Faustum lib. 11 cap. 42",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 49,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 1 cap. 14",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 40,
+                  "n": 15,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 1 cap. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 6,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 c. 30",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 quaest. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 23,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 6 c. 26",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 9 c. 23",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 29,
+                  "sens": "N"
                 }
               ]
             },
@@ -4066,6 +4162,42 @@ const SACY_BIBLIO = {
                   "chapitre": 4,
                   "n": 4,
                   "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 10 c. 5",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 9,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 10 c. 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 c. 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 26,
+                  "sens": "L"
                 }
               ]
             },
@@ -4106,7 +4238,55 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "lib. 11 cap. 29",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 26,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 12 c. 6",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 14 c. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 25,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "lib. 14 c. 11",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 14 c. 13",
               "cites": [
                 {
                   "livre": "genese",
@@ -4130,188 +4310,13 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "lib. 14 cap. 21",
+              "ref": "lib. 14 c. 24",
               "cites": [
                 {
                   "livre": "genese",
                   "livreAbr": "Gn",
-                  "chapitre": 2,
-                  "n": 25,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 15 cap. 1",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 4,
-                  "n": 17,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 15 cap. 24",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 7,
+                  "chapitre": 3,
                   "n": 11,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 16 cap. 4",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 11,
-                  "n": 7,
-                  "sens": "S"
-                },
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 11,
-                  "n": 31,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 16 cap. 13",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 11,
-                  "n": 31,
-                  "sens": "L"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 21 cap. 8",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "De Civ. Dei,",
-          "slug": "augustin-de-civ-dei",
-          "refs": [
-            {
-              "ref": "lib. 11 cap. 29",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 1,
-                  "n": 26,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de civ. Dei,",
-          "slug": "augustin-de-civ-dei",
-          "refs": [
-            {
-              "ref": "cap. 10",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 24,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 10 c. 4",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 5,
-                  "n": 5,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 14 c. 13",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 16 c. 27",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 17,
-                  "n": 14,
-                  "sens": "L"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 1 cap. 21",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 9,
-                  "n": 6,
-                  "sens": "L"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 6 c. 26",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 17,
-                  "n": 14,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 14 c. 13",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 1,
                   "sens": "S"
                 }
               ]
@@ -4324,6 +4329,25 @@ const SACY_BIBLIO = {
                   "livreAbr": "Gn",
                   "chapitre": 3,
                   "n": 1,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 14 cap. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 25,
                   "sens": "S"
                 }
               ]
@@ -4341,375 +4365,6 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "lib. 15 c. 21",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 6,
-                  "n": 2,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 15 cap. 1",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 4,
-                  "n": 17,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 15 cap. 20",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 16,
-                  "n": 6,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 16 cap. 24",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 15,
-                  "n": 9,
-                  "sens": "S"
-                },
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 16,
-                  "n": 1,
-                  "sens": "L"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 26 cap. 32",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 22,
-                  "n": 9,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de civ. Dei.",
-          "slug": "augustin-de-civ-dei",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 14,
-                  "n": 18,
-                  "sens": "S"
-                },
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 25,
-                  "n": 32,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 5 c. 24",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 20,
-                  "n": 24,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 14 c. 17",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 25,
-                  "n": 32,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 14 c. 29",
-              "cites": [
-                {
-                  "livre": "corinthiens2",
-                  "livreAbr": "2 Co",
-                  "chapitre": 5,
-                  "n": 11,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 16 c. 3",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 10,
-                  "n": 32,
-                  "sens": "L"
-                }
-              ]
-            },
-            {
-              "ref": "l. 16 c. 24",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 34,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 16 c. 26",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 17,
-                  "n": 17,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 21 c. 9",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 9,
-                  "n": 43,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 22 c. 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 10 c. 5",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 9,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Civ. Dei.",
-          "slug": "augustin-de-civ-dei",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 19,
-                  "n": 21,
-                  "sens": "S"
-                },
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 22,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 12 c. 9",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 1,
-                  "n": 3,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 16 c. 1",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 9,
-                  "n": 21,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 16 c. 2",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 9,
-                  "n": 21,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "l. 16 c. 37",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 27,
-                  "n": 18,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "De civ. Dei.",
-          "slug": "augustin-de-civ-dei",
-          "refs": [
-            {
-              "ref": "lib. 2 quaest. 10",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 23,
-                  "n": 11,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Civi. Dei,",
-          "slug": "augustin-de-civi-dei",
-          "refs": [
-            {
-              "ref": "lib. 15 cap. 27",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 6,
-                  "n": 14,
-                  "sens": "L"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de civit.",
-          "slug": "augustin-de-civit",
-          "refs": [
-            {
-              "ref": "l. 19 c. 12",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de civit. contre Faust.",
-          "slug": "augustin-de-civit-contre-faust",
-          "refs": [
-            {
-              "ref": "l. 22 c. 3",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 29,
-                  "n": 19,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de civit. Dei",
-          "slug": "augustin-de-civit-dei",
-          "refs": [
-            {
-              "ref": "l. 22 cap. 17",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 29,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Civit. Dei",
-          "slug": "augustin-de-civit-dei",
-          "refs": [
-            {
               "ref": "lib. 14 cap. 28",
               "cites": [
                 {
@@ -4717,72 +4372,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Gn",
                   "chapitre": 11,
                   "n": 31,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de civit. Dei,",
-          "slug": "augustin-de-civit-dei",
-          "refs": [
-            {
-              "ref": "l. 14 c. 27",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 24,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 2 c. 30",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 10 c. 8",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 11 c. 6",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 1,
-                  "n": 26,
-                  "sens": "L"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 14 c. 24",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 11,
                   "sens": "S"
                 }
               ]
@@ -4812,6 +4401,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "lib. 15 c. 21",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "lib. 15 c. 26",
               "cites": [
                 {
@@ -4832,6 +4433,54 @@ const SACY_BIBLIO = {
                   "chapitre": 22,
                   "n": 1,
                   "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 15 cap. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 17,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 15 cap. 20",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 16,
+                  "n": 6,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 15 cap. 24",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 7,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 15 cap. 27",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "L"
                 }
               ]
             },
@@ -4884,6 +4533,80 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "lib. 16 cap. 4",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 11,
+                  "n": 7,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 11,
+                  "n": 31,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 cap. 13",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 11,
+                  "n": 31,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 cap. 22",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 14,
+                  "n": 18,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 cap. 24",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 15,
+                  "n": 9,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 16,
+                  "n": 1,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 cap. 32",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 10,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "lib. 16 cap. 33, 34",
               "cites": [
                 {
@@ -4891,6 +4614,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Gn",
                   "chapitre": 25,
                   "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 16 cap. 35",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 27,
+                  "n": 18,
                   "sens": "S"
                 }
               ]
@@ -4906,36 +4641,6 @@ const SACY_BIBLIO = {
                   "sens": "S"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "de Civit. Dei,",
-          "slug": "augustin-de-civit-dei",
-          "refs": [
-            {
-              "ref": "lib. 1 c. 41 contra Faustum lib. 11 cap. 42",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 49,
-                  "n": 9,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 12 c. 6",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 1,
-                  "n": 3,
-                  "sens": "S"
-                }
-              ]
             },
             {
               "ref": "lib. 19 cap. 19",
@@ -4946,60 +4651,6 @@ const SACY_BIBLIO = {
                   "chapitre": 12,
                   "n": 17,
                   "sens": "L"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de civit. Dei.",
-          "slug": "augustin-de-civit-dei",
-          "refs": [
-            {
-              "ref": "l. 9 c. 21",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 29,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 10 c. 32",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 2,
-                  "n": 6,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 21 cap. 24",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 30,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 9 c. 23",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 29,
-                  "sens": "N"
                 }
               ]
             },
@@ -5016,6 +4667,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "lib. 21 cap. 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 26 cap. 32",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "℣. 12 cont. »",
               "cites": [
                 {
@@ -5023,60 +4698,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 12,
                   "n": 30,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Civitate Dei,",
-          "slug": "augustin-de-civitate-dei",
-          "refs": [
-            {
-              "ref": "lib. 14 c. 10",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 2,
-                  "n": 25,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Civitate Dei.",
-          "slug": "augustin-de-civitate-dei",
-          "refs": [
-            {
-              "ref": "lib. 1 cap. 14",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 40,
-                  "n": 15,
-                  "sens": "L"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de con. Evang.",
-          "slug": "augustin-de-con-evang",
-          "refs": [
-            {
-              "ref": "l. 2 c. 24",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 1,
-                  "n": 16,
                   "sens": "N"
                 }
               ]
@@ -5096,79 +4717,6 @@ const SACY_BIBLIO = {
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de conf. Evangel.",
-          "slug": "augustin-de-conf-evangel",
-          "refs": [
-            {
-              "ref": "l. 2 c. 24",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 5,
-                  "n": 2,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 2 c. 45 n. 93",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 14,
-                  "n": 13,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 2 c. 49",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 7,
-                  "n": 24,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 3 c. 24",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 16,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 3 c. 25",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 16,
-                  "n": 12,
-                  "sens": "N"
-                },
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 16,
-                  "n": 14,
-                  "sens": "N"
                 }
               ]
             }
@@ -5253,8 +4801,38 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de cons. Evang.",
-          "slug": "augustin-de-cons-evang",
+          "titre": "de consens.",
+          "slug": "augustin-de-consens",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "Evangel. l. 4 c. 8",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "De consensu Evangelistarum",
+          "slug": "augustin-de-consensu-evangelistarum",
           "refs": [
             {
               "ref": "",
@@ -5265,126 +4843,20 @@ const SACY_BIBLIO = {
                   "chapitre": 12,
                   "n": 15,
                   "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 2, 7",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 5,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 2 qu. 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 11,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 3 c. 4 n. 14",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 36,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 3 c. 16",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 39,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 6",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 12,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 7 c. 2",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 1 cap. 28",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "De cons. Evang.",
-          "slug": "augustin-de-cons-evang",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 13,
-                  "n": 31,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de cons. Evangel.",
-          "slug": "augustin-de-cons-evangel",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
+                },
                 {
                   "livre": "marc",
                   "livreAbr": "Mc",
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 31,
+                  "sens": "N"
                 }
               ]
             },
@@ -5461,6 +4933,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 2, 7",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 4",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 1,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "l. 2 c. 5",
               "cites": [
                 {
@@ -5497,6 +4993,49 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 2 c. 24",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 1,
+                  "n": 16,
+                  "sens": "N"
+                },
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 5,
+                  "n": 2,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 45 n. 93",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 14,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 49",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 7,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "l. 2 c. 56",
               "cites": [
                 {
@@ -5504,6 +5043,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 17,
                   "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 qu. 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 11,
                   "sens": "N"
                 }
               ]
@@ -5521,6 +5072,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 3 c. 4 n. 14",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 36,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "l. 3 c. 6, 7",
               "cites": [
                 {
@@ -5528,6 +5091,49 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 27,
                   "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 3 c. 16",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 39,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 3 c. 24",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 16,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 3 c. 25",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 16,
+                  "n": 12,
+                  "sens": "N"
+                },
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 16,
+                  "n": 14,
                   "sens": "N"
                 }
               ]
@@ -5552,29 +5158,35 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "lib. 3",
+              "ref": "l. 6",
               "cites": [
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
-                  "chapitre": 28,
-                  "n": 1,
+                  "chapitre": 2,
+                  "n": 12,
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "de consens.",
-          "slug": "augustin-de-consens",
-          "refs": [
+            },
             {
-              "ref": "",
+              "ref": "l. 7 c. 2",
               "cites": [
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 1 cap. 28",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
@@ -5582,31 +5194,13 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "Evangel. l. 4 c. 8",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "De consensu Evang.",
-          "slug": "augustin-de-consensu-evang",
-          "refs": [
-            {
-              "ref": "l. 2 c. 4",
+              "ref": "lib. 3",
               "cites": [
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
-                  "chapitre": 1,
-                  "n": 12,
+                  "chapitre": 28,
+                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -5632,8 +5226,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de cor.",
-          "slug": "augustin-de-cor",
+          "titre": "De correptione et gratia",
+          "slug": "augustin-de-correptione-et-gratia",
           "refs": [
             {
               "ref": "",
@@ -5655,6 +5249,30 @@ const SACY_BIBLIO = {
                   "livreAbr": "Gn",
                   "chapitre": 3,
                   "n": 24,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "c. 8",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 22,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 9",
+              "cites": [
+                {
+                  "livre": "timothee2",
+                  "livreAbr": "2 Tm",
+                  "chapitre": 2,
+                  "n": 19,
                   "sens": "S"
                 }
               ]
@@ -5682,24 +5300,6 @@ const SACY_BIBLIO = {
                   "sens": "S"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "de corr. & gr.",
-          "slug": "augustin-de-corr-gr",
-          "refs": [
-            {
-              "ref": "c. 9",
-              "cites": [
-                {
-                  "livre": "timothee2",
-                  "livreAbr": "2 Tm",
-                  "chapitre": 2,
-                  "n": 19,
-                  "sens": "S"
-                }
-              ]
             },
             {
               "ref": "De Baptism. cont. Donat. l. 3 c. 19",
@@ -5722,24 +5322,6 @@ const SACY_BIBLIO = {
                   "chapitre": 2,
                   "n": 19,
                   "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de correp. & gr.",
-          "slug": "augustin-de-correp-gr",
-          "refs": [
-            {
-              "ref": "c. 8",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 22,
-                  "n": 31,
-                  "sens": "N"
                 }
               ]
             }
@@ -5914,8 +5496,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de doctr. Christ.",
-          "slug": "augustin-de-doctr-christ",
+          "titre": "De doctrina christiana",
+          "slug": "augustin-de-doctrina-christiana",
           "refs": [
             {
               "ref": "l. 1 c. 5",
@@ -5992,8 +5574,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de fide & oper.",
-          "slug": "augustin-de-fide-oper",
+          "titre": "De fide et symbolo",
+          "slug": "augustin-de-fide-et-symbolo",
           "refs": [
             {
               "ref": "c. 6",
@@ -6015,24 +5597,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Gn",
                   "chapitre": 2,
                   "n": 2,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Gen ad lit.",
-          "slug": "augustin-de-gen-ad-lit",
-          "refs": [
-            {
-              "ref": "lib. 11 cap. 1 Idem de cor. & grat. cap. 10",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 1,
                   "sens": "S"
                 }
               ]
@@ -6100,8 +5664,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Gen. ad lit.",
-          "slug": "augustin-de-gen-ad-lit",
+          "titre": "De Genesi ad litteram",
+          "slug": "augustin-de-genesi-ad-litteram",
           "refs": [
             {
               "ref": "",
@@ -6112,6 +5676,37 @@ const SACY_BIBLIO = {
                   "chapitre": 1,
                   "n": 4,
                   "sens": "L"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 1 c. 2",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 1 c. 5",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 4,
+                  "sens": "N"
                 }
               ]
             },
@@ -6152,8 +5747,27 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 8 c. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 8,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
               "ref": "l. 8 c. 7",
               "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 8,
+                  "sens": "L"
+                },
                 {
                   "livre": "genese",
                   "livreAbr": "Gn",
@@ -6351,6 +5965,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "lib. 8 cap. 9",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "lib. 8 cap. 12",
               "cites": [
                 {
@@ -6388,6 +6014,18 @@ const SACY_BIBLIO = {
             },
             {
               "ref": "lib. 11 c. 42",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 11 cap. 1 Idem de cor. & grat. cap. 10",
               "cites": [
                 {
                   "livre": "genese",
@@ -6505,21 +6143,27 @@ const SACY_BIBLIO = {
                   "sens": "S"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "de Gen. ad lit. lib.",
-          "slug": "augustin-de-gen-ad-lit-lib",
-          "refs": [
+            },
             {
-              "ref": "",
+              "ref": "« Aug. St. d. Gr. « ad litt. « lib. 8 cap. 12",
               "cites": [
                 {
                   "livre": "genese",
                   "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 1,
+                  "chapitre": 2,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "« Aug. St. « Lib. 8. « Enchir",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 15,
                   "sens": "S"
                 }
               ]
@@ -6527,83 +6171,23 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Gen. ad litt.",
-          "slug": "augustin-de-gen-ad-litt",
+          "titre": "De Genesi contra Manichaeos",
+          "slug": "augustin-de-genesi-contra-manichaeos",
           "refs": [
             {
-              "ref": "l. 8 c. 3",
+              "ref": "l. 1 c. 16",
               "cites": [
                 {
                   "livre": "genese",
                   "livreAbr": "Gn",
-                  "chapitre": 2,
-                  "n": 8,
+                  "chapitre": 1,
+                  "n": 24,
                   "sens": "L"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "de Gen. ad litter.",
-          "slug": "augustin-de-gen-ad-litter",
-          "refs": [
+            },
             {
-              "ref": "l. 1 c. 2",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 3,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Gen. cont. Man.",
-          "slug": "augustin-de-gen-cont-man",
-          "refs": [
-            {
-              "ref": "lib. 2 c. 15",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Gen. contra Man.",
-          "slug": "augustin-de-gen-contra-man",
-          "refs": [
-            {
-              "ref": "l. 2 c. 1",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 2,
-                  "n": 6,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Gen. contra Manic.",
-          "slug": "augustin-de-gen-contra-manic",
-          "refs": [
-            {
-              "ref": "lib. 2 c. 23",
+              "ref": "l. 1 c. 28",
               "cites": [
                 {
                   "livre": "genese",
@@ -6615,32 +6199,14 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "lib. 8 c. 23",
+              "ref": "l. 2 c. 1",
               "cites": [
                 {
                   "livre": "genese",
                   "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 24,
+                  "chapitre": 2,
+                  "n": 6,
                   "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Gen. contra Manich.",
-          "slug": "augustin-de-gen-contra-manich",
-          "refs": [
-            {
-              "ref": "l. 1 c. 16",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 1,
-                  "n": 24,
-                  "sens": "L"
                 }
               ]
             },
@@ -6681,6 +6247,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "lib. 2 c. 15",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 c. 23",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "lib. 2 c. 28",
               "cites": [
                 {
@@ -6691,33 +6281,9 @@ const SACY_BIBLIO = {
                   "sens": "S"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "de Genes. ad litter.",
-          "slug": "augustin-de-genes-ad-litter",
-          "refs": [
+            },
             {
-              "ref": "l. 1 c. 5",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 4,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Genes. contra Manich.",
-          "slug": "augustin-de-genes-contra-manich",
-          "refs": [
-            {
-              "ref": "l. 1 c. 28",
+              "ref": "lib. 8 c. 23",
               "cites": [
                 {
                   "livre": "genese",
@@ -6749,8 +6315,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de grat. & lib. arb.",
-          "slug": "augustin-de-grat-lib-arb",
+          "titre": "De gratia et libero arbitrio",
+          "slug": "augustin-de-gratia-et-libero-arbitrio",
           "refs": [
             {
               "ref": "",
@@ -6763,13 +6329,7 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "de grat. Christ.",
-          "slug": "augustin-de-grat-christ",
-          "refs": [
+            },
             {
               "ref": "cap. 45",
               "cites": [
@@ -6785,8 +6345,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de hæresib. hæres.",
-          "slug": "augustin-de-h-resib-h-res",
+          "titre": "De hæresibus",
+          "slug": "augustin-de-h-resibus",
           "refs": [
             {
               "ref": "43",
@@ -6917,8 +6477,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Nupt. et conc.",
-          "slug": "augustin-de-nupt-et-conc",
+          "titre": "De nuptiis et concupiscentia",
+          "slug": "augustin-de-nuptiis-et-concupiscentia",
           "refs": [
             {
               "ref": "lib. 2 cap. 34",
@@ -6953,8 +6513,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de pecc. mer. & rem.",
-          "slug": "augustin-de-pecc-mer-rem",
+          "titre": "De peccatorum meritis et remissione",
+          "slug": "augustin-de-peccatorum-meritis-et-remissione",
           "refs": [
             {
               "ref": "l. 1 c. 3",
@@ -6967,13 +6527,7 @@ const SACY_BIBLIO = {
                   "sens": "L"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "de peccat. merit.",
-          "slug": "augustin-de-peccat-merit",
-          "refs": [
+            },
             {
               "ref": "l. 1 c. 25. & 7 p. 284, 285",
               "cites": [
@@ -7007,17 +6561,17 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de sanct. serm.",
-          "slug": "augustin-de-sanct-serm",
+          "titre": "de serm. ut supra.",
+          "slug": "augustin-de-serm-ut-supra",
           "refs": [
             {
-              "ref": "18",
+              "ref": "c. 2",
               "cites": [
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 38,
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 9,
                   "sens": "N"
                 }
               ]
@@ -7025,39 +6579,57 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de sanct. virginit.",
-          "slug": "augustin-de-sanct-virginit",
+          "titre": "De sermone Domini in monte",
+          "slug": "augustin-de-sermone-domini-in-monte",
           "refs": [
             {
-              "ref": "c. 3. &c",
+              "ref": "",
               "cites": [
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 11,
-                  "n": 27,
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 6,
+                  "n": 1,
                   "sens": "N"
                 }
               ]
             },
             {
-              "ref": "cap. 4",
+              "ref": "cap. 10",
               "cites": [
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 34,
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 42,
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "de serm. Dom. in mont.",
-          "slug": "augustin-de-serm-dom-in-mont",
-          "refs": [
+            },
+            {
+              "ref": "l. 1 c. 1",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 1 c. 8. & 9",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "l. 1 c. 9",
               "cites": [
@@ -7066,6 +6638,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 5,
                   "n": 20,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 1 c. 10",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 7,
+                  "n": 24,
                   "sens": "N"
                 }
               ]
@@ -7083,42 +6667,6 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "l. 2 c. 18 n. 63",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 7,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Serm. Dom. in mont.",
-          "slug": "augustin-de-serm-dom-in-mont",
-          "refs": [
-            {
-              "ref": "l. 2 c. 44",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 6,
-                  "n": 24,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Serm. Dom. in monte,",
-          "slug": "augustin-de-serm-dom-in-monte",
-          "refs": [
-            {
               "ref": "l. 2 c. 2",
               "cites": [
                 {
@@ -7126,90 +6674,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 6,
                   "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de serm. Dom. in monte.",
-          "slug": "augustin-de-serm-dom-in-monte",
-          "refs": [
-            {
-              "ref": "l. 2 c. 22 n. 74",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 7,
-                  "n": 12,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 2 cap. 1",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 6,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de serm. Domini in mont.",
-          "slug": "augustin-de-serm-domini-in-mont",
-          "refs": [
-            {
-              "ref": "l. 2 c. 16",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 6,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de serm. Domini in monte",
-          "slug": "augustin-de-serm-domini-in-monte",
-          "refs": [
-            {
-              "ref": "l. 1 c. 1",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de serm. in mont.",
-          "slug": "augustin-de-serm-in-mont",
-          "refs": [
-            {
-              "ref": "cap. 10",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 42,
                   "sens": "N"
                 }
               ]
@@ -7227,6 +6691,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 2 c. 16",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 6,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 18 n. 63",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 7,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "l. 2 c. 19",
               "cites": [
                 {
@@ -7237,39 +6725,39 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "de serm. in monte.",
-          "slug": "augustin-de-serm-in-monte",
-          "refs": [
+            },
             {
-              "ref": "",
+              "ref": "l. 2 c. 22 n. 74",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 7,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 44",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 6,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 cap. 1",
               "cites": [
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 6,
                   "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de serm. ut supra.",
-          "slug": "augustin-de-serm-ut-supra",
-          "refs": [
-            {
-              "ref": "c. 2",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 9,
                   "sens": "N"
                 }
               ]
@@ -7349,8 +6837,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de spiritu et lit.",
-          "slug": "augustin-de-spiritu-et-lit",
+          "titre": "De spiritu et littera",
+          "slug": "augustin-de-spiritu-et-littera",
           "refs": [
             {
               "ref": "cap. 4",
@@ -7469,158 +6957,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de temp. ser.",
-          "slug": "augustin-de-temp-ser",
-          "refs": [
-            {
-              "ref": "138",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 28,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "140",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 24,
-                  "n": 30,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "140 c. 2",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 24,
-                  "n": 30,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "237 nov. édit",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 20,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de temp. serm.",
-          "slug": "augustin-de-temp-serm",
-          "refs": [
-            {
-              "ref": "10 c. 2",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 24,
-                  "n": 21,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "61",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 23,
-                  "n": 34,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "71",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "108",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 12,
-                  "n": 49,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "142",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 24,
-                  "n": 11,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "155 cap. 3",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 5,
-                  "n": 30,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Temp. serm.",
-          "slug": "augustin-de-temp-serm",
-          "refs": [
-            {
-              "ref": "82",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 40,
-                  "n": 12,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Trin.",
-          "slug": "augustin-de-trin",
+          "titre": "De Trinitate",
+          "slug": "augustin-de-trinitate",
           "refs": [
             {
               "ref": "l. 1 c. 12",
@@ -7775,8 +7113,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de vera Relig.",
-          "slug": "augustin-de-vera-relig",
+          "titre": "De vera religione",
+          "slug": "augustin-de-vera-religione",
           "refs": [
             {
               "ref": "c. 6 n. 11",
@@ -7798,450 +7136,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 4,
                   "n": 11,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de verb.",
-          "slug": "augustin-de-verb",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 18,
-                  "n": 9,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "Dom. ser. 36 c. 1 t. 10 p. 52",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 18,
-                  "n": 9,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de verb. Apostol. serm.",
-          "slug": "augustin-de-verb-apostol-serm",
-          "refs": [
-            {
-              "ref": "8 c. 3",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 19,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "8 c. 4",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 19,
-                  "n": 8,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "8 c. 4, 5",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 19,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 4",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 19,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 5",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 19,
-                  "n": 8,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de verb. Dom. ib. & fer.",
-          "slug": "augustin-de-verb-dom-ib-fer",
-          "refs": [
-            {
-              "ref": "20",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 11,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de verb. Dom. in Matt. serm.",
-          "slug": "augustin-de-verb-dom-in-matt-serm",
-          "refs": [
-            {
-              "ref": "8. & 9",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 11,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de verb. Dom. ser.",
-          "slug": "augustin-de-verb-dom-ser",
-          "refs": [
-            {
-              "ref": "6 c. 2",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "8",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 11,
-                  "n": 25,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "17, 3",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 10,
-                  "n": 41,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "26 c. 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 10,
-                  "n": 41,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "29 c. 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 11,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "29 c. 3",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 11,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "36 c. 2",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 18,
-                  "n": 9,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "36 p. 3",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 18,
-                  "n": 13,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "39 c. 2",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 12,
-                  "n": 35,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 11,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 3",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 11,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 8",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 10,
-                  "n": 41,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "ser. 26 c. 2",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 10,
-                  "n": 41,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "ser. 27 c. 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 10,
-                  "n": 41,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "ser. 27 c. 2",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 10,
-                  "n": 41,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de verb. Dom. serm.",
-          "slug": "augustin-de-verb-dom-serm",
-          "refs": [
-            {
-              "ref": "30 c. 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 11,
-                  "n": 37,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 11,
-                  "n": 41,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 3",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 11,
-                  "n": 41,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 4",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 11,
-                  "n": 41,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de verb. Domini serm.",
-          "slug": "augustin-de-verb-domini-serm",
-          "refs": [
-            {
-              "ref": "1 c. 3",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 5,
-                  "n": 30,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "6 cap. 2",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 6,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "36 cap. 2",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 18,
-                  "n": 13,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "37",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 10,
-                  "n": 36,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de verbis Dom. serm.",
-          "slug": "augustin-de-verbis-dom-serm",
-          "refs": [
-            {
-              "ref": "6 c. 2",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 6,
                   "sens": "N"
                 }
               ]
@@ -8321,9 +7215,473 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "ep.",
-          "slug": "augustin-ep",
+          "titre": "Enarrationes in Psalmos",
+          "slug": "augustin-enarrationes-in-psalmos",
           "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 14,
+                  "n": 21,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 26,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "2, 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 51,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "14 de Sanctis",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 49,
+                  "n": 27,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "14 v. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 20,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "17",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 21,
+                  "n": 3,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "29",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "31 to. 8 p. 79",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 18,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "33 init",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 17,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "34",
+              "cites": [
+                {
+                  "livre": "corinthiens2",
+                  "livreAbr": "2 Co",
+                  "chapitre": 10,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "36",
+              "cites": [
+                {
+                  "livre": "tite",
+                  "livreAbr": "Tt",
+                  "chapitre": 1,
+                  "n": 16,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "41",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 23,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "42",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "50",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "55",
+              "cites": [
+                {
+                  "livre": "timothee2",
+                  "livreAbr": "2 Tm",
+                  "chapitre": 3,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "57, 3",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 36,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "58 Idem. in Joan. tract. 27 n. 95, 96",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 46,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "58 serm. 1 n. 8",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 9,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "63 v. 2",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 2,
+                  "n": 33,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "64",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 20,
+                  "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 11,
+                  "n": 31,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "68, 39",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 10,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "68 n. 5",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 40,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "70",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "70 bibl",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "75",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 17,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "79",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 7,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "103",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "104",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 2,
+                  "n": 33,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "125 p. 603",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 7,
+                  "n": 39,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "125 qu. 603 in Psal. 140",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 7,
+                  "n": 36,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "127",
+              "cites": [
+                {
+                  "livre": "timothee2",
+                  "livreAbr": "2 Tm",
+                  "chapitre": 3,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "130, 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 10,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "142, 6",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 9,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "146 to. 3 p. 9 c. 8",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 18,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "147",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 24,
+                  "n": 41,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "148 v. 16",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 20,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "In Ps. 83",
+              "cites": [
+                {
+                  "livre": "timothee2",
+                  "livreAbr": "2 Tm",
+                  "chapitre": 3,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Epistulæ",
+          "slug": "augustin-epistul",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
             {
               "ref": "2, 88",
               "cites": [
@@ -8368,6 +7726,42 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "5",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 3,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "8",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 24,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "23 de Trin. I. 5 c. 1 n° 1 c. 1 Cyr. l. 9",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "49 ad Deo gratias, qu. 3",
               "cites": [
                 {
@@ -8376,6 +7770,18 @@ const SACY_BIBLIO = {
                   "chapitre": 4,
                   "n": 4,
                   "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "49 qu. 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 24,
+                  "n": 41,
+                  "sens": "N"
                 }
               ]
             },
@@ -8392,6 +7798,32 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "57",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 40,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 42,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "59 qu. 9",
               "cites": [
                 {
@@ -8404,6 +7836,61 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "64",
+              "cites": [
+                {
+                  "livre": "tite",
+                  "livreAbr": "Tt",
+                  "chapitre": 3,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "80",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 24,
+                  "n": 15,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 24,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "89 nov. edit. 157 n. 31",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 19,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "89 nov. edit. l. 5 c. 4 n. 20",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 19,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "98",
               "cites": [
                 {
@@ -8411,6 +7898,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 1,
                   "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "99",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 45,
                   "sens": "N"
                 }
               ]
@@ -8436,6 +7935,18 @@ const SACY_BIBLIO = {
                   "chapitre": 3,
                   "n": 22,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "109 Regula salut",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 23,
+                  "n": 11,
+                  "sens": "S"
                 }
               ]
             },
@@ -8548,6 +8059,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "144",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 21,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "180",
               "cites": [
                 {
@@ -8594,220 +8117,7 @@ const SACY_BIBLIO = {
                   "sens": "S"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "Ep.",
-          "slug": "augustin-ep",
-          "refs": [
-            {
-              "ref": "109 Regula salut",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 23,
-                  "n": 11,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "epis.",
-          "slug": "augustin-epis",
-          "refs": [
-            {
-              "ref": "89 nov. edit. 157 n. 31",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 19,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "epist.",
-          "slug": "augustin-epist",
-          "refs": [
-            {
-              "ref": "5",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 3,
-                  "n": 12,
-                  "sens": "N"
-                }
-              ]
             },
-            {
-              "ref": "8",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 24,
-                  "n": 19,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "23 de Trin. I. 5 c. 1 n° 1 c. 1 Cyr. l. 9",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 5,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "49 qu. 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 24,
-                  "n": 41,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "57",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 35,
-                  "sens": "N"
-                },
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 40,
-                  "sens": "N"
-                },
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 42,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "64",
-              "cites": [
-                {
-                  "livre": "tite",
-                  "livreAbr": "Tt",
-                  "chapitre": 3,
-                  "n": 2,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "80",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 24,
-                  "n": 15,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 24,
-                  "n": 29,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "89 nov. edit. l. 5 c. 4 n. 20",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 19,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "99",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 45,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Epist.",
-          "slug": "augustin-epist",
-          "refs": [
-            {
-              "ref": "144",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 21,
-                  "n": 9,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Epist. ad Volusian.",
-          "slug": "augustin-epist-ad-volusian",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "epist. sup. cit.",
-          "slug": "augustin-epist-sup-cit",
-          "refs": [
             {
               "ref": "n. 29",
               "cites": [
@@ -9540,266 +8850,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in fup. Joan.",
-          "slug": "augustin-in-fup-joan",
-          "refs": [
-            {
-              "ref": "3, 17",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 8,
-                  "n": 15,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Gen.",
-          "slug": "augustin-in-gen",
-          "refs": [
-            {
-              "ref": "q. 95",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 32,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "quaest. 144",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 43,
-                  "n": 34,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "quæst. 4",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 19,
-                  "n": 7,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "quæst. 10",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 32,
-                  "n": 6,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "quæst. 45",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 31,
-                  "n": 6,
-                  "sens": "L"
-                }
-              ]
-            },
-            {
-              "ref": "quæst. 60",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 21,
-                  "n": 8,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "quæst. 111",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 35,
-                  "n": 11,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "quæst. 146",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 45,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "quæst. 196",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 33,
-                  "n": 11,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "quæst. lib. 1 quæst. 70",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 26,
-                  "n": 13,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Gen. ad lit.",
-          "slug": "augustin-in-gen-ad-lit",
-          "refs": [
-            {
-              "ref": "l. 8 c. 7",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 2,
-                  "n": 8,
-                  "sens": "L"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Gen. contra Faust.",
-          "slug": "augustin-in-gen-contra-faust",
-          "refs": [
-            {
-              "ref": "lib. 12 cap. 44",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 19,
-                  "n": 21,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Gen. quest.",
-          "slug": "augustin-in-gen-quest",
-          "refs": [
-            {
-              "ref": "11",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 46,
-                  "n": 34,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "119",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 36,
-                  "n": 6,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "145",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 44,
-                  "n": 15,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Gen. quæst.",
-          "slug": "augustin-in-gen-qu-st",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 36,
-                  "n": 6,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in idem.",
-          "slug": "augustin-in-idem",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 2,
-                  "n": 2,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan.",
-          "slug": "augustin-in-joan",
+          "titre": "In Evangelium Ioannis tractatus",
+          "slug": "augustin-in-evangelium-ioannis-tractatus",
           "refs": [
             {
               "ref": "",
@@ -9849,9 +8901,23 @@ const SACY_BIBLIO = {
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 28,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
                   "chapitre": 14,
                   "n": 5,
                   "sens": "N"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "S"
                 },
                 {
                   "livre": "genese",
@@ -9870,179 +8936,17 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "5, 15",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 27,
-                  "n": 18,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "29",
+              "ref": "1",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
-                  "chapitre": 7,
-                  "n": 11,
+                  "chapitre": 1,
+                  "n": 12,
                   "sens": "N"
                 }
               ]
             },
-            {
-              "ref": "Apud. Cyprian. de singul. cleric. p. 496 edit. Rigalt",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 4,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 6 tract. 26",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 26,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 6 tract. 27. & 28",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 26,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 1 c. 23",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 43,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 135",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 9,
-                  "n": 40,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 238",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 5,
-                  "n": 19,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "Tract. 27 P. 46 Cyprian. serm. de cæna Domini",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 6,
-                  "n": 53,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. hom.",
-          "slug": "augustin-in-joan-hom",
-          "refs": [
-            {
-              "ref": "48 p. 100",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 7,
-                  "n": 14,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "119 p. 225",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            },
-            {
-              "ref": "124 p. 235",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. ibid.",
-          "slug": "augustin-in-joan-ibid",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 17,
-                  "n": 14,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. ser. tract.",
-          "slug": "augustin-in-joan-ser-tract",
-          "refs": [
             {
               "ref": "1 c. 9",
               "cites": [
@@ -10051,96 +8955,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 1,
                   "n": 3,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. sup.",
-          "slug": "augustin-in-joan-sup",
-          "refs": [
-            {
-              "ref": "6, 20",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 38,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. tr.",
-          "slug": "augustin-in-joan-tr",
-          "refs": [
-            {
-              "ref": "3 tom. 9 p. 11",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 17,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "12",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 3,
-                  "n": 9,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "48 p. 144",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 10,
-                  "n": 22,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 124",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 17,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. tract.",
-          "slug": "augustin-in-joan-tract",
-          "refs": [
-            {
-              "ref": "1",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 12,
                   "sens": "N"
                 }
               ]
@@ -10182,6 +8996,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "2, 9 p. 4. &c. Chrysost. in Joan. hom. 3 tom. 2 p. 33",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "2 n. 9 p. 9",
               "cites": [
                 {
@@ -10194,6 +9020,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
               "ref": "3 tom. 9 p. 11",
               "cites": [
                 {
@@ -10201,6 +9039,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 1,
                   "n": 16,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 17,
                   "sens": "N"
                 }
               ]
@@ -10213,6 +9058,30 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 1,
                   "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "5, 15",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 27,
+                  "n": 18,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "6, 20",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 38,
                   "sens": "N"
                 }
               ]
@@ -10231,8 +9100,22 @@ const SACY_BIBLIO = {
                   "livre": "jean",
                   "livreAbr": "Jn",
                   "chapitre": 1,
+                  "n": 47,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
                   "n": 50,
                   "sens": "N"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 28,
+                  "n": 12,
+                  "sens": "S"
                 }
               ]
             },
@@ -10257,6 +9140,18 @@ const SACY_BIBLIO = {
             },
             {
               "ref": "8 init",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "9",
               "cites": [
                 {
                   "livre": "jean",
@@ -10304,6 +9199,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "11",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "12",
               "cites": [
                 {
@@ -10311,6 +9218,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 3,
                   "n": 5,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 9,
                   "sens": "N"
                 },
                 {
@@ -10368,6 +9282,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 8,
                   "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "14 p. 51",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 34,
                   "sens": "N"
                 }
               ]
@@ -10433,6 +9359,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "15 p. 59",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "15 p. 90",
               "cites": [
                 {
@@ -10476,6 +9414,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 5,
                   "n": 7,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 14,
                   "sens": "N"
                 }
               ]
@@ -10680,6 +9625,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "29",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "31",
               "cites": [
                 {
@@ -10718,6 +9675,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "36 P. 113",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "38",
               "cites": [
                 {
@@ -10737,6 +9706,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 8,
                   "n": 33,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "42 p. 123",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 28,
                   "sens": "N"
                 }
               ]
@@ -10792,6 +9773,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 9,
                   "n": 14,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 29,
                   "sens": "N"
                 }
               ]
@@ -10869,6 +9857,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "48 p. 100",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "48 p. 144",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "48 p. 145",
               "cites": [
                 {
@@ -10894,6 +9906,18 @@ const SACY_BIBLIO = {
             },
             {
               "ref": "49 P. 147",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "49 p. 147",
               "cites": [
                 {
                   "livre": "jean",
@@ -11001,6 +10025,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "54",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "54. & p. 159",
               "cites": [
                 {
@@ -11013,6 +10049,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "55 p. 161",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "56 p. 161",
               "cites": [
                 {
@@ -11020,6 +10068,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 13,
                   "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "58 p. 154",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 12,
                   "sens": "N"
                 }
               ]
@@ -11093,6 +10153,18 @@ const SACY_BIBLIO = {
                   "chapitre": 14,
                   "n": 1,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "72",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 24,
+                  "sens": "S"
                 }
               ]
             },
@@ -11385,6 +10457,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "113 p. 218",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "114 p. 219",
               "cites": [
                 {
@@ -11417,6 +10501,18 @@ const SACY_BIBLIO = {
                   "chapitre": 19,
                   "n": 4,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "119 p. 225",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             },
@@ -11505,6 +10601,66 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "124 p. 235",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "Apud. Cyprian. de singul. cleric. p. 496 edit. Rigalt",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 6 tract. 26",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 26,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 6 tract. 27. & 28",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 26,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 1 c. 23",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "P. 26",
               "cites": [
                 {
@@ -11541,6 +10697,54 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "p. 124",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 135",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 40,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 151",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 12,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 238",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "tom. 9",
               "cites": [
                 {
@@ -11548,6 +10752,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 1,
                   "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "Tract. 27 P. 46 Cyprian. serm. de cæna Domini",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 53,
                   "sens": "N"
                 }
               ]
@@ -11567,23 +10783,11 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "In Joan. tract.",
-          "slug": "augustin-in-joan-tract",
+          "titre": "in fup. Joan.",
+          "slug": "augustin-in-fup-joan",
           "refs": [
             {
-              "ref": "7",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 47,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "36 P. 113",
+              "ref": "3, 17",
               "cites": [
                 {
                   "livre": "jean",
@@ -11593,129 +10797,129 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            },
-            {
-              "ref": "44 p. 135",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 9,
-                  "n": 29,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "58 p. 154",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 13,
-                  "n": 12,
-                  "sens": "N"
-                }
-              ]
             }
           ]
         },
         {
-          "titre": "in Joan. Tract.",
-          "slug": "augustin-in-joan-tract",
+          "titre": "in Gen.",
+          "slug": "augustin-in-gen",
           "refs": [
             {
-              "ref": "9",
+              "ref": "q. 95",
               "cites": [
                 {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 2,
-                  "n": 6,
-                  "sens": "N"
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 32,
+                  "n": 1,
+                  "sens": "S"
                 }
               ]
             },
             {
-              "ref": "11",
+              "ref": "quaest. 144",
               "cites": [
                 {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 2,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "14 p. 51",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 3,
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 43,
                   "n": 34,
-                  "sens": "N"
+                  "sens": "S"
                 }
               ]
             },
             {
-              "ref": "17",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 5,
-                  "n": 14,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "21",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 5,
-                  "n": 21,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "42 p. 123",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 8,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "49 p. 147",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 11,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "72",
+              "ref": "quæst. 4",
               "cites": [
                 {
                   "livre": "genese",
                   "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 24,
+                  "chapitre": 19,
+                  "n": 7,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "quæst. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 32,
+                  "n": 6,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "quæst. 45",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 31,
+                  "n": 6,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "quæst. 60",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 21,
+                  "n": 8,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "quæst. 111",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 35,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "quæst. 146",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 45,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "quæst. 196",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 33,
+                  "n": 11,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "quæst. lib. 1 quæst. 70",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 26,
+                  "n": 13,
                   "sens": "S"
                 }
               ]
@@ -11723,126 +10927,36 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Joan. trad.",
-          "slug": "augustin-in-joan-trad",
+          "titre": "in Gen. contra Faust.",
+          "slug": "augustin-in-gen-contra-faust",
           "refs": [
             {
-              "ref": "2, 9 p. 4. &c. Chrysost. in Joan. hom. 3 tom. 2 p. 33",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "3",
+              "ref": "lib. 12 cap. 44",
               "cites": [
                 {
                   "livre": "genese",
                   "livreAbr": "Gn",
-                  "chapitre": 6,
-                  "n": 14,
+                  "chapitre": 19,
+                  "n": 21,
                   "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "7",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 28,
-                  "n": 12,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "15 p. 59",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 4,
-                  "n": 13,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "54",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "55 p. 161",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 13,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "113 p. 218",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 18,
-                  "n": 12,
-                  "sens": "N"
                 }
               ]
             }
           ]
         },
         {
-          "titre": "in Joan. ut supr.",
-          "slug": "augustin-in-joan-ut-supr",
+          "titre": "in idem.",
+          "slug": "augustin-in-idem",
           "refs": [
             {
               "ref": "",
               "cites": [
                 {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 11,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. ut supra",
-          "slug": "augustin-in-joan-ut-supra",
-          "refs": [
-            {
-              "ref": "p. 151",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 12,
-                  "n": 6,
-                  "sens": "N"
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 2,
+                  "n": 2,
+                  "sens": "S"
                 }
               ]
             }
@@ -11969,481 +11083,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Ps.",
-          "slug": "augustin-in-ps",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 19,
-                  "n": 26,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "2, 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 51,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "14 de Sanctis",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 49,
-                  "n": 27,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "34",
-              "cites": [
-                {
-                  "livre": "corinthiens2",
-                  "livreAbr": "2 Co",
-                  "chapitre": 10,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "36",
-              "cites": [
-                {
-                  "livre": "tite",
-                  "livreAbr": "Tt",
-                  "chapitre": 1,
-                  "n": 16,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "41",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 2,
-                  "n": 23,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "42",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 1,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "50",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 5,
-                  "n": 5,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "55",
-              "cites": [
-                {
-                  "livre": "timothee2",
-                  "livreAbr": "2 Tm",
-                  "chapitre": 3,
-                  "n": 12,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "58 serm. 1 n. 8",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 9,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "63 v. 2",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 2,
-                  "n": 33,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "64",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 1,
-                  "n": 20,
-                  "sens": "S"
-                },
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 11,
-                  "n": 31,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "68, 39",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 10,
-                  "n": 19,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "68 n. 5",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 40,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "70",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "70 bibl",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "103",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            },
-            {
-              "ref": "125 p. 603",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 7,
-                  "n": 39,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "125 qu. 603 in Psal. 140",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 7,
-                  "n": 36,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "127",
-              "cites": [
-                {
-                  "livre": "timothee2",
-                  "livreAbr": "2 Tm",
-                  "chapitre": 3,
-                  "n": 12,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "130, 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 10,
-                  "n": 17,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "147",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 24,
-                  "n": 41,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "148 v. 16",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 1,
-                  "n": 20,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "In Ps. 83",
-              "cites": [
-                {
-                  "livre": "timothee2",
-                  "livreAbr": "2 Tm",
-                  "chapitre": 3,
-                  "n": 12,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Psal.",
-          "slug": "augustin-in-psal",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 14,
-                  "n": 21,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "14 v. 3",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 18,
-                  "n": 20,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "17",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 21,
-                  "n": 3,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "29",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 5,
-                  "n": 5,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "31 to. 8 p. 79",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 18,
-                  "n": 13,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "33 init",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 17,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "50",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 5,
-                  "n": 5,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "57, 3",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 36,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "58 Idem. in Joan. tract. 27 n. 95, 96",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 6,
-                  "n": 46,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "75",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 17,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "79",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 7,
-                  "n": 11,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "104",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 2,
-                  "n": 33,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "142, 6",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 9,
-                  "n": 16,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "146 to. 3 p. 9 c. 8",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 18,
-                  "n": 9,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "in quaest. in Gen.",
           "slug": "augustin-in-quaest-in-gen",
           "refs": [
@@ -12509,42 +11148,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 6,
                   "n": 65,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in serm. Dom. in mont.",
-          "slug": "augustin-in-serm-dom-in-mont",
-          "refs": [
-            {
-              "ref": "l. 1 c. 8. & 9",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 19,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Serm. Dom. in monte,",
-          "slug": "augustin-in-serm-dom-in-monte",
-          "refs": [
-            {
-              "ref": "l. 1 c. 10",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 7,
-                  "n": 24,
                   "sens": "N"
                 }
               ]
@@ -13256,42 +11859,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Quaest. Evang.",
-          "slug": "augustin-quaest-evang",
-          "refs": [
-            {
-              "ref": "l. 1 q. 5",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 22,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "quaest. Evangel.",
-          "slug": "augustin-quaest-evangel",
-          "refs": [
-            {
-              "ref": "1, 1, 9, 18",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 20,
-                  "n": 29,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "quaest. in Genes.",
           "slug": "augustin-quaest-in-genes",
           "refs": [
@@ -13310,105 +11877,45 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "quest.",
-          "slug": "augustin-quest",
+          "titre": "Quaestiones Evangeliorum",
+          "slug": "augustin-quaestiones-evangeliorum",
           "refs": [
             {
-              "ref": "4 in Gen",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 19,
-                  "n": 21,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "quest. in Gen.",
-          "slug": "augustin-quest-in-gen",
-          "refs": [
-            {
-              "ref": "lib. 94 q. 72",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 25,
-                  "n": 22,
-                  "sens": "L"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "question. Evang.",
-          "slug": "augustin-question-evang",
-          "refs": [
-            {
-              "ref": "lib. 10 qu. 30",
+              "ref": "1, 1, 9, 18",
               "cites": [
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
-                  "chapitre": 21,
-                  "n": 42,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "quæst. Evang.",
-          "slug": "augustin-qu-st-evang",
-          "refs": [
-            {
-              "ref": "l. 2 c. 14",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 10,
-                  "n": 1,
+                  "chapitre": 20,
+                  "n": 29,
                   "sens": "N"
                 }
               ]
             },
             {
-              "ref": "l. 2 q. 23",
+              "ref": "l. 1 q. 5",
               "cites": [
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 11,
-                  "n": 52,
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 12,
+                  "n": 22,
                   "sens": "N"
                 }
               ]
             },
             {
-              "ref": "l. 2 q. 37",
+              "ref": "l. 1 q. 9, 9",
               "cites": [
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 16,
-                  "n": 14,
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 23,
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "quæst. Evangel.",
-          "slug": "augustin-qu-st-evangel",
-          "refs": [
+            },
             {
               "ref": "l. 2, 30",
               "cites": [
@@ -13441,6 +11948,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 10,
                   "n": 36,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 q. 23",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 11,
+                  "n": 52,
                   "sens": "N"
                 }
               ]
@@ -13479,6 +11998,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 16,
                   "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 q. 37",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 16,
+                  "n": 14,
                   "sens": "N"
                 }
               ]
@@ -13534,17 +12065,101 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "quæst. in Evang.",
-          "slug": "augustin-qu-st-in-evang",
+          "titre": "Quaestiones in Heptateuchum",
+          "slug": "augustin-quaestiones-in-heptateuchum",
           "refs": [
             {
-              "ref": "l. 1 q. 9, 9",
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 36,
+                  "n": 6,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "11",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 46,
+                  "n": 34,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "119",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 36,
+                  "n": 6,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "145",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 44,
+                  "n": 15,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 94 q. 72",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 25,
+                  "n": 22,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "quest.",
+          "slug": "augustin-quest",
+          "refs": [
+            {
+              "ref": "4 in Gen",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "question. Evang.",
+          "slug": "augustin-question-evang",
+          "refs": [
+            {
+              "ref": "lib. 10 qu. 30",
               "cites": [
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 23,
+                  "chapitre": 21,
+                  "n": 42,
                   "sens": "N"
                 }
               ]
@@ -13600,8 +12215,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Retract.",
-          "slug": "augustin-retract",
+          "titre": "Retractationes",
+          "slug": "augustin-retractationes",
           "refs": [
             {
               "ref": "l. 2 c. 7",
@@ -13672,9 +12287,105 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "ser.",
-          "slug": "augustin-ser",
+          "titre": "Sermones",
+          "slug": "augustin-sermones",
           "refs": [
+            {
+              "ref": "5",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 3,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "10 c. 2",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 24,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "16 de verb. Dom",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "18",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 38,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "18 de verb. Domini. c. 10",
+              "cites": [
+                {
+                  "livre": "corinthiens2",
+                  "livreAbr": "2 Co",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "24 de verb. Apost",
+              "cites": [
+                {
+                  "livre": "timothee2",
+                  "livreAbr": "2 Tm",
+                  "chapitre": 3,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "27 de verb. Dom",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 19,
+                  "n": 13,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "40 de divers. &c. 14 de verb. Apost",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
             {
               "ref": "44 de diversis in monæ 1, 2 c. 15",
               "cites": [
@@ -13683,6 +12394,126 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 6,
                   "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "61",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 23,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "71",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "82",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 40,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "108",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 12,
+                  "n": 49,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "138",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 28,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "140",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 24,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "140 c. 2",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 24,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "142",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 24,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "155 cap. 3",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 5,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "237 nov. édit",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 20,
+                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -13698,13 +12529,31 @@ const SACY_BIBLIO = {
                   "sens": "P"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "ser. Dom. in mont.",
-          "slug": "augustin-ser-dom-in-mont",
-          "refs": [
+            },
+            {
+              "ref": "c. 3. &c",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 11,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 4",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "cap. 6",
               "cites": [
@@ -13713,6 +12562,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 6,
                   "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "Ch. 7, 68 in Luc",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 3,
+                  "n": 13,
                   "sens": "N"
                 }
               ]
@@ -13730,6 +12591,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 1 c. 9",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 20,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 1 c. 19 n. 58",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 38,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "l. 1 cap. 10",
               "cites": [
                 {
@@ -13737,6 +12622,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 5,
                   "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 7",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 7,
+                  "n": 7,
                   "sens": "N"
                 }
               ]
@@ -13762,23 +12659,12 @@ const SACY_BIBLIO = {
                   "chapitre": 7,
                   "n": 14,
                   "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Ser. Dom. in mont.",
-          "slug": "augustin-ser-dom-in-mont",
-          "refs": [
-            {
-              "ref": "l. 1 c. 19 n. 58",
-              "cites": [
+                },
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 38,
+                  "chapitre": 7,
+                  "n": 21,
                   "sens": "N"
                 }
               ]
@@ -13822,149 +12708,381 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "serm.",
-          "slug": "augustin-serm",
+          "titre": "Sermones de verbis Domini",
+          "slug": "augustin-sermones-de-verbis-domini",
           "refs": [
             {
-              "ref": "5",
+              "ref": "",
               "cites": [
                 {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 3,
-                  "n": 11,
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 18,
+                  "n": 9,
                   "sens": "N"
                 }
               ]
             },
             {
-              "ref": "16 de verb. Dom",
+              "ref": "1 c. 3",
               "cites": [
                 {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
+                  "livre": "marc",
+                  "livreAbr": "Mc",
                   "chapitre": 5,
-                  "n": 1,
-                  "sens": "S"
+                  "n": 30,
+                  "sens": "N"
                 }
               ]
             },
             {
-              "ref": "18 de verb. Domini. c. 10",
-              "cites": [
-                {
-                  "livre": "corinthiens2",
-                  "livreAbr": "2 Co",
-                  "chapitre": 6,
-                  "n": 14,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "24 de verb. Apost",
-              "cites": [
-                {
-                  "livre": "timothee2",
-                  "livreAbr": "2 Tm",
-                  "chapitre": 3,
-                  "n": 12,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "40 de divers. &c. 14 de verb. Apost",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 5,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "Ch. 7, 68 in Luc",
+              "ref": "6 c. 2",
               "cites": [
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
-                  "chapitre": 3,
-                  "n": 13,
+                  "chapitre": 8,
+                  "n": 5,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 6,
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "Serm.",
-          "slug": "augustin-serm",
-          "refs": [
+            },
             {
-              "ref": "27 de verb. Dom",
+              "ref": "6 cap. 2",
               "cites": [
                 {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "8",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 11,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "8. & 9",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 11,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "8 c. 3",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
                   "chapitre": 19,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "8 c. 4",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 19,
+                  "n": 8,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "8 c. 4, 5",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 19,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "17, 3",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 10,
+                  "n": 41,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "20",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 11,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "26 c. 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 10,
+                  "n": 41,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "29 c. 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 11,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "29 c. 3",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 11,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "30 c. 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 11,
+                  "n": 37,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "36 c. 2",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 18,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "36 cap. 2",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 18,
                   "n": 13,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "serm. Dom. in mont.",
-          "slug": "augustin-serm-dom-in-mont",
-          "refs": [
-            {
-              "ref": "l. 1 c. 9",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 20,
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "Serm. Dom. in mont.",
-          "slug": "augustin-serm-dom-in-mont",
-          "refs": [
+            },
             {
-              "ref": "l. 2 c. 7",
+              "ref": "36 p. 3",
               "cites": [
                 {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 7,
-                  "n": 7,
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 18,
+                  "n": 13,
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "serm. Dom. in monte,",
-          "slug": "augustin-serm-dom-in-monte",
-          "refs": [
+            },
             {
-              "ref": "l. 2 c. 25",
+              "ref": "37",
               "cites": [
                 {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 7,
-                  "n": 21,
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 10,
+                  "n": 36,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "39 c. 2",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 12,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 11,
+                  "n": 5,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 11,
+                  "n": 41,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 3",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 11,
+                  "n": 5,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 11,
+                  "n": 41,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 4",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 11,
+                  "n": 41,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 19,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 5",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 19,
+                  "n": 8,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 8",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 10,
+                  "n": 41,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "Dom. ser. 36 c. 1 t. 10 p. 52",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 18,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "ser. 26 c. 2",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 10,
+                  "n": 41,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "ser. 27 c. 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 10,
+                  "n": 41,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "ser. 27 c. 2",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 10,
+                  "n": 41,
                   "sens": "N"
                 }
               ]
@@ -15953,8 +15071,8 @@ const SACY_BIBLIO = {
       "dates": "v. 329–379",
       "oeuvres": [
         {
-          "titre": "contr. Eunom.",
-          "slug": "basile-contr-eunom",
+          "titre": "Contra Eunomium",
+          "slug": "basile-contra-eunomium",
           "refs": [
             {
               "ref": "lib. 1 in fine",
@@ -15971,17 +15089,17 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Haim.",
-          "slug": "basile-de-haim",
+          "titre": "Homilia in Gordium martyrem",
+          "slug": "basile-homilia-in-gordium-martyrem",
           "refs": [
             {
-              "ref": "",
+              "ref": "tom. 1, 451",
               "cites": [
                 {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 1,
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 15,
+                  "n": 39,
                   "sens": "N"
                 }
               ]
@@ -15989,8 +15107,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "homil. de avaritia, in aliud destruam horrea, &c.",
-          "slug": "basile-homil-de-avaritia-in-aliud-destruam-horrea-c",
+          "titre": "Homilia in illud : Destruam horrea mea",
+          "slug": "basile-homilia-in-illud-destruam-horrea-mea",
           "refs": [
             {
               "ref": "t. 1 p. 329. &c",
@@ -16007,8 +15125,26 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "homil. in Hexam.",
-          "slug": "basile-homil-in-hexam",
+          "titre": "Homilia in sanctam Christi generationem",
+          "slug": "basile-homilia-in-sanctam-christi-generationem",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Homiliae in Hexaemeron",
+          "slug": "basile-homiliae-in-hexaemeron",
           "refs": [
             {
               "ref": "",
@@ -16043,24 +15179,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Gordium Martyr.",
-          "slug": "basile-in-gordium-martyr",
-          "refs": [
-            {
-              "ref": "tom. 1, 451",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 15,
-                  "n": 39,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "in Isaï.",
           "slug": "basile-in-isai",
           "refs": [
@@ -16079,8 +15197,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in moral. r.",
-          "slug": "basile-in-moral-r",
+          "titre": "Moralia",
+          "slug": "basile-moralia",
           "refs": [
             {
               "ref": "43",
@@ -16097,8 +15215,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Regul. brevior. interrog.",
-          "slug": "basile-regul-brevior-interrog",
+          "titre": "Regulae brevius tractatae",
+          "slug": "basile-regulae-brevius-tractatae",
           "refs": [
             {
               "ref": "267 t. 2",
@@ -16115,8 +15233,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Regul. fus. disp. interr.",
-          "slug": "basile-regul-fus-disp-interr",
+          "titre": "Regulae fusius tractatae",
+          "slug": "basile-regulae-fusius-tractatae",
           "refs": [
             {
               "ref": "55",
@@ -16188,8 +15306,8 @@ const SACY_BIBLIO = {
       "dates": "v. 673–735",
       "oeuvres": [
         {
-          "titre": "in Luc.",
-          "slug": "bede-in-luc",
+          "titre": "In Lucae Evangelium expositio",
+          "slug": "bede-in-lucae-evangelium-expositio",
           "refs": [
             {
               "ref": "1, 4, 49",
@@ -16206,8 +15324,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Marc.",
-          "slug": "bede-in-marc",
+          "titre": "In Marci Evangelium expositio",
+          "slug": "bede-in-marci-evangelium-expositio",
           "refs": [
             {
               "ref": "12",
@@ -16478,38 +15596,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de beat. serm.",
-          "slug": "bernard-de-beat-serm",
-          "refs": [
-            {
-              "ref": "2 Timoth. 3, 12",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 10,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "15",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 10,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de consid.",
-          "slug": "bernard-de-consid",
+          "titre": "De consideratione",
+          "slug": "bernard-de-consideratione",
           "refs": [
             {
               "ref": "l. 1 c. 12",
@@ -16556,8 +15644,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de dilig. Deo.",
-          "slug": "bernard-de-dilig-deo",
+          "titre": "De diligendo Deo",
+          "slug": "bernard-de-diligendo-deo",
           "refs": [
             {
               "ref": "c. 9",
@@ -16592,108 +15680,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de divers.",
-          "slug": "bernard-de-divers",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 22,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de divers. ser.",
-          "slug": "bernard-de-divers-ser",
-          "refs": [
-            {
-              "ref": "41 num. 3",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 22,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de divers. serm.",
-          "slug": "bernard-de-divers-serm",
-          "refs": [
-            {
-              "ref": "4 num. 9",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 22,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "12 quam. 3",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 5,
-                  "n": 5,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "41, 2 Sam. 10",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 22,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "41 num. 2",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 22,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "41 num. 4",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 22,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "de Epiph. serm.",
           "slug": "bernard-de-epiph-serm",
           "refs": [
@@ -16712,8 +15698,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de laud. Virg. hom.",
-          "slug": "bernard-de-laud-virg-hom",
+          "titre": "De laude novae militiae",
+          "slug": "bernard-de-laude-novae-militiae",
           "refs": [
             {
               "ref": "2a",
@@ -16724,31 +15710,6 @@ const SACY_BIBLIO = {
                   "chapitre": 5,
                   "n": 5,
                   "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Virg. Deipar. serm.",
-          "slug": "bernard-de-virg-deipar-serm",
-          "refs": [
-            {
-              "ref": "1 num. 9",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 2,
-                  "n": 1,
-                  "sens": "N"
-                },
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 2,
-                  "n": 6,
-                  "sens": "N"
                 }
               ]
             }
@@ -16791,8 +15752,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "ep.",
-          "slug": "bernard-ep",
+          "titre": "Epistulae",
+          "slug": "bernard-epistulae",
           "refs": [
             {
               "ref": "2 ad Carthag. & tract. de dilig. Deo c. 8",
@@ -16817,13 +15778,7 @@ const SACY_BIBLIO = {
                   "sens": "S"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "Epist.",
-          "slug": "bernard-epist",
-          "refs": [
+            },
             {
               "ref": "237 ad Eugen. num. 2",
               "cites": [
@@ -16833,6 +15788,127 @@ const SACY_BIBLIO = {
                   "chapitre": 17,
                   "n": 15,
                   "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Homiliae super « Missus est »",
+          "slug": "bernard-homiliae-super-missus-est",
+          "refs": [
+            {
+              "ref": "2 num. 3",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "3 n. 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "3 num. 13",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4 n. 9",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 38,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4 num. 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4 num. 3",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4 num. 6",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 36,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "n. 11",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 38,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "num. 2",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 28,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 32,
+                  "sens": "N"
                 }
               ]
             }
@@ -16965,138 +16041,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Cant. ser.",
-          "slug": "bernard-in-cant-ser",
-          "refs": [
-            {
-              "ref": "2",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 28,
-                  "n": 16,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "24 num. 8",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 18,
-                  "n": 20,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Cant. serm.",
-          "slug": "bernard-in-cant-serm",
-          "refs": [
-            {
-              "ref": "24",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 18,
-                  "n": 20,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Cantico ferm.",
-          "slug": "bernard-in-cantico-ferm",
-          "refs": [
-            {
-              "ref": "5 quæ. 5",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 1,
-                  "n": 26,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Epiph. Domini serm.",
-          "slug": "bernard-in-epiph-domini-serm",
-          "refs": [
-            {
-              "ref": "1",
-              "cites": [
-                {
-                  "livre": "tite",
-                  "livreAbr": "Tt",
-                  "chapitre": 3,
-                  "n": 4,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Epiph. serm.",
-          "slug": "bernard-in-epiph-serm",
-          "refs": [
-            {
-              "ref": "3",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 2,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "3 num. 5",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 11,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Epiphan. serm.",
-          "slug": "bernard-in-epiphan-serm",
-          "refs": [
-            {
-              "ref": "1 n. 6",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 11,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "in feb. omn. SS. serm.",
           "slug": "bernard-in-feb-omn-ss-serm",
           "refs": [
@@ -17169,87 +16113,222 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Natal.",
-          "slug": "bernard-natal",
+          "titre": "Sermones de diversis",
+          "slug": "bernard-sermones-de-diversis",
           "refs": [
             {
               "ref": "",
               "cites": [
                 {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 17,
-                  "n": 23,
-                  "sens": "N"
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
                 }
               ]
             },
             {
-              "ref": "Dom. fer. 1 a. 1",
+              "ref": "4 num. 9",
               "cites": [
                 {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 17,
-                  "n": 23,
-                  "sens": "N"
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "12 quam. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "41, 2 Sam. 10",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "41 num. 2",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "41 num. 3",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "41 num. 4",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "S"
                 }
               ]
             }
           ]
         },
         {
-          "titre": "ser. in Rogat.",
-          "slug": "bernard-ser-in-rogat",
+          "titre": "Sermones in Cantica canticorum",
+          "slug": "bernard-sermones-in-cantica-canticorum",
           "refs": [
             {
-              "ref": "",
+              "ref": "2",
               "cites": [
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 11,
-                  "n": 5,
-                  "sens": "N"
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 28,
+                  "n": 16,
+                  "sens": "S"
                 }
               ]
             },
             {
-              "ref": "num. 1",
+              "ref": "5 quæ. 5",
               "cites": [
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 11,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "ser. nativit. S. Joan. Bapt. nu.",
-          "slug": "bernard-ser-nativit-s-joan-bapt-nu",
-          "refs": [
-            {
-              "ref": "4, 5 v. 15",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
+                  "livre": "genese",
+                  "livreAbr": "Gn",
                   "chapitre": 1,
-                  "n": 40,
-                  "sens": "N"
+                  "n": 26,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "24",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 20,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "24 num. 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 18,
+                  "n": 20,
+                  "sens": "S"
                 }
               ]
             }
           ]
         },
         {
-          "titre": "serm.",
-          "slug": "bernard-serm",
+          "titre": "Sermones per annum",
+          "slug": "bernard-sermones-per-annum",
           "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 1,
+                  "n": 18,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 17,
+                  "n": 23,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 11,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "1",
+              "cites": [
+                {
+                  "livre": "tite",
+                  "livreAbr": "Tt",
+                  "chapitre": 3,
+                  "n": 4,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "1 n. 6",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "1 num. 9",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 2,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 2,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "2 de refut. Domini",
               "cites": [
@@ -17273,165 +16352,87 @@ const SACY_BIBLIO = {
                   "sens": "S"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "serm. de Nat. Missus est.",
-          "slug": "bernard-serm-de-nat-missus-est",
-          "refs": [
+            },
             {
-              "ref": "",
+              "ref": "2 Timoth. 3, 12",
               "cites": [
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
-                  "chapitre": 1,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "sup. Missus est hom.",
-          "slug": "bernard-sup-missus-est-hom",
-          "refs": [
-            {
-              "ref": "4 num. 3",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 34,
+                  "chapitre": 5,
+                  "n": 10,
                   "sens": "N"
                 }
               ]
             },
             {
-              "ref": "4 num. 6",
+              "ref": "3",
               "cites": [
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 36,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "sup. Missus est homil.",
-          "slug": "bernard-sup-missus-est-homil",
-          "refs": [
-            {
-              "ref": "2 num. 3",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 35,
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 2,
                   "sens": "N"
                 }
               ]
             },
             {
-              "ref": "3 num. 13",
+              "ref": "3 num. 5",
               "cites": [
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 32,
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 11,
                   "sens": "N"
                 }
               ]
             },
             {
-              "ref": "4 num. 1",
+              "ref": "4, 5 v. 15",
               "cites": [
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
                   "chapitre": 1,
-                  "n": 32,
+                  "n": 40,
                   "sens": "N"
                 }
               ]
             },
             {
-              "ref": "num. 2",
+              "ref": "15",
               "cites": [
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "sup. Missus est. hom.",
-          "slug": "bernard-sup-missus-est-hom",
-          "refs": [
-            {
-              "ref": "3 n. 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 28,
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 10,
                   "sens": "N"
                 }
               ]
             },
             {
-              "ref": "num. 2",
+              "ref": "Dom. fer. 1 a. 1",
               "cites": [
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "sup. Missus. hom.",
-          "slug": "bernard-sup-missus-hom",
-          "refs": [
-            {
-              "ref": "4 n. 9",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 38,
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 17,
+                  "n": 23,
                   "sens": "N"
                 }
               ]
             },
             {
-              "ref": "n. 11",
+              "ref": "num. 1",
               "cites": [
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 38,
+                  "chapitre": 11,
+                  "n": 5,
                   "sens": "N"
                 }
               ]
@@ -17971,31 +16972,6 @@ const SACY_BIBLIO = {
       ]
     },
     {
-      "cle": "chryf",
-      "nom": "Chryf",
-      "dates": "",
-      "oeuvres": [
-        {
-          "titre": "in Matth. hom.",
-          "slug": "chryf-in-matth-hom",
-          "refs": [
-            {
-              "ref": "90",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 28,
-                  "n": 11,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "cle": "chrysoft",
       "nom": "Chrysoft",
       "dates": "",
@@ -18228,8 +17204,8 @@ const SACY_BIBLIO = {
       "dates": "",
       "oeuvres": [
         {
-          "titre": "Carthag.",
-          "slug": "conciles-carthag",
+          "titre": "Concilium Carthaginense",
+          "slug": "conciles-concilium-carthaginense",
           "refs": [
             {
               "ref": "3. & 4. &c",
@@ -18246,9 +17222,21 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Later.",
-          "slug": "conciles-later",
+          "titre": "Concilium Lateranense",
+          "slug": "conciles-concilium-lateranense",
           "refs": [
+            {
+              "ref": "1215 cap. 1",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "L"
+                }
+              ]
+            },
             {
               "ref": "c. 1",
               "cites": [
@@ -18264,26 +17252,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Later. sub Innocent. III. ann.",
-          "slug": "conciles-later-sub-innocent-iii-ann",
-          "refs": [
-            {
-              "ref": "1215 cap. 1",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 1,
-                  "n": 1,
-                  "sens": "L"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Milevit. can.",
-          "slug": "conciles-milevit-can",
+          "titre": "Concilium Milevitanum",
+          "slug": "conciles-concilium-milevitanum",
           "refs": [
             {
               "ref": "17",
@@ -18300,8 +17270,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Nemaus. can.",
-          "slug": "conciles-nemaus-can",
+          "titre": "Concilium Nemausense",
+          "slug": "conciles-concilium-nemausense",
           "refs": [
             {
               "ref": "9 an. 1096",
@@ -18318,8 +17288,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Nic.",
-          "slug": "conciles-nic",
+          "titre": "Concilium Nicaenum",
+          "slug": "conciles-concilium-nicaenum",
           "refs": [
             {
               "ref": "",
@@ -18336,8 +17306,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Sardic.",
-          "slug": "conciles-sardic",
+          "titre": "Concilium Sardicense",
+          "slug": "conciles-concilium-sardicense",
           "refs": [
             {
               "ref": "",
@@ -18354,9 +17324,33 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Trident. Sess.",
-          "slug": "conciles-trident-sess",
+          "titre": "Concilium Tridentinum",
+          "slug": "conciles-concilium-tridentinum",
           "refs": [
+            {
+              "ref": "14 cap. 2",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 6,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "22 c. 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 22,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "22 can. 2",
               "cites": [
@@ -18377,42 +17371,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 19,
                   "n": 7,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Trident. sess.",
-          "slug": "conciles-trident-sess",
-          "refs": [
-            {
-              "ref": "14 cap. 2",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 6,
-                  "n": 12,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Trident. Session.",
-          "slug": "conciles-trident-session",
-          "refs": [
-            {
-              "ref": "22 c. 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 22,
-                  "n": 19,
                   "sens": "N"
                 }
               ]
@@ -19389,54 +18347,6 @@ const SACY_BIBLIO = {
       "dates": "v. 376–444",
       "oeuvres": [
         {
-          "titre": "Alex. in Joan.",
-          "slug": "cyrille-alex-in-joan",
-          "refs": [
-            {
-              "ref": "10 c. 13",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 26,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Alexand. in Joan.",
-          "slug": "cyrille-alexand-in-joan",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 19,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 10 tom. 4 p. 109",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 19,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "cateches.",
           "slug": "cyrille-cateches",
           "refs": [
@@ -19455,344 +18365,19 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de hyp.",
-          "slug": "cyrille-de-hyp",
-          "refs": [
-            {
-              "ref": "p. 980, 981",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 17,
-                  "n": 14,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de leur déclarer hautement, Qu'il est lui-même ce bon Pasteur.",
-          "slug": "cyrille-de-leur-declarer-hautement-qu-il-est-lui-meme-ce-bon-pasteur",
+          "titre": "Commentarii in Ioannis Evangelium",
+          "slug": "cyrille-commentarii-in-ioannis-evangelium",
           "refs": [
             {
               "ref": "",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 10,
-                  "n": 14,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "et supr.",
-          "slug": "cyrille-et-supr",
-          "refs": [
-            {
-              "ref": "P. 1054",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 19,
-                  "n": 15,
-                  "sens": "N"
-                },
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 19,
-                  "n": 16,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "ib.",
-          "slug": "cyrille-ib",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 17,
-                  "n": 17,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "726, 727",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 13,
-                  "n": 12,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 481",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 7,
-                  "n": 50,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 874, 875",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 15,
-                  "n": 3,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "pag. 59",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
                   "chapitre": 1,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "pag. 877, 878",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 15,
-                  "n": 7,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "ib. ut supr.",
-          "slug": "cyrille-ib-ut-supr",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 3,
                   "n": 19,
                   "sens": "N"
                 },
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 3,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "ibid.",
-          "slug": "cyrille-ibid",
-          "refs": [
-            {
-              "ref": "p. 118",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 9,
-                  "n": 24,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 633. &c. Isaï. 61",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 9,
-                  "n": 39,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 638",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 10,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 668",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 10,
-                  "n": 31,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 676",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 11,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 971",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 17,
-                  "n": 11,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "pag. 421",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 7,
-                  "n": 25,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "pag. 904, 905",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 15,
-                  "n": 20,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "ibid. ut supra.",
-          "slug": "cyrille-ibid-ut-supra",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 15,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in",
-          "slug": "cyrille-in",
-          "refs": [
-            {
-              "ref": "1 cap. P. 1020",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 18,
-                  "n": 4,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 8 Joan. p. 271",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 3,
-                  "n": 34,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in fup.",
-          "slug": "cyrille-in-fup",
-          "refs": [
-            {
-              "ref": "P. 499",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 8,
-                  "n": 15,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan.",
-          "slug": "cyrille-in-joan",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
@@ -19805,6 +18390,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 18,
                   "n": 4,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "1 Pet. 5, 5",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 19,
                   "sens": "N"
                 }
               ]
@@ -19829,6 +18426,30 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 4,
                   "n": 7,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4 p. 148",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4 p. 155, 158",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 19,
                   "sens": "N"
                 }
               ]
@@ -19894,6 +18515,42 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "8 p. 578",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 54,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "9, 61",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 9,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "10 c. 13",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 26,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "11 supr. pag. 376, 377",
               "cites": [
                 {
@@ -19901,6 +18558,54 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 6,
                   "n": 46,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "49 p. 315",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "49 p. 447",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "59 p. 658",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "87 p. 568",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 15,
                   "sens": "N"
                 }
               ]
@@ -19966,6 +18671,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "cap. 10 p. 936",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "cap. 10 tom. 4 p. 105, 106, 107",
               "cites": [
                 {
@@ -19973,6 +18690,30 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 1,
                   "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 10 tom. 4 p. 109",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 11 p. 998, 999",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 20,
                   "sens": "N"
                 }
               ]
@@ -20506,8 +19247,27 @@ const SACY_BIBLIO = {
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
                   "chapitre": 15,
                   "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 89",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 11,
                   "sens": "N"
                 }
               ]
@@ -20520,6 +19280,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 21,
                   "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 136",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 6,
                   "sens": "N"
                 }
               ]
@@ -20621,6 +19393,42 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "p. 250",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 310",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 345",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 45,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "p. 375",
               "cites": [
                 {
@@ -20628,6 +19436,30 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 6,
                   "n": 60,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 378",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 65,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 410",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 14,
                   "sens": "N"
                 }
               ]
@@ -20736,6 +19568,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 10,
                   "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 671",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 37,
                   "sens": "N"
                 }
               ]
@@ -20897,6 +19741,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "p. 807",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 814",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 14,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "p. 838",
               "cites": [
                 {
@@ -20916,6 +19784,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 15,
                   "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 892, 893",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 16,
                   "sens": "N"
                 }
               ]
@@ -20969,6 +19849,42 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "p. 937, 938",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 944, 945",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 33,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 951",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "p. 982",
               "cites": [
                 {
@@ -20981,6 +19897,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "p. 1003. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "P. 1015",
               "cites": [
                 {
@@ -20988,6 +19916,30 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 18,
                   "n": 4,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1041",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 18,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1060",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 19,
+                  "n": 16,
                   "sens": "N"
                 }
               ]
@@ -21024,6 +19976,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 21,
                   "n": 7,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 1423",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 25,
                   "sens": "N"
                 }
               ]
@@ -21115,184 +20079,16 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Joan. * suprà",
-          "slug": "cyrille-in-joan-supra",
+          "titre": "de hyp.",
+          "slug": "cyrille-de-hyp",
           "refs": [
             {
-              "ref": "p. 1423",
+              "ref": "p. 980, 981",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
-                  "chapitre": 21,
-                  "n": 25,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. apud",
-          "slug": "cyrille-in-joan-apud",
-          "refs": [
-            {
-              "ref": "p. 250",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 3,
-                  "n": 9,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. au suprà",
-          "slug": "cyrille-in-joan-au-supra",
-          "refs": [
-            {
-              "ref": "P. 310",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 6,
-                  "n": 30,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. et supr.",
-          "slug": "cyrille-in-joan-et-supr",
-          "refs": [
-            {
-              "ref": "p. 136",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 2,
-                  "n": 6,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. f.",
-          "slug": "cyrille-in-joan-f",
-          "refs": [
-            {
-              "ref": "4 p. 148",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 3,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. hom.",
-          "slug": "cyrille-in-joan-hom",
-          "refs": [
-            {
-              "ref": "1 Pet. 5, 5",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 3,
-                  "n": 19,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "4 p. 155, 158",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 3,
-                  "n": 19,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "49 p. 315",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 7,
-                  "n": 25,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "49 p. 447",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 7,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "59 p. 658",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 10,
-                  "n": 17,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "87 p. 568",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 21,
-                  "n": 15,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. in Joan. præf.",
-          "slug": "cyrille-in-joan-in-joan-pr-f",
-          "refs": [
-            {
-              "ref": "p. 410",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 7,
+                  "chapitre": 17,
                   "n": 14,
                   "sens": "N"
                 }
@@ -21301,17 +20097,17 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Joan. in Sapr.",
-          "slug": "cyrille-in-joan-in-sapr",
+          "titre": "de leur déclarer hautement, Qu'il est lui-même ce bon Pasteur.",
+          "slug": "cyrille-de-leur-declarer-hautement-qu-il-est-lui-meme-ce-bon-pasteur",
           "refs": [
             {
-              "ref": "cap. 10 p. 936",
+              "ref": "",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
-                  "chapitre": 17,
-                  "n": 17,
+                  "chapitre": 10,
+                  "n": 14,
                   "sens": "N"
                 }
               ]
@@ -21319,24 +20115,19 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Joan. in supr.",
-          "slug": "cyrille-in-joan-in-supr",
+          "titre": "et supr.",
+          "slug": "cyrille-et-supr",
           "refs": [
             {
-              "ref": "p. 345",
+              "ref": "P. 1054",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
-                  "chapitre": 6,
-                  "n": 45,
+                  "chapitre": 19,
+                  "n": 15,
                   "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 1060",
-              "cites": [
+                },
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
@@ -21349,161 +20140,222 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Joan. sup.",
-          "slug": "cyrille-in-joan-sup",
+          "titre": "ib.",
+          "slug": "cyrille-ib",
           "refs": [
             {
-              "ref": "9, 61",
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "726, 727",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 481",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 50,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 874, 875",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 59",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "pag. 877, 878",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 15,
+                  "n": 7,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ib. ut supr.",
+          "slug": "cyrille-ib-ut-supr",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 19,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "ibid.",
+          "slug": "cyrille-ibid",
+          "refs": [
+            {
+              "ref": "p. 118",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
                   "chapitre": 9,
-                  "n": 18,
+                  "n": 24,
                   "sens": "N"
                 }
               ]
             },
             {
-              "ref": "p. 88",
+              "ref": "p. 633. &c. Isaï. 61",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 6,
+                  "chapitre": 9,
+                  "n": 39,
                   "sens": "N"
                 }
               ]
             },
             {
-              "ref": "p. 89",
+              "ref": "p. 638",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
-                  "chapitre": 1,
+                  "chapitre": 10,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 668",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 10,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 676",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 11,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 971",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
                   "n": 11,
                   "sens": "N"
                 }
               ]
             },
             {
-              "ref": "p. 671",
+              "ref": "pag. 421",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
-                  "chapitre": 10,
-                  "n": 37,
+                  "chapitre": 7,
+                  "n": 25,
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. supra",
-          "slug": "cyrille-in-joan-supra",
-          "refs": [
+            },
             {
-              "ref": "p. 892, 893",
+              "ref": "pag. 904, 905",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
                   "chapitre": 15,
-                  "n": 16,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. ut supr.",
-          "slug": "cyrille-in-joan-ut-supr",
-          "refs": [
-            {
-              "ref": "cap. 11 p. 998, 999",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 17,
                   "n": 20,
                   "sens": "N"
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "titre": "ibid. ut supra.",
+          "slug": "cyrille-ibid-ut-supra",
+          "refs": [
             {
-              "ref": "p. 378",
+              "ref": "",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
-                  "chapitre": 6,
-                  "n": 65,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 807",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 14,
-                  "n": 15,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 814",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 14,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 944, 945",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 16,
-                  "n": 33,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 951",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 17,
+                  "chapitre": 15,
                   "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 1003. &c",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 17,
-                  "n": 24,
                   "sens": "N"
                 }
               ]
@@ -21511,35 +20363,29 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Joan. ut suprà",
-          "slug": "cyrille-in-joan-ut-supra",
+          "titre": "in",
+          "slug": "cyrille-in",
           "refs": [
             {
-              "ref": "p. 1041",
+              "ref": "1 cap. P. 1020",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
                   "chapitre": 18,
-                  "n": 1,
+                  "n": 4,
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. ut suprà.",
-          "slug": "cyrille-in-joan-ut-supra",
-          "refs": [
+            },
             {
-              "ref": "p. 937, 938",
+              "ref": "cap. 8 Joan. p. 271",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
-                  "chapitre": 16,
-                  "n": 25,
+                  "chapitre": 3,
+                  "n": 34,
                   "sens": "N"
                 }
               ]
@@ -21547,17 +20393,17 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Joann. lib. sup.",
-          "slug": "cyrille-in-joann-lib-sup",
+          "titre": "in fup.",
+          "slug": "cyrille-in-fup",
           "refs": [
             {
-              "ref": "8 p. 578",
+              "ref": "P. 499",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
                   "chapitre": 8,
-                  "n": 54,
+                  "n": 15,
                   "sens": "N"
                 }
               ]
@@ -22344,8 +21190,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "thesaur.",
-          "slug": "cyrille-thesaur",
+          "titre": "Thesaurus de sancta et consubstantiali Trinitate",
+          "slug": "cyrille-thesaurus-de-sancta-et-consubstantiali-trinitate",
           "refs": [
             {
               "ref": "l. 8 c. 2",
@@ -23926,31 +22772,6 @@ const SACY_BIBLIO = {
       ]
     },
     {
-      "cle": "ecc",
-      "nom": "Ecc",
-      "dates": "",
-      "oeuvres": [
-        {
-          "titre": "",
-          "slug": "ecc",
-          "refs": [
-            {
-              "ref": "in hunc loc.",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 19,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "cle": "eccll",
       "nom": "Eccll",
       "dates": "",
@@ -24282,18 +23103,6 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            },
-            {
-              "ref": "in hunc loc.",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 17,
-                  "n": 20,
-                  "sens": "N"
-                }
-              ]
             }
           ]
         }
@@ -24330,50 +23139,26 @@ const SACY_BIBLIO = {
       "dates": "v. 315–403",
       "oeuvres": [
         {
-          "titre": "haer.",
-          "slug": "epiphane-haer",
+          "titre": "doctrin. compend.",
+          "slug": "epiphane-doctrin-compend",
           "refs": [
             {
-              "ref": "46",
+              "ref": "",
               "cites": [
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 32,
+                  "chapitre": 2,
+                  "n": 1,
                   "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "51",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            },
-            {
-              "ref": "73 c. 7",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
                 }
               ]
             }
           ]
         },
         {
-          "titre": "haeres.",
-          "slug": "epiphane-haeres",
+          "titre": "Panarion",
+          "slug": "epiphane-panarion",
           "refs": [
             {
               "ref": "3 numer. 8",
@@ -24388,59 +23173,17 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "51 c. 7",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            },
-            {
-              "ref": "51 c. 11",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            },
-            {
-              "ref": "51 n. 15",
+              "ref": "15 c. 12",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 35,
-                  "sens": "N"
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             },
-            {
-              "ref": "75 Author. respons",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 45,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "heres.",
-          "slug": "epiphane-heres",
-          "refs": [
             {
               "ref": "20, 4",
               "cites": [
@@ -24450,24 +23193,6 @@ const SACY_BIBLIO = {
                   "chapitre": 10,
                   "n": 1,
                   "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "hæres.",
-          "slug": "epiphane-h-res",
-          "refs": [
-            {
-              "ref": "15 c. 12",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
                 }
               ]
             },
@@ -24520,8 +23245,27 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "46",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "51",
               "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                },
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
@@ -24551,6 +23295,42 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "51 c. 7",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "51 c. 11",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "51 n. 15",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "52 c. 6",
               "cites": [
                 {
@@ -24570,6 +23350,30 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mc",
                   "chapitre": 3,
                   "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "73 c. 7",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "75 Author. respons",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 45,
                   "sens": "N"
                 }
               ]
@@ -25001,9 +23805,39 @@ const SACY_BIBLIO = {
       "dates": "v. 265–v. 339",
       "oeuvres": [
         {
-          "titre": "demonst. Evangel.",
-          "slug": "eusebe-demonst-evangel",
+          "titre": "Chronicon",
+          "slug": "eusebe-chronicon",
           "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 45,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Demonstratio evangelica",
+          "slug": "eusebe-demonstratio-evangelica",
+          "refs": [
+            {
+              "ref": "cap. 1",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "l. 3 c. 5",
               "cites": [
@@ -25015,13 +23849,7 @@ const SACY_BIBLIO = {
                   "sens": "P"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "Demonstr. Evangel.",
-          "slug": "eusebe-demonstr-evangel",
-          "refs": [
+            },
             {
               "ref": "l. 8 c. 2",
               "cites": [
@@ -25037,8 +23865,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "hist.",
-          "slug": "eusebe-hist",
+          "titre": "Historia ecclesiastica",
+          "slug": "eusebe-historia-ecclesiastica",
           "refs": [
             {
               "ref": "3 c. 22",
@@ -25064,24 +23892,6 @@ const SACY_BIBLIO = {
                 }
               ]
             },
-            {
-              "ref": "l. 5 c. 10",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "hist. Eccl.",
-          "slug": "eusebe-hist-eccl",
-          "refs": [
             {
               "ref": "l. 2 c. 15",
               "cites": [
@@ -25112,13 +23922,7 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "Hist. Eccl.",
-          "slug": "eusebe-hist-eccl",
-          "refs": [
+            },
             {
               "ref": "l. 3 c. 5",
               "cites": [
@@ -25130,13 +23934,19 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "Hist. ecclés.",
-          "slug": "eusebe-hist-eccles",
-          "refs": [
+            },
+            {
+              "ref": "l. 5 c. 10",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
             {
               "ref": "l. 5 cap. 1 p. 162",
               "cites": [
@@ -25170,6 +23980,24 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "ib. ut sup.",
+          "slug": "eusebe-ib-ut-sup",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "ibid. in supr.",
           "slug": "eusebe-ibid-in-supr",
           "refs": [
@@ -25181,42 +24009,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 1,
                   "n": 19,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Chron.",
-          "slug": "eusebe-in-chron",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 45,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Isai. hom.",
-          "slug": "eusebe-in-isai-hom",
-          "refs": [
-            {
-              "ref": "6",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -25254,24 +24046,6 @@ const SACY_BIBLIO = {
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in vita Constant.",
-          "slug": "eusebe-in-vita-constant",
-          "refs": [
-            {
-              "ref": "l. 3 c. 61 Theodor. l. 1 c. 19",
-              "cites": [
-                {
-                  "livre": "corinthiens2",
-                  "livreAbr": "2 Co",
-                  "chapitre": 11,
-                  "n": 1,
-                  "sens": "S"
                 }
               ]
             }
@@ -25326,18 +24100,18 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "évang.",
-          "slug": "eusebe-evang",
+          "titre": "Vita Constantini",
+          "slug": "eusebe-vita-constantini",
           "refs": [
             {
-              "ref": "",
+              "ref": "l. 3 c. 61 Theodor. l. 1 c. 19",
               "cites": [
                 {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
+                  "livre": "corinthiens2",
+                  "livreAbr": "2 Co",
+                  "chapitre": 11,
                   "n": 1,
-                  "sens": "N"
+                  "sens": "S"
                 }
               ]
             }
@@ -25393,8 +24167,8 @@ const SACY_BIBLIO = {
       "dates": "",
       "oeuvres": [
         {
-          "titre": "in Matt.",
-          "slug": "euthyme-in-matt",
+          "titre": "Commentarius in quatuor Evangelia",
+          "slug": "euthyme-commentarius-in-quatuor-evangelia",
           "refs": [
             {
               "ref": "c. 4",
@@ -25578,49 +24352,6 @@ const SACY_BIBLIO = {
       ]
     },
     {
-      "cle": "ezech",
-      "nom": "Ezech",
-      "dates": "",
-      "oeuvres": [
-        {
-          "titre": "in",
-          "slug": "ezech-in",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 23,
-                  "n": 25,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan.",
-          "slug": "ezech-in-joan",
-          "refs": [
-            {
-              "ref": "c. 19, 39",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "cle": "ezechiel",
       "nom": "Ezechiel",
       "dates": "",
@@ -25696,13 +24427,38 @@ const SACY_BIBLIO = {
       ]
     },
     {
+      "cle": "faust",
+      "nom": "Faust",
+      "dates": "",
+      "oeuvres": [
+        {
+          "titre": "",
+          "slug": "faust",
+          "refs": [
+            {
+              "ref": "l. 24 c. 8",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 1,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "cle": "josephe",
       "nom": "Flavius Josèphe",
       "dates": "v. 37–v. 100",
       "oeuvres": [
         {
-          "titre": "Antiq.",
-          "slug": "josephe-antiq",
+          "titre": "Antiquitates Iudaicæ",
+          "slug": "josephe-antiquitates-iudaic",
           "refs": [
             {
               "ref": "2 Pers. 1, 4",
@@ -25777,36 +24533,6 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "l. 18 c. 7",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 14,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 20",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 24,
-                  "n": 3,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "antiq.",
-          "slug": "josephe-antiq",
-          "refs": [
-            {
               "ref": "l. 17 c. 15",
               "cites": [
                 {
@@ -25829,31 +24555,7 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "Antiquit.",
-          "slug": "josephe-antiquit",
-          "refs": [
-            {
-              "ref": "l. 18 c. 7",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 14,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "antiquit.",
-          "slug": "josephe-antiquit",
-          "refs": [
+            },
             {
               "ref": "l. 18 c. 2",
               "cites": [
@@ -25874,6 +24576,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 18 c. 7",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 14,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 20",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 24,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "l. 20 c. 5",
               "cites": [
                 {
@@ -25888,9 +24614,33 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Bell.",
-          "slug": "josephe-bell",
+          "titre": "De bello Iudaico",
+          "slug": "josephe-de-bello-iudaico",
           "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 4,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4, 44",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 21,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "5",
               "cites": [
@@ -25902,21 +24652,27 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "Bell. Jud.",
-          "slug": "josephe-bell-jud",
-          "refs": [
+            },
             {
-              "ref": "",
+              "ref": "42",
               "cites": [
                 {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 13,
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 21,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "45",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 21,
+                  "n": 24,
                   "sens": "N"
                 }
               ]
@@ -25946,55 +24702,13 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "l. 6 c. 46",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 23,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "bell. Jud.",
-          "slug": "josephe-bell-jud",
-          "refs": [
-            {
-              "ref": "4, 44",
+              "ref": "l. 5 c. 14",
               "cites": [
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
                   "chapitre": 21,
-                  "n": 24,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "42",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 21,
-                  "n": 24,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "45",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 21,
-                  "n": 24,
+                  "n": 5,
                   "sens": "N"
                 }
               ]
@@ -26032,6 +24746,25 @@ const SACY_BIBLIO = {
                   "chapitre": 22,
                   "n": 7,
                   "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 19,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 6 c. 46",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 23,
+                  "n": 28,
+                  "sens": "N"
                 }
               ]
             },
@@ -26048,24 +24781,6 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "l. 7 c. 1, 15",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 21,
-                  "n": 24,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Bell. Jud.",
-          "slug": "josephe-de-bell-jud",
-          "refs": [
-            {
               "ref": "l. 7, 6, 38",
               "cites": [
                 {
@@ -26078,6 +24793,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 7 c. 1, 15",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 21,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "l. 7 c. 38",
               "cites": [
                 {
@@ -26085,36 +24812,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 27,
                   "n": 32,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de bell. Jud.",
-          "slug": "josephe-de-bell-jud",
-          "refs": [
-            {
-              "ref": "l. 5 c. 14",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 21,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 6 c. 45",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 19,
-                  "n": 27,
                   "sens": "N"
                 }
               ]
@@ -26824,8 +25521,8 @@ const SACY_BIBLIO = {
       "dates": "v. 329–390",
       "oeuvres": [
         {
-          "titre": "Carm.",
-          "slug": "gregoire-de-nazianze-carm",
+          "titre": "Carmina",
+          "slug": "gregoire-de-nazianze-carmina",
           "refs": [
             {
               "ref": "33",
@@ -26842,9 +25539,21 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "orat.",
-          "slug": "gregoire-de-nazianze-orat",
+          "titre": "Orationes",
+          "slug": "gregoire-de-nazianze-orationes",
           "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "1",
               "cites": [
@@ -26877,24 +25586,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mc",
                   "chapitre": 13,
                   "n": 32,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "oration. in jejun.",
-          "slug": "gregoire-de-nazianze-oration-in-jejun",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -26988,26 +25679,8 @@ const SACY_BIBLIO = {
       "dates": "540–604",
       "oeuvres": [
         {
-          "titre": "- Magn. - dialog. -",
-          "slug": "gregoire-le-grand-magn-dialog",
-          "refs": [
-            {
-              "ref": "l. 4 c. 39",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 30,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Dialog.",
-          "slug": "gregoire-le-grand-dialog",
+          "titre": "Dialogi",
+          "slug": "gregoire-le-grand-dialogi",
           "refs": [
             {
               "ref": "l. 4 c. 33",
@@ -27017,6 +25690,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 16,
                   "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 c. 39",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 12,
+                  "n": 30,
                   "sens": "N"
                 }
               ]
@@ -27036,8 +25721,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "ep.",
-          "slug": "gregoire-le-grand-ep",
+          "titre": "Epistulae",
+          "slug": "gregoire-le-grand-epistulae",
           "refs": [
             {
               "ref": "77",
@@ -27108,26 +25793,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Evan. hom.",
-          "slug": "gregoire-le-grand-in-evan-hom",
-          "refs": [
-            {
-              "ref": "16",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 11,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Evang. hom.",
-          "slug": "gregoire-le-grand-in-evang-hom",
+          "titre": "Homiliae in Evangelia",
+          "slug": "gregoire-le-grand-homiliae-in-evangelia",
           "refs": [
             {
               "ref": "2",
@@ -27138,6 +25805,18 @@ const SACY_BIBLIO = {
                   "chapitre": 16,
                   "n": 13,
                   "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "6 Ibid. Pastoral. cur. p. 3 admonit. 15 nov. edit. c. 14",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 12,
+                  "n": 33,
+                  "sens": "N"
                 }
               ]
             },
@@ -27162,6 +25841,13 @@ const SACY_BIBLIO = {
                   "chapitre": 2,
                   "n": 11,
                   "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 12,
+                  "n": 49,
+                  "sens": "N"
                 }
               ]
             },
@@ -27173,6 +25859,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 12,
                   "n": 35,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 12,
+                  "n": 38,
                   "sens": "N"
                 }
               ]
@@ -27193,6 +25886,32 @@ const SACY_BIBLIO = {
                   "chapitre": 4,
                   "n": 5,
                   "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 4,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "23",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 24,
+                  "n": 13,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 24,
+                  "n": 30,
+                  "sens": "N"
                 }
               ]
             },
@@ -27204,6 +25923,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 24,
                   "n": 41,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "24 c. 3 p. 73",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 21,
+                  "n": 15,
                   "sens": "N"
                 }
               ]
@@ -27251,35 +25982,37 @@ const SACY_BIBLIO = {
                   "livre": "luc",
                   "livreAbr": "Lc",
                   "chapitre": 16,
-                  "n": 22,
+                  "n": 19,
                   "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in evang. hom.",
-          "slug": "gregoire-le-grand-in-evang-hom",
-          "refs": [
-            {
-              "ref": "40",
-              "cites": [
+                },
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
                   "chapitre": 16,
-                  "n": 19,
+                  "n": 22,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 16,
+                  "n": 25,
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "in Evangel.",
-          "slug": "gregoire-le-grand-in-evangel",
-          "refs": [
+            },
+            {
+              "ref": "89",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 16,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "l. 1 hom. 5 n. 2",
               "cites": [
@@ -27307,105 +26040,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Evangel. hom.",
-          "slug": "gregoire-le-grand-in-evangel-hom",
-          "refs": [
-            {
-              "ref": "6 Ibid. Pastoral. cur. p. 3 admonit. 15 nov. edit. c. 14",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 33,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "10",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 12,
-                  "n": 49,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "13",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 12,
-                  "n": 38,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "23",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 24,
-                  "n": 13,
-                  "sens": "N"
-                },
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 24,
-                  "n": 30,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "24 c. 3 p. 73",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 21,
-                  "n": 15,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "40",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 16,
-                  "n": 25,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "89",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 16,
-                  "n": 15,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Ezech. hom.",
-          "slug": "gregoire-le-grand-in-ezech-hom",
+          "titre": "Homiliae in Ezechielem",
+          "slug": "gregoire-le-grand-homiliae-in-ezechielem",
           "refs": [
             {
               "ref": "1",
@@ -27430,6 +26066,18 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "lib. 1 hom. 19 n. 1",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 20,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
             }
           ]
         },
@@ -27445,24 +26093,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Gn",
                   "chapitre": 24,
                   "n": 54,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Job.",
-          "slug": "gregoire-le-grand-in-job",
-          "refs": [
-            {
-              "ref": "lib. 2 cap. 8",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 4,
-                  "n": 4,
                   "sens": "S"
                 }
               ]
@@ -27511,24 +26141,6 @@ const SACY_BIBLIO = {
           "refs": [
             {
               "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 20,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Ézech.",
-          "slug": "gregoire-le-grand-in-ezech",
-          "refs": [
-            {
-              "ref": "lib. 1 hom. 19 n. 1",
               "cites": [
                 {
                   "livre": "matthieu",
@@ -27608,6 +26220,24 @@ const SACY_BIBLIO = {
                   "chapitre": 20,
                   "n": 8,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Moralia in Iob",
+          "slug": "gregoire-le-grand-moralia-in-iob",
+          "refs": [
+            {
+              "ref": "lib. 2 cap. 8",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 4,
+                  "sens": "S"
                 }
               ]
             }
@@ -28353,6 +26983,48 @@ const SACY_BIBLIO = {
       "dates": "1583–1645",
       "oeuvres": [
         {
+          "titre": "Annotationes in Novum Testamentum",
+          "slug": "grotius-annotationes-in-novum-testamentum",
+          "refs": [
+            {
+              "ref": "26, 3, 4",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 27, 45. & in",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 15,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 17,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "Bibl. Vit.",
           "slug": "grotius-bibl-vit",
           "refs": [
@@ -28383,60 +27055,6 @@ const SACY_BIBLIO = {
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matt.",
-          "slug": "grotius-in-matt",
-          "refs": [
-            {
-              "ref": "c. 27, 45. & in",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 15,
-                  "n": 25,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth.",
-          "slug": "grotius-in-matth",
-          "refs": [
-            {
-              "ref": "l. 4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 17,
-                  "n": 10,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Matth.",
-          "slug": "grotius-matth",
-          "refs": [
-            {
-              "ref": "26, 3, 4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 14,
-                  "sens": "N"
                 }
               ]
             }
@@ -29055,61 +27673,6 @@ const SACY_BIBLIO = {
       ]
     },
     {
-      "cle": "hebr",
-      "nom": "Hebr",
-      "dates": "",
-      "oeuvres": [
-        {
-          "titre": "in hujus locum.",
-          "slug": "hebr-in-hujus-locum",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 4,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Mat.",
-          "slug": "hebr-in-mat",
-          "refs": [
-            {
-              "ref": "2 Pet. 2, 16, 18",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 14,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "17 v. 9",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 14,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "cle": "hegesip",
       "nom": "Hegesip",
       "dates": "",
@@ -29190,9 +27753,301 @@ const SACY_BIBLIO = {
       "dates": "v. 315–367",
       "oeuvres": [
         {
-          "titre": "can.",
-          "slug": "hilaire-can",
+          "titre": "Commentarius in Evangelium Matthaei",
+          "slug": "hilaire-commentarius-in-evangelium-matthaei",
           "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 28,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 11,
+                  "n": 28,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 18,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "1",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 1,
+                  "n": 25,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 12,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 16,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 21,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "2",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 21,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 3,
+                  "n": 9,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 3,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "3",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 4,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 13,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 17,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 42,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "5 n. 14",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 7,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "6",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 7,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "8",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 23,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "10",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 9,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "11",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 11,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "11 n. 3",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 11,
+                  "n": 7,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "12",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 12,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 12,
+                  "n": 22,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 21,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "13",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 12,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 31,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 33,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 44,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "15",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 15,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "16 vers. 14",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 16,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "17",
               "cites": [
@@ -29202,23 +28057,404 @@ const SACY_BIBLIO = {
                   "chapitre": 17,
                   "n": 1,
                   "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 17,
+                  "n": 23,
+                  "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "de Trin.",
-          "slug": "hilaire-de-trin",
-          "refs": [
+            },
             {
-              "ref": "l. 8 Joan. 1",
+              "ref": "18",
               "cites": [
                 {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 18,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 18,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "20",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 20,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "20 n. 7",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 20,
+                  "n": 8,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "20 n. 13",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 20,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "21 n. 4",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "23, 24",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 23,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "24",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 23,
+                  "n": 29,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 23,
+                  "n": 37,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "24 n. 3",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 23,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "25 n. 2. & 3",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 24,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "29",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 23,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "30 n. 3",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "61 n. 3",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 24,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 3",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 4,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 5",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
                   "chapitre": 6,
-                  "n": 57,
+                  "n": 24,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 7,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 12 n. 20",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 12,
+                  "n": 38,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 12,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 17",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 17,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 22",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 21,
+                  "n": 33,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 25",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 17,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 2",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 4,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 3",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 4,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 10",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 16,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 24,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 40,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 12 n. 2",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 19,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 13",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 12,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 23",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 22,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "in B. 25",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "in fin. praefat. pag. 1",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 n. 9",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 9,
+                  "n": 30,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 9,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 31",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 36,
                   "sens": "N"
                 }
               ]
@@ -29226,8 +28462,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Trinit.",
-          "slug": "hilaire-de-trinit",
+          "titre": "De Trinitate",
+          "slug": "hilaire-de-trinitate",
           "refs": [
             {
               "ref": "l. 2 p. 15",
@@ -29254,6 +28490,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "l. 8 Joan. 1",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 57,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 4 sub fin",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "lib. 8 p. 125",
               "cites": [
                 {
@@ -29268,8 +28528,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "ep.",
-          "slug": "hilaire-ep",
+          "titre": "Epistulae",
+          "slug": "hilaire-epistulae",
           "refs": [
             {
               "ref": "8",
@@ -29473,102 +28733,11 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Matt.",
-          "slug": "hilaire-in-matt",
+          "titre": "super.",
+          "slug": "hilaire-super",
           "refs": [
             {
-              "ref": "23, 24",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 23,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 5",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 7,
-                  "n": 6,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 12 n. 20",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 38,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 43,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 17",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 17,
-                  "n": 21,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 22",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 21,
-                  "n": 33,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 25",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 17,
-                  "n": 22,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 2",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 10,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 10",
+              "ref": "",
               "cites": [
                 {
                   "livre": "matthieu",
@@ -29578,674 +28747,12 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            },
-            {
-              "ref": "cap. 23",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
             }
           ]
         },
         {
-          "titre": "in Matt. can.",
-          "slug": "hilaire-in-matt-can",
-          "refs": [
-            {
-              "ref": "8",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "12",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 22,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "13",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 33,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "18",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 18,
-                  "n": 12,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "24",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 23,
-                  "n": 37,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "in B. 25",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "in fin. praefat. pag. 1",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matt. cas.",
-          "slug": "hilaire-in-matt-cas",
-          "refs": [
-            {
-              "ref": "18",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 18,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth.",
-          "slug": "hilaire-in-matth",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 28,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 11,
-                  "n": 28,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 18,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "1",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 1,
-                  "n": 25,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 3",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 21,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 5",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 6,
-                  "n": 24,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 3",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 13,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 10",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 16,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 24,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 12 n. 2",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 19,
-                  "n": 10,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 13",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 12,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 31,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 4 n. 9",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 30,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 31",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 36,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. can.",
-          "slug": "hilaire-in-matth-can",
-          "refs": [
-            {
-              "ref": "1",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 12,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 16,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 21,
-                  "n": 6,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "2",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 21,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 3,
-                  "n": 9,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 3,
-                  "n": 11,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 17,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 42,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "5 n. 14",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 7,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "6",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 7,
-                  "n": 24,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "10",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 9,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "11",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 11,
-                  "n": 16,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "11 n. 3",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 11,
-                  "n": 7,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "12",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 1,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 21,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "13",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 12,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 31,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 44,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "15",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 15,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "16 vers. 14",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 16,
-                  "n": 13,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "17",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 17,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "20",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 20,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "20 n. 7",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 20,
-                  "n": 8,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "21 n. 4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "24",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 23,
-                  "n": 29,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "25 n. 2. & 3",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 24,
-                  "n": 9,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "29",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 23,
-                  "n": 25,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "30 n. 3",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 31,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "61 n. 3",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 24,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. canon.",
-          "slug": "hilaire-in-matth-canon",
-          "refs": [
-            {
-              "ref": "3",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 13,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "8",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 29,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. cum",
-          "slug": "hilaire-in-matth-cum",
-          "refs": [
-            {
-              "ref": "20 n. 13",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 20,
-                  "n": 29,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Ps.",
-          "slug": "hilaire-in-ps",
+          "titre": "Tractatus super Psalmos",
+          "slug": "hilaire-tractatus-super-psalmos",
           "refs": [
             {
               "ref": "28",
@@ -30280,54 +28787,6 @@ const SACY_BIBLIO = {
                   "chapitre": 49,
                   "n": 9,
                   "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Matth. can.",
-          "slug": "hilaire-matth-can",
-          "refs": [
-            {
-              "ref": "15",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 15,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "24 n. 3",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 23,
-                  "n": 13,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "super.",
-          "slug": "hilaire-super",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 40,
-                  "sens": "N"
                 }
               ]
             }
@@ -30777,6 +29236,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 25,
                   "n": 26,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "32",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 69,
                   "sens": "N"
                 }
               ]
@@ -31236,31 +29707,6 @@ const SACY_BIBLIO = {
       ]
     },
     {
-      "cle": "iac",
-      "nom": "Iac",
-      "dates": "",
-      "oeuvres": [
-        {
-          "titre": "",
-          "slug": "iac",
-          "refs": [
-            {
-              "ref": "1, 18",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 6,
-                  "n": 14,
-                  "sens": "V"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "cle": "iansen",
       "nom": "Iansen",
       "dates": "",
@@ -31309,8 +29755,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "ep. de Epip.",
-          "slug": "ignat-ep-de-epip",
+          "titre": "ep. de Eph.",
+          "slug": "ignat-ep-de-eph",
           "refs": [
             {
               "ref": "",
@@ -31541,74 +29987,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "ad hæres.",
-          "slug": "irenee-ad-h-res",
-          "refs": [
-            {
-              "ref": "l. 3 c. 11",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 3 supr. p. 257",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "adv. haer.",
-          "slug": "irenee-adv-haer",
-          "refs": [
-            {
-              "ref": "l. 3 c. 30",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 5,
-                  "n": 5,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "adv. hæret.",
-          "slug": "irenee-adv-h-ret",
-          "refs": [
-            {
-              "ref": "lib. 5 cap. 19. & cap. 33",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 5,
-                  "n": 5,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "advers. hæres.",
-          "slug": "irenee-advers-h-res",
+          "titre": "Adversus haereses",
+          "slug": "irenee-adversus-haereses",
           "refs": [
             {
               "ref": "6, 37 n. 7",
@@ -31618,6 +29998,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 11,
                   "n": 7,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 38",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 11,
+                  "n": 25,
                   "sens": "N"
                 }
               ]
@@ -31635,41 +30027,17 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "l. 4 c. 72 nov. edit",
+              "ref": "l. 3 c. 11",
               "cites": [
                 {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 11,
-                  "n": 7,
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "adversus hæres.",
-          "slug": "irenee-adversus-h-res",
-          "refs": [
-            {
-              "ref": "l. 4 c. 4",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 16,
-                  "n": 19,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "contra hæres.",
-          "slug": "irenee-contra-h-res",
-          "refs": [
+            },
             {
               "ref": "l. 3 c. 18",
               "cites": [
@@ -31681,21 +30049,27 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "haer.",
-          "slug": "irenee-haer",
-          "refs": [
+            },
             {
-              "ref": "c. 38",
+              "ref": "l. 3 c. 30",
               "cites": [
                 {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 11,
-                  "n": 25,
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "l. 3 supr. p. 257",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -31709,6 +30083,42 @@ const SACY_BIBLIO = {
                   "chapitre": 11,
                   "n": 25,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 c. 4",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 16,
+                  "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 c. 72 nov. edit",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 11,
+                  "n": 7,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 5 cap. 19. & cap. 33",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 5,
+                  "sens": "S"
                 }
               ]
             }
@@ -32748,349 +31158,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "hom.",
-          "slug": "chrysostome-hom",
-          "refs": [
-            {
-              "ref": "2 tom. 2",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "6 in Gen",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 1,
-                  "sens": "L"
-                }
-              ]
-            },
-            {
-              "ref": "6 in Matt",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 9,
-                  "sens": "N"
-                },
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 12,
-                  "n": 49,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "10 in Matth",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 17,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "12 in S",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 22,
-                  "n": 2,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "15 cap. 6",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 13,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "30 p. 195",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 4,
-                  "n": 11,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "36 in Ep. ad Corinth",
-              "cites": [
-                {
-                  "livre": "philemon",
-                  "livreAbr": "Phm",
-                  "chapitre": 1,
-                  "n": 2,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "42 in Matth",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 30,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "48",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 24,
-                  "n": 3,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "52 in Matth",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 18,
-                  "n": 6,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "57",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 17,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "60",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 18,
-                  "n": 6,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "72",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 34,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "77",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 24,
-                  "n": 29,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "77 supra",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 24,
-                  "n": 29,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "83 in Matth",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 20,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "85",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 51,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "86 p. 660",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 20,
-                  "n": 30,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "P. 25",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "hom. in Matth. hom.",
-          "slug": "chrysostome-hom-in-matth-hom",
-          "refs": [
-            {
-              "ref": "74",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 23,
-                  "n": 14,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Hom. sur S. Matth.",
-          "slug": "chrysostome-hom-sur-s-matth",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 31,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "homil.",
-          "slug": "chrysostome-homil",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 14,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 1,
-                  "n": 20,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "6",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 2,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "33",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 13,
-                  "n": 6,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "hunc. loc.",
           "slug": "chrysostome-hunc-loc",
           "refs": [
@@ -33592,8 +31659,26 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Ep. ad Hebr. hom.",
-          "slug": "chrysostome-in-ep-ad-hebr-hom",
+          "titre": "in epist. ad Ephes. hom.",
+          "slug": "chrysostome-in-epist-ad-ephes-hom",
+          "refs": [
+            {
+              "ref": "14",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 20,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "In epistolam ad Hebraeos homiliae",
+          "slug": "chrysostome-in-epistolam-ad-hebraeos-homiliae",
           "refs": [
             {
               "ref": "26",
@@ -33634,44 +31719,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in epist. ad Ephes. hom.",
-          "slug": "chrysostome-in-epist-ad-ephes-hom",
-          "refs": [
-            {
-              "ref": "14",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 20,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Gen.",
-          "slug": "chrysostome-in-gen",
-          "refs": [
-            {
-              "ref": "18",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 6,
-                  "n": 2,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Gen. hom.",
-          "slug": "chrysostome-in-gen-hom",
+          "titre": "In Genesim homiliae",
+          "slug": "chrysostome-in-genesim-homiliae",
           "refs": [
             {
               "ref": "1",
@@ -33688,6 +31737,13 @@ const SACY_BIBLIO = {
             {
               "ref": "8",
               "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 4,
+                  "n": 4,
+                  "sens": "L"
+                },
                 {
                   "livre": "genese",
                   "livreAbr": "Gn",
@@ -33768,6 +31824,25 @@ const SACY_BIBLIO = {
                   "chapitre": 5,
                   "n": 5,
                   "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 6,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "19 post init",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 22,
+                  "sens": "S"
                 }
               ]
             },
@@ -33847,6 +31922,25 @@ const SACY_BIBLIO = {
                   "chapitre": 24,
                   "n": 3,
                   "sens": "S"
+                },
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 24,
+                  "n": 12,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "49",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
                 }
               ]
             },
@@ -33858,6 +31952,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Gn",
                   "chapitre": 31,
                   "n": 38,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "61",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 41,
+                  "n": 14,
                   "sens": "S"
                 }
               ]
@@ -33925,78 +32031,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Gen. homil.",
-          "slug": "chrysostome-in-gen-homil",
-          "refs": [
-            {
-              "ref": "19 post init",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 22,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "48",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 24,
-                  "n": 12,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Genes. hom.",
-          "slug": "chrysostome-in-genes-hom",
-          "refs": [
-            {
-              "ref": "8",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 4,
-                  "n": 4,
-                  "sens": "L"
-                }
-              ]
-            },
-            {
-              "ref": "49",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 35,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "61",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 41,
-                  "n": 14,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "in hanc locum.",
           "slug": "chrysostome-in-hanc-locum",
           "refs": [
@@ -34033,8 +32067,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Joan.",
-          "slug": "chrysostome-in-joan",
+          "titre": "In Ioannem homiliae",
+          "slug": "chrysostome-in-ioannem-homiliae",
           "refs": [
             {
               "ref": "",
@@ -34042,8 +32076,22 @@ const SACY_BIBLIO = {
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
+                  "chapitre": 7,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
                   "chapitre": 14,
                   "n": 13,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 22,
+                  "n": 1,
                   "sens": "N"
                 },
                 {
@@ -34055,246 +32103,6 @@ const SACY_BIBLIO = {
                 }
               ]
             },
-            {
-              "ref": "2 p. 63",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 11,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "23",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 2,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "26 tom. 2 p. 187. &c",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 3,
-                  "n": 14,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 10 hom. 4 p. 94",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "hom. 17",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 35,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 2 p. 94, 10, 8c",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 3 c. 5 p. 531 p. 532",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 8,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 11 c. 7 p. 961. &c",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 17,
-                  "n": 6,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "P. 17",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 3,
-                  "n": 22,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "P. 144",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 35,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "P. 145",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 35,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 204",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 4,
-                  "n": 51,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 206",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 4,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 307",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 6,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 319",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 7,
-                  "n": 35,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "p. 465",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 6,
-                  "n": 10,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "t. 4 p. 160",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 3,
-                  "n": 27,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "tom. 2",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 35,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. B.",
-          "slug": "chrysostome-in-joan-b",
-          "refs": [
-            {
-              "ref": "56",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 1,
-                  "n": 6,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. hom.",
-          "slug": "chrysostome-in-joan-hom",
-          "refs": [
             {
               "ref": "1",
               "cites": [
@@ -34351,6 +32159,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 1,
                   "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "2 p. 63",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 11,
                   "sens": "N"
                 }
               ]
@@ -34440,6 +32260,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "8, 520",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "12 tom. 2 p. 82, 83",
               "cites": [
                 {
@@ -34495,6 +32327,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 1,
                   "n": 35,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 10,
                   "sens": "N"
                 }
               ]
@@ -34579,6 +32418,13 @@ const SACY_BIBLIO = {
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
+                  "chapitre": 2,
+                  "n": 23,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
                   "chapitre": 3,
                   "n": 1,
                   "sens": "N"
@@ -34655,6 +32501,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 3,
                   "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "26 tom. 2 p. 187. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 14,
                   "sens": "N"
                 }
               ]
@@ -35154,6 +33012,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 20,
                   "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "56",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 6,
                   "sens": "N"
                 }
               ]
@@ -35857,6 +33727,30 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "c. 10 hom. 4 p. 94",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "hom. 17",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "hom. 39 pag. 259",
               "cites": [
                 {
@@ -35864,6 +33758,42 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 5,
                   "n": 39,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 p. 94, 10, 8c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 3 c. 5 p. 531 p. 532",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 11 c. 7 p. 961. &c",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 17,
+                  "n": 6,
                   "sens": "N"
                 }
               ]
@@ -35879,97 +33809,55 @@ const SACY_BIBLIO = {
                   "sens": "P"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. in suprà.",
-          "slug": "chrysostome-in-joan-in-supra",
-          "refs": [
+            },
             {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 7,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. Rom.",
-          "slug": "chrysostome-in-joan-rom",
-          "refs": [
-            {
-              "ref": "8, 520",
+              "ref": "P. 17",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
-                  "chapitre": 17,
-                  "n": 14,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. sup.",
-          "slug": "chrysostome-in-joan-sup",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 1,
+                  "chapitre": 3,
+                  "n": 22,
                   "sens": "N"
                 }
               ]
             },
             {
-              "ref": "℣. 48, 51, 52, 54",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. trad.",
-          "slug": "chrysostome-in-joan-trad",
-          "refs": [
-            {
-              "ref": "17",
+              "ref": "p. 32. &c",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
-                  "chapitre": 5,
-                  "n": 10,
+                  "chapitre": 9,
+                  "n": 4,
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joan. ut supr.",
-          "slug": "chrysostome-in-joan-ut-supr",
-          "refs": [
+            },
+            {
+              "ref": "P. 144",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 145",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "p. 150",
               "cites": [
@@ -35983,6 +33871,66 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "p. 204",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 51,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 206",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 255",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 307",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 319",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 7,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "p. 436",
               "cites": [
                 {
@@ -35990,6 +33938,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 12,
                   "n": 37,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 465",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 6,
+                  "n": 10,
                   "sens": "N"
                 }
               ]
@@ -36029,39 +33989,39 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joann.",
-          "slug": "chrysostome-in-joann",
-          "refs": [
+            },
             {
-              "ref": "P. 255",
+              "ref": "t. 4 p. 160",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
-                  "chapitre": 5,
-                  "n": 14,
+                  "chapitre": 3,
+                  "n": 27,
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "in Joann. in supr.",
-          "slug": "chrysostome-in-joann-in-supr",
-          "refs": [
+            },
             {
-              "ref": "p. 32. &c",
+              "ref": "tom. 2",
               "cites": [
                 {
                   "livre": "jean",
                   "livreAbr": "Jn",
-                  "chapitre": 9,
-                  "n": 4,
+                  "chapitre": 1,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "℣. 48, 51, 52, 54",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 22,
+                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -36431,986 +34391,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Mat. hom.",
-          "slug": "chrysostome-in-mat-hom",
-          "refs": [
-            {
-              "ref": "19",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 6,
-                  "n": 10,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "35",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 7,
-                  "n": 24,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "49",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 14,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "66",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 21,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "86",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 3,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matt.",
-          "slug": "chrysostome-in-matt",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 18,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 40,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 21,
-                  "n": 33,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "21",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 6,
-                  "n": 24,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matt. & plusieurs autres, hom.",
-          "slug": "chrysostome-in-matt-plusieurs-autres-hom",
-          "refs": [
-            {
-              "ref": "77",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 24,
-                  "n": 30,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matt. hom.",
-          "slug": "chrysostome-in-matt-hom",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 5,
-                  "n": 2,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "3",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 1,
-                  "n": 3,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "4 c. 2",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "7",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 11,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "8",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 14,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "10",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 3,
-                  "n": 2,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "16",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 23,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 25,
-                  "sens": "N"
-                },
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 1,
-                  "n": 45,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "21",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 6,
-                  "n": 16,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "23",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 6,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "27",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 11,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 13,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 24,
-                  "n": 19,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "29",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "29 in Marc. 2",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 29,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "32",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "33",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 18,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 27,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 1,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 5,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 9,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "34",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 16,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "41",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 22,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "44",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 38,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "45",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "47",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 33,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "48",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 45,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "49",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 54,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "50a",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 14,
-                  "n": 13,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "51",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 14,
-                  "n": 23,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 14,
-                  "n": 34,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "52",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 15,
-                  "n": 12,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 15,
-                  "n": 15,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "54",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 16,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "55",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 16,
-                  "n": 13,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "57",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 16,
-                  "n": 27,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 17,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "58",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 17,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "59",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 18,
-                  "n": 1,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 18,
-                  "n": 6,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "60",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 18,
-                  "n": 10,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "61",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 18,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "62",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 18,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "63. & 64 supra",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 19,
-                  "n": 10,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "65a",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 19,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "68",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 21,
-                  "n": 14,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 21,
-                  "n": 18,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 21,
-                  "n": 23,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 25,
-                  "n": 44,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "70",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "71",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "73",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 34,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "74",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 23,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "75",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 23,
-                  "n": 34,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 23,
-                  "n": 37,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "76",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 24,
-                  "n": 3,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "77, 48, 1, 12",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 24,
-                  "n": 19,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "78",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 24,
-                  "n": 37,
-                  "sens": "N"
-                },
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 13,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "79",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 25,
-                  "n": 14,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 25,
-                  "n": 26,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "80",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 25,
-                  "n": 31,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 25,
-                  "n": 41,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 39,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "80 in fine cap. 25",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 25,
-                  "n": 44,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "81",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 6,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "83",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "85",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 51,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "86",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 69,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "88",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 26,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "89",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 45,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "90",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 62,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 28,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matt. homil.",
-          "slug": "chrysostome-in-matt-homil",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 16,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "7",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 4,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "9",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 21,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "44",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 1,
-                  "n": 16,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth.",
-          "slug": "chrysostome-in-matth",
+          "titre": "In Matthaeum homiliae",
+          "slug": "chrysostome-in-matthaeum-homiliae",
           "refs": [
             {
               "ref": "",
@@ -37425,8 +34407,36 @@ const SACY_BIBLIO = {
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 16,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 18,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 7,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
                   "chapitre": 7,
                   "n": 21,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 1,
                   "sens": "N"
                 },
                 {
@@ -37453,6 +34463,13 @@ const SACY_BIBLIO = {
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 40,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
                   "chapitre": 11,
                   "n": 7,
                   "sens": "N"
@@ -37462,6 +34479,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 11,
                   "n": 28,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 23,
                   "sens": "N"
                 },
                 {
@@ -37481,27 +34505,43 @@ const SACY_BIBLIO = {
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
+                  "chapitre": 21,
+                  "n": 33,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 22,
+                  "n": 23,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
                   "chapitre": 26,
                   "n": 31,
+                  "sens": "N"
+                },
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 5,
+                  "n": 2,
                   "sens": "N"
                 }
               ]
             },
             {
-              "ref": "11",
+              "ref": "3",
               "cites": [
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
-                  "chapitre": 3,
-                  "n": 9,
+                  "chapitre": 1,
+                  "n": 3,
                   "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 1 homil. 2",
-              "cites": [
+                },
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
@@ -37512,68 +34552,15 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "c. 1 v. 1 hom. 2",
+              "ref": "4",
               "cites": [
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 1,
-                  "n": 1,
+                  "n": 21,
                   "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "hom. 39",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 11,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. can.",
-          "slug": "chrysostome-in-matth-can",
-          "refs": [
-            {
-              "ref": "21 n. 4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. hom.",
-          "slug": "chrysostome-in-matth-hom",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "4",
-              "cites": [
+                },
                 {
                   "livre": "marc",
                   "livreAbr": "Mc",
@@ -37591,8 +34578,51 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "4 c. 2",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "5",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 1,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "6",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "7",
               "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 4,
+                  "sens": "N"
+                },
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
@@ -37618,6 +34648,44 @@ const SACY_BIBLIO = {
                   "chapitre": 2,
                   "n": 13,
                   "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "9",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "10",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 3,
+                  "n": 2,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 12,
+                  "n": 1,
+                  "sens": "N"
                 }
               ]
             },
@@ -37629,6 +34697,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 3,
                   "n": 7,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 3,
+                  "n": 9,
                   "sens": "N"
                 }
               ]
@@ -37716,6 +34791,27 @@ const SACY_BIBLIO = {
                   "chapitre": 5,
                   "n": 19,
                   "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 23,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 25,
+                  "sens": "N"
+                },
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 1,
+                  "n": 45,
+                  "sens": "N"
                 }
               ]
             },
@@ -37771,6 +34867,13 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 6,
+                  "n": 10,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 6,
                   "n": 12,
                   "sens": "N"
                 },
@@ -37793,6 +34896,37 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 17,
                   "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "21",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 6,
+                  "n": 16,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 6,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "21 n. 4",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 22,
+                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -37863,6 +34997,27 @@ const SACY_BIBLIO = {
                   "chapitre": 8,
                   "n": 5,
                   "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 11,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 13,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 24,
+                  "n": 19,
+                  "sens": "N"
                 }
               ]
             },
@@ -37880,6 +35035,25 @@ const SACY_BIBLIO = {
             },
             {
               "ref": "29",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 23,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "29 in Marc. 2",
               "cites": [
                 {
                   "livre": "matthieu",
@@ -37929,8 +35103,27 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "32",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 9,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "33",
               "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 9,
+                  "n": 18,
+                  "sens": "N"
+                },
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
@@ -37950,6 +35143,51 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 9,
                   "n": 32,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 5,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "34",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "35",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 7,
+                  "n": 24,
                   "sens": "N"
                 }
               ]
@@ -38032,6 +35270,13 @@ const SACY_BIBLIO = {
                   "chapitre": 12,
                   "n": 15,
                   "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 12,
+                  "n": 22,
+                  "sens": "N"
                 }
               ]
             },
@@ -38065,6 +35310,13 @@ const SACY_BIBLIO = {
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
+                  "chapitre": 1,
+                  "n": 16,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
                   "chapitre": 12,
                   "n": 38,
                   "sens": "N"
@@ -38086,6 +35338,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 12,
                   "n": 33,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 1,
                   "sens": "N"
                 },
                 {
@@ -38125,6 +35384,13 @@ const SACY_BIBLIO = {
                   "chapitre": 13,
                   "n": 24,
                   "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 33,
+                  "sens": "N"
                 }
               ]
             },
@@ -38137,12 +35403,26 @@ const SACY_BIBLIO = {
                   "chapitre": 13,
                   "n": 44,
                   "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 45,
+                  "sens": "N"
                 }
               ]
             },
             {
               "ref": "49",
               "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 54,
+                  "sens": "N"
+                },
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
@@ -38184,8 +35464,27 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "50a",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 14,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "51",
               "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 14,
+                  "n": 23,
+                  "sens": "N"
+                },
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
@@ -38218,6 +35517,20 @@ const SACY_BIBLIO = {
                   "chapitre": 14,
                   "n": 34,
                   "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 15,
+                  "n": 12,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 15,
+                  "n": 15,
+                  "sens": "N"
                 }
               ]
             },
@@ -38248,6 +35561,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 15,
                   "n": 32,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 16,
+                  "n": 1,
                   "sens": "N"
                 },
                 {
@@ -38295,6 +35615,20 @@ const SACY_BIBLIO = {
             {
               "ref": "57",
               "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 16,
+                  "n": 27,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 17,
+                  "n": 1,
+                  "sens": "N"
+                },
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
@@ -38346,6 +35680,20 @@ const SACY_BIBLIO = {
                   "chapitre": 17,
                   "n": 23,
                   "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 18,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 18,
+                  "n": 6,
+                  "sens": "N"
                 }
               ]
             },
@@ -38394,6 +35742,13 @@ const SACY_BIBLIO = {
                   "chapitre": 18,
                   "n": 28,
                   "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 18,
+                  "n": 32,
+                  "sens": "N"
                 }
               ]
             },
@@ -38419,6 +35774,18 @@ const SACY_BIBLIO = {
                   "n": 9,
                   "sens": "N"
                 },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 19,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "63. & 64 supra",
+              "cites": [
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
@@ -38474,6 +35841,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "65a",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 19,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "66",
               "cites": [
                 {
@@ -38495,6 +35874,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 20,
                   "n": 24,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 21,
+                  "n": 18,
                   "sens": "N"
                 }
               ]
@@ -38525,6 +35911,20 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 21,
+                  "n": 14,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 21,
+                  "n": 18,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 21,
                   "n": 23,
                   "sens": "N"
                 },
@@ -38533,6 +35933,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 21,
                   "n": 28,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 25,
+                  "n": 44,
                   "sens": "N"
                 }
               ]
@@ -38557,8 +35964,27 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "70",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "71",
               "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 22,
+                  "n": 18,
+                  "sens": "N"
+                },
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
@@ -38586,6 +36012,13 @@ const SACY_BIBLIO = {
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
+                  "chapitre": 22,
+                  "n": 34,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
                   "chapitre": 23,
                   "n": 5,
                   "sens": "N"
@@ -38606,7 +36039,21 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 23,
+                  "n": 14,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 23,
                   "n": 15,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 23,
+                  "n": 23,
                   "sens": "N"
                 },
                 {
@@ -38621,6 +36068,13 @@ const SACY_BIBLIO = {
             {
               "ref": "75",
               "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 23,
+                  "n": 34,
+                  "sens": "N"
+                },
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
@@ -38644,7 +36098,38 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 24,
+                  "n": 3,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 24,
                   "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "77",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 24,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "77, 48, 1, 12",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 24,
+                  "n": 19,
                   "sens": "N"
                 }
               ]
@@ -38664,6 +36149,20 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 24,
                   "n": 36,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 24,
+                  "n": 37,
+                  "sens": "N"
+                },
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 13,
+                  "n": 32,
                   "sens": "N"
                 }
               ]
@@ -38696,6 +36195,13 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 25,
+                  "n": 14,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 25,
                   "n": 19,
                   "sens": "N"
                 },
@@ -38709,8 +36215,53 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "80",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 25,
+                  "n": 31,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 25,
+                  "n": 41,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 39,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "80 in fine cap. 25",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 25,
+                  "n": 44,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "81",
               "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 6,
+                  "sens": "N"
+                },
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
@@ -38799,6 +36350,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "85",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 51,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "86",
               "cites": [
                 {
@@ -38811,8 +36374,22 @@ const SACY_BIBLIO = {
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 69,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
                   "chapitre": 27,
                   "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 3,
                   "sens": "N"
                 },
                 {
@@ -38857,6 +36434,13 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 27,
+                  "n": 26,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
                   "n": 39,
                   "sens": "N"
                 },
@@ -38887,8 +36471,29 @@ const SACY_BIBLIO = {
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 62,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 28,
+                  "n": 5,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
                   "chapitre": 28,
                   "n": 8,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 28,
+                  "n": 11,
                   "sens": "N"
                 }
               ]
@@ -38901,6 +36506,42 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 9,
                   "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 1 homil. 2",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 1,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 1 v. 1 hom. 2",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "hom. 39",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 11,
+                  "n": 28,
                   "sens": "N"
                 }
               ]
@@ -38928,73 +36569,7 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. homil.",
-          "slug": "chrysostome-in-matth-homil",
-          "refs": [
-            {
-              "ref": "3",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 1,
-                  "n": 16,
-                  "sens": "N"
-                }
-              ]
             },
-            {
-              "ref": "4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 1,
-                  "n": 21,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "5",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 1,
-                  "n": 22,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. n. suprà.",
-          "slug": "chrysostome-in-matth-n-supra",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 7,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. praefac.",
-          "slug": "chrysostome-in-matth-praefac",
-          "refs": [
             {
               "ref": "tom. 1 p. 5. &c",
               "cites": [
@@ -39010,44 +36585,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Matth. se supra.",
-          "slug": "chrysostome-in-matth-se-supra",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. ut supra.",
-          "slug": "chrysostome-in-matth-ut-supra",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Psal.",
-          "slug": "chrysostome-in-psal",
+          "titre": "In Psalmos",
+          "slug": "chrysostome-in-psalmos",
           "refs": [
             {
               "ref": "12",
@@ -39209,13 +36748,6 @@ const SACY_BIBLIO = {
             {
               "ref": "",
               "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 18,
-                  "sens": "N"
-                },
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
@@ -39966,16 +37498,35 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "serm.",
-          "slug": "chrysostome-serm",
+          "titre": "Sermones / homiliae variae",
+          "slug": "chrysostome-sermones-homiliae-variae",
           "refs": [
             {
-              "ref": "1",
+              "ref": "",
               "cites": [
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
-                  "chapitre": 2,
+                  "chapitre": 9,
+                  "n": 14,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "2 tom. 2",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
                   "n": 1,
                   "sens": "N"
                 }
@@ -40001,6 +37552,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 16,
                   "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 1,
+                  "n": 20,
                   "sens": "N"
                 }
               ]
@@ -40042,6 +37605,85 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "6",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 2,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "6 in Gen",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 1,
+                  "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "6 in Matt",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 9,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 12,
+                  "n": 49,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "10 in Matth",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 4,
+                  "n": 17,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "12 in S",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 22,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "15 cap. 6",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "21 to. 5",
               "cites": [
                 {
@@ -40049,6 +37691,186 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 16,
                   "n": 19,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "30 p. 195",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
+                  "n": 11,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "33",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 13,
+                  "n": 6,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "36 in Ep. ad Corinth",
+              "cites": [
+                {
+                  "livre": "philemon",
+                  "livreAbr": "Phm",
+                  "chapitre": 1,
+                  "n": 2,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "42 in Matth",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 12,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "48",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 24,
+                  "n": 3,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "52 in Matth",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 18,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "57",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 17,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "60",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 18,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "72",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 22,
+                  "n": 34,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "77",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 24,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "77 supra",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 24,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "83 in Matth",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 20,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "85",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 51,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "86 p. 660",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 20,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "P. 25",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 1,
+                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -40589,6 +38411,13 @@ const SACY_BIBLIO = {
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 18,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
                   "chapitre": 9,
                   "n": 9,
                   "sens": "N"
@@ -40854,18 +38683,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Jn",
                   "chapitre": 1,
                   "n": 6,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 1",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -41444,17 +39261,17 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "ad Eustoch. de Epitaph. Paul. ep.",
-          "slug": "jerome-ad-eustoch-de-epitaph-paul-ep",
+          "titre": "Adversus Helvidium",
+          "slug": "jerome-adversus-helvidium",
           "refs": [
             {
-              "ref": "27",
+              "ref": "",
               "cites": [
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 24,
-                  "n": 13,
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 1,
+                  "n": 25,
                   "sens": "N"
                 }
               ]
@@ -41462,9 +39279,33 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "adv. Jov.",
-          "slug": "jerome-adv-jov",
+          "titre": "Adversus Iovinianum",
+          "slug": "jerome-adversus-iovinianum",
           "refs": [
+            {
+              "ref": "l. 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 1 tom. 1 p. 480",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
             {
               "ref": "l. 2 n. 10, 1",
               "cites": [
@@ -41504,44 +39345,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "advers. Helvid.",
-          "slug": "jerome-advers-helvid",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 1,
-                  "n": 25,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "advers. Jovin.",
-          "slug": "jerome-advers-jovin",
-          "refs": [
-            {
-              "ref": "l. 1 tom. 1 p. 480",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "adversus Pelag.",
-          "slug": "jerome-adversus-pelag",
+          "titre": "Adversus Pelagianos dialogi",
+          "slug": "jerome-adversus-pelagianos-dialogi",
           "refs": [
             {
               "ref": "l. 2 to. 1 p. 862",
@@ -41551,6 +39356,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 4,
                   "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 2 p. 864",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 8,
+                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -41576,17 +39393,683 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "contra Jovin.",
-          "slug": "jerome-contra-jovin",
+          "titre": "Commentarii in Danielem",
+          "slug": "jerome-commentarii-in-danielem",
           "refs": [
             {
-              "ref": "l. 1",
+              "ref": "c. 2",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 10",
               "cites": [
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
                   "chapitre": 1,
+                  "n": 39,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Commentarii in Ezechielem",
+          "slug": "jerome-commentarii-in-ezechielem",
+          "refs": [
+            {
+              "ref": "cap. 18 to. 3 col. 7, 10",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 6,
+                  "n": 35,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Commentarii in Isaiam",
+          "slug": "jerome-commentarii-in-isaiam",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 16,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "39, 30",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 24,
+                  "n": 28,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "56, 4",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "c. 6 p. 30",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "c. 8, 6",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 13,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 14",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 15,
+                  "n": 12,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 65 p. 250",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "c. 65 v. 23",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 115",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 45,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Commentarii in Matthaeum",
+          "slug": "jerome-commentarii-in-matthaeum",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 19,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 3,
+                  "n": 9,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 9,
+                  "n": 9,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 24,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 28,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 11,
+                  "n": 20,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 14,
+                  "n": 34,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 16,
+                  "n": 27,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 18,
+                  "n": 10,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 21,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 22,
+                  "n": 15,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 22,
                   "n": 23,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 22,
+                  "n": 41,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 23,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "1, 10",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "1 Corint. 15, 54 Chrysost. in Matth. hom. 10",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 3,
+                  "n": 2,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "4",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 4,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "6",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 7,
+                  "n": 14,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "10, 4 col. 10",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "10, 4 col. 30",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 21,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "10, 28",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 5,
+                  "n": 20,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "13",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 47,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "21",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 6,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "21 n. 4",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 22,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "24, 36",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 13,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "25 n. 8",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 25,
+                  "n": 31,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "27, 47",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 15,
+                  "n": 36,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "27, 55",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 8,
+                  "n": 2,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "27 n. 4",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 25,
+                  "n": 5,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "36",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 38,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 57,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "48",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 45,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "68",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 21,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 2",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 3,
+                  "n": 2,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 4 v. 7",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 4,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 20, 2",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 10,
+                  "n": 30,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 21",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 21,
+                  "n": 18,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 10",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 18",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 19,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 25",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 24,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 3",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 1,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 17,
+                  "n": 10,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 c. 13",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 24,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "n. 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 3,
+                  "n": 23,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Commentarii in prophetas minores",
+          "slug": "jerome-commentarii-in-prophetas-minores",
+          "refs": [
+            {
+              "ref": "c. 3, 1",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 13,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 11 v. 1 tom. 3",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 14,
                   "sens": "N"
                 }
               ]
@@ -41605,24 +40088,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 1,
                   "n": 80,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "contra Pelag.",
-          "slug": "jerome-contra-pelag",
-          "refs": [
-            {
-              "ref": "lib. 2 p. 864",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 8,
-                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -41659,49 +40124,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 13,
                   "n": 47,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de loc. hebr.",
-          "slug": "jerome-de-loc-hebr",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 7,
-                  "n": 11,
-                  "sens": "N"
-                },
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 5,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de loc. hebr. Id. Epist. ad Evag.",
-          "slug": "jerome-de-loc-hebr-id-epist-ad-evag",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 3,
-                  "n": 22,
                   "sens": "N"
                 }
               ]
@@ -41763,8 +40185,68 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "ep.",
-          "slug": "jerome-ep",
+          "titre": "De viris illustribus",
+          "slug": "jerome-de-viris-illustribus",
+          "refs": [
+            {
+              "ref": "c. 9 apud Euseb. A 6 c. 4",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "c. 17",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "c. 19",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Epistula ad Eustochium",
+          "slug": "jerome-epistula-ad-eustochium",
+          "refs": [
+            {
+              "ref": "27",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 24,
+                  "n": 13,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Epistulae",
+          "slug": "jerome-epistulae",
           "refs": [
             {
               "ref": "1",
@@ -41791,6 +40273,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "17 Matt. 2, 5, 6, 8",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 2,
+                  "n": 39,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "22 c. 1 col. 279",
               "cites": [
                 {
@@ -41798,6 +40292,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 10,
                   "n": 41,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "27",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 2,
+                  "n": 6,
                   "sens": "N"
                 }
               ]
@@ -41821,6 +40327,18 @@ const SACY_BIBLIO = {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
                   "chapitre": 17,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "33, 19. & 48, 11 Jos. 24, 32",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 4,
                   "n": 1,
                   "sens": "N"
                 }
@@ -41980,6 +40498,18 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "151 qu. 2",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 12,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "151 qu. 5",
               "cites": [
                 {
@@ -42009,48 +40539,6 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "epist.",
-          "slug": "jerome-epist",
-          "refs": [
-            {
-              "ref": "17 Matt. 2, 5, 6, 8",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 2,
-                  "n": 39,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "27",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 2,
-                  "n": 6,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "151 qu. 2",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 15,
-                  "sens": "N"
-                }
-              ]
             },
             {
               "ref": "271",
@@ -42060,24 +40548,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 24,
                   "n": 30,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Epitaph. Paul. Genes.",
-          "slug": "jerome-epitaph-paul-genes",
-          "refs": [
-            {
-              "ref": "33, 19. & 48, 11 Jos. 24, 32",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 4,
-                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -42114,6 +40584,62 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 1,
                   "n": 18,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Homiliae in Lucam",
+          "slug": "jerome-homiliae-in-lucam",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 7,
+                  "n": 28,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 12,
+                  "n": 38,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 15,
+                  "n": 29,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "17",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 14,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "79",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 25,
+                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -42253,36 +40779,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Dan.",
-          "slug": "jerome-in-dan",
-          "refs": [
-            {
-              "ref": "c. 2",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 10",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 39,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "in de voleus.",
           "slug": "jerome-in-de-voleus",
           "refs": [
@@ -42337,24 +40833,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Ezech.",
-          "slug": "jerome-in-ezech",
-          "refs": [
-            {
-              "ref": "cap. 18 to. 3 col. 7, 10",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 6,
-                  "n": 35,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "in fac.",
           "slug": "jerome-in-fac",
           "refs": [
@@ -42384,24 +40862,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 19,
                   "n": 37,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Habac",
-          "slug": "jerome-in-habac",
-          "refs": [
-            {
-              "ref": "c. 3, 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 13,
-                  "n": 6,
                   "sens": "N"
                 }
               ]
@@ -42524,138 +40984,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Isa.",
-          "slug": "jerome-in-isa",
-          "refs": [
-            {
-              "ref": "56, 4",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            },
-            {
-              "ref": "c. 6 p. 30",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            },
-            {
-              "ref": "c. 65 p. 250",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Isai.",
-          "slug": "jerome-in-isai",
-          "refs": [
-            {
-              "ref": "c. 8, 6",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 13,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 14",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 15,
-                  "n": 12,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 65 v. 23",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 115",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 45,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Isai. hunc loc.",
-          "slug": "jerome-in-isai-hunc-loc",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 16,
-                  "n": 13,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Isai. loc. Job.",
-          "slug": "jerome-in-isai-loc-job",
-          "refs": [
-            {
-              "ref": "39, 30",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 24,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "in Joan.",
           "slug": "jerome-in-joan",
           "refs": [
@@ -42728,79 +41056,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Luc.",
-          "slug": "jerome-in-luc",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 7,
-                  "n": 28,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Luc. hom.",
-          "slug": "jerome-in-luc-hom",
-          "refs": [
-            {
-              "ref": "79",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 25,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Luc. loc.",
-          "slug": "jerome-in-luc-loc",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 38,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 15,
-                  "n": 29,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "17",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 14,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "in Mac. praefat.",
           "slug": "jerome-in-mac-praefat",
           "refs": [
@@ -42813,811 +41068,6 @@ const SACY_BIBLIO = {
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Marc.",
-          "slug": "jerome-in-marc",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 21,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "10",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 27,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "22",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 21,
-                  "n": 33,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 12",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 43,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 26 n. 6",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 24,
-                  "n": 40,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 2 c. 2",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 22,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 2 c. 2 l. 3 c. 13",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 12,
-                  "n": 22,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Marc. can.",
-          "slug": "jerome-in-marc-can",
-          "refs": [
-            {
-              "ref": "11 n. 6",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 11,
-                  "n": 7,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Marc. hom.",
-          "slug": "jerome-in-marc-hom",
-          "refs": [
-            {
-              "ref": "36",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Marc. locum.",
-          "slug": "jerome-in-marc-locum",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 19,
-                  "n": 9,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Marc. præfat.",
-          "slug": "jerome-in-marc-pr-fat",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matt.",
-          "slug": "jerome-in-matt",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 23,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "1 Corint. 15, 54 Chrysost. in Matth. hom. 10",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 3,
-                  "n": 2,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "10, 4 col. 10",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "10, 4 col. 30",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 21,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "24, 36",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 13,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "27, 47",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 15,
-                  "n": 36,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "27, 55",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 8,
-                  "n": 2,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 2",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 3,
-                  "n": 2,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 20, 2",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 10,
-                  "n": 30,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 10",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 3",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 29,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 4 c. 13",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 24,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "n. 1",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 3,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matt. can.",
-          "slug": "jerome-in-matt-can",
-          "refs": [
-            {
-              "ref": "6",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 7,
-                  "n": 14,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "13",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 47,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "27 n. 4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 25,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matt. hom.",
-          "slug": "jerome-in-matt-hom",
-          "refs": [
-            {
-              "ref": "21",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 6,
-                  "n": 24,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "36",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 38,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "48",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 45,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "68",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 21,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matt. loc.",
-          "slug": "jerome-in-matt-loc",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 14,
-                  "n": 34,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matt. locum.",
-          "slug": "jerome-in-matt-locum",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 9,
-                  "n": 9,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matt. praefat.",
-          "slug": "jerome-in-matt-praefat",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matt. proœm.",
-          "slug": "jerome-in-matt-pro-m",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth.",
-          "slug": "jerome-in-matth",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 19,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 3,
-                  "n": 9,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 24,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 10,
-                  "n": 28,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 11,
-                  "n": 20,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 15,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 41,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 5,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "10, 28",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 20,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 4 v. 7",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 4,
-                  "n": 10,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "c. 21",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 21,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 18",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 19,
-                  "n": 13,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 25",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 24,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 17,
-                  "n": 10,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. can.",
-          "slug": "jerome-in-matth-can",
-          "refs": [
-            {
-              "ref": "21 n. 4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "25 n. 8",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 25,
-                  "n": 31,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. hom.",
-          "slug": "jerome-in-matth-hom",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 18,
-                  "n": 10,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "36",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 57,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. hunc loc.",
-          "slug": "jerome-in-matth-hunc-loc",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 16,
-                  "n": 27,
-                  "sens": "N"
-                },
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 22,
-                  "n": 23,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. loc.",
-          "slug": "jerome-in-matth-loc",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 21,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. proem. Ezech.",
-          "slug": "jerome-in-matth-proem-ezech",
-          "refs": [
-            {
-              "ref": "1, 10",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. præfat.",
-          "slug": "jerome-in-matth-pr-fat",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Osee,",
-          "slug": "jerome-in-osee",
-          "refs": [
-            {
-              "ref": "c. 11 v. 1 tom. 3",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 14,
-                  "sens": "N"
                 }
               ]
             }
@@ -43744,6 +41194,38 @@ const SACY_BIBLIO = {
                   "chapitre": 43,
                   "n": 34,
                   "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Liber de locis hebraicis",
+          "slug": "jerome-liber-de-locis-hebraicis",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 7,
+                  "n": 11,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 3,
+                  "n": 22,
+                  "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "N"
                 }
               ]
             }
@@ -43883,27 +41365,21 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "præf.",
-          "slug": "jerome-pr-f",
+          "titre": "Prologi / Praefationes",
+          "slug": "jerome-prologi-praefationes",
           "refs": [
             {
-              "ref": "lib. 18 in Isa. to. 2 p. 457",
+              "ref": "4 Evang",
               "cites": [
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 24,
-                  "n": 36,
-                  "sens": "N"
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "præfat.",
-          "slug": "jerome-pr-fat",
-          "refs": [
+            },
             {
               "ref": "l. 18 in Isai t. 2 p. 45",
               "cites": [
@@ -43927,22 +41403,16 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "præfat. in",
-          "slug": "jerome-pr-fat-in",
-          "refs": [
+            },
             {
-              "ref": "4 Evang",
+              "ref": "lib. 18 in Isa. to. 2 p. 457",
               "cites": [
                 {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 24,
+                  "n": 36,
+                  "sens": "N"
                 }
               ]
             }
@@ -43985,33 +41455,29 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Scriptor. eccles.",
-          "slug": "jerome-scriptor-eccles",
+          "titre": "Tractatus in Marci Evangelium",
+          "slug": "jerome-tractatus-in-marci-evangelium",
           "refs": [
             {
-              "ref": "c. 17",
+              "ref": "",
               "cites": [
                 {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Scriptor. Eccles.",
-          "slug": "jerome-scriptor-eccles",
-          "refs": [
-            {
-              "ref": "c. 9 apud Euseb. A 6 c. 4",
-              "cites": [
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 19,
+                  "n": 9,
+                  "sens": "N"
+                },
                 {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 21,
+                  "n": 23,
+                  "sens": "N"
+                },
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
@@ -44019,14 +41485,98 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "c. 19",
+              "ref": "10",
               "cites": [
                 {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 9,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "11 n. 6",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 11,
+                  "n": 7,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "22",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 21,
+                  "n": 33,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "36",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 10,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 12",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 12,
+                  "n": 43,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 26 n. 6",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 24,
+                  "n": 40,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 2",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 12,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 2 c. 2 l. 3 c. 13",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 12,
+                  "n": 22,
+                  "sens": "N"
                 }
               ]
             }
@@ -45597,74 +43147,13 @@ const SACY_BIBLIO = {
       ]
     },
     {
-      "cle": "jusq",
-      "nom": "Jusq",
-      "dates": "",
-      "oeuvres": [
-        {
-          "titre": "",
-          "slug": "jusq",
-          "refs": [
-            {
-              "ref": "1, 24, 6, 8",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 1,
-                  "n": 16,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "cle": "justin",
-      "nom": "Justin",
-      "dates": "",
+      "nom": "Justin Martyr",
+      "dates": "v. 90-165",
       "oeuvres": [
         {
-          "titre": "consid. Tryph. Tertull. adv. Jud.",
-          "slug": "justin-consid-tryph-tertull-adv-jud",
-          "refs": [
-            {
-              "ref": "c. 9 Epiphan. duov. confund. P. 71, 19 Tertull. in suprà. Hilar. de Trin. lib. 4 sub fin. Job. 29, 25 Orig. in Num. hom. 13. & 15 Ambros. in Luc. l. 2 Eph. évang. cap. 1 Basil. de Auct. Hieron. Chrys. gen. Num. 24, 17 Leo de Epiphan. serm. 1 Euseb. in Isai. cap. 1 Beda. de Haim. Christ. gener",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Martyr. dialog. cum Tryphon.",
-          "slug": "justin-martyr-dialog-cum-tryphon",
-          "refs": [
-            {
-              "ref": "p. 316",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 13,
-                  "n": 54,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Oration. ad Anto. Pium.",
-          "slug": "justin-oration-ad-anto-pium",
+          "titre": "Apologia",
+          "slug": "justin-apologia",
           "refs": [
             {
               "ref": "",
@@ -45674,6 +43163,36 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 2,
                   "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Dialogus cum Tryphone",
+          "slug": "justin-dialogus-cum-tryphone",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "p. 316",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 13,
+                  "n": 54,
                   "sens": "N"
                 }
               ]
@@ -45775,80 +43294,8 @@ const SACY_BIBLIO = {
       "dates": "v. 400–461",
       "oeuvres": [
         {
-          "titre": "de jejun.",
-          "slug": "leon-de-jejun",
-          "refs": [
-            {
-              "ref": "7 serm. 6",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 26,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Pass. Serm.",
-          "slug": "leon-de-pass-serm",
-          "refs": [
-            {
-              "ref": "6",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 55,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Passion. Domini serm.",
-          "slug": "leon-de-passion-domini-serm",
-          "refs": [
-            {
-              "ref": "6",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 62,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Passion. serm.",
-          "slug": "leon-de-passion-serm",
-          "refs": [
-            {
-              "ref": "8",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 22,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Passion. Serm.",
-          "slug": "leon-de-passion-serm",
+          "titre": "de Epiphan. serm.",
+          "slug": "leon-de-epiphan-serm",
           "refs": [
             {
               "ref": "1",
@@ -45856,8 +43303,8 @@ const SACY_BIBLIO = {
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 32,
+                  "chapitre": 2,
+                  "n": 1,
                   "sens": "N"
                 }
               ]
@@ -45865,62 +43312,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Passione serm.",
-          "slug": "leon-de-passione-serm",
-          "refs": [
-            {
-              "ref": "27",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 45,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de Passione. ferm.",
-          "slug": "leon-de-passione-ferm",
-          "refs": [
-            {
-              "ref": "11",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 15,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de passione. Serm.",
-          "slug": "leon-de-passione-serm",
-          "refs": [
-            {
-              "ref": "5",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 3,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Ep.",
-          "slug": "leon-ep",
+          "titre": "Epistulae",
+          "slug": "leon-epistulae",
           "refs": [
             {
               "ref": "4",
@@ -45933,13 +43326,7 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "Mag. ep.",
-          "slug": "leon-mag-ep",
-          "refs": [
+            },
             {
               "ref": "84 c. 8",
               "cites": [
@@ -45955,45 +43342,21 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "mag. ser.",
-          "slug": "leon-mag-ser",
+          "titre": "Sermones",
+          "slug": "leon-sermones",
           "refs": [
             {
-              "ref": "1 de Passion. Domin. cap. 4",
+              "ref": "1",
               "cites": [
                 {
                   "livre": "matthieu",
                   "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 51,
+                  "chapitre": 27,
+                  "n": 32,
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "ser.",
-          "slug": "leon-ser",
-          "refs": [
-            {
-              "ref": "7 Paschæ Dom",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 13,
-                  "n": 27,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "serm.",
-          "slug": "leon-serm",
-          "refs": [
+            },
             {
               "ref": "1 de nat. Domini",
               "cites": [
@@ -46007,6 +43370,73 @@ const SACY_BIBLIO = {
               ]
             },
             {
+              "ref": "1 de Passion. Domin. cap. 4",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 51,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "5",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 3,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "6",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 55,
+                  "sens": "N"
+                },
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 62,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "7 Paschæ Dom",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 13,
+                  "n": 27,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "8",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 22,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
               "ref": "9 de Quadr",
               "cites": [
                 {
@@ -46015,6 +43445,48 @@ const SACY_BIBLIO = {
                   "chapitre": 3,
                   "n": 12,
                   "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "11",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 15,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "27",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 45,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Sermones de ieiunio",
+          "slug": "leon-sermones-de-ieiunio",
+          "refs": [
+            {
+              "ref": "7 serm. 6",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 26,
+                  "n": 26,
+                  "sens": "N"
                 }
               ]
             }
@@ -46201,8 +43673,8 @@ const SACY_BIBLIO = {
       "dates": "1632–1707",
       "oeuvres": [
         {
-          "titre": "Itin. Ital.",
-          "slug": "mabillon-itin-ital",
+          "titre": "Iter Italicum",
+          "slug": "mabillon-iter-italicum",
           "refs": [
             {
               "ref": "p. 33",
@@ -46387,8 +43859,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Joan. hom.",
-          "slug": "maldonat-in-joan-hom",
+          "titre": "Commentarii in quatuor Evangelistas",
+          "slug": "maldonat-commentarii-in-quatuor-evangelistas",
           "refs": [
             {
               "ref": "61 p. 398",
@@ -46739,24 +44211,6 @@ const SACY_BIBLIO = {
               ]
             }
           ]
-        },
-        {
-          "titre": "loc.",
-          "slug": "marc-loc",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 23,
-                  "n": 25,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -46877,24 +44331,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Matth.",
-          "slug": "matt-in-matth",
-          "refs": [
-            {
-              "ref": "cap. 2",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 3,
-                  "n": 11,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "",
           "slug": "matt",
           "refs": [
@@ -46906,55 +44342,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 4,
                   "n": 13,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "cle": "matth",
-      "nom": "Matth",
-      "dates": "",
-      "oeuvres": [
-        {
-          "titre": "il s'en alla , & se cacha d'eux : ce qui signifie , selon S. Matthieu",
-          "slug": "matth-il-s-en-alla-se-cacha-d-eux-ce-qui-signifie-selon-s-matthieu",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 12,
-                  "n": 34,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "21, 17 Marc. & S. Marc , qu'il s'en alla le soir à Béthanie avec ses Apôtres",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 12,
-                  "n": 34,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "21, 25",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 12,
-                  "n": 34,
                   "sens": "N"
                 }
               ]
@@ -47125,31 +44512,6 @@ const SACY_BIBLIO = {
       ]
     },
     {
-      "cle": "nativite",
-      "nom": "Nativité",
-      "dates": "",
-      "oeuvres": [
-        {
-          "titre": "Conception de la Vierge.",
-          "slug": "nativite-conception-de-la-vierge",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 1,
-                  "n": 1,
-                  "sens": "V"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "cle": "niceph",
       "nom": "Niceph",
       "dates": "",
@@ -47285,8 +44647,68 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "contr. Celf.",
-          "slug": "origene-contr-celf",
+          "titre": "Commentarii in Ioannem",
+          "slug": "origene-commentarii-in-ioannem",
+          "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 9,
+                  "n": 21,
+                  "sens": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Commentarium in Matthaeum / Tractatus in Matthaeum",
+          "slug": "origene-commentarium-in-matthaeum-tractatus-in-matthaeum",
+          "refs": [
+            {
+              "ref": "30",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 6,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "33",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "Apud Cyprian. de Resurrec. pag. 441",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 27,
+                  "n": 32,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Contra Celsum",
+          "slug": "origene-contra-celsum",
           "refs": [
             {
               "ref": "",
@@ -47339,8 +44761,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "exhort. ad martyr.",
-          "slug": "origene-exhort-ad-martyr",
+          "titre": "Exhortatio ad martyrium",
+          "slug": "origene-exhortatio-ad-martyrium",
           "refs": [
             {
               "ref": "",
@@ -47423,26 +44845,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Dial.",
-          "slug": "origene-in-dial",
-          "refs": [
-            {
-              "ref": "3 de ... in Bibl. Patr",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 5,
-                  "n": 1,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Gen. hom.",
-          "slug": "origene-in-gen-hom",
+          "titre": "Homiliae in Genesim",
+          "slug": "origene-homiliae-in-genesim",
           "refs": [
             {
               "ref": "5",
@@ -47495,44 +44899,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Joan.",
-          "slug": "origene-in-joan",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 9,
-                  "n": 21,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Luc.",
-          "slug": "origene-in-luc",
-          "refs": [
-            {
-              "ref": "p. 210",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Luc. hom.",
-          "slug": "origene-in-luc-hom",
+          "titre": "Homiliae in Lucam",
+          "slug": "origene-homiliae-in-lucam",
           "refs": [
             {
               "ref": "1",
@@ -47543,6 +44911,13 @@ const SACY_BIBLIO = {
                   "chapitre": 0,
                   "n": 0,
                   "sens": "P"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "N"
                 }
               ]
             },
@@ -47605,81 +44980,27 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "in Luc. homil.",
-          "slug": "origene-in-luc-homil",
-          "refs": [
+            },
             {
-              "ref": "1",
+              "ref": "p. 210",
               "cites": [
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
-                  "chapitre": 1,
-                  "n": 1,
-                  "sens": "N"
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             }
           ]
         },
         {
-          "titre": "in Matth. hom.",
-          "slug": "origene-in-matth-hom",
+          "titre": "Homiliae in Numeros",
+          "slug": "origene-homiliae-in-numeros",
           "refs": [
             {
-              "ref": "30",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 6,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Matth. tract.",
-          "slug": "origene-in-matth-tract",
-          "refs": [
-            {
-              "ref": "33",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "Apud Cyprian. de Resurrec. pag. 441",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 27,
-                  "n": 32,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Num. hom.",
-          "slug": "origene-in-num-hom",
-          "refs": [
-            {
-              "ref": "13, 15",
+              "ref": "13. & 15",
               "cites": [
                 {
                   "livre": "matthieu",
@@ -47687,6 +45008,24 @@ const SACY_BIBLIO = {
                   "chapitre": 2,
                   "n": 1,
                   "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "in Dial.",
+          "slug": "origene-in-dial",
+          "refs": [
+            {
+              "ref": "3 de ... in Bibl. Patr",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 5,
+                  "n": 1,
+                  "sens": "S"
                 }
               ]
             }
@@ -48123,8 +45462,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "ep.",
-          "slug": "paulin-ep",
+          "titre": "Epistulæ",
+          "slug": "paulin-epistul",
           "refs": [
             {
               "ref": "2",
@@ -48151,24 +45490,6 @@ const SACY_BIBLIO = {
               ]
             },
             {
-              "ref": "43 p. 396",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "Epist.",
-          "slug": "paulin-epist",
-          "refs": [
-            {
               "ref": "30 ad Corinth. 11",
               "cites": [
                 {
@@ -48177,6 +45498,18 @@ const SACY_BIBLIO = {
                   "chapitre": 18,
                   "n": 20,
                   "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "43 p. 396",
+              "cites": [
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             }
@@ -48401,31 +45734,6 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 27,
                   "n": 45,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "cle": "pier",
-      "nom": "Pier",
-      "dates": "",
-      "oeuvres": [
-        {
-          "titre": "in hujus locum.",
-          "slug": "pier-in-hujus-locum",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 5,
-                  "n": 5,
                   "sens": "N"
                 }
               ]
@@ -48970,36 +46278,6 @@ const SACY_BIBLIO = {
       "dates": "",
       "oeuvres": [
         {
-          "titre": "Hilaire & Hilarius",
-          "slug": "saint-hilaire-hilarius",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 69,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "in Marc. can. 32",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 26,
-                  "n": 69,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "Jérôme. in hær. locum.",
           "slug": "saint-jerome-in-h-r-locum",
           "refs": [
@@ -49528,85 +46806,6 @@ const SACY_BIBLIO = {
       "dates": "v. 155–v. 220",
       "oeuvres": [
         {
-          "titre": "adv. Hermog. f.",
-          "slug": "tertullien-adv-hermog-f",
-          "refs": [
-            {
-              "ref": "35",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 1,
-                  "n": 1,
-                  "sens": "L"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "adv. Jud.",
-          "slug": "tertullien-adv-jud",
-          "refs": [
-            {
-              "ref": "c. 13",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 2,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "adv. Marc.",
-          "slug": "tertullien-adv-marc",
-          "refs": [
-            {
-              "ref": "lib. 2 c. 23",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 9,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "adverf. Marcion.",
-          "slug": "tertullien-adverf-marcion",
-          "refs": [
-            {
-              "ref": "l. 4 c. 31",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 14,
-                  "n": 18,
-                  "sens": "N"
-                },
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 14,
-                  "n": 21,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "advers. Marc.",
           "slug": "tertullien-advers-marc",
           "refs": [
@@ -49619,48 +46818,6 @@ const SACY_BIBLIO = {
                   "chapitre": 3,
                   "n": 9,
                   "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "advers. Marcion.",
-          "slug": "tertullien-advers-marcion",
-          "refs": [
-            {
-              "ref": "l. 4 c. 8",
-              "cites": [
-                {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 1,
-                  "n": 25,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "l. 4 c. 25",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 8,
-                  "n": 18,
-                  "sens": "N"
-                }
-              ]
-            },
-            {
-              "ref": "lib. 4",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 17,
-                  "n": 1,
-                  "sens": "N"
                 }
               ]
             }
@@ -49703,6 +46860,54 @@ const SACY_BIBLIO = {
           ]
         },
         {
+          "titre": "Adversus Hermogenem",
+          "slug": "tertullien-adversus-hermogenem",
+          "refs": [
+            {
+              "ref": "35",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 1,
+                  "n": 1,
+                  "sens": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Adversus Iudaeos",
+          "slug": "tertullien-adversus-iudaeos",
+          "refs": [
+            {
+              "ref": "c. 9",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 13",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "titre": "adversus Marc.",
           "slug": "tertullien-adversus-marc",
           "refs": [
@@ -49721,9 +46926,45 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "adversus Marcion.",
-          "slug": "tertullien-adversus-marcion",
+          "titre": "Adversus Marcionem",
+          "slug": "tertullien-adversus-marcionem",
           "refs": [
+            {
+              "ref": "l. 4 c. 2",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 c. 7. & 19",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 2,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 c. 8",
+              "cites": [
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 1,
+                  "n": 25,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "l. 4 c. 17",
               "cites": [
@@ -49732,6 +46973,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 6,
                   "n": 35,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 c. 25",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 8,
+                  "n": 18,
                   "sens": "N"
                 }
               ]
@@ -49751,6 +47004,25 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 12,
                   "n": 57,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "l. 4 c. 31",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 14,
+                  "n": 18,
+                  "sens": "N"
+                },
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 14,
+                  "n": 21,
                   "sens": "N"
                 }
               ]
@@ -49790,6 +47062,30 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
+            },
+            {
+              "ref": "lib. 2 c. 23",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 9,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "lib. 4",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 17,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
             }
           ]
         },
@@ -49812,8 +47108,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Apolog.",
-          "slug": "tertullien-apolog",
+          "titre": "Apologeticum",
+          "slug": "tertullien-apologeticum",
           "refs": [
             {
               "ref": "",
@@ -49823,6 +47119,13 @@ const SACY_BIBLIO = {
                   "livreAbr": "Mt",
                   "chapitre": 16,
                   "n": 18,
+                  "sens": "N"
+                },
+                {
+                  "livre": "marc",
+                  "livreAbr": "Mc",
+                  "chapitre": 1,
+                  "n": 25,
                   "sens": "N"
                 },
                 {
@@ -49838,6 +47141,25 @@ const SACY_BIBLIO = {
                   "chapitre": 13,
                   "n": 16,
                   "sens": "N"
+                },
+                {
+                  "livre": "jean",
+                  "livreAbr": "Jn",
+                  "chapitre": 16,
+                  "n": 1,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 23",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             },
@@ -49852,22 +47174,16 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "apolog.",
-          "slug": "tertullien-apolog",
-          "refs": [
+            },
             {
-              "ref": "",
+              "ref": "cap. 5",
               "cites": [
                 {
-                  "livre": "marc",
-                  "livreAbr": "Mc",
-                  "chapitre": 1,
-                  "n": 25,
-                  "sens": "N"
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             },
@@ -49887,6 +47203,18 @@ const SACY_BIBLIO = {
                   "chapitre": 15,
                   "n": 44,
                   "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 23",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 0,
+                  "n": 0,
+                  "sens": "P"
                 }
               ]
             }
@@ -49911,38 +47239,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "contra Marcion.",
-          "slug": "tertullien-contra-marcion",
-          "refs": [
-            {
-              "ref": "l. 4 c. 2",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            },
-            {
-              "ref": "l. 4 c. 7. & 19",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 2,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de anim.",
-          "slug": "tertullien-de-anim",
+          "titre": "De anima",
+          "slug": "tertullien-de-anima",
           "refs": [
             {
               "ref": "c. 7",
@@ -49959,9 +47257,21 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Bapt.",
-          "slug": "tertullien-de-bapt",
+          "titre": "De baptismo",
+          "slug": "tertullien-de-baptismo",
           "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 3,
+                  "n": 16,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "cap. 12",
               "cites": [
@@ -49977,26 +47287,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de baptis. cap. S.",
-          "slug": "tertullien-de-baptis-cap-s",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 3,
-                  "n": 16,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de carn. Chr.",
-          "slug": "tertullien-de-carn-chr",
+          "titre": "De carne Christi",
+          "slug": "tertullien-de-carne-christi",
           "refs": [
             {
               "ref": "c. 2, 17",
@@ -50006,6 +47298,18 @@ const SACY_BIBLIO = {
                   "livreAbr": "Lc",
                   "chapitre": 1,
                   "n": 38,
+                  "sens": "N"
+                }
+              ]
+            },
+            {
+              "ref": "c. 17, 18, 19, 20",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 1,
+                  "n": 21,
                   "sens": "N"
                 }
               ]
@@ -50037,24 +47341,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de carne Christi.",
-          "slug": "tertullien-de-carne-christi",
-          "refs": [
-            {
-              "ref": "c. 17, 18, 19, 20",
-              "cites": [
-                {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 1,
-                  "n": 21,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "de habit. mul.",
           "slug": "tertullien-de-habit-mul",
           "refs": [
@@ -50073,8 +47359,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "De idolatr.",
-          "slug": "tertullien-de-idolatr",
+          "titre": "De idololatria",
+          "slug": "tertullien-de-idololatria",
           "refs": [
             {
               "ref": "c. 23",
@@ -50109,9 +47395,21 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de or.",
-          "slug": "tertullien-de-or",
+          "titre": "De oratione",
+          "slug": "tertullien-de-oratione",
           "refs": [
+            {
+              "ref": "",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 6,
+                  "n": 9,
+                  "sens": "N"
+                }
+              ]
+            },
             {
               "ref": "c. 6",
               "cites": [
@@ -50123,13 +47421,7 @@ const SACY_BIBLIO = {
                   "sens": "N"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "titre": "de Or. Dom.",
-          "slug": "tertullien-de-or-dom",
-          "refs": [
+            },
             {
               "ref": "c. 7",
               "cites": [
@@ -50145,17 +47437,53 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Orat.",
-          "slug": "tertullien-de-orat",
+          "titre": "De paenitentia",
+          "slug": "tertullien-de-paenitentia",
           "refs": [
             {
-              "ref": "",
+              "ref": "1 Deut. Eccles",
               "cites": [
                 {
-                  "livre": "matthieu",
-                  "livreAbr": "Mt",
-                  "chapitre": 6,
-                  "n": 9,
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 23,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "2 Aug. 5, 1, 12 de l'emp",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 23,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "cap. 12",
+              "cites": [
+                {
+                  "livre": "genese",
+                  "livreAbr": "Gn",
+                  "chapitre": 3,
+                  "n": 23,
+                  "sens": "S"
+                }
+              ]
+            },
+            {
+              "ref": "p. 142",
+              "cites": [
+                {
+                  "livre": "luc",
+                  "livreAbr": "Lc",
+                  "chapitre": 12,
+                  "n": 47,
                   "sens": "N"
                 }
               ]
@@ -50163,8 +47491,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de patient.",
-          "slug": "tertullien-de-patient",
+          "titre": "De patientia",
+          "slug": "tertullien-de-patientia",
           "refs": [
             {
               "ref": "",
@@ -50205,50 +47533,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de Pen.",
-          "slug": "tertullien-de-pen",
-          "refs": [
-            {
-              "ref": "1 Deut. Eccles",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 23,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "2 Aug. 5, 1, 12 de l'emp",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 23,
-                  "sens": "S"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 12",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 3,
-                  "n": 23,
-                  "sens": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "de praescrip.",
-          "slug": "tertullien-de-praescrip",
+          "titre": "De praescriptione haereticorum",
+          "slug": "tertullien-de-praescriptione-haereticorum",
           "refs": [
             {
               "ref": "c. 46",
@@ -50283,8 +47569,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de pudic.",
-          "slug": "tertullien-de-pudic",
+          "titre": "De pudicitia",
+          "slug": "tertullien-de-pudicitia",
           "refs": [
             {
               "ref": "c. 7. & 10",
@@ -50325,84 +47611,6 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "de pæn.",
-          "slug": "tertullien-de-p-n",
-          "refs": [
-            {
-              "ref": "p. 142",
-              "cites": [
-                {
-                  "livre": "luc",
-                  "livreAbr": "Lc",
-                  "chapitre": 12,
-                  "n": 47,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Apol.",
-          "slug": "tertullien-in-apol",
-          "refs": [
-            {
-              "ref": "c. 23",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 5",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            },
-            {
-              "ref": "cap. 23",
-              "cites": [
-                {
-                  "livre": "genese",
-                  "livreAbr": "Gn",
-                  "chapitre": 0,
-                  "n": 0,
-                  "sens": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "titre": "in Apolog.",
-          "slug": "tertullien-in-apolog",
-          "refs": [
-            {
-              "ref": "",
-              "cites": [
-                {
-                  "livre": "jean",
-                  "livreAbr": "Jn",
-                  "chapitre": 16,
-                  "n": 1,
-                  "sens": "N"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "titre": "in Marcion.",
           "slug": "tertullien-in-marcion",
           "refs": [
@@ -50421,8 +47629,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "Scorpiac.",
-          "slug": "tertullien-scorpiac",
+          "titre": "Scorpiace",
+          "slug": "tertullien-scorpiace",
           "refs": [
             {
               "ref": "cap. 15",
@@ -50445,6 +47653,13 @@ const SACY_BIBLIO = {
             {
               "ref": "",
               "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 2,
+                  "n": 1,
+                  "sens": "N"
+                },
                 {
                   "livre": "luc",
                   "livreAbr": "Lc",
@@ -50739,8 +47954,8 @@ const SACY_BIBLIO = {
           ]
         },
         {
-          "titre": "in Mat.",
-          "slug": "theophylacte-in-mat",
+          "titre": "Enarratio in Evangelium Matthaei / Marci / Lucae / Ioannis",
+          "slug": "theophylacte-enarratio-in-evangelium-matthaei-marci-lucae-ioannis",
           "refs": [
             {
               "ref": "cap. 12",
@@ -51580,6 +48795,30 @@ const SACY_BIBLIO = {
                   "chapitre": 14,
                   "n": 3,
                   "sens": "L"
+                }
+              ]
+            },
+            {
+              "ref": "<ref l=\"matthieu\" c=\"1\" v=\"18\">Infrà. 1, 18.</ref>",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "V"
+                }
+              ]
+            },
+            {
+              "ref": "<ref l=\"siracide\" c=\"28\" v=\"3\">Eccl. 28. 3.</ref> 4. 5",
+              "cites": [
+                {
+                  "livre": "matthieu",
+                  "livreAbr": "Mt",
+                  "chapitre": 6,
+                  "n": 14,
+                  "sens": "V"
                 }
               ]
             },

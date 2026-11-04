@@ -541,6 +541,8 @@ details.livre-group.indisponible > summary { color: var(--muted); opacity: 0.5; 
 .marge-bible:hover { opacity: 1; }
 .marge-extern { border-bottom: 1px dotted var(--border); }
 .marge-extern:hover { border-bottom-color: var(--accent-light); }
+.marge-multi a:hover { color: var(--accent); text-decoration: none; }
+.marge-titre { font-variant: small-caps; letter-spacing: 0.03em; }
 
 /* ── Navigation prev/next de chapitre ──────────────────────────────── */
 .chapter-nav {
@@ -803,6 +805,7 @@ mark { background: transparent; color: var(--accent); font-weight: 600; }
 }
 
 /* vue page à page : étiquette de section du commentaire (sens littéral / sens spirituel) */
+.pf-noteed { font-size: 0.82rem; font-style: italic; color: var(--muted); border-top: 1px dotted var(--border); margin-top: 1rem; padding-top: 0.4rem; }
 .pf-sens { font-variant: small-caps; letter-spacing: 0.08em; font-size: 0.85rem; color: var(--accent); margin: 1.1rem 0 0.2rem; border-bottom: 1px solid var(--border-light); padding-bottom: 0.15rem; }
 
 /* ── Double commentaire : sens littéral / sens spirituel ────────────────────────────────────────────────────────── */
@@ -841,6 +844,8 @@ mark { background: transparent; color: var(--accent); font-weight: 600; }
 .biblio-refs li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2rem 0.9rem; padding: 0.15rem 0; }
 .biblio-ref { font-variant-numeric: tabular-nums; font-weight: 600; min-width: 5.5rem; color: var(--accent); }
 .ref-verset { color: inherit; border-bottom: 1px dotted var(--muted); }
+.ref-source { color: inherit; border-bottom: 1px dotted var(--muted); }
+.ref-source:hover { color: var(--accent); text-decoration: none; border-bottom-color: var(--accent); }
 .ref-bible { color: inherit; border-bottom: 1px dotted var(--muted); }
 .ref-bible:hover { color: var(--accent); text-decoration: none; border-bottom-color: var(--accent); }
 .ref-verset:hover { color: var(--accent); text-decoration: none; border-bottom-color: var(--accent); }
