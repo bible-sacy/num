@@ -834,6 +834,7 @@ mark { background: transparent; color: var(--accent); font-weight: 600; }
 @media (max-width: 980px) { .sens-switch { flex-wrap: wrap; justify-content: center; } }
 
 /* ── Bibliographie : auteur → ouvrage → référence interne ────────────────────────────────────────────────────── */
+.biblio-nonclasse { font-size: 0.85rem; font-variant: small-caps; letter-spacing: 0.06em; color: var(--muted); border-bottom: 1px solid var(--border-light); margin: 1.6rem 0 0.6rem; padding-bottom: 0.2rem; }
 .biblio-index { font-size: 0.92rem; line-height: 1.9; margin: 0 0 1.6rem; text-align: left; }
 .biblio-index a { white-space: nowrap; }
 .biblio-auteur { margin: 0 0 1.8rem; }

@@ -297,7 +297,9 @@
   for (const a of auteurs) {
     html += `<section class="biblio-auteur" id="a-${a.cle}"><h2>${esc(a.nom)}${a.dates ? ` <small>(${a.dates})</small>` : ''}</h2>`;
     if (a.notice) html += `<p class="biblio-notice">${a.notice}</p>`;
+    let separe = false;
     for (const o of a.oeuvres) {
+      if (a.avecClasses && !o.classe && o.titre && !separe) { separe = true; html += '<h3 class="biblio-nonclasse">Autres citations (ouvrage non classé)</h3>'; }
       const titre = o.titre ? esc(o.titre) : (a.cle === 'liturgie' ? '' : 'références générales à l\'auteur');
       html += `<div class="biblio-entry" id="${o.slug}">`;
       if (titre) html += `<div class="biblio-ref-text">${titre}</div>`;
